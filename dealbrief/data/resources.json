@@ -1,0 +1,84 @@
+{
+  "reports": [
+    {
+      "id": "r1",
+      "title": "2026 Global M&A Outlook: Think Big, Build Bigger",
+      "publisher": "Goldman Sachs",
+      "date": "2026",
+      "summary": "Goldman's flagship outlook frames 2026 around technology, globalization, and ambition. Global M&A volumes rose 40% YoY into the year, with AI driving an 'innovation supercycle' and private equity now ~40% of the market.",
+      "key_stat": "Global M&A volume +40% YoY",
+      "sector": "Global / All sectors",
+      "url": "https://www.goldmansachs.com/what-we-do/investment-banking/insights/articles/2026-ma-outlook"
+    },
+    {
+      "id": "r2",
+      "title": "US Deals 2026 Midyear Outlook",
+      "publisher": "PwC",
+      "date": "Jun 2026",
+      "summary": "A bifurcated, 'K-shaped' market: US deal value reached $1.2T in the first five months of 2026 — nearly double a year ago — even as volume dipped 4%. Megadeals ($5B+) are up 50%+ and driving the headline numbers.",
+      "key_stat": "$1.2T US deal value YTD; 39 megadeals",
+      "sector": "US / All sectors",
+      "url": "https://www.pwc.com/us/en/services/consulting/deals/outlook.html"
+    },
+    {
+      "id": "r3",
+      "title": "Global M&A Activity Outlook: Can the Resurgence Continue in 2026?",
+      "publisher": "Morgan Stanley",
+      "date": "2026",
+      "summary": "Five forces shaping 2026: AI infrastructure demand, sponsor monetization pressure, corporate breakups, cross-border appetite (notably Japan), and a deepening minority-capital market for founder-led companies.",
+      "key_stat": "2025 saw a 40% surge; 60 deals above $10B",
+      "sector": "Global / All sectors",
+      "url": "https://www.morganstanley.com/insights/articles/mergers-and-acquisitions-outlook-2026-activity"
+    },
+    {
+      "id": "r4",
+      "title": "M&A Report 2026: Trends & Outlook",
+      "publisher": "Bain & Company",
+      "date": "2026",
+      "summary": "Bain's annual deep-dive on the 2025 rebound and what it means for 2026, including how AI acquisitions change the diligence playbook. 2025 reached an estimated $4.9T in deal value — the second-highest year on record.",
+      "key_stat": "2025 deal value ~$4.9T (+40%)",
+      "sector": "Global / All sectors",
+      "url": "https://www.bain.com/insights/topics/m-and-a-report/"
+    },
+    {
+      "id": "r5",
+      "title": "2026 M&A Trends Pulse Survey",
+      "publisher": "Deloitte",
+      "date": "2026",
+      "summary": "Survey-based read on dealmaker sentiment amid intensifying volatility. Notes that one-third of 2025 US deal value came from just 20 very large transactions — leaving ample opportunity in small- and mid-cap deals for prepared buyers.",
+      "key_stat": "33% of 2025 value from 20 deals",
+      "sector": "US / Middle market",
+      "url": "https://www.deloitte.com/us/en/what-we-do/capabilities/mergers-acquisitions-restructuring/articles/m-a-trends-report.html"
+    },
+    {
+      "id": "r6",
+      "title": "Goldman Sachs, JPMorgan Lead 1Q26 M&A Rankings",
+      "publisher": "ION Analytics / Mergermarket",
+      "date": "Apr 2026",
+      "summary": "Quarterly league-table analysis: Goldman, JPMorgan, and Morgan Stanley took the podium by value; Houlihan Lokey led by deal count. Useful for benchmarking which advisers are winning which mandates right now.",
+      "key_stat": "Goldman $438.9B; HL #1 by count",
+      "sector": "Global / League tables",
+      "url": "https://ionanalytics.com/insights/mergermarket/goldman-sachs-jpmorgan-lead-1q26-ma-rankings-amid-relentless-hunt-for-scale/"
+    },
+    {
+      "id": "r7",
+      "title": "Global M&A Trends in Consumer Markets: 2026 Outlook",
+      "publisher": "PwC",
+      "date": "2026",
+      "summary": "Sector-specific outlook for consumer & retail M&A: a gradual uplift expected as valuations recover, with spin-offs, carve-outs, and take-privates accelerating. Cites Unilever's Ice Cream spin-off as a template for the reset.",
+      "key_stat": "Consumer deal value +41% in 2025",
+      "sector": "Consumer & Retail",
+      "url": "https://www.pwc.com/gx/en/services/deals/trends/consumer-markets.html"
+    },
+    {
+      "id": "r8",
+      "title": "Global M&A Insights 2025: Trends & Outlook for 2026",
+      "publisher": "A&O Shearman",
+      "date": "Dec 2025",
+      "summary": "Legal-adviser perspective on dealmaking momentum, regulatory shifts, and practical guidance for structuring cross-border transactions in 2026.",
+      "key_stat": "Dealmaking momentum on the rise",
+      "sector": "Global / Legal & regulatory",
+      "url": "https://www.aoshearman.com/en/news/ao-shearman-releases-latest-global-ma-insights-dealmaking-momentum-on-the-rise"
+    }
+  ]
+}
