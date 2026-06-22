@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DealBrief · Banking & Capital Advisory Intelligence</title>
+  <meta name="description" content="Daily intelligence for Banking & Capital Advisory sales teams." />
+  <meta name="theme-color" content="#0D0F12" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body>
+
+  <!-- ── Onboarding ──────────────────────────────────────── -->
+  <div id="onboarding"></div>
+
+  <!-- ── Ticker Bar ──────────────────────────────────────── -->
+  <div class="ticker-bar" aria-hidden="true">
+    <div class="ticker-track" id="ticker-track">
+      <!-- Populated by today.js -->
+    </div>
+  </div>
+
+  <!-- ── Navigation ──────────────────────────────────────── -->
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a class="nav-brand" href="#" onclick="return false;" aria-label="DealBrief home">
+        <div class="nav-logo" aria-hidden="true">D</div>
+        <span class="nav-wordmark">DealBrief</span>
+      </a>
+
+      <div class="nav-links" role="tablist">
+        <button class="nav-link active" data-page="today" role="tab" aria-selected="true">
+          <span class="nav-link-icon" aria-hidden="true">◈</span>
+          <span>Today</span>
+        </button>
+        <button class="nav-link" data-page="banks" role="tab" aria-selected="false">
+          <span class="nav-link-icon" aria-hidden="true">⬡</span>
+          <span>My Banks</span>
+        </button>
+        <button class="nav-link" data-page="deals" role="tab" aria-selected="false">
+          <span class="nav-link-icon" aria-hidden="true">◇</span>
+          <span>Deals</span>
+        </button>
+        <button class="nav-link" data-page="resources" role="tab" aria-selected="false">
+          <span class="nav-link-icon" aria-hidden="true">▦</span>
+          <span>Resources</span>
+        </button>
+      </div>
+
+      <button class="nav-settings" id="settings-btn" aria-label="Open settings" title="Settings">
+        ⚙
+      </button>
+    </div>
+  </nav>
+
+  <!-- ── Page Shell ──────────────────────────────────────── -->
+  <main class="page-shell">
+
+    <!-- ══ TODAY PAGE ════════════════════════════════════════ -->
+    <div class="page active" id="page-today" role="tabpanel">
+      <div class="page-content">
+
+        <!-- Archive banner (shown when viewing a past edition) -->
+        <div class="archive-banner" id="archive-banner" style="display:none;"></div>
+
+        <!-- Header -->
+        <div class="today-header" id="today-header">
+          <!-- Populated by today.js -->
+        </div>
+
+        <!-- Section anchor nav -->
+        <nav class="section-nav" aria-label="Page sections">
+          <a href="#section-stories"       class="section-nav-link">Top Stories</a>
+          <a href="#section-opportunities" class="section-nav-link">Opportunities</a>
+          <a href="#section-market"        class="section-nav-link">Market Snapshot</a>
+          <a href="#section-talking-point" class="section-nav-link">Talking Point</a>
+          <a href="#section-archive"       class="section-nav-link">Archive</a>
+        </nav>
+
+        <!-- Top Stories -->
+        <section class="section" id="section-stories" aria-labelledby="stories-heading">
+          <div class="section-header">
+            <h2 class="section-title" id="stories-heading">Top Stories</h2>
+          </div>
+          <div class="section-context" id="stories-context" style="display:none;"></div>
+          <div id="stories-list">
+            <!-- Populated by today.js -->
+          </div>
+        </section>
+
+        <!-- Today's Opportunities -->
+        <section class="section" id="section-opportunities" aria-labelledby="opportunities-heading">
+          <div class="section-header">
+            <h2 class="section-title" id="opportunities-heading">Today's Opportunities</h2>
+          </div>
+          <div class="section-context" id="opportunities-context" style="display:none;"></div>
+          <div id="opportunities-list">
+            <!-- Populated by today.js -->
+          </div>
+        </section>
+
+        <!-- Market Snapshot -->
+        <section class="section" id="section-market" aria-labelledby="market-heading">
+          <div class="section-header">
+            <h2 class="section-title" id="market-heading">Market Snapshot</h2>
+          </div>
+          <div id="market-snapshot">
+            <!-- Populated by today.js -->
+          </div>
+        </section>
+
+        <!-- Talking Point of the Day -->
+        <section class="section" id="section-talking-point" aria-labelledby="tp-heading">
+          <div class="section-header">
+            <h2 class="section-title" id="tp-heading">Talking Point of the Day</h2>
+          </div>
+          <div id="talking-point">
+            <!-- Populated by today.js -->
+          </div>
+        </section>
+
+        <!-- Archive -->
+        <section class="section" id="section-archive" aria-labelledby="archive-heading">
+          <div class="section-header">
+            <h2 class="section-title" id="archive-heading">Past Editions</h2>
+          </div>
+          <div class="archive-grid" id="archive-list">
+            <!-- Populated by today.js -->
+          </div>
+        </section>
+
+      </div>
+    </div><!-- /page-today -->
+
+    <!-- ══ BANKS PAGE ════════════════════════════════════════ -->
+    <div class="page" id="page-banks" role="tabpanel">
+      <div class="page-content">
+        <div class="page-header">
+          <div>
+            <h1 class="page-title">My Banks</h1>
+            <div class="page-subtitle">Coverage based on your selections.</div>
+          </div>
+          <button class="btn btn-ghost" id="edit-banks-btn" onclick="document.getElementById('settings-btn').click()">
+            Edit Coverage
+          </button>
+        </div>
+
+        <!-- Bank tabs -->
+        <div class="banks-tabs" id="bank-tabs" role="tablist" aria-label="Bank selection">
+          <!-- Populated by pages.js -->
+        </div>
+
+        <!-- Bank detail -->
+        <div id="bank-detail">
+          <!-- Populated by pages.js -->
+        </div>
+
+        <div id="banks-content">
+          <!-- Empty state if no banks selected -->
+        </div>
+      </div>
+    </div><!-- /page-banks -->
+
+    <!-- ══ DEALS PAGE ════════════════════════════════════════ -->
+    <div class="page" id="page-deals" role="tabpanel">
+      <div class="page-content">
+        <div class="page-header">
+          <div>
+            <h1 class="page-title">Deals</h1>
+            <div class="page-subtitle">Active mandates and announced transactions.</div>
+          </div>
+        </div>
+
+        <!-- Filters -->
+        <div class="deals-filters" id="deals-filters">
+          <!-- Populated by pages.js -->
+        </div>
+
+        <!-- Deal cards -->
+        <div id="deals-list">
+          <!-- Populated by pages.js -->
+        </div>
+      </div>
+    </div><!-- /page-deals -->
+
+    <!-- ══ RESOURCES PAGE ════════════════════════════════════ -->
+    <div class="page" id="page-resources" role="tabpanel">
+      <div class="page-content">
+        <div class="page-header">
+          <div>
+            <h1 class="page-title">Industry Reports</h1>
+            <div class="page-subtitle">Current M&amp;A outlooks and league tables from the major research houses.</div>
+          </div>
+        </div>
+
+        <div class="resources-grid" id="resources-grid">
+          <!-- Populated by pages.js -->
+        </div>
+      </div>
+    </div><!-- /page-resources -->
+
+  </main><!-- /page-shell -->
+
+  <!-- ── Settings Overlay ────────────────────────────────── -->
+  <div class="settings-overlay" id="settings-overlay" role="dialog" aria-label="Settings" aria-modal="true">
+    <div class="settings-panel">
+      <div class="settings-header">
+        <h2 class="settings-title">Settings</h2>
+        <button class="settings-close" id="settings-close" aria-label="Close settings">✕</button>
+      </div>
+      <div class="settings-body">
+
+        <div class="settings-section">
+          <div class="settings-section-title">My Coverage</div>
+          <div class="settings-row">
+            <span class="settings-row-label">Banks</span>
+            <span class="settings-row-value" id="settings-banks-value">—</span>
+          </div>
+          <div class="settings-row">
+            <span class="settings-row-label">Industries</span>
+            <span class="settings-row-value" id="settings-industries-value">—</span>
+          </div>
+        </div>
+
+        <div class="settings-section">
+          <div class="settings-section-title">Update Selections</div>
+          <div class="settings-row">
+            <span class="settings-row-label">Edit banks</span>
+            <button class="btn btn-ghost" id="settings-edit-banks">Edit →</button>
+          </div>
+          <div class="settings-row">
+            <span class="settings-row-label">Edit industries</span>
+            <button class="btn btn-ghost" id="settings-edit-industries">Edit →</button>
+          </div>
+        </div>
+
+        <div class="settings-danger">
+          <button class="btn btn-ghost" id="settings-reset" style="border-color: var(--hot); color: var(--hot);">
+            Reset Onboarding
+          </button>
+          <div class="settings-danger-text">Clears all selections and restarts the setup flow.</div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- ── Outreach Draft Modal ─────────────────────────────── -->
+  <div class="modal-overlay" id="modal-overlay" role="dialog" aria-label="Outreach draft" aria-modal="true">
+    <div class="modal">
+      <div class="modal-header">
+        <div>
+          <div class="modal-title" id="modal-title">Outreach Draft</div>
+          <div class="modal-subtitle" id="modal-subtitle"></div>
+        </div>
+        <button class="modal-close" id="modal-close" aria-label="Close">✕</button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-field">
+          <div class="modal-field-label">Subject</div>
+          <div class="modal-field-value" id="modal-subject"></div>
+        </div>
+        <div class="modal-field">
+          <div class="modal-field-label">Email Body</div>
+          <div class="modal-email-body" id="modal-body-text"></div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <div class="modal-disclaimer">Customize before sending. Verify contact details independently.</div>
+        <button class="btn btn-primary" id="modal-copy">Copy Full Email</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── Toast ────────────────────────────────────────────── -->
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <!-- ── Scripts ──────────────────────────────────────────── -->
+  <script type="module" src="assets/js/app.js"></script>
+
+</body>
+</html>

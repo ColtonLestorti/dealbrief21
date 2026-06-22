@@ -1,0 +1,155 @@
+{
+  "deals": [
+    {
+      "id": "d1",
+      "company": "AES Corporation",
+      "buyer": "Global Infrastructure Partners",
+      "seller": "AES (public take-private)",
+      "advisor": "JPMorgan",
+      "advisor_role": "Lead financial advisor",
+      "sector": "Infrastructure",
+      "size": "$38.4B",
+      "stage": "Pending",
+      "announced": "2026-Q1",
+      "why_it_matters": "One of the year's largest take-privates. Lender diligence across a large syndicate plus heavy utility-sector regulatory documentation — a high-complexity, time-pressured data room use case.",
+      "deal_clock": [
+        { "date": "Q1 2026", "event": "JPM named lead advisor" },
+        { "date": "2026", "event": "Regulatory review underway" }
+      ],
+      "outreach_draft": {
+        "subject": "AES / GIP — lender & regulator diligence at scale",
+        "body": "Congratulations on the lead advisory role on the AES take-private. A $38B infrastructure process means lender diligence across a large syndicate plus a heavy regulatory documentation load.\n\nWe help deal teams stand up differentiated permissions for dozens of lenders and regulators without rebuilding the room for each party. Worth a short conversation as diligence ramps?\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "tags": ["infrastructure", "energy", "jpmorgan", "take-private"]
+    },
+    {
+      "id": "d2",
+      "company": "Roku",
+      "buyer": "FOX Corporation",
+      "seller": "Roku (public)",
+      "advisor": "Morgan Stanley",
+      "advisor_role": "Sell-side advisor",
+      "sector": "Media / TMT",
+      "size": "Undisclosed",
+      "stage": "Announced",
+      "announced": "2026-06-15",
+      "why_it_matters": "Marquee media consolidation. Sell-side processes of this profile generate parallel buyer diligence and rotate teams onto fresh mandates quickly.",
+      "deal_clock": [
+        { "date": "Jun 15", "event": "Acquisition announced" },
+        { "date": "2026", "event": "Diligence and regulatory review" }
+      ],
+      "outreach_draft": {
+        "subject": "Roku process — supporting your next TMT mandate",
+        "body": "Congratulations on the Roku announcement. Large sell-sides generate parallel buyer diligence fast — if the TMT team is running concurrent processes, the question is whether the current data room setup supports compressed timelines.\n\nHappy to compare notes on how other MS teams have structured media-deal rooms.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "tags": ["media", "technology", "morgan-stanley"]
+    },
+    {
+      "id": "d3",
+      "company": "Jetro Restaurant Depot",
+      "buyer": "Sysco Corp",
+      "seller": "Jetro (private)",
+      "advisor": "Evercore",
+      "advisor_role": "Lead financial advisor",
+      "sector": "Consumer / Food",
+      "size": "$29.1B",
+      "stage": "Pending",
+      "announced": "2026-Q1",
+      "why_it_matters": "A large food-distribution combination. Evercore's M&A volume is up 56% YoY — completed mandates mean teams rotating onto new processes this quarter.",
+      "deal_clock": [
+        { "date": "Q1 2026", "event": "Evercore named lead advisor" },
+        { "date": "2026", "event": "Pending close" }
+      ],
+      "outreach_draft": {
+        "subject": "Jetro / Sysco — accelerating your next process",
+        "body": "Congratulations on the Jetro / Sysco mandate. With volume up sharply this year, I imagine the team is rotating onto new processes quickly — usually when room infrastructure gets revisited.\n\nIf you have mandates opening where speed-to-launch matters, I'd welcome a short conversation.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "tags": ["consumer", "food", "evercore"]
+    },
+    {
+      "id": "d4",
+      "company": "Kimberly-Clark / Kenvue",
+      "buyer": "Kimberly-Clark",
+      "seller": "Kenvue",
+      "advisor": "JPMorgan",
+      "advisor_role": "Buy-side advisor",
+      "sector": "Consumer / Healthcare",
+      "size": "$50.6B",
+      "stage": "Pending",
+      "announced": "2025-2026",
+      "why_it_matters": "One of JPMorgan's largest mandates of the cycle — a consumer-health megadeal with extensive cross-functional diligence across brands, regulatory, and supply chain.",
+      "deal_clock": [
+        { "date": "Announced", "event": "JPM advising Kimberly-Clark" },
+        { "date": "2026", "event": "Integration planning" }
+      ],
+      "outreach_draft": {
+        "subject": "Consumer-health diligence at megadeal scale",
+        "body": "The Kimberly-Clark / Kenvue combination is exactly the kind of multi-workstream diligence — brands, regulatory, supply chain — where a well-structured data room saves the deal team real time.\n\nWorth a conversation on how we support megadeal diligence across functions?\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "tags": ["consumer", "healthcare", "jpmorgan", "megadeal"]
+    },
+    {
+      "id": "d5",
+      "company": "Unilever Ice Cream (The Magnum Ice Cream Company)",
+      "buyer": "Spin-off / public listing",
+      "seller": "Unilever",
+      "advisor": "Goldman Sachs",
+      "advisor_role": "Sell-side / spin advisor",
+      "sector": "Consumer",
+      "size": "Undisclosed",
+      "stage": "Active",
+      "announced": "2025-2026",
+      "why_it_matters": "A flagship corporate separation cited as a template for the 2026 de-conglomeration wave. Spin-offs require carve-out diligence and clean separation of financials — a core data room strength.",
+      "deal_clock": [
+        { "date": "2026", "event": "Separation in progress" }
+      ],
+      "outreach_draft": {
+        "subject": "Carve-out diligence on the Ice Cream separation",
+        "body": "Spin-offs like the Unilever Ice Cream separation hinge on clean carve-out documentation and disciplined access control across NewCo and parent.\n\nWe help teams manage that separation in the data room without manual rework. Happy to walk through the approach.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "tags": ["consumer", "goldman-sachs", "carve-out", "spin-off"]
+    },
+    {
+      "id": "d6",
+      "company": "Enliven Therapeutics",
+      "buyer": "Public offering (upsized)",
+      "seller": "Enliven Therapeutics",
+      "advisor": "Jefferies",
+      "advisor_role": "Joint bookrunner (w/ Goldman, Morgan Stanley)",
+      "sector": "Healthcare / Biotech",
+      "size": "Undisclosed",
+      "stage": "Priced",
+      "announced": "2026-06-12",
+      "why_it_matters": "A priced biotech follow-on with three bulge/elite bookrunners. Capital-markets transactions are document- and diligence-intensive across legal and financial workstreams.",
+      "deal_clock": [
+        { "date": "Jun 12", "event": "Upsized offering priced" }
+      ],
+      "outreach_draft": {
+        "subject": "Capital-markets diligence support",
+        "body": "Saw Jefferies on the Enliven offering. ECM transactions carry their own diligence load across legal and financial workstreams — a secure, auditable environment keeps the process clean.\n\nWorth a quick conversation on your live offerings?\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "tags": ["healthcare", "biotech", "jefferies", "ecm"]
+    },
+    {
+      "id": "d7",
+      "company": "Anthropic (IPO)",
+      "buyer": "Public listing",
+      "seller": "Anthropic",
+      "advisor": "Goldman Sachs",
+      "advisor_role": "Joint lead underwriter (w/ Morgan Stanley)",
+      "sector": "Technology",
+      "size": "Undisclosed",
+      "stage": "In registration",
+      "announced": "2026-06-03",
+      "why_it_matters": "A landmark AI IPO reinforcing the capital-markets revival — IPO processes are among the most diligence-intensive transactions across legal, financial, and regulatory review.",
+      "deal_clock": [
+        { "date": "Jun 03", "event": "Lead underwriters reported" }
+      ],
+      "outreach_draft": {
+        "subject": "IPO diligence environments for live offerings",
+        "body": "With the IPO window reopening, the diligence and documentation load on lead-left mandates is significant. We help underwriting teams manage secure, auditable rooms across the full offering process.\n\nHappy to share how other ECM teams have set this up.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "tags": ["technology", "ipo", "goldman-sachs"]
+    }
+  ]
+}

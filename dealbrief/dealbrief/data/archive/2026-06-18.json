@@ -1,0 +1,109 @@
+{
+  "date": "2026-06-18",
+  "edition": 1,
+  "lens": "Markets capped a rocky, holiday-shortened week as the Fed's hawkish surprise under new Chair Kevin Warsh collided with an interim US–Iran peace agreement. Stocks rebounded into Thursday's close on a chip-led comeback.",
+  "ticker": [
+    { "label": "S&P 500", "value": "7,500.58", "change": "+1.08%", "positive": true },
+    { "label": "NASDAQ", "value": "26,517.93", "change": "+1.91%", "positive": true },
+    { "label": "DOW", "value": "51,564.70", "change": "+0.14%", "positive": true },
+    { "label": "10Y", "value": "4.46%", "change": "+5bps", "positive": false },
+    { "label": "2Y", "value": "4.20%", "change": "+3bps", "positive": false },
+    { "label": "VIX", "value": "16.40", "change": "-1.2%", "positive": true }
+  ],
+  "stories": [
+    {
+      "id": "a1",
+      "category": "MACRO",
+      "urgency": "HIGH",
+      "scope": "market",
+      "headline": "Warsh's first Fed meeting delivers a hawkish surprise",
+      "why_it_matters": "The FOMC held rates but sharply raised inflation forecasts, with half of members now penciling in a hike this year. The pivot from expected cuts to potential hikes resets financing assumptions across every live deal.",
+      "suggested_action": "Flag the shift to clients still modeling rate cuts into deal timelines — the financing math has changed.",
+      "deal_clock": [
+        { "date": "Jun 17", "event": "FOMC decision; hawkish dot plot" },
+        { "date": "Jun 18", "event": "2Y yield spikes on hike repricing" }
+      ],
+      "source": "TheStreet",
+      "source_url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-17-2026",
+      "tags": ["leveraged-finance"]
+    },
+    {
+      "id": "a2",
+      "category": "MACRO",
+      "urgency": "HIGH",
+      "scope": "market",
+      "headline": "Trump signs interim agreement to end the war with Iran",
+      "why_it_matters": "The interim deal to reopen the Strait of Hormuz began unwinding the energy shock behind 2026's inflation surprise. Falling oil eases a major overhang on cross-border deal confidence.",
+      "suggested_action": "Reconnect with clients who shelved cross-border or energy-exposed processes during the conflict.",
+      "deal_clock": [
+        { "date": "Jun 18", "event": "Interim agreement signed" }
+      ],
+      "source": "Trading Economics",
+      "source_url": "https://tradingeconomics.com/united-states/government-bond-yield",
+      "tags": ["cross-border", "energy"]
+    },
+    {
+      "id": "a3",
+      "category": "DEALS",
+      "urgency": "MEDIUM",
+      "scope": "bank",
+      "bank": "Goldman Sachs",
+      "headline": "Goldman Sachs retains the global M&A volume crown into 2026",
+      "why_it_matters": "Goldman led Q1 2026 advisers by deal value, advising on roughly $267B of transactions and roles on the majority of the quarter's megadeals. Its franchise is the bellwether for where complex, large-cap diligence is concentrated.",
+      "suggested_action": "Anchor outreach around Goldman's megadeal pipeline — large-cap, multi-jurisdiction processes are the highest-complexity data room use case.",
+      "deal_clock": [
+        { "date": "Q1 2026", "event": "Ranked #1 adviser by deal value" }
+      ],
+      "source": "Private Banker International",
+      "source_url": "https://www.privatebankerinternational.com/news/top-ma-advisers-q1-2026/",
+      "tags": ["megadeals"]
+    },
+    {
+      "id": "a4",
+      "category": "M&A",
+      "urgency": "MEDIUM",
+      "scope": "bank",
+      "bank": "Houlihan Lokey",
+      "headline": "Houlihan Lokey leads all advisers by deal volume in Q1 2026",
+      "why_it_matters": "Houlihan worked on 76 transactions in the quarter — more than any other adviser by count. High deal velocity makes repeatable, template-based data room setup a direct margin lever for their teams.",
+      "suggested_action": "Pitch speed-to-launch and templated setup to Houlihan deal teams running back-to-back mid-market processes.",
+      "deal_clock": [
+        { "date": "Q1 2026", "event": "Ranked #1 adviser by deal volume (76 deals)" }
+      ],
+      "source": "Private Banker International",
+      "source_url": "https://www.privatebankerinternational.com/news/top-ma-advisers-q1-2026/",
+      "tags": ["mid-market", "restructuring"]
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "ao1",
+      "bank": "Goldman Sachs",
+      "sector": "Large-cap M&A",
+      "urgency": "WARM",
+      "headline": "#1 adviser by deal value in Q1 2026 (~$267B)",
+      "why_it_matters": "Goldman holds roles on the majority of the quarter's megadeals — the most complex, multi-jurisdiction diligence processes in the market.",
+      "deal_clock": [ { "date": "Q1 2026", "event": "Ranked #1 by deal value" } ],
+      "outreach_idea": "Anchor on megadeal complexity — multi-jurisdiction permissioning and audit trails at scale.",
+      "outreach_draft": {
+        "subject": "Supporting Goldman's megadeal pipeline",
+        "body": "With Goldman leading the Street on deal value this year, the through-line is scale and complexity — exactly where data room setup either accelerates or slows a process.\n\nWe help teams manage multi-jurisdiction permissions and audit trails on the largest transactions without manual rework. Worth a brief conversation on your most complex live processes?\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      }
+    }
+  ],
+  "market_snapshot": {
+    "indices": [
+      { "label": "S&P 500", "value": "7,500.58", "change": "+1.08%", "positive": true },
+      { "label": "10Y Treasury", "value": "4.46%", "change": "+5bps", "positive": false },
+      { "label": "Nasdaq", "value": "26,517.93", "change": "+1.91%", "positive": true }
+    ],
+    "bank_stocks": [],
+    "macro_note": "Stocks rebounded into Thursday's close on a chip-led comeback after the Fed's hawkish surprise. The 2-year yield spiked as markets repriced toward a 2026 hike. US bond markets closed Friday for Juneteenth."
+  },
+  "talking_point": {
+    "quote": "The Fed just flipped the script from cuts to a possible hike — how are your clients rethinking financing on deals they expected to close later this year?",
+    "use_with": "Clients with live processes assuming a lower-rate close",
+    "context": "Thursday's hawkish repricing is the anchor of every financing conversation heading into the weekend."
+  },
+  "archive": []
+}
