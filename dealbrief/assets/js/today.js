@@ -3,7 +3,7 @@
    Loads daily.json and renders all sections.
    ============================================================ */
 
-import { fetchData, esc, urgencyToBadgeType, isMyBank, copyToClipboard, formatDate } from './utils.js';
+import { fetchData, esc, urgencyToBadgeType, isMyBank, copyToClipboard, formatDate, getPrefs } from './utils.js';
 
 let dailyData = null;   // today's brief (the live edition)
 let activeData = null;  // currently displayed brief (today or an archived edition)
