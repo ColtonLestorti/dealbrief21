@@ -1,17 +1,17 @@
 {
-  "date": "2026-06-22",
-  "edition": 2,
-  "lens": "The Fed turned hawkish under new Chair Kevin Warsh — markets now price a rate hike by fall — even as a US–Iran peace framework pulls oil lower. Dealmakers are accelerating timelines before financing windows tighten.",
+  "date": "2026-06-25",
+  "edition": 3,
+  "lens": "Micron's blowout earnings just confirmed AI infrastructure demand is structurally stronger than anyone modeled — while PCE hit 4.1%, its highest since 2023, keeping a Fed rate hike firmly on the table. Two forces pulling in opposite directions: a resilient deal market and tightening financing conditions.",
   "ticker": [
-    { "label": "S&P 500", "value": "7,500.58", "change": "+1.08%", "positive": true },
-    { "label": "NASDAQ", "value": "26,517.93", "change": "+1.91%", "positive": true },
-    { "label": "DOW", "value": "51,564.70", "change": "+0.14%", "positive": true },
-    { "label": "RUSSELL 2000", "value": "2,979.77", "change": "+2.12%", "positive": true },
-    { "label": "10Y", "value": "4.48%", "change": "+2bps", "positive": false },
-    { "label": "2Y", "value": "4.20%", "change": "+1bp", "positive": false },
-    { "label": "VIX", "value": "16.78", "change": "+2.3%", "positive": false },
-    { "label": "WTI CRUDE", "value": "$75.12", "change": "-0.96%", "positive": true },
-    { "label": "US M&A VOL", "value": "$1.2T YTD", "change": "+99% vs LY", "positive": true }
+    { "label": "S&P 500",     "value": "7,421.85",  "change": "+0.77%",  "positive": true  },
+    { "label": "NASDAQ",      "value": "25,783.52",  "change": "+0.77%",  "positive": true  },
+    { "label": "DOW",         "value": "52,226.45",  "change": "+1.08%",  "positive": true  },
+    { "label": "RUSSELL 2000","value": "3,014.07",   "change": "+1.30%",  "positive": true  },
+    { "label": "10Y",         "value": "4.40%",      "change": "-8bps",   "positive": true  },
+    { "label": "2Y",          "value": "4.15%",      "change": "-5bps",   "positive": true  },
+    { "label": "VIX",         "value": "18.26",      "change": "-6.3%",   "positive": true  },
+    { "label": "WTI CRUDE",   "value": "$69.89",     "change": "-4.5%",   "positive": true  },
+    { "label": "US M&A VOL",  "value": "$1.2T YTD",  "change": "+99% vs LY", "positive": true }
   ],
   "stories": [
     {
@@ -19,150 +19,132 @@
       "category": "MACRO",
       "urgency": "HIGH",
       "scope": "market",
-      "headline": "Fed turns hawkish under Warsh — markets now price a rate hike by fall",
-      "why_it_matters": "Nine of 19 FOMC members now project at least one rate increase before year-end, and markets are fully pricing a hike by October. Higher-for-longer financing costs push sponsors and corporates to accelerate sign-and-close timelines before debt markets tighten further — compressing diligence windows on live processes.",
-      "suggested_action": "Ask advisory clients whether the shift in rate expectations is pulling their deal timelines forward, and whether their current data room setup can support a compressed diligence schedule.",
+      "headline": "May PCE hits 4.1% — highest since April 2023 — locking in the case for a Fed hike",
+      "why_it_matters": "The Fed's preferred inflation gauge came in at 4.1% year-over-year this morning, with core PCE at 3.4%. Both were in line with estimates but confirm that inflation remains well above the 2% target — reinforcing Warsh's hawkish posture and keeping a fall rate hike firmly priced. Deutsche Bank now projects two hikes this year. Deals modeled on rate cuts need to be repriced.",
+      "suggested_action": "Open conversations about deal timing with clients who are still modeling lower financing costs. The PCE print today is a concrete reason to accelerate timelines, not wait.",
       "deal_clock": [
-        { "date": "Jun 17", "event": "FOMC holds rates; hawkish dot plot" },
-        { "date": "Jun 18", "event": "Markets price hike by October" },
-        { "date": "Jun 26", "event": "May PCE inflation print (Fed's preferred gauge)" }
+        { "date": "Jun 17", "event": "FOMC holds; hawkish tone" },
+        { "date": "Jun 25", "event": "PCE 4.1% YoY — highest since Apr 2023" },
+        { "date": "Jul 28", "event": "Next FOMC decision" }
       ],
       "source": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/06/17/stock-market-today-live-updates.html",
-      "tags": ["leveraged-finance", "pe-sponsors"]
+      "source_url": "https://www.cnbc.com/2026/06/25/pce-inflation-report-may-2026-.html",
+      "tags": ["leveraged-finance", "macro"]
     },
     {
       "id": "s2",
       "category": "MACRO",
       "urgency": "HIGH",
       "scope": "market",
-      "headline": "US–Iran peace framework targets a deal within 60 days; oil retreats",
-      "why_it_matters": "A roadmap toward ending the conflict and reopening the Strait of Hormuz is easing the energy shock that drove this year's inflation surprise. Lower oil and reduced tail risk support deal confidence and cross-border activity — a constructive backdrop for advisory pipelines into H2.",
-      "suggested_action": "Use the improving risk backdrop as a reason to reconnect with clients who paused cross-border processes during the conflict. Frame it as a window reopening.",
+      "headline": "Micron's $41.5B blowout confirms AI infrastructure demand is structural, not cyclical",
+      "why_it_matters": "Micron reported $41.46B in revenue (16% above estimates) and EPS of $25.11 (22.5% above estimates). HBM memory is fully booked and supply-constrained through 2027. Markets are up sharply this morning on the print. For advisory clients, this is confirmation that AI-driven M&A — data center build-outs, semiconductor consolidation, AI-native acquisitions — has years of runway. Deals that looked expensive last year look strategic now.",
+      "suggested_action": "Use the Micron beat to restart conversations with TMT clients about AI-driven strategic rationale. The AI infrastructure thesis just got its biggest single-quarter data point.",
       "deal_clock": [
-        { "date": "Jun 18", "event": "Interim agreement signed" },
-        { "date": "Jun 22", "event": "Both sides agree roadmap toward final deal in 60 days" }
+        { "date": "Jun 24 AH", "event": "Micron Q3 2026: $41.46B rev, EPS $25.11 — both ~22% beats" },
+        { "date": "Jun 25",    "event": "Nasdaq futures +1.8%; S&P futures +0.6%" }
       ],
-      "source": "Reuters",
-      "source_url": "https://www.investing.com/rates-bonds/u.s.-10-year-bond-yield",
-      "tags": ["cross-border", "energy"]
+      "source": "Investing.com",
+      "source_url": "https://www.investing.com/news/transcripts/earnings-call-transcript-micron-tops-q3-2026-estimates-shares-jump-146-93CH-4759504",
+      "tags": ["technology", "ai", "semiconductors"]
     },
     {
       "id": "s3",
-      "category": "M&A",
-      "urgency": "HIGH",
-      "scope": "bank",
-      "bank": "JPMorgan",
-      "headline": "JPMorgan is lead advisor on AES's $38.4B takeover by Global Infrastructure Partners",
-      "why_it_matters": "A take-private of this size means an enormous, time-pressured diligence process with a large lender group. Infrastructure and utility deals carry heavy regulatory documentation — exactly the kind of controlled, permissioned data environment that wins on execution speed.",
-      "suggested_action": "Reach out to the JPM deal team on lender-group access management — large infrastructure take-privates need differentiated permissions for dozens of lenders and regulators without manual setup for each.",
+      "category": "MACRO",
+      "urgency": "MEDIUM",
+      "scope": "market",
+      "headline": "Oil falls to $70 as Iran peace framework advances — lowest since before the war",
+      "why_it_matters": "WTI crude is down 4.5% today to $69.89, its lowest level since early March and well below the peak that drove this year's inflation surge. Falling energy costs should pull headline PCE lower in June, giving the Fed more room — but core inflation remains sticky. The peace framework is the key variable for H2 deal confidence.",
+      "suggested_action": "Flag the oil move to energy-sector clients and cross-border advisory contacts. Lower energy costs improve the macro backdrop for deals, especially in industrials and logistics.",
       "deal_clock": [
-        { "date": "Q1 2026", "event": "JPM named lead financial advisor" },
-        { "date": "2026", "event": "Pending regulatory review" }
+        { "date": "Jun 18", "event": "US–Iran interim agreement signed" },
+        { "date": "Jun 25", "event": "WTI $69.89 — lowest since before the war" },
+        { "date": "~Aug", "event": "60-day roadmap toward final peace deal" }
       ],
-      "source": "ION Analytics",
-      "source_url": "https://ionanalytics.com/insights/mergermarket/goldman-sachs-jpmorgan-lead-1q26-ma-rankings-amid-relentless-hunt-for-scale/",
-      "tags": ["industrials", "energy", "take-private"]
+      "source": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/06/23/stock-market-today-live-updates.html",
+      "tags": ["energy", "cross-border", "macro"]
     },
     {
       "id": "s4",
-      "category": "M&A",
-      "urgency": "HIGH",
+      "category": "BANKING",
+      "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Morgan Stanley",
-      "headline": "Morgan Stanley advised Roku on its acquisition by FOX",
-      "why_it_matters": "Media consolidation is back, and Morgan Stanley is on the sell-side of one of the quarter's marquee media deals. Sell-side processes of this profile generate parallel buyer diligence and a freshly freed-up team ready for the next mandate.",
-      "suggested_action": "Reference the Roku process and ask whether the MS media/TMT team has parallel mandates opening where faster data room deployment would help compress the timeline.",
+      "bank": "Bank of America",
+      "headline": "BofA analyst raises Micron target to $1,500 amid AI memory supercycle thesis",
+      "why_it_matters": "BofA's Vivek Arya raised his Micron price target by $550 on a day the stock was falling — a structural argument, not just a number change. BofA's visibility into the AI infrastructure build-out positions them well on both the equity and M&A advisory side of technology sector deals.",
+      "suggested_action": "Reach out to BofA TMT coverage ahead of the AI-driven deal pipeline they are advising into. Their conviction on the AI memory thesis signals active client engagement in the space.",
       "deal_clock": [
-        { "date": "Jun 15", "event": "Acquisition announced" },
-        { "date": "2026", "event": "Diligence and regulatory review underway" }
+        { "date": "Jun 23", "event": "BofA raises Micron PT to $1,500 from $950" }
       ],
-      "source": "Tracxn",
-      "source_url": "https://tracxn.com/d/investment-bank/morgan-stanley/__S5BoCCwmg8rk88Pn1kwAIHeb7ouOAFMcUM5I91ybqKY",
-      "tags": ["technology", "media"]
+      "source": "TheStreet",
+      "source_url": "https://www.thestreet.com/investing/stocks/mu-micron-stock-price-target-bank-of-america-raises-june-2026",
+      "tags": ["technology", "banking"]
     },
     {
       "id": "s5",
-      "category": "M&A",
+      "category": "BANKING",
       "urgency": "MEDIUM",
-      "scope": "bank",
-      "bank": "Evercore",
-      "headline": "Evercore is lead advisor on Jetro Restaurant Depot's $29.1B takeover by Sysco",
-      "why_it_matters": "Evercore's M&A volume jumped 56% year-over-year, and large mandates like this signal a franchise actively building parallel buy-side pipeline. Completed processes mean teams rotating onto new mandates this quarter.",
-      "suggested_action": "Congratulate the team on the Sysco process and ask about concurrent mandates where a faster, cleaner data room launch would help.",
+      "scope": "market",
+      "headline": "Fed bank stress test results due after today's close — watch for capital implications",
+      "why_it_matters": "The annual stress tests for major US banks report after the close today. Last year, banks passed with strong buffers. This year's tests are harder. Results will signal how much capital the major banks have available for M&A, lending, and buybacks — a direct read on their advisory and balance-sheet capacity.",
+      "suggested_action": "Check the stress test results this evening. Banks that pass comfortably have more flexibility on deal financing; any surprises are a conversation opener on client credit appetite.",
       "deal_clock": [
-        { "date": "Q1 2026", "event": "Evercore named lead financial advisor" },
-        { "date": "2026", "event": "Deal pending close" }
+        { "date": "Jun 25 AH", "event": "Fed stress test results released" }
       ],
-      "source": "ION Analytics",
-      "source_url": "https://ionanalytics.com/insights/mergermarket/goldman-sachs-jpmorgan-lead-1q26-ma-rankings-amid-relentless-hunt-for-scale/",
-      "tags": ["consumer", "food"]
+      "source": "Charles Schwab",
+      "source_url": "https://www.schwab.com/learn/story/stock-market-update-open",
+      "tags": ["banking", "leveraged-finance"]
     },
     {
       "id": "s6",
-      "category": "DEALS",
+      "category": "M&A",
       "urgency": "MEDIUM",
-      "scope": "market",
-      "headline": "Megadeals drive US M&A value to $1.2T in five months — nearly double last year",
-      "why_it_matters": "PwC reports 39 deals of $5B+ announced in 2026 so far (up 50%+ year-over-year) even as overall deal count slipped 4%. The market is bifurcating: large, complex, multi-jurisdiction processes are where the activity — and the data room complexity — is concentrated.",
-      "suggested_action": "Focus pipeline energy on the megadeal end of the market. Position around handling scale and complexity, not per-seat cost.",
+      "scope": "bank",
+      "bank": "JPMorgan",
+      "headline": "JPMorgan upgrades IBM to overweight — signals renewed conviction in enterprise tech consolidation",
+      "why_it_matters": "JPMorgan's IBM upgrade is a directional signal on their view of enterprise tech M&A. IBM has been an active acquirer of consulting and software assets, and an upgrade of this visibility typically precedes advisory conversations about strategic transactions in the space.",
+      "suggested_action": "Use the IBM upgrade as a reason to reconnect with JPMorgan's enterprise tech coverage team about active mandates in the consulting and software sector.",
       "deal_clock": [
-        { "date": "May 31", "event": "$1.2T US deal value YTD (PwC)" }
+        { "date": "Jun 23", "event": "JPM upgrades IBM to overweight; IBM +5%" }
       ],
-      "source": "PwC",
-      "source_url": "https://www.pwc.com/us/en/services/consulting/deals/outlook.html",
-      "tags": ["megadeals", "cross-border"]
+      "source": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/06/22/stock-market-today-live-updates.html",
+      "tags": ["technology", "enterprise"]
     },
     {
       "id": "s7",
       "category": "DEALS",
       "urgency": "MEDIUM",
-      "scope": "bank",
-      "bank": "Goldman Sachs",
-      "headline": "Goldman Sachs and Morgan Stanley are leading Anthropic's IPO",
-      "why_it_matters": "A landmark tech IPO reinforces the capital-markets revival — 46 traditional IPOs raised $28.2B through May, more than double last year. IPO processes are document- and diligence-intensive across legal, financial, and regulatory workstreams.",
-      "suggested_action": "Use the IPO revival as a conversation opener with ECM teams about secure, auditable diligence environments for live offerings.",
+      "scope": "market",
+      "headline": "Tech selloff this week was macro noise — the AI deal pipeline is intact",
+      "why_it_matters": "The Nasdaq fell 2.2% Monday and another 0.4% Tuesday on chip-driven selling before today's Micron-led rebound. The selloff was supply-side driven (South Korean chip stocks, pre-earnings hedging) rather than a sign of weakening AI demand. The underlying deal pipeline — AI infrastructure, semiconductor consolidation, data-center build-outs — is validated by today's Micron print.",
+      "suggested_action": "Clients who paused AI-related transaction conversations last week now have a data point to restart them with. The dip was a buying opportunity, not a signal of structural deterioration.",
       "deal_clock": [
-        { "date": "Jun 03", "event": "Lead underwriters reported" }
+        { "date": "Jun 23", "event": "Nasdaq -2.2%, Micron -12%" },
+        { "date": "Jun 24", "event": "Micron Q3 beat: $41.46B revenue, EPS $25.11" },
+        { "date": "Jun 25", "event": "Markets rebound; Nasdaq futures +1.8%" }
       ],
-      "source": "Tracxn",
-      "source_url": "https://tracxn.com/d/investment-bank/morgan-stanley/__S5BoCCwmg8rk88Pn1kwAIHeb7ouOAFMcUM5I91ybqKY",
-      "tags": ["technology", "ipo"]
-    },
-    {
-      "id": "s8",
-      "category": "BANKING",
-      "urgency": "MEDIUM",
-      "scope": "bank",
-      "bank": "Jefferies",
-      "headline": "Jefferies shares up 51% this quarter on accelerating sponsor activity",
-      "why_it_matters": "A sharp re-rating reflects expectations of faster sponsor deal flow and strong execution at Jefferies. More sponsor-driven sell-side processes flowing through the bank means more time-sensitive data room needs.",
-      "suggested_action": "Connect with Jefferies sponsor coverage while momentum is high. Sponsor sell-sides prize fast, repeatable, template-based data room setup.",
-      "deal_clock": [
-        { "date": "Jun 12", "event": "Co-advised Enliven Therapeutics offering" },
-        { "date": "Q2 2026", "event": "Shares +51% on the quarter" }
-      ],
-      "source": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/06/17/stock-market-today-live-updates.html",
-      "tags": ["sponsor-coverage"]
+      "source": "TheStreet",
+      "source_url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-24-2026",
+      "tags": ["technology", "ai", "semiconductors"]
     }
   ],
   "opportunities": [
     {
       "id": "o1",
       "bank": "JPMorgan",
-      "sector": "Infrastructure",
+      "sector": "Infrastructure / Energy",
       "urgency": "HOT",
       "headline": "Lead advisor on AES's $38.4B take-private by Global Infrastructure Partners",
-      "why_it_matters": "A take-private of this scale means lender diligence across a large syndicate plus heavy regulatory documentation, all on a compressed timeline. Differentiated, auditable access for dozens of parties is where execution speed is won or lost.",
+      "why_it_matters": "Still one of the largest active take-privates in the market. Lender syndicate diligence plus regulatory documentation — all on a compressed timeline as the rate window tightens.",
       "deal_clock": [
         { "date": "Q1 2026", "event": "JPM named lead financial advisor" },
-        { "date": "2026", "event": "Regulatory review underway" }
+        { "date": "2026", "event": "Regulatory review ongoing" }
       ],
-      "outreach_idea": "Lead with lender-group and regulator access management — large infrastructure take-privates need granular permissions without rebuilding setup for each party.",
+      "outreach_idea": "With PCE confirming higher-for-longer rates, lenders are moving faster. Frame the data room as keeping the lender syndicate on pace.",
       "outreach_draft": {
-        "subject": "AES / GIP process — lender & regulator diligence at scale",
-        "body": "Congratulations on the lead advisory role on the AES take-private. A $38B infrastructure process means lender diligence across a large syndicate plus a heavy regulatory documentation load, all on a tight clock.\n\nAt this scale, the data room setup is the difference between a clean process and weeks of manual access management. We help deal teams stand up differentiated permissions for dozens of lenders and regulators without rebuilding the room for each party.\n\nWorth a short conversation as the diligence phase ramps?\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+        "subject": "AES / GIP — keeping lender diligence on pace as rates stay elevated",
+        "body": "This morning's PCE print (4.1%) reinforces what the market already knew: financing windows aren't getting cheaper. For a process the scale of the AES take-private, keeping a large lender syndicate moving in parallel — without access bottlenecks — is where deals stay on timeline.\n\nWorth a brief conversation on how we support lender-group diligence at this scale?\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
       }
     },
     {
@@ -171,67 +153,68 @@
       "sector": "Media / TMT",
       "urgency": "HOT",
       "headline": "Sell-side advisor on Roku's acquisition by FOX",
-      "why_it_matters": "Marquee media sell-sides generate parallel buyer diligence and rotate teams onto fresh mandates quickly. Morgan Stanley's TMT franchise is actively in market.",
+      "why_it_matters": "Marquee media sell-side with parallel buyer diligence. MS TMT franchise is actively rotating onto new mandates — and today's AI-driven market rebound creates momentum for new TMT process launches.",
       "deal_clock": [
         { "date": "Jun 15", "event": "Acquisition announced" },
-        { "date": "2026", "event": "Diligence underway" }
+        { "date": "2026", "event": "Diligence ongoing" }
       ],
-      "outreach_idea": "Reference the Roku process and ask whether the TMT team has parallel mandates opening that would benefit from faster data room deployment.",
+      "outreach_idea": "Micron's blowout reinforces AI TMT deal rationale. Ask if the MS team is seeing new technology M&A mandates open on the back of the print.",
       "outreach_draft": {
-        "subject": "Roku process — supporting your next TMT mandate",
-        "body": "Congratulations on the Roku announcement — a high-profile media sell-side is a strong signal your TMT team is busy and rotating onto the next mandate.\n\nLarge sell-sides generate parallel buyer diligence fast. If the team is running or pitching concurrent processes, the question is whether the current data room setup can support compressed timelines.\n\nAre any of your live TMT processes working on tighter-than-usual clocks given the rate backdrop?\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+        "subject": "TMT deal flow — Micron's print reopens conversations",
+        "body": "After a tough week for tech stocks, Micron's blowout last night changes the tone. AI infrastructure demand is confirmed structural — which tends to unlock M&A conversations that were paused during the selloff.\n\nIs the TMT team seeing any processes coming back to life this week? Happy to talk through how we support fast data room launches when the window opens quickly.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
       }
     },
     {
       "id": "o3",
-      "bank": "Evercore",
-      "sector": "Consumer / Food",
+      "bank": "Bank of America",
+      "sector": "Technology",
       "urgency": "WARM",
-      "headline": "Lead advisor on Jetro Restaurant Depot's $29.1B sale to Sysco",
-      "why_it_matters": "Evercore's volume is up 56% YoY. Completed large mandates mean teams rotating onto new processes — the best moment to be in front of them on infrastructure.",
+      "headline": "BofA raised Micron price target to $1,500 — signaling active AI infrastructure positioning",
+      "why_it_matters": "A $550 PT raise on a down day is a strong signal of BofA's conviction on the AI infrastructure theme. Their technology equity and advisory teams are actively engaged with clients in this space.",
       "deal_clock": [
-        { "date": "Q1 2026", "event": "Evercore named lead advisor" },
-        { "date": "2026", "event": "Pending close" }
+        { "date": "Jun 23", "event": "BofA raises Micron PT to $1,500" },
+        { "date": "Jun 25", "event": "Micron up 14.6% after-hours" }
       ],
-      "outreach_idea": "Congratulate on the Sysco process; ask about concurrent mandates where a cleaner, faster data room launch would help.",
+      "outreach_idea": "Use the Micron call as a reason to connect with BofA TMT and tech advisory on active AI-driven deal mandates.",
       "outreach_draft": {
-        "subject": "Jetro / Sysco — accelerating your next process",
-        "body": "Congratulations on the Jetro / Sysco mandate. With Evercore's volume up sharply this year, I imagine the team is rotating onto new processes quickly.\n\nThat's usually the moment data room infrastructure gets revisited. If you have mandates opening where speed-to-launch matters, I'd welcome a short conversation on how we help teams stand up clean, permissioned rooms fast.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+        "subject": "AI infrastructure M&A — connecting on your active pipeline",
+        "body": "Your team's Micron call last week looks prescient this morning. The AI infrastructure thesis is intact and the deal pipeline it supports — semiconductor consolidation, data-center M&A, AI-native acquisitions — is accelerating.\n\nFor processes in this space, the diligence complexity is high and timelines are tight. I'd welcome a short conversation on how we're supporting these mandates.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
       }
     },
     {
       "id": "o4",
-      "bank": "Jefferies",
-      "sector": "Sponsor Coverage",
+      "bank": "Evercore",
+      "sector": "Consumer / Food",
       "urgency": "WARM",
-      "headline": "Accelerating sponsor activity; shares up 51% on the quarter",
-      "why_it_matters": "A sharp re-rating reflects expectations of faster sponsor deal flow. More sponsor sell-sides means more time-sensitive, repeatable data room needs.",
+      "headline": "Lead advisor on Jetro Restaurant Depot's $29.1B sale to Sysco — pending close",
+      "why_it_matters": "Evercore's volume is up 56% YoY and the Sysco process is approaching close. Teams rotating off completed mandates are the best moment to be in front of them on the next process.",
       "deal_clock": [
-        { "date": "Jun 12", "event": "Co-advised Enliven Therapeutics offering" },
-        { "date": "Q2 2026", "event": "Shares +51%" }
+        { "date": "Q1 2026", "event": "Evercore named lead advisor" },
+        { "date": "2026", "event": "Approaching close" }
       ],
-      "outreach_idea": "Connect with sponsor coverage while momentum is high; pitch fast, template-based room setup for back-to-back sponsor processes.",
+      "outreach_idea": "Congratulate on the approaching close; ask what's opening in their pipeline as this process winds down.",
       "outreach_draft": {
-        "subject": "Sponsor deal flow — fast room setup for back-to-back processes",
-        "body": "Noticed the momentum at Jefferies on the sponsor side this quarter. When sponsor sell-sides come in waves, the bottleneck is often standing up each new data room from scratch.\n\nWe help coverage teams template their setup so each new process launches in hours, not days, with permissions pre-configured for sponsor and buyer groups.\n\nWorth 15 minutes while activity is high?\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+        "subject": "Sysco / Jetro approaching close — what's next in your pipeline?",
+        "body": "With the Jetro / Sysco process approaching close, I imagine the team is already thinking about what's next. With Evercore's volume up sharply this year, the rotation onto new mandates is happening fast.\n\nWould love to connect briefly on how we can help the next process launch clean and fast.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
       }
     }
   ],
   "market_snapshot": {
     "indices": [
-      { "label": "S&P 500", "value": "7,500.58", "change": "+1.08%", "positive": true },
-      { "label": "10Y Treasury", "value": "4.48%", "change": "+2bps", "positive": false },
-      { "label": "US M&A Value YTD", "value": "$1.2T", "change": "+99% vs LY", "positive": true }
+      { "label": "S&P 500",      "value": "7,421.85", "change": "+0.77%",  "positive": true  },
+      { "label": "10Y Treasury", "value": "4.40%",    "change": "-8bps",   "positive": true  },
+      { "label": "WTI Crude",    "value": "$69.89",   "change": "-4.5%",   "positive": true  }
     ],
     "bank_stocks": [],
-    "macro_note": "Markets closed Fri Jun 19 for Juneteenth; values reflect the Jun 18 close. The Fed held rates but turned hawkish — a hike is now priced by October. A US–Iran peace framework is pulling oil lower (WTI ~$75). US M&A value hit $1.2T in five months on a surge in $5B+ megadeals, even as deal count slipped 4% (PwC). Bank-stock quotes refresh with the daily automated update."
+    "macro_note": "Markets rallying Thursday on Micron's blowout Q3 beat ($41.46B revenue, EPS $25.11 — both ~22% above estimates) and falling oil prices. PCE inflation came in at 4.1% YoY this morning — the highest since April 2023 — confirming the Fed's hawkish stance. The 10Y yield has fallen sharply this week as oil prices collapsed on the Iran peace framework. Fed bank stress test results are due after today's close. Bank stock quotes refresh with the daily automated update."
   },
   "talking_point": {
-    "quote": "With the Fed now leaning toward a hike by the fall, are your clients pulling deal timelines forward to lock financing while they can?",
-    "use_with": "Sponsor and corporate advisory clients running live or near-term processes",
-    "context": "The hawkish Fed shift is the macro story of the week. This question reframes rate anxiety into a reason to move now — and a data room that can support a compressed timeline is part of that conversation."
+    "quote": "Micron just confirmed AI infrastructure demand is structural through at least 2027 — which AI-driven M&A conversations are your clients having right now that the market selloff last week may have paused?",
+    "use_with": "TMT advisory clients, PE sponsors with technology holdings, ECM teams with AI-sector mandates",
+    "context": "The Micron blowout is the biggest single data point this week. It reverses the narrative from last week's chip selloff and gives clients a concrete reason to re-engage on AI-related transactions. Pair it with the PCE print to frame urgency: the deal window is open, but financing conditions aren't getting easier."
   },
   "archive": [
+    { "date": "2026-06-22", "edition": 2, "file": "2026-06-22.json" },
     { "date": "2026-06-18", "edition": 1, "file": "2026-06-18.json" }
   ]
 }
