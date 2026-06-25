@@ -204,6 +204,7 @@ function renderStories(allStories) {
               <span class="badge badge-${urgencyType}">${esc(story.urgency)}</span>
               ${myBank ? '<span class="badge badge-your-bank">YOUR BANK</span>' : ''}
               ${isMarket ? '<span class="badge badge-market">MARKET-WIDE</span>' : ''}
+              ${story.confidence ? `<span class="badge badge-conf-${story.confidence.toLowerCase()}" title="${story.confidence === 'Filed' ? 'From an SEC filing — authoritative' : 'From news — verify before quoting'}">${esc(story.confidence.toUpperCase())}</span>` : ''}
             </div>
             <h3 class="card-headline mt-2">${esc(story.headline)}</h3>
           </div>
@@ -222,6 +223,7 @@ function renderStories(allStories) {
           <div class="card-footer">
             <div class="card-footer-left">
               ${story.source_url ? `<a href="${esc(story.source_url)}" target="_blank" rel="noopener" class="source-link">${esc(story.source)} ↗</a>` : ''}
+              ${story.published ? `<span class="source-date">${esc(story.published)}</span>` : ''}
             </div>
             <div class="card-footer-right">
               <button class="btn btn-ghost" onclick="event.stopPropagation(); window._copyTalkingPoint('${esc(story.suggested_action)}')">
