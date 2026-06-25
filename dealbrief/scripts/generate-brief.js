@@ -18,6 +18,7 @@
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
+import { getFiledMandates } from './edgar.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
@@ -43,16 +44,30 @@ const SYSTEM_PROMPT = `You are the lead intelligence analyst for DealBrief, a da
 brief for SS&C Intralinks Account Executives who sell virtual data rooms to investment banks
 running M&A, capital markets, and restructuring processes.
 
-Your job: produce today's brief as a single JSON object. Use web search to find REAL, RECENT
-(last 48 hours) news about investment banking M&A advisory activity. Focus on the banks this
-desk covers:
+Your job: produce today's brief as a single JSON object. Use web search aggressively to find
+REAL news published in the LAST 24 HOURS (today's date is ${TODAY}). Treat anything older than
+48 hours as stale — only include older items if they are still the active story (e.g. a pending
+deal moving to a new stage). Focus on the banks this desk covers:
 
 ${bankNames.join(', ')}
+
+WHERE TO SEARCH (in priority order — run multiple searches, do not stop at one):
+1. Wire services — Business Wire, PR Newswire, GlobeNewswire. Deal announcements appear here
+   first and name the financial advisors in the release. Best fast confirmation.
+2. Reuters and Bloomberg deal/M&A coverage — break most large-cap transactions.
+3. M&A trade desks — ION Analytics / Mergermarket, The Deal, Axios Pro Rata — built for
+   who-is-advising-whom.
+4. The banks' own newsrooms / "recent transactions" pages (e.g. Goldman, Morgan Stanley,
+   Evercore, Houlihan Lokey) — same-day, authoritative on their own mandates.
+5. CNBC, WSJ, FT — for the macro and market-context layer (Fed, rates, market moves).
+
+Run a search for the major active banks by name plus "advised" or "financial advisor", and a
+separate macro search for today's market and Fed news. Aim for breadth across several banks.
 
 For every item, the lens is always: "Does this create a reason for an Intralinks AE to reach
 out to this bank's deal team today?" Tie everything back to data room / diligence / deal-process
 needs. Be specific and factual. Do not invent deals — if you cannot verify a deal via search,
-do not include it.
+do not include it. Every story's source_url must be a real article you actually found in search.
 
 Return ONLY a JSON object (no markdown, no backticks, no preamble) with this exact schema:
 
@@ -73,7 +88,9 @@ Return ONLY a JSON object (no markdown, no backticks, no preamble) with this exa
       "suggested_action": "...",
       "deal_clock": [ { "date": "Jun 19", "event": "..." } ],
       "source": "...",
-      "source_url": "https://..."
+      "source_url": "https://...",
+      "published": "YYYY-MM-DD (the article's publication date)",
+      "confidence": "Filed|Reported"
     }
   ],
   "opportunities": [
@@ -99,11 +116,22 @@ Return ONLY a JSON object (no markdown, no backticks, no preamble) with this exa
 }
 
 Rules:
+- FRESHNESS: set "published" to each article's real publication date. Prioritize items
+  published today or yesterday. Do not include anything older than 48 hours unless it is a
+  still-active deal that advanced to a new stage. Lead with the freshest, highest-impact items.
 - 5 to 8 stories. Tag each "scope": "market" (macro/regulatory, no bank) or "scope": "bank"
   (tied to one covered bank, set "bank" to its exact name).
 - Aim for at least 5 bank-specific stories spread across different banks so coverage filtering
   has variety.
 - 3 to 6 opportunities, each tied to a covered bank, each with a ready-to-send outreach_draft.
+- CONFIDENCE TAGGING: every bank-scoped story must carry a "confidence" field.
+  * Use "Filed" ONLY for mandates that appear in the VERIFIED FILED MANDATES block
+    below (these come from SEC filings and are authoritative — a rep can quote them).
+  * Use "Reported" for anything sourced from news/web search that is not in that block.
+  * Prefer "Filed" mandates first when choosing bank stories. Market-scoped stories
+    may omit confidence.
+- Do NOT relabel a "Reported" item as "Filed". The distinction is the whole point:
+  reps verify "Reported" items before quoting them on a call.
 - Use real market data from search for ticker and market_snapshot. Pull the most recent close
   for major indices (S&P 500, Nasdaq, Dow, Russell 2000), the 10Y and 2Y Treasury yields, VIX,
   and WTI crude, plus current prices for the major bank stocks (GS, MS, JPM, EVR, LAZ, JEF).
@@ -120,6 +148,33 @@ return the JSON object exactly as specified.`;
 async function generate() {
   console.log(`Generating brief for ${TODAY} using ${MODEL}...`);
 
+  // 1) Pull authoritative "Filed" mandates from SEC EDGAR first.
+  //    This never blocks the run — if EDGAR is down, we proceed with
+  //    web-search-only ("Reported") intelligence.
+  let filedBlock = 'VERIFIED FILED MANDATES: (none found in the lookback window)';
+  try {
+    console.log('Querying SEC EDGAR for filed advisor mandates...');
+    const mandates = await getFiledMandates(bankNames, { perBank: 3 });
+    if (mandates.length) {
+      const lines = mandates.map(m =>
+        `- ${m.bank} | ${m.form} | ${m.date} | filer: ${m.title} | ${m.url}`
+      );
+      filedBlock =
+        'VERIFIED FILED MANDATES (authoritative — from SEC EDGAR filings in the last ' +
+        `${process.env.EDGAR_LOOKBACK_DAYS || 30} days). Build "Filed"-tagged bank ` +
+        'stories from these, using the filing URL as the source_url:\n' +
+        lines.join('\n');
+      console.log(`  ✓ EDGAR returned ${mandates.length} filed mandates.`);
+    } else {
+      console.log('  EDGAR returned no mandates in the window.');
+    }
+  } catch (err) {
+    console.warn('  EDGAR lookup failed, continuing with web search only:', err.message);
+  }
+
+  const userPrompt =
+    `${USER_PROMPT}\n\n${filedBlock}`;
+
   const res = await fetch('https://api.anthropic.com/v1/messages', {
     method: 'POST',
     headers: {
@@ -131,7 +186,7 @@ async function generate() {
       model: MODEL,
       max_tokens: 8000,
       system: SYSTEM_PROMPT,
-      messages: [{ role: 'user', content: USER_PROMPT }],
+      messages: [{ role: 'user', content: userPrompt }],
       tools: [{ type: 'web_search_20250305', name: 'web_search' }]
     })
   });
