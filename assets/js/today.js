@@ -3,7 +3,7 @@
    Loads daily.json and renders all sections.
    ============================================================ */
 
-import { fetchData, esc, urgencyToBadgeType, isMyBank, copyToClipboard, formatDate, getPrefs } from './utils.js';
+import { fetchData, fetchDataFresh, isMarketDataFresh, confidenceTooltip, esc, urgencyToBadgeType, isMyBank, copyToClipboard, formatDate, getPrefs } from './utils.js';
 
 let dailyData = null;   // today's brief (the live edition)
 let activeData = null;  // currently displayed brief (today or an archived edition)
@@ -15,9 +15,36 @@ export async function initToday() {
   try {
     dailyData = await fetchData('daily.json');
     renderBrief(dailyData, { archived: false });
+    await loadMarketData();
+    startMarketPolling();
   } catch (err) {
     console.error('Failed to load daily data:', err);
   }
+}
+
+const MARKET_POLL_INTERVAL_MS = 5 * 60 * 1000; // 5 minutes
+
+/**
+ * Fetch data/market.json and, if it's fresher than today's embedded
+ * ticker/market_snapshot, re-render just those two sections.
+ */
+async function loadMarketData() {
+  if (!dailyData) return;
+  try {
+    const market = await fetchDataFresh('market.json');
+    if (isMarketDataFresh(dailyData.date, market.generated_at)) {
+      renderTicker(market.ticker);
+      renderMarketSnapshot(market.market_snapshot);
+    }
+  } catch (err) {
+    // Background enhancement only — fall back silently to daily.json's
+    // already-rendered embedded ticker/market_snapshot.
+  }
+}
+
+/** Start polling data/market.json so an open tab picks up intraday refreshes. */
+function startMarketPolling() {
+  setInterval(loadMarketData, MARKET_POLL_INTERVAL_MS);
 }
 
 /**
@@ -204,7 +231,7 @@ function renderStories(allStories) {
               <span class="badge badge-${urgencyType}">${esc(story.urgency)}</span>
               ${myBank ? '<span class="badge badge-your-bank">YOUR BANK</span>' : ''}
               ${isMarket ? '<span class="badge badge-market">MARKET-WIDE</span>' : ''}
-              ${story.confidence ? `<span class="badge badge-conf-${story.confidence.toLowerCase()}" title="${story.confidence === 'Filed' ? 'From an SEC filing — authoritative' : 'From news — verify before quoting'}">${esc(story.confidence.toUpperCase())}</span>` : ''}
+              ${story.confidence ? `<span class="badge badge-conf-${story.confidence.toLowerCase()}" title="${confidenceTooltip(story.confidence)}">${esc(story.confidence.toUpperCase())}</span>` : ''}
             </div>
             <h3 class="card-headline mt-2">${esc(story.headline)}</h3>
           </div>
@@ -302,6 +329,7 @@ function renderOpportunities(opps) {
             <div class="card-badges">
               <span class="badge badge-${urgencyType}">${esc(opp.urgency)}</span>
               ${myBank ? '<span class="badge badge-your-bank">YOUR BANK</span>' : ''}
+              ${opp.confidence ? `<span class="badge badge-conf-${opp.confidence.toLowerCase()}" title="${confidenceTooltip(opp.confidence)}">${esc(opp.confidence.toUpperCase())}</span>` : ''}
             </div>
             <div class="mt-2 flex items-center gap-2" style="flex-wrap:wrap;gap:6px;">
               <span class="opp-card-bank">${esc(opp.bank)}</span>
@@ -323,7 +351,10 @@ function renderOpportunities(opps) {
             <div class="card-section-text">${esc(opp.outreach_idea)}</div>
           </div>
           <div class="card-footer">
-            <div class="card-footer-left"></div>
+            <div class="card-footer-left">
+              ${opp.source_url ? `<a href="${esc(opp.source_url)}" target="_blank" rel="noopener" class="source-link">${esc(opp.source)} ↗</a>` : ''}
+              ${opp.published ? `<span class="source-date">${esc(opp.published)}</span>` : ''}
+            </div>
             <div class="card-footer-right">
               <button class="btn btn-primary" onclick="event.stopPropagation(); window._openOutreachModal('${esc(opp.id)}')">
                 ✉ View Outreach Draft
