@@ -1,0 +1,46 @@
+name: Update Market Snapshot
+
+# Runs 3x on weekdays: market open, midday, and close (times are ET,
+# expressed as fixed UTC — same simplification the existing daily-brief
+# workflow uses, not adjusted for daylight saving).
+#   9:35 AM ET  -> 14:35 UTC
+#  12:30 PM ET  -> 17:30 UTC
+#   4:15 PM ET  -> 21:15 UTC
+on:
+  schedule:
+    - cron: '35 14 * * 1-5'
+    - cron: '30 17 * * 1-5'
+    - cron: '15 21 * * 1-5'
+  workflow_dispatch:          # Manual "Run workflow" button
+
+permissions:
+  contents: write
+
+jobs:
+  update-market:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Generate market.json
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node scripts/generate-market.js
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name  "DealBrief Bot"
+          git config user.email "actions@github.com"
+          git add data/market.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Market snapshot: $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
