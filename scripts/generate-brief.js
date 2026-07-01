@@ -15,7 +15,8 @@
    No external npm packages — uses Node 20's built-in fetch.
    ============================================================ */
 
-import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
+import { readFileSync, writeFileSync, mkdirSync, readdirSync } from 'node:fs';
+import { recentlyCoveredBanks, pickRotationPriority, dropUnsourcedSpeculative } from './brief-helpers.js';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 import { getFiledMandates } from './edgar.js';
@@ -36,6 +37,21 @@ const TODAY = new Date().toISOString().slice(0, 10);
 const banks = JSON.parse(readFileSync(join(ROOT, 'data/banks.json'), 'utf8')).banks;
 const bankNames = banks.map(b => b.name);
 
+// ── Read recent archive editions to steer bank rotation ────────
+// Bulge brackets stay the default priority, but smaller banks not
+// covered in the last few editions get an explicit rotation slot
+// so they aren't crowded out day after day.
+let rotation = { bulgeBracket: [], dueForCoverage: [] };
+try {
+  const archiveDir = join(ROOT, 'data/archive');
+  const files = readdirSync(archiveDir).filter(f => f.endsWith('.json')).sort().slice(-5);
+  const recentEditions = files.map(f => JSON.parse(readFileSync(join(archiveDir, f), 'utf8')));
+  const covered = recentlyCoveredBanks(recentEditions);
+  rotation = pickRotationPriority(banks, covered);
+} catch (err) {
+  console.warn('Could not read archive for bank rotation, proceeding without it:', err.message);
+}
+
 // ── The Daily Intelligence Prompt ──────────────────────────────
 // This is the editorial brief Claude follows. Tune the wording here
 // to change tone, focus, or selection logic — it's the one place
@@ -51,6 +67,12 @@ deal moving to a new stage). Focus on the banks this desk covers:
 
 ${bankNames.join(', ')}
 
+BANK ROTATION: bulge bracket banks (${rotation.bulgeBracket.join(', ')}) are the default priority —
+they realistically have the most daily deal activity. But you MUST include at least 1-2 stories
+and at least 1 opportunity from these currently under-covered smaller banks, favoring ones that
+haven't appeared in recent editions: ${rotation.dueForCoverage.join(', ')}. Smaller banks deserve
+a real, recurring presence — don't let bulge brackets crowd them out entirely.
+
 WHERE TO SEARCH (in priority order — run multiple searches, do not stop at one):
 1. Wire services — Business Wire, PR Newswire, GlobeNewswire. Deal announcements appear here
    first and name the financial advisors in the release. Best fast confirmation.
@@ -60,14 +82,19 @@ WHERE TO SEARCH (in priority order — run multiple searches, do not stop at one
 4. The banks' own newsrooms / "recent transactions" pages (e.g. Goldman, Morgan Stanley,
    Evercore, Houlihan Lokey) — same-day, authoritative on their own mandates.
 5. CNBC, WSJ, FT — for the macro and market-context layer (Fed, rates, market moves).
+6. For SPECULATIVE pipeline items: rumor-reporting coverage (e.g. "sources say", "exploring
+   strategic alternatives", "hired an adviser") from Reuters, Bloomberg, or trade press.
 
-Run a search for the major active banks by name plus "advised" or "financial advisor", and a
-separate macro search for today's market and Fed news. Aim for breadth across several banks.
+Run a search for the major active banks by name plus "advised" or "financial advisor", a
+separate macro search for today's market and Fed news, and a rumor/pipeline search per the
+rotation list above. Aim for breadth across several banks.
 
 For every item, the lens is always: "Does this create a reason for an Intralinks AE to reach
 out to this bank's deal team today?" Tie everything back to data room / diligence / deal-process
-needs. Be specific and factual. Do not invent deals — if you cannot verify a deal via search,
-do not include it. Every story's source_url must be a real article you actually found in search.
+needs. Be specific and factual. Do not invent deals — if you cannot verify a claim via search,
+do not include it. Every story's and every opportunity's source_url must be a real article you
+actually found in search; if you can't back an item with a real, checkable link, drop it rather
+than include it.
 
 Return ONLY a JSON object (no markdown, no backticks, no preamble) with this exact schema:
 
@@ -90,7 +117,7 @@ Return ONLY a JSON object (no markdown, no backticks, no preamble) with this exa
       "source": "...",
       "source_url": "https://...",
       "published": "YYYY-MM-DD (the article's publication date)",
-      "confidence": "Filed|Reported"
+      "confidence": "Filed|Reported|Speculative"
     }
   ],
   "opportunities": [
@@ -103,7 +130,11 @@ Return ONLY a JSON object (no markdown, no backticks, no preamble) with this exa
       "why_it_matters": "...",
       "deal_clock": [ { "date": "...", "event": "..." } ],
       "outreach_idea": "...",
-      "outreach_draft": { "subject": "...", "body": "..." }
+      "outreach_draft": { "subject": "...", "body": "..." },
+      "source": "...",
+      "source_url": "https://...",
+      "published": "YYYY-MM-DD (the article's publication date)",
+      "confidence": "Filed|Reported|Speculative"
     }
   ],
   "market_snapshot": {
@@ -119,19 +150,25 @@ Rules:
 - FRESHNESS: set "published" to each article's real publication date. Prioritize items
   published today or yesterday. Do not include anything older than 48 hours unless it is a
   still-active deal that advanced to a new stage. Lead with the freshest, highest-impact items.
-- 5 to 8 stories. Tag each "scope": "market" (macro/regulatory, no bank) or "scope": "bank"
+- 10 to 14 stories. Tag each "scope": "market" (macro/regulatory, no bank) or "scope": "bank"
   (tied to one covered bank, set "bank" to its exact name).
-- Aim for at least 5 bank-specific stories spread across different banks so coverage filtering
-  has variety.
-- 3 to 6 opportunities, each tied to a covered bank, each with a ready-to-send outreach_draft.
-- CONFIDENCE TAGGING: every bank-scoped story must carry a "confidence" field.
+- Aim for at least 8 bank-specific stories spread across different banks, per the BANK ROTATION
+  instruction above, so coverage filtering has real variety.
+- 6 to 10 opportunities, each tied to a covered bank, each with a ready-to-send outreach_draft
+  AND a real source/source_url/published — an opportunity with no verifiable link must be dropped.
+- CONFIDENCE TAGGING: every bank-scoped story and every opportunity must carry a "confidence"
+  field.
   * Use "Filed" ONLY for mandates that appear in the VERIFIED FILED MANDATES block
     below (these come from SEC filings and are authoritative — a rep can quote them).
-  * Use "Reported" for anything sourced from news/web search that is not in that block.
+  * Use "Reported" for anything sourced from confirmed news/web search that is not in that block.
+  * Use "Speculative" ONLY when backed by a real article that itself reports the rumor or
+    speculation (e.g. "sources say", "exploring a sale", "hired an adviser") — never from your
+    own inference alone. A "Speculative" item still requires a real, checkable source_url.
   * Prefer "Filed" mandates first when choosing bank stories. Market-scoped stories
     may omit confidence.
-- Do NOT relabel a "Reported" item as "Filed". The distinction is the whole point:
-  reps verify "Reported" items before quoting them on a call.
+- Do NOT relabel a "Reported" item as "Filed", or an unsourced guess as "Speculative". The
+  distinction is the whole point: reps verify "Reported" and "Speculative" items before quoting
+  them on a call, and "Speculative" items should be framed to the rep as unconfirmed.
 - Use real market data from search for ticker and market_snapshot. Pull the most recent close
   for major indices (S&P 500, Nasdaq, Dow, Russell 2000), the 10Y and 2Y Treasury yields, VIX,
   and WTI crude, plus current prices for the major bank stocks (GS, MS, JPM, EVR, LAZ, JEF).
@@ -225,6 +262,12 @@ async function generate() {
   if (!Array.isArray(brief.stories) || brief.stories.length === 0) {
     throw new Error('Generated brief has no stories.');
   }
+
+  // Drop any Speculative-tagged item that isn't backed by a real source —
+  // an unsourced rumor must never ship.
+  const cleaned = dropUnsourcedSpeculative(brief);
+  brief.stories = cleaned.stories;
+  brief.opportunities = cleaned.opportunities;
 
   // Preserve/auto-increment the edition number, and archive the prior edition.
   try {
