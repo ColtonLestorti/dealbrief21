@@ -140,3 +140,43 @@ export function toggleCard(card) {
 export function expandCard(card) {
   card.classList.add('expanded');
 }
+
+/**
+ * Fetch a JSON file from the data directory, bypassing HTTP/CDN caches.
+ * Use for data that refreshes intraday (e.g. market.json polling).
+ * @param {string} file — filename, e.g. "market.json"
+ * @returns {Promise<object>}
+ */
+export async function fetchDataFresh(file) {
+  const res = await fetch(`data/${file}?t=${Date.now()}`, { cache: 'no-store' });
+  if (!res.ok) throw new Error(`Failed to load ${file}`);
+  return res.json();
+}
+
+/**
+ * Decide whether intraday market.json data is fresher than daily.json's
+ * embedded ticker/market_snapshot. market.json only wins if it was
+ * actually regenerated today — otherwise it may hold yesterday's
+ * afternoon data, which is staler than a same-morning daily.json.
+ * @param {string} dailyDate — daily.json's "date" field, e.g. "2026-07-01"
+ * @param {string} marketGeneratedAt — market.json's "generated_at" ISO timestamp
+ * @returns {boolean}
+ */
+export function isMarketDataFresh(dailyDate, marketGeneratedAt) {
+  if (!dailyDate || !marketGeneratedAt) return false;
+  return marketGeneratedAt.slice(0, 10) === dailyDate;
+}
+
+/**
+ * Map a story/opportunity confidence tag to its tooltip explanation.
+ * @param {string} confidence — 'Filed' | 'Reported' | 'Speculative'
+ * @returns {string}
+ */
+export function confidenceTooltip(confidence) {
+  const map = {
+    Filed: 'From an SEC filing — authoritative',
+    Reported: 'From news — verify before quoting',
+    Speculative: 'Rumored/unconfirmed — verify before quoting on a call'
+  };
+  return map[confidence] || 'From news — verify before quoting';
+}
