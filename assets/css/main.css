@@ -611,6 +611,24 @@ ul, ol { list-style: none; }
   border: 1px solid rgba(138, 148, 166, 0.2);
 }
 
+.badge-conf-filed {
+  background: rgba(74, 144, 201, 0.10);
+  color: #4A90C9;
+  border: 1px solid rgba(74, 144, 201, 0.25);
+}
+
+.badge-conf-reported {
+  background: rgba(138, 148, 166, 0.10);
+  color: var(--text-secondary);
+  border: 1px solid rgba(138, 148, 166, 0.2);
+}
+
+.badge-conf-speculative {
+  background: rgba(155, 111, 201, 0.12);
+  color: #9B6FC9;
+  border: 1px solid rgba(155, 111, 201, 0.25);
+}
+
 /* Context line under section headers explaining the active filter */
 .section-context {
   font-size: var(--text-sm);
