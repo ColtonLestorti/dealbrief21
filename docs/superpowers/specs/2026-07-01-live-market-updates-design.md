@@ -49,8 +49,8 @@ New:
 ### Front-end integration
 
 - `today.js` fetches `daily.json` first (stories, opportunities, talking point, and its embedded `ticker`/`market_snapshot` as a same-day fallback).
-- It then fetches `data/market.json`; if present, its `ticker`/`market_snapshot` override the daily.json-embedded versions for display.
-- A polling timer (~every 5 minutes) re-fetches `data/market.json` (cache-busted with a `?t=` query param) while the tab is open, re-rendering only the ticker and market-snapshot sections — stories/opportunities and scroll position are untouched.
+- It then fetches `data/market.json`. **Freshness check before overriding:** only use `market.json`'s `ticker`/`market_snapshot` if its `generated_at` date matches `daily.json`'s `date` field (i.e. it's actually been refreshed today). Otherwise — e.g. in the ~6:00–9:35 AM window before the first intraday refresh has run, when `market.json` would still hold *yesterday's* 4:15 PM data — keep using `daily.json`'s embedded ticker, since that was just generated fresh at 6 AM and is newer than a stale prior-day `market.json`.
+- A polling timer (~every 5 minutes) re-fetches `data/market.json` (cache-busted with a `?t=` query param) while the tab is open, re-running the same freshness check and re-rendering only the ticker and market-snapshot sections — stories/opportunities and scroll position are untouched.
 - If the fetch 404s or fails (e.g. before the workflow has ever run, or a transient network error), fall back silently to `daily.json`'s embedded data. No error shown to the rep — this is a background enhancement, not a critical path.
 
 ## Content Rigor, Volume & Speculation (changes to `generate-brief.js`)
