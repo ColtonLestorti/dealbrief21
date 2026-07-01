@@ -1,0 +1,41 @@
+name: Generate Daily Brief
+
+# Runs every weekday at 6:00 AM Eastern (11:00 UTC).
+# Also runnable on demand from the Actions tab.
+on:
+  schedule:
+    - cron: '0 11 * * 1-5'   # Mon–Fri, 11:00 UTC
+  workflow_dispatch:          # Manual "Run workflow" button
+
+# Allow the workflow to commit the regenerated JSON back to the repo.
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Generate daily.json
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node scripts/generate-brief.js
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name  "DealBrief Bot"
+          git config user.email "actions@github.com"
+          git add data/daily.json data/archive
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Daily brief: $(date -u +%Y-%m-%d)"
+            git push
+          fi
