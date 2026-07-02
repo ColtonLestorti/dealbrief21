@@ -1,0 +1,144 @@
+{
+  "ticker": [
+    {
+      "label": "S&P 500",
+      "value": "7,499.58",
+      "change": "+0.22 (+0.00%)",
+      "positive": true
+    },
+    {
+      "label": "Nasdaq",
+      "value": "26,122.29",
+      "change": "-91.43 (-0.35%)",
+      "positive": false
+    },
+    {
+      "label": "Dow",
+      "value": "52,346.90",
+      "change": "+27.70 (+0.05%)",
+      "positive": true
+    },
+    {
+      "label": "Russell 2000",
+      "value": "3,028.03",
+      "change": "+3.66 (+0.12%)",
+      "positive": true
+    },
+    {
+      "label": "VIX",
+      "value": "16.40",
+      "change": "-0.05 (-0.30%)",
+      "positive": false
+    },
+    {
+      "label": "10Y Treasury",
+      "value": "4.481%",
+      "change": "+6 bps",
+      "positive": false
+    },
+    {
+      "label": "2Y Treasury",
+      "value": "4.176%",
+      "change": "+4 bps",
+      "positive": false
+    },
+    {
+      "label": "WTI Crude",
+      "value": "$68.25",
+      "change": "-0.48 (-0.48%)",
+      "positive": false
+    }
+  ],
+  "market_snapshot": {
+    "indices": [
+      {
+        "label": "S&P 500",
+        "value": "7,499.58",
+        "change": "+0.22 (+0.00%)",
+        "positive": true
+      },
+      {
+        "label": "Nasdaq",
+        "value": "26,122.29",
+        "change": "-91.43 (-0.35%)",
+        "positive": false
+      },
+      {
+        "label": "Dow",
+        "value": "52,346.90",
+        "change": "+27.70 (+0.05%)",
+        "positive": true
+      },
+      {
+        "label": "Russell 2000",
+        "value": "3,028.03",
+        "change": "+3.66 (+0.12%)",
+        "positive": true
+      },
+      {
+        "label": "VIX",
+        "value": "16.40",
+        "change": "-0.05 (-0.30%)",
+        "positive": false
+      },
+      {
+        "label": "10Y Treasury",
+        "value": "4.481%",
+        "change": "+6 bps",
+        "positive": false
+      },
+      {
+        "label": "2Y Treasury",
+        "value": "4.176%",
+        "change": "+4 bps",
+        "positive": false
+      },
+      {
+        "label": "WTI Crude",
+        "value": "$68.25",
+        "change": "-0.48 (-0.48%)",
+        "positive": false
+      }
+    ],
+    "bank_stocks": [
+      {
+        "ticker": "GS",
+        "price": "$1,022.11",
+        "change": "-3.53%",
+        "positive": false
+      },
+      {
+        "ticker": "MS",
+        "price": "$213.00",
+        "change": "-3.64%",
+        "positive": false
+      },
+      {
+        "ticker": "JPM",
+        "price": "$333.97",
+        "change": "+2.03%",
+        "positive": true
+      },
+      {
+        "ticker": "EVR",
+        "price": "$342.02",
+        "change": "-0.12%",
+        "positive": false
+      },
+      {
+        "ticker": "LAZ",
+        "price": "$47.44",
+        "change": "-0.29%",
+        "positive": false
+      },
+      {
+        "ticker": "JEF",
+        "price": "$53.15",
+        "change": "+0.32%",
+        "positive": true
+      }
+    ],
+    "macro_note": "Markets are mixed on July 2 as a weaker-than-expected June jobs report raises hopes of Fed restraint, while Treasury yields remain elevated near 4.48% after Fed Chair Warsh reiterated inflation concerns, and falling crude oil prices — driven by surging Hormuz shipments and US-Iran peace progress — ease energy inflation fears."
+  },
+  "generated_at": "2026-07-02T17:41:09.892Z"
+}
