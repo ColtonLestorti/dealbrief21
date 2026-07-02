@@ -222,7 +222,7 @@ async function generate() {
     },
     body: JSON.stringify({
       model: MODEL,
-      max_tokens: 8000,
+      max_tokens: 14000,
       system: SYSTEM_PROMPT,
       messages: [{ role: 'user', content: userPrompt }],
       tools: [{ type: 'web_search_20250305', name: 'web_search' }]
