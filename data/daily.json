@@ -156,6 +156,42 @@
       "published": "2026-05-17",
       "confidence": "Speculative",
       "tags": ["technology", "consumer"]
+    },
+    {
+      "id": "s9",
+      "category": "M&A",
+      "urgency": "MEDIUM",
+      "scope": "bank",
+      "bank": "Guggenheim Securities",
+      "headline": "Guggenheim Securities advises Merck KGaA on its $11.3B acquisition of Bio-Techne",
+      "why_it_matters": "Guggenheim Securities and J.P. Morgan are financial advisors to Merck KGaA, Darmstadt, Germany, on its definitive agreement to acquire Bio-Techne (Nasdaq: TECH) for $11.3B in cash — Merck's largest acquisition since the $17B Sigma-Aldrich deal in 2014. This is Guggenheim's first appearance in this desk's recent coverage — a real, current mandate on a sizeable cross-border life-sciences deal.",
+      "suggested_action": "Open a conversation with Guggenheim's life sciences M&A team about diligence support for the Bio-Techne acquisition as it moves toward close.",
+      "deal_clock": [
+        { "date": "Jun 25, 2026", "event": "Merck KGaA agrees to acquire Bio-Techne for $11.3B" }
+      ],
+      "source": "PR Newswire",
+      "source_url": "https://www.prnewswire.com/news-releases/merck-kgaa-darmstadt-germany-agrees-to-acquire-bio-techne-strengthening-leadership-position-in-fast-growing-life-sciences-markets-302810602.html",
+      "published": "2026-06-25",
+      "confidence": "Reported",
+      "tags": ["healthcare", "life-sciences", "cross-border"]
+    },
+    {
+      "id": "s10",
+      "category": "M&A",
+      "urgency": "MEDIUM",
+      "scope": "bank",
+      "bank": "Goldman Sachs",
+      "headline": "Goldman Sachs is exclusive sell-side advisor to Bio-Techne on its $11.3B sale to Merck KGaA",
+      "why_it_matters": "Goldman Sachs & Co. LLC is acting as exclusive financial advisor to Bio-Techne on the Merck KGaA acquisition — a real, current sell-side mandate on one of the largest life-sciences deals of the year, distinct from Goldman's earlier-covered megadeal work.",
+      "suggested_action": "Reconnect with Goldman's life sciences coverage team on the Bio-Techne sell-side process specifically — a fresh, deal-specific angle for re-engagement.",
+      "deal_clock": [
+        { "date": "Jun 25, 2026", "event": "Goldman Sachs named exclusive advisor to Bio-Techne" }
+      ],
+      "source": "PR Newswire",
+      "source_url": "https://www.prnewswire.com/news-releases/merck-kgaa-darmstadt-germany-agrees-to-acquire-bio-techne-strengthening-leadership-position-in-fast-growing-life-sciences-markets-302810602.html",
+      "published": "2026-06-25",
+      "confidence": "Reported",
+      "tags": ["healthcare", "life-sciences"]
     }
   ],
   "opportunities": [
@@ -279,6 +315,46 @@
         "source_url": "https://www.prnewswire.com/news-releases/gopro-board-of-directors-announces-review-of-strategic-alternatives-302768658.html",
         "published": "2026-05-17",
         "confidence": "Speculative"
+      }
+    },
+    {
+      "id": "o7",
+      "bank": "Guggenheim Securities",
+      "sector": "Healthcare / Life Sciences",
+      "urgency": "HOT",
+      "headline": "Advising Merck KGaA on its $11.3B acquisition of Bio-Techne",
+      "why_it_matters": "A real, current mandate on Merck KGaA's largest acquisition since 2014 — a sizeable cross-border life-sciences deal, and Guggenheim's first appearance in this desk's recent coverage.",
+      "deal_clock": [
+        { "date": "Jun 25, 2026", "event": "Merck KGaA agrees to acquire Bio-Techne for $11.3B" }
+      ],
+      "outreach_idea": "Open with the Bio-Techne mandate directly — a live, cross-border life-sciences megadeal is a strong, current reason to engage Guggenheim's coverage team.",
+      "outreach_draft": {
+        "subject": "Guggenheim's role on the Merck KGaA / Bio-Techne deal",
+        "body": "Congratulations on Guggenheim's advisory role for Merck KGaA on the Bio-Techne acquisition — a sizeable, cross-border life-sciences mandate. Would welcome a conversation on how we support diligence coordination as the deal moves toward close.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies",
+        "source": "PR Newswire",
+        "source_url": "https://www.prnewswire.com/news-releases/merck-kgaa-darmstadt-germany-agrees-to-acquire-bio-techne-strengthening-leadership-position-in-fast-growing-life-sciences-markets-302810602.html",
+        "published": "2026-06-25",
+        "confidence": "Reported"
+      }
+    },
+    {
+      "id": "o8",
+      "bank": "Goldman Sachs",
+      "sector": "Healthcare / Life Sciences",
+      "urgency": "WARM",
+      "headline": "Exclusive sell-side advisor to Bio-Techne on its $11.3B sale to Merck KGaA",
+      "why_it_matters": "A fresh, deal-specific sell-side mandate on one of the largest life-sciences deals of the year — a distinct angle from Goldman's other coverage this quarter.",
+      "deal_clock": [
+        { "date": "Jun 25, 2026", "event": "Goldman Sachs named exclusive advisor to Bio-Techne" }
+      ],
+      "outreach_idea": "Reconnect with Goldman's life sciences coverage team specifically on the Bio-Techne sell-side process.",
+      "outreach_draft": {
+        "subject": "Goldman's role on the Bio-Techne sale",
+        "body": "Noted Goldman Sachs' role as exclusive advisor to Bio-Techne on its sale to Merck KGaA. Given the scale and cross-border complexity of this deal, would welcome a conversation on diligence support through close.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies",
+        "source": "PR Newswire",
+        "source_url": "https://www.prnewswire.com/news-releases/merck-kgaa-darmstadt-germany-agrees-to-acquire-bio-techne-strengthening-leadership-position-in-fast-growing-life-sciences-markets-302810602.html",
+        "published": "2026-06-25",
+        "confidence": "Reported"
       }
     }
   ],
