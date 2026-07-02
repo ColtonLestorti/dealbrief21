@@ -1,7 +1,7 @@
 {
   "date": "2026-07-02",
   "edition": 4,
-  "lens": "A weak June jobs report just sent the Dow to a record close even as semiconductors post their worst two-day skid in a month and Tesla sinks despite a delivery beat — while the Street's biggest live advisory engagement, Paramount's $110.9B Warner Bros. Discovery acquisition, keeps Centerview, Citi, BofA, JPMorgan, and Evercore all active on one mega-deal heading into its Q3 close.",
+  "lens": "A weak June jobs report just sent the Dow to a record close even as semiconductors post their worst two-day skid in a month — and Blackstone-backed Jersey Mike's just filed its IPO with Morgan Stanley, Jefferies, and JPMorgan as bookrunners, a fresh, same-day signal that the listings pipeline is heating up.",
   "ticker": [
     { "label": "S&P 500",     "value": "7,505.49",  "change": "+0.08%",  "positive": true  },
     { "label": "NASDAQ",      "value": "26,143.39", "change": "-0.27%",  "positive": false },
@@ -68,13 +68,48 @@
     },
     {
       "id": "s4",
-      "category": "M&A",
+      "category": "DEALS",
       "urgency": "HIGH",
+      "scope": "market",
+      "headline": "Blackstone-backed Jersey Mike's Subs files IPO S-1 today, targeting a ~$12B valuation",
+      "why_it_matters": "Jersey Mike's Subs Inc. filed its Form S-1 with the SEC today, applying to list on the NYSE under ticker JMKE. Revenue grew to $724M in 2025 (+11% YoY). Morgan Stanley, Jefferies, and J.P. Morgan are named as global coordinators and joint bookrunners. A same-day, sponsor-backed IPO filing of this size is a concrete signal the listings pipeline is reopening after a quiet stretch.",
+      "suggested_action": "Use this filing as a live, current example when pitching IPO-readiness data room infrastructure to sponsor-backed issuers weighing a 2026 listing.",
+      "deal_clock": [
+        { "date": "Jul 2, 2026", "event": "Jersey Mike's Subs files Form S-1; targets ~$12B valuation" }
+      ],
+      "source": "SEC EDGAR",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/0002127043/000119312526293830/ck0002127043-20260702.htm",
+      "published": "2026-07-02",
+      "confidence": "Filed",
+      "tags": ["consumer", "ipo", "ecm"]
+    },
+    {
+      "id": "s5",
+      "category": "M&A",
+      "urgency": "MEDIUM",
+      "scope": "bank",
+      "bank": "JPMorgan",
+      "headline": "JPMorgan named joint bookrunner on Jersey Mike's Subs' IPO filed today",
+      "why_it_matters": "JPMorgan is one of three global coordinators and joint bookrunners — alongside Morgan Stanley and Jefferies — on Jersey Mike's Subs' Form S-1, filed with the SEC today. A live, same-day ECM mandate on a ~$12B-target consumer IPO is a timely, concrete reason to engage JPMorgan's ECM desk on diligence infrastructure for the roadshow and offering process ahead.",
+      "suggested_action": "Reach out to JPMorgan's ECM coverage team about the Jersey Mike's offering specifically — early engagement on data room setup pays off once the roadshow timeline compresses.",
+      "deal_clock": [
+        { "date": "Jul 2, 2026", "event": "JPMorgan named joint bookrunner on Jersey Mike's S-1" }
+      ],
+      "source": "SEC EDGAR",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/0002127043/000119312526293830/ck0002127043-20260702.htm",
+      "published": "2026-07-02",
+      "confidence": "Filed",
+      "tags": ["consumer", "ipo", "ecm"]
+    },
+    {
+      "id": "s6",
+      "category": "M&A",
+      "urgency": "MEDIUM",
       "scope": "bank",
       "bank": "Centerview Partners",
-      "headline": "Centerview and RedBird lead Paramount's $110.9B acquisition of Warner Bros. Discovery",
-      "why_it_matters": "Centerview Partners and RedBird Advisors are the lead financial advisors to Paramount Skydance on its $110.9B all-cash acquisition of Warner Bros. Discovery — described as the biggest all-cash deal in corporate history. The transaction is unanimously approved by both boards and expected to close in Q3 2026, subject to regulatory clearance and a WBD shareholder vote. Centerview's lead role on the single largest live media deal in the market is a marquee diligence-intensity signal for an elite boutique not otherwise on this desk's radar this quarter.",
-      "suggested_action": "Open a conversation with Centerview's media/TMT coverage team about diligence infrastructure for the WBD integration workstream — a deal at this scale and multi-advisor complexity is the highest-value data room use case on the Street right now.",
+      "headline": "Centerview and RedBird remain lead advisors on Paramount's pending $110.9B WBD acquisition",
+      "why_it_matters": "Centerview Partners and RedBird Advisors are the lead financial advisors to Paramount Skydance on its $110.9B all-cash acquisition of Warner Bros. Discovery — the biggest all-cash deal in corporate history, still working toward its Q3 2026 close pending regulatory clearance and a WBD shareholder vote. This remains one of the largest live, active advisory engagements on the Street, even though the advisor lineup itself was confirmed back in March — Centerview hasn't otherwise appeared in this desk's recent coverage.",
+      "suggested_action": "Open a conversation with Centerview's media/TMT coverage team about diligence infrastructure for the WBD integration workstream as the deal moves through its final stretch toward close.",
       "deal_clock": [
         { "date": "Feb 27, 2026", "event": "Paramount/WBD definitive agreement announced ($110.9B)" },
         { "date": "Q3 2026", "event": "Expected close, subject to regulatory clearance and WBD shareholder vote" }
@@ -84,44 +119,6 @@
       "published": "2026-03-02",
       "confidence": "Reported",
       "tags": ["media", "tmt", "cross-border"]
-    },
-    {
-      "id": "s5",
-      "category": "M&A",
-      "urgency": "MEDIUM",
-      "scope": "bank",
-      "bank": "Citi",
-      "headline": "Citi is one of four additional advisors to Paramount on the WBD mega-merger",
-      "why_it_matters": "Alongside lead advisors Centerview and RedBird, Citi is named as an additional financial advisor to Paramount on the Warner Bros. Discovery acquisition, together with Bank of America Securities, M. Klein & Company, and LionTree Advisors. A live role on the largest all-cash deal in corporate history is a strong, current reason to engage Citi's M&A coverage — a bank this desk hasn't touched in recent editions.",
-      "suggested_action": "Reconnect with Citi's media and TMT M&A team on the WBD process — a multi-advisor mega-deal of this complexity typically means parallel diligence workstreams across every advisor on the cap table.",
-      "deal_clock": [
-        { "date": "Feb 27, 2026", "event": "Named as Paramount advisor on the WBD deal" },
-        { "date": "Q3 2026", "event": "Expected close" }
-      ],
-      "source": "Canadian Lawyer",
-      "source_url": "https://www.canadianlawyermag.com/news/international/leading-us-firms-confirm-roles-in-watershed-us110-billion-paramount-warner-bros-discovery-merger/393786",
-      "published": "2026-03-02",
-      "confidence": "Reported",
-      "tags": ["media", "tmt", "banking"]
-    },
-    {
-      "id": "s6",
-      "category": "M&A",
-      "urgency": "MEDIUM",
-      "scope": "bank",
-      "bank": "JPMorgan",
-      "headline": "JPMorgan advises Warner Bros. Discovery on Paramount's $110.9B bid",
-      "why_it_matters": "JPMorgan is one of three advisors to Warner Bros. Discovery — alongside Allen & Company and Evercore — on the Paramount acquisition. Sell-side advisory on a deal of this size means WBD-side diligence (disclosure schedules, carve-out planning, regulatory documentation) running in parallel with Paramount's own workstream through Q3 close.",
-      "suggested_action": "Check in with JPMorgan's media coverage team on WBD-side diligence support needs as the deal moves toward its Q3 close and shareholder vote.",
-      "deal_clock": [
-        { "date": "Feb 27, 2026", "event": "Named as WBD advisor on the Paramount deal" },
-        { "date": "Q3 2026", "event": "Expected close" }
-      ],
-      "source": "Canadian Lawyer",
-      "source_url": "https://www.canadianlawyermag.com/news/international/leading-us-firms-confirm-roles-in-watershed-us110-billion-paramount-warner-bros-discovery-merger/393786",
-      "published": "2026-03-02",
-      "confidence": "Reported",
-      "tags": ["media", "tmt"]
     },
     {
       "id": "s7",
@@ -164,82 +161,79 @@
   "opportunities": [
     {
       "id": "o1",
-      "bank": "Centerview Partners",
-      "sector": "Media / TMT",
+      "bank": "Morgan Stanley",
+      "sector": "Consumer / ECM",
       "urgency": "HOT",
-      "headline": "Lead advisor on Paramount's $110.9B acquisition of Warner Bros. Discovery",
-      "why_it_matters": "The single largest live media deal in the market, with a Q3 2026 close target. Lead-advisor role on a deal of this scale means sustained, high-intensity diligence work through closing — and Centerview hasn't appeared in this desk's coverage before.",
+      "headline": "Global coordinator and joint bookrunner on Jersey Mike's Subs' IPO, filed today",
+      "why_it_matters": "A same-day, live ECM mandate — Morgan Stanley is a lead bookrunner on a sponsor-backed consumer IPO targeting a ~$12B valuation. Roadshow prep and diligence infrastructure needs typically ramp fast once an S-1 is public.",
       "deal_clock": [
-        { "date": "Feb 27, 2026", "event": "Deal announced; Centerview + RedBird named lead advisors" },
-        { "date": "Q3 2026", "event": "Expected close" }
+        { "date": "Jul 2, 2026", "event": "Jersey Mike's S-1 filed; Morgan Stanley named global coordinator" }
       ],
-      "outreach_idea": "Open with the scale of the WBD mandate — a deal this size, with five named advisors across both sides, is the clearest possible case for coordinated, permissioned data room infrastructure.",
+      "outreach_idea": "Reach out to Morgan Stanley's ECM desk on the Jersey Mike's offering specifically while it's fresh — early diligence infrastructure conversations pay off once the roadshow timeline compresses.",
       "outreach_draft": {
-        "subject": "Congratulations on the WBD mandate — supporting diligence through Q3 close",
-        "body": "Congratulations on Centerview's lead role in the Paramount / Warner Bros. Discovery transaction — genuinely one of the largest and most complex media deals on record. With five financial advisors across both sides and a Q3 close target, keeping diligence access clean and audit-ready across every workstream is where processes at this scale stay on schedule.\n\nWould welcome a short conversation on how we can support your team through closing.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies",
-        "source": "Canadian Lawyer",
-        "source_url": "https://www.canadianlawyermag.com/news/international/leading-us-firms-confirm-roles-in-watershed-us110-billion-paramount-warner-bros-discovery-merger/393786",
-        "published": "2026-03-02",
-        "confidence": "Reported"
+        "subject": "Jersey Mike's IPO — supporting the offering process",
+        "body": "Saw today's S-1 filing for Jersey Mike's Subs — congratulations on the global coordinator role. As the offering moves toward a roadshow, would welcome a conversation on how we support diligence access for a process on this timeline.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies",
+        "source": "SEC EDGAR",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/0002127043/000119312526293830/ck0002127043-20260702.htm",
+        "published": "2026-07-02",
+        "confidence": "Filed"
       }
     },
     {
       "id": "o2",
-      "bank": "Citi",
-      "sector": "Media / TMT",
-      "urgency": "WARM",
-      "headline": "Advising Paramount alongside Centerview on the Warner Bros. Discovery acquisition",
-      "why_it_matters": "A live role on the year's marquee media mega-deal is a strong, timely reason to engage — Citi hasn't been part of this desk's recent coverage rotation.",
+      "bank": "Jefferies",
+      "sector": "Consumer / ECM",
+      "urgency": "HOT",
+      "headline": "Joint bookrunner on Jersey Mike's Subs' IPO, filed today",
+      "why_it_matters": "Jefferies is named alongside Morgan Stanley and JPMorgan as a joint bookrunner on a sponsor-backed consumer IPO filed with the SEC today — a live, current ECM engagement worth reaching out on now.",
       "deal_clock": [
-        { "date": "Feb 27, 2026", "event": "Named as Paramount advisor on the WBD deal" },
-        { "date": "Q3 2026", "event": "Expected close" }
+        { "date": "Jul 2, 2026", "event": "Jersey Mike's S-1 filed; Jefferies named joint bookrunner" }
       ],
-      "outreach_idea": "Reference Citi's advisory role on the WBD deal directly — a live mandate on the largest all-cash deal in corporate history opens the door for a diligence-support conversation.",
+      "outreach_idea": "Congratulate Jefferies' ECM team on the mandate and open a conversation on diligence support for the offering process.",
       "outreach_draft": {
-        "subject": "Citi's role on the Paramount / WBD deal — diligence support through close",
-        "body": "Noted Citi's advisory role alongside Centerview on the Paramount / Warner Bros. Discovery transaction — a deal of genuinely historic scale. As the process moves toward its Q3 close, I'd welcome a conversation on how we support multi-advisor diligence coordination on mandates this size.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies",
-        "source": "Canadian Lawyer",
-        "source_url": "https://www.canadianlawyermag.com/news/international/leading-us-firms-confirm-roles-in-watershed-us110-billion-paramount-warner-bros-discovery-merger/393786",
-        "published": "2026-03-02",
-        "confidence": "Reported"
+        "subject": "Jersey Mike's IPO — Jefferies' bookrunner role",
+        "body": "Congratulations on Jefferies' role as joint bookrunner on today's Jersey Mike's Subs S-1 filing. Happy to talk through how we support diligence access as the offering moves forward.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies",
+        "source": "SEC EDGAR",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/0002127043/000119312526293830/ck0002127043-20260702.htm",
+        "published": "2026-07-02",
+        "confidence": "Filed"
       }
     },
     {
       "id": "o3",
-      "bank": "Bank of America",
-      "sector": "Media / TMT",
+      "bank": "JPMorgan",
+      "sector": "Consumer / ECM",
       "urgency": "WARM",
-      "headline": "Advising Paramount on the Warner Bros. Discovery acquisition",
-      "why_it_matters": "One of four additional Paramount advisors on the WBD mega-deal, alongside Citi, M. Klein & Company, and LionTree — a live, high-profile mandate as the deal heads toward Q3 close.",
+      "headline": "Joint bookrunner on Jersey Mike's Subs' IPO, filed today",
+      "why_it_matters": "A live, same-day ECM mandate on a sponsor-backed consumer IPO — a fresh, deal-specific reason to engage JPMorgan's ECM desk beyond standing coverage.",
       "deal_clock": [
-        { "date": "Feb 27, 2026", "event": "Named as Paramount advisor on the WBD deal" },
-        { "date": "Q3 2026", "event": "Expected close" }
+        { "date": "Jul 2, 2026", "event": "Jersey Mike's S-1 filed; JPMorgan named joint bookrunner" }
       ],
-      "outreach_idea": "Connect with BofA's media coverage team on the WBD mandate specifically — a fresh, deal-specific reason to re-engage beyond the standing Micron/TMT conversation.",
+      "outreach_idea": "Ask JPMorgan's ECM team what diligence support needs look like as the Jersey Mike's roadshow approaches.",
       "outreach_draft": {
-        "subject": "BofA's role on the Paramount / WBD deal",
-        "body": "Following BofA Securities' advisory role on the Paramount / Warner Bros. Discovery transaction — a landmark deal heading toward a Q3 close. Happy to discuss how we support diligence coordination across a mandate with this many moving pieces.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies",
-        "source": "Canadian Lawyer",
-        "source_url": "https://www.canadianlawyermag.com/news/international/leading-us-firms-confirm-roles-in-watershed-us110-billion-paramount-warner-bros-discovery-merger/393786",
-        "published": "2026-03-02",
-        "confidence": "Reported"
+        "subject": "Jersey Mike's IPO — JPMorgan's bookrunner role",
+        "body": "Noted JPMorgan's role as joint bookrunner on today's Jersey Mike's Subs S-1. As the offering moves toward a roadshow, would welcome a conversation on diligence infrastructure support.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies",
+        "source": "SEC EDGAR",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/0002127043/000119312526293830/ck0002127043-20260702.htm",
+        "published": "2026-07-02",
+        "confidence": "Filed"
       }
     },
     {
       "id": "o4",
-      "bank": "JPMorgan",
+      "bank": "Centerview Partners",
       "sector": "Media / TMT",
       "urgency": "WARM",
-      "headline": "Advising Warner Bros. Discovery on Paramount's $110.9B acquisition",
-      "why_it_matters": "Sell-side advisor to WBD alongside Allen & Company and Evercore — the WBD side of the deal carries its own heavy diligence load (disclosure schedules, carve-out planning) through the Q3 close.",
+      "headline": "Lead advisor on Paramount's pending $110.9B acquisition of Warner Bros. Discovery",
+      "why_it_matters": "Still one of the largest live media deals in the market, working toward a Q3 2026 close. Lead-advisor role on a deal of this scale means sustained diligence work through closing — and Centerview hasn't appeared in this desk's coverage before.",
       "deal_clock": [
-        { "date": "Feb 27, 2026", "event": "Named as WBD advisor on the Paramount deal" },
+        { "date": "Feb 27, 2026", "event": "Deal announced; Centerview + RedBird named lead advisors" },
         { "date": "Q3 2026", "event": "Expected close" }
       ],
-      "outreach_idea": "Ask JPMorgan's media coverage team what WBD-side diligence support needs look like heading into the shareholder vote and close.",
+      "outreach_idea": "Open with the scale of the WBD mandate as it approaches its final stretch toward close — a deal this size is the clearest possible case for coordinated diligence infrastructure.",
       "outreach_draft": {
-        "subject": "JPMorgan / WBD — diligence support heading into close",
-        "body": "Following JPMorgan's advisory role for Warner Bros. Discovery on the Paramount transaction. As the deal heads toward its Q3 close and shareholder vote, would welcome a conversation on supporting the WBD-side diligence workstream.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies",
+        "subject": "Congratulations on the WBD mandate — supporting diligence through Q3 close",
+        "body": "Congratulations on Centerview's lead role in the Paramount / Warner Bros. Discovery transaction. With a Q3 close target approaching, keeping diligence access clean and audit-ready across every workstream is where processes at this scale stay on schedule.\n\nWould welcome a short conversation on how we can support your team through closing.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies",
         "source": "Canadian Lawyer",
         "source_url": "https://www.canadianlawyermag.com/news/international/leading-us-firms-confirm-roles-in-watershed-us110-billion-paramount-warner-bros-discovery-merger/393786",
         "published": "2026-03-02",
@@ -248,22 +242,22 @@
     },
     {
       "id": "o5",
-      "bank": "Evercore",
-      "sector": "Media / TMT",
+      "bank": "Houlihan Lokey",
+      "sector": "Energy",
       "urgency": "WARM",
-      "headline": "Advising Warner Bros. Discovery alongside JPMorgan and Allen & Company",
-      "why_it_matters": "A third advisor role on the WBD side of the largest all-cash deal in corporate history — Evercore's team is deep in a live, complex sell-side process through Q3 close.",
+      "headline": "Acquiring energy-advisory boutique Intrepid Financial Partners — integration opportunity",
+      "why_it_matters": "HL's bolt-on acquisition of Intrepid closes by September 30. Bringing Intrepid's active energy mandates onto a common diligence platform during integration is a concrete, timely infrastructure conversation.",
       "deal_clock": [
-        { "date": "Feb 27, 2026", "event": "Named as WBD advisor on the Paramount deal" },
-        { "date": "Q3 2026", "event": "Expected close" }
+        { "date": "Jun 27, 2026", "event": "Deal signed" },
+        { "date": "Sep 30, 2026", "event": "Expected close" }
       ],
-      "outreach_idea": "Reconnect with Evercore's media team specifically on the WBD mandate — a fresh, deal-specific angle distinct from the earlier Sysco/Jetro conversation.",
+      "outreach_idea": "Congratulate HL on the Intrepid acquisition and offer to support standardizing Intrepid's active deal book onto HL's existing infrastructure during integration.",
       "outreach_draft": {
-        "subject": "Evercore's WBD mandate — supporting the sell-side workstream",
-        "body": "Noted Evercore's advisory role for Warner Bros. Discovery on the Paramount transaction. Given the scale and multi-advisor complexity of this deal, I'd welcome a short conversation on how we support the WBD-side diligence process through close.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies",
-        "source": "Canadian Lawyer",
-        "source_url": "https://www.canadianlawyermag.com/news/international/leading-us-firms-confirm-roles-in-watershed-us110-billion-paramount-warner-bros-discovery-merger/393786",
-        "published": "2026-03-02",
+        "subject": "Congratulations on the Intrepid acquisition",
+        "body": "Congratulations on Houlihan Lokey's agreement to acquire Intrepid Financial Partners. As you plan the integration of Intrepid's active energy mandates, would welcome a conversation on standardizing diligence infrastructure across the combined platform.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies",
+        "source": "Business Wire",
+        "source_url": "https://www.businesswire.com/news/home/20260630315767/en/Houlihan-Lokey-to-Acquire-Intrepid-Financial-Partners",
+        "published": "2026-06-30",
         "confidence": "Reported"
       }
     },
@@ -300,9 +294,9 @@
     "macro_note": "A soft June jobs report (57K vs. 115K est.) pushed the Dow to a record close as September rate-hike odds fell off the table, even as semiconductors posted their worst two-day selloff in a month (SOXX -12% over two sessions) and Tesla sank 7.3% despite beating delivery estimates. Bank stock quotes refresh with the intraday market-update automation."
   },
   "talking_point": {
-    "quote": "The Paramount/WBD deal has five named financial advisors across both sides on the single largest all-cash deal in corporate history — if your bank isn't already in that conversation, what's the next mega-deal your team is positioning for?",
-    "use_with": "Media/TMT advisory clients, boards evaluating strategic reviews, teams on multi-advisor mega-deals",
-    "context": "The WBD deal's advisor lineup (Centerview, RedBird, BofA, Citi, M. Klein, LionTree for Paramount; Allen & Co, JPMorgan, Evercore for WBD) is the clearest live example of how many workstreams a single mega-deal generates. Pair it with today's jobs-driven Dow record to frame urgency: financing conditions just eased a notch, and the biggest deal on the Street is proof the market can still absorb megadeals even during a volatile week for tech."
+    "quote": "Jersey Mike's just filed its S-1 today targeting a ~$12B valuation — with the Fed's hike pressure easing after this morning's jobs miss, is this the first of more sponsor-backed consumer names testing the IPO window this quarter?",
+    "use_with": "ECM teams, sponsor coverage, consumer/retail advisory clients",
+    "context": "A same-day IPO filing is the freshest, most concrete signal in today's brief — real-time proof the listings pipeline is moving, not a lagging indicator. Pair it with today's softer jobs report to frame urgency: financing conditions just eased a notch, which is exactly the kind of backdrop that emboldens sponsors to test the public markets."
   },
   "archive": [
     { "date": "2026-06-25", "edition": 3, "file": "2026-06-25.json" },
