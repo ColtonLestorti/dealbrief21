@@ -20,6 +20,7 @@ import { recentlyCoveredBanks, pickRotationPriority, dropUnsourcedSpeculative } 
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 import { getFiledMandates } from './edgar.js';
+import { extractJsonFromModelText } from './json-extract.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
@@ -242,14 +243,11 @@ async function generate() {
     .join('')
     .trim();
 
-  // Strip any stray code fences just in case.
-  const clean = text.replace(/^```json\s*/i, '').replace(/```\s*$/i, '').trim();
-
   let brief;
   try {
-    brief = JSON.parse(clean);
+    brief = extractJsonFromModelText(text);
   } catch (err) {
-    console.error('Failed to parse JSON from model output. Raw text:\n', clean.slice(0, 1000));
+    console.error('Failed to parse JSON from model output. Raw text:\n', text.slice(0, 1000));
     throw err;
   }
 

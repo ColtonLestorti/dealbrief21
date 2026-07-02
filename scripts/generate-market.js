@@ -13,6 +13,7 @@
 import { writeFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
+import { extractJsonFromModelText } from './json-extract.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
@@ -96,13 +97,12 @@ async function generate() {
 
   const data = await res.json();
   const text = data.content.filter(b => b.type === 'text').map(b => b.text).join('').trim();
-  const clean = text.replace(/^```json\s*/i, '').replace(/```\s*$/i, '').trim();
 
   let market;
   try {
-    market = JSON.parse(clean);
+    market = extractJsonFromModelText(text);
   } catch (err) {
-    console.error('Failed to parse JSON from model output. Raw text:\n', clean.slice(0, 1000));
+    console.error('Failed to parse JSON from model output. Raw text:\n', text.slice(0, 1000));
     throw err;
   }
 
