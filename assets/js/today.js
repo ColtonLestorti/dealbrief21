@@ -30,6 +30,9 @@ const MARKET_POLL_INTERVAL_MS = 5 * 60 * 1000; // 5 minutes
  */
 async function loadMarketData() {
   if (!dailyData) return;
+  // Don't clobber an archived edition's ticker/snapshot with today's live
+  // market data — only refresh while the live edition is what's shown.
+  if (activeData !== dailyData) return;
   try {
     const market = await fetchDataFresh('market.json');
     if (isMarketDataFresh(dailyData.date, market.generated_at)) {
