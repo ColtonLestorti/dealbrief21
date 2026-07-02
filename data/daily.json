@@ -1,7 +1,7 @@
 {
   "date": "2026-07-02",
   "edition": 4,
-  "lens": "A weak June jobs report just sent the Dow to a record close even as semiconductors post their worst two-day skid in a month — and Blackstone-backed Jersey Mike's just filed its IPO with Morgan Stanley, Jefferies, and JPMorgan as bookrunners, a fresh, same-day signal that the listings pipeline is heating up.",
+  "lens": "A weak June jobs report just sent the Dow to a record close even as semiconductors post their worst two-day skid in a month — and today's Jersey Mike's IPO filing, last month's SpaceX megaIPO, and live mandates spanning Guggenheim, PJT, William Blair, and Piper Sandler show real deal activity across every tier of the Street, not just the usual bulge-bracket names.",
   "ticker": [
     { "label": "S&P 500",     "value": "7,505.49",  "change": "+0.08%",  "positive": true  },
     { "label": "NASDAQ",      "value": "26,143.39", "change": "-0.27%",  "positive": false },
@@ -192,6 +192,97 @@
       "published": "2026-06-25",
       "confidence": "Reported",
       "tags": ["healthcare", "life-sciences"]
+    },
+    {
+      "id": "s11",
+      "category": "DEALS",
+      "urgency": "HIGH",
+      "scope": "market",
+      "headline": "SpaceX's IPO — history's largest — closed with a nine-bank underwriting syndicate",
+      "why_it_matters": "SpaceX priced its Nasdaq IPO (ticker SPCX) at $135/share on June 11, raising roughly $86B at a ~$1.77T valuation — the largest IPO ever. Goldman Sachs led as lead-left bookrunner with Morgan Stanley as stabilization agent; Barclays, Deutsche Bank, UBS, Wells Fargo, RBC Capital Markets, Citi, and Bank of America all served as joint bookrunners. A syndicate this large, on a deal of this scale, is the clearest possible illustration of coordinated multi-bank diligence infrastructure.",
+      "suggested_action": "Reference the SpaceX IPO syndicate structure when pitching any bank on multi-party ECM diligence coordination — it's the highest-profile recent example of exactly that need.",
+      "deal_clock": [
+        { "date": "Jun 11, 2026", "event": "SpaceX IPO priced at $135/share (~$86B raised)" },
+        { "date": "Jun 12, 2026", "event": "SPCX begins trading on Nasdaq" }
+      ],
+      "source": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/06/12/spacex-ipo-spcx-live-updates.html",
+      "published": "2026-06-12",
+      "confidence": "Reported",
+      "tags": ["ipo", "ecm", "aerospace"]
+    },
+    {
+      "id": "s12",
+      "category": "M&A",
+      "urgency": "MEDIUM",
+      "scope": "bank",
+      "bank": "Citi",
+      "headline": "Citi is a joint bookrunner on the SpaceX IPO — history's largest",
+      "why_it_matters": "Citi served as one of the joint bookrunners on SpaceX's ~$86B IPO, the largest in history. A live role on a deal of this scale and profile is a strong, current reason to engage — distinct from Citi's other coverage this quarter.",
+      "suggested_action": "Reconnect with Citi's ECM desk specifically on the SpaceX syndicate role — a marquee, recent mandate worth referencing directly.",
+      "deal_clock": [
+        { "date": "Jun 11, 2026", "event": "SpaceX IPO priced; Citi named joint bookrunner" }
+      ],
+      "source": "SEC EDGAR (424(b)(4))",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026042639/spaceexplorationtechnologi.htm",
+      "published": "2026-06-11",
+      "confidence": "Filed",
+      "tags": ["ipo", "ecm"]
+    },
+    {
+      "id": "s13",
+      "category": "RESTRUCTURING",
+      "urgency": "MEDIUM",
+      "scope": "bank",
+      "bank": "PJT Partners",
+      "headline": "PJT Partners is investment banker to TPx Communications in its Chapter 11 case",
+      "why_it_matters": "TPx Communications (U.S. TelePacific Corp.) filed Chapter 11 on June 28. PJT ran a prepetition sale process — contacting 65 potential buyers and receiving 9 bids — before the recapitalization path was chosen. Multi-party sale processes of this scale generate exactly the kind of tiered, auditable diligence access restructuring engagements need.",
+      "suggested_action": "Connect with PJT's restructuring team on the TPx case specifically — a live Chapter 11 mandate with a documented multi-bidder process is a strong, current reason to engage.",
+      "deal_clock": [
+        { "date": "Jun 28, 2026", "event": "TPx Communications files Chapter 11" }
+      ],
+      "source": "TPx Communications",
+      "source_url": "https://www.tpx.com/press-release/tpx-announces-agreement-to-strengthen-financial-position-and-accelerate-growth/",
+      "published": "2026-06-28",
+      "confidence": "Filed",
+      "tags": ["restructuring", "telecom"]
+    },
+    {
+      "id": "s14",
+      "category": "M&A",
+      "urgency": "MEDIUM",
+      "scope": "bank",
+      "bank": "William Blair",
+      "headline": "William Blair advises Thoma Bravo on strategic growth investment in padoa",
+      "why_it_matters": "William Blair is financial advisor to Thoma Bravo on its pending strategic growth investment in padoa, alongside padoa's co-founders and existing shareholders Five Arrows and Kamet Ventures. Expected to close H2 2026 — a live, current mandate for a middle-market bank not otherwise in this desk's recent coverage.",
+      "suggested_action": "Reach out to William Blair's sponsor coverage team about the padoa investment as it moves toward close in H2 2026.",
+      "deal_clock": [
+        { "date": "Jun 24, 2026", "event": "Thoma Bravo investment in padoa announced" },
+        { "date": "H2 2026", "event": "Expected close" }
+      ],
+      "source": "William Blair",
+      "source_url": "https://www.williamblair.com/News/Thoma-Bravo-and-padoa-Transaction",
+      "published": "2026-06-24",
+      "confidence": "Reported",
+      "tags": ["technology", "private-equity"]
+    },
+    {
+      "id": "s15",
+      "category": "BANKING",
+      "urgency": "LOW",
+      "scope": "bank",
+      "bank": "Piper Sandler",
+      "headline": "Piper Sandler advises on a $2.4B-asset community bank merger of equals",
+      "why_it_matters": "Piper Sandler served as financial advisor and provided a fairness opinion to National Capital Bancorp in its merger of equals with ODNB Financial Corporation, creating a ~$2.4B-asset bank headquartered in Washington, D.C. A live, recently-announced mandate for a bank not otherwise in this desk's coverage this quarter.",
+      "suggested_action": "Connect with Piper Sandler's FIG coverage team on the NACB/ODNB merger as integration diligence work ramps up.",
+      "deal_clock": [
+        { "date": "Jun 15, 2026", "event": "NACB/ODNB merger of equals announced" }
+      ],
+      "source": "PR Newswire",
+      "source_url": "https://www.prnewswire.com/news-releases/odnb-financial-corporation-and-national-capital-bancorp-inc-announce-merger-of-equals-creating-a-top-tier-community-bank-headquartered-in-washington-dc-with-approximately-2-4-billion-in-total-assets-302800229.html",
+      "published": "2026-06-15",
+      "confidence": "Reported",
+      "tags": ["banking", "fig"]
     }
   ],
   "opportunities": [
@@ -354,6 +445,107 @@
         "source": "PR Newswire",
         "source_url": "https://www.prnewswire.com/news-releases/merck-kgaa-darmstadt-germany-agrees-to-acquire-bio-techne-strengthening-leadership-position-in-fast-growing-life-sciences-markets-302810602.html",
         "published": "2026-06-25",
+        "confidence": "Reported"
+      }
+    },
+    {
+      "id": "o9",
+      "bank": "Citi",
+      "sector": "Aerospace / ECM",
+      "urgency": "HOT",
+      "headline": "Joint bookrunner on the SpaceX IPO — history's largest",
+      "why_it_matters": "A role on the largest IPO in history (~$86B raised) is the most prominent live mandate on the Street right now — a strong, current reason to engage Citi's ECM desk.",
+      "deal_clock": [
+        { "date": "Jun 11, 2026", "event": "SpaceX IPO priced; Citi named joint bookrunner" }
+      ],
+      "outreach_idea": "Reference Citi's role in the SpaceX syndicate directly — a marquee, recent mandate that opens the door for an ECM diligence-support conversation.",
+      "outreach_draft": {
+        "subject": "Citi's role on the SpaceX IPO",
+        "body": "Congratulations on Citi's role in the SpaceX IPO syndicate — a truly historic offering. Would welcome a conversation on how we support multi-bank ECM diligence coordination on mandates of this scale.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies",
+        "source": "SEC EDGAR (424(b)(4))",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026042639/spaceexplorationtechnologi.htm",
+        "published": "2026-06-11",
+        "confidence": "Filed"
+      }
+    },
+    {
+      "id": "o10",
+      "bank": "Barclays",
+      "sector": "Aerospace / ECM",
+      "urgency": "WARM",
+      "headline": "Joint bookrunner on the SpaceX IPO — history's largest",
+      "why_it_matters": "A role on the largest IPO ever is a fresh, high-profile reason to engage Barclays' ECM coverage team — a bank not otherwise in this desk's recent rotation.",
+      "deal_clock": [
+        { "date": "Jun 11, 2026", "event": "SpaceX IPO priced; Barclays named joint bookrunner" }
+      ],
+      "outreach_idea": "Open with Barclays' role in the SpaceX syndicate — a marquee, recent mandate worth a direct reference.",
+      "outreach_draft": {
+        "subject": "Barclays' role on the SpaceX IPO",
+        "body": "Noted Barclays' role in the SpaceX IPO syndicate — a historic offering. Would welcome a conversation on how we support diligence coordination across large, multi-bank ECM mandates like this one.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies",
+        "source": "SEC EDGAR (424(b)(4))",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026042639/spaceexplorationtechnologi.htm",
+        "published": "2026-06-11",
+        "confidence": "Filed"
+      }
+    },
+    {
+      "id": "o11",
+      "bank": "PJT Partners",
+      "sector": "Telecom / Restructuring",
+      "urgency": "WARM",
+      "headline": "Investment banker to TPx Communications in its Chapter 11 case",
+      "why_it_matters": "A live restructuring mandate with a documented, multi-bidder prepetition sale process (65 buyers contacted, 9 bids) — exactly the kind of tiered, auditable access restructuring engagements need.",
+      "deal_clock": [
+        { "date": "Jun 28, 2026", "event": "TPx Communications files Chapter 11" }
+      ],
+      "outreach_idea": "Connect with PJT's restructuring team on the TPx case — reference the scale of the prepetition process as a concrete diligence-infrastructure angle.",
+      "outreach_draft": {
+        "subject": "PJT / TPx Communications — supporting the restructuring process",
+        "body": "Following PJT's role as investment banker to TPx Communications in its Chapter 11 case. Given the scale of the prepetition sale process, would welcome a conversation on diligence infrastructure support going forward.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies",
+        "source": "TPx Communications",
+        "source_url": "https://www.tpx.com/press-release/tpx-announces-agreement-to-strengthen-financial-position-and-accelerate-growth/",
+        "published": "2026-06-28",
+        "confidence": "Filed"
+      }
+    },
+    {
+      "id": "o12",
+      "bank": "William Blair",
+      "sector": "Technology / Private Equity",
+      "urgency": "WARM",
+      "headline": "Advising Thoma Bravo on strategic growth investment in padoa",
+      "why_it_matters": "A live, current sponsor mandate expected to close H2 2026 — a fresh reason to engage William Blair's sponsor coverage team.",
+      "deal_clock": [
+        { "date": "Jun 24, 2026", "event": "Thoma Bravo investment in padoa announced" },
+        { "date": "H2 2026", "event": "Expected close" }
+      ],
+      "outreach_idea": "Reach out to William Blair's sponsor coverage team on the padoa investment as it moves toward close.",
+      "outreach_draft": {
+        "subject": "William Blair / Thoma Bravo — padoa investment",
+        "body": "Noted William Blair's advisory role on Thoma Bravo's investment in padoa. As the deal moves toward its H2 close, would welcome a conversation on diligence support.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies",
+        "source": "William Blair",
+        "source_url": "https://www.williamblair.com/News/Thoma-Bravo-and-padoa-Transaction",
+        "published": "2026-06-24",
+        "confidence": "Reported"
+      }
+    },
+    {
+      "id": "o13",
+      "bank": "Piper Sandler",
+      "sector": "Financial Institutions",
+      "urgency": "WARM",
+      "headline": "Advised National Capital Bancorp on its merger of equals with ODNB Financial",
+      "why_it_matters": "A live, recently-announced FIG mandate creating a $2.4B-asset combined bank — a fresh reason to engage Piper Sandler's FIG coverage team as integration diligence work ramps up.",
+      "deal_clock": [
+        { "date": "Jun 15, 2026", "event": "NACB/ODNB merger of equals announced" }
+      ],
+      "outreach_idea": "Connect with Piper Sandler's FIG team on integration diligence needs for the NACB/ODNB merger.",
+      "outreach_draft": {
+        "subject": "Piper Sandler / NACB-ODNB merger",
+        "body": "Congratulations on Piper Sandler's advisory role in the National Capital Bancorp / ODNB Financial merger of equals. As integration planning ramps up, would welcome a conversation on diligence infrastructure support.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies",
+        "source": "PR Newswire",
+        "source_url": "https://www.prnewswire.com/news-releases/odnb-financial-corporation-and-national-capital-bancorp-inc-announce-merger-of-equals-creating-a-top-tier-community-bank-headquartered-in-washington-dc-with-approximately-2-4-billion-in-total-assets-302800229.html",
+        "published": "2026-06-15",
         "confidence": "Reported"
       }
     }
