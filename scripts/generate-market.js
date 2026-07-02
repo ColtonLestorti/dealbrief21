@@ -10,15 +10,14 @@
    Run in CI:     handled by .github/workflows/market-update.yml
    ============================================================ */
 
-import { writeFileSync } from 'node:fs';
+import { writeFileSync, mkdirSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 import { extractJsonFromModelText } from './json-extract.js';
+import { MODEL } from './model.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
-
-const MODEL = 'claude-sonnet-4-6';
 
 const SYSTEM_PROMPT = `You produce a single JSON object with the current market snapshot for a
 banking sales-intelligence tool. Use web search to find REAL, current market data. Return ONLY a
@@ -113,6 +112,7 @@ async function generate() {
 
   market.generated_at = new Date().toISOString();
 
+  mkdirSync(join(ROOT, 'data'), { recursive: true });
   writeFileSync(join(ROOT, 'data/market.json'), JSON.stringify(market, null, 2) + '\n');
   console.log(`✓ Wrote data/market.json — generated_at ${market.generated_at}`);
 }

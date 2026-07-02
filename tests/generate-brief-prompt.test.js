@@ -15,8 +15,11 @@ test('prompt defines the Speculative confidence tier with a real-source requirem
 });
 
 test('prompt requires opportunities to carry source fields', () => {
-  assert.match(source, /"source_url"/);
-  assert.match(source, /"published"/);
+  const opportunitiesBlock = source.match(/"opportunities":\s*\[[\s\S]*?\](?=,\s*\n\s*"market_snapshot")/);
+  assert.ok(opportunitiesBlock, 'expected an "opportunities" schema block before "market_snapshot"');
+  assert.match(opportunitiesBlock[0], /"source_url"/);
+  assert.match(opportunitiesBlock[0], /"published"/);
+  assert.match(opportunitiesBlock[0], /"confidence"/);
 });
 
 test('generate-brief.js wires in the bank-rotation and speculative-drop helpers', () => {

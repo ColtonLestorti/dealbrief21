@@ -21,6 +21,7 @@ import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 import { getFiledMandates } from './edgar.js';
 import { extractJsonFromModelText } from './json-extract.js';
+import { MODEL } from './model.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
@@ -31,7 +32,6 @@ if (!API_KEY) {
   process.exit(1);
 }
 
-const MODEL = 'claude-sonnet-4-6';
 const TODAY = new Date().toISOString().slice(0, 10);
 
 // ── Load the coverage universe so the brief targets real banks ──
@@ -42,16 +42,18 @@ const bankNames = banks.map(b => b.name);
 // Bulge brackets stay the default priority, but smaller banks not
 // covered in the last few editions get an explicit rotation slot
 // so they aren't crowded out day after day.
-let rotation = { bulgeBracket: [], dueForCoverage: [] };
+let covered = new Set();
 try {
   const archiveDir = join(ROOT, 'data/archive');
   const files = readdirSync(archiveDir).filter(f => f.endsWith('.json')).sort().slice(-5);
   const recentEditions = files.map(f => JSON.parse(readFileSync(join(archiveDir, f), 'utf8')));
-  const covered = recentlyCoveredBanks(recentEditions);
-  rotation = pickRotationPriority(banks, covered);
+  covered = recentlyCoveredBanks(recentEditions);
 } catch (err) {
   console.warn('Could not read archive for bank rotation, proceeding without it:', err.message);
 }
+// bulgeBracket is derived purely from banks.json, so it's always computed
+// correctly even when the archive read above fails.
+const rotation = pickRotationPriority(banks, covered);
 
 // ── The Daily Intelligence Prompt ──────────────────────────────
 // This is the editorial brief Claude follows. Tune the wording here

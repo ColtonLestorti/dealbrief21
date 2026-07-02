@@ -718,6 +718,12 @@ ul, ol { list-style: none; }
   border-color: var(--bg-elevated);
 }
 
+.source-date {
+  font-size: var(--text-xs);
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+}
+
 /* ── Opportunity Cards ────────────────────────────────────── */
 .opp-card-bank {
   font-size: var(--text-sm);
