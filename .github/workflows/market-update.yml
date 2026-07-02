@@ -30,7 +30,7 @@ jobs:
 
       - name: Generate market.json
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.CLAUDEAPI }}
         run: node scripts/generate-market.js
 
       - name: Commit and push if changed

@@ -25,7 +25,7 @@ jobs:
 
       - name: Generate daily.json
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.CLAUDEAPI }}
         run: node scripts/generate-brief.js
 
       - name: Commit and push if changed
