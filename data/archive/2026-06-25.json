@@ -1,0 +1,216 @@
+{
+  "date": "2026-06-25",
+  "edition": 3,
+  "lens": "Micron's blowout earnings just confirmed AI infrastructure demand is structurally stronger than anyone modeled — while PCE hit 4.1%, its highest since 2023, keeping a Fed rate hike firmly on the table. Two forces pulling in opposite directions: a resilient deal market and tightening financing conditions.",
+  "ticker": [
+    { "label": "S&P 500",     "value": "7,421.85",  "change": "+0.77%",  "positive": true  },
+    { "label": "NASDAQ",      "value": "25,783.52",  "change": "+0.77%",  "positive": true  },
+    { "label": "DOW",         "value": "52,226.45",  "change": "+1.08%",  "positive": true  },
+    { "label": "RUSSELL 2000","value": "3,014.07",   "change": "+1.30%",  "positive": true  },
+    { "label": "10Y",         "value": "4.40%",      "change": "-8bps",   "positive": true  },
+    { "label": "2Y",          "value": "4.15%",      "change": "-5bps",   "positive": true  },
+    { "label": "VIX",         "value": "18.26",      "change": "-6.3%",   "positive": true  },
+    { "label": "WTI CRUDE",   "value": "$69.89",     "change": "-4.5%",   "positive": true  },
+    { "label": "US M&A VOL",  "value": "$1.2T YTD",  "change": "+99% vs LY", "positive": true }
+  ],
+  "stories": [
+    {
+      "id": "s1",
+      "category": "MACRO",
+      "urgency": "HIGH",
+      "scope": "market",
+      "headline": "May PCE hits 4.1% — highest since April 2023 — locking in the case for a Fed hike",
+      "why_it_matters": "The Fed's preferred inflation gauge came in at 4.1% year-over-year this morning, with core PCE at 3.4%. Both were in line with estimates but confirm that inflation remains well above the 2% target — reinforcing Warsh's hawkish posture and keeping a fall rate hike firmly priced. Deutsche Bank now projects two hikes this year. Deals modeled on rate cuts need to be repriced.",
+      "suggested_action": "Open conversations about deal timing with clients who are still modeling lower financing costs. The PCE print today is a concrete reason to accelerate timelines, not wait.",
+      "deal_clock": [
+        { "date": "Jun 17", "event": "FOMC holds; hawkish tone" },
+        { "date": "Jun 25", "event": "PCE 4.1% YoY — highest since Apr 2023" },
+        { "date": "Jul 28", "event": "Next FOMC decision" }
+      ],
+      "source": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/06/25/pce-inflation-report-may-2026-.html",
+      "tags": ["leveraged-finance", "macro"]
+    },
+    {
+      "id": "s2",
+      "category": "MACRO",
+      "urgency": "HIGH",
+      "scope": "market",
+      "headline": "Micron's $41.5B blowout confirms AI infrastructure demand is structural, not cyclical",
+      "why_it_matters": "Micron reported $41.46B in revenue (16% above estimates) and EPS of $25.11 (22.5% above estimates). HBM memory is fully booked and supply-constrained through 2027. Markets are up sharply this morning on the print. For advisory clients, this is confirmation that AI-driven M&A — data center build-outs, semiconductor consolidation, AI-native acquisitions — has years of runway. Deals that looked expensive last year look strategic now.",
+      "suggested_action": "Use the Micron beat to restart conversations with TMT clients about AI-driven strategic rationale. The AI infrastructure thesis just got its biggest single-quarter data point.",
+      "deal_clock": [
+        { "date": "Jun 24 AH", "event": "Micron Q3 2026: $41.46B rev, EPS $25.11 — both ~22% beats" },
+        { "date": "Jun 25",    "event": "Nasdaq futures +1.8%; S&P futures +0.6%" }
+      ],
+      "source": "Investing.com",
+      "source_url": "https://www.investing.com/news/transcripts/earnings-call-transcript-micron-tops-q3-2026-estimates-shares-jump-146-93CH-4759504",
+      "tags": ["technology", "ai", "semiconductors"]
+    },
+    {
+      "id": "s3",
+      "category": "MACRO",
+      "urgency": "MEDIUM",
+      "scope": "market",
+      "headline": "Oil falls to $70 as Iran peace framework advances — lowest since before the war",
+      "why_it_matters": "WTI crude is down 4.5% today to $69.89, its lowest level since early March and well below the peak that drove this year's inflation surge. Falling energy costs should pull headline PCE lower in June, giving the Fed more room — but core inflation remains sticky. The peace framework is the key variable for H2 deal confidence.",
+      "suggested_action": "Flag the oil move to energy-sector clients and cross-border advisory contacts. Lower energy costs improve the macro backdrop for deals, especially in industrials and logistics.",
+      "deal_clock": [
+        { "date": "Jun 18", "event": "US–Iran interim agreement signed" },
+        { "date": "Jun 25", "event": "WTI $69.89 — lowest since before the war" },
+        { "date": "~Aug", "event": "60-day roadmap toward final peace deal" }
+      ],
+      "source": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/06/23/stock-market-today-live-updates.html",
+      "tags": ["energy", "cross-border", "macro"]
+    },
+    {
+      "id": "s4",
+      "category": "BANKING",
+      "urgency": "MEDIUM",
+      "scope": "bank",
+      "bank": "Bank of America",
+      "headline": "BofA analyst raises Micron target to $1,500 amid AI memory supercycle thesis",
+      "why_it_matters": "BofA's Vivek Arya raised his Micron price target by $550 on a day the stock was falling — a structural argument, not just a number change. BofA's visibility into the AI infrastructure build-out positions them well on both the equity and M&A advisory side of technology sector deals.",
+      "suggested_action": "Reach out to BofA TMT coverage ahead of the AI-driven deal pipeline they are advising into. Their conviction on the AI memory thesis signals active client engagement in the space.",
+      "deal_clock": [
+        { "date": "Jun 23", "event": "BofA raises Micron PT to $1,500 from $950" }
+      ],
+      "source": "TheStreet",
+      "source_url": "https://www.thestreet.com/investing/stocks/mu-micron-stock-price-target-bank-of-america-raises-june-2026",
+      "tags": ["technology", "banking"]
+    },
+    {
+      "id": "s5",
+      "category": "BANKING",
+      "urgency": "MEDIUM",
+      "scope": "market",
+      "headline": "Fed bank stress test results due after today's close — watch for capital implications",
+      "why_it_matters": "The annual stress tests for major US banks report after the close today. Last year, banks passed with strong buffers. This year's tests are harder. Results will signal how much capital the major banks have available for M&A, lending, and buybacks — a direct read on their advisory and balance-sheet capacity.",
+      "suggested_action": "Check the stress test results this evening. Banks that pass comfortably have more flexibility on deal financing; any surprises are a conversation opener on client credit appetite.",
+      "deal_clock": [
+        { "date": "Jun 25 AH", "event": "Fed stress test results released" }
+      ],
+      "source": "Charles Schwab",
+      "source_url": "https://www.schwab.com/learn/story/stock-market-update-open",
+      "tags": ["banking", "leveraged-finance"]
+    },
+    {
+      "id": "s6",
+      "category": "M&A",
+      "urgency": "MEDIUM",
+      "scope": "bank",
+      "bank": "JPMorgan",
+      "headline": "JPMorgan upgrades IBM to overweight — signals renewed conviction in enterprise tech consolidation",
+      "why_it_matters": "JPMorgan's IBM upgrade is a directional signal on their view of enterprise tech M&A. IBM has been an active acquirer of consulting and software assets, and an upgrade of this visibility typically precedes advisory conversations about strategic transactions in the space.",
+      "suggested_action": "Use the IBM upgrade as a reason to reconnect with JPMorgan's enterprise tech coverage team about active mandates in the consulting and software sector.",
+      "deal_clock": [
+        { "date": "Jun 23", "event": "JPM upgrades IBM to overweight; IBM +5%" }
+      ],
+      "source": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/06/22/stock-market-today-live-updates.html",
+      "tags": ["technology", "enterprise"]
+    },
+    {
+      "id": "s7",
+      "category": "DEALS",
+      "urgency": "MEDIUM",
+      "scope": "market",
+      "headline": "Tech selloff this week was macro noise — the AI deal pipeline is intact",
+      "why_it_matters": "The Nasdaq fell 2.2% Monday and another 0.4% Tuesday on chip-driven selling before today's Micron-led rebound. The selloff was supply-side driven (South Korean chip stocks, pre-earnings hedging) rather than a sign of weakening AI demand. The underlying deal pipeline — AI infrastructure, semiconductor consolidation, data-center build-outs — is validated by today's Micron print.",
+      "suggested_action": "Clients who paused AI-related transaction conversations last week now have a data point to restart them with. The dip was a buying opportunity, not a signal of structural deterioration.",
+      "deal_clock": [
+        { "date": "Jun 23", "event": "Nasdaq -2.2%, Micron -12%" },
+        { "date": "Jun 24", "event": "Micron Q3 beat: $41.46B revenue, EPS $25.11" },
+        { "date": "Jun 25", "event": "Markets rebound; Nasdaq futures +1.8%" }
+      ],
+      "source": "TheStreet",
+      "source_url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-24-2026",
+      "tags": ["technology", "ai", "semiconductors"]
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "o1",
+      "bank": "JPMorgan",
+      "sector": "Infrastructure / Energy",
+      "urgency": "HOT",
+      "headline": "Lead advisor on AES's $38.4B take-private by Global Infrastructure Partners",
+      "why_it_matters": "Still one of the largest active take-privates in the market. Lender syndicate diligence plus regulatory documentation — all on a compressed timeline as the rate window tightens.",
+      "deal_clock": [
+        { "date": "Q1 2026", "event": "JPM named lead financial advisor" },
+        { "date": "2026", "event": "Regulatory review ongoing" }
+      ],
+      "outreach_idea": "With PCE confirming higher-for-longer rates, lenders are moving faster. Frame the data room as keeping the lender syndicate on pace.",
+      "outreach_draft": {
+        "subject": "AES / GIP — keeping lender diligence on pace as rates stay elevated",
+        "body": "This morning's PCE print (4.1%) reinforces what the market already knew: financing windows aren't getting cheaper. For a process the scale of the AES take-private, keeping a large lender syndicate moving in parallel — without access bottlenecks — is where deals stay on timeline.\n\nWorth a brief conversation on how we support lender-group diligence at this scale?\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      }
+    },
+    {
+      "id": "o2",
+      "bank": "Morgan Stanley",
+      "sector": "Media / TMT",
+      "urgency": "HOT",
+      "headline": "Sell-side advisor on Roku's acquisition by FOX",
+      "why_it_matters": "Marquee media sell-side with parallel buyer diligence. MS TMT franchise is actively rotating onto new mandates — and today's AI-driven market rebound creates momentum for new TMT process launches.",
+      "deal_clock": [
+        { "date": "Jun 15", "event": "Acquisition announced" },
+        { "date": "2026", "event": "Diligence ongoing" }
+      ],
+      "outreach_idea": "Micron's blowout reinforces AI TMT deal rationale. Ask if the MS team is seeing new technology M&A mandates open on the back of the print.",
+      "outreach_draft": {
+        "subject": "TMT deal flow — Micron's print reopens conversations",
+        "body": "After a tough week for tech stocks, Micron's blowout last night changes the tone. AI infrastructure demand is confirmed structural — which tends to unlock M&A conversations that were paused during the selloff.\n\nIs the TMT team seeing any processes coming back to life this week? Happy to talk through how we support fast data room launches when the window opens quickly.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      }
+    },
+    {
+      "id": "o3",
+      "bank": "Bank of America",
+      "sector": "Technology",
+      "urgency": "WARM",
+      "headline": "BofA raised Micron price target to $1,500 — signaling active AI infrastructure positioning",
+      "why_it_matters": "A $550 PT raise on a down day is a strong signal of BofA's conviction on the AI infrastructure theme. Their technology equity and advisory teams are actively engaged with clients in this space.",
+      "deal_clock": [
+        { "date": "Jun 23", "event": "BofA raises Micron PT to $1,500" },
+        { "date": "Jun 25", "event": "Micron up 14.6% after-hours" }
+      ],
+      "outreach_idea": "Use the Micron call as a reason to connect with BofA TMT and tech advisory on active AI-driven deal mandates.",
+      "outreach_draft": {
+        "subject": "AI infrastructure M&A — connecting on your active pipeline",
+        "body": "Your team's Micron call last week looks prescient this morning. The AI infrastructure thesis is intact and the deal pipeline it supports — semiconductor consolidation, data-center M&A, AI-native acquisitions — is accelerating.\n\nFor processes in this space, the diligence complexity is high and timelines are tight. I'd welcome a short conversation on how we're supporting these mandates.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      }
+    },
+    {
+      "id": "o4",
+      "bank": "Evercore",
+      "sector": "Consumer / Food",
+      "urgency": "WARM",
+      "headline": "Lead advisor on Jetro Restaurant Depot's $29.1B sale to Sysco — pending close",
+      "why_it_matters": "Evercore's volume is up 56% YoY and the Sysco process is approaching close. Teams rotating off completed mandates are the best moment to be in front of them on the next process.",
+      "deal_clock": [
+        { "date": "Q1 2026", "event": "Evercore named lead advisor" },
+        { "date": "2026", "event": "Approaching close" }
+      ],
+      "outreach_idea": "Congratulate on the approaching close; ask what's opening in their pipeline as this process winds down.",
+      "outreach_draft": {
+        "subject": "Sysco / Jetro approaching close — what's next in your pipeline?",
+        "body": "With the Jetro / Sysco process approaching close, I imagine the team is already thinking about what's next. With Evercore's volume up sharply this year, the rotation onto new mandates is happening fast.\n\nWould love to connect briefly on how we can help the next process launch clean and fast.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      }
+    }
+  ],
+  "market_snapshot": {
+    "indices": [
+      { "label": "S&P 500",      "value": "7,421.85", "change": "+0.77%",  "positive": true  },
+      { "label": "10Y Treasury", "value": "4.40%",    "change": "-8bps",   "positive": true  },
+      { "label": "WTI Crude",    "value": "$69.89",   "change": "-4.5%",   "positive": true  }
+    ],
+    "bank_stocks": [],
+    "macro_note": "Markets rallying Thursday on Micron's blowout Q3 beat ($41.46B revenue, EPS $25.11 — both ~22% above estimates) and falling oil prices. PCE inflation came in at 4.1% YoY this morning — the highest since April 2023 — confirming the Fed's hawkish stance. The 10Y yield has fallen sharply this week as oil prices collapsed on the Iran peace framework. Fed bank stress test results are due after today's close. Bank stock quotes refresh with the daily automated update."
+  },
+  "talking_point": {
+    "quote": "Micron just confirmed AI infrastructure demand is structural through at least 2027 — which AI-driven M&A conversations are your clients having right now that the market selloff last week may have paused?",
+    "use_with": "TMT advisory clients, PE sponsors with technology holdings, ECM teams with AI-sector mandates",
+    "context": "The Micron blowout is the biggest single data point this week. It reverses the narrative from last week's chip selloff and gives clients a concrete reason to re-engage on AI-related transactions. Pair it with the PCE print to frame urgency: the deal window is open, but financing conditions aren't getting easier."
+  }
+}

@@ -1,17 +1,17 @@
 {
-  "date": "2026-06-25",
-  "edition": 3,
-  "lens": "Micron's blowout earnings just confirmed AI infrastructure demand is structurally stronger than anyone modeled — while PCE hit 4.1%, its highest since 2023, keeping a Fed rate hike firmly on the table. Two forces pulling in opposite directions: a resilient deal market and tightening financing conditions.",
+  "date": "2026-07-02",
+  "edition": 4,
+  "lens": "A weak June jobs report just sent the Dow to a record close even as semiconductors post their worst two-day skid in a month and Tesla sinks despite a delivery beat — while the Street's biggest live advisory engagement, Paramount's $110.9B Warner Bros. Discovery acquisition, keeps Centerview, Citi, BofA, JPMorgan, and Evercore all active on one mega-deal heading into its Q3 close.",
   "ticker": [
-    { "label": "S&P 500",     "value": "7,421.85",  "change": "+0.77%",  "positive": true  },
-    { "label": "NASDAQ",      "value": "25,783.52",  "change": "+0.77%",  "positive": true  },
-    { "label": "DOW",         "value": "52,226.45",  "change": "+1.08%",  "positive": true  },
-    { "label": "RUSSELL 2000","value": "3,014.07",   "change": "+1.30%",  "positive": true  },
-    { "label": "10Y",         "value": "4.40%",      "change": "-8bps",   "positive": true  },
-    { "label": "2Y",          "value": "4.15%",      "change": "-5bps",   "positive": true  },
-    { "label": "VIX",         "value": "18.26",      "change": "-6.3%",   "positive": true  },
-    { "label": "WTI CRUDE",   "value": "$69.89",     "change": "-4.5%",   "positive": true  },
-    { "label": "US M&A VOL",  "value": "$1.2T YTD",  "change": "+99% vs LY", "positive": true }
+    { "label": "S&P 500",     "value": "7,505.49",  "change": "+0.08%",  "positive": true  },
+    { "label": "NASDAQ",      "value": "26,143.39", "change": "-0.27%",  "positive": false },
+    { "label": "DOW",         "value": "52,463.06", "change": "+0.27%",  "positive": true  },
+    { "label": "RUSSELL 2000","value": "3,028.03",  "change": "+0.12%",  "positive": true  },
+    { "label": "10Y",         "value": "4.481%",     "change": "+6bps",  "positive": false },
+    { "label": "2Y",          "value": "4.176%",     "change": "+4bps",  "positive": false },
+    { "label": "VIX",         "value": "16.22",      "change": "-1.40%", "positive": true  },
+    { "label": "WTI CRUDE",   "value": "$68.36",     "change": "-1.64%", "positive": true  },
+    { "label": "US M&A VOL",  "value": "$1.2T YTD",  "change": "+50% vs LY", "positive": true }
   ],
   "stories": [
     {
@@ -19,81 +19,90 @@
       "category": "MACRO",
       "urgency": "HIGH",
       "scope": "market",
-      "headline": "May PCE hits 4.1% — highest since April 2023 — locking in the case for a Fed hike",
-      "why_it_matters": "The Fed's preferred inflation gauge came in at 4.1% year-over-year this morning, with core PCE at 3.4%. Both were in line with estimates but confirm that inflation remains well above the 2% target — reinforcing Warsh's hawkish posture and keeping a fall rate hike firmly priced. Deutsche Bank now projects two hikes this year. Deals modeled on rate cuts need to be repriced.",
-      "suggested_action": "Open conversations about deal timing with clients who are still modeling lower financing costs. The PCE print today is a concrete reason to accelerate timelines, not wait.",
+      "headline": "June payrolls miss badly (57K vs. 115K est.) — Dow rallies to a record close as hike odds fall",
+      "why_it_matters": "The economy added just 57,000 jobs in June against a 115,000 consensus, with April and May revised down a combined 74,000. Unemployment ticked down to 4.2% from 4.3%. The Dow jumped roughly 594 points (+1.1%) to a record close on the reduced pressure for the Fed to tighten — traders have taken a September hike off the table, though October remains live per CME FedWatch. Deals modeled on a near-term hike now have more room.",
+      "suggested_action": "Use the softer jobs print to reopen deal-timing conversations with clients who paused on rate-hike fears — the financing-cost overhang just eased, even if it's not gone.",
       "deal_clock": [
-        { "date": "Jun 17", "event": "FOMC holds; hawkish tone" },
-        { "date": "Jun 25", "event": "PCE 4.1% YoY — highest since Apr 2023" },
-        { "date": "Jul 28", "event": "Next FOMC decision" }
+        { "date": "Jul 2", "event": "June jobs: +57K vs. +115K est.; unemployment 4.2%" },
+        { "date": "Jul 2", "event": "Dow +594 pts to record close" },
+        { "date": "Oct 2026", "event": "Next live Fed hike window per FedWatch" }
       ],
-      "source": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/06/25/pce-inflation-report-may-2026-.html",
-      "tags": ["leveraged-finance", "macro"]
+      "source": "CNN",
+      "source_url": "https://www.cnn.com/2026/07/02/economy/us-jobs-report-june-final",
+      "published": "2026-07-02",
+      "tags": ["macro", "leveraged-finance"]
     },
     {
       "id": "s2",
       "category": "MACRO",
       "urgency": "HIGH",
       "scope": "market",
-      "headline": "Micron's $41.5B blowout confirms AI infrastructure demand is structural, not cyclical",
-      "why_it_matters": "Micron reported $41.46B in revenue (16% above estimates) and EPS of $25.11 (22.5% above estimates). HBM memory is fully booked and supply-constrained through 2027. Markets are up sharply this morning on the print. For advisory clients, this is confirmation that AI-driven M&A — data center build-outs, semiconductor consolidation, AI-native acquisitions — has years of runway. Deals that looked expensive last year look strategic now.",
-      "suggested_action": "Use the Micron beat to restart conversations with TMT clients about AI-driven strategic rationale. The AI infrastructure thesis just got its biggest single-quarter data point.",
+      "headline": "Semiconductors post worst two-day selloff in a month — SOXX -5.2%, Nasdaq drags",
+      "why_it_matters": "The Philadelphia Semiconductor Index is on pace for a two-session decline of roughly 12% — its worst stretch since early June — after an 88% Q2 advance. The VanEck Semiconductor ETF (SMH) fell 5.2%, led by 13% drops in Teradyne and KLA; Nvidia slid 2.1% and Micron lost 6%. The Nasdaq fell 0.8% on the drag even as the broader market held up. AI-driven M&A rationale is intact, but valuation-sensitive sponsors may pause before signing at pre-selloff marks.",
+      "suggested_action": "For TMT and semiconductor-adjacent clients, this is a valuation reset, not a demand story — reframe active processes around post-selloff entry points rather than delay them.",
       "deal_clock": [
-        { "date": "Jun 24 AH", "event": "Micron Q3 2026: $41.46B rev, EPS $25.11 — both ~22% beats" },
-        { "date": "Jun 25",    "event": "Nasdaq futures +1.8%; S&P futures +0.6%" }
+        { "date": "Jul 1-2", "event": "SOXX -12% over two sessions; worst since early June" },
+        { "date": "Jul 2", "event": "Nasdaq -0.8%; Nvidia -2.1%, Micron -6%" }
       ],
-      "source": "Investing.com",
-      "source_url": "https://www.investing.com/news/transcripts/earnings-call-transcript-micron-tops-q3-2026-estimates-shares-jump-146-93CH-4759504",
-      "tags": ["technology", "ai", "semiconductors"]
+      "source": "Bloomberg",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-07-02/chip-stocks-off-to-rough-start-in-third-quarter-with-2-day-skid",
+      "published": "2026-07-02",
+      "tags": ["technology", "semiconductors", "ai"]
     },
     {
       "id": "s3",
       "category": "MACRO",
       "urgency": "MEDIUM",
       "scope": "market",
-      "headline": "Oil falls to $70 as Iran peace framework advances — lowest since before the war",
-      "why_it_matters": "WTI crude is down 4.5% today to $69.89, its lowest level since early March and well below the peak that drove this year's inflation surge. Falling energy costs should pull headline PCE lower in June, giving the Fed more room — but core inflation remains sticky. The peace framework is the key variable for H2 deal confidence.",
-      "suggested_action": "Flag the oil move to energy-sector clients and cross-border advisory contacts. Lower energy costs improve the macro backdrop for deals, especially in industrials and logistics.",
+      "headline": "Tesla sinks as much as 7.3% despite a big delivery beat — a 'sell the news' reaction",
+      "why_it_matters": "Tesla reported Q2 deliveries of 480,126 vehicles against Street estimates of 406,600 — a clear beat — yet shares fell as much as 7.3% Thursday. The disconnect between fundamentals and price action is itself a data point for clients weighing timing on EV- and auto-adjacent processes: strong operating results are not guaranteed to be rewarded in this tape.",
+      "suggested_action": "Flag the Tesla reaction to clients in EV/auto supply chain processes as a reminder that operational beats alone aren't moving this market — diligence-readiness and timing discipline matter more than headline results right now.",
       "deal_clock": [
-        { "date": "Jun 18", "event": "US–Iran interim agreement signed" },
-        { "date": "Jun 25", "event": "WTI $69.89 — lowest since before the war" },
-        { "date": "~Aug", "event": "60-day roadmap toward final peace deal" }
+        { "date": "Jul 2", "event": "Tesla Q2 deliveries: 480,126 vs. 406,600 est." },
+        { "date": "Jul 2", "event": "Tesla shares -7.3% intraday despite the beat" }
       ],
-      "source": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/06/23/stock-market-today-live-updates.html",
-      "tags": ["energy", "cross-border", "macro"]
+      "source": "Yahoo Finance",
+      "source_url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-july-2-223136955.html",
+      "published": "2026-07-02",
+      "tags": ["technology", "automotive"]
     },
     {
       "id": "s4",
-      "category": "BANKING",
-      "urgency": "MEDIUM",
+      "category": "M&A",
+      "urgency": "HIGH",
       "scope": "bank",
-      "bank": "Bank of America",
-      "headline": "BofA analyst raises Micron target to $1,500 amid AI memory supercycle thesis",
-      "why_it_matters": "BofA's Vivek Arya raised his Micron price target by $550 on a day the stock was falling — a structural argument, not just a number change. BofA's visibility into the AI infrastructure build-out positions them well on both the equity and M&A advisory side of technology sector deals.",
-      "suggested_action": "Reach out to BofA TMT coverage ahead of the AI-driven deal pipeline they are advising into. Their conviction on the AI memory thesis signals active client engagement in the space.",
+      "bank": "Centerview Partners",
+      "headline": "Centerview and RedBird lead Paramount's $110.9B acquisition of Warner Bros. Discovery",
+      "why_it_matters": "Centerview Partners and RedBird Advisors are the lead financial advisors to Paramount Skydance on its $110.9B all-cash acquisition of Warner Bros. Discovery — described as the biggest all-cash deal in corporate history. The transaction is unanimously approved by both boards and expected to close in Q3 2026, subject to regulatory clearance and a WBD shareholder vote. Centerview's lead role on the single largest live media deal in the market is a marquee diligence-intensity signal for an elite boutique not otherwise on this desk's radar this quarter.",
+      "suggested_action": "Open a conversation with Centerview's media/TMT coverage team about diligence infrastructure for the WBD integration workstream — a deal at this scale and multi-advisor complexity is the highest-value data room use case on the Street right now.",
       "deal_clock": [
-        { "date": "Jun 23", "event": "BofA raises Micron PT to $1,500 from $950" }
+        { "date": "Feb 27, 2026", "event": "Paramount/WBD definitive agreement announced ($110.9B)" },
+        { "date": "Q3 2026", "event": "Expected close, subject to regulatory clearance and WBD shareholder vote" }
       ],
-      "source": "TheStreet",
-      "source_url": "https://www.thestreet.com/investing/stocks/mu-micron-stock-price-target-bank-of-america-raises-june-2026",
-      "tags": ["technology", "banking"]
+      "source": "Canadian Lawyer",
+      "source_url": "https://www.canadianlawyermag.com/news/international/leading-us-firms-confirm-roles-in-watershed-us110-billion-paramount-warner-bros-discovery-merger/393786",
+      "published": "2026-03-02",
+      "confidence": "Reported",
+      "tags": ["media", "tmt", "cross-border"]
     },
     {
       "id": "s5",
-      "category": "BANKING",
+      "category": "M&A",
       "urgency": "MEDIUM",
-      "scope": "market",
-      "headline": "Fed bank stress test results due after today's close — watch for capital implications",
-      "why_it_matters": "The annual stress tests for major US banks report after the close today. Last year, banks passed with strong buffers. This year's tests are harder. Results will signal how much capital the major banks have available for M&A, lending, and buybacks — a direct read on their advisory and balance-sheet capacity.",
-      "suggested_action": "Check the stress test results this evening. Banks that pass comfortably have more flexibility on deal financing; any surprises are a conversation opener on client credit appetite.",
+      "scope": "bank",
+      "bank": "Citi",
+      "headline": "Citi is one of four additional advisors to Paramount on the WBD mega-merger",
+      "why_it_matters": "Alongside lead advisors Centerview and RedBird, Citi is named as an additional financial advisor to Paramount on the Warner Bros. Discovery acquisition, together with Bank of America Securities, M. Klein & Company, and LionTree Advisors. A live role on the largest all-cash deal in corporate history is a strong, current reason to engage Citi's M&A coverage — a bank this desk hasn't touched in recent editions.",
+      "suggested_action": "Reconnect with Citi's media and TMT M&A team on the WBD process — a multi-advisor mega-deal of this complexity typically means parallel diligence workstreams across every advisor on the cap table.",
       "deal_clock": [
-        { "date": "Jun 25 AH", "event": "Fed stress test results released" }
+        { "date": "Feb 27, 2026", "event": "Named as Paramount advisor on the WBD deal" },
+        { "date": "Q3 2026", "event": "Expected close" }
       ],
-      "source": "Charles Schwab",
-      "source_url": "https://www.schwab.com/learn/story/stock-market-update-open",
-      "tags": ["banking", "leveraged-finance"]
+      "source": "Canadian Lawyer",
+      "source_url": "https://www.canadianlawyermag.com/news/international/leading-us-firms-confirm-roles-in-watershed-us110-billion-paramount-warner-bros-discovery-merger/393786",
+      "published": "2026-03-02",
+      "confidence": "Reported",
+      "tags": ["media", "tmt", "banking"]
     },
     {
       "id": "s6",
@@ -101,119 +110,202 @@
       "urgency": "MEDIUM",
       "scope": "bank",
       "bank": "JPMorgan",
-      "headline": "JPMorgan upgrades IBM to overweight — signals renewed conviction in enterprise tech consolidation",
-      "why_it_matters": "JPMorgan's IBM upgrade is a directional signal on their view of enterprise tech M&A. IBM has been an active acquirer of consulting and software assets, and an upgrade of this visibility typically precedes advisory conversations about strategic transactions in the space.",
-      "suggested_action": "Use the IBM upgrade as a reason to reconnect with JPMorgan's enterprise tech coverage team about active mandates in the consulting and software sector.",
+      "headline": "JPMorgan advises Warner Bros. Discovery on Paramount's $110.9B bid",
+      "why_it_matters": "JPMorgan is one of three advisors to Warner Bros. Discovery — alongside Allen & Company and Evercore — on the Paramount acquisition. Sell-side advisory on a deal of this size means WBD-side diligence (disclosure schedules, carve-out planning, regulatory documentation) running in parallel with Paramount's own workstream through Q3 close.",
+      "suggested_action": "Check in with JPMorgan's media coverage team on WBD-side diligence support needs as the deal moves toward its Q3 close and shareholder vote.",
       "deal_clock": [
-        { "date": "Jun 23", "event": "JPM upgrades IBM to overweight; IBM +5%" }
+        { "date": "Feb 27, 2026", "event": "Named as WBD advisor on the Paramount deal" },
+        { "date": "Q3 2026", "event": "Expected close" }
       ],
-      "source": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/06/22/stock-market-today-live-updates.html",
-      "tags": ["technology", "enterprise"]
+      "source": "Canadian Lawyer",
+      "source_url": "https://www.canadianlawyermag.com/news/international/leading-us-firms-confirm-roles-in-watershed-us110-billion-paramount-warner-bros-discovery-merger/393786",
+      "published": "2026-03-02",
+      "confidence": "Reported",
+      "tags": ["media", "tmt"]
     },
     {
       "id": "s7",
-      "category": "DEALS",
+      "category": "BANKING",
       "urgency": "MEDIUM",
-      "scope": "market",
-      "headline": "Tech selloff this week was macro noise — the AI deal pipeline is intact",
-      "why_it_matters": "The Nasdaq fell 2.2% Monday and another 0.4% Tuesday on chip-driven selling before today's Micron-led rebound. The selloff was supply-side driven (South Korean chip stocks, pre-earnings hedging) rather than a sign of weakening AI demand. The underlying deal pipeline — AI infrastructure, semiconductor consolidation, data-center build-outs — is validated by today's Micron print.",
-      "suggested_action": "Clients who paused AI-related transaction conversations last week now have a data point to restart them with. The dip was a buying opportunity, not a signal of structural deterioration.",
+      "scope": "bank",
+      "bank": "Houlihan Lokey",
+      "headline": "Houlihan Lokey to acquire energy-advisory boutique Intrepid Financial Partners",
+      "why_it_matters": "Houlihan Lokey signed a deal on June 27 to acquire Intrepid Financial Partners, an independent investment bank focused on the energy sector, with close expected before September 30, 2026 pending regulatory approval. A strategic bolt-on acquisition signals HL is actively expanding capacity — exactly the moment new-team integration creates data-room and workflow-standardization needs.",
+      "suggested_action": "Reach out to HL's corporate development and energy advisory teams about integrating Intrepid's active mandates onto a common diligence platform as the acquisition closes.",
       "deal_clock": [
-        { "date": "Jun 23", "event": "Nasdaq -2.2%, Micron -12%" },
-        { "date": "Jun 24", "event": "Micron Q3 beat: $41.46B revenue, EPS $25.11" },
-        { "date": "Jun 25", "event": "Markets rebound; Nasdaq futures +1.8%" }
+        { "date": "Jun 27, 2026", "event": "Houlihan Lokey signs to acquire Intrepid Financial Partners" },
+        { "date": "Sep 30, 2026", "event": "Expected close" }
       ],
-      "source": "TheStreet",
-      "source_url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-24-2026",
-      "tags": ["technology", "ai", "semiconductors"]
+      "source": "Business Wire",
+      "source_url": "https://www.businesswire.com/news/home/20260630315767/en/Houlihan-Lokey-to-Acquire-Intrepid-Financial-Partners",
+      "published": "2026-06-30",
+      "confidence": "Reported",
+      "tags": ["energy", "banking"]
+    },
+    {
+      "id": "s8",
+      "category": "DEALS",
+      "urgency": "LOW",
+      "scope": "bank",
+      "bank": "Houlihan Lokey",
+      "headline": "GoPro's board is reviewing strategic alternatives, with Houlihan Lokey in a tech advisory role",
+      "why_it_matters": "GoPro's Board of Directors announced a review of strategic alternatives, and Houlihan Lokey has separately deepened its tech advisory presence with a GoPro-related mandate and hire. No sale or transaction has been confirmed — this is a rumored/pipeline situation, not an announced deal, and should be framed to clients as unconfirmed.",
+      "suggested_action": "Flag the GoPro strategic review to HL's tech advisory contacts as an early-stage, unconfirmed situation worth a light-touch check-in — not yet a live process to pitch hard.",
+      "deal_clock": [
+        { "date": "May 17, 2026", "event": "Houlihan Lokey deepens tech advisory role with GoPro mandate and hire" }
+      ],
+      "source": "PR Newswire",
+      "source_url": "https://www.prnewswire.com/news-releases/gopro-board-of-directors-announces-review-of-strategic-alternatives-302768658.html",
+      "published": "2026-05-17",
+      "confidence": "Speculative",
+      "tags": ["technology", "consumer"]
     }
   ],
   "opportunities": [
     {
       "id": "o1",
-      "bank": "JPMorgan",
-      "sector": "Infrastructure / Energy",
+      "bank": "Centerview Partners",
+      "sector": "Media / TMT",
       "urgency": "HOT",
-      "headline": "Lead advisor on AES's $38.4B take-private by Global Infrastructure Partners",
-      "why_it_matters": "Still one of the largest active take-privates in the market. Lender syndicate diligence plus regulatory documentation — all on a compressed timeline as the rate window tightens.",
+      "headline": "Lead advisor on Paramount's $110.9B acquisition of Warner Bros. Discovery",
+      "why_it_matters": "The single largest live media deal in the market, with a Q3 2026 close target. Lead-advisor role on a deal of this scale means sustained, high-intensity diligence work through closing — and Centerview hasn't appeared in this desk's coverage before.",
       "deal_clock": [
-        { "date": "Q1 2026", "event": "JPM named lead financial advisor" },
-        { "date": "2026", "event": "Regulatory review ongoing" }
+        { "date": "Feb 27, 2026", "event": "Deal announced; Centerview + RedBird named lead advisors" },
+        { "date": "Q3 2026", "event": "Expected close" }
       ],
-      "outreach_idea": "With PCE confirming higher-for-longer rates, lenders are moving faster. Frame the data room as keeping the lender syndicate on pace.",
+      "outreach_idea": "Open with the scale of the WBD mandate — a deal this size, with five named advisors across both sides, is the clearest possible case for coordinated, permissioned data room infrastructure.",
       "outreach_draft": {
-        "subject": "AES / GIP — keeping lender diligence on pace as rates stay elevated",
-        "body": "This morning's PCE print (4.1%) reinforces what the market already knew: financing windows aren't getting cheaper. For a process the scale of the AES take-private, keeping a large lender syndicate moving in parallel — without access bottlenecks — is where deals stay on timeline.\n\nWorth a brief conversation on how we support lender-group diligence at this scale?\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+        "subject": "Congratulations on the WBD mandate — supporting diligence through Q3 close",
+        "body": "Congratulations on Centerview's lead role in the Paramount / Warner Bros. Discovery transaction — genuinely one of the largest and most complex media deals on record. With five financial advisors across both sides and a Q3 close target, keeping diligence access clean and audit-ready across every workstream is where processes at this scale stay on schedule.\n\nWould welcome a short conversation on how we can support your team through closing.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies",
+        "source": "Canadian Lawyer",
+        "source_url": "https://www.canadianlawyermag.com/news/international/leading-us-firms-confirm-roles-in-watershed-us110-billion-paramount-warner-bros-discovery-merger/393786",
+        "published": "2026-03-02",
+        "confidence": "Reported"
       }
     },
     {
       "id": "o2",
-      "bank": "Morgan Stanley",
+      "bank": "Citi",
       "sector": "Media / TMT",
-      "urgency": "HOT",
-      "headline": "Sell-side advisor on Roku's acquisition by FOX",
-      "why_it_matters": "Marquee media sell-side with parallel buyer diligence. MS TMT franchise is actively rotating onto new mandates — and today's AI-driven market rebound creates momentum for new TMT process launches.",
+      "urgency": "WARM",
+      "headline": "Advising Paramount alongside Centerview on the Warner Bros. Discovery acquisition",
+      "why_it_matters": "A live role on the year's marquee media mega-deal is a strong, timely reason to engage — Citi hasn't been part of this desk's recent coverage rotation.",
       "deal_clock": [
-        { "date": "Jun 15", "event": "Acquisition announced" },
-        { "date": "2026", "event": "Diligence ongoing" }
+        { "date": "Feb 27, 2026", "event": "Named as Paramount advisor on the WBD deal" },
+        { "date": "Q3 2026", "event": "Expected close" }
       ],
-      "outreach_idea": "Micron's blowout reinforces AI TMT deal rationale. Ask if the MS team is seeing new technology M&A mandates open on the back of the print.",
+      "outreach_idea": "Reference Citi's advisory role on the WBD deal directly — a live mandate on the largest all-cash deal in corporate history opens the door for a diligence-support conversation.",
       "outreach_draft": {
-        "subject": "TMT deal flow — Micron's print reopens conversations",
-        "body": "After a tough week for tech stocks, Micron's blowout last night changes the tone. AI infrastructure demand is confirmed structural — which tends to unlock M&A conversations that were paused during the selloff.\n\nIs the TMT team seeing any processes coming back to life this week? Happy to talk through how we support fast data room launches when the window opens quickly.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+        "subject": "Citi's role on the Paramount / WBD deal — diligence support through close",
+        "body": "Noted Citi's advisory role alongside Centerview on the Paramount / Warner Bros. Discovery transaction — a deal of genuinely historic scale. As the process moves toward its Q3 close, I'd welcome a conversation on how we support multi-advisor diligence coordination on mandates this size.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies",
+        "source": "Canadian Lawyer",
+        "source_url": "https://www.canadianlawyermag.com/news/international/leading-us-firms-confirm-roles-in-watershed-us110-billion-paramount-warner-bros-discovery-merger/393786",
+        "published": "2026-03-02",
+        "confidence": "Reported"
       }
     },
     {
       "id": "o3",
       "bank": "Bank of America",
-      "sector": "Technology",
+      "sector": "Media / TMT",
       "urgency": "WARM",
-      "headline": "BofA raised Micron price target to $1,500 — signaling active AI infrastructure positioning",
-      "why_it_matters": "A $550 PT raise on a down day is a strong signal of BofA's conviction on the AI infrastructure theme. Their technology equity and advisory teams are actively engaged with clients in this space.",
+      "headline": "Advising Paramount on the Warner Bros. Discovery acquisition",
+      "why_it_matters": "One of four additional Paramount advisors on the WBD mega-deal, alongside Citi, M. Klein & Company, and LionTree — a live, high-profile mandate as the deal heads toward Q3 close.",
       "deal_clock": [
-        { "date": "Jun 23", "event": "BofA raises Micron PT to $1,500" },
-        { "date": "Jun 25", "event": "Micron up 14.6% after-hours" }
+        { "date": "Feb 27, 2026", "event": "Named as Paramount advisor on the WBD deal" },
+        { "date": "Q3 2026", "event": "Expected close" }
       ],
-      "outreach_idea": "Use the Micron call as a reason to connect with BofA TMT and tech advisory on active AI-driven deal mandates.",
+      "outreach_idea": "Connect with BofA's media coverage team on the WBD mandate specifically — a fresh, deal-specific reason to re-engage beyond the standing Micron/TMT conversation.",
       "outreach_draft": {
-        "subject": "AI infrastructure M&A — connecting on your active pipeline",
-        "body": "Your team's Micron call last week looks prescient this morning. The AI infrastructure thesis is intact and the deal pipeline it supports — semiconductor consolidation, data-center M&A, AI-native acquisitions — is accelerating.\n\nFor processes in this space, the diligence complexity is high and timelines are tight. I'd welcome a short conversation on how we're supporting these mandates.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+        "subject": "BofA's role on the Paramount / WBD deal",
+        "body": "Following BofA Securities' advisory role on the Paramount / Warner Bros. Discovery transaction — a landmark deal heading toward a Q3 close. Happy to discuss how we support diligence coordination across a mandate with this many moving pieces.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies",
+        "source": "Canadian Lawyer",
+        "source_url": "https://www.canadianlawyermag.com/news/international/leading-us-firms-confirm-roles-in-watershed-us110-billion-paramount-warner-bros-discovery-merger/393786",
+        "published": "2026-03-02",
+        "confidence": "Reported"
       }
     },
     {
       "id": "o4",
-      "bank": "Evercore",
-      "sector": "Consumer / Food",
+      "bank": "JPMorgan",
+      "sector": "Media / TMT",
       "urgency": "WARM",
-      "headline": "Lead advisor on Jetro Restaurant Depot's $29.1B sale to Sysco — pending close",
-      "why_it_matters": "Evercore's volume is up 56% YoY and the Sysco process is approaching close. Teams rotating off completed mandates are the best moment to be in front of them on the next process.",
+      "headline": "Advising Warner Bros. Discovery on Paramount's $110.9B acquisition",
+      "why_it_matters": "Sell-side advisor to WBD alongside Allen & Company and Evercore — the WBD side of the deal carries its own heavy diligence load (disclosure schedules, carve-out planning) through the Q3 close.",
       "deal_clock": [
-        { "date": "Q1 2026", "event": "Evercore named lead advisor" },
-        { "date": "2026", "event": "Approaching close" }
+        { "date": "Feb 27, 2026", "event": "Named as WBD advisor on the Paramount deal" },
+        { "date": "Q3 2026", "event": "Expected close" }
       ],
-      "outreach_idea": "Congratulate on the approaching close; ask what's opening in their pipeline as this process winds down.",
+      "outreach_idea": "Ask JPMorgan's media coverage team what WBD-side diligence support needs look like heading into the shareholder vote and close.",
       "outreach_draft": {
-        "subject": "Sysco / Jetro approaching close — what's next in your pipeline?",
-        "body": "With the Jetro / Sysco process approaching close, I imagine the team is already thinking about what's next. With Evercore's volume up sharply this year, the rotation onto new mandates is happening fast.\n\nWould love to connect briefly on how we can help the next process launch clean and fast.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+        "subject": "JPMorgan / WBD — diligence support heading into close",
+        "body": "Following JPMorgan's advisory role for Warner Bros. Discovery on the Paramount transaction. As the deal heads toward its Q3 close and shareholder vote, would welcome a conversation on supporting the WBD-side diligence workstream.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies",
+        "source": "Canadian Lawyer",
+        "source_url": "https://www.canadianlawyermag.com/news/international/leading-us-firms-confirm-roles-in-watershed-us110-billion-paramount-warner-bros-discovery-merger/393786",
+        "published": "2026-03-02",
+        "confidence": "Reported"
+      }
+    },
+    {
+      "id": "o5",
+      "bank": "Evercore",
+      "sector": "Media / TMT",
+      "urgency": "WARM",
+      "headline": "Advising Warner Bros. Discovery alongside JPMorgan and Allen & Company",
+      "why_it_matters": "A third advisor role on the WBD side of the largest all-cash deal in corporate history — Evercore's team is deep in a live, complex sell-side process through Q3 close.",
+      "deal_clock": [
+        { "date": "Feb 27, 2026", "event": "Named as WBD advisor on the Paramount deal" },
+        { "date": "Q3 2026", "event": "Expected close" }
+      ],
+      "outreach_idea": "Reconnect with Evercore's media team specifically on the WBD mandate — a fresh, deal-specific angle distinct from the earlier Sysco/Jetro conversation.",
+      "outreach_draft": {
+        "subject": "Evercore's WBD mandate — supporting the sell-side workstream",
+        "body": "Noted Evercore's advisory role for Warner Bros. Discovery on the Paramount transaction. Given the scale and multi-advisor complexity of this deal, I'd welcome a short conversation on how we support the WBD-side diligence process through close.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies",
+        "source": "Canadian Lawyer",
+        "source_url": "https://www.canadianlawyermag.com/news/international/leading-us-firms-confirm-roles-in-watershed-us110-billion-paramount-warner-bros-discovery-merger/393786",
+        "published": "2026-03-02",
+        "confidence": "Reported"
+      }
+    },
+    {
+      "id": "o6",
+      "bank": "Houlihan Lokey",
+      "sector": "Technology",
+      "urgency": "WARM",
+      "headline": "Tech advisory mandate on GoPro's strategic alternatives review — unconfirmed, early stage",
+      "why_it_matters": "GoPro's board announced a strategic review, and Houlihan Lokey separately deepened its tech advisory presence with a related mandate and hire. This is a rumored/pipeline situation, not a confirmed transaction — flag it to reps as speculative and worth monitoring, not a hard pitch yet.",
+      "deal_clock": [
+        { "date": "May 17, 2026", "event": "HL deepens tech advisory role with GoPro mandate and hire" }
+      ],
+      "outreach_idea": "Light-touch check-in with HL's tech advisory team on the GoPro situation — acknowledge it's early and unconfirmed, and ask what support needs might look like if the review advances.",
+      "outreach_draft": {
+        "subject": "GoPro strategic review — early check-in",
+        "body": "Saw the update on your team's expanded tech advisory role connected to GoPro's strategic alternatives review. Understand this is still early and unconfirmed — wanted to check in now so we're a resource if and when the process needs diligence infrastructure support.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies",
+        "source": "PR Newswire",
+        "source_url": "https://www.prnewswire.com/news-releases/gopro-board-of-directors-announces-review-of-strategic-alternatives-302768658.html",
+        "published": "2026-05-17",
+        "confidence": "Speculative"
       }
     }
   ],
   "market_snapshot": {
     "indices": [
-      { "label": "S&P 500",      "value": "7,421.85", "change": "+0.77%",  "positive": true  },
-      { "label": "10Y Treasury", "value": "4.40%",    "change": "-8bps",   "positive": true  },
-      { "label": "WTI Crude",    "value": "$69.89",   "change": "-4.5%",   "positive": true  }
+      { "label": "S&P 500",      "value": "7,505.49",  "change": "+0.08%",  "positive": true  },
+      { "label": "Nasdaq",       "value": "26,143.39", "change": "-0.27%",  "positive": false },
+      { "label": "Dow Jones",    "value": "52,463.06", "change": "+0.27%",  "positive": true  },
+      { "label": "10Y Treasury", "value": "4.481%",     "change": "+6bps",  "positive": false },
+      { "label": "WTI Crude",    "value": "$68.36",     "change": "-1.64%", "positive": true  }
     ],
     "bank_stocks": [],
-    "macro_note": "Markets rallying Thursday on Micron's blowout Q3 beat ($41.46B revenue, EPS $25.11 — both ~22% above estimates) and falling oil prices. PCE inflation came in at 4.1% YoY this morning — the highest since April 2023 — confirming the Fed's hawkish stance. The 10Y yield has fallen sharply this week as oil prices collapsed on the Iran peace framework. Fed bank stress test results are due after today's close. Bank stock quotes refresh with the daily automated update."
+    "macro_note": "A soft June jobs report (57K vs. 115K est.) pushed the Dow to a record close as September rate-hike odds fell off the table, even as semiconductors posted their worst two-day selloff in a month (SOXX -12% over two sessions) and Tesla sank 7.3% despite beating delivery estimates. Bank stock quotes refresh with the intraday market-update automation."
   },
   "talking_point": {
-    "quote": "Micron just confirmed AI infrastructure demand is structural through at least 2027 — which AI-driven M&A conversations are your clients having right now that the market selloff last week may have paused?",
-    "use_with": "TMT advisory clients, PE sponsors with technology holdings, ECM teams with AI-sector mandates",
-    "context": "The Micron blowout is the biggest single data point this week. It reverses the narrative from last week's chip selloff and gives clients a concrete reason to re-engage on AI-related transactions. Pair it with the PCE print to frame urgency: the deal window is open, but financing conditions aren't getting easier."
+    "quote": "The Paramount/WBD deal has five named financial advisors across both sides on the single largest all-cash deal in corporate history — if your bank isn't already in that conversation, what's the next mega-deal your team is positioning for?",
+    "use_with": "Media/TMT advisory clients, boards evaluating strategic reviews, teams on multi-advisor mega-deals",
+    "context": "The WBD deal's advisor lineup (Centerview, RedBird, BofA, Citi, M. Klein, LionTree for Paramount; Allen & Co, JPMorgan, Evercore for WBD) is the clearest live example of how many workstreams a single mega-deal generates. Pair it with today's jobs-driven Dow record to frame urgency: financing conditions just eased a notch, and the biggest deal on the Street is proof the market can still absorb megadeals even during a volatile week for tech."
   },
   "archive": [
+    { "date": "2026-06-25", "edition": 3, "file": "2026-06-25.json" },
     { "date": "2026-06-22", "edition": 2, "file": "2026-06-22.json" },
     { "date": "2026-06-18", "edition": 1, "file": "2026-06-18.json" }
   ]
