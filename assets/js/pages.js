@@ -92,6 +92,8 @@ function renderBankDetail(bank) {
       </div>
     </div>
 
+    ${renderBankTracker(bank.dealbrief_tracker)}
+
     <!-- Recent News -->
     <div class="section">
       <div class="section-header">
@@ -138,6 +140,70 @@ function renderBankDetail(bank) {
   `;
 
   window._copyTalkingPoint = (text) => copyToClipboard(text, 'Talking point copied');
+}
+
+function renderBankTracker(tracker) {
+  if (!tracker) return '';
+
+  const fmtEarnings = (d) => {
+    if (!d) return '';
+    const dt = new Date(d + 'T00:00:00');
+    if (isNaN(dt)) return esc(d);
+    return dt.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+  };
+
+  const signalHtml = tracker.advisory_signal ? `
+    <div class="tracker-signal">
+      <div class="tracker-label">Advisory Signal</div>
+      <div class="tracker-signal-text">${esc(tracker.advisory_signal.rank)}</div>
+      <a href="${esc(tracker.advisory_signal.source_url)}" target="_blank" rel="noopener" class="source-link">
+        ${esc(tracker.advisory_signal.source)} · ${esc(tracker.advisory_signal.period)} ↗
+      </a>
+    </div>
+  ` : '';
+
+  const earningsHtml = tracker.next_earnings ? `
+    <div class="tracker-stat">
+      <div class="tracker-stat-num">${fmtEarnings(tracker.next_earnings)}</div>
+      <div class="tracker-stat-label">Next earnings</div>
+    </div>
+  ` : '';
+
+  const pipelineHtml = (tracker.pipeline_watch && tracker.pipeline_watch.length) ? `
+    <div class="tracker-pipeline">
+      <div class="tracker-label">Pipeline Watch <span class="badge badge-conf-speculative">SPECULATIVE</span></div>
+      ${tracker.pipeline_watch.map(p => `
+        <div class="pipeline-item">
+          <div class="pipeline-company">${esc(p.company)}</div>
+          <div class="pipeline-situation">${esc(p.situation)}</div>
+          <div class="pipeline-meta">
+            <span class="pipeline-sector">${esc(p.sector)}</span>
+            <span class="deal-meta-dot">·</span>
+            <span class="pipeline-source">${esc(p.source_note)}</span>
+          </div>
+        </div>
+      `).join('')}
+    </div>
+  ` : '';
+
+  return `
+    <div class="bank-tracker">
+      <div class="tracker-row">
+        <div class="tracker-stat">
+          <div class="tracker-stat-num">${tracker.mandates_30d}</div>
+          <div class="tracker-stat-label">Mandates (30d)</div>
+        </div>
+        <div class="tracker-stat">
+          <div class="tracker-stat-num">${tracker.mandates_total}</div>
+          <div class="tracker-stat-label">Tracked total</div>
+        </div>
+        ${earningsHtml}
+      </div>
+      ${signalHtml}
+      ${pipelineHtml}
+      <div class="tracker-note">${esc(tracker.note)}</div>
+    </div>
+  `;
 }
 
 function renderBankNewsCard(item) {

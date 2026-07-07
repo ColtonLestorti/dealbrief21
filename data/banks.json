@@ -73,7 +73,22 @@
           "text": "Goldman leads the Street on deal value this year — the through-line is scale and complexity, exactly where data room setup either accelerates or slows a process.",
           "use_with": "GS large-cap M&A and ECM teams"
         }
-      ]
+      ],
+      "dealbrief_tracker": {
+        "mandates_30d": 6,
+        "mandates_total": 6,
+        "as_of": "2026-07-07",
+        "note": "Mandates tracked by DealBrief from public news — a coverage tally, not an official league table. Bulge brackets are undercounted; see advisory_signal for authoritative rank.",
+        "advisory_signal": {
+          "rank": "#1 global M&A by value, H1 2026 (~$1.23T advised)",
+          "source": "ION Analytics / Mergermarket",
+          "source_url": "https://ionanalytics.com/insights/mergermarket/goldman-sachs-jpmorgan-top-1h26-ma-rankings-as-boards-back-boldness/",
+          "period": "H1 2026",
+          "date": "2026-07-01"
+        },
+        "next_earnings": "2026-07-14",
+        "pipeline_watch": []
+      }
     },
     {
       "id": "morgan-stanley",
@@ -148,7 +163,37 @@
           "text": "Morgan Stanley is on the sell-side of marquee media and tech deals right now. Large sell-sides generate parallel buyer diligence — a fast-room conversation lands well.",
           "use_with": "MS TMT and media coverage teams"
         }
-      ]
+      ],
+      "dealbrief_tracker": {
+        "mandates_30d": 6,
+        "mandates_total": 6,
+        "as_of": "2026-07-07",
+        "note": "Mandates tracked by DealBrief from public news — a coverage tally, not an official league table. Bulge brackets are undercounted; see advisory_signal for authoritative rank.",
+        "advisory_signal": {
+          "rank": "#3 global M&A by value, H1 2026 (~$673.1B advised)",
+          "source": "ION Analytics / Mergermarket",
+          "source_url": "https://ionanalytics.com/insights/mergermarket/goldman-sachs-jpmorgan-top-1h26-ma-rankings-as-boards-back-boldness/",
+          "period": "H1 2026",
+          "date": "2026-07-01"
+        },
+        "next_earnings": "2026-07-15",
+        "pipeline_watch": [
+          {
+            "company": "Bumble",
+            "situation": "Reported to be working with Morgan Stanley to explore a sale amid a user decline",
+            "sector": "Consumer internet",
+            "source_note": "Moomoo / Market Chatter, Jun 25 2026",
+            "confidence": "Speculative"
+          },
+          {
+            "company": "Ryman Hospitality (Opry Entertainment Group)",
+            "situation": "Exploring partnerships / strategic alternatives for its Opry Entertainment unit",
+            "sector": "Entertainment / hospitality",
+            "source_note": "Moomoo, Jun 25 2026",
+            "confidence": "Speculative"
+          }
+        ]
+      }
     },
     {
       "id": "jpmorgan",
@@ -223,7 +268,30 @@
           "text": "JPMorgan is on the largest take-privates and consumer megadeals of the cycle. Lender and regulator diligence at this scale is where permissioned access wins on execution speed.",
           "use_with": "JPM M&A and leveraged finance teams"
         }
-      ]
+      ],
+      "dealbrief_tracker": {
+        "mandates_30d": 5,
+        "mandates_total": 5,
+        "as_of": "2026-07-07",
+        "note": "Mandates tracked by DealBrief from public news — a coverage tally, not an official league table. Bulge brackets are undercounted; see advisory_signal for authoritative rank.",
+        "advisory_signal": {
+          "rank": "#2 global M&A by value, H1 2026 (~$818.8B advised)",
+          "source": "ION Analytics / Mergermarket",
+          "source_url": "https://ionanalytics.com/insights/mergermarket/goldman-sachs-jpmorgan-top-1h26-ma-rankings-as-boards-back-boldness/",
+          "period": "H1 2026",
+          "date": "2026-07-01"
+        },
+        "next_earnings": "2026-07-14",
+        "pipeline_watch": [
+          {
+            "company": "Minted",
+            "situation": "Reported to be exploring a potential ~$1B sale with JPMorgan",
+            "sector": "E-commerce / consumer",
+            "source_note": "GuruFocus, Jun 29 2026",
+            "confidence": "Speculative"
+          }
+        ]
+      }
     },
     {
       "id": "bank-of-america",
@@ -262,7 +330,16 @@
           "text": "BofA Securities runs a high volume of simultaneous mandates globally. At that scale, data room operational efficiency is a direct cost conversation.",
           "use_with": "BofA M&A and corporate banking teams"
         }
-      ]
+      ],
+      "dealbrief_tracker": {
+        "mandates_30d": 3,
+        "mandates_total": 3,
+        "as_of": "2026-07-07",
+        "note": "Mandates tracked by DealBrief from public news — a coverage tally, not an official league table. Bulge brackets are undercounted; see advisory_signal for authoritative rank.",
+        "advisory_signal": null,
+        "next_earnings": "2026-07-14",
+        "pipeline_watch": []
+      }
     },
     {
       "id": "citi",
@@ -301,7 +378,16 @@
           "text": "Citi's edge is cross-border and emerging-market mandates — the most complex multi-jurisdiction data room configurations.",
           "use_with": "Citi cross-border M&A teams"
         }
-      ]
+      ],
+      "dealbrief_tracker": {
+        "mandates_30d": 2,
+        "mandates_total": 2,
+        "as_of": "2026-07-07",
+        "note": "Mandates tracked by DealBrief from public news — a coverage tally, not an official league table. Bulge brackets are undercounted; see advisory_signal for authoritative rank.",
+        "advisory_signal": null,
+        "next_earnings": "2026-07-14",
+        "pipeline_watch": []
+      }
     },
     {
       "id": "evercore",
@@ -350,7 +436,16 @@
           "text": "Evercore's volume is up 56% YoY — its franchise is rotating onto new mandates fast. That's the moment to be in front of them on room infrastructure.",
           "use_with": "Evercore M&A and advisory teams"
         }
-      ]
+      ],
+      "dealbrief_tracker": {
+        "mandates_30d": 2,
+        "mandates_total": 2,
+        "as_of": "2026-07-07",
+        "note": "Mandates tracked by DealBrief from public news — a coverage tally, not an official league table. Bulge brackets are undercounted; see advisory_signal for authoritative rank.",
+        "advisory_signal": null,
+        "next_earnings": null,
+        "pipeline_watch": []
+      }
     },
     {
       "id": "lazard",
@@ -389,7 +484,22 @@
           "text": "Lazard wins on complex cross-border and restructuring mandates — dual-jurisdiction diligence is the highest-complexity room configuration.",
           "use_with": "Lazard M&A and restructuring teams"
         }
-      ]
+      ],
+      "dealbrief_tracker": {
+        "mandates_30d": 0,
+        "mandates_total": 0,
+        "as_of": "2026-07-07",
+        "note": "Mandates tracked by DealBrief from public news — a coverage tally, not an official league table. Bulge brackets are undercounted; see advisory_signal for authoritative rank.",
+        "advisory_signal": {
+          "rank": "#6 global M&A by value, H1 2026 (+111% YoY)",
+          "source": "ION Analytics / Mergermarket",
+          "source_url": "https://ionanalytics.com/insights/mergermarket/goldman-sachs-jpmorgan-top-1h26-ma-rankings-as-boards-back-boldness/",
+          "period": "H1 2026",
+          "date": "2026-07-01"
+        },
+        "next_earnings": "2026-07-23",
+        "pipeline_watch": []
+      }
     },
     {
       "id": "moelis",
@@ -467,7 +577,16 @@
           "text": "PJT's restructuring practice is among the Street's most active — any live engagement is a near-certain data room requirement.",
           "use_with": "PJT restructuring and strategic advisory teams"
         }
-      ]
+      ],
+      "dealbrief_tracker": {
+        "mandates_30d": 2,
+        "mandates_total": 2,
+        "as_of": "2026-07-07",
+        "note": "Mandates tracked by DealBrief from public news — a coverage tally, not an official league table. Bulge brackets are undercounted; see advisory_signal for authoritative rank.",
+        "advisory_signal": null,
+        "next_earnings": null,
+        "pipeline_watch": []
+      }
     },
     {
       "id": "jefferies",
@@ -520,7 +639,30 @@
           "text": "Jefferies is re-rating on faster sponsor deal flow. Sponsor sell-sides prize fast, repeatable, template-based room setup.",
           "use_with": "Jefferies sponsor coverage and ECM teams"
         }
-      ]
+      ],
+      "dealbrief_tracker": {
+        "mandates_30d": 4,
+        "mandates_total": 4,
+        "as_of": "2026-07-07",
+        "note": "Mandates tracked by DealBrief from public news — a coverage tally, not an official league table. Bulge brackets are undercounted; see advisory_signal for authoritative rank.",
+        "advisory_signal": {
+          "rank": "IB net revenue $1.21B — a record, +53% YoY (fiscal Q2 2026, reported Jun 24)",
+          "source": "StockTitan",
+          "source_url": "https://www.stocktitan.net/",
+          "period": "Fiscal Q2 2026",
+          "date": "2026-06-24"
+        },
+        "next_earnings": null,
+        "pipeline_watch": [
+          {
+            "company": "CSA Group",
+            "situation": "Reported to have tapped Jefferies to explore a sale",
+            "sector": "Testing, inspection & certification",
+            "source_note": "Bloomberg (headline-level), Jun 26 2026",
+            "confidence": "Speculative"
+          }
+        ]
+      }
     },
     {
       "id": "houlihan-lokey",
@@ -559,7 +701,22 @@
           "text": "Houlihan Lokey runs more deals than any adviser by count. Volume is the opportunity — repeatable, fast room workflows are a direct margin lever.",
           "use_with": "HL M&A and restructuring teams"
         }
-      ]
+      ],
+      "dealbrief_tracker": {
+        "mandates_30d": 2,
+        "mandates_total": 3,
+        "as_of": "2026-07-07",
+        "note": "Mandates tracked by DealBrief from public news — a coverage tally, not an official league table. Bulge brackets are undercounted; see advisory_signal for authoritative rank.",
+        "advisory_signal": {
+          "rank": "#3 global M&A by deal count, H1 2026",
+          "source": "ION Analytics / Mergermarket",
+          "source_url": "https://ionanalytics.com/insights/mergermarket/goldman-sachs-jpmorgan-top-1h26-ma-rankings-as-boards-back-boldness/",
+          "period": "H1 2026",
+          "date": "2026-07-01"
+        },
+        "next_earnings": null,
+        "pipeline_watch": []
+      }
     },
     {
       "id": "barclays",
@@ -598,7 +755,16 @@
           "text": "Barclays' transatlantic franchise positions it for cross-border UK/US mandates as the cycle accelerates. The 2026 cycle upturn is the moment to revisit data room infrastructure.",
           "use_with": "Barclays M&A and coverage teams"
         }
-      ]
+      ],
+      "dealbrief_tracker": {
+        "mandates_30d": 1,
+        "mandates_total": 1,
+        "as_of": "2026-07-07",
+        "note": "Mandates tracked by DealBrief from public news — a coverage tally, not an official league table. Bulge brackets are undercounted; see advisory_signal for authoritative rank.",
+        "advisory_signal": null,
+        "next_earnings": "2026-07-28",
+        "pipeline_watch": []
+      }
     },
     {
       "id": "deutsche-bank",
@@ -637,7 +803,16 @@
           "text": "Deutsche Bank's European and cross-border franchise stands to gain from the multi-year M&A rebound. The 2026 cycle upturn is the moment to revisit data room infrastructure.",
           "use_with": "Deutsche Bank M&A and coverage teams"
         }
-      ]
+      ],
+      "dealbrief_tracker": {
+        "mandates_30d": 0,
+        "mandates_total": 0,
+        "as_of": "2026-07-07",
+        "note": "Mandates tracked by DealBrief from public news — a coverage tally, not an official league table. Bulge brackets are undercounted; see advisory_signal for authoritative rank.",
+        "advisory_signal": null,
+        "next_earnings": "2026-07-29",
+        "pipeline_watch": []
+      }
     },
     {
       "id": "ubs",
@@ -676,7 +851,16 @@
           "text": "UBS's combined platform is positioned for large cross-border and sponsor mandates in the 2026 cycle. The 2026 cycle upturn is the moment to revisit data room infrastructure.",
           "use_with": "UBS M&A and coverage teams"
         }
-      ]
+      ],
+      "dealbrief_tracker": {
+        "mandates_30d": 0,
+        "mandates_total": 0,
+        "as_of": "2026-07-07",
+        "note": "Mandates tracked by DealBrief from public news — a coverage tally, not an official league table. Bulge brackets are undercounted; see advisory_signal for authoritative rank.",
+        "advisory_signal": null,
+        "next_earnings": "2026-07-29",
+        "pipeline_watch": []
+      }
     },
     {
       "id": "wells-fargo",
@@ -715,7 +899,16 @@
           "text": "Wells Fargo continues to build its advisory franchise and features in FactSet's adviser league tables. The 2026 cycle upturn is the moment to revisit data room infrastructure.",
           "use_with": "Wells Fargo M&A and coverage teams"
         }
-      ]
+      ],
+      "dealbrief_tracker": {
+        "mandates_30d": 0,
+        "mandates_total": 0,
+        "as_of": "2026-07-07",
+        "note": "Mandates tracked by DealBrief from public news — a coverage tally, not an official league table. Bulge brackets are undercounted; see advisory_signal for authoritative rank.",
+        "advisory_signal": null,
+        "next_earnings": "2026-07-14",
+        "pipeline_watch": []
+      }
     },
     {
       "id": "rbc-capital-markets",
@@ -754,7 +947,16 @@
           "text": "RBC is highly active in energy and industrials M&A, where cross-border Canadian/US deals create complex requirements. The 2026 cycle upturn is the moment to revisit data room infrastructure.",
           "use_with": "RBC Capital Markets M&A and coverage teams"
         }
-      ]
+      ],
+      "dealbrief_tracker": {
+        "mandates_30d": 1,
+        "mandates_total": 1,
+        "as_of": "2026-07-07",
+        "note": "Mandates tracked by DealBrief from public news — a coverage tally, not an official league table. Bulge brackets are undercounted; see advisory_signal for authoritative rank.",
+        "advisory_signal": null,
+        "next_earnings": null,
+        "pipeline_watch": []
+      }
     },
     {
       "id": "centerview-partners",
@@ -793,7 +995,22 @@
           "text": "Centerview's high-touch advisory model concentrates on the largest, most sensitive board-level mandates. The 2026 cycle upturn is the moment to revisit data room infrastructure.",
           "use_with": "Centerview Partners M&A and coverage teams"
         }
-      ]
+      ],
+      "dealbrief_tracker": {
+        "mandates_30d": 0,
+        "mandates_total": 1,
+        "as_of": "2026-07-07",
+        "note": "Mandates tracked by DealBrief from public news — a coverage tally, not an official league table. Bulge brackets are undercounted; see advisory_signal for authoritative rank.",
+        "advisory_signal": {
+          "rank": "#9 global M&A by value, H1 2026",
+          "source": "ION Analytics / Mergermarket",
+          "source_url": "https://ionanalytics.com/insights/mergermarket/goldman-sachs-jpmorgan-top-1h26-ma-rankings-as-boards-back-boldness/",
+          "period": "H1 2026",
+          "date": "2026-07-01"
+        },
+        "next_earnings": null,
+        "pipeline_watch": []
+      }
     },
     {
       "id": "perella-weinberg",
@@ -871,7 +1088,16 @@
           "text": "Guggenheim runs sophisticated mid-to-large mandates often involving complex capital structures. The 2026 cycle upturn is the moment to revisit data room infrastructure.",
           "use_with": "Guggenheim Securities M&A and coverage teams"
         }
-      ]
+      ],
+      "dealbrief_tracker": {
+        "mandates_30d": 1,
+        "mandates_total": 1,
+        "as_of": "2026-07-07",
+        "note": "Mandates tracked by DealBrief from public news — a coverage tally, not an official league table. Bulge brackets are undercounted; see advisory_signal for authoritative rank.",
+        "advisory_signal": null,
+        "next_earnings": null,
+        "pipeline_watch": []
+      }
     },
     {
       "id": "greenhill-and-co",
@@ -949,7 +1175,16 @@
           "text": "William Blair is one of the most active tech and healthcare M&A advisers in the middle market. The 2026 cycle upturn is the moment to revisit data room infrastructure.",
           "use_with": "William Blair M&A and coverage teams"
         }
-      ]
+      ],
+      "dealbrief_tracker": {
+        "mandates_30d": 1,
+        "mandates_total": 1,
+        "as_of": "2026-07-07",
+        "note": "Mandates tracked by DealBrief from public news — a coverage tally, not an official league table. Bulge brackets are undercounted; see advisory_signal for authoritative rank.",
+        "advisory_signal": null,
+        "next_earnings": null,
+        "pipeline_watch": []
+      }
     },
     {
       "id": "lincoln-international",
@@ -988,7 +1223,16 @@
           "text": "Lincoln runs a high volume of PE-sponsored sell-side processes where speed-to-launch matters. The 2026 cycle upturn is the moment to revisit data room infrastructure.",
           "use_with": "Lincoln International M&A and coverage teams"
         }
-      ]
+      ],
+      "dealbrief_tracker": {
+        "mandates_30d": 1,
+        "mandates_total": 1,
+        "as_of": "2026-07-07",
+        "note": "Mandates tracked by DealBrief from public news — a coverage tally, not an official league table. Bulge brackets are undercounted; see advisory_signal for authoritative rank.",
+        "advisory_signal": null,
+        "next_earnings": null,
+        "pipeline_watch": []
+      }
     },
     {
       "id": "harris-williams",
@@ -1027,7 +1271,16 @@
           "text": "Harris Williams features in FactSet's adviser league tables and focuses on sponsor-driven mid-market M&A. The 2026 cycle upturn is the moment to revisit data room infrastructure.",
           "use_with": "Harris Williams M&A and coverage teams"
         }
-      ]
+      ],
+      "dealbrief_tracker": {
+        "mandates_30d": 1,
+        "mandates_total": 1,
+        "as_of": "2026-07-07",
+        "note": "Mandates tracked by DealBrief from public news — a coverage tally, not an official league table. Bulge brackets are undercounted; see advisory_signal for authoritative rank.",
+        "advisory_signal": null,
+        "next_earnings": null,
+        "pipeline_watch": []
+      }
     },
     {
       "id": "baird",
@@ -1105,7 +1358,16 @@
           "text": "Piper Sandler features in FactSet's adviser league tables with deep sector coverage in the middle market. The 2026 cycle upturn is the moment to revisit data room infrastructure.",
           "use_with": "Piper Sandler M&A and coverage teams"
         }
-      ]
+      ],
+      "dealbrief_tracker": {
+        "mandates_30d": 1,
+        "mandates_total": 1,
+        "as_of": "2026-07-07",
+        "note": "Mandates tracked by DealBrief from public news — a coverage tally, not an official league table. Bulge brackets are undercounted; see advisory_signal for authoritative rank.",
+        "advisory_signal": null,
+        "next_earnings": null,
+        "pipeline_watch": []
+      }
     },
     {
       "id": "raymond-james",

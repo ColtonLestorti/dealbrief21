@@ -504,6 +504,31 @@
     ],
     "macro_note": "A chip-led selloff dragged the Nasdaq down ~1.5% Tuesday — Samsung's forecast of a ~19-fold profit jump failed to lift semiconductors, and a report that DeepSeek is building its own AI inference chip knocked Nvidia ~2% — even as the Dow held roughly flat near record territory. The 10Y edged up to 4.51% and WTI crude gained 2.4%. Bank stocks were mixed to firmer: EVR, LAZ, and JEF all rose 2–4% on the prior close. (2Y Treasury omitted — no verified live level at publication; GS/MS/JPM intraday, EVR/LAZ/JEF at prior close.)"
   },
+  "pipeline_watch": {
+    "note": "Prospective / rumored situations — verified at publisher + date level; treat as Speculative and confirm before quoting on a call. 'Covered-bank leads' name one of your banks as adviser; 'situations to watch' are real but the mandate is unnamed or held by a non-covered adviser.",
+    "covered_bank_leads": [
+      { "company": "Bumble", "bank": "Morgan Stanley", "situation": "Reported to be working with Morgan Stanley to explore a sale amid a user decline", "sector": "Consumer internet", "source_note": "Moomoo / Market Chatter, Jun 25 2026", "confidence": "Speculative" },
+      { "company": "Ryman Hospitality (Opry Entertainment)", "bank": "Morgan Stanley", "situation": "Exploring partnerships / strategic alternatives for its Opry Entertainment unit", "sector": "Entertainment / hospitality", "source_note": "Moomoo, Jun 25 2026", "confidence": "Speculative" },
+      { "company": "CSA Group", "bank": "Jefferies", "situation": "Reported to have tapped Jefferies to explore a sale", "sector": "Testing, inspection & certification", "source_note": "Bloomberg (headline-level), Jun 26 2026", "confidence": "Speculative" },
+      { "company": "Minted", "bank": "JPMorgan", "situation": "Reported to be exploring a potential ~$1B sale with JPMorgan", "sector": "E-commerce / consumer", "source_note": "GuruFocus, Jun 29 2026", "confidence": "Speculative" }
+    ],
+    "situations_to_watch": [
+      { "company": "GFL Environmental", "situation": "Weighing a take-private; held talks with Apollo; adviser not disclosed", "sector": "Waste management", "source_note": "Reuters/Bloomberg/Globe & Mail (headline-level), Jul 3–6 2026", "confidence": "Speculative" },
+      { "company": "Varonis Systems", "situation": "Exploring a potential sale amid PE takeover interest; adviser not disclosed", "sector": "Data security software", "source_note": "MSN / Investing.com, Jun 23 2026", "confidence": "Speculative" },
+      { "company": "Criteo", "situation": "Vista Equity buyout approach reported; stock +29%; adviser not disclosed", "sector": "Adtech", "source_note": "Reuters/Bloomberg (headline-level), Jul 6 2026", "confidence": "Speculative" },
+      { "company": "SPS Commerce", "situation": "Exploring a sale after activist pressure; adviser not disclosed", "sector": "Supply-chain software", "source_note": "Business Journals, Jun 24 2026", "confidence": "Speculative" },
+      { "company": "Pitney Bowes", "situation": "Phase-two strategic review weighing sale / acquisitions / divestitures; adviser not disclosed", "sector": "Shipping technology", "source_note": "Seeking Alpha / StockTitan, Jun 30 2026", "confidence": "Speculative" }
+    ]
+  },
+  "sector_heat": {
+    "note": "Which sectors are driving M&A right now — lead outreach with bankers in the hottest verticals. Sourced from H1 2026 league-table and mid-year outlook coverage.",
+    "ranked": [
+      { "sector": "Technology / AI", "read": "The clear leader — AI megadeals are pushing 2026 toward its biggest M&A year since 2021; ~78% of dealmakers say AI offers the most attractive opportunities.", "source_note": "LawFuel / PwC TMT mid-year outlook, Jun 2026" },
+      { "sector": "Healthcare / Biopharma", "read": "Very hot — a ~$170B patent cliff plus Big Pharma cash is fueling a deal wave (Vertex/Crinetics this week; Lilly, GSK/Nuvalent, Merck/Terns recently).", "source_note": "BioSpace / CNBC / Fierce Pharma, Apr–Jun 2026" },
+      { "sector": "Energy (oil & gas)", "read": "Consolidating — US upstream M&A hit ~$38B in Q1 2026, a two-year high; more consolidation expected.", "source_note": "OilPrice / Enverus, May 2026" },
+      { "sector": "Financial services", "read": "Rebounding — UK FS M&A value up ~8x in H1; global FS +3% YoY as the consolidation wave breaks.", "source_note": "Wealth Briefing / Investment Week, Jul 2026" }
+    ]
+  },
   "talking_point": {
     "quote": "Four M&A deals landed in 48 hours — Solstice/Element Solutions, Vertex/Crinetics, Lockheed/Ultra Maritime, and Kroger/Giant Eagle — three of them with stapled bridge financing. When advisory and financing sit on the same deal, whose job is it to keep lender and buyer diligence from colliding?",
     "use_with": "M&A and leveraged finance teams at Goldman, Morgan Stanley, Citi, and RBC",

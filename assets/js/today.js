@@ -62,6 +62,7 @@ function renderBrief(data, { archived }) {
   renderTodayHeader(data);
   renderStories(data.stories);
   renderOpportunities(data.opportunities);
+  renderPipelineWatch(data.pipeline_watch, data.sector_heat);
   renderMarketSnapshot(data.market_snapshot);
   renderTalkingPoint(data.talking_point);
   // Archive list always reflects today's archive (the live edition).
@@ -371,6 +372,70 @@ function renderOpportunities(opps) {
 
   // Store opportunities data for modal access
   window._opportunitiesData = opps;
+}
+
+/* ── Pipeline & Sector Watch ─────────────────────────────── */
+function renderPipelineWatch(pipeline, sectorHeat) {
+  const section = document.getElementById('section-pipeline');
+  const container = document.getElementById('pipeline-watch');
+  if (!section || !container) return;
+
+  // Hide the whole section if this edition carries no pipeline/sector data.
+  if (!pipeline && !sectorHeat) {
+    section.style.display = 'none';
+    return;
+  }
+  section.style.display = 'block';
+
+  const leadCard = (p) => `
+    <div class="pipeline-item">
+      <div class="pipeline-company">
+        ${esc(p.company)}
+        ${p.bank ? `<span class="pipeline-bank">→ ${esc(p.bank)}</span>` : ''}
+        <span class="badge badge-conf-speculative">SPECULATIVE</span>
+      </div>
+      <div class="pipeline-situation">${esc(p.situation)}</div>
+      <div class="pipeline-meta">
+        <span class="pipeline-sector">${esc(p.sector)}</span>
+        <span class="deal-meta-dot">·</span>
+        <span class="pipeline-source">${esc(p.source_note)}</span>
+      </div>
+    </div>
+  `;
+
+  const leads = pipeline?.covered_bank_leads?.length ? `
+    <div class="pipeline-group">
+      <div class="tracker-label">Covered-Bank Leads — a named mandate = a data room</div>
+      ${pipeline.covered_bank_leads.map(leadCard).join('')}
+    </div>
+  ` : '';
+
+  const watch = pipeline?.situations_to_watch?.length ? `
+    <div class="pipeline-group">
+      <div class="tracker-label">Situations to Watch — mandate unnamed / up for grabs</div>
+      ${pipeline.situations_to_watch.map(leadCard).join('')}
+    </div>
+  ` : '';
+
+  const sectors = sectorHeat?.ranked?.length ? `
+    <div class="pipeline-group">
+      <div class="tracker-label">Sector Heat — where the deals are</div>
+      ${sectorHeat.ranked.map((s, i) => `
+        <div class="sector-heat-item">
+          <span class="sector-heat-rank">${i + 1}</span>
+          <div class="sector-heat-body">
+            <div class="sector-heat-name">${esc(s.sector)}</div>
+            <div class="sector-heat-read">${esc(s.read)}</div>
+            <div class="pipeline-source">${esc(s.source_note)}</div>
+          </div>
+        </div>
+      `).join('')}
+    </div>
+  ` : '';
+
+  const note = pipeline?.note ? `<div class="tracker-note">${esc(pipeline.note)}</div>` : '';
+
+  container.innerHTML = `<div class="pipeline-panel">${leads}${watch}${sectors}${note}</div>`;
 }
 
 /* ── Market Snapshot ─────────────────────────────────────── */
