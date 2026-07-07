@@ -19,17 +19,17 @@
   --bg-border:      #252A33;   /* dividers, card borders */
   --bg-subtle:      #1F242C;   /* tag backgrounds, secondary surfaces */
 
-  /* Accent — Intralinks teal */
-  --accent:         #00A9CE;   /* primary accent — Intralinks teal */
-  --accent-dim:     #0080A0;   /* muted accent */
-  --accent-bg:      rgba(0, 169, 206, 0.08); /* accent-tinted backgrounds */
-  --accent-border:  rgba(0, 169, 206, 0.25);
+  /* Accent — SS&C Blue (brand primary, #0077C8) */
+  --accent:         #0077C8;   /* primary accent — SS&C Blue */
+  --accent-dim:     #0B4D99;   /* muted accent — Cobalt */
+  --accent-bg:      rgba(0, 119, 200, 0.08); /* accent-tinted backgrounds */
+  --accent-border:  rgba(0, 119, 200, 0.25);
 
   /* Semantic status colors */
   --hot:            #E85D4A;   /* urgency: high / hot */
   --hot-bg:         rgba(232, 93, 74, 0.10);
-  --warm:           #00A9CE;   /* urgency: medium / warm — reuses accent */
-  --warm-bg:        rgba(0, 169, 206, 0.10);
+  --warm:           #0077C8;   /* urgency: medium / warm — reuses accent */
+  --warm-bg:        rgba(0, 119, 200, 0.10);
   --low:            #4A5568;   /* urgency: low */
   --low-bg:         rgba(74, 85, 104, 0.15);
   --positive:       #3DAB73;   /* market up */
@@ -39,7 +39,7 @@
   --text-primary:   #F0F2F5;   /* headings, primary content */
   --text-secondary: #8A94A6;   /* supporting text, metadata */
   --text-muted:     #545E6E;   /* timestamps, labels */
-  --text-accent:    #00A9CE;   /* highlighted text */
+  --text-accent:    #0077C8;   /* highlighted text */
 
   /* Typography */
   --font-display:   'DM Serif Display', Georgia, serif;
@@ -590,7 +590,7 @@ ul, ol { list-style: none; }
 .badge-warm {
   background: var(--warm-bg);
   color: var(--warm);
-  border: 1px solid rgba(0, 169, 206, 0.2);
+  border: 1px solid rgba(0, 119, 200, 0.2);
 }
 
 .badge-low {
@@ -612,9 +612,9 @@ ul, ol { list-style: none; }
 }
 
 .badge-conf-filed {
-  background: rgba(74, 144, 201, 0.10);
-  color: #4A90C9;
-  border: 1px solid rgba(74, 144, 201, 0.25);
+  background: rgba(16, 153, 172, 0.12);
+  color: #1099AC;               /* SS&C brand teal — kept distinct from the blue accent */
+  border: 1px solid rgba(16, 153, 172, 0.28);
 }
 
 .badge-conf-reported {
@@ -827,13 +827,13 @@ ul, ol { list-style: none; }
 
 .btn-primary {
   background: var(--accent);
-  color: var(--bg-base);
+  color: #FFFFFF;
   border-color: var(--accent);
 }
 
 .btn-primary:hover {
-  background: #D4B060;
-  border-color: #D4B060;
+  background: var(--accent-dim);
+  border-color: var(--accent-dim);
 }
 
 .btn-ghost {
@@ -1819,7 +1819,7 @@ ul, ol { list-style: none; }
   gap: var(--space-3);
 }
 
-.btn-onboarding:hover { background: #D4B060; }
+.btn-onboarding:hover { background: var(--accent-dim); }
 
 /* Welcome step specific */
 .welcome-meta {
