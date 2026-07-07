@@ -1,16 +1,12 @@
 name: Update Market Snapshot
 
-# Runs 3x on weekdays: market open, midday, and close (times are ET,
-# expressed as fixed UTC — same simplification the existing daily-brief
-# workflow uses, not adjusted for daylight saving).
-#   9:35 AM ET  -> 14:35 UTC
-#  12:30 PM ET  -> 17:30 UTC
-#   4:15 PM ET  -> 21:15 UTC
+# PAUSED (2026-07-07): scheduled runs disabled to stop API spend while the
+# Anthropic API key is at its limit. Re-enable by uncommenting the schedule
+# block below (already reduced from 3x/day to 1x/day after close, 21:15 UTC).
+# Still runnable on demand from the Actions tab.
 on:
-  schedule:
-    - cron: '35 14 * * 1-5'
-    - cron: '30 17 * * 1-5'
-    - cron: '15 21 * * 1-5'
+  # schedule:
+  #   - cron: '15 21 * * 1-5'
   workflow_dispatch:          # Manual "Run workflow" button
 
 permissions:

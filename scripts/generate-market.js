@@ -85,7 +85,9 @@ async function generate() {
       max_tokens: 2000,
       system: SYSTEM_PROMPT,
       messages: [{ role: 'user', content: USER_PROMPT }],
-      tools: [{ type: 'web_search_20250305', name: 'web_search' }]
+      // Cap web search — a market snapshot needs only a couple of lookups
+      // (indices + bank stocks); bounding it avoids runaway input-token cost.
+      tools: [{ type: 'web_search_20250305', name: 'web_search', max_uses: 4 }]
     })
   });
 

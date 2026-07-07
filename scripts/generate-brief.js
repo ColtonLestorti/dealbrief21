@@ -227,7 +227,10 @@ async function generate() {
       max_tokens: 14000,
       system: SYSTEM_PROMPT,
       messages: [{ role: 'user', content: userPrompt }],
-      tools: [{ type: 'web_search_20250305', name: 'web_search' }]
+      // Cap web search: each search re-reads all prior fetched pages into
+      // context on every model turn, so an uncapped loop is the main cost
+      // driver. 8 searches is enough for the bank/macro/rumor sweep.
+      tools: [{ type: 'web_search_20250305', name: 'web_search', max_uses: 8 }]
     })
   });
 
