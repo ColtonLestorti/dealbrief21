@@ -19,17 +19,17 @@
   --bg-border:      #252A33;   /* dividers, card borders */
   --bg-subtle:      #1F242C;   /* tag backgrounds, secondary surfaces */
 
-  /* Accent — a refined slate-gold, not the usual green or blue */
-  --accent:         #C9A84C;   /* primary accent — gold/amber */
-  --accent-dim:     #9A7A34;   /* muted accent */
-  --accent-bg:      rgba(201, 168, 76, 0.08); /* accent-tinted backgrounds */
-  --accent-border:  rgba(201, 168, 76, 0.25);
+  /* Accent — Intralinks teal */
+  --accent:         #00A9CE;   /* primary accent — Intralinks teal */
+  --accent-dim:     #0080A0;   /* muted accent */
+  --accent-bg:      rgba(0, 169, 206, 0.08); /* accent-tinted backgrounds */
+  --accent-border:  rgba(0, 169, 206, 0.25);
 
   /* Semantic status colors */
   --hot:            #E85D4A;   /* urgency: high / hot */
   --hot-bg:         rgba(232, 93, 74, 0.10);
-  --warm:           #C9A84C;   /* urgency: medium / warm — reuses accent */
-  --warm-bg:        rgba(201, 168, 76, 0.10);
+  --warm:           #00A9CE;   /* urgency: medium / warm — reuses accent */
+  --warm-bg:        rgba(0, 169, 206, 0.10);
   --low:            #4A5568;   /* urgency: low */
   --low-bg:         rgba(74, 85, 104, 0.15);
   --positive:       #3DAB73;   /* market up */
@@ -39,7 +39,7 @@
   --text-primary:   #F0F2F5;   /* headings, primary content */
   --text-secondary: #8A94A6;   /* supporting text, metadata */
   --text-muted:     #545E6E;   /* timestamps, labels */
-  --text-accent:    #C9A84C;   /* highlighted text */
+  --text-accent:    #00A9CE;   /* highlighted text */
 
   /* Typography */
   --font-display:   'DM Serif Display', Georgia, serif;
@@ -590,7 +590,7 @@ ul, ol { list-style: none; }
 .badge-warm {
   background: var(--warm-bg);
   color: var(--warm);
-  border: 1px solid rgba(201, 168, 76, 0.2);
+  border: 1px solid rgba(0, 169, 206, 0.2);
 }
 
 .badge-low {
