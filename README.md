@@ -3,7 +3,7 @@
 
 Built for SS&C Intralinks Account Executives. Helps AEs prepare for client conversations in under five minutes.
 
-Live site: https://coltonlestorti.github.io/dealbrief
+Live site: https://coltonlestorti.github.io/dealbrief21/
 
 ---
 
