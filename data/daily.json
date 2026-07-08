@@ -176,6 +176,13 @@
       { "company": "Tesco (Central Europe stores)", "situation": "Exploring a sale of 500+ Central European stores; adviser not disclosed", "sector": "Grocery / retail", "source_note": "TradingView, Jul 8 2026", "confidence": "Speculative" }
     ]
   },
+  "skeptics_corner": {
+    "note": "Unverified leads — sourced from subscription tools (PitchBook / Mergermarket) or single-source reports that we could NOT confirm against a public source. Shown transparently so reps can chase them, not quote them. Verify before using on a call.",
+    "items": [
+      { "company": "Harbour Energy", "lead": "Barclays reported as named on a Harbour Energy share placing, but the specific role (bookrunner vs. bank) could not be confirmed in an accessible source", "bank": "Barclays", "sector": "Energy / ECM", "source_note": "TradingView (headline-level), Jul 3 2026", "why_unverified": "Role not confirmed on a primary source (e.g. an RNS)" },
+      { "company": "Vertex / Crinetics (~$9–10B)", "lead": "Deal is confirmed, but no financial-adviser bank could be verified — Morgan Stanley appears only as a research analyst, not an adviser. A covered-bank adviser here would be a strong lead if confirmed", "bank": "unconfirmed", "sector": "Healthcare / biopharma", "source_note": "Law360 / marketscreener, Jul 5–8 2026", "why_unverified": "Financial adviser not named in any accessible source" }
+    ]
+  },
   "sector_heat": {
     "note": "Which sectors are driving M&A right now — lead outreach with bankers in the hottest verticals. Carried from H1 2026 league-table and mid-year outlook coverage; energy is in focus today on the oil-price spike.",
     "ranked": [

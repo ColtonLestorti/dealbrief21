@@ -807,6 +807,51 @@ ul, ol { list-style: none; }
   margin: var(--space-1) 0;
 }
 
+/* ── Skeptic's Corner (unverified leads) ─────────────────── */
+.skeptics-panel {
+  background: var(--bg-surface);
+  border: 1px solid rgba(232, 93, 74, 0.28);   /* warning-tinted border */
+  border-left: 3px solid var(--hot);
+  border-radius: var(--radius-md);
+  padding: var(--space-5);
+}
+
+.skeptics-banner {
+  font-size: var(--text-sm);
+  color: var(--text-secondary);
+  line-height: 1.5;
+  padding: var(--space-3) var(--space-4);
+  margin-bottom: var(--space-4);
+  background: var(--hot-bg);
+  border: 1px solid rgba(232, 93, 74, 0.2);
+  border-radius: var(--radius-sm);
+}
+
+.skeptic-item {
+  padding: var(--space-3) 0;
+  border-top: 1px solid var(--bg-border);
+}
+.skeptic-item:first-of-type {
+  border-top: none;
+}
+
+.skeptic-company {
+  font-size: var(--text-md);
+  font-weight: 600;
+  color: var(--text-primary);
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+}
+
+.skeptic-why {
+  font-size: var(--text-xs);
+  color: var(--hot);
+  margin: var(--space-2) 0;
+  font-style: italic;
+}
+
 /* ── Buttons ─────────────────────────────────────────────── */
 .btn {
   display: inline-flex;

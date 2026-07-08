@@ -85,6 +85,32 @@ the research; it never appears as a `source`.
 > data *may* become possible within each product's license — but that needs SS&C
 > compliance/legal sign-off first, and is out of scope while the site is public.
 
+### Morning screenshot workflow (how subscription leads get in)
+
+The automation cannot log into PitchBook/Mergermarket, and scraping is prohibited.
+The working path is **human-captured screenshots**:
+
+1. A team member (with a seat) screenshots the relevant PitchBook/Mergermarket
+   screens each morning — new mandates, pipeline/rumored deals, covered-bank activity.
+2. Paste the screenshots into the brief-building session.
+3. Deal/name/figure are read from the image, then **confirmed against a public
+   source** before publishing (same rule as all subscription leads).
+4. Anything that can't be publicly confirmed goes to **Skeptic's Corner** (below),
+   not the main brief.
+
+A person capturing their own licensed screen is not automated extraction; but the
+site is public, so the *published* item is still the public-sourced version, and raw
+subscription screens are never posted.
+
+### Skeptic's Corner (`daily.json` → `skeptics_corner`)
+
+A visually-distinct, warning-tinted section for **unverified leads** — items from
+subscription tools or single-source reports we could not confirm publicly. Shown
+transparently (badged `UNVERIFIED`, with a `why_unverified` reason) so reps can
+*chase* them, not *quote* them. This keeps the honesty visible instead of silently
+dropping unconfirmed leads. Each item: `company`, `lead`, `bank`, `sector`,
+`source_note`, `why_unverified`. The section auto-hides when the array is empty.
+
 ## When automation resumes (cost note)
 
 The cheap pattern: fetch headlines from these RSS feeds in Node **for free**, then pay the Claude API only to *summarize and rank* them — instead of the current "let Claude web-search the whole open internet" approach (the main cost driver). See `daily-brief.yml` / `market-update.yml` (schedules currently commented out).

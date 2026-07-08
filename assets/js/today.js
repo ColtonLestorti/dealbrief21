@@ -63,6 +63,7 @@ function renderBrief(data, { archived }) {
   renderStories(data.stories);
   renderOpportunities(data.opportunities);
   renderPipelineWatch(data.pipeline_watch, data.sector_heat);
+  renderSkepticsCorner(data.skeptics_corner);
   renderMarketSnapshot(data.market_snapshot);
   renderTalkingPoint(data.talking_point);
   // Archive list always reflects today's archive (the live edition).
@@ -436,6 +437,42 @@ function renderPipelineWatch(pipeline, sectorHeat) {
   const note = pipeline?.note ? `<div class="tracker-note">${esc(pipeline.note)}</div>` : '';
 
   container.innerHTML = `<div class="pipeline-panel">${leads}${watch}${sectors}${note}</div>`;
+}
+
+/* ── Skeptic's Corner (unverified leads) ─────────────────── */
+function renderSkepticsCorner(sk) {
+  const section = document.getElementById('section-skeptics');
+  const container = document.getElementById('skeptics-corner');
+  if (!section || !container) return;
+
+  if (!sk || !sk.items || sk.items.length === 0) {
+    section.style.display = 'none';
+    return;
+  }
+  section.style.display = 'block';
+
+  const items = sk.items.map(it => `
+    <div class="skeptic-item">
+      <div class="skeptic-company">
+        ${esc(it.company)}
+        ${it.bank && it.bank !== 'unconfirmed' ? `<span class="pipeline-bank">→ ${esc(it.bank)}</span>` : ''}
+        <span class="badge badge-conf-speculative">UNVERIFIED</span>
+      </div>
+      <div class="pipeline-situation">${esc(it.lead)}</div>
+      <div class="skeptic-why">⚠ ${esc(it.why_unverified)}</div>
+      <div class="pipeline-meta">
+        ${it.sector ? `<span class="pipeline-sector">${esc(it.sector)}</span><span class="deal-meta-dot">·</span>` : ''}
+        <span class="pipeline-source">${esc(it.source_note)}</span>
+      </div>
+    </div>
+  `).join('');
+
+  container.innerHTML = `
+    <div class="skeptics-panel">
+      <div class="skeptics-banner">${esc(sk.note)}</div>
+      ${items}
+    </div>
+  `;
 }
 
 /* ── Market Snapshot ─────────────────────────────────────── */
