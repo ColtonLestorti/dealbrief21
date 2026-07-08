@@ -26,7 +26,7 @@ import { dirname, join } from 'node:path';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
-const AS_OF = '2026-07-07';
+const AS_OF = '2026-07-08';
 const WINDOW_DAYS = 30;
 
 /* ── 1. Tally tracked mandates per bank (same rule as tally-mandates.js) ── */

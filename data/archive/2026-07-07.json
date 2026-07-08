@@ -1,0 +1,848 @@
+{
+  "date": "2026-07-07",
+  "edition": 5,
+  "lens": "A chip-led selloff dragged the Nasdaq down ~1.5% while the Dow held near record territory — and beneath the tape, dealmaking is running hot: four M&A transactions announced in 48 hours (Solstice/Element Solutions, Vertex/Crinetics, Lockheed/Ultra Maritime, Kroger/Giant Eagle) plus a wave of IPO filings put nearly every covered bank on a live mandate this week.",
+  "ticker": [
+    {
+      "label": "S&P 500",
+      "value": "7,486.83",
+      "change": "-0.67%",
+      "positive": false
+    },
+    {
+      "label": "NASDAQ",
+      "value": "25,734.58",
+      "change": "-1.48%",
+      "positive": false
+    },
+    {
+      "label": "DOW",
+      "value": "53,021.82",
+      "change": "-0.06%",
+      "positive": false
+    },
+    {
+      "label": "RUSSELL 2000",
+      "value": "2,981.35",
+      "change": "-0.94%",
+      "positive": false
+    },
+    {
+      "label": "10Y",
+      "value": "4.513%",
+      "change": "+3bps",
+      "positive": false
+    },
+    {
+      "label": "VIX",
+      "value": "15.89",
+      "change": "+0.51%",
+      "positive": false
+    },
+    {
+      "label": "WTI CRUDE",
+      "value": "$70.19",
+      "change": "+2.39%",
+      "positive": true
+    },
+    {
+      "label": "GS",
+      "value": "$1,045.85",
+      "change": "-0.89%",
+      "positive": false
+    }
+  ],
+  "stories": [
+    {
+      "id": "s1",
+      "category": "MACRO",
+      "urgency": "HIGH",
+      "scope": "market",
+      "headline": "Samsung's near-19-fold profit surge triggers a global chip selloff on AI-spending fears — Nasdaq slides ~1.5%",
+      "why_it_matters": "Semiconductors sold off worldwide Tuesday even though Samsung Electronics reported an operating profit of 89.4 trillion won (~$58B), a nearly 19-fold jump that beat estimates. Samsung shares still fell ~7% — a 'sell-the-news' reaction as investors questioned the sustainability of the AI boom and the risk of slower AI-infrastructure spending. The drag was global: ASML, STMicro, and Infineon each fell 5–6% in Europe; Micron and Western Digital dropped ~6–8% and Intel and AMD each fell 4%+ in US premarket (Nvidia -2.5%, also pressured by the DeepSeek in-house-chip report). The Nasdaq slid ~1.5% while the Dow held roughly flat near record territory — a rotation out of high-multiple tech, not a broad risk-off. Valuation-sensitive TMT sponsors may reprice active processes to post-selloff marks before signing.",
+      "suggested_action": "For TMT and semiconductor-adjacent clients, frame this as a valuation reset driven by AI-spending sustainability fears, not a demand story — reopen active processes around post-selloff entry points rather than delaying them.",
+      "deal_clock": [
+        {
+          "date": "Jul 7",
+          "event": "Nasdaq -1.48%; S&P 500 -0.67%; Dow -0.06%"
+        },
+        {
+          "date": "Jul 7",
+          "event": "Samsung profit ~19x but shares -~7%; chip stocks sell off on AI-spend fears"
+        }
+      ],
+      "source": "Investing.com",
+      "source_url": "https://www.investing.com/news/stock-market-news/european-chip-stocks-dip-after-samsung-selloff-on-quarterly-results-4778297",
+      "published": "2026-07-07",
+      "tags": [
+        "macro",
+        "technology",
+        "semiconductors",
+        "ai"
+      ]
+    },
+    {
+      "id": "s2",
+      "category": "MACRO",
+      "urgency": "MEDIUM",
+      "scope": "market",
+      "headline": "DeepSeek reported to be building its own AI inference chip — Nvidia slips ~2%, adding to semiconductor pressure",
+      "why_it_matters": "Reuters reports that Chinese startup DeepSeek is developing an in-house AI inference chip to reduce its dependence on Nvidia amid tightening US export controls. Nvidia fell about 2% on the news, compounding the day's broader chip weakness. The report is sourced to people familiar with the matter — a real, unconfirmed signal that the AI-hardware supply chain is fragmenting, with knock-on implications for semiconductor M&A rationale.",
+      "suggested_action": "Flag to semiconductor and hardware clients as an early data point on supply-chain diversification — relevant to how strategic acquirers frame AI-hardware consolidation theses this cycle.",
+      "deal_clock": [
+        {
+          "date": "Jul 7",
+          "event": "Reuters: DeepSeek developing in-house AI inference chip"
+        },
+        {
+          "date": "Jul 7",
+          "event": "Nvidia -~2% on the report"
+        }
+      ],
+      "source": "Reuters (via MSN)",
+      "source_url": "https://www.msn.com/en-us/money/companies/deepseek-developing-its-own-ai-chip",
+      "published": "2026-07-07",
+      "confidence": "Speculative",
+      "tags": [
+        "macro",
+        "technology",
+        "semiconductors",
+        "ai"
+      ]
+    },
+    {
+      "id": "s3",
+      "category": "M&A",
+      "urgency": "HIGH",
+      "scope": "bank",
+      "bank": "Goldman Sachs",
+      "headline": "Goldman Sachs is lead advisor to Solstice Advanced Materials on its ~$14.5B acquisition of Element Solutions",
+      "why_it_matters": "Solstice Advanced Materials (the Honeywell spinoff) agreed to acquire Element Solutions for roughly $14.5B ($10.00 cash plus 0.500 Solstice shares per ESI share, a ~15% premium), announced July 6. Goldman Sachs is lead financial advisor to Solstice and also provided a $4.7B bridge commitment, with PJT Partners also advising Solstice. A large-cap materials deal with a stapled financing package is a high-complexity, multi-workstream diligence process.",
+      "suggested_action": "Open a conversation with Goldman's materials/industrials M&A team on the Element Solutions process — a deal pairing advisory with a $4.7B bridge is exactly where coordinated lender and buyer diligence access matters.",
+      "deal_clock": [
+        {
+          "date": "Jul 6, 2026",
+          "event": "Solstice agrees to acquire Element Solutions (~$14.5B)"
+        }
+      ],
+      "source": "StockTitan",
+      "source_url": "https://www.stocktitan.net/news/ESI/solstice-advanced-materials-to-acquire-element-solutions-creating-an-veaf0ivxqg6g.html",
+      "published": "2026-07-06",
+      "confidence": "Reported",
+      "tags": [
+        "materials",
+        "industrials",
+        "leveraged-finance"
+      ]
+    },
+    {
+      "id": "s4",
+      "category": "M&A",
+      "urgency": "HIGH",
+      "scope": "bank",
+      "bank": "PJT Partners",
+      "headline": "PJT Partners advises Solstice Advanced Materials on its ~$14.5B Element Solutions acquisition",
+      "why_it_matters": "PJT Partners is a financial advisor to Solstice Advanced Materials alongside Goldman Sachs on the ~$14.5B Element Solutions acquisition announced July 6. A live, large-cap strategic mandate for PJT beyond its core restructuring franchise — a fresh, deal-specific reason to engage its advisory team.",
+      "suggested_action": "Reach out to PJT's advisory team on the Solstice/Element Solutions process — a marquee materials mandate with a complex financing overlay.",
+      "deal_clock": [
+        {
+          "date": "Jul 6, 2026",
+          "event": "PJT named advisor to Solstice on Element Solutions deal"
+        }
+      ],
+      "source": "StockTitan",
+      "source_url": "https://www.stocktitan.net/news/ESI/solstice-advanced-materials-to-acquire-element-solutions-creating-an-veaf0ivxqg6g.html",
+      "published": "2026-07-06",
+      "confidence": "Reported",
+      "tags": [
+        "materials",
+        "industrials"
+      ]
+    },
+    {
+      "id": "s5",
+      "category": "M&A",
+      "urgency": "HIGH",
+      "scope": "bank",
+      "bank": "Morgan Stanley",
+      "headline": "Morgan Stanley and Lazard advise Vertex Pharmaceuticals on its ~$10B acquisition of Crinetics",
+      "why_it_matters": "Vertex Pharmaceuticals agreed to acquire Crinetics Pharmaceuticals for roughly $10B ($85.00/share cash, ~$8.8B net of cash), announced July 6. Morgan Stanley and Lazard are financial advisors to Vertex, with Morgan Stanley Senior Funding co-committing a $4.5B bridge alongside Bank of America. A large biopharma acquisition with committed financing is a diligence-intensive, multi-party process.",
+      "suggested_action": "Engage Morgan Stanley's healthcare M&A team on the Crinetics acquisition — the stapled $4.5B bridge means lender and buyer diligence run in parallel and on a compressed clock.",
+      "deal_clock": [
+        {
+          "date": "Jul 6, 2026",
+          "event": "Vertex agrees to acquire Crinetics (~$10B)"
+        }
+      ],
+      "source": "StockTitan",
+      "source_url": "https://www.stocktitan.net/news/CRNX/vertex-to-acquire-crinetics-8m7dd1990oet.html",
+      "published": "2026-07-06",
+      "confidence": "Reported",
+      "tags": [
+        "healthcare",
+        "life-sciences",
+        "leveraged-finance"
+      ]
+    },
+    {
+      "id": "s6",
+      "category": "M&A",
+      "urgency": "MEDIUM",
+      "scope": "bank",
+      "bank": "JPMorgan",
+      "headline": "JPMorgan advises Crinetics on its ~$10B sale to Vertex Pharmaceuticals",
+      "why_it_matters": "J.P. Morgan and Leerink Partners are financial advisors to Crinetics Pharmaceuticals on its ~$10B sale to Vertex, announced July 6. A live sell-side biopharma mandate — a fresh, deal-specific angle for engaging JPMorgan's healthcare coverage beyond its standing relationships.",
+      "suggested_action": "Reconnect with JPMorgan's healthcare team on the Crinetics sell-side process specifically as it moves toward close.",
+      "deal_clock": [
+        {
+          "date": "Jul 6, 2026",
+          "event": "JPMorgan named advisor to Crinetics on Vertex deal"
+        }
+      ],
+      "source": "StockTitan",
+      "source_url": "https://www.stocktitan.net/news/CRNX/vertex-to-acquire-crinetics-8m7dd1990oet.html",
+      "published": "2026-07-06",
+      "confidence": "Reported",
+      "tags": [
+        "healthcare",
+        "life-sciences"
+      ]
+    },
+    {
+      "id": "s7",
+      "category": "M&A",
+      "urgency": "MEDIUM",
+      "scope": "bank",
+      "bank": "Citi",
+      "headline": "Citi is financial advisor to Lockheed Martin on its $3.45B acquisition of Ultra Maritime",
+      "why_it_matters": "Lockheed Martin agreed to acquire Ultra Maritime from Advent International for $3.45B, announced July 6. Citi is financial advisor to Lockheed Martin. A defense/maritime acquisition of this size carries heavy regulatory and security-clearance documentation — exactly the kind of tiered, auditable diligence access a data room manages.",
+      "suggested_action": "Reach out to Citi's aerospace & defense coverage on the Ultra Maritime acquisition — regulatory and security-review workstreams on defense deals are a strong data room use case.",
+      "deal_clock": [
+        {
+          "date": "Jul 6, 2026",
+          "event": "Lockheed Martin agrees to acquire Ultra Maritime ($3.45B)"
+        }
+      ],
+      "source": "StockTitan",
+      "source_url": "https://www.stocktitan.net/news/LMT/lockheed-martin-to-acquire-ultra-maritime-oz3th3ll3s3m.html",
+      "published": "2026-07-06",
+      "confidence": "Reported",
+      "tags": [
+        "aerospace-defense",
+        "industrials"
+      ]
+    },
+    {
+      "id": "s8",
+      "category": "M&A",
+      "urgency": "MEDIUM",
+      "scope": "bank",
+      "bank": "RBC Capital Markets",
+      "headline": "RBC advises Kroger, Wells Fargo advises Giant Eagle on their $1.65B grocery combination",
+      "why_it_matters": "Kroger agreed to acquire Giant Eagle for $1.65B ($1.25B cash plus ~$400M assumed liabilities), announced July 1. RBC Capital Markets is exclusive financial advisor to Kroger and Wells Fargo is exclusive financial advisor to Giant Eagle. A regional grocery combination brings antitrust review and divestiture diligence — a document-heavy, regulator-facing process.",
+      "suggested_action": "Engage RBC's consumer/retail team on the Kroger acquisition, and note Wells Fargo on the sell-side — antitrust and divestiture workstreams on grocery deals need controlled, auditable access.",
+      "deal_clock": [
+        {
+          "date": "Jul 1, 2026",
+          "event": "Kroger agrees to acquire Giant Eagle ($1.65B)"
+        }
+      ],
+      "source": "PR Newswire (via finanznachrichten.de)",
+      "source_url": "https://www.finanznachrichten.de/nachrichten-2026-07/68918821-the-kroger-co-kroger-announces-agreement-to-acquire-giant-eagle-008.htm",
+      "published": "2026-07-01",
+      "confidence": "Reported",
+      "tags": [
+        "consumer",
+        "retail"
+      ]
+    },
+    {
+      "id": "s9",
+      "category": "DEALS",
+      "urgency": "HIGH",
+      "scope": "bank",
+      "bank": "Morgan Stanley",
+      "headline": "Jersey Mike's files S-1 with a deep syndicate — Morgan Stanley, Jefferies, and JPMorgan as global coordinators",
+      "why_it_matters": "Jersey Mike's publicly filed its Form S-1 (NYSE: JMKE) on July 2 with a broad underwriting syndicate: Morgan Stanley, Jefferies, and J.P. Morgan as global coordinators/joint bookrunners; Barclays as co-global coordinator; and joint bookrunners including BofA Securities, Goldman Sachs, Evercore ISI, UBS, Baird, Wells Fargo, William Blair, RBC, Deutsche Bank, Piper Sandler, Raymond James, and Stifel. A syndicate this deep is a live, multi-bank ECM diligence-coordination opportunity across nearly the entire covered universe.",
+      "suggested_action": "Use the Jersey Mike's S-1 as a live example when pitching multi-bank ECM diligence coordination — the syndicate spans most of your covered banks, so it opens conversations across ECM desks at once.",
+      "deal_clock": [
+        {
+          "date": "Jul 2, 2026",
+          "event": "Jersey Mike's publicly files Form S-1 (NYSE: JMKE)"
+        }
+      ],
+      "source": "StockTitan",
+      "source_url": "https://www.stocktitan.net/news/JMKE/jersey-mike-s-publicly-files-registration-statement-for-initial-egdhbv7vr0cs.html",
+      "published": "2026-07-02",
+      "confidence": "Filed",
+      "tags": [
+        "consumer",
+        "ipo",
+        "ecm"
+      ]
+    },
+    {
+      "id": "s10",
+      "category": "DEALS",
+      "urgency": "MEDIUM",
+      "scope": "bank",
+      "bank": "Bank of America",
+      "headline": "Cumberland Farms files for IPO with BofA, Goldman, and Jefferies as lead bookrunners",
+      "why_it_matters": "Cumberland Farms Limited filed its registration statement (Nasdaq: CMBY) on July 2, with BofA Securities, Goldman Sachs, and Jefferies as lead joint bookrunners, plus Barclays, J.P. Morgan, Wells Fargo, Deutsche Bank, UBS, and Raymond James. A second sizeable consumer/convenience IPO filing in the same week reinforces that the listings pipeline is genuinely reopening.",
+      "suggested_action": "Reach out to BofA's ECM desk on the Cumberland Farms filing — early diligence-infrastructure conversations pay off before the roadshow timeline compresses.",
+      "deal_clock": [
+        {
+          "date": "Jul 2, 2026",
+          "event": "Cumberland Farms files registration statement (Nasdaq: CMBY)"
+        }
+      ],
+      "source": "StockTitan",
+      "source_url": "https://www.stocktitan.net/news/CMBY/cumberland-farms-limited-files-registration-statement-for-proposed-bk5sjij4ozso.html",
+      "published": "2026-07-02",
+      "confidence": "Filed",
+      "tags": [
+        "consumer",
+        "ipo",
+        "ecm"
+      ]
+    },
+    {
+      "id": "s11",
+      "category": "DEALS",
+      "urgency": "MEDIUM",
+      "scope": "bank",
+      "bank": "Goldman Sachs",
+      "headline": "Standard Nuclear launches ~$328–383M IPO with BofA and Goldman as lead bookrunners",
+      "why_it_matters": "Standard Nuclear (NYSE: STDN) launched its IPO roadshow July 7, offering 18.25M Class A shares at $18–$21 (~$328–383M), with BofA Securities and Goldman Sachs as lead bookrunners and Barclays, UBS, Evercore ISI, RBC, William Blair, and Stifel also in the syndicate. A live, in-market energy/nuclear offering is a time-sensitive ECM diligence opportunity.",
+      "suggested_action": "Engage Goldman's ECM desk on the Standard Nuclear roadshow while it's live — in-market offerings have the most compressed diligence timelines.",
+      "deal_clock": [
+        {
+          "date": "Jul 7, 2026",
+          "event": "Standard Nuclear launches IPO roadshow ($18–$21/share)"
+        }
+      ],
+      "source": "StockTitan",
+      "source_url": "https://www.stocktitan.net/news/STDN/standard-nuclear-announces-launch-of-its-initial-public-yer1kcatntes.html",
+      "published": "2026-07-07",
+      "confidence": "Reported",
+      "tags": [
+        "energy",
+        "ipo",
+        "ecm"
+      ]
+    },
+    {
+      "id": "s12",
+      "category": "DEALS",
+      "urgency": "LOW",
+      "scope": "bank",
+      "bank": "Morgan Stanley",
+      "headline": "ITG prices $312M IPO; Morgan Stanley, Citi, UBS, and Stifel lead",
+      "why_it_matters": "ITG, Inc. (Nasdaq: ITG) priced its IPO June 30 — 19.5M Class A shares at $16.00 (~$312M gross) — with Morgan Stanley, Citigroup, UBS, and Stifel as joint bookrunners/representatives, plus BofA Securities and Baird. A just-priced offering signals live post-pricing and stabilization workstreams.",
+      "suggested_action": "A recently-priced deal is a light-touch reconnection point with Morgan Stanley and Citi ECM teams on their active offering calendar.",
+      "deal_clock": [
+        {
+          "date": "Jun 30, 2026",
+          "event": "ITG prices IPO at $16.00/share (~$312M)"
+        }
+      ],
+      "source": "StockTitan",
+      "source_url": "https://www.stocktitan.net/news/ITG/itg-inc-announces-pricing-of-initial-public-gbg860ohojx8.html",
+      "published": "2026-06-30",
+      "confidence": "Reported",
+      "tags": [
+        "ipo",
+        "ecm"
+      ]
+    },
+    {
+      "id": "s13",
+      "category": "M&A",
+      "urgency": "MEDIUM",
+      "scope": "bank",
+      "bank": "Harris Williams",
+      "headline": "Harris Williams and William Blair advise on Sentinel Capital's acquisition of DecoPac from Kohlberg",
+      "why_it_matters": "Sentinel Capital Partners agreed to acquire DecoPac from Kohlberg & Company (size undisclosed), announced July 7. Harris Williams and William Blair advised the seller. A sponsor-to-sponsor mid-market process is exactly the kind of repeatable, template-driven sell-side that rewards fast room setup — and a fresh mandate for two banks outside the bulge bracket.",
+      "suggested_action": "Congratulate Harris Williams' sponsor coverage on the DecoPac sale and pitch fast, template-based room setup for their next sponsor sell-side.",
+      "deal_clock": [
+        {
+          "date": "Jul 7, 2026",
+          "event": "Sentinel acquires DecoPac from Kohlberg"
+        }
+      ],
+      "source": "PR Newswire (via AOL)",
+      "source_url": "https://www.aol.com/articles/sentinel-capital-partners-acquires-decopac-100000000.html",
+      "published": "2026-07-07",
+      "confidence": "Reported",
+      "tags": [
+        "consumer",
+        "private-equity"
+      ]
+    },
+    {
+      "id": "s14",
+      "category": "M&A",
+      "urgency": "LOW",
+      "scope": "bank",
+      "bank": "Lincoln International",
+      "headline": "Lincoln International advises Avance Investment Management on its strategic investment in Lexxel",
+      "why_it_matters": "Avance Investment Management made a strategic investment in Lexxel (size undisclosed), announced July 6, with Lincoln International advising Avance on the buy side. A live middle-market sponsor mandate — a fresh reason to engage Lincoln's high-volume sponsor coverage franchise.",
+      "suggested_action": "Reach out to Lincoln's sponsor coverage team on the Lexxel investment and their broader active sponsor pipeline.",
+      "deal_clock": [
+        {
+          "date": "Jul 6, 2026",
+          "event": "Avance invests in Lexxel; Lincoln advises Avance"
+        }
+      ],
+      "source": "The Middle Market",
+      "source_url": "https://www.themiddlemarket.com/latest-news/avance-investment-management-invests-in-lexxel",
+      "published": "2026-07-06",
+      "confidence": "Reported",
+      "tags": [
+        "private-equity"
+      ]
+    },
+    {
+      "id": "s15",
+      "category": "M&A",
+      "urgency": "MEDIUM",
+      "scope": "market",
+      "headline": "Carlisle Companies reportedly made unsolicited takeover bids for Owens Corning (>$10B potential)",
+      "why_it_matters": "Owens Corning stock jumped ~7.3% on a report that Carlisle Companies made unsolicited takeover approaches, potentially valuing a deal above $10B. No advisors have been named and the approach is unconfirmed — this is a rumored/pipeline situation reported via 'sources,' not an announced transaction, and should be framed to clients as speculative.",
+      "suggested_action": "Monitor the Owens Corning situation as an early-stage, unconfirmed building-products theme — worth a light-touch check-in with materials coverage teams, not a hard pitch yet.",
+      "deal_clock": [
+        {
+          "date": "Jun 30, 2026",
+          "event": "Report: Carlisle made unsolicited bids for Owens Corning; OC +7.3%"
+        }
+      ],
+      "source": "Barron's (via MSN)",
+      "source_url": "https://www.msn.com/en-us/money/topstocks/owens-corning-stock-jumps-on-report-of-unsolicited-takeover-bids/ar-AA26OOMP",
+      "published": "2026-06-30",
+      "confidence": "Speculative",
+      "tags": [
+        "materials",
+        "industrials"
+      ]
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "o1",
+      "bank": "Goldman Sachs",
+      "sector": "Materials / Industrials",
+      "urgency": "HOT",
+      "headline": "Lead advisor on Solstice's ~$14.5B Element Solutions acquisition, with a $4.7B bridge",
+      "why_it_matters": "A live, large-cap materials mandate where Goldman is both lead advisor and bridge provider ($4.7B) — pairing advisory with financing means lender and buyer diligence run in parallel on a compressed clock.",
+      "deal_clock": [
+        {
+          "date": "Jul 6, 2026",
+          "event": "Solstice agrees to acquire Element Solutions (~$14.5B)"
+        }
+      ],
+      "outreach_idea": "Open on the scale and financing complexity of the Element Solutions deal — a mandate combining advisory with a $4.7B bridge is the clearest case for coordinated, auditable diligence access.",
+      "outreach_draft": {
+        "subject": "Solstice / Element Solutions — supporting a stapled-financing diligence process",
+        "body": "Congratulations on Goldman's lead role on Solstice's acquisition of Element Solutions. With advisory and a $4.7B bridge on the same deal, keeping lender and buyer diligence coordinated and audit-ready is where a process this size stays on schedule.\n\nWould welcome a short conversation on how we support your team through signing and close.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies",
+        "source": "StockTitan",
+        "source_url": "https://www.stocktitan.net/news/ESI/solstice-advanced-materials-to-acquire-element-solutions-creating-an-veaf0ivxqg6g.html",
+        "published": "2026-07-06",
+        "confidence": "Reported"
+      }
+    },
+    {
+      "id": "o2",
+      "bank": "Morgan Stanley",
+      "sector": "Healthcare / Life Sciences",
+      "urgency": "HOT",
+      "headline": "Advising Vertex on its ~$10B Crinetics acquisition, with a $4.5B committed bridge",
+      "why_it_matters": "A live, large-cap biopharma mandate where Morgan Stanley advises Vertex and co-commits a $4.5B bridge — advisory plus financing on a diligence-intensive, multi-party healthcare deal.",
+      "deal_clock": [
+        {
+          "date": "Jul 6, 2026",
+          "event": "Vertex agrees to acquire Crinetics (~$10B)"
+        }
+      ],
+      "outreach_idea": "Reference the Crinetics mandate and the stapled $4.5B bridge — parallel lender and buyer diligence on a biopharma deal is a strong coordinated-access conversation.",
+      "outreach_draft": {
+        "subject": "Vertex / Crinetics — diligence coordination through close",
+        "body": "Congratulations on Morgan Stanley's role advising Vertex on the Crinetics acquisition. With a $4.5B bridge alongside the advisory mandate, coordinating lender and buyer diligence cleanly is where a deal on this timeline holds together.\n\nHappy to talk through how we support your team from signing to close.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies",
+        "source": "StockTitan",
+        "source_url": "https://www.stocktitan.net/news/CRNX/vertex-to-acquire-crinetics-8m7dd1990oet.html",
+        "published": "2026-07-06",
+        "confidence": "Reported"
+      }
+    },
+    {
+      "id": "o3",
+      "bank": "Citi",
+      "sector": "Aerospace / Defense",
+      "urgency": "HOT",
+      "headline": "Advising Lockheed Martin on its $3.45B acquisition of Ultra Maritime",
+      "why_it_matters": "A live defense mandate with heavy regulatory and security-clearance documentation — exactly the tiered, auditable diligence access that differentiates on national-security-sensitive deals.",
+      "deal_clock": [
+        {
+          "date": "Jul 6, 2026",
+          "event": "Lockheed Martin agrees to acquire Ultra Maritime ($3.45B)"
+        }
+      ],
+      "outreach_idea": "Lead with the regulatory and security-review workstreams on a defense deal — permissioned, auditable access is a concrete differentiator here.",
+      "outreach_draft": {
+        "subject": "Lockheed / Ultra Maritime — managing security-review diligence",
+        "body": "Congratulations on Citi's role advising Lockheed Martin on the Ultra Maritime acquisition. Defense deals carry regulatory and clearance workstreams where tightly-permissioned, auditable diligence access matters more than on a standard process.\n\nWould welcome a conversation on how we support your team through review and close.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies",
+        "source": "StockTitan",
+        "source_url": "https://www.stocktitan.net/news/LMT/lockheed-martin-to-acquire-ultra-maritime-oz3th3ll3s3m.html",
+        "published": "2026-07-06",
+        "confidence": "Reported"
+      }
+    },
+    {
+      "id": "o4",
+      "bank": "RBC Capital Markets",
+      "sector": "Consumer / Retail",
+      "urgency": "HOT",
+      "headline": "Exclusive advisor to Kroger on its $1.65B acquisition of Giant Eagle",
+      "why_it_matters": "A live grocery combination with antitrust review and likely divestiture diligence — a document-heavy, regulator-facing process where controlled access is essential.",
+      "deal_clock": [
+        {
+          "date": "Jul 1, 2026",
+          "event": "Kroger agrees to acquire Giant Eagle ($1.65B)"
+        }
+      ],
+      "outreach_idea": "Open on the antitrust and divestiture workstreams — grocery deals draw regulator scrutiny, and clean, auditable access keeps those processes moving.",
+      "outreach_draft": {
+        "subject": "Kroger / Giant Eagle — antitrust-review diligence support",
+        "body": "Congratulations on RBC's exclusive advisory role for Kroger on the Giant Eagle acquisition. Grocery combinations tend to bring antitrust review and divestiture diligence — keeping that access controlled and audit-ready is where these processes stay on track.\n\nHappy to talk through how we support your team through the review period.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies",
+        "source": "PR Newswire (via finanznachrichten.de)",
+        "source_url": "https://www.finanznachrichten.de/nachrichten-2026-07/68918821-the-kroger-co-kroger-announces-agreement-to-acquire-giant-eagle-008.htm",
+        "published": "2026-07-01",
+        "confidence": "Reported"
+      }
+    },
+    {
+      "id": "o5",
+      "bank": "JPMorgan",
+      "sector": "Healthcare / Life Sciences",
+      "urgency": "WARM",
+      "headline": "Sell-side advisor to Crinetics on its ~$10B sale to Vertex",
+      "why_it_matters": "A fresh, deal-specific sell-side biopharma mandate — a distinct angle for re-engaging JPMorgan's healthcare coverage as the process moves to close.",
+      "deal_clock": [
+        {
+          "date": "Jul 6, 2026",
+          "event": "JPMorgan named advisor to Crinetics on Vertex deal"
+        }
+      ],
+      "outreach_idea": "Reconnect with JPMorgan's healthcare team on the Crinetics sell-side process specifically — a current, concrete mandate to anchor the conversation.",
+      "outreach_draft": {
+        "subject": "JPMorgan / Crinetics sell-side — supporting the process to close",
+        "body": "Noted JPMorgan's role advising Crinetics on its sale to Vertex. As the deal moves toward close, would welcome a conversation on how we support sell-side diligence access for a process of this scale.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies",
+        "source": "StockTitan",
+        "source_url": "https://www.stocktitan.net/news/CRNX/vertex-to-acquire-crinetics-8m7dd1990oet.html",
+        "published": "2026-07-06",
+        "confidence": "Reported"
+      }
+    },
+    {
+      "id": "o6",
+      "bank": "PJT Partners",
+      "sector": "Materials / Industrials",
+      "urgency": "WARM",
+      "headline": "Advising Solstice on its ~$14.5B Element Solutions acquisition",
+      "why_it_matters": "A live, large-cap strategic advisory mandate for PJT alongside Goldman — a fresh, deal-specific reason to engage its team beyond its core restructuring franchise.",
+      "deal_clock": [
+        {
+          "date": "Jul 6, 2026",
+          "event": "PJT named advisor to Solstice on Element Solutions deal"
+        }
+      ],
+      "outreach_idea": "Reference PJT's advisory role on Element Solutions — a marquee materials mandate that opens an advisory-side diligence conversation.",
+      "outreach_draft": {
+        "subject": "PJT / Solstice — Element Solutions diligence support",
+        "body": "Congratulations on PJT's advisory role on Solstice's acquisition of Element Solutions. Would welcome a conversation on how we support diligence coordination on a materials deal of this scale as it moves toward close.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies",
+        "source": "StockTitan",
+        "source_url": "https://www.stocktitan.net/news/ESI/solstice-advanced-materials-to-acquire-element-solutions-creating-an-veaf0ivxqg6g.html",
+        "published": "2026-07-06",
+        "confidence": "Reported"
+      }
+    },
+    {
+      "id": "o7",
+      "bank": "Jefferies",
+      "sector": "Consumer / ECM",
+      "urgency": "HOT",
+      "headline": "Global coordinator on the Jersey Mike's IPO and lead bookrunner on Cumberland Farms",
+      "why_it_matters": "Jefferies is a global coordinator on Jersey Mike's (filed July 2) and a lead joint bookrunner on Cumberland Farms (filed July 2) — two live consumer IPO mandates in the same week, both diligence-intensive as they move toward roadshows.",
+      "deal_clock": [
+        {
+          "date": "Jul 2, 2026",
+          "event": "Jersey Mike's and Cumberland Farms both file registration statements"
+        }
+      ],
+      "outreach_idea": "Reach out to Jefferies' ECM desk on both filings at once — two live consumer IPOs in a week is a strong reason to talk roadshow-timeline diligence infrastructure now.",
+      "outreach_draft": {
+        "subject": "Jersey Mike's & Cumberland Farms — supporting two live offerings",
+        "body": "Congratulations on Jefferies' roles on the Jersey Mike's and Cumberland Farms filings. With two consumer IPOs moving toward roadshows, would welcome a conversation on how we support diligence access across concurrent offerings.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies",
+        "source": "StockTitan",
+        "source_url": "https://www.stocktitan.net/news/JMKE/jersey-mike-s-publicly-files-registration-statement-for-initial-egdhbv7vr0cs.html",
+        "published": "2026-07-02",
+        "confidence": "Filed"
+      }
+    },
+    {
+      "id": "o8",
+      "bank": "Bank of America",
+      "sector": "Consumer / ECM",
+      "urgency": "WARM",
+      "headline": "Lead bookrunner on Cumberland Farms and Standard Nuclear IPOs",
+      "why_it_matters": "BofA Securities is a lead joint bookrunner on Cumberland Farms (filed July 2) and a lead bookrunner on the live Standard Nuclear roadshow (launched July 7) — two active ECM mandates on different timelines.",
+      "deal_clock": [
+        {
+          "date": "Jul 2, 2026",
+          "event": "Cumberland Farms files (BofA lead bookrunner)"
+        },
+        {
+          "date": "Jul 7, 2026",
+          "event": "Standard Nuclear roadshow launches (BofA lead)"
+        }
+      ],
+      "outreach_idea": "Engage BofA's ECM desk on both — Standard Nuclear is in-market now (most compressed timeline), Cumberland Farms is right behind it.",
+      "outreach_draft": {
+        "subject": "Cumberland Farms & Standard Nuclear — active offering support",
+        "body": "Noted BofA's lead roles on the Cumberland Farms filing and the live Standard Nuclear roadshow. With one offering in-market and another close behind, would welcome a conversation on diligence infrastructure across your active calendar.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies",
+        "source": "StockTitan",
+        "source_url": "https://www.stocktitan.net/news/CMBY/cumberland-farms-limited-files-registration-statement-for-proposed-bk5sjij4ozso.html",
+        "published": "2026-07-02",
+        "confidence": "Filed"
+      }
+    },
+    {
+      "id": "o9",
+      "bank": "Harris Williams",
+      "sector": "Consumer / Private Equity",
+      "urgency": "WARM",
+      "headline": "Advised the seller on Sentinel Capital's acquisition of DecoPac from Kohlberg",
+      "why_it_matters": "A live sponsor-to-sponsor mid-market mandate (announced July 7) — the repeatable, template-driven sell-side work that rewards fast, standardized room setup.",
+      "deal_clock": [
+        {
+          "date": "Jul 7, 2026",
+          "event": "Sentinel acquires DecoPac; Harris Williams advised seller"
+        }
+      ],
+      "outreach_idea": "Congratulate Harris Williams on the DecoPac sale and pitch fast, template-based room setup for their next sponsor sell-side.",
+      "outreach_draft": {
+        "subject": "DecoPac sale — supporting your next sponsor process",
+        "body": "Congratulations on advising the seller in Sentinel's acquisition of DecoPac. For teams running back-to-back sponsor sell-sides, a fast, template-based room setup is a direct time-saver — would welcome a conversation on your upcoming pipeline.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies",
+        "source": "PR Newswire (via AOL)",
+        "source_url": "https://www.aol.com/articles/sentinel-capital-partners-acquires-decopac-100000000.html",
+        "published": "2026-07-07",
+        "confidence": "Reported"
+      }
+    },
+    {
+      "id": "o10",
+      "bank": "Lincoln International",
+      "sector": "Private Equity",
+      "urgency": "WARM",
+      "headline": "Advised Avance Investment Management on its strategic investment in Lexxel",
+      "why_it_matters": "A live middle-market sponsor mandate (announced July 6) — a fresh reason to engage Lincoln's high-volume sponsor coverage franchise where speed-to-launch matters.",
+      "deal_clock": [
+        {
+          "date": "Jul 6, 2026",
+          "event": "Avance invests in Lexxel; Lincoln advises Avance"
+        }
+      ],
+      "outreach_idea": "Reach out to Lincoln's sponsor coverage on the Lexxel investment and their broader active pipeline — high deal velocity is exactly where templated room workflows pay off.",
+      "outreach_draft": {
+        "subject": "Avance / Lexxel — supporting your sponsor pipeline",
+        "body": "Noted Lincoln's advisory role on Avance's investment in Lexxel. Given the volume of sponsor mandates your team runs, would welcome a conversation on how repeatable, fast room setup supports back-to-back processes.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies",
+        "source": "The Middle Market",
+        "source_url": "https://www.themiddlemarket.com/latest-news/avance-investment-management-invests-in-lexxel",
+        "published": "2026-07-06",
+        "confidence": "Reported"
+      }
+    }
+  ],
+  "market_snapshot": {
+    "indices": [
+      {
+        "label": "S&P 500",
+        "value": "7,486.83",
+        "change": "-0.67%",
+        "positive": false
+      },
+      {
+        "label": "Nasdaq",
+        "value": "25,734.58",
+        "change": "-1.48%",
+        "positive": false
+      },
+      {
+        "label": "Dow Jones",
+        "value": "53,021.82",
+        "change": "-0.06%",
+        "positive": false
+      },
+      {
+        "label": "Russell 2000",
+        "value": "2,981.35",
+        "change": "-0.94%",
+        "positive": false
+      },
+      {
+        "label": "10Y Treasury",
+        "value": "4.513%",
+        "change": "+3bps",
+        "positive": false
+      },
+      {
+        "label": "WTI Crude",
+        "value": "$70.19",
+        "change": "+2.39%",
+        "positive": true
+      }
+    ],
+    "bank_stocks": [
+      {
+        "ticker": "GS",
+        "price": "$1,045.85",
+        "change": "-0.89%",
+        "positive": false
+      },
+      {
+        "ticker": "MS",
+        "price": "$222.35",
+        "change": "+0.11%",
+        "positive": true
+      },
+      {
+        "ticker": "JPM",
+        "price": "$340.71",
+        "change": "+0.89%",
+        "positive": true
+      },
+      {
+        "ticker": "EVR",
+        "price": "$365.53",
+        "change": "+2.28%",
+        "positive": true
+      },
+      {
+        "ticker": "LAZ",
+        "price": "$43.28",
+        "change": "+4.19%",
+        "positive": true
+      },
+      {
+        "ticker": "JEF",
+        "price": "$54.84",
+        "change": "+4.22%",
+        "positive": true
+      }
+    ],
+    "macro_note": "A chip-led selloff dragged the Nasdaq down ~1.5% Tuesday — Samsung's forecast of a ~19-fold profit jump failed to lift semiconductors, and a report that DeepSeek is building its own AI inference chip knocked Nvidia ~2% — even as the Dow held roughly flat near record territory. The 10Y edged up to 4.51% and WTI crude gained 2.4%. Bank stocks were mixed to firmer: EVR, LAZ, and JEF all rose 2–4% on the prior close. (2Y Treasury omitted — no verified live level at publication; GS/MS/JPM intraday, EVR/LAZ/JEF at prior close.)"
+  },
+  "pipeline_watch": {
+    "note": "Prospective / rumored situations — verified at publisher + date level; treat as Speculative and confirm before quoting on a call. 'Covered-bank leads' name one of your banks as adviser; 'situations to watch' are real but the mandate is unnamed or held by a non-covered adviser.",
+    "covered_bank_leads": [
+      {
+        "company": "Bumble",
+        "bank": "Morgan Stanley",
+        "situation": "Reported to be working with Morgan Stanley to explore a sale amid a user decline",
+        "sector": "Consumer internet",
+        "source_note": "Moomoo / Market Chatter, Jun 25 2026",
+        "confidence": "Speculative"
+      },
+      {
+        "company": "Ryman Hospitality (Opry Entertainment)",
+        "bank": "Morgan Stanley",
+        "situation": "Exploring partnerships / strategic alternatives for its Opry Entertainment unit",
+        "sector": "Entertainment / hospitality",
+        "source_note": "Moomoo, Jun 25 2026",
+        "confidence": "Speculative"
+      },
+      {
+        "company": "CSA Group",
+        "bank": "Jefferies",
+        "situation": "Reported to have tapped Jefferies to explore a sale",
+        "sector": "Testing, inspection & certification",
+        "source_note": "Bloomberg (headline-level), Jun 26 2026",
+        "confidence": "Speculative"
+      },
+      {
+        "company": "Minted",
+        "bank": "JPMorgan",
+        "situation": "Reported to be exploring a potential ~$1B sale with JPMorgan",
+        "sector": "E-commerce / consumer",
+        "source_note": "GuruFocus, Jun 29 2026",
+        "confidence": "Speculative"
+      }
+    ],
+    "situations_to_watch": [
+      {
+        "company": "GFL Environmental",
+        "situation": "Weighing a take-private; held talks with Apollo; adviser not disclosed",
+        "sector": "Waste management",
+        "source_note": "Reuters/Bloomberg/Globe & Mail (headline-level), Jul 3–6 2026",
+        "confidence": "Speculative"
+      },
+      {
+        "company": "Varonis Systems",
+        "situation": "Exploring a potential sale amid PE takeover interest; adviser not disclosed",
+        "sector": "Data security software",
+        "source_note": "MSN / Investing.com, Jun 23 2026",
+        "confidence": "Speculative"
+      },
+      {
+        "company": "Criteo",
+        "situation": "Vista Equity buyout approach reported; stock +29%; adviser not disclosed",
+        "sector": "Adtech",
+        "source_note": "Reuters/Bloomberg (headline-level), Jul 6 2026",
+        "confidence": "Speculative"
+      },
+      {
+        "company": "SPS Commerce",
+        "situation": "Exploring a sale after activist pressure; adviser not disclosed",
+        "sector": "Supply-chain software",
+        "source_note": "Business Journals, Jun 24 2026",
+        "confidence": "Speculative"
+      },
+      {
+        "company": "Pitney Bowes",
+        "situation": "Phase-two strategic review weighing sale / acquisitions / divestitures; adviser not disclosed",
+        "sector": "Shipping technology",
+        "source_note": "Seeking Alpha / StockTitan, Jun 30 2026",
+        "confidence": "Speculative"
+      }
+    ]
+  },
+  "sector_heat": {
+    "note": "Which sectors are driving M&A right now — lead outreach with bankers in the hottest verticals. Sourced from H1 2026 league-table and mid-year outlook coverage.",
+    "ranked": [
+      {
+        "sector": "Technology / AI",
+        "read": "The clear leader — AI megadeals are pushing 2026 toward its biggest M&A year since 2021; ~78% of dealmakers say AI offers the most attractive opportunities.",
+        "source_note": "LawFuel / PwC TMT mid-year outlook, Jun 2026"
+      },
+      {
+        "sector": "Healthcare / Biopharma",
+        "read": "Very hot — a ~$170B patent cliff plus Big Pharma cash is fueling a deal wave (Vertex/Crinetics this week; Lilly, GSK/Nuvalent, Merck/Terns recently).",
+        "source_note": "BioSpace / CNBC / Fierce Pharma, Apr–Jun 2026"
+      },
+      {
+        "sector": "Energy (oil & gas)",
+        "read": "Consolidating — US upstream M&A hit ~$38B in Q1 2026, a two-year high; more consolidation expected.",
+        "source_note": "OilPrice / Enverus, May 2026"
+      },
+      {
+        "sector": "Financial services",
+        "read": "Rebounding — UK FS M&A value up ~8x in H1; global FS +3% YoY as the consolidation wave breaks.",
+        "source_note": "Wealth Briefing / Investment Week, Jul 2026"
+      }
+    ]
+  },
+  "talking_point": {
+    "quote": "Four M&A deals landed in 48 hours — Solstice/Element Solutions, Vertex/Crinetics, Lockheed/Ultra Maritime, and Kroger/Giant Eagle — three of them with stapled bridge financing. When advisory and financing sit on the same deal, whose job is it to keep lender and buyer diligence from colliding?",
+    "use_with": "M&A and leveraged finance teams at Goldman, Morgan Stanley, Citi, and RBC",
+    "context": "This week's deal flow is unusually dense and unusually financing-heavy — the Solstice ($4.7B bridge) and Vertex ($4.5B bridge) mandates both pair advisory with committed debt. That's the cleanest possible setup for a coordinated-diligence conversation: parallel lender and buyer workstreams on a compressed clock are exactly where permissioned, auditable access earns its keep. Pair it with the tech-selloff backdrop to frame urgency — strategic acquirers are moving even as the equity tape wobbles."
+  }
+}
