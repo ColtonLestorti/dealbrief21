@@ -107,7 +107,11 @@ body {
   min-height: 100vh;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow-x: hidden;
+  /* Use `clip`, not `hidden`: `overflow-x: hidden` forces overflow-y to
+     `auto`, turning body into a scroll container and breaking every
+     position:sticky descendant (e.g. the section nav). `clip` contains
+     horizontal overflow without creating a scroll container. */
+  overflow-x: clip;
 }
 
 img, svg { display: block; max-width: 100%; }
