@@ -605,6 +605,20 @@ ul, ol { list-style: none; }
   border: 1px solid rgba(61, 171, 115, 0.2);
 }
 
+/* Freshness on opportunity cards: NEW = debuted today; Day N = a still-open
+   deal process carried forward from an earlier edition. */
+.badge-new {
+  background: rgba(0, 119, 200, 0.12);
+  color: var(--accent);
+  border: 1px solid rgba(0, 119, 200, 0.28);
+}
+
+.badge-running {
+  background: rgba(245, 171, 10, 0.12);
+  color: #F5AB0A;
+  border: 1px solid rgba(245, 171, 10, 0.28);
+}
+
 .badge-market {
   background: rgba(138, 148, 166, 0.1);
   color: var(--text-secondary);
@@ -1709,14 +1723,21 @@ ul, ol { list-style: none; }
   background: var(--bg-base);
   z-index: 1000;
   display: flex;
-  align-items: center;
+  /* Top-align + scroll so tall steps (banks/industries) never push the
+     footer past the bottom edge; margin:auto on the wrap re-centers short
+     steps. Extra bottom padding (incl. mobile safe-area) keeps the Continue
+     button clear of the browser's bottom bar. */
+  align-items: flex-start;
   justify-content: center;
+  overflow-y: auto;
   padding: var(--space-6);
+  padding-bottom: calc(var(--space-8) + env(safe-area-inset-bottom, 0px));
 }
 
 .onboarding-wrap {
   width: 100%;
   max-width: 640px;
+  margin: auto;
 }
 
 .onboarding-step { display: none; }
@@ -1834,6 +1855,10 @@ ul, ol { list-style: none; }
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: var(--space-4);
+  flex-wrap: wrap;
+  margin-top: var(--space-6);
+  padding-top: var(--space-2);
 }
 
 .onboarding-back {

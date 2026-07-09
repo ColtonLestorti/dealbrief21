@@ -16,7 +16,7 @@
    ============================================================ */
 
 import { readFileSync, writeFileSync, mkdirSync, readdirSync } from 'node:fs';
-import { recentlyCoveredBanks, pickRotationPriority, dropUnsourcedSpeculative } from './brief-helpers.js';
+import { recentlyCoveredBanks, pickRotationPriority, dropUnsourcedSpeculative, carryForwardOpportunities } from './brief-helpers.js';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 import { getFiledMandates } from './edgar.js';
@@ -275,6 +275,18 @@ async function generate() {
   // Preserve/auto-increment the edition number, and archive the prior edition.
   try {
     const prev = JSON.parse(readFileSync(join(ROOT, 'data/daily.json'), 'utf8'));
+
+    // Carry "big" opportunities (HOT / Filed / named live process) forward for
+    // up to 3 business days so multi-week deal processes persist even on a slow
+    // news day. Stories stay strictly fresh; only opps have this memory.
+    // Re-confirmed opps reset their clock; stale ones expire. Sorted
+    // biggest-and-most-recent first inside the helper.
+    brief.opportunities = carryForwardOpportunities({
+      fresh: brief.opportunities,
+      previous: prev.opportunities || [],
+      today: brief.date || TODAY
+    });
+
     if (typeof prev.edition === 'number') {
       brief.edition = prev.edition + 1;
 

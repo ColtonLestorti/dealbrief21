@@ -375,7 +375,10 @@
       "source": "FinanzNachrichten (company release)",
       "source_url": "https://www.finanznachrichten.de/nachrichten-2026-07/68986985-mda-space-ltd-mda-space-increases-previously-announced-bought-deal-offering-of-common-shares-399.htm",
       "published": "2026-07-09",
-      "confidence": "Reported"
+      "confidence": "Reported",
+      "first_seen": "2026-07-09",
+      "last_confirmed": "2026-07-09",
+      "carry_badge": "NEW"
     },
     {
       "id": "o2",
@@ -406,7 +409,10 @@
       "source": "Yahoo Finance / GlobeNewswire (Genco release)",
       "source_url": "https://finance.yahoo.com/markets/stocks/articles/genco-shipping-trading-limited-comments-151300287.html",
       "published": "2026-07-08",
-      "confidence": "Reported"
+      "confidence": "Reported",
+      "first_seen": "2026-07-09",
+      "last_confirmed": "2026-07-09",
+      "carry_badge": "NEW"
     },
     {
       "id": "o3",
@@ -437,10 +443,73 @@
       "source": "Manila Times / GlobeNewswire (DXL release)",
       "source_url": "https://www.manilatimes.net/2026/07/09/tmt-newswire/globenewswire/destination-xl-group-inc-recommends-dxl-stockholders-reject-zodiac-partners-iis-revised-unsolicited-tender-offer-and-not-tender-their-shares/2381212",
       "published": "2026-07-09",
-      "confidence": "Reported"
+      "confidence": "Reported",
+      "first_seen": "2026-07-09",
+      "last_confirmed": "2026-07-09",
+      "carry_badge": "NEW"
     },
     {
       "id": "o4",
+      "bank": "PJT Partners",
+      "sector": "Energy / Cross-border",
+      "urgency": "HOT",
+      "headline": "Advising Genel Energy on its £271M offer for Capricorn Energy",
+      "why_it_matters": "A live, cross-border UK energy M&A mandate (announced July 2), with PJT advising Genel alongside Jefferies. Cross-border oil & gas deals bring multi-jurisdiction diligence — a strong data room use case, and timely given today's oil-price spike.",
+      "deal_clock": [
+        {
+          "date": "Jul 2, 2026",
+          "event": "Genel's £271M offer for Capricorn; PJT advising"
+        }
+      ],
+      "outreach_idea": "Open on the Genel/Capricorn mandate directly — a live cross-border energy process is a concrete reason to engage PJT's advisory team on diligence coordination.",
+      "outreach_draft": {
+        "subject": "Genel / Capricorn — supporting a cross-border energy process",
+        "body": "Congratulations on PJT's role advising Genel Energy on its offer for Capricorn. Cross-border energy deals tend to spin up multi-jurisdiction diligence quickly — would welcome a conversation on how we support clean, auditable access as the process moves forward.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies",
+        "source": "Simmons & Simmons (mandate notice)",
+        "source_url": "https://www.simmons-simmons.com/en/about-us/news/advising-pjt-and-jefferies-on-genel-s-271m-offer-for-capricorn",
+        "published": "2026-07-02",
+        "confidence": "Reported"
+      },
+      "first_seen": "2026-07-08",
+      "last_confirmed": "2026-07-08",
+      "source": "Simmons & Simmons (mandate notice)",
+      "source_url": "https://www.simmons-simmons.com/en/about-us/news/advising-pjt-and-jefferies-on-genel-s-271m-offer-for-capricorn",
+      "published": "2026-07-02",
+      "confidence": "Reported",
+      "carry_badge": "Day 2"
+    },
+    {
+      "id": "o5",
+      "bank": "Jefferies",
+      "sector": "Energy / Cross-border",
+      "urgency": "HOT",
+      "headline": "Joint adviser to Genel Energy on the £271M Capricorn offer",
+      "why_it_matters": "Jefferies is advising Genel alongside PJT on a live UK energy mandate (July 2) — fitting its re-rating story on accelerating deal flow. A fresh, deal-specific reason to engage.",
+      "deal_clock": [
+        {
+          "date": "Jul 2, 2026",
+          "event": "Jefferies named joint adviser to Genel on Capricorn offer"
+        }
+      ],
+      "outreach_idea": "Reach out to Jefferies' energy coverage on the Genel process — a current cross-border mandate to anchor the conversation.",
+      "outreach_draft": {
+        "subject": "Jefferies / Genel — Capricorn offer support",
+        "body": "Noted Jefferies' role advising Genel Energy on its offer for Capricorn. As the cross-border process advances, would welcome a conversation on diligence infrastructure support.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies",
+        "source": "Simmons & Simmons (mandate notice)",
+        "source_url": "https://www.simmons-simmons.com/en/about-us/news/advising-pjt-and-jefferies-on-genel-s-271m-offer-for-capricorn",
+        "published": "2026-07-02",
+        "confidence": "Reported"
+      },
+      "first_seen": "2026-07-08",
+      "last_confirmed": "2026-07-08",
+      "source": "Simmons & Simmons (mandate notice)",
+      "source_url": "https://www.simmons-simmons.com/en/about-us/news/advising-pjt-and-jefferies-on-genel-s-271m-offer-for-capricorn",
+      "published": "2026-07-02",
+      "confidence": "Reported",
+      "carry_badge": "Day 2"
+    },
+    {
+      "id": "o6",
       "bank": "Moelis",
       "sector": "Restructuring / Capital Advisory",
       "urgency": "WARM",
@@ -464,10 +533,13 @@
       "source": "Australian Financial Review",
       "source_url": "https://www.afr.com/companies/media-and-marketing/ticketek-owner-in-talks-to-raise-hundreds-of-millions-in-fresh-capital-20260708-p60dl1",
       "published": "2026-07-08",
-      "confidence": "Reported"
+      "confidence": "Reported",
+      "first_seen": "2026-07-09",
+      "last_confirmed": "2026-07-09",
+      "carry_badge": "NEW"
     },
     {
-      "id": "o5",
+      "id": "o7",
       "bank": "PJT Partners",
       "sector": "Crypto / Private secondary",
       "urgency": "WARM",
@@ -491,10 +563,13 @@
       "source": "Bloomberg",
       "source_url": "https://www.bloomberg.com/news/articles/2026-07-06/tether-s-former-cio-plans-sale-of-stake-in-stablecoin-giant",
       "published": "2026-07-06",
-      "confidence": "Reported"
+      "confidence": "Reported",
+      "first_seen": "2026-07-09",
+      "last_confirmed": "2026-07-09",
+      "carry_badge": "NEW"
     },
     {
-      "id": "o6",
+      "id": "o8",
       "bank": "JPMorgan",
       "sector": "Space / ECM",
       "urgency": "WARM",
@@ -518,7 +593,10 @@
       "source": "FinanzNachrichten (company release)",
       "source_url": "https://www.finanznachrichten.de/nachrichten-2026-07/68986985-mda-space-ltd-mda-space-increases-previously-announced-bought-deal-offering-of-common-shares-399.htm",
       "published": "2026-07-09",
-      "confidence": "Reported"
+      "confidence": "Reported",
+      "first_seen": "2026-07-09",
+      "last_confirmed": "2026-07-09",
+      "carry_badge": "NEW"
     }
   ],
   "pipeline_watch": {

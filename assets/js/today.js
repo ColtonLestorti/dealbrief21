@@ -333,6 +333,8 @@ function renderOpportunities(opps) {
           <div class="card-headline-wrap">
             <div class="card-badges">
               <span class="badge badge-${urgencyType}">${esc(opp.urgency)}</span>
+              ${opp.carry_badge === 'NEW' ? '<span class="badge badge-new" title="First appeared today">NEW</span>' : ''}
+              ${opp.carry_badge && opp.carry_badge !== 'NEW' ? `<span class="badge badge-running" title="A live deal process still open — carried forward from an earlier edition">${esc(opp.carry_badge)}</span>` : ''}
               ${myBank ? '<span class="badge badge-your-bank">YOUR BANK</span>' : ''}
               ${opp.confidence ? `<span class="badge badge-conf-${opp.confidence.toLowerCase()}" title="${confidenceTooltip(opp.confidence)}">${esc(opp.confidence.toUpperCase())}</span>` : ''}
             </div>
