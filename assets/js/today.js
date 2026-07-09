@@ -441,7 +441,7 @@ function renderPipelineWatch(pipeline, sectorHeat) {
   container.innerHTML = `<div class="pipeline-panel">${leads}${watch}${sectors}${note}</div>`;
 }
 
-/* ── Skeptic's Corner (unverified leads) ─────────────────── */
+/* ── Rumor Mill (unconfirmed leads: rumored deals + no-advisor-yet) ── */
 function renderSkepticsCorner(sk) {
   const section = document.getElementById('section-skeptics');
   const container = document.getElementById('skeptics-corner');
@@ -453,25 +453,32 @@ function renderSkepticsCorner(sk) {
   }
   section.style.display = 'block';
 
-  const items = sk.items.map(it => `
+  const items = sk.items.map(it => {
+    // Accept both shapes: native Rumor Mill items ({lead, why_unverified})
+    // and pipeline "situations to watch" ({situation}). Anything without a
+    // named adviser is itself the reason it's unverified — the reach-out edge.
+    const detail = it.lead || it.situation || '';
+    const why = it.why_unverified
+      || (it.bank && it.bank !== 'unconfirmed' ? '' : 'No adviser named yet — reach out before the mandate is awarded.');
+    return `
     <div class="skeptic-item">
       <div class="skeptic-company">
         ${esc(it.company)}
         ${it.bank && it.bank !== 'unconfirmed' ? `<span class="pipeline-bank">→ ${esc(it.bank)}</span>` : ''}
         <span class="badge badge-conf-speculative">UNVERIFIED</span>
       </div>
-      <div class="pipeline-situation">${esc(it.lead)}</div>
-      <div class="skeptic-why">⚠ ${esc(it.why_unverified)}</div>
+      <div class="pipeline-situation">${esc(detail)}</div>
+      ${why ? `<div class="skeptic-why">⚠ ${esc(why)}</div>` : ''}
       <div class="pipeline-meta">
         ${it.sector ? `<span class="pipeline-sector">${esc(it.sector)}</span><span class="deal-meta-dot">·</span>` : ''}
         <span class="pipeline-source">${esc(it.source_note)}</span>
       </div>
-    </div>
-  `).join('');
+    </div>`;
+  }).join('');
 
   container.innerHTML = `
     <div class="skeptics-panel">
-      <div class="skeptics-banner">${esc(sk.note)}</div>
+      ${sk.note ? `<div class="skeptics-banner">${esc(sk.note)}</div>` : ''}
       ${items}
     </div>
   `;

@@ -600,63 +600,77 @@
     }
   ],
   "pipeline_watch": {
-    "note": "Prospective / rumored situations — verified at publisher + date level; treat as Speculative and confirm before quoting on a call. 'Covered-bank leads' name one of your banks; 'situations to watch' are real but the mandate is unnamed or held by a non-covered adviser. (No covered bank was cleanly named as adviser on this cycle's rumors — all are advisers-not-disclosed.)",
+    "note": "Named covered-bank mandates and sector heat. Rumored / no-adviser situations now live in the Rumor Mill.",
     "covered_bank_leads": [],
-    "situations_to_watch": [
+    "situations_to_watch": []
+  },
+  "skeptics_corner": {
+    "note": "Unconfirmed leads — rumored deals and situations with no adviser named yet. Real reporting, but treat as speculative: chase them, don’t quote them on a call.",
+    "items": [
       {
         "company": "easyJet",
-        "situation": "Board 'minded to accept' an improved ~£5.2B / ~$7.3B take-private from US investor Castlelake; break-up speculation; adviser not disclosed",
+        "bank": "unconfirmed",
+        "lead": "Board 'minded to accept' an improved ~£5.2B / ~$7.3B take-private from US investor Castlelake; break-up speculation; adviser not disclosed",
+        "why_unverified": "No adviser named yet — reach out before the mandate is awarded.",
         "sector": "Airlines / travel",
         "source_note": "Reuters, Jul 6 2026",
         "confidence": "Speculative"
       },
       {
         "company": "Criteo",
-        "situation": "Received a buyout approach from Vista Equity Partners and Quinti Capital ('sources say'); adviser not disclosed",
+        "bank": "unconfirmed",
+        "lead": "Received a buyout approach from Vista Equity Partners and Quinti Capital ('sources say'); adviser not disclosed",
+        "why_unverified": "No adviser named yet — reach out before the mandate is awarded.",
         "sector": "AdTech / digital advertising",
         "source_note": "Reuters (via Yahoo Finance), Jul 6 2026",
         "confidence": "Speculative"
       },
       {
         "company": "GFL Environmental",
-        "situation": "Weighing a take-private amid buyout-firm interest; reported to have held investment talks with Apollo; adviser not disclosed",
+        "bank": "unconfirmed",
+        "lead": "Weighing a take-private amid buyout-firm interest; reported to have held investment talks with Apollo; adviser not disclosed",
+        "why_unverified": "No adviser named yet — reach out before the mandate is awarded.",
         "sector": "Environmental services / waste",
         "source_note": "Bloomberg / Globe and Mail, Jul 3-6 2026",
         "confidence": "Speculative"
       },
       {
         "company": "Fiserv (STAR debit network)",
-        "situation": "Exploring a sale of its STAR debit-card network, reportedly in talks with large US banks; adviser not disclosed",
+        "bank": "unconfirmed",
+        "lead": "Exploring a sale of its STAR debit-card network, reportedly in talks with large US banks; adviser not disclosed",
+        "why_unverified": "No adviser named yet — reach out before the mandate is awarded.",
         "sector": "Payments / fintech",
         "source_note": "Reuters, Jul 7 2026",
         "confidence": "Speculative"
       },
       {
         "company": "Alkami Technology",
-        "situation": "Activist Jana Partners built a ~10% stake and is publicly pushing the cloud banking-software firm toward a sale; adviser not disclosed",
+        "bank": "unconfirmed",
+        "lead": "Activist Jana Partners built a ~10% stake and is publicly pushing the cloud banking-software firm toward a sale; adviser not disclosed",
+        "why_unverified": "No adviser named yet — reach out before the mandate is awarded.",
         "sector": "Fintech / SaaS",
         "source_note": "Yahoo Finance, Jul 6 2026",
         "confidence": "Speculative"
       },
       {
         "company": "Bio-Techne",
-        "situation": "Activist Ananym Capital urging the life-sciences tools firm to consider selling itself; adviser not disclosed",
+        "bank": "unconfirmed",
+        "lead": "Activist Ananym Capital urging the life-sciences tools firm to consider selling itself; adviser not disclosed",
+        "why_unverified": "No adviser named yet — reach out before the mandate is awarded.",
         "sector": "Life-sciences tools",
         "source_note": "Reuters (via MSN), Jul 6 2026",
         "confidence": "Speculative"
       },
       {
         "company": "Dynatrace",
-        "situation": "Activist Starboard Value reportedly building a stake; shares jumped after-hours; adviser not disclosed",
+        "bank": "unconfirmed",
+        "lead": "Activist Starboard Value reportedly building a stake; shares jumped after-hours; adviser not disclosed",
+        "why_unverified": "No adviser named yet — reach out before the mandate is awarded.",
         "sector": "Software / observability",
         "source_note": "Stocktwits, Jul 9 2026",
         "confidence": "Speculative"
       }
     ]
-  },
-  "skeptics_corner": {
-    "note": "Unverified leads — sourced from subscription tools (PitchBook / Mergermarket) or single-source reports that we could NOT confirm against a public source. Shown transparently so reps can chase them, not quote them. Verify before using on a call.",
-    "items": []
   },
   "sector_heat": {
     "note": "Which sectors are driving M&A right now — lead outreach with bankers in the hottest verticals. Carried from H1 2026 league-table and mid-year outlook coverage; today's live mandates skew to space/defense ECM and contested public-company tenders.",

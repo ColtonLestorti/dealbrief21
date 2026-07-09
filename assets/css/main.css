@@ -330,8 +330,8 @@ ul, ol { list-style: none; }
   display: inline-block;
   padding: var(--space-3) var(--space-4);
   font-size: var(--text-sm);
-  font-weight: 500;
-  color: var(--text-muted);
+  font-weight: 700;
+  color: var(--text-primary);
   border-bottom: 2px solid transparent;
   margin-bottom: -1px;
   transition: all var(--transition-fast);
@@ -339,7 +339,10 @@ ul, ol { list-style: none; }
   text-decoration: none;
 }
 
-.section-nav-link:hover { color: var(--text-primary); }
+.section-nav-link:hover {
+  color: var(--text-accent);
+  border-bottom-color: var(--text-accent);
+}
 
 /* ── Today Header ────────────────────────────────────────── */
 .today-header {

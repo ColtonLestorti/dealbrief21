@@ -146,6 +146,20 @@ Return ONLY a JSON object (no markdown, no backticks, no preamble) with this exa
     "macro_note": "..."
   },
   "talking_point": { "quote": "...", "use_with": "...", "context": "..." },
+  "skeptics_corner": {
+    "note": "<one sentence framing these as unconfirmed leads to chase, not quote>",
+    "items": [
+      {
+        "company": "<target company>",
+        "bank": "<covered bank name if one is rumored/likely, else \"unconfirmed\">",
+        "lead": "<the rumored deal or situation, one sentence>",
+        "why_unverified": "<why it isn't confirmed yet, e.g. 'no adviser named yet' or 'sources say, unconfirmed'>",
+        "sector": "...",
+        "source_note": "<publisher + date, e.g. 'Reuters, Jul 6 2026'>",
+        "confidence": "Speculative"
+      }
+    ]
+  },
   "archive": []
 }
 
@@ -177,6 +191,14 @@ Rules:
   and WTI crude, plus current prices for the major bank stocks (GS, MS, JPM, EVR, LAZ, JEF).
   ACCURACY IS CRITICAL: if you cannot verify a number from search, omit that item entirely
   rather than estimate — an empty/short ticker is better than a wrong one.
+- RUMOR MILL ("skeptics_corner"): populate with 4-8 UNCONFIRMED leads — rumored or
+  "exploring a sale" deals, activist-pushed situations, and deals where no adviser has been
+  named yet but a mandate looks likely soon. This is the reach-out-early edge: a rep can call
+  before the mandate is awarded. Every item still needs a real source_note (publisher + date)
+  from actual reporting — never pure inference. Set "bank" to a covered bank only if one is
+  genuinely rumored/likely as adviser; otherwise "unconfirmed". These are always Speculative and
+  must NOT be duplicated in "stories" or "opportunities" (those are for confirmed items). If a
+  genuinely quiet day yields nothing rumored, return an empty items array — do not invent leads.
 - Keep "archive" as an empty array; the site manages history separately.
 - Output must be valid JSON and nothing else.`;
 
