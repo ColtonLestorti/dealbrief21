@@ -322,6 +322,15 @@ ul, ol { list-style: none; }
   padding-bottom: 0;
   overflow-x: auto;
   scrollbar-width: none;
+  /* Pin under the main nav so the section links stay reachable while the
+     user scrolls the page. Sits just below the fixed ticker + nav stack,
+     layered below them but above page content. */
+  position: sticky;
+  top: calc(var(--ticker-height) + var(--nav-height));
+  z-index: 90;
+  background: rgba(13, 15, 18, 0.95);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
 }
 
 .section-nav::-webkit-scrollbar { display: none; }
@@ -381,7 +390,9 @@ ul, ol { list-style: none; }
 /* ── Section Headers ─────────────────────────────────────── */
 .section {
   margin-bottom: var(--space-10);
-  scroll-margin-top: calc(var(--ticker-height) + var(--nav-height) + var(--space-6));
+  /* Offset anchor jumps past the fixed ticker + nav AND the now-sticky
+     section-nav (~45px) so the target heading isn't hidden behind them. */
+  scroll-margin-top: calc(var(--ticker-height) + var(--nav-height) + 45px + var(--space-4));
 }
 
 .section-header {
