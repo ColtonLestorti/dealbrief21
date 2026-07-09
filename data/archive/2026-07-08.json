@@ -1,0 +1,437 @@
+{
+  "date": "2026-07-08",
+  "edition": 6,
+  "lens": "Risk-off broke out today — a renewed U.S.–Iran flare-up spiked crude ~4.7% and the VIX, hawkish June FOMC minutes landed, and a fresh 35% Canada tariff threat added to the tape. Advisory-levered stocks got hit hardest (Evercore -4.6%, Jefferies -3.2%), yet deals kept printing: PJT and Jefferies are advising Genel on its £271M bid for Capricorn.",
+  "ticker": [
+    {
+      "label": "S&P 500",
+      "value": "7,467.19",
+      "change": "-0.49%",
+      "positive": false
+    },
+    {
+      "label": "NASDAQ 100",
+      "value": "29,111.09",
+      "change": "-0.21%",
+      "positive": false
+    },
+    {
+      "label": "DOW",
+      "value": "52,293.60",
+      "change": "-1.19%",
+      "positive": false
+    },
+    {
+      "label": "RUSSELL 2000",
+      "value": "2,948.55",
+      "change": "-1.14%",
+      "positive": false
+    },
+    {
+      "label": "10Y",
+      "value": "4.574%",
+      "change": "+4.5bps",
+      "positive": false
+    },
+    {
+      "label": "VIX",
+      "value": "16.98",
+      "change": "+5.27%",
+      "positive": false
+    },
+    {
+      "label": "WTI CRUDE",
+      "value": "$73.74",
+      "change": "+4.68%",
+      "positive": true
+    },
+    {
+      "label": "GS",
+      "value": "$1,025.46",
+      "change": "-1.68%",
+      "positive": false
+    }
+  ],
+  "stories": [
+    {
+      "id": "s1",
+      "category": "MACRO",
+      "urgency": "HIGH",
+      "scope": "market",
+      "headline": "Risk-off: chip selloff extends and crude spikes ~4.7% after Trump says U.S.–Iran 'truce is over'",
+      "why_it_matters": "The semiconductor selloff that began on Samsung's results extended into a broader risk-off Wednesday, with Nvidia, Micron, and AMD leading chip declines after President Trump said the U.S.–Iran 'truce is over.' WTI crude jumped ~4.7% to ~$73.74 on renewed Strait of Hormuz shipping-attack fears, and the VIX rose ~5% to 16.98. The Dow fell ~1.2% and small caps ~1.1%. Higher oil plus geopolitical risk is a classic backdrop for energy-sector consolidation but a near-term headwind for risk appetite on other deals.",
+      "suggested_action": "Flag the oil spike to energy-sector coverage teams as a consolidation catalyst; for other sectors, acknowledge the risk-off tape as a reason clients may want deal timelines and diligence tightened, not loosened.",
+      "deal_clock": [
+        {
+          "date": "Jul 8",
+          "event": "WTI +4.68% to $73.74; VIX +5.27%; Dow -1.19%"
+        },
+        {
+          "date": "Jul 8",
+          "event": "Chip stocks slide as Trump says U.S.–Iran truce is over"
+        }
+      ],
+      "source": "TradingView",
+      "source_url": "https://www.tradingview.com/news/tradingview:fc3531001094b:0-ixic-nasdaq-unwinds-1-2-as-chips-tumble-again-futures-mixed-on-new-us-iran-attacks/",
+      "published": "2026-07-08",
+      "tags": [
+        "macro",
+        "energy",
+        "semiconductors",
+        "geopolitics"
+      ]
+    },
+    {
+      "id": "s2",
+      "category": "MACRO",
+      "urgency": "MEDIUM",
+      "scope": "market",
+      "headline": "June FOMC minutes land hawkish — the first set under Chair Warsh; July cut odds stay low",
+      "why_it_matters": "The Federal Reserve released the minutes of its June meeting today — the first under Chair Kevin Warsh — and markets read them as hawkish, reinforcing that a near-term cut is unlikely (one tracker put July hold odds above 80%). The 10Y Treasury yield rose to ~4.57%. Elevated financing costs remain the central constraint on leveraged deal math, and a hawkish Fed keeps that overhang in place through the summer.",
+      "suggested_action": "Use the hawkish minutes to reset expectations with leverage-dependent clients — financing conditions aren't easing yet, so processes that pencil on a near-term cut should be stress-tested at current rates.",
+      "deal_clock": [
+        {
+          "date": "Jul 8",
+          "event": "June FOMC minutes released (first under Chair Warsh); read hawkish"
+        },
+        {
+          "date": "Jul 8",
+          "event": "10Y yield rises to ~4.57%"
+        }
+      ],
+      "source": "Investing.com",
+      "source_url": "https://www.investing.com/news/economy-news/some-fed-officials-made-case-for-rate-hike-amid-inflation-concerns-minutes-show-4782181",
+      "published": "2026-07-08",
+      "confidence": "Reported",
+      "tags": [
+        "macro",
+        "rates",
+        "leveraged-finance"
+      ]
+    },
+    {
+      "id": "s3",
+      "category": "M&A",
+      "urgency": "HIGH",
+      "scope": "bank",
+      "bank": "PJT Partners",
+      "headline": "PJT Partners and Jefferies advise Genel Energy on its £271M offer for Capricorn Energy",
+      "why_it_matters": "PJT Partners and Jefferies are financial advisers to Genel Energy on its £271M offer for Capricorn Energy, per the mandate announced by the deal's legal counsel on July 2. A live, cross-border UK energy M&A mandate for two covered banks — the kind of process that spins up buyer and lender diligence workstreams quickly.",
+      "suggested_action": "Reach out to PJT's advisory team on the Genel/Capricorn process — a live cross-border energy mandate is a strong, current reason to engage on diligence infrastructure.",
+      "deal_clock": [
+        {
+          "date": "Jul 2, 2026",
+          "event": "Genel's £271M offer for Capricorn; PJT & Jefferies advising Genel"
+        }
+      ],
+      "source": "Simmons & Simmons (mandate notice)",
+      "source_url": "https://www.simmons-simmons.com/en/about-us/news/advising-pjt-and-jefferies-on-genel-s-271m-offer-for-capricorn",
+      "published": "2026-07-02",
+      "confidence": "Reported",
+      "tags": [
+        "energy",
+        "cross-border",
+        "uk"
+      ]
+    },
+    {
+      "id": "s4",
+      "category": "M&A",
+      "urgency": "MEDIUM",
+      "scope": "bank",
+      "bank": "Jefferies",
+      "headline": "Jefferies is joint adviser to Genel Energy on the £271M Capricorn offer",
+      "why_it_matters": "Jefferies is advising Genel Energy alongside PJT Partners on its £271M offer for Capricorn Energy (announced July 2). A live UK energy mandate that fits Jefferies' re-rating story on accelerating deal flow — a fresh, deal-specific reason to engage its coverage team.",
+      "suggested_action": "Connect with Jefferies' energy/UK coverage on the Genel process specifically — a current mandate to anchor a diligence-infrastructure conversation.",
+      "deal_clock": [
+        {
+          "date": "Jul 2, 2026",
+          "event": "Jefferies named joint adviser to Genel on Capricorn offer"
+        }
+      ],
+      "source": "Simmons & Simmons (mandate notice)",
+      "source_url": "https://www.simmons-simmons.com/en/about-us/news/advising-pjt-and-jefferies-on-genel-s-271m-offer-for-capricorn",
+      "published": "2026-07-02",
+      "confidence": "Reported",
+      "tags": [
+        "energy",
+        "cross-border",
+        "uk"
+      ]
+    },
+    {
+      "id": "s5",
+      "category": "BANKING",
+      "urgency": "MEDIUM",
+      "scope": "market",
+      "headline": "Advisory-levered stocks lead the selloff — Evercore -4.6%, Jefferies -3.2%, Lazard -2.8%",
+      "why_it_matters": "In Wednesday's risk-off tape, the pure-play advisory names fell harder than the bulge bracket: Evercore -4.6%, Jefferies -3.2%, and Lazard -2.8%, versus roughly -1.7% to -1.9% for GS, MS, and JPM. Rising rates and a risk-off shift pressure M&A-levered franchises most — a reminder that the deal-fee outlook, not just balance-sheet exposure, is what's moving these stocks.",
+      "suggested_action": "Context for coverage conversations: advisory-franchise stocks are rate- and sentiment-sensitive, so bankers are acutely focused on execution efficiency right now — a natural opening for a speed-to-launch data room pitch.",
+      "deal_clock": [
+        {
+          "date": "Jul 8",
+          "event": "EVR -4.57%, JEF -3.18%, LAZ -2.82% intraday"
+        }
+      ],
+      "source": "Investing.com / Google Finance",
+      "source_url": "https://www.investing.com/equities/lazard-ltd",
+      "published": "2026-07-08",
+      "tags": [
+        "banking",
+        "advisory"
+      ]
+    },
+    {
+      "id": "s6",
+      "category": "DEALS",
+      "urgency": "MEDIUM",
+      "scope": "bank",
+      "bank": "Barclays",
+      "headline": "Barclays is sole global coordinator and bookrunner on EIG's ~$54.8M Harbour Energy stake sale",
+      "why_it_matters": "Barclays Bank PLC is acting as sole global coordinator and sole bookrunner on a share placing through which EIG (via Potomac View) is selling its entire ~3.5% stake (~54.8M shares) in Harbour Energy, announced July 2. A live, sole-mandate ECM execution — a clean, current touchpoint for Barclays' energy/ECM coverage.",
+      "suggested_action": "Reach out to Barclays' ECM/energy coverage on the Harbour placing — a sole-bookrunner block trade is exactly the kind of fast-turnaround execution where clean diligence access matters.",
+      "deal_clock": [
+        {
+          "date": "Jul 2, 2026",
+          "event": "EIG to sell entire Harbour Energy stake via placing; Barclays sole bookrunner"
+        }
+      ],
+      "source": "Investing.com",
+      "source_url": "https://uk.investing.com/news/stock-market-news/eig-to-sell-entire-stake-in-harbour-energy-via-share-placing-93CH-4755295",
+      "published": "2026-07-02",
+      "confidence": "Reported",
+      "tags": [
+        "energy",
+        "ecm",
+        "uk"
+      ]
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "o1",
+      "bank": "PJT Partners",
+      "sector": "Energy / Cross-border",
+      "urgency": "HOT",
+      "headline": "Advising Genel Energy on its £271M offer for Capricorn Energy",
+      "why_it_matters": "A live, cross-border UK energy M&A mandate (announced July 2), with PJT advising Genel alongside Jefferies. Cross-border oil & gas deals bring multi-jurisdiction diligence — a strong data room use case, and timely given today's oil-price spike.",
+      "deal_clock": [
+        {
+          "date": "Jul 2, 2026",
+          "event": "Genel's £271M offer for Capricorn; PJT advising"
+        }
+      ],
+      "outreach_idea": "Open on the Genel/Capricorn mandate directly — a live cross-border energy process is a concrete reason to engage PJT's advisory team on diligence coordination.",
+      "outreach_draft": {
+        "subject": "Genel / Capricorn — supporting a cross-border energy process",
+        "body": "Congratulations on PJT's role advising Genel Energy on its offer for Capricorn. Cross-border energy deals tend to spin up multi-jurisdiction diligence quickly — would welcome a conversation on how we support clean, auditable access as the process moves forward.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies",
+        "source": "Simmons & Simmons (mandate notice)",
+        "source_url": "https://www.simmons-simmons.com/en/about-us/news/advising-pjt-and-jefferies-on-genel-s-271m-offer-for-capricorn",
+        "published": "2026-07-02",
+        "confidence": "Reported"
+      }
+    },
+    {
+      "id": "o2",
+      "bank": "Jefferies",
+      "sector": "Energy / Cross-border",
+      "urgency": "HOT",
+      "headline": "Joint adviser to Genel Energy on the £271M Capricorn offer",
+      "why_it_matters": "Jefferies is advising Genel alongside PJT on a live UK energy mandate (July 2) — fitting its re-rating story on accelerating deal flow. A fresh, deal-specific reason to engage.",
+      "deal_clock": [
+        {
+          "date": "Jul 2, 2026",
+          "event": "Jefferies named joint adviser to Genel on Capricorn offer"
+        }
+      ],
+      "outreach_idea": "Reach out to Jefferies' energy coverage on the Genel process — a current cross-border mandate to anchor the conversation.",
+      "outreach_draft": {
+        "subject": "Jefferies / Genel — Capricorn offer support",
+        "body": "Noted Jefferies' role advising Genel Energy on its offer for Capricorn. As the cross-border process advances, would welcome a conversation on diligence infrastructure support.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies",
+        "source": "Simmons & Simmons (mandate notice)",
+        "source_url": "https://www.simmons-simmons.com/en/about-us/news/advising-pjt-and-jefferies-on-genel-s-271m-offer-for-capricorn",
+        "published": "2026-07-02",
+        "confidence": "Reported"
+      }
+    }
+  ],
+  "pipeline_watch": {
+    "note": "Prospective / rumored situations — verified at publisher + date level; treat as Speculative and confirm before quoting on a call. 'Covered-bank leads' name one of your banks; 'situations to watch' are real but the mandate is unnamed or held by a non-covered adviser.",
+    "covered_bank_leads": [
+      {
+        "company": "Venezuela (sovereign financial adviser)",
+        "bank": "Lazard / Centerview",
+        "situation": "Lazard reported to be bidding to replace Centerview as Venezuela's sovereign financial adviser — a covered-bank-vs-covered-bank mandate contest",
+        "sector": "Sovereign advisory",
+        "source_note": "AOL, Jul 7 2026",
+        "confidence": "Speculative"
+      },
+      {
+        "company": "Tether stake (former CIO)",
+        "bank": "PJT Partners",
+        "situation": "PJT reported to be advising on the sale of a former Tether CIO's ~1.26% stake",
+        "sector": "Crypto / financial",
+        "source_note": "CoinDesk / Bloomberg, Jul 7 2026",
+        "confidence": "Speculative"
+      }
+    ],
+    "situations_to_watch": [
+      {
+        "company": "Commerzbank",
+        "situation": "UniCredit takeover bid advancing; German government critical; adviser not disclosed",
+        "sector": "Banking",
+        "source_note": "Investing.com, Jul 8 2026",
+        "confidence": "Speculative"
+      },
+      {
+        "company": "SEGRO",
+        "situation": "Rejected Prologis's £12.7B (~$16.6B) approach as 'inadequate'; adviser not disclosed",
+        "sector": "Real estate / logistics",
+        "source_note": "TheBusinessDesk / Kalkine, Jul 4–8 2026",
+        "confidence": "Speculative"
+      },
+      {
+        "company": "easyJet",
+        "situation": "Board backed a Castlelake-fronted ~£5.5B take-private approach; adviser not disclosed",
+        "sector": "Aviation",
+        "source_note": "GB News / ittn.ie, Jul 6 2026",
+        "confidence": "Speculative"
+      },
+      {
+        "company": "DCC",
+        "situation": "Rejected a KKR-led consortium's ~$6.7B approach; adviser not disclosed",
+        "sector": "Distribution",
+        "source_note": "MSN, Jul 7 2026",
+        "confidence": "Speculative"
+      },
+      {
+        "company": "Fiserv debit-card network",
+        "situation": "Major US banks reported in talks to acquire the STAR/debit network; adviser not disclosed",
+        "sector": "Payments / financial services",
+        "source_note": "Business Post, Jul 7 2026",
+        "confidence": "Speculative"
+      },
+      {
+        "company": "Tesco (Central Europe stores)",
+        "situation": "Exploring a sale of 500+ Central European stores; adviser not disclosed",
+        "sector": "Grocery / retail",
+        "source_note": "TradingView, Jul 8 2026",
+        "confidence": "Speculative"
+      }
+    ]
+  },
+  "skeptics_corner": {
+    "note": "Unverified leads — sourced from subscription tools (PitchBook / Mergermarket) or single-source reports that we could NOT confirm against a public source. Shown transparently so reps can chase them, not quote them. Verify before using on a call.",
+    "items": []
+  },
+  "sector_heat": {
+    "note": "Which sectors are driving M&A right now — lead outreach with bankers in the hottest verticals. Carried from H1 2026 league-table and mid-year outlook coverage; energy is in focus today on the oil-price spike.",
+    "ranked": [
+      {
+        "sector": "Energy (oil & gas)",
+        "read": "In focus today — a renewed U.S.–Iran flare-up spiked WTI ~4.7%; US upstream M&A already hit ~$38B in Q1 2026, a two-year high, and higher prices tend to accelerate consolidation.",
+        "source_note": "Investing.com (WTI) / OilPrice, Jul 2026"
+      },
+      {
+        "sector": "Technology / AI",
+        "read": "Still the volume leader for 2026 M&A, though the AI-chip complex is in a valuation wobble this week (Samsung-led selloff).",
+        "source_note": "LawFuel / PwC TMT mid-year outlook, Jun 2026"
+      },
+      {
+        "sector": "Healthcare / Biopharma",
+        "read": "Very active — a ~$170B patent cliff is fueling deals (Vertex/Crinetics ~$9–10B is live this week).",
+        "source_note": "BioSpace / CNBC, Apr–Jul 2026"
+      },
+      {
+        "sector": "Financial services",
+        "read": "Consolidation wave breaking — UniCredit/Commerzbank and the Fiserv debit-network talks are both live this week.",
+        "source_note": "Investing.com / Business Post, Jul 2026"
+      }
+    ]
+  },
+  "talking_point": {
+    "quote": "Oil just jumped nearly 5% on the Iran truce breaking down, and US upstream M&A was already running at a two-year high. When crude moves like this, do your energy clients see it as a reason to accelerate consolidation talks — or to wait out the volatility?",
+    "use_with": "Energy & natural-resources coverage teams (esp. at PJT, Jefferies, RBC, Barclays)",
+    "context": "Today's ~4.7% WTI spike is the freshest, most concrete hook in the brief, and it ties directly to a live covered-bank mandate (PJT + Jefferies on Genel/Capricorn). Pair the price move with the sector backdrop — Q1 2026 US upstream M&A hit ~$38B, a two-year high — to open a timing conversation. Higher, more volatile crude historically pulls forward strategic consolidation as stronger operators move on weaker ones.",
+    "confidence": "Reported"
+  },
+  "market_snapshot": {
+    "indices": [
+      {
+        "label": "S&P 500",
+        "value": "7,467.19",
+        "change": "-0.49%",
+        "positive": false
+      },
+      {
+        "label": "Nasdaq 100",
+        "value": "29,111.09",
+        "change": "-0.21%",
+        "positive": false
+      },
+      {
+        "label": "Dow Jones",
+        "value": "52,293.60",
+        "change": "-1.19%",
+        "positive": false
+      },
+      {
+        "label": "Russell 2000",
+        "value": "2,948.55",
+        "change": "-1.14%",
+        "positive": false
+      },
+      {
+        "label": "10Y Treasury",
+        "value": "4.574%",
+        "change": "+4.5bps",
+        "positive": false
+      },
+      {
+        "label": "WTI Crude",
+        "value": "$73.74",
+        "change": "+4.68%",
+        "positive": true
+      }
+    ],
+    "bank_stocks": [
+      {
+        "ticker": "GS",
+        "price": "$1,025.46",
+        "change": "-1.68%",
+        "positive": false
+      },
+      {
+        "ticker": "MS",
+        "price": "$218.21",
+        "change": "-1.72%",
+        "positive": false
+      },
+      {
+        "ticker": "JPM",
+        "price": "$332.84",
+        "change": "-1.88%",
+        "positive": false
+      },
+      {
+        "ticker": "EVR",
+        "price": "$331.02",
+        "change": "-4.57%",
+        "positive": false
+      },
+      {
+        "ticker": "LAZ",
+        "price": "$40.57",
+        "change": "-2.82%",
+        "positive": false
+      },
+      {
+        "ticker": "JEF",
+        "price": "$51.13",
+        "change": "-3.18%",
+        "positive": false
+      }
+    ],
+    "macro_note": "A broad risk-off session: a renewed U.S.–Iran flare-up spiked WTI crude ~4.7% to $73.74 and lifted the VIX ~5% to 16.98, while the semiconductor selloff extended (Nvidia/Micron/AMD lower). Hawkish June FOMC minutes — the first under Chair Warsh — pushed the 10Y to ~4.57% and kept July rate-cut odds low. Advisory-levered stocks fell hardest (EVR -4.6%, JEF -3.2%, LAZ -2.8%). (Levels are intraday ~9:57 a.m. ET Jul 8, not official closes; 2Y Treasury omitted — no verified live level.)"
+  }
+}
