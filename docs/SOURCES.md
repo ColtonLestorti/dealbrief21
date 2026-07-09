@@ -8,8 +8,17 @@ The research inputs for each edition — what to sweep, how to fetch it, and how
 ## Sourcing rules (non-negotiable)
 
 - **Every published item needs a real source.** No invented deals, no fabricated URLs. (See `README.md`.)
+- **`source_url` must be a real article PERMALINK** — the page that shows the story itself. A Google News **search-query** link (`news.google.com/rss/search?q=...`) is NOT a source: it opens a raw XML feed / results page, not the article. Google News RSS is a **discovery** tool only — use it to find that a story exists, then resolve the real publisher permalink before it goes in `source_url`. Run `npm run check-links` before publishing; it fails the build on any search-query or RSS/feed URL in the main brief.
 - **Confidence tags:** `Filed` (SEC filing), `Reported` (confirmed news), `Speculative` (a real article reporting a rumor). Speculative still needs a real source.
-- **When a link doesn't resolve** (e.g. Google News redirect links), cite **publisher + date** in the source line instead of shipping a dead URL.
+- **When a story can only be confirmed via a blocked outlet** (Reuters/Bloomberg/CNBC/WSJ — article bodies don't load, so there's no resolvable permalink): do NOT ship a search-query link in the main brief. Either (a) find the same story on a Tier-1 site that gives a real permalink, or (b) move it to **Skeptic's Corner** with a `publisher, date` citation. Skeptic's Corner is the home for "someone's reporting it but I can't hand you a clickable article" — the main brief's links must all resolve.
+
+### Source tiers (prefer top, for resolvable article links)
+
+| Tier | Sources | Permalinks? | Role |
+|---|---|---|---|
+| 1 — prefer | Investing.com (`/news/...`), PR Newswire, Business Wire, StockTitan, SEC EDGAR, named law-firm mandate pages, LSE RNS | ✅ real article URLs | Main-brief `source_url` |
+| 2 — discovery only | Google News RSS (`/rss/search?q=`) | ⚠️ search/redirect, NOT an article | Find the story → then get the Tier-1 permalink |
+| 3 — cite, don't link | Reuters, Bloomberg, CNBC, WSJ, MarketWatch (bodies blocked) | ❌ | Verify at headline level → `publisher, date` citation, or Skeptic's Corner |
 
 ## Fetchability cheat-sheet (verified 2026-07-07)
 

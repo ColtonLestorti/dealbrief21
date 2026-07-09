@@ -26,7 +26,7 @@
         { "date": "Jul 8", "event": "Chip stocks slide as Trump says U.S.–Iran truce is over" }
       ],
       "source": "TradingView",
-      "source_url": "https://news.google.com/rss/search?q=chip+AI+stocks+selloff+Nvidia",
+      "source_url": "https://www.tradingview.com/news/tradingview:fc3531001094b:0-ixic-nasdaq-unwinds-1-2-as-chips-tumble-again-futures-mixed-on-new-us-iran-attacks/",
       "published": "2026-07-08",
       "tags": ["macro", "energy", "semiconductors", "geopolitics"]
     },
@@ -42,8 +42,8 @@
         { "date": "Jul 8", "event": "June FOMC minutes released (first under Chair Warsh); read hawkish" },
         { "date": "Jul 8", "event": "10Y yield rises to ~4.57%" }
       ],
-      "source": "Reuters (headline-level)",
-      "source_url": "https://news.google.com/rss/search?q=FOMC+minutes+July+2026+Fed",
+      "source": "Investing.com",
+      "source_url": "https://www.investing.com/news/economy-news/some-fed-officials-made-case-for-rate-hike-amid-inflation-concerns-minutes-show-4782181",
       "published": "2026-07-08",
       "confidence": "Reported",
       "tags": ["macro", "rates", "leveraged-finance"]
@@ -61,7 +61,7 @@
         { "date": "Jul 2, 2026", "event": "Genel's £271M offer for Capricorn; PJT & Jefferies advising Genel" }
       ],
       "source": "Simmons & Simmons (mandate notice)",
-      "source_url": "https://news.google.com/rss/search?q=Genel+Capricorn+PJT+Jefferies+offer",
+      "source_url": "https://www.simmons-simmons.com/en/about-us/news/advising-pjt-and-jefferies-on-genel-s-271m-offer-for-capricorn",
       "published": "2026-07-02",
       "confidence": "Reported",
       "tags": ["energy", "cross-border", "uk"]
@@ -79,7 +79,7 @@
         { "date": "Jul 2, 2026", "event": "Jefferies named joint adviser to Genel on Capricorn offer" }
       ],
       "source": "Simmons & Simmons (mandate notice)",
-      "source_url": "https://news.google.com/rss/search?q=Genel+Capricorn+PJT+Jefferies+offer",
+      "source_url": "https://www.simmons-simmons.com/en/about-us/news/advising-pjt-and-jefferies-on-genel-s-271m-offer-for-capricorn",
       "published": "2026-07-02",
       "confidence": "Reported",
       "tags": ["energy", "cross-border", "uk"]
@@ -103,18 +103,18 @@
     {
       "id": "s6",
       "category": "DEALS",
-      "urgency": "LOW",
+      "urgency": "MEDIUM",
       "scope": "bank",
       "bank": "Barclays",
-      "headline": "Barclays named on Harbour Energy share placing",
-      "why_it_matters": "Barclays Bank PLC was named in connection with a Harbour Energy placing reported July 3. The precise role (bookrunner vs. bank) wasn't fully confirmed in accessible sources, so treat as reported-not-verified — but it's another live UK energy capital-markets touchpoint for Barclays' coverage team.",
-      "suggested_action": "Light-touch check-in with Barclays' energy/ECM coverage on the Harbour placing — confirm the role directly before leaning on it in a pitch.",
+      "headline": "Barclays is sole global coordinator and bookrunner on EIG's ~$54.8M Harbour Energy stake sale",
+      "why_it_matters": "Barclays Bank PLC is acting as sole global coordinator and sole bookrunner on a share placing through which EIG (via Potomac View) is selling its entire ~3.5% stake (~54.8M shares) in Harbour Energy, announced July 2. A live, sole-mandate ECM execution — a clean, current touchpoint for Barclays' energy/ECM coverage.",
+      "suggested_action": "Reach out to Barclays' ECM/energy coverage on the Harbour placing — a sole-bookrunner block trade is exactly the kind of fast-turnaround execution where clean diligence access matters.",
       "deal_clock": [
-        { "date": "Jul 3, 2026", "event": "Barclays named on Harbour Energy placing (role unconfirmed)" }
+        { "date": "Jul 2, 2026", "event": "EIG to sell entire Harbour Energy stake via placing; Barclays sole bookrunner" }
       ],
-      "source": "TradingView (headline-level)",
-      "source_url": "https://news.google.com/rss/search?q=%22bookrunner%22+OR+IPO+priced+Goldman",
-      "published": "2026-07-03",
+      "source": "Investing.com",
+      "source_url": "https://uk.investing.com/news/stock-market-news/eig-to-sell-entire-stake-in-harbour-energy-via-share-placing-93CH-4755295",
+      "published": "2026-07-02",
       "confidence": "Reported",
       "tags": ["energy", "ecm", "uk"]
     }
@@ -135,7 +135,7 @@
         "subject": "Genel / Capricorn — supporting a cross-border energy process",
         "body": "Congratulations on PJT's role advising Genel Energy on its offer for Capricorn. Cross-border energy deals tend to spin up multi-jurisdiction diligence quickly — would welcome a conversation on how we support clean, auditable access as the process moves forward.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies",
         "source": "Simmons & Simmons (mandate notice)",
-        "source_url": "https://news.google.com/rss/search?q=Genel+Capricorn+PJT+Jefferies+offer",
+        "source_url": "https://www.simmons-simmons.com/en/about-us/news/advising-pjt-and-jefferies-on-genel-s-271m-offer-for-capricorn",
         "published": "2026-07-02",
         "confidence": "Reported"
       }
@@ -155,7 +155,7 @@
         "subject": "Jefferies / Genel — Capricorn offer support",
         "body": "Noted Jefferies' role advising Genel Energy on its offer for Capricorn. As the cross-border process advances, would welcome a conversation on diligence infrastructure support.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies",
         "source": "Simmons & Simmons (mandate notice)",
-        "source_url": "https://news.google.com/rss/search?q=Genel+Capricorn+PJT+Jefferies+offer",
+        "source_url": "https://www.simmons-simmons.com/en/about-us/news/advising-pjt-and-jefferies-on-genel-s-271m-offer-for-capricorn",
         "published": "2026-07-02",
         "confidence": "Reported"
       }
@@ -178,10 +178,7 @@
   },
   "skeptics_corner": {
     "note": "Unverified leads — sourced from subscription tools (PitchBook / Mergermarket) or single-source reports that we could NOT confirm against a public source. Shown transparently so reps can chase them, not quote them. Verify before using on a call.",
-    "items": [
-      { "company": "Harbour Energy", "lead": "Barclays reported as named on a Harbour Energy share placing, but the specific role (bookrunner vs. bank) could not be confirmed in an accessible source", "bank": "Barclays", "sector": "Energy / ECM", "source_note": "TradingView (headline-level), Jul 3 2026", "why_unverified": "Role not confirmed on a primary source (e.g. an RNS)" },
-      { "company": "Vertex / Crinetics (~$9–10B)", "lead": "Deal is confirmed, but no financial-adviser bank could be verified — Morgan Stanley appears only as a research analyst, not an adviser. A covered-bank adviser here would be a strong lead if confirmed", "bank": "unconfirmed", "sector": "Healthcare / biopharma", "source_note": "Law360 / marketscreener, Jul 5–8 2026", "why_unverified": "Financial adviser not named in any accessible source" }
-    ]
+    "items": []
   },
   "sector_heat": {
     "note": "Which sectors are driving M&A right now — lead outreach with bankers in the hottest verticals. Carried from H1 2026 league-table and mid-year outlook coverage; energy is in focus today on the oil-price spike.",

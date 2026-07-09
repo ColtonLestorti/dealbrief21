@@ -3,6 +3,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "node --test"
+    "test": "node --test",
+    "check-links": "node scripts/check-links.js",
+    "prepublish-check": "node scripts/check-links.js && node --test"
   }
 }
