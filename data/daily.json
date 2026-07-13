@@ -1,55 +1,43 @@
 {
-  "date": "2026-07-09",
-  "edition": 7,
-  "lens": "Risk-on snapback: yesterday's Iran-driven selloff reversed as a record memory-chip rally lifted the Nasdaq 100 ~1% and crude gave back ~1.2%. Advisory-levered stocks led the rebound — Evercore +4.7%, Lazard +4.3%, Jefferies +4.2%, Goldman +3.0% — and the deal tape stayed busy: RBC and JPMorgan are bookrunning MDA Space's US$819M raise for its CLS buy, while Jefferies and Morgan Stanley defend Genco against a hostile tender.",
+  "date": "2026-07-13",
+  "edition": 8,
+  "lens": "Risk-off Monday: the Nasdaq 100 fell ~1.2% and advisory names slid (MS -1.2%, GS -0.9%) into a heavy bank-earnings week (GS/JPM Jul 14, MS Jul 15). But the deal tape is dense with fresh, filing-confirmed mandates — First Hawaiian's all-stock buy of TriCo (Evercore, KBW/Stifel), MTN's $8.50/sh take-private of IHS (JPMorgan), and SoundHound/LivePerson (Lazard, Houlihan Lokey) all advanced in SEC filings today.",
   "ticker": [
     {
       "label": "S&P 500",
-      "value": "7,503.08",
-      "change": "+0.27%",
-      "positive": true
+      "value": "7,546.95",
+      "change": "-0.38%",
+      "positive": false
     },
     {
-      "label": "NASDAQ 100",
-      "value": "29,560.52",
-      "change": "+1.05%",
-      "positive": true
+      "label": "Nasdaq",
+      "value": "25,958.04",
+      "change": "-1.23%",
+      "positive": false
     },
     {
-      "label": "DOW",
-      "value": "52,448.19",
-      "change": "+0.19%",
-      "positive": true
-    },
-    {
-      "label": "RUSSELL 2000",
-      "value": "2,984.92",
-      "change": "+0.97%",
-      "positive": true
-    },
-    {
-      "label": "10Y",
-      "value": "4.561%",
-      "change": "-0.8bps",
-      "positive": true
-    },
-    {
-      "label": "VIX",
-      "value": "16.72",
-      "change": "-1.07%",
-      "positive": true
-    },
-    {
-      "label": "WTI CRUDE",
-      "value": "$72.64",
-      "change": "-1.20%",
+      "label": "Dow",
+      "value": "52,482.02",
+      "change": "-0.29%",
       "positive": false
     },
     {
       "label": "GS",
-      "value": "$1,059.98",
-      "change": "+2.95%",
-      "positive": true
+      "value": "$1,046.14",
+      "change": "-0.86%",
+      "positive": false
+    },
+    {
+      "label": "MS",
+      "value": "$219.53",
+      "change": "-1.24%",
+      "positive": false
+    },
+    {
+      "label": "JPM",
+      "value": "$333.72",
+      "change": "-0.82%",
+      "positive": false
     }
   ],
   "stories": [
@@ -58,186 +46,165 @@
       "category": "MACRO",
       "urgency": "MEDIUM",
       "scope": "market",
-      "headline": "Risk-on snapback: a record memory-chip rally lifts the Nasdaq 100 ~1% as yesterday's Iran selloff reverses",
-      "why_it_matters": "Wednesday's risk-off broke Thursday. A record in monthly memory sales (~$74.6B) drove a semiconductor rally — Micron, AMD, and Western Digital each up ~7-8% — pushing the Nasdaq 100 up ~1.05% even as mega-cap AI names (Nvidia, Meta, Alphabet ~-2%) lagged. WTI crude gave back ~1.2% to $72.64 as the oil market shrugged off the US-Iran escalation, and the VIX eased ~1% to 16.72. A calmer, risk-on tape is the friendlier backdrop for launching and closing processes.",
-      "suggested_action": "Use the tone reversal as a reason to re-engage clients who paused on Wednesday's volatility — a steadier tape is when stalled processes get relaunched, and that's the moment to lock in room infrastructure.",
-      "deal_clock": [
-        {
-          "date": "Jul 9",
-          "event": "Nasdaq 100 +1.05% on record memory-chip sales; VIX -1.07% to 16.72"
-        },
-        {
-          "date": "Jul 9",
-          "event": "WTI -1.2% to $72.64 as oil shrugs off Iran escalation"
-        }
-      ],
-      "source": "Investing.com / Yahoo Finance",
-      "source_url": "https://www.investing.com/news/stock-market-news",
-      "published": "2026-07-09",
-      "tags": [
-        "macro",
-        "semiconductors",
-        "risk-on"
-      ]
+      "headline": "Risk-off Monday: Nasdaq 100 slides ~1.2% as tech leads a broad pullback ahead of bank earnings",
+      "why_it_matters": "US equities opened the week lower — S&P 500 -0.38% (7,546.95), Nasdaq Composite -1.23% (25,958.04), Dow -0.29% (52,482.02) — with tech leading the drop and financials softer (MS -1.24%, JPM -0.82%, GS -0.86%) heading into the Q2 bank-earnings gauntlet. The advisory tape, not the stock tape, is where the deal signal is today.",
+      "suggested_action": "Frame the week as earnings-driven noise, not a deal slowdown: filing-confirmed mandates kept advancing today. Use the earnings calendar (GS/JPM Jul 14, MS Jul 15) as a reason to check in on pipeline confidence.",
+      "source": "Yahoo Finance",
+      "source_url": "https://finance.yahoo.com/quote/%5EGSPC/",
+      "published": "2026-07-13"
     },
     {
       "id": "s2",
-      "category": "MACRO",
-      "urgency": "LOW",
-      "scope": "market",
-      "headline": "Rates little changed — 10Y eases to ~4.56% the day after hawkish June FOMC minutes",
-      "why_it_matters": "A day after the hawkish June minutes (the first under Chair Warsh), Treasury yields drifted slightly lower, with the 10Y down under a basis point to ~4.561%. The move is small — financing conditions remain the central constraint on leveraged deal math, and there's no signal here that a near-term cut is back on the table. The overhang from Wednesday's hawkish read stays largely intact.",
-      "suggested_action": "No change to the leveraged-finance message: processes penciling on a near-term cut should still be stress-tested at current rates. Use the steadier tape, not lower rates, as the reason to re-engage.",
+      "category": "M&A",
+      "urgency": "HIGH",
+      "scope": "bank",
+      "bank": "Evercore",
+      "headline": "Evercore advises First Hawaiian on its all-stock acquisition of TriCo Bancshares ($63.12/sh)",
+      "why_it_matters": "First Hawaiian (FHB) announced today it will acquire TriCo Bancshares (NASDAQ: TCBK) in an all-stock deal — 2.095 FHB shares per TriCo share, ~$63.12/sh as of FHB's Jul 10 close — creating a leading Pacific banking franchise. Evercore is financial adviser to First Hawaiian; Keefe, Bruyette & Woods (a Stifel company) advises TriCo. A same-day, all-stock bank merger is a full diligence/integration workflow on both sides.",
+      "suggested_action": "Reach out to Evercore's FIG coverage on the First Hawaiian/TriCo mandate — a freshly announced all-stock bank deal spins up two-sided diligence immediately.",
       "deal_clock": [
         {
-          "date": "Jul 9",
-          "event": "10Y yield eases to ~4.561% (-0.8bps)"
+          "date": "Jul 13, 2026",
+          "event": "First Hawaiian announces all-stock acquisition of TriCo Bancshares"
         }
       ],
-      "source": "Yahoo Finance (^TNX)",
-      "source_url": "https://finance.yahoo.com/quote/%5ETNX/",
-      "published": "2026-07-09",
-      "confidence": "Reported",
+      "source": "SEC EDGAR — First Hawaiian/TriCo 8-K (EX-99.1)",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/356171/000110465926082856/tm2620283d1_ex99-1.htm",
+      "published": "2026-07-13",
+      "confidence": "Filed",
       "tags": [
-        "macro",
-        "rates",
-        "leveraged-finance"
+        "fig",
+        "bank-m&a",
+        "all-stock"
       ]
     },
     {
       "id": "s3",
-      "category": "BANKING",
+      "category": "M&A",
       "urgency": "MEDIUM",
-      "scope": "market",
-      "headline": "Advisory-levered stocks lead the rebound — Evercore +4.7%, Lazard +4.3%, Jefferies +4.2%",
-      "why_it_matters": "The same pure-play advisory names that fell hardest Wednesday led Thursday's rebound: Evercore +4.69%, Lazard +4.34%, and Jefferies +4.17%, versus GS +2.95%, MS +2.50%, and JPM +1.23%. Rate- and sentiment-sensitive M&A franchises are trading on the deal-fee outlook, and the sharp two-way moves this week underscore how tightly the market is watching advisory momentum heading into July 14-15 bank earnings.",
-      "suggested_action": "Context for coverage calls: advisory-franchise stocks are moving on deal-flow expectations, so bankers are focused on execution and win-rate right now — a natural opening for a speed-to-launch, template-based room pitch ahead of earnings.",
+      "scope": "bank",
+      "bank": "Stifel",
+      "headline": "KBW (a Stifel company) advises TriCo Bancshares on its sale to First Hawaiian",
+      "why_it_matters": "On the sell-side of the First Hawaiian/TriCo all-stock merger announced today, Keefe, Bruyette & Woods — A Stifel Company acts as financial adviser to TriCo. KBW/Stifel's FIG franchise is on the target side of a live public bank merger.",
+      "suggested_action": "Engage Stifel/KBW's FIG team on the TriCo sell-side mandate — target-side diligence and shareholder-vote workflows start now.",
       "deal_clock": [
         {
-          "date": "Jul 9",
-          "event": "EVR +4.69%, LAZ +4.34%, JEF +4.17%; GS +2.95%, MS +2.50% intraday"
-        },
-        {
-          "date": "Jul 14-15",
-          "event": "GS/JPM (Jul 14) and MS (Jul 15) Q2 earnings"
+          "date": "Jul 13, 2026",
+          "event": "TriCo agrees to all-stock sale to First Hawaiian; KBW/Stifel advises TriCo"
         }
       ],
-      "source": "Yahoo Finance",
-      "source_url": "https://finance.yahoo.com/quote/EVR/",
-      "published": "2026-07-09",
+      "source": "SEC EDGAR — First Hawaiian/TriCo 8-K (EX-99.1)",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/356171/000110465926082856/tm2620283d1_ex99-1.htm",
+      "published": "2026-07-13",
+      "confidence": "Filed",
       "tags": [
-        "banking",
-        "advisory",
-        "earnings"
+        "fig",
+        "sell-side"
       ]
     },
     {
       "id": "s4",
-      "category": "DEALS",
+      "category": "M&A",
       "urgency": "HIGH",
       "scope": "bank",
-      "bank": "RBC Capital Markets",
-      "headline": "RBC and BMO lead MDA Space's upsized US$819M bought deal to fund its ~€567M CLS acquisition",
-      "why_it_matters": "MDA Space upsized its bought deal to US$819M (23M shares at US$35.60), with RBC Capital Markets and BMO as joint lead bookrunners and JPMorgan, BofA Securities, and Scotiabank as joint active bookrunners. Proceeds fund MDA's ~€567M / US$648M purchase of ~70% of France's CLS from CNES. A live, multi-bank ECM execution funding a cross-border acquisition — exactly the fast-turnaround, syndicate-wide diligence workflow where clean access control matters.",
-      "suggested_action": "Reach out to RBC's ECM/space-and-defense coverage on the MDA raise — a syndicated bought deal funding a cross-border acquisition is a strong, current reason to talk diligence infrastructure across the bookrunner group.",
+      "bank": "JPMorgan",
+      "headline": "JPMorgan advises IHS Holding board on MTN Group's $8.50/share cash take-private",
+      "why_it_matters": "IHS Holding (NYSE: IHS) filed tender/merger materials for its acquisition by MTN Group at $8.50 in cash per ordinary share, funded partly by a $1.0B senior unsecured term loan. J.P. Morgan Securities is the board's financial adviser (Latham & Watkins, legal). A cross-border cash take-private of a listed towers company is a heavy, document-intensive process.",
+      "suggested_action": "Talk to JPMorgan's TMT/telecom-infrastructure coverage on IHS — a cross-border cash take-private with debt financing is a strong diligence/data-room use case.",
       "deal_clock": [
         {
-          "date": "Jul 8, 2026",
-          "event": "MDA announces ~€567M CLS acquisition from CNES"
+          "date": "Feb 17, 2026",
+          "event": "IHS enters merger agreement with MTN Group"
         },
         {
-          "date": "Jul 9, 2026",
-          "event": "Bought deal upsized to US$819M; RBC & BMO joint lead bookrunners"
+          "date": "Jul 10, 2026",
+          "event": "Tender/merger materials filed; $8.50/sh cash"
         }
       ],
-      "source": "FinanzNachrichten (company release)",
-      "source_url": "https://www.finanznachrichten.de/nachrichten-2026-07/68986985-mda-space-ltd-mda-space-increases-previously-announced-bought-deal-offering-of-common-shares-399.htm",
-      "published": "2026-07-09",
-      "confidence": "Reported",
+      "source": "SEC EDGAR — IHS Holding tender materials (EX-99.(A)(1))",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876183/000110465926082643/tm2611054d6_ex99-a1.htm",
+      "published": "2026-07-10",
+      "confidence": "Filed",
       "tags": [
-        "ecm",
-        "space",
-        "cross-border",
-        "canada"
+        "tmt",
+        "take-private",
+        "cross-border"
       ]
     },
     {
       "id": "s5",
-      "category": "DEALS",
+      "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "JPMorgan",
-      "headline": "JPMorgan is a joint active bookrunner on MDA Space's US$819M offering",
-      "why_it_matters": "JPMorgan is a joint active bookrunner alongside BofA Securities and Scotiabank on MDA Space's upsized US$819M raise (July 9), which funds MDA's ~€567M acquisition of ~70% of CLS. A live ECM syndicate role tied to a cross-border space/data deal — a concrete, current touchpoint for JPMorgan's TMT/space coverage even as its bulge-bracket mandates rarely surface in daily press.",
-      "suggested_action": "Connect with JPMorgan's ECM/space coverage on the MDA syndicate — a live bookrun funding a cross-border acquisition is a clean hook for a diligence-access conversation.",
+      "bank": "Morgan Stanley",
+      "headline": "Morgan Stanley advises Real on its acquisition of RE/MAX to form Real REMAX Group",
+      "why_it_matters": "RE/MAX Holdings (NYSE: RMAX) filed its definitive merger proxy for the combination with The Real Brokerage to create Real REMAX Group — RE/MAX holders can elect 5.150 New Wildlife shares or $13.80 cash (subject to $60-80M aggregate cash proration). Morgan Stanley advises Real (acquirer); J.P. Morgan advises RE/MAX. A cross-border, elect-cash-or-stock merger with two proxies is a complex diligence workflow.",
+      "suggested_action": "Reach out to Morgan Stanley's coverage on the Real/RE/MAX combination — a definitive proxy just posted, and integration diligence is live.",
       "deal_clock": [
         {
+          "date": "Apr 26, 2026",
+          "event": "Real and RE/MAX sign merger agreement"
+        },
+        {
           "date": "Jul 9, 2026",
-          "event": "JPMorgan named joint active bookrunner on MDA's US$819M deal"
+          "event": "RE/MAX definitive merger proxy (DEFM14A) filed"
         }
       ],
-      "source": "FinanzNachrichten (company release)",
-      "source_url": "https://www.finanznachrichten.de/nachrichten-2026-07/68986985-mda-space-ltd-mda-space-increases-previously-announced-bought-deal-offering-of-common-shares-399.htm",
+      "source": "SEC EDGAR — RE/MAX DEFM14A",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1581091/000110465926082291/tm2620002-1_defm14a.htm",
       "published": "2026-07-09",
-      "confidence": "Reported",
+      "confidence": "Filed",
       "tags": [
-        "ecm",
-        "space",
+        "real-estate",
         "cross-border"
       ]
     },
     {
       "id": "s6",
-      "category": "DEALS",
+      "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Bank of America",
-      "headline": "BofA Securities joins the MDA Space US$819M bookrunner group",
-      "why_it_matters": "BofA Securities is a joint active bookrunner on MDA Space's upsized US$819M offering (July 9), which finances the ~€567M CLS acquisition. High simultaneous deal flow is BofA's profile, and a live cross-border ECM syndicate role is a rare, dated, public touchpoint to anchor an operational-efficiency conversation.",
-      "suggested_action": "Pitch syndicate-wide access efficiency to BofA's ECM coverage on the MDA raise — at their volume of concurrent mandates, repeatable room setup is a direct cost lever.",
+      "bank": "JPMorgan",
+      "headline": "JPMorgan advises RE/MAX on its sale to Real (definitive proxy filed)",
+      "why_it_matters": "On the sell-side of the Real/RE/MAX combination, J.P. Morgan Securities is financial adviser to RE/MAX. With the DEFM14A now filed, the shareholder-vote and diligence phase is active on the target side.",
+      "suggested_action": "Engage JPMorgan on the RE/MAX sell-side — target-side proxy and diligence workflows are underway.",
       "deal_clock": [
         {
           "date": "Jul 9, 2026",
-          "event": "BofA Securities named joint active bookrunner on MDA's US$819M deal"
+          "event": "RE/MAX DEFM14A filed; JPMorgan advises RE/MAX"
         }
       ],
-      "source": "FinanzNachrichten (company release)",
-      "source_url": "https://www.finanznachrichten.de/nachrichten-2026-07/68986985-mda-space-ltd-mda-space-increases-previously-announced-bought-deal-offering-of-common-shares-399.htm",
+      "source": "SEC EDGAR — RE/MAX DEFM14A",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1581091/000110465926082291/tm2620002-1_defm14a.htm",
       "published": "2026-07-09",
-      "confidence": "Reported",
+      "confidence": "Filed",
       "tags": [
-        "ecm",
-        "space",
-        "cross-border"
+        "real-estate",
+        "sell-side"
       ]
     },
     {
       "id": "s7",
       "category": "M&A",
-      "urgency": "HIGH",
+      "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Jefferies",
-      "headline": "Jefferies advises Genco as its board rejects Diana Shipping's $24.80/share hostile tender",
-      "why_it_matters": "Genco Shipping & Trading's board unanimously rejected Diana Shipping's $24.80/share cash tender offer, with Jefferies acting as financial adviser and Morgan Stanley as special adviser to the board (statement July 8; tender deadline July 10). A live hostile-tender defense is a high-intensity, document-heavy process — the kind of contested M&A situation where a controlled, auditable data room is central to the defense.",
-      "suggested_action": "Reach out to Jefferies' shipping/defense-advisory team on the Genco situation — a live hostile tender on a tight clock is an immediate, concrete reason to talk secure diligence and board-materials management.",
+      "bank": "Bank of America",
+      "headline": "BofA Securities advises Element Solutions on its merger; Goldman advises the acquirer",
+      "why_it_matters": "Element Solutions (NYSE: ESI) filed its merger agreement (EX-2.1): holders receive 0.500 acquirer shares plus $10.00 cash per share. BofA Securities is financial adviser to Element Solutions (target); Goldman Sachs advises the parent/acquirer. A cash-and-stock specialty-chemicals merger with fairness opinions on both sides.",
+      "suggested_action": "Reach out to BofA's chemicals/industrials coverage on Element Solutions — a signed cash-and-stock merger means diligence is live on the target side.",
       "deal_clock": [
         {
-          "date": "Jul 8, 2026",
-          "event": "Genco board unanimously rejects Diana's $24.80/share tender; Jefferies advising"
-        },
-        {
-          "date": "Jul 10, 2026",
-          "event": "Diana's tender offer deadline"
+          "date": "Jul 9, 2026",
+          "event": "Element Solutions merger agreement filed (EX-2.1)"
         }
       ],
-      "source": "Yahoo Finance / GlobeNewswire (Genco release)",
-      "source_url": "https://finance.yahoo.com/markets/stocks/articles/genco-shipping-trading-limited-comments-151300287.html",
-      "published": "2026-07-08",
-      "confidence": "Reported",
+      "source": "SEC EDGAR — Element Solutions EX-2.1",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1590714/000121390026076549/ea029740401ex2-1.htm",
+      "published": "2026-07-09",
+      "confidence": "Filed",
       "tags": [
-        "shipping",
-        "hostile-tender",
-        "defense"
+        "chemicals",
+        "cash-and-stock"
       ]
     },
     {
@@ -245,28 +212,23 @@
       "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Morgan Stanley",
-      "headline": "Morgan Stanley is special adviser to Genco's board on the Diana Shipping tender defense",
-      "why_it_matters": "Morgan Stanley is special adviser to Genco Shipping & Trading's board alongside Jefferies as its unanimously rejects Diana Shipping's hostile $24.80/share tender (July 8; deadline July 10). A live, contested tender defense is one of the most access-sensitive M&A processes — a fresh, deal-specific reason to engage MS's coverage team.",
-      "suggested_action": "Connect with Morgan Stanley on the Genco defense — contested tenders concentrate the most sensitive board and diligence materials, exactly where permissioned access is most defensible.",
+      "bank": "Goldman Sachs",
+      "headline": "Goldman Sachs advises the acquirer of Element Solutions (cash-and-stock deal)",
+      "why_it_matters": "In the Element Solutions merger filed Jul 9, Goldman Sachs & Co. is financial adviser to the parent/acquirer, which delivered a fairness opinion on the 0.500-share + $10.00-cash consideration. Buy-side advisory on a specialty-chemicals combination.",
+      "suggested_action": "Talk to Goldman's chemicals/industrials team on the Element Solutions buy-side — acquirer diligence and financing workflows are active.",
       "deal_clock": [
         {
-          "date": "Jul 8, 2026",
-          "event": "Morgan Stanley named special adviser to Genco's board"
-        },
-        {
-          "date": "Jul 10, 2026",
-          "event": "Diana's tender offer deadline"
+          "date": "Jul 9, 2026",
+          "event": "Element Solutions merger agreement filed; Goldman advises acquirer"
         }
       ],
-      "source": "Yahoo Finance / GlobeNewswire (Genco release)",
-      "source_url": "https://finance.yahoo.com/markets/stocks/articles/genco-shipping-trading-limited-comments-151300287.html",
-      "published": "2026-07-08",
-      "confidence": "Reported",
+      "source": "SEC EDGAR — Element Solutions EX-2.1",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1590714/000121390026076549/ea029740401ex2-1.htm",
+      "published": "2026-07-09",
+      "confidence": "Filed",
       "tags": [
-        "shipping",
-        "hostile-tender",
-        "defense"
+        "chemicals",
+        "buy-side"
       ]
     },
     {
@@ -274,28 +236,28 @@
       "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Guggenheim Securities",
-      "headline": "Guggenheim advises Destination XL as its board rejects Zodiac Partners II's revised $0.84/share tender",
-      "why_it_matters": "Destination XL Group's board reiterated its unanimous recommendation that stockholders reject Zodiac Partners II's revised, unsolicited $0.84/share cash tender as undervalued, with Guggenheim Securities as financial adviser (reiterated July 9; offer expires July 24). A live retail take-under defense is a document- and timeline-driven process — a current, deal-specific reason to engage an under-covered elite boutique.",
-      "suggested_action": "Reach out to Guggenheim on the Destination XL defense — an active, contested tender with a July 24 clock is a concrete hook for a secure-diligence and board-materials conversation.",
+      "bank": "Lazard",
+      "headline": "Lazard and Houlihan Lokey advise LivePerson on its all-stock merger with SoundHound",
+      "why_it_matters": "LivePerson (NASDAQ: LPSN) filed its definitive merger proxy for an all-stock combination with SoundHound AI — LivePerson holders receive SoundHound Class A shares. Lazard and Houlihan Lokey advised LivePerson on the deal. An AI-sector all-stock merger with a cross-listed (TASE) shareholder wrinkle.",
+      "suggested_action": "Engage Lazard's tech/AI coverage on LivePerson/SoundHound — a definitive proxy is filed and the vote/diligence phase is live.",
       "deal_clock": [
         {
-          "date": "Jul 9, 2026",
-          "event": "DXL board reiterates rejection of Zodiac's revised $0.84/share tender; Guggenheim advising"
+          "date": "Jul 2, 2026",
+          "event": "LivePerson/SoundHound merger agreement filed"
         },
         {
-          "date": "Jul 24, 2026",
-          "event": "Zodiac's revised tender offer expires"
+          "date": "Jul 9, 2026",
+          "event": "LivePerson DEFM14A filed"
         }
       ],
-      "source": "Manila Times / GlobeNewswire (DXL release)",
-      "source_url": "https://www.manilatimes.net/2026/07/09/tmt-newswire/globenewswire/destination-xl-group-inc-recommends-dxl-stockholders-reject-zodiac-partners-iis-revised-unsolicited-tender-offer-and-not-tender-their-shares/2381212",
+      "source": "SEC EDGAR — LivePerson DEFM14A",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1102993/000121390026076759/ea0297465-01.htm",
       "published": "2026-07-09",
-      "confidence": "Reported",
+      "confidence": "Filed",
       "tags": [
-        "retail",
-        "hostile-tender",
-        "defense"
+        "tech",
+        "ai",
+        "all-stock"
       ]
     },
     {
@@ -303,24 +265,24 @@
       "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "PJT Partners",
-      "headline": "PJT Partners retained to run the sale of a former Tether CIO's stake in the stablecoin giant",
-      "why_it_matters": "PJT Partners has been retained to run the sale of a portion of former Tether CIO Richard Heathcote's ~1.26% stake in Tether Holdings, per Bloomberg reporting (July 6). A private secondary in a company valued in the hundreds of billions means a tightly controlled, confidential diligence process for a small buyer universe — a natural private-markets data room use case for a covered boutique.",
-      "suggested_action": "Engage PJT's private-capital/secondaries coverage on the Tether stake process — a confidential, high-value secondary is exactly where controlled access and audit trails are the pitch.",
+      "bank": "Morgan Stanley",
+      "headline": "Morgan Stanley advises Simulations Plus on its $18.50/share cash sale",
+      "why_it_matters": "Simulations Plus (NASDAQ: SLP) filed its preliminary merger proxy (PREM14A): holders receive $18.50 in cash per share. Morgan Stanley is the company's financial adviser and provided the fairness opinion after a process that drew inbound interest from multiple sponsors and strategics. A take-private of a life-sciences software name.",
+      "suggested_action": "Reach out to Morgan Stanley on Simulations Plus — an all-cash take-private with an active sponsor field is a clean data-room use case.",
       "deal_clock": [
         {
-          "date": "Jul 6, 2026",
-          "event": "Bloomberg reports PJT retained to sell part of a former Tether CIO's stake"
+          "date": "Jul 9, 2026",
+          "event": "Simulations Plus PREM14A filed; $18.50/sh cash"
         }
       ],
-      "source": "Bloomberg",
-      "source_url": "https://www.bloomberg.com/news/articles/2026-07-06/tether-s-former-cio-plans-sale-of-stake-in-stablecoin-giant",
-      "published": "2026-07-06",
-      "confidence": "Reported",
+      "source": "SEC EDGAR — Simulations Plus PREM14A",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1023459/000102345926000036/prem14a.htm",
+      "published": "2026-07-09",
+      "confidence": "Filed",
       "tags": [
-        "crypto",
-        "secondary",
-        "private-markets"
+        "healthcare",
+        "software",
+        "take-private"
       ]
     },
     {
@@ -328,30 +290,107 @@
       "category": "RESTRUCTURING",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Moelis",
-      "headline": "Moelis retained to review Ticketek-owner TEG's ~$1B debt and raise fresh capital",
-      "why_it_matters": "Silver Lake-owned TEG (owner of Ticketek) has retained Moelis to review its ~$1B debt structure and raise 'hundreds of millions' in fresh capital, per the Australian Financial Review (~July 8). A live capital-structure/restructuring mandate involves multiple creditor and investor classes with differentiated access — a core Intralinks restructuring use case for a covered boutique.",
-      "suggested_action": "Connect with Moelis' restructuring/capital-advisory team on the TEG situation — multi-creditor capital raises need granular, litigation-grade access controls across classes.",
+      "bank": "RBC Capital Markets",
+      "headline": "RBC advises Origin Materials as its board pursues strategic alternatives / wind-down",
+      "why_it_matters": "Origin Materials (NASDAQ: ORGN) filed special-meeting materials disclosing it engaged Royal Bank of Canada (RBC) as strategic and financial adviser to canvass the market for transactions and evaluate strategic alternatives, alongside a possible liquidation distribution of $0.61-$3.54/share. A live strategic-alternatives mandate.",
+      "suggested_action": "Talk to RBC on Origin Materials — a strategic-alternatives/wind-down process is exactly where controlled diligence access matters.",
       "deal_clock": [
         {
-          "date": "Jul 8, 2026",
-          "event": "AFR reports Moelis retained to review TEG's ~$1B debt and raise fresh capital"
+          "date": "Jul 10, 2026",
+          "event": "Origin Materials special-meeting materials filed; RBC as strategic adviser"
         }
       ],
-      "source": "Australian Financial Review",
-      "source_url": "https://www.afr.com/companies/media-and-marketing/ticketek-owner-in-talks-to-raise-hundreds-of-millions-in-fresh-capital-20260708-p60dl1",
-      "published": "2026-07-08",
-      "confidence": "Reported",
+      "source": "SEC EDGAR — Origin Materials PREM14A",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1802457/000180245726000036/originmaterials-specialmee.htm",
+      "published": "2026-07-10",
+      "confidence": "Filed",
       "tags": [
-        "restructuring",
-        "capital-advisory",
-        "australia"
+        "strategic-alternatives",
+        "restructuring"
       ]
     }
   ],
   "opportunities": [
     {
       "id": "o1",
+      "bank": "Evercore",
+      "sector": "FIG / Bank M&A",
+      "urgency": "HOT",
+      "headline": "Adviser to First Hawaiian on its all-stock acquisition of TriCo Bancshares",
+      "why_it_matters": "Announced today: Evercore advises First Hawaiian on an all-stock buy of TriCo Bancshares (~$63.12/sh). A freshly signed public bank merger triggers two-sided diligence and integration planning immediately.",
+      "deal_clock": [
+        {
+          "date": "Jul 13, 2026",
+          "event": "First Hawaiian/TriCo all-stock deal announced"
+        }
+      ],
+      "outreach_idea": "Open on the First Hawaiian/TriCo announcement — a same-day bank merger is a concrete reason to engage Evercore's FIG team on diligence infrastructure.",
+      "outreach_draft": {
+        "subject": "First Hawaiian / TriCo — supporting a live bank merger",
+        "body": "Congratulations on Evercore's role advising First Hawaiian on the TriCo Bancshares combination announced today. All-stock bank mergers spin up two-sided diligence and integration workstreams quickly — would welcome a conversation on how we support clean, auditable data-room access as the process moves toward the shareholder vote.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "SEC EDGAR — First Hawaiian/TriCo 8-K (EX-99.1)",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/356171/000110465926082856/tm2620283d1_ex99-1.htm",
+      "published": "2026-07-13",
+      "confidence": "Filed",
+      "first_seen": "2026-07-13",
+      "last_confirmed": "2026-07-13",
+      "carry_badge": "NEW"
+    },
+    {
+      "id": "o2",
+      "bank": "JPMorgan",
+      "sector": "TMT / Take-private",
+      "urgency": "HOT",
+      "headline": "Adviser to IHS Holding board on MTN's $8.50/share cash take-private",
+      "why_it_matters": "JPMorgan advises the IHS Holding board on MTN Group's $8.50/sh cash take-private, funded partly by a $1.0B term loan. Tender/merger materials filed Jul 10 — a document-heavy, cross-border process in motion.",
+      "deal_clock": [
+        {
+          "date": "Jul 10, 2026",
+          "event": "IHS tender/merger materials filed; $8.50/sh cash"
+        }
+      ],
+      "outreach_idea": "Engage JPMorgan's telecom-infrastructure coverage on IHS — a cross-border cash take-private with financing is a strong diligence use case.",
+      "outreach_draft": {
+        "subject": "IHS Holding — supporting a cross-border take-private",
+        "body": "Congratulations on JPMorgan's role advising the IHS Holding board on the MTN take-private. Cross-border cash take-privates with debt financing tend to run heavy, multi-party diligence — would welcome a conversation on how we support secure, auditable access through to close.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "SEC EDGAR — IHS Holding tender materials (EX-99.(A)(1))",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876183/000110465926082643/tm2611054d6_ex99-a1.htm",
+      "published": "2026-07-10",
+      "confidence": "Filed",
+      "first_seen": "2026-07-13",
+      "last_confirmed": "2026-07-13",
+      "carry_badge": "NEW"
+    },
+    {
+      "id": "o3",
+      "bank": "Morgan Stanley",
+      "sector": "Real Estate / Cross-border",
+      "urgency": "HOT",
+      "headline": "Adviser to Real on its acquisition of RE/MAX (definitive proxy filed)",
+      "why_it_matters": "Morgan Stanley advises Real on the RE/MAX combination to form Real REMAX Group, with an elect-cash-or-stock structure and $60-80M cash proration. DEFM14A filed Jul 9 — integration diligence is live.",
+      "deal_clock": [
+        {
+          "date": "Jul 9, 2026",
+          "event": "RE/MAX definitive merger proxy filed"
+        }
+      ],
+      "outreach_idea": "Open on the Real/RE/MAX combination — a cross-border merger with a fresh definitive proxy is a concrete reason to talk diligence access.",
+      "outreach_draft": {
+        "subject": "Real / RE/MAX — supporting a cross-border combination",
+        "body": "Congratulations on Morgan Stanley's role advising Real on the RE/MAX combination. With the definitive proxy now filed, integration and diligence workstreams are active — would welcome a conversation on how we support clean, auditable data-room access across the deal.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "SEC EDGAR — RE/MAX DEFM14A",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1581091/000110465926082291/tm2620002-1_defm14a.htm",
+      "published": "2026-07-09",
+      "confidence": "Filed",
+      "first_seen": "2026-07-13",
+      "last_confirmed": "2026-07-13",
+      "carry_badge": "NEW"
+    },
+    {
+      "id": "o4",
       "bank": "RBC Capital Markets",
       "sector": "Space / ECM / Cross-border",
       "urgency": "HOT",
@@ -378,10 +417,10 @@
       "confidence": "Reported",
       "first_seen": "2026-07-09",
       "last_confirmed": "2026-07-09",
-      "carry_badge": "NEW"
+      "carry_badge": "Day 3"
     },
     {
-      "id": "o2",
+      "id": "o5",
       "bank": "Jefferies",
       "sector": "Shipping / Contested M&A",
       "urgency": "HOT",
@@ -412,10 +451,10 @@
       "confidence": "Reported",
       "first_seen": "2026-07-09",
       "last_confirmed": "2026-07-09",
-      "carry_badge": "NEW"
+      "carry_badge": "Day 3"
     },
     {
-      "id": "o3",
+      "id": "o6",
       "bank": "Guggenheim Securities",
       "sector": "Retail / Contested M&A",
       "urgency": "HOT",
@@ -446,343 +485,175 @@
       "confidence": "Reported",
       "first_seen": "2026-07-09",
       "last_confirmed": "2026-07-09",
-      "carry_badge": "NEW"
-    },
-    {
-      "id": "o4",
-      "bank": "PJT Partners",
-      "sector": "Energy / Cross-border",
-      "urgency": "HOT",
-      "headline": "Advising Genel Energy on its £271M offer for Capricorn Energy",
-      "why_it_matters": "A live, cross-border UK energy M&A mandate (announced July 2), with PJT advising Genel alongside Jefferies. Cross-border oil & gas deals bring multi-jurisdiction diligence — a strong data room use case, and timely given today's oil-price spike.",
-      "deal_clock": [
-        {
-          "date": "Jul 2, 2026",
-          "event": "Genel's £271M offer for Capricorn; PJT advising"
-        }
-      ],
-      "outreach_idea": "Open on the Genel/Capricorn mandate directly — a live cross-border energy process is a concrete reason to engage PJT's advisory team on diligence coordination.",
-      "outreach_draft": {
-        "subject": "Genel / Capricorn — supporting a cross-border energy process",
-        "body": "Congratulations on PJT's role advising Genel Energy on its offer for Capricorn. Cross-border energy deals tend to spin up multi-jurisdiction diligence quickly — would welcome a conversation on how we support clean, auditable access as the process moves forward.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies",
-        "source": "Simmons & Simmons (mandate notice)",
-        "source_url": "https://www.simmons-simmons.com/en/about-us/news/advising-pjt-and-jefferies-on-genel-s-271m-offer-for-capricorn",
-        "published": "2026-07-02",
-        "confidence": "Reported"
-      },
-      "first_seen": "2026-07-08",
-      "last_confirmed": "2026-07-08",
-      "source": "Simmons & Simmons (mandate notice)",
-      "source_url": "https://www.simmons-simmons.com/en/about-us/news/advising-pjt-and-jefferies-on-genel-s-271m-offer-for-capricorn",
-      "published": "2026-07-02",
-      "confidence": "Reported",
-      "carry_badge": "Day 2"
-    },
-    {
-      "id": "o5",
-      "bank": "Jefferies",
-      "sector": "Energy / Cross-border",
-      "urgency": "HOT",
-      "headline": "Joint adviser to Genel Energy on the £271M Capricorn offer",
-      "why_it_matters": "Jefferies is advising Genel alongside PJT on a live UK energy mandate (July 2) — fitting its re-rating story on accelerating deal flow. A fresh, deal-specific reason to engage.",
-      "deal_clock": [
-        {
-          "date": "Jul 2, 2026",
-          "event": "Jefferies named joint adviser to Genel on Capricorn offer"
-        }
-      ],
-      "outreach_idea": "Reach out to Jefferies' energy coverage on the Genel process — a current cross-border mandate to anchor the conversation.",
-      "outreach_draft": {
-        "subject": "Jefferies / Genel — Capricorn offer support",
-        "body": "Noted Jefferies' role advising Genel Energy on its offer for Capricorn. As the cross-border process advances, would welcome a conversation on diligence infrastructure support.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies",
-        "source": "Simmons & Simmons (mandate notice)",
-        "source_url": "https://www.simmons-simmons.com/en/about-us/news/advising-pjt-and-jefferies-on-genel-s-271m-offer-for-capricorn",
-        "published": "2026-07-02",
-        "confidence": "Reported"
-      },
-      "first_seen": "2026-07-08",
-      "last_confirmed": "2026-07-08",
-      "source": "Simmons & Simmons (mandate notice)",
-      "source_url": "https://www.simmons-simmons.com/en/about-us/news/advising-pjt-and-jefferies-on-genel-s-271m-offer-for-capricorn",
-      "published": "2026-07-02",
-      "confidence": "Reported",
-      "carry_badge": "Day 2"
-    },
-    {
-      "id": "o6",
-      "bank": "Moelis",
-      "sector": "Restructuring / Capital Advisory",
-      "urgency": "WARM",
-      "headline": "Retained to review Ticketek-owner TEG's ~$1B debt and raise fresh capital",
-      "why_it_matters": "Silver Lake-owned TEG has retained Moelis to review its ~$1B debt structure and raise fresh capital (AFR, ~July 8). Multi-creditor, multi-investor capital raises are a core restructuring data room use case with tiered access needs.",
-      "deal_clock": [
-        {
-          "date": "Jul 8, 2026",
-          "event": "AFR reports Moelis retained on TEG's debt review and capital raise"
-        }
-      ],
-      "outreach_idea": "Reach out to Moelis restructuring on the TEG mandate — multi-class capital raises are where granular, litigation-grade access controls differentiate.",
-      "outreach_draft": {
-        "subject": "TEG — access controls for a multi-class capital raise",
-        "body": "Noted Moelis' role reviewing TEG's capital structure and raising fresh capital. Multi-creditor, multi-investor processes need granular, auditable access across classes — would welcome a conversation on how we support that as the mandate develops.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies",
-        "source": "Australian Financial Review",
-        "source_url": "https://www.afr.com/companies/media-and-marketing/ticketek-owner-in-talks-to-raise-hundreds-of-millions-in-fresh-capital-20260708-p60dl1",
-        "published": "2026-07-08",
-        "confidence": "Reported"
-      },
-      "source": "Australian Financial Review",
-      "source_url": "https://www.afr.com/companies/media-and-marketing/ticketek-owner-in-talks-to-raise-hundreds-of-millions-in-fresh-capital-20260708-p60dl1",
-      "published": "2026-07-08",
-      "confidence": "Reported",
-      "first_seen": "2026-07-09",
-      "last_confirmed": "2026-07-09",
-      "carry_badge": "NEW"
+      "carry_badge": "Day 3"
     },
     {
       "id": "o7",
-      "bank": "PJT Partners",
-      "sector": "Crypto / Private secondary",
+      "bank": "Lazard",
+      "sector": "Tech / AI",
       "urgency": "WARM",
-      "headline": "Running the sale of a former Tether CIO's stake in Tether Holdings",
-      "why_it_matters": "PJT has been retained to sell part of a former Tether CIO's ~1.26% stake (Bloomberg, July 6). A confidential secondary in a hundreds-of-billions-valued company means a controlled process for a small buyer universe — a private-markets data room use case.",
+      "headline": "Adviser to LivePerson on its all-stock merger with SoundHound AI",
+      "why_it_matters": "Lazard (with Houlihan Lokey) advises LivePerson on an all-stock merger into SoundHound AI. Definitive proxy filed Jul 9 — the vote and diligence phase is active in a fast-moving AI-sector deal.",
       "deal_clock": [
         {
-          "date": "Jul 6, 2026",
-          "event": "Bloomberg reports PJT retained on the Tether stake sale"
+          "date": "Jul 9, 2026",
+          "event": "LivePerson DEFM14A filed"
         }
       ],
-      "outreach_idea": "Engage PJT's private-capital/secondaries coverage — confidential high-value secondaries are where controlled access and audit trails are the pitch.",
+      "outreach_idea": "Engage Lazard's tech/AI coverage on LivePerson/SoundHound — a live all-stock AI merger with a filed proxy.",
       "outreach_draft": {
-        "subject": "Confidential secondary — controlled diligence access",
-        "body": "Noted PJT's role on the Tether stake sale. Confidential, high-value secondaries call for tightly controlled diligence access across a small buyer group — would welcome a short conversation on how we support that.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies",
-        "source": "Bloomberg",
-        "source_url": "https://www.bloomberg.com/news/articles/2026-07-06/tether-s-former-cio-plans-sale-of-stake-in-stablecoin-giant",
-        "published": "2026-07-06",
-        "confidence": "Reported"
+        "subject": "LivePerson / SoundHound — supporting an AI-sector merger",
+        "body": "Congratulations on Lazard's role advising LivePerson on the SoundHound combination. All-stock tech mergers with cross-listed shareholders tend to run detailed diligence — would welcome a conversation on how we support secure, auditable access as the vote approaches.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
       },
-      "source": "Bloomberg",
-      "source_url": "https://www.bloomberg.com/news/articles/2026-07-06/tether-s-former-cio-plans-sale-of-stake-in-stablecoin-giant",
-      "published": "2026-07-06",
-      "confidence": "Reported",
-      "first_seen": "2026-07-09",
-      "last_confirmed": "2026-07-09",
+      "source": "SEC EDGAR — LivePerson DEFM14A",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1102993/000121390026076759/ea0297465-01.htm",
+      "published": "2026-07-09",
+      "confidence": "Filed",
+      "first_seen": "2026-07-13",
+      "last_confirmed": "2026-07-13",
       "carry_badge": "NEW"
     },
     {
       "id": "o8",
-      "bank": "JPMorgan",
-      "sector": "Space / ECM",
+      "bank": "Bank of America",
+      "sector": "Chemicals / Industrials",
       "urgency": "WARM",
-      "headline": "Joint active bookrunner on MDA Space's US$819M offering",
-      "why_it_matters": "JPMorgan is a joint active bookrunner on MDA Space's upsized US$819M raise (July 9) funding the CLS acquisition — a rare, dated, public touchpoint for its TMT/space coverage tied to a live cross-border syndicate.",
+      "headline": "Adviser to Element Solutions on its cash-and-stock merger",
+      "why_it_matters": "BofA Securities advises Element Solutions (target) on a merger paying 0.500 acquirer shares + $10.00 cash/share. Merger agreement filed Jul 9 — target-side diligence is underway.",
       "deal_clock": [
         {
           "date": "Jul 9, 2026",
-          "event": "JPMorgan named joint active bookrunner on MDA's US$819M deal"
+          "event": "Element Solutions merger agreement filed"
         }
       ],
-      "outreach_idea": "Connect with JPMorgan's ECM/space coverage on the MDA syndicate — a live bookrun funding a cross-border acquisition is a clean diligence-access hook.",
+      "outreach_idea": "Reach out to BofA's chemicals coverage on Element Solutions — a signed cash-and-stock merger is a clean diligence use case.",
       "outreach_draft": {
-        "subject": "MDA Space — syndicate diligence support",
-        "body": "Congratulations on JPMorgan's role in MDA Space's US$819M offering funding the CLS acquisition. Syndicated raises tied to a cross-border deal move diligence quickly across the bookrunner group — would welcome a conversation on clean, auditable access support.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies",
-        "source": "FinanzNachrichten (company release)",
-        "source_url": "https://www.finanznachrichten.de/nachrichten-2026-07/68986985-mda-space-ltd-mda-space-increases-previously-announced-bought-deal-offering-of-common-shares-399.htm",
-        "published": "2026-07-09",
-        "confidence": "Reported"
+        "subject": "Element Solutions — supporting a signed merger",
+        "body": "Congratulations on BofA's role advising Element Solutions. Cash-and-stock mergers move quickly from signing into diligence and integration — would welcome a conversation on how we support clean, auditable data-room access through to close.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
       },
-      "source": "FinanzNachrichten (company release)",
-      "source_url": "https://www.finanznachrichten.de/nachrichten-2026-07/68986985-mda-space-ltd-mda-space-increases-previously-announced-bought-deal-offering-of-common-shares-399.htm",
+      "source": "SEC EDGAR — Element Solutions EX-2.1",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1590714/000121390026076549/ea029740401ex2-1.htm",
       "published": "2026-07-09",
-      "confidence": "Reported",
-      "first_seen": "2026-07-09",
-      "last_confirmed": "2026-07-09",
+      "confidence": "Filed",
+      "first_seen": "2026-07-13",
+      "last_confirmed": "2026-07-13",
+      "carry_badge": "NEW"
+    },
+    {
+      "id": "o9",
+      "bank": "RBC Capital Markets",
+      "sector": "Strategic Alternatives",
+      "urgency": "WARM",
+      "headline": "Strategic and financial adviser to Origin Materials on strategic alternatives",
+      "why_it_matters": "RBC is Origin Materials' strategic/financial adviser canvassing the market for transactions amid a possible wind-down (special-meeting materials filed Jul 10). Strategic-alternatives processes are exactly where controlled diligence access matters.",
+      "deal_clock": [
+        {
+          "date": "Jul 10, 2026",
+          "event": "Origin Materials special-meeting materials filed; RBC as adviser"
+        }
+      ],
+      "outreach_idea": "Talk to RBC on Origin Materials — a strategic-alternatives mandate with an active market canvass.",
+      "outreach_draft": {
+        "subject": "Origin Materials — supporting a strategic-alternatives process",
+        "body": "Congratulations on RBC's role advising Origin Materials on strategic alternatives. Market canvasses and strategic reviews rely on tightly controlled diligence access — would welcome a conversation on how we support secure, auditable data rooms through the process.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "SEC EDGAR — Origin Materials PREM14A",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1802457/000180245726000036/originmaterials-specialmee.htm",
+      "published": "2026-07-10",
+      "confidence": "Filed",
+      "first_seen": "2026-07-13",
+      "last_confirmed": "2026-07-13",
       "carry_badge": "NEW"
     }
   ],
-  "pipeline_watch": {
-    "note": "Named covered-bank mandates and sector heat. Rumored / no-adviser situations now live in the Rumor Mill.",
-    "covered_bank_leads": [],
-    "situations_to_watch": []
-  },
-  "skeptics_corner": {
-    "note": "Unconfirmed leads — rumored deals and situations with no adviser named yet. Real reporting, but treat as speculative: chase them, don’t quote them on a call.",
-    "items": [
-      {
-        "company": "easyJet",
-        "bank": "unconfirmed",
-        "lead": "Board 'minded to accept' an improved ~£5.2B / ~$7.3B take-private from US investor Castlelake; break-up speculation; adviser not disclosed",
-        "why_unverified": "No adviser named yet — reach out before the mandate is awarded.",
-        "sector": "Airlines / travel",
-        "source_note": "Reuters, Jul 6 2026",
-        "confidence": "Speculative"
-      },
-      {
-        "company": "Criteo",
-        "bank": "unconfirmed",
-        "lead": "Received a buyout approach from Vista Equity Partners and Quinti Capital ('sources say'); adviser not disclosed",
-        "why_unverified": "No adviser named yet — reach out before the mandate is awarded.",
-        "sector": "AdTech / digital advertising",
-        "source_note": "Reuters (via Yahoo Finance), Jul 6 2026",
-        "confidence": "Speculative"
-      },
-      {
-        "company": "GFL Environmental",
-        "bank": "unconfirmed",
-        "lead": "Weighing a take-private amid buyout-firm interest; reported to have held investment talks with Apollo; adviser not disclosed",
-        "why_unverified": "No adviser named yet — reach out before the mandate is awarded.",
-        "sector": "Environmental services / waste",
-        "source_note": "Bloomberg / Globe and Mail, Jul 3-6 2026",
-        "confidence": "Speculative"
-      },
-      {
-        "company": "Fiserv (STAR debit network)",
-        "bank": "unconfirmed",
-        "lead": "Exploring a sale of its STAR debit-card network, reportedly in talks with large US banks; adviser not disclosed",
-        "why_unverified": "No adviser named yet — reach out before the mandate is awarded.",
-        "sector": "Payments / fintech",
-        "source_note": "Reuters, Jul 7 2026",
-        "confidence": "Speculative"
-      },
-      {
-        "company": "Alkami Technology",
-        "bank": "unconfirmed",
-        "lead": "Activist Jana Partners built a ~10% stake and is publicly pushing the cloud banking-software firm toward a sale; adviser not disclosed",
-        "why_unverified": "No adviser named yet — reach out before the mandate is awarded.",
-        "sector": "Fintech / SaaS",
-        "source_note": "Yahoo Finance, Jul 6 2026",
-        "confidence": "Speculative"
-      },
-      {
-        "company": "Bio-Techne",
-        "bank": "unconfirmed",
-        "lead": "Activist Ananym Capital urging the life-sciences tools firm to consider selling itself; adviser not disclosed",
-        "why_unverified": "No adviser named yet — reach out before the mandate is awarded.",
-        "sector": "Life-sciences tools",
-        "source_note": "Reuters (via MSN), Jul 6 2026",
-        "confidence": "Speculative"
-      },
-      {
-        "company": "Dynatrace",
-        "bank": "unconfirmed",
-        "lead": "Activist Starboard Value reportedly building a stake; shares jumped after-hours; adviser not disclosed",
-        "why_unverified": "No adviser named yet — reach out before the mandate is awarded.",
-        "sector": "Software / observability",
-        "source_note": "Stocktwits, Jul 9 2026",
-        "confidence": "Speculative"
-      }
-    ]
-  },
-  "sector_heat": {
-    "note": "Which sectors are driving M&A right now — lead outreach with bankers in the hottest verticals. Carried from H1 2026 league-table and mid-year outlook coverage; today's live mandates skew to space/defense ECM and contested public-company tenders.",
-    "ranked": [
-      {
-        "sector": "Technology / Semiconductors",
-        "read": "In focus today — a record ~$74.6B monthly memory-sales print drove a 7-8% chip rally (Micron, AMD, Western Digital) and led the tape; tech/AI remains the 2026 M&A volume leader despite mega-cap wobble.",
-        "source_note": "Investing.com / PwC TMT mid-year outlook, Jul 2026"
-      },
-      {
-        "sector": "Contested public M&A / tenders",
-        "read": "Unusually active — two live hostile/unsolicited tenders today (Diana/Genco with Jefferies + Morgan Stanley; Zodiac/Destination XL with Guggenheim), the most access-sensitive processes there are.",
-        "source_note": "GlobeNewswire (Genco / DXL releases), Jul 8-9 2026"
-      },
-      {
-        "sector": "Space & defense / ECM",
-        "read": "MDA Space's upsized US$819M raise (RBC, BMO, JPMorgan, BofA, Scotiabank) funds a cross-border CLS acquisition — capital-markets execution funding strategic M&A.",
-        "source_note": "FinanzNachrichten / SpaceNews, Jul 8-9 2026"
-      },
-      {
-        "sector": "Financial services",
-        "read": "Consolidation wave still breaking — the Fiserv STAR debit-network sale talks with big US banks are live this week; activist pressure building on fintech (Alkami).",
-        "source_note": "Reuters / Yahoo Finance, Jul 2026"
-      }
-    ]
-  },
-  "talking_point": {
-    "quote": "This week you saw both sides of it — advisory stocks got hit hardest Wednesday on the risk-off, then led the rebound Thursday, up 4-5% at the boutiques. The market is trading your franchises purely on deal-flow expectations. With Q2 earnings next week, how are you framing the pipeline — is the tape steady enough now to relaunch the processes that stalled in June?",
-    "use_with": "M&A and advisory coverage teams (esp. at Evercore, Lazard, Jefferies, Goldman, Morgan Stanley)",
-    "context": "The two-way move is the freshest, most concrete hook in today's brief: EVR/LAZ/JEF fell hardest on Wednesday's Iran-driven risk-off, then rallied 4-5% on Thursday's snapback, versus +1-3% for the bulge bracket. It sets up a natural pre-earnings (GS/JPM Jul 14, MS Jul 15) conversation about pipeline confidence and relaunching stalled processes — the moment room infrastructure gets revisited. Ties directly to today's live mandates (RBC/JPM on MDA, Jefferies/MS on Genco).",
-    "confidence": "Reported"
-  },
   "market_snapshot": {
     "indices": [
       {
         "label": "S&P 500",
-        "value": "7,503.08",
-        "change": "+0.27%",
-        "positive": true
+        "value": "7,546.95",
+        "change": "-28.44 (-0.38%)",
+        "positive": false
       },
       {
-        "label": "Nasdaq 100",
-        "value": "29,560.52",
-        "change": "+1.05%",
-        "positive": true
+        "label": "Nasdaq Composite",
+        "value": "25,958.04",
+        "change": "-323.57 (-1.23%)",
+        "positive": false
       },
       {
         "label": "Dow Jones",
-        "value": "52,448.19",
-        "change": "+0.19%",
-        "positive": true
-      },
-      {
-        "label": "Russell 2000",
-        "value": "2,984.92",
-        "change": "+0.97%",
-        "positive": true
-      },
-      {
-        "label": "10Y Treasury",
-        "value": "4.561%",
-        "change": "-0.8bps",
-        "positive": true
-      },
-      {
-        "label": "WTI Crude",
-        "value": "$72.64",
-        "change": "-1.20%",
+        "value": "52,482.02",
+        "change": "-154.99 (-0.29%)",
         "positive": false
       }
     ],
     "bank_stocks": [
       {
         "ticker": "GS",
-        "price": "$1,059.98",
-        "change": "+2.95%",
-        "positive": true
+        "price": "$1,046.14",
+        "change": "-0.86%",
+        "positive": false
       },
       {
         "ticker": "MS",
-        "price": "$223.52",
-        "change": "+2.50%",
-        "positive": true
+        "price": "$219.53",
+        "change": "-1.24%",
+        "positive": false
       },
       {
         "ticker": "JPM",
-        "price": "$334.69",
-        "change": "+1.23%",
-        "positive": true
-      },
-      {
-        "ticker": "EVR",
-        "price": "$346.55",
-        "change": "+4.69%",
-        "positive": true
-      },
-      {
-        "ticker": "LAZ",
-        "price": "$42.56",
-        "change": "+4.34%",
-        "positive": true
-      },
-      {
-        "ticker": "JEF",
-        "price": "$53.23",
-        "change": "+4.17%",
-        "positive": true
+        "price": "$333.72",
+        "change": "-0.82%",
+        "positive": false
       }
     ],
-    "macro_note": "A risk-on snapback reversed Wednesday's Iran-driven selloff: a record ~$74.6B monthly memory-sales print drove a semiconductor rally (Micron/AMD/Western Digital +7-8%), lifting the Nasdaq 100 ~1.05% even as mega-cap AI names (Nvidia/Meta/Alphabet ~-2%) lagged. WTI crude fell ~1.2% to $72.64 as oil shrugged off the US-Iran escalation, and the VIX eased ~1% to 16.72. Rates were little changed a day after the hawkish June FOMC minutes, with the 10Y at ~4.561% (-0.8bps). Advisory-levered financials led (EVR +4.7%, LAZ +4.3%, JEF +4.2%; GS +3.0%). (Levels are intraday ~10:25 a.m. ET Jul 9, not official closes; 2Y Treasury omitted — feed unverified.)"
+    "macro_note": "Risk-off open to the week with tech leading lower and financials soft ahead of Q2 bank earnings (GS/JPM Jul 14, MS Jul 15). Intraday levels as of ~12:45 PM EDT Jul 13; Treasury-yield, VIX and boutique-bank quotes omitted where only stale/prior-close data was verifiable — accuracy over completeness."
+  },
+  "talking_point": {
+    "quote": "The tape sold off to start the week, but the filing record tells a different story — First Hawaiian/TriCo, IHS/MTN, and SoundHound/LivePerson all advanced in SEC filings today. With your Q2 print landing this week, how are you framing deal momentum versus the market's risk-off read?",
+    "use_with": "M&A and FIG coverage teams (esp. Evercore, JPMorgan, Morgan Stanley, Lazard) ahead of Q2 earnings",
+    "context": "Ties the risk-off Monday tape to the dense, filing-confirmed deal flow that actually advanced today — a natural pre-earnings hook (GS/JPM Jul 14, MS Jul 15) on whether the pipeline is steady enough to keep launching processes. Anchors on the day's live Filed mandates.",
+    "confidence": "Reported"
+  },
+  "sector_heat": {
+    "ranked": [
+      {
+        "sector": "Financial Institutions (FIG)",
+        "read": "Leading the tape today — First Hawaiian's all-stock buy of TriCo (Evercore, KBW/Stifel) headlines a busy bank-M&A week into Q2 earnings.",
+        "source_note": "SEC EDGAR filings, Jul 13 2026"
+      },
+      {
+        "sector": "TMT / Telecom Infrastructure",
+        "read": "IHS Holding's $8.50/sh take-private by MTN (JPMorgan) and SoundHound/LivePerson (Lazard, Houlihan Lokey) keep tech/telecom deal flow dense.",
+        "source_note": "SEC EDGAR filings, Jul 9-10 2026"
+      },
+      {
+        "sector": "Real Estate / PropTech",
+        "read": "Real/RE/MAX (Morgan Stanley, JPMorgan) definitive proxy filed — a cross-border, tech-enabled brokerage combination.",
+        "source_note": "SEC EDGAR RE/MAX DEFM14A, Jul 9 2026"
+      },
+      {
+        "sector": "Chemicals / Industrials",
+        "read": "Element Solutions cash-and-stock merger (BofA target-side, Goldman buy-side) signed and filed.",
+        "source_note": "SEC EDGAR Element Solutions EX-2.1, Jul 9 2026"
+      }
+    ]
+  },
+  "pipeline_watch": {
+    "note": "Named covered-bank mandates and sector heat. Rumored / no-adviser situations live in the Rumor Mill.",
+    "covered_bank_leads": [],
+    "situations_to_watch": []
+  },
+  "skeptics_corner": {
+    "note": "Unconfirmed leads — rumored deals and situations with no adviser named yet. Real reporting, but treat as speculative: chase them, don't quote them on a call.",
+    "items": []
   },
   "archive": [
+    {
+      "date": "2026-07-09",
+      "edition": 7,
+      "file": "2026-07-09.json"
+    },
     {
       "date": "2026-07-08",
       "edition": 6,

@@ -1,0 +1,785 @@
+{
+  "date": "2026-07-09",
+  "edition": 7,
+  "lens": "Risk-on snapback: yesterday's Iran-driven selloff reversed as a record memory-chip rally lifted the Nasdaq 100 ~1% and crude gave back ~1.2%. Advisory-levered stocks led the rebound — Evercore +4.7%, Lazard +4.3%, Jefferies +4.2%, Goldman +3.0% — and the deal tape stayed busy: RBC and JPMorgan are bookrunning MDA Space's US$819M raise for its CLS buy, while Jefferies and Morgan Stanley defend Genco against a hostile tender.",
+  "ticker": [
+    {
+      "label": "S&P 500",
+      "value": "7,503.08",
+      "change": "+0.27%",
+      "positive": true
+    },
+    {
+      "label": "NASDAQ 100",
+      "value": "29,560.52",
+      "change": "+1.05%",
+      "positive": true
+    },
+    {
+      "label": "DOW",
+      "value": "52,448.19",
+      "change": "+0.19%",
+      "positive": true
+    },
+    {
+      "label": "RUSSELL 2000",
+      "value": "2,984.92",
+      "change": "+0.97%",
+      "positive": true
+    },
+    {
+      "label": "10Y",
+      "value": "4.561%",
+      "change": "-0.8bps",
+      "positive": true
+    },
+    {
+      "label": "VIX",
+      "value": "16.72",
+      "change": "-1.07%",
+      "positive": true
+    },
+    {
+      "label": "WTI CRUDE",
+      "value": "$72.64",
+      "change": "-1.20%",
+      "positive": false
+    },
+    {
+      "label": "GS",
+      "value": "$1,059.98",
+      "change": "+2.95%",
+      "positive": true
+    }
+  ],
+  "stories": [
+    {
+      "id": "s1",
+      "category": "MACRO",
+      "urgency": "MEDIUM",
+      "scope": "market",
+      "headline": "Risk-on snapback: a record memory-chip rally lifts the Nasdaq 100 ~1% as yesterday's Iran selloff reverses",
+      "why_it_matters": "Wednesday's risk-off broke Thursday. A record in monthly memory sales (~$74.6B) drove a semiconductor rally — Micron, AMD, and Western Digital each up ~7-8% — pushing the Nasdaq 100 up ~1.05% even as mega-cap AI names (Nvidia, Meta, Alphabet ~-2%) lagged. WTI crude gave back ~1.2% to $72.64 as the oil market shrugged off the US-Iran escalation, and the VIX eased ~1% to 16.72. A calmer, risk-on tape is the friendlier backdrop for launching and closing processes.",
+      "suggested_action": "Use the tone reversal as a reason to re-engage clients who paused on Wednesday's volatility — a steadier tape is when stalled processes get relaunched, and that's the moment to lock in room infrastructure.",
+      "deal_clock": [
+        {
+          "date": "Jul 9",
+          "event": "Nasdaq 100 +1.05% on record memory-chip sales; VIX -1.07% to 16.72"
+        },
+        {
+          "date": "Jul 9",
+          "event": "WTI -1.2% to $72.64 as oil shrugs off Iran escalation"
+        }
+      ],
+      "source": "Investing.com / Yahoo Finance",
+      "source_url": "https://www.investing.com/news/stock-market-news",
+      "published": "2026-07-09",
+      "tags": [
+        "macro",
+        "semiconductors",
+        "risk-on"
+      ]
+    },
+    {
+      "id": "s2",
+      "category": "MACRO",
+      "urgency": "LOW",
+      "scope": "market",
+      "headline": "Rates little changed — 10Y eases to ~4.56% the day after hawkish June FOMC minutes",
+      "why_it_matters": "A day after the hawkish June minutes (the first under Chair Warsh), Treasury yields drifted slightly lower, with the 10Y down under a basis point to ~4.561%. The move is small — financing conditions remain the central constraint on leveraged deal math, and there's no signal here that a near-term cut is back on the table. The overhang from Wednesday's hawkish read stays largely intact.",
+      "suggested_action": "No change to the leveraged-finance message: processes penciling on a near-term cut should still be stress-tested at current rates. Use the steadier tape, not lower rates, as the reason to re-engage.",
+      "deal_clock": [
+        {
+          "date": "Jul 9",
+          "event": "10Y yield eases to ~4.561% (-0.8bps)"
+        }
+      ],
+      "source": "Yahoo Finance (^TNX)",
+      "source_url": "https://finance.yahoo.com/quote/%5ETNX/",
+      "published": "2026-07-09",
+      "confidence": "Reported",
+      "tags": [
+        "macro",
+        "rates",
+        "leveraged-finance"
+      ]
+    },
+    {
+      "id": "s3",
+      "category": "BANKING",
+      "urgency": "MEDIUM",
+      "scope": "market",
+      "headline": "Advisory-levered stocks lead the rebound — Evercore +4.7%, Lazard +4.3%, Jefferies +4.2%",
+      "why_it_matters": "The same pure-play advisory names that fell hardest Wednesday led Thursday's rebound: Evercore +4.69%, Lazard +4.34%, and Jefferies +4.17%, versus GS +2.95%, MS +2.50%, and JPM +1.23%. Rate- and sentiment-sensitive M&A franchises are trading on the deal-fee outlook, and the sharp two-way moves this week underscore how tightly the market is watching advisory momentum heading into July 14-15 bank earnings.",
+      "suggested_action": "Context for coverage calls: advisory-franchise stocks are moving on deal-flow expectations, so bankers are focused on execution and win-rate right now — a natural opening for a speed-to-launch, template-based room pitch ahead of earnings.",
+      "deal_clock": [
+        {
+          "date": "Jul 9",
+          "event": "EVR +4.69%, LAZ +4.34%, JEF +4.17%; GS +2.95%, MS +2.50% intraday"
+        },
+        {
+          "date": "Jul 14-15",
+          "event": "GS/JPM (Jul 14) and MS (Jul 15) Q2 earnings"
+        }
+      ],
+      "source": "Yahoo Finance",
+      "source_url": "https://finance.yahoo.com/quote/EVR/",
+      "published": "2026-07-09",
+      "tags": [
+        "banking",
+        "advisory",
+        "earnings"
+      ]
+    },
+    {
+      "id": "s4",
+      "category": "DEALS",
+      "urgency": "HIGH",
+      "scope": "bank",
+      "bank": "RBC Capital Markets",
+      "headline": "RBC and BMO lead MDA Space's upsized US$819M bought deal to fund its ~€567M CLS acquisition",
+      "why_it_matters": "MDA Space upsized its bought deal to US$819M (23M shares at US$35.60), with RBC Capital Markets and BMO as joint lead bookrunners and JPMorgan, BofA Securities, and Scotiabank as joint active bookrunners. Proceeds fund MDA's ~€567M / US$648M purchase of ~70% of France's CLS from CNES. A live, multi-bank ECM execution funding a cross-border acquisition — exactly the fast-turnaround, syndicate-wide diligence workflow where clean access control matters.",
+      "suggested_action": "Reach out to RBC's ECM/space-and-defense coverage on the MDA raise — a syndicated bought deal funding a cross-border acquisition is a strong, current reason to talk diligence infrastructure across the bookrunner group.",
+      "deal_clock": [
+        {
+          "date": "Jul 8, 2026",
+          "event": "MDA announces ~€567M CLS acquisition from CNES"
+        },
+        {
+          "date": "Jul 9, 2026",
+          "event": "Bought deal upsized to US$819M; RBC & BMO joint lead bookrunners"
+        }
+      ],
+      "source": "FinanzNachrichten (company release)",
+      "source_url": "https://www.finanznachrichten.de/nachrichten-2026-07/68986985-mda-space-ltd-mda-space-increases-previously-announced-bought-deal-offering-of-common-shares-399.htm",
+      "published": "2026-07-09",
+      "confidence": "Reported",
+      "tags": [
+        "ecm",
+        "space",
+        "cross-border",
+        "canada"
+      ]
+    },
+    {
+      "id": "s5",
+      "category": "DEALS",
+      "urgency": "MEDIUM",
+      "scope": "bank",
+      "bank": "JPMorgan",
+      "headline": "JPMorgan is a joint active bookrunner on MDA Space's US$819M offering",
+      "why_it_matters": "JPMorgan is a joint active bookrunner alongside BofA Securities and Scotiabank on MDA Space's upsized US$819M raise (July 9), which funds MDA's ~€567M acquisition of ~70% of CLS. A live ECM syndicate role tied to a cross-border space/data deal — a concrete, current touchpoint for JPMorgan's TMT/space coverage even as its bulge-bracket mandates rarely surface in daily press.",
+      "suggested_action": "Connect with JPMorgan's ECM/space coverage on the MDA syndicate — a live bookrun funding a cross-border acquisition is a clean hook for a diligence-access conversation.",
+      "deal_clock": [
+        {
+          "date": "Jul 9, 2026",
+          "event": "JPMorgan named joint active bookrunner on MDA's US$819M deal"
+        }
+      ],
+      "source": "FinanzNachrichten (company release)",
+      "source_url": "https://www.finanznachrichten.de/nachrichten-2026-07/68986985-mda-space-ltd-mda-space-increases-previously-announced-bought-deal-offering-of-common-shares-399.htm",
+      "published": "2026-07-09",
+      "confidence": "Reported",
+      "tags": [
+        "ecm",
+        "space",
+        "cross-border"
+      ]
+    },
+    {
+      "id": "s6",
+      "category": "DEALS",
+      "urgency": "MEDIUM",
+      "scope": "bank",
+      "bank": "Bank of America",
+      "headline": "BofA Securities joins the MDA Space US$819M bookrunner group",
+      "why_it_matters": "BofA Securities is a joint active bookrunner on MDA Space's upsized US$819M offering (July 9), which finances the ~€567M CLS acquisition. High simultaneous deal flow is BofA's profile, and a live cross-border ECM syndicate role is a rare, dated, public touchpoint to anchor an operational-efficiency conversation.",
+      "suggested_action": "Pitch syndicate-wide access efficiency to BofA's ECM coverage on the MDA raise — at their volume of concurrent mandates, repeatable room setup is a direct cost lever.",
+      "deal_clock": [
+        {
+          "date": "Jul 9, 2026",
+          "event": "BofA Securities named joint active bookrunner on MDA's US$819M deal"
+        }
+      ],
+      "source": "FinanzNachrichten (company release)",
+      "source_url": "https://www.finanznachrichten.de/nachrichten-2026-07/68986985-mda-space-ltd-mda-space-increases-previously-announced-bought-deal-offering-of-common-shares-399.htm",
+      "published": "2026-07-09",
+      "confidence": "Reported",
+      "tags": [
+        "ecm",
+        "space",
+        "cross-border"
+      ]
+    },
+    {
+      "id": "s7",
+      "category": "M&A",
+      "urgency": "HIGH",
+      "scope": "bank",
+      "bank": "Jefferies",
+      "headline": "Jefferies advises Genco as its board rejects Diana Shipping's $24.80/share hostile tender",
+      "why_it_matters": "Genco Shipping & Trading's board unanimously rejected Diana Shipping's $24.80/share cash tender offer, with Jefferies acting as financial adviser and Morgan Stanley as special adviser to the board (statement July 8; tender deadline July 10). A live hostile-tender defense is a high-intensity, document-heavy process — the kind of contested M&A situation where a controlled, auditable data room is central to the defense.",
+      "suggested_action": "Reach out to Jefferies' shipping/defense-advisory team on the Genco situation — a live hostile tender on a tight clock is an immediate, concrete reason to talk secure diligence and board-materials management.",
+      "deal_clock": [
+        {
+          "date": "Jul 8, 2026",
+          "event": "Genco board unanimously rejects Diana's $24.80/share tender; Jefferies advising"
+        },
+        {
+          "date": "Jul 10, 2026",
+          "event": "Diana's tender offer deadline"
+        }
+      ],
+      "source": "Yahoo Finance / GlobeNewswire (Genco release)",
+      "source_url": "https://finance.yahoo.com/markets/stocks/articles/genco-shipping-trading-limited-comments-151300287.html",
+      "published": "2026-07-08",
+      "confidence": "Reported",
+      "tags": [
+        "shipping",
+        "hostile-tender",
+        "defense"
+      ]
+    },
+    {
+      "id": "s8",
+      "category": "M&A",
+      "urgency": "MEDIUM",
+      "scope": "bank",
+      "bank": "Morgan Stanley",
+      "headline": "Morgan Stanley is special adviser to Genco's board on the Diana Shipping tender defense",
+      "why_it_matters": "Morgan Stanley is special adviser to Genco Shipping & Trading's board alongside Jefferies as its unanimously rejects Diana Shipping's hostile $24.80/share tender (July 8; deadline July 10). A live, contested tender defense is one of the most access-sensitive M&A processes — a fresh, deal-specific reason to engage MS's coverage team.",
+      "suggested_action": "Connect with Morgan Stanley on the Genco defense — contested tenders concentrate the most sensitive board and diligence materials, exactly where permissioned access is most defensible.",
+      "deal_clock": [
+        {
+          "date": "Jul 8, 2026",
+          "event": "Morgan Stanley named special adviser to Genco's board"
+        },
+        {
+          "date": "Jul 10, 2026",
+          "event": "Diana's tender offer deadline"
+        }
+      ],
+      "source": "Yahoo Finance / GlobeNewswire (Genco release)",
+      "source_url": "https://finance.yahoo.com/markets/stocks/articles/genco-shipping-trading-limited-comments-151300287.html",
+      "published": "2026-07-08",
+      "confidence": "Reported",
+      "tags": [
+        "shipping",
+        "hostile-tender",
+        "defense"
+      ]
+    },
+    {
+      "id": "s9",
+      "category": "M&A",
+      "urgency": "MEDIUM",
+      "scope": "bank",
+      "bank": "Guggenheim Securities",
+      "headline": "Guggenheim advises Destination XL as its board rejects Zodiac Partners II's revised $0.84/share tender",
+      "why_it_matters": "Destination XL Group's board reiterated its unanimous recommendation that stockholders reject Zodiac Partners II's revised, unsolicited $0.84/share cash tender as undervalued, with Guggenheim Securities as financial adviser (reiterated July 9; offer expires July 24). A live retail take-under defense is a document- and timeline-driven process — a current, deal-specific reason to engage an under-covered elite boutique.",
+      "suggested_action": "Reach out to Guggenheim on the Destination XL defense — an active, contested tender with a July 24 clock is a concrete hook for a secure-diligence and board-materials conversation.",
+      "deal_clock": [
+        {
+          "date": "Jul 9, 2026",
+          "event": "DXL board reiterates rejection of Zodiac's revised $0.84/share tender; Guggenheim advising"
+        },
+        {
+          "date": "Jul 24, 2026",
+          "event": "Zodiac's revised tender offer expires"
+        }
+      ],
+      "source": "Manila Times / GlobeNewswire (DXL release)",
+      "source_url": "https://www.manilatimes.net/2026/07/09/tmt-newswire/globenewswire/destination-xl-group-inc-recommends-dxl-stockholders-reject-zodiac-partners-iis-revised-unsolicited-tender-offer-and-not-tender-their-shares/2381212",
+      "published": "2026-07-09",
+      "confidence": "Reported",
+      "tags": [
+        "retail",
+        "hostile-tender",
+        "defense"
+      ]
+    },
+    {
+      "id": "s10",
+      "category": "M&A",
+      "urgency": "MEDIUM",
+      "scope": "bank",
+      "bank": "PJT Partners",
+      "headline": "PJT Partners retained to run the sale of a former Tether CIO's stake in the stablecoin giant",
+      "why_it_matters": "PJT Partners has been retained to run the sale of a portion of former Tether CIO Richard Heathcote's ~1.26% stake in Tether Holdings, per Bloomberg reporting (July 6). A private secondary in a company valued in the hundreds of billions means a tightly controlled, confidential diligence process for a small buyer universe — a natural private-markets data room use case for a covered boutique.",
+      "suggested_action": "Engage PJT's private-capital/secondaries coverage on the Tether stake process — a confidential, high-value secondary is exactly where controlled access and audit trails are the pitch.",
+      "deal_clock": [
+        {
+          "date": "Jul 6, 2026",
+          "event": "Bloomberg reports PJT retained to sell part of a former Tether CIO's stake"
+        }
+      ],
+      "source": "Bloomberg",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-07-06/tether-s-former-cio-plans-sale-of-stake-in-stablecoin-giant",
+      "published": "2026-07-06",
+      "confidence": "Reported",
+      "tags": [
+        "crypto",
+        "secondary",
+        "private-markets"
+      ]
+    },
+    {
+      "id": "s11",
+      "category": "RESTRUCTURING",
+      "urgency": "MEDIUM",
+      "scope": "bank",
+      "bank": "Moelis",
+      "headline": "Moelis retained to review Ticketek-owner TEG's ~$1B debt and raise fresh capital",
+      "why_it_matters": "Silver Lake-owned TEG (owner of Ticketek) has retained Moelis to review its ~$1B debt structure and raise 'hundreds of millions' in fresh capital, per the Australian Financial Review (~July 8). A live capital-structure/restructuring mandate involves multiple creditor and investor classes with differentiated access — a core Intralinks restructuring use case for a covered boutique.",
+      "suggested_action": "Connect with Moelis' restructuring/capital-advisory team on the TEG situation — multi-creditor capital raises need granular, litigation-grade access controls across classes.",
+      "deal_clock": [
+        {
+          "date": "Jul 8, 2026",
+          "event": "AFR reports Moelis retained to review TEG's ~$1B debt and raise fresh capital"
+        }
+      ],
+      "source": "Australian Financial Review",
+      "source_url": "https://www.afr.com/companies/media-and-marketing/ticketek-owner-in-talks-to-raise-hundreds-of-millions-in-fresh-capital-20260708-p60dl1",
+      "published": "2026-07-08",
+      "confidence": "Reported",
+      "tags": [
+        "restructuring",
+        "capital-advisory",
+        "australia"
+      ]
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "o1",
+      "bank": "RBC Capital Markets",
+      "sector": "Space / ECM / Cross-border",
+      "urgency": "HOT",
+      "headline": "Joint lead bookrunner on MDA Space's US$819M raise funding the CLS acquisition",
+      "why_it_matters": "RBC is joint lead bookrunner (with BMO) on MDA Space's upsized US$819M bought deal (July 9), funding a ~€567M cross-border acquisition of France's CLS. A live syndicated ECM execution tied to an acquisition is a strong, current data room use case across the bookrunner group.",
+      "deal_clock": [
+        {
+          "date": "Jul 9, 2026",
+          "event": "MDA bought deal upsized to US$819M; RBC joint lead bookrunner"
+        }
+      ],
+      "outreach_idea": "Open on the MDA raise directly — a syndicated bought deal funding a cross-border acquisition is a concrete reason to engage RBC on syndicate-wide diligence access.",
+      "outreach_draft": {
+        "subject": "MDA Space — supporting an upsized cross-border raise",
+        "body": "Congratulations on RBC's role leading MDA Space's US$819M offering funding the CLS acquisition. Syndicated raises tied to a cross-border deal tend to spin up diligence across the full bookrunner group quickly — would welcome a conversation on how we support clean, auditable access as the process moves toward close.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies",
+        "source": "FinanzNachrichten (company release)",
+        "source_url": "https://www.finanznachrichten.de/nachrichten-2026-07/68986985-mda-space-ltd-mda-space-increases-previously-announced-bought-deal-offering-of-common-shares-399.htm",
+        "published": "2026-07-09",
+        "confidence": "Reported"
+      },
+      "source": "FinanzNachrichten (company release)",
+      "source_url": "https://www.finanznachrichten.de/nachrichten-2026-07/68986985-mda-space-ltd-mda-space-increases-previously-announced-bought-deal-offering-of-common-shares-399.htm",
+      "published": "2026-07-09",
+      "confidence": "Reported",
+      "first_seen": "2026-07-09",
+      "last_confirmed": "2026-07-09",
+      "carry_badge": "NEW"
+    },
+    {
+      "id": "o2",
+      "bank": "Jefferies",
+      "sector": "Shipping / Contested M&A",
+      "urgency": "HOT",
+      "headline": "Financial adviser to Genco on the Diana Shipping hostile tender defense",
+      "why_it_matters": "Jefferies is advising Genco's board (with Morgan Stanley as special adviser) as it rejects Diana's $24.80/share hostile tender, with the offer deadline July 10. Contested tenders are among the most access-sensitive, time-pressured processes — an immediate reason to engage.",
+      "deal_clock": [
+        {
+          "date": "Jul 8, 2026",
+          "event": "Genco rejects Diana's tender; Jefferies advising"
+        },
+        {
+          "date": "Jul 10, 2026",
+          "event": "Tender deadline"
+        }
+      ],
+      "outreach_idea": "Lead with the live defense timeline — a hostile tender on a tight clock is an immediate reason to talk secure board-materials and diligence management.",
+      "outreach_draft": {
+        "subject": "Genco / Diana — secure diligence for a contested tender",
+        "body": "Noted Jefferies' role advising Genco's board through the Diana tender. Contested tenders concentrate the most sensitive board and diligence materials on a tight clock — would welcome a short conversation on controlled, auditable access while the process is live.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies",
+        "source": "Yahoo Finance / GlobeNewswire (Genco release)",
+        "source_url": "https://finance.yahoo.com/markets/stocks/articles/genco-shipping-trading-limited-comments-151300287.html",
+        "published": "2026-07-08",
+        "confidence": "Reported"
+      },
+      "source": "Yahoo Finance / GlobeNewswire (Genco release)",
+      "source_url": "https://finance.yahoo.com/markets/stocks/articles/genco-shipping-trading-limited-comments-151300287.html",
+      "published": "2026-07-08",
+      "confidence": "Reported",
+      "first_seen": "2026-07-09",
+      "last_confirmed": "2026-07-09",
+      "carry_badge": "NEW"
+    },
+    {
+      "id": "o3",
+      "bank": "Guggenheim Securities",
+      "sector": "Retail / Contested M&A",
+      "urgency": "HOT",
+      "headline": "Financial adviser to Destination XL on the Zodiac Partners II tender defense",
+      "why_it_matters": "Guggenheim is advising Destination XL's board as it rejects Zodiac's revised $0.84/share unsolicited tender (offer expires July 24). A live take-under defense on a firm clock — a concrete, current touchpoint with an under-covered elite boutique.",
+      "deal_clock": [
+        {
+          "date": "Jul 9, 2026",
+          "event": "DXL board reiterates rejection; Guggenheim advising"
+        },
+        {
+          "date": "Jul 24, 2026",
+          "event": "Zodiac's revised tender expires"
+        }
+      ],
+      "outreach_idea": "Open on the active defense and the July 24 deadline — a contested tender is an immediate secure-diligence conversation.",
+      "outreach_draft": {
+        "subject": "Destination XL — diligence support for a live tender defense",
+        "body": "Noted Guggenheim's role advising Destination XL's board through the Zodiac tender. As the process runs to the July 24 deadline, would welcome a conversation on controlled, auditable access for the board and diligence materials.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies",
+        "source": "Manila Times / GlobeNewswire (DXL release)",
+        "source_url": "https://www.manilatimes.net/2026/07/09/tmt-newswire/globenewswire/destination-xl-group-inc-recommends-dxl-stockholders-reject-zodiac-partners-iis-revised-unsolicited-tender-offer-and-not-tender-their-shares/2381212",
+        "published": "2026-07-09",
+        "confidence": "Reported"
+      },
+      "source": "Manila Times / GlobeNewswire (DXL release)",
+      "source_url": "https://www.manilatimes.net/2026/07/09/tmt-newswire/globenewswire/destination-xl-group-inc-recommends-dxl-stockholders-reject-zodiac-partners-iis-revised-unsolicited-tender-offer-and-not-tender-their-shares/2381212",
+      "published": "2026-07-09",
+      "confidence": "Reported",
+      "first_seen": "2026-07-09",
+      "last_confirmed": "2026-07-09",
+      "carry_badge": "NEW"
+    },
+    {
+      "id": "o4",
+      "bank": "PJT Partners",
+      "sector": "Energy / Cross-border",
+      "urgency": "HOT",
+      "headline": "Advising Genel Energy on its £271M offer for Capricorn Energy",
+      "why_it_matters": "A live, cross-border UK energy M&A mandate (announced July 2), with PJT advising Genel alongside Jefferies. Cross-border oil & gas deals bring multi-jurisdiction diligence — a strong data room use case, and timely given today's oil-price spike.",
+      "deal_clock": [
+        {
+          "date": "Jul 2, 2026",
+          "event": "Genel's £271M offer for Capricorn; PJT advising"
+        }
+      ],
+      "outreach_idea": "Open on the Genel/Capricorn mandate directly — a live cross-border energy process is a concrete reason to engage PJT's advisory team on diligence coordination.",
+      "outreach_draft": {
+        "subject": "Genel / Capricorn — supporting a cross-border energy process",
+        "body": "Congratulations on PJT's role advising Genel Energy on its offer for Capricorn. Cross-border energy deals tend to spin up multi-jurisdiction diligence quickly — would welcome a conversation on how we support clean, auditable access as the process moves forward.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies",
+        "source": "Simmons & Simmons (mandate notice)",
+        "source_url": "https://www.simmons-simmons.com/en/about-us/news/advising-pjt-and-jefferies-on-genel-s-271m-offer-for-capricorn",
+        "published": "2026-07-02",
+        "confidence": "Reported"
+      },
+      "first_seen": "2026-07-08",
+      "last_confirmed": "2026-07-08",
+      "source": "Simmons & Simmons (mandate notice)",
+      "source_url": "https://www.simmons-simmons.com/en/about-us/news/advising-pjt-and-jefferies-on-genel-s-271m-offer-for-capricorn",
+      "published": "2026-07-02",
+      "confidence": "Reported",
+      "carry_badge": "Day 2"
+    },
+    {
+      "id": "o5",
+      "bank": "Jefferies",
+      "sector": "Energy / Cross-border",
+      "urgency": "HOT",
+      "headline": "Joint adviser to Genel Energy on the £271M Capricorn offer",
+      "why_it_matters": "Jefferies is advising Genel alongside PJT on a live UK energy mandate (July 2) — fitting its re-rating story on accelerating deal flow. A fresh, deal-specific reason to engage.",
+      "deal_clock": [
+        {
+          "date": "Jul 2, 2026",
+          "event": "Jefferies named joint adviser to Genel on Capricorn offer"
+        }
+      ],
+      "outreach_idea": "Reach out to Jefferies' energy coverage on the Genel process — a current cross-border mandate to anchor the conversation.",
+      "outreach_draft": {
+        "subject": "Jefferies / Genel — Capricorn offer support",
+        "body": "Noted Jefferies' role advising Genel Energy on its offer for Capricorn. As the cross-border process advances, would welcome a conversation on diligence infrastructure support.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies",
+        "source": "Simmons & Simmons (mandate notice)",
+        "source_url": "https://www.simmons-simmons.com/en/about-us/news/advising-pjt-and-jefferies-on-genel-s-271m-offer-for-capricorn",
+        "published": "2026-07-02",
+        "confidence": "Reported"
+      },
+      "first_seen": "2026-07-08",
+      "last_confirmed": "2026-07-08",
+      "source": "Simmons & Simmons (mandate notice)",
+      "source_url": "https://www.simmons-simmons.com/en/about-us/news/advising-pjt-and-jefferies-on-genel-s-271m-offer-for-capricorn",
+      "published": "2026-07-02",
+      "confidence": "Reported",
+      "carry_badge": "Day 2"
+    },
+    {
+      "id": "o6",
+      "bank": "Moelis",
+      "sector": "Restructuring / Capital Advisory",
+      "urgency": "WARM",
+      "headline": "Retained to review Ticketek-owner TEG's ~$1B debt and raise fresh capital",
+      "why_it_matters": "Silver Lake-owned TEG has retained Moelis to review its ~$1B debt structure and raise fresh capital (AFR, ~July 8). Multi-creditor, multi-investor capital raises are a core restructuring data room use case with tiered access needs.",
+      "deal_clock": [
+        {
+          "date": "Jul 8, 2026",
+          "event": "AFR reports Moelis retained on TEG's debt review and capital raise"
+        }
+      ],
+      "outreach_idea": "Reach out to Moelis restructuring on the TEG mandate — multi-class capital raises are where granular, litigation-grade access controls differentiate.",
+      "outreach_draft": {
+        "subject": "TEG — access controls for a multi-class capital raise",
+        "body": "Noted Moelis' role reviewing TEG's capital structure and raising fresh capital. Multi-creditor, multi-investor processes need granular, auditable access across classes — would welcome a conversation on how we support that as the mandate develops.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies",
+        "source": "Australian Financial Review",
+        "source_url": "https://www.afr.com/companies/media-and-marketing/ticketek-owner-in-talks-to-raise-hundreds-of-millions-in-fresh-capital-20260708-p60dl1",
+        "published": "2026-07-08",
+        "confidence": "Reported"
+      },
+      "source": "Australian Financial Review",
+      "source_url": "https://www.afr.com/companies/media-and-marketing/ticketek-owner-in-talks-to-raise-hundreds-of-millions-in-fresh-capital-20260708-p60dl1",
+      "published": "2026-07-08",
+      "confidence": "Reported",
+      "first_seen": "2026-07-09",
+      "last_confirmed": "2026-07-09",
+      "carry_badge": "NEW"
+    },
+    {
+      "id": "o7",
+      "bank": "PJT Partners",
+      "sector": "Crypto / Private secondary",
+      "urgency": "WARM",
+      "headline": "Running the sale of a former Tether CIO's stake in Tether Holdings",
+      "why_it_matters": "PJT has been retained to sell part of a former Tether CIO's ~1.26% stake (Bloomberg, July 6). A confidential secondary in a hundreds-of-billions-valued company means a controlled process for a small buyer universe — a private-markets data room use case.",
+      "deal_clock": [
+        {
+          "date": "Jul 6, 2026",
+          "event": "Bloomberg reports PJT retained on the Tether stake sale"
+        }
+      ],
+      "outreach_idea": "Engage PJT's private-capital/secondaries coverage — confidential high-value secondaries are where controlled access and audit trails are the pitch.",
+      "outreach_draft": {
+        "subject": "Confidential secondary — controlled diligence access",
+        "body": "Noted PJT's role on the Tether stake sale. Confidential, high-value secondaries call for tightly controlled diligence access across a small buyer group — would welcome a short conversation on how we support that.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies",
+        "source": "Bloomberg",
+        "source_url": "https://www.bloomberg.com/news/articles/2026-07-06/tether-s-former-cio-plans-sale-of-stake-in-stablecoin-giant",
+        "published": "2026-07-06",
+        "confidence": "Reported"
+      },
+      "source": "Bloomberg",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-07-06/tether-s-former-cio-plans-sale-of-stake-in-stablecoin-giant",
+      "published": "2026-07-06",
+      "confidence": "Reported",
+      "first_seen": "2026-07-09",
+      "last_confirmed": "2026-07-09",
+      "carry_badge": "NEW"
+    },
+    {
+      "id": "o8",
+      "bank": "JPMorgan",
+      "sector": "Space / ECM",
+      "urgency": "WARM",
+      "headline": "Joint active bookrunner on MDA Space's US$819M offering",
+      "why_it_matters": "JPMorgan is a joint active bookrunner on MDA Space's upsized US$819M raise (July 9) funding the CLS acquisition — a rare, dated, public touchpoint for its TMT/space coverage tied to a live cross-border syndicate.",
+      "deal_clock": [
+        {
+          "date": "Jul 9, 2026",
+          "event": "JPMorgan named joint active bookrunner on MDA's US$819M deal"
+        }
+      ],
+      "outreach_idea": "Connect with JPMorgan's ECM/space coverage on the MDA syndicate — a live bookrun funding a cross-border acquisition is a clean diligence-access hook.",
+      "outreach_draft": {
+        "subject": "MDA Space — syndicate diligence support",
+        "body": "Congratulations on JPMorgan's role in MDA Space's US$819M offering funding the CLS acquisition. Syndicated raises tied to a cross-border deal move diligence quickly across the bookrunner group — would welcome a conversation on clean, auditable access support.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies",
+        "source": "FinanzNachrichten (company release)",
+        "source_url": "https://www.finanznachrichten.de/nachrichten-2026-07/68986985-mda-space-ltd-mda-space-increases-previously-announced-bought-deal-offering-of-common-shares-399.htm",
+        "published": "2026-07-09",
+        "confidence": "Reported"
+      },
+      "source": "FinanzNachrichten (company release)",
+      "source_url": "https://www.finanznachrichten.de/nachrichten-2026-07/68986985-mda-space-ltd-mda-space-increases-previously-announced-bought-deal-offering-of-common-shares-399.htm",
+      "published": "2026-07-09",
+      "confidence": "Reported",
+      "first_seen": "2026-07-09",
+      "last_confirmed": "2026-07-09",
+      "carry_badge": "NEW"
+    }
+  ],
+  "pipeline_watch": {
+    "note": "Named covered-bank mandates and sector heat. Rumored / no-adviser situations now live in the Rumor Mill.",
+    "covered_bank_leads": [],
+    "situations_to_watch": []
+  },
+  "skeptics_corner": {
+    "note": "Unconfirmed leads — rumored deals and situations with no adviser named yet. Real reporting, but treat as speculative: chase them, don’t quote them on a call.",
+    "items": [
+      {
+        "company": "easyJet",
+        "bank": "unconfirmed",
+        "lead": "Board 'minded to accept' an improved ~£5.2B / ~$7.3B take-private from US investor Castlelake; break-up speculation; adviser not disclosed",
+        "why_unverified": "No adviser named yet — reach out before the mandate is awarded.",
+        "sector": "Airlines / travel",
+        "source_note": "Reuters, Jul 6 2026",
+        "confidence": "Speculative"
+      },
+      {
+        "company": "Criteo",
+        "bank": "unconfirmed",
+        "lead": "Received a buyout approach from Vista Equity Partners and Quinti Capital ('sources say'); adviser not disclosed",
+        "why_unverified": "No adviser named yet — reach out before the mandate is awarded.",
+        "sector": "AdTech / digital advertising",
+        "source_note": "Reuters (via Yahoo Finance), Jul 6 2026",
+        "confidence": "Speculative"
+      },
+      {
+        "company": "GFL Environmental",
+        "bank": "unconfirmed",
+        "lead": "Weighing a take-private amid buyout-firm interest; reported to have held investment talks with Apollo; adviser not disclosed",
+        "why_unverified": "No adviser named yet — reach out before the mandate is awarded.",
+        "sector": "Environmental services / waste",
+        "source_note": "Bloomberg / Globe and Mail, Jul 3-6 2026",
+        "confidence": "Speculative"
+      },
+      {
+        "company": "Fiserv (STAR debit network)",
+        "bank": "unconfirmed",
+        "lead": "Exploring a sale of its STAR debit-card network, reportedly in talks with large US banks; adviser not disclosed",
+        "why_unverified": "No adviser named yet — reach out before the mandate is awarded.",
+        "sector": "Payments / fintech",
+        "source_note": "Reuters, Jul 7 2026",
+        "confidence": "Speculative"
+      },
+      {
+        "company": "Alkami Technology",
+        "bank": "unconfirmed",
+        "lead": "Activist Jana Partners built a ~10% stake and is publicly pushing the cloud banking-software firm toward a sale; adviser not disclosed",
+        "why_unverified": "No adviser named yet — reach out before the mandate is awarded.",
+        "sector": "Fintech / SaaS",
+        "source_note": "Yahoo Finance, Jul 6 2026",
+        "confidence": "Speculative"
+      },
+      {
+        "company": "Bio-Techne",
+        "bank": "unconfirmed",
+        "lead": "Activist Ananym Capital urging the life-sciences tools firm to consider selling itself; adviser not disclosed",
+        "why_unverified": "No adviser named yet — reach out before the mandate is awarded.",
+        "sector": "Life-sciences tools",
+        "source_note": "Reuters (via MSN), Jul 6 2026",
+        "confidence": "Speculative"
+      },
+      {
+        "company": "Dynatrace",
+        "bank": "unconfirmed",
+        "lead": "Activist Starboard Value reportedly building a stake; shares jumped after-hours; adviser not disclosed",
+        "why_unverified": "No adviser named yet — reach out before the mandate is awarded.",
+        "sector": "Software / observability",
+        "source_note": "Stocktwits, Jul 9 2026",
+        "confidence": "Speculative"
+      }
+    ]
+  },
+  "sector_heat": {
+    "note": "Which sectors are driving M&A right now — lead outreach with bankers in the hottest verticals. Carried from H1 2026 league-table and mid-year outlook coverage; today's live mandates skew to space/defense ECM and contested public-company tenders.",
+    "ranked": [
+      {
+        "sector": "Technology / Semiconductors",
+        "read": "In focus today — a record ~$74.6B monthly memory-sales print drove a 7-8% chip rally (Micron, AMD, Western Digital) and led the tape; tech/AI remains the 2026 M&A volume leader despite mega-cap wobble.",
+        "source_note": "Investing.com / PwC TMT mid-year outlook, Jul 2026"
+      },
+      {
+        "sector": "Contested public M&A / tenders",
+        "read": "Unusually active — two live hostile/unsolicited tenders today (Diana/Genco with Jefferies + Morgan Stanley; Zodiac/Destination XL with Guggenheim), the most access-sensitive processes there are.",
+        "source_note": "GlobeNewswire (Genco / DXL releases), Jul 8-9 2026"
+      },
+      {
+        "sector": "Space & defense / ECM",
+        "read": "MDA Space's upsized US$819M raise (RBC, BMO, JPMorgan, BofA, Scotiabank) funds a cross-border CLS acquisition — capital-markets execution funding strategic M&A.",
+        "source_note": "FinanzNachrichten / SpaceNews, Jul 8-9 2026"
+      },
+      {
+        "sector": "Financial services",
+        "read": "Consolidation wave still breaking — the Fiserv STAR debit-network sale talks with big US banks are live this week; activist pressure building on fintech (Alkami).",
+        "source_note": "Reuters / Yahoo Finance, Jul 2026"
+      }
+    ]
+  },
+  "talking_point": {
+    "quote": "This week you saw both sides of it — advisory stocks got hit hardest Wednesday on the risk-off, then led the rebound Thursday, up 4-5% at the boutiques. The market is trading your franchises purely on deal-flow expectations. With Q2 earnings next week, how are you framing the pipeline — is the tape steady enough now to relaunch the processes that stalled in June?",
+    "use_with": "M&A and advisory coverage teams (esp. at Evercore, Lazard, Jefferies, Goldman, Morgan Stanley)",
+    "context": "The two-way move is the freshest, most concrete hook in today's brief: EVR/LAZ/JEF fell hardest on Wednesday's Iran-driven risk-off, then rallied 4-5% on Thursday's snapback, versus +1-3% for the bulge bracket. It sets up a natural pre-earnings (GS/JPM Jul 14, MS Jul 15) conversation about pipeline confidence and relaunching stalled processes — the moment room infrastructure gets revisited. Ties directly to today's live mandates (RBC/JPM on MDA, Jefferies/MS on Genco).",
+    "confidence": "Reported"
+  },
+  "market_snapshot": {
+    "indices": [
+      {
+        "label": "S&P 500",
+        "value": "7,503.08",
+        "change": "+0.27%",
+        "positive": true
+      },
+      {
+        "label": "Nasdaq 100",
+        "value": "29,560.52",
+        "change": "+1.05%",
+        "positive": true
+      },
+      {
+        "label": "Dow Jones",
+        "value": "52,448.19",
+        "change": "+0.19%",
+        "positive": true
+      },
+      {
+        "label": "Russell 2000",
+        "value": "2,984.92",
+        "change": "+0.97%",
+        "positive": true
+      },
+      {
+        "label": "10Y Treasury",
+        "value": "4.561%",
+        "change": "-0.8bps",
+        "positive": true
+      },
+      {
+        "label": "WTI Crude",
+        "value": "$72.64",
+        "change": "-1.20%",
+        "positive": false
+      }
+    ],
+    "bank_stocks": [
+      {
+        "ticker": "GS",
+        "price": "$1,059.98",
+        "change": "+2.95%",
+        "positive": true
+      },
+      {
+        "ticker": "MS",
+        "price": "$223.52",
+        "change": "+2.50%",
+        "positive": true
+      },
+      {
+        "ticker": "JPM",
+        "price": "$334.69",
+        "change": "+1.23%",
+        "positive": true
+      },
+      {
+        "ticker": "EVR",
+        "price": "$346.55",
+        "change": "+4.69%",
+        "positive": true
+      },
+      {
+        "ticker": "LAZ",
+        "price": "$42.56",
+        "change": "+4.34%",
+        "positive": true
+      },
+      {
+        "ticker": "JEF",
+        "price": "$53.23",
+        "change": "+4.17%",
+        "positive": true
+      }
+    ],
+    "macro_note": "A risk-on snapback reversed Wednesday's Iran-driven selloff: a record ~$74.6B monthly memory-sales print drove a semiconductor rally (Micron/AMD/Western Digital +7-8%), lifting the Nasdaq 100 ~1.05% even as mega-cap AI names (Nvidia/Meta/Alphabet ~-2%) lagged. WTI crude fell ~1.2% to $72.64 as oil shrugged off the US-Iran escalation, and the VIX eased ~1% to 16.72. Rates were little changed a day after the hawkish June FOMC minutes, with the 10Y at ~4.561% (-0.8bps). Advisory-levered financials led (EVR +4.7%, LAZ +4.3%, JEF +4.2%; GS +3.0%). (Levels are intraday ~10:25 a.m. ET Jul 9, not official closes; 2Y Treasury omitted — feed unverified.)"
+  }
+}
