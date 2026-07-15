@@ -1,42 +1,42 @@
 {
-  "date": "2026-07-14",
-  "edition": 9,
-  "lens": "Bank-earnings day sets the tone: Goldman jumped ~7.7% on record global banking & markets revenue ($20.34B), JPMorgan rose ~1.9% (EPS $7.70), and Morgan Stanley climbed ~4.3% — a strong read-through on capital-markets and advisory momentum. Beneath the tape, the M&A filing record stayed dense: AbbVie's $135.11/sh cash buy of Apogee (Goldman, Jefferies), the AvalonBay/Equity Residential all-stock REIT merger (Goldman; Wells Fargo, Centerview), and Olin/Huntsman (Citi, Lazard) all advanced.",
+  "date": "2026-07-15",
+  "edition": 10,
+  "lens": "Morgan Stanley caps a strong bank-earnings run with record Q2 revenue and profit on dealmaking and equities trading, following Goldman (+9% on the print) and JPMorgan (+2.5%). The tape firmed (S&P +0.4%, Nasdaq +0.6%). Under it, fresh deal flow is dense and multi-bank: ePointZero's completed $2.25B all-cash buy of Traverse Midstream (JPMorgan buy-side; Evercore and Greenhill sell-side), plus this week's filed proxies — Apogee/AbbVie ($135.11/sh; Goldman, Jefferies), AvalonBay/Equity Residential, and Olin/Huntsman.",
   "ticker": [
     {
       "label": "S&P 500",
-      "value": "7,548.38",
-      "change": "+0.44%",
+      "value": "7,573.17",
+      "change": "+0.39%",
       "positive": true
     },
     {
       "label": "Nasdaq",
-      "value": "26,150.12",
-      "change": "+1.07%",
+      "value": "26,261.53",
+      "change": "+0.59%",
       "positive": true
     },
     {
       "label": "Dow",
-      "value": "52,439.28",
-      "change": "-0.11%",
-      "positive": false
+      "value": "52,629.43",
+      "change": "+0.23%",
+      "positive": true
     },
     {
       "label": "GS",
-      "value": "$1,126.06",
-      "change": "+7.66%",
+      "value": "$1,140.00",
+      "change": "+9.00%",
       "positive": true
     },
     {
       "label": "JPM",
-      "value": "$340.71",
-      "change": "+1.85%",
+      "value": "$342.89",
+      "change": "+2.50%",
       "positive": true
     },
     {
       "label": "MS",
-      "value": "$230.60",
-      "change": "+4.30%",
+      "value": "$228.10",
+      "change": "+0.00%",
       "positive": true
     }
   ],
@@ -46,19 +46,19 @@
       "category": "BANKING",
       "urgency": "HIGH",
       "scope": "bank",
-      "bank": "Goldman Sachs",
-      "headline": "Goldman jumps ~7.7% on record global banking & markets revenue in Q2",
-      "why_it_matters": "Goldman Sachs reported Q2 2026 revenue of $20.34B and net earnings of $6.4B, topping expectations on record Global Banking & Markets revenue, and the stock rose ~7.66% to $1,126.06. A record banking-and-markets print is a direct signal that advisory and financing pipelines are active — the backdrop for deal-process infrastructure demand.",
-      "suggested_action": "Use Goldman's record banking/markets quarter as a pipeline-confidence hook with advisory coverage teams — strong capital-markets revenue means live processes and diligence workflows.",
+      "bank": "Morgan Stanley",
+      "headline": "Morgan Stanley posts record Q2 revenue and profit on dealmaking and equities trading",
+      "why_it_matters": "Morgan Stanley reported record Q2 2026 revenue and profit, beating Wall Street estimates, with equities trading and dealmaking driving the beat — the last of the three big banks (after Goldman and JPMorgan) to report this cycle. Record advisory/markets results signal active pipelines, the backdrop for deal-process and diligence demand. (Shares were roughly flat intraday as the beat was largely expected.)",
+      "suggested_action": "Use the MS record quarter as a pipeline-confidence hook with advisory coverage teams — strong dealmaking revenue means live processes that need secure diligence infrastructure.",
       "deal_clock": [
         {
-          "date": "Jul 14, 2026",
-          "event": "Goldman reports record Q2 Global Banking & Markets revenue"
+          "date": "Jul 15, 2026",
+          "event": "Morgan Stanley reports record Q2 revenue & profit"
         }
       ],
-      "source": "Yahoo Finance (GS quote + Q2 earnings)",
-      "source_url": "https://finance.yahoo.com/quote/GS/",
-      "published": "2026-07-14",
+      "source": "Yahoo Finance (MS quote + Q2 earnings)",
+      "source_url": "https://finance.yahoo.com/quote/MS/",
+      "published": "2026-07-15",
       "confidence": "Reported",
       "tags": [
         "earnings",
@@ -67,56 +67,103 @@
     },
     {
       "id": "s2",
-      "category": "BANKING",
-      "urgency": "HIGH",
-      "scope": "bank",
-      "bank": "JPMorgan",
-      "headline": "JPMorgan tops Q2 estimates — EPS $7.70 on $57.35B revenue; stock +1.9%",
-      "why_it_matters": "JPMorgan reported Q2 EPS of $7.70 on revenue of $57.35B, both ahead of expectations, and the stock rose ~1.85% to $340.71. Jamie Dimon flagged economic resiliency alongside inflation/geopolitical risk. Strong results from the largest US bank reinforce a constructive backdrop for deal and financing activity.",
-      "suggested_action": "Reference JPMorgan's beat when engaging its coverage teams — a strong quarter supports conversations about relaunching and running processes into H2.",
-      "deal_clock": [
-        {
-          "date": "Jul 14, 2026",
-          "event": "JPMorgan reports Q2 beat (EPS $7.70, rev $57.35B)"
-        }
-      ],
-      "source": "Yahoo Finance (JPM quote + Q2 earnings)",
-      "source_url": "https://finance.yahoo.com/quote/JPM/",
-      "published": "2026-07-14",
-      "confidence": "Reported",
-      "tags": [
-        "earnings"
-      ]
-    },
-    {
-      "id": "s3",
       "category": "MACRO",
       "urgency": "MEDIUM",
       "scope": "market",
-      "headline": "Stocks firm on bank-earnings day: S&P +0.4%, Nasdaq +1.1%, Dow roughly flat",
-      "why_it_matters": "The tape rose as big-bank earnings landed — S&P 500 +0.44% (7,548.38), Nasdaq +1.07% (26,150.12), Dow -0.11% (52,439.28). Advisory-levered names led (MS +4.3%, GS +7.7%), a market vote of confidence in capital-markets momentum.",
-      "suggested_action": "Frame the day as the market re-rating advisory franchises on deal-flow expectations — a natural lead-in to pipeline conversations.",
+      "headline": "Stocks firm as bank earnings wrap: S&P +0.4%, Nasdaq +0.6%, Dow +0.2%",
+      "why_it_matters": "US equities rose as the big-bank earnings cycle closed out constructively — S&P 500 +0.39% (7,573.17), Nasdaq +0.59% (26,261.53), Dow +0.23% (52,629.43). Goldman (+9% on its print) and JPMorgan (+2.5%) led financials higher this week, a market vote of confidence in capital-markets momentum.",
+      "suggested_action": "Frame the week as the market re-rating advisory franchises on deal-flow expectations — a natural lead-in to pipeline conversations post-earnings.",
       "source": "Yahoo Finance",
       "source_url": "https://finance.yahoo.com/quote/%5EGSPC/",
-      "published": "2026-07-14"
+      "published": "2026-07-15"
+    },
+    {
+      "id": "s3",
+      "category": "DEALS",
+      "urgency": "HIGH",
+      "scope": "bank",
+      "bank": "JPMorgan",
+      "headline": "JPMorgan advises ePointZero on its completed $2.25B all-cash buy of Traverse Midstream",
+      "why_it_matters": "ePointZero (a 2PointZero/Abu Dhabi group) completed a $2.25B all-cash acquisition of Traverse Midstream Partners — owner of 35% of the Rover Pipeline and 25% of the Ohio River System — from The Energy & Minerals Group. J.P. Morgan Securities advised the buyer (ePointZero); Santander and Mizuho provided committed financing. A cross-border energy-infrastructure deal of scale with heavy financing and diligence workstreams.",
+      "suggested_action": "Reach out to JPMorgan's energy/infrastructure coverage on the Traverse Midstream close — a $2.25B cross-border deal with committed financing is a strong diligence/data-room use case.",
+      "deal_clock": [
+        {
+          "date": "Jul 14, 2026",
+          "event": "ePointZero completes $2.25B acquisition of Traverse Midstream"
+        }
+      ],
+      "source": "PR Newswire (deal completion release)",
+      "source_url": "https://www.prnewswire.com/news-releases/epointzero-enters-us-market-completes-acquisition-of-traverse-midstream-partners-for-usd-2-25-billion-302825155.html",
+      "published": "2026-07-14",
+      "confidence": "Reported",
+      "tags": [
+        "energy",
+        "infrastructure",
+        "cross-border"
+      ]
     },
     {
       "id": "s4",
+      "category": "DEALS",
+      "urgency": "HIGH",
+      "scope": "bank",
+      "bank": "Evercore",
+      "headline": "Evercore advises Traverse Midstream on its $2.25B all-cash sale to ePointZero",
+      "why_it_matters": "On the sell-side of the completed $2.25B Traverse Midstream deal, Evercore served as financial adviser to Traverse (with Greenhill as co-adviser), representing The Energy & Minerals Group. A large energy-infrastructure sell-side with multiple advisers and cross-border financing.",
+      "suggested_action": "Engage Evercore's energy coverage on the Traverse Midstream sale — a completed $2.25B infrastructure deal is a concrete reason to talk diligence access across the adviser group.",
+      "deal_clock": [
+        {
+          "date": "Jul 14, 2026",
+          "event": "Traverse Midstream sold to ePointZero for $2.25B"
+        }
+      ],
+      "source": "PR Newswire (deal completion release)",
+      "source_url": "https://www.prnewswire.com/news-releases/epointzero-enters-us-market-completes-acquisition-of-traverse-midstream-partners-for-usd-2-25-billion-302825155.html",
+      "published": "2026-07-14",
+      "confidence": "Reported",
+      "tags": [
+        "energy",
+        "infrastructure",
+        "sell-side"
+      ]
+    },
+    {
+      "id": "s5",
+      "category": "DEALS",
+      "urgency": "MEDIUM",
+      "scope": "bank",
+      "bank": "Greenhill & Co",
+      "headline": "Greenhill co-advises Traverse Midstream on its $2.25B sale to ePointZero",
+      "why_it_matters": "Greenhill & Co (a Mizuho affiliate) served as co-financial adviser to Traverse Midstream on its completed $2.25B all-cash sale to ePointZero, alongside Evercore. A large cross-border energy-infrastructure sell-side mandate.",
+      "suggested_action": "Talk to Greenhill on the Traverse Midstream sale — a completed multi-adviser infrastructure deal is a live diligence use case.",
+      "deal_clock": [
+        {
+          "date": "Jul 14, 2026",
+          "event": "Traverse Midstream $2.25B sale completed; Greenhill co-adviser"
+        }
+      ],
+      "source": "PR Newswire (deal completion release)",
+      "source_url": "https://www.prnewswire.com/news-releases/epointzero-enters-us-market-completes-acquisition-of-traverse-midstream-partners-for-usd-2-25-billion-302825155.html",
+      "published": "2026-07-14",
+      "confidence": "Reported",
+      "tags": [
+        "energy",
+        "sell-side"
+      ]
+    },
+    {
+      "id": "s6",
       "category": "M&A",
       "urgency": "HIGH",
       "scope": "bank",
       "bank": "Goldman Sachs",
       "headline": "Goldman and Jefferies advise Apogee on AbbVie's $135.11/share cash acquisition",
-      "why_it_matters": "Apogee Therapeutics (NASDAQ: APGE) filed its definitive merger proxy for an all-cash acquisition by AbbVie at $135.11 per share. Goldman Sachs and Jefferies are Apogee's financial advisers. A large-cap biopharma take-private with a filed DEFM14A is a document-heavy, time-sensitive diligence process.",
+      "why_it_matters": "Apogee Therapeutics (NASDAQ: APGE) filed its definitive merger proxy for an all-cash acquisition by AbbVie at $135.11 per share. Goldman Sachs and Jefferies are Apogee's financial advisers. A large-cap biopharma take-private with a filed DEFM14A — a document-heavy, time-sensitive diligence process now in the shareholder-vote phase.",
       "suggested_action": "Reach out to Goldman's healthcare coverage on Apogee/AbbVie — an all-cash biopharma take-private with a filed proxy is a clean, current diligence use case.",
       "deal_clock": [
         {
-          "date": "Jun 2026",
-          "event": "AbbVie submits proposal to acquire Apogee"
-        },
-        {
           "date": "Jul 13, 2026",
-          "event": "Apogee definitive merger proxy (DEFM14A) filed; $135.11/sh cash"
+          "event": "Apogee definitive merger proxy filed; $135.11/sh cash"
         }
       ],
       "source": "SEC EDGAR — Apogee Therapeutics DEFM14A",
@@ -130,42 +177,18 @@
       ]
     },
     {
-      "id": "s5",
+      "id": "s7",
       "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Jefferies",
-      "headline": "Jefferies advises Apogee Therapeutics on its $135.11/share sale to AbbVie",
-      "why_it_matters": "Alongside Goldman, Jefferies is a financial adviser to Apogee Therapeutics on the AbbVie all-cash acquisition ($135.11/sh) whose definitive proxy was filed July 13. Jefferies' healthcare franchise is on a live large-cap biopharma sell-side.",
-      "suggested_action": "Engage Jefferies' healthcare team on the Apogee mandate — a filed take-private means the vote and diligence phase is active.",
-      "deal_clock": [
-        {
-          "date": "Jul 13, 2026",
-          "event": "Apogee DEFM14A filed; Jefferies co-adviser"
-        }
-      ],
-      "source": "SEC EDGAR — Apogee Therapeutics DEFM14A",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1974640/000114036126028341/ny20076262x2_defm14a.htm",
-      "published": "2026-07-13",
-      "confidence": "Filed",
-      "tags": [
-        "healthcare",
-        "sell-side"
-      ]
-    },
-    {
-      "id": "s6",
-      "category": "M&A",
-      "urgency": "HIGH",
-      "scope": "bank",
       "bank": "Goldman Sachs",
-      "headline": "AvalonBay–Equity Residential file all-stock REIT merger (2.793 EQR per AVB share)",
-      "why_it_matters": "AvalonBay Communities (NYSE: AVB) filed a joint proxy for an all-stock merger with Equity Residential — each AVB share converts to 2.793 EQR shares (fixed ratio), creating one of the largest US apartment REIT combinations. Goldman Sachs advises one side; Wells Fargo and Centerview advise the counterparties. A mega-cap REIT merger is a heavy integration/diligence workflow.",
+      "headline": "AvalonBay–Equity Residential all-stock REIT merger proxy filed (2.793 EQR per AVB share)",
+      "why_it_matters": "AvalonBay Communities (NYSE: AVB) filed a joint proxy for an all-stock merger with Equity Residential — each AVB share converts to 2.793 EQR shares (fixed ratio), one of the largest US apartment REIT combinations. Goldman Sachs and Morgan Stanley advise on the deal; Wells Fargo and Centerview advise the counterparties. A mega-cap REIT merger with a heavy integration/diligence workflow.",
       "suggested_action": "Talk to Goldman's real estate coverage on AvalonBay/Equity Residential — a mega-cap all-stock REIT merger with a filed proxy is a high-value data-room use case.",
       "deal_clock": [
         {
           "date": "Jul 13, 2026",
-          "event": "AvalonBay/Equity Residential joint proxy (DEFM14A) filed"
+          "event": "AvalonBay/Equity Residential joint proxy filed"
         }
       ],
       "source": "SEC EDGAR — AvalonBay DEFM14A",
@@ -179,42 +202,18 @@
       ]
     },
     {
-      "id": "s7",
-      "category": "M&A",
-      "urgency": "MEDIUM",
-      "scope": "bank",
-      "bank": "Wells Fargo",
-      "headline": "Wells Fargo and Centerview advise on the AvalonBay / Equity Residential merger",
-      "why_it_matters": "In the AvalonBay/Equity Residential all-stock REIT combination (joint proxy filed Jul 13), Wells Fargo and Centerview Partners are financial advisers to the transaction alongside Goldman. Multiple covered banks on a single mega-cap REIT merger.",
-      "suggested_action": "Reach out to Wells Fargo's real estate team on the AvalonBay/Equity Residential merger — a filed mega-cap REIT deal with live diligence.",
-      "deal_clock": [
-        {
-          "date": "Jul 13, 2026",
-          "event": "AvalonBay/Equity Residential DEFM14A filed"
-        }
-      ],
-      "source": "SEC EDGAR — AvalonBay DEFM14A",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/915912/000110465926083113/tm2619865-1_defm14a.htm",
-      "published": "2026-07-13",
-      "confidence": "Filed",
-      "tags": [
-        "real-estate",
-        "reit"
-      ]
-    },
-    {
       "id": "s8",
       "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
       "bank": "Citi",
       "headline": "Citi and Lazard advise Huntsman on its all-stock merger with Olin (0.5476 ratio)",
-      "why_it_matters": "Huntsman (NYSE: HUN) filed a joint merger proxy for an all-stock combination with Olin — each Huntsman share converts to 0.5476 Olin shares. Citi and Lazard advise Huntsman. A large chemicals merger-of-scale with a filed DEFM14A is a substantial diligence and integration process.",
+      "why_it_matters": "Huntsman (NYSE: HUN) filed a joint merger proxy for an all-stock combination with Olin — each Huntsman share converts to 0.5476 Olin shares. Citi and Lazard advise Huntsman (Morgan Stanley and BofA also named in the filing). A large chemicals merger-of-scale with a filed DEFM14A and active diligence.",
       "suggested_action": "Engage Citi's chemicals/industrials coverage on Olin/Huntsman — a filed all-stock merger means diligence workstreams are active.",
       "deal_clock": [
         {
           "date": "Jul 13, 2026",
-          "event": "Huntsman/Olin joint merger proxy (DEFM14A) filed"
+          "event": "Huntsman/Olin joint merger proxy filed"
         }
       ],
       "source": "SEC EDGAR — Huntsman DEFM14A",
@@ -228,25 +227,31 @@
     },
     {
       "id": "s9",
-      "category": "M&A",
+      "category": "RESTRUCTURING",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Lazard",
-      "headline": "Lazard advises Huntsman on the Olin merger-of-scale",
-      "why_it_matters": "Alongside Citi, Lazard is a financial adviser to Huntsman on the all-stock Olin combination (0.5476 ratio) whose joint proxy was filed July 13. Lazard's industrials franchise is on a live chemicals merger.",
-      "suggested_action": "Talk to Lazard's industrials team on Huntsman/Olin — a filed merger-of-scale is a strong diligence use case.",
+      "bank": "Jefferies",
+      "headline": "Jefferies advises Genco as its board again urges rejection of Diana's $24.80 tender",
+      "why_it_matters": "Genco Shipping & Trading (NYSE: GNK) issued an updated statement (Jul 13) urging shareholders not to tender into Diana Shipping's extended $24.80/share cash tender offer, calling it inadequate and below NAV. Jefferies is Genco's financial adviser; Morgan Stanley is special adviser to the board. A live contested tender defense — the most access-sensitive kind of process.",
+      "suggested_action": "Reach out to Jefferies on the Genco defense — a contested, extended tender is a high-stakes, access-sensitive diligence situation.",
       "deal_clock": [
         {
+          "date": "Jul 8, 2026",
+          "event": "Genco board first rejects Diana's $24.80 tender"
+        },
+        {
           "date": "Jul 13, 2026",
-          "event": "Huntsman/Olin DEFM14A filed; Lazard co-adviser"
+          "event": "Genco reiterates rejection; tender extended"
         }
       ],
-      "source": "SEC EDGAR — Huntsman DEFM14A",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1307954/000119312526302130/d149884ddefm14a.htm",
+      "source": "SEC EDGAR — Genco EX-99.(A)(67)",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326200/000114036126028322/ef20077876_ex99-a67.htm",
       "published": "2026-07-13",
       "confidence": "Filed",
       "tags": [
-        "chemicals"
+        "shipping",
+        "contested-tender",
+        "defense"
       ]
     }
   ],
@@ -264,7 +269,7 @@
           "event": "Apogee DEFM14A filed; $135.11/sh cash"
         }
       ],
-      "outreach_idea": "Open on Apogee/AbbVie — a filed large-cap biopharma take-private is a concrete reason to engage Goldman's healthcare team on diligence infrastructure.",
+      "outreach_idea": "Open on Apogee/AbbVie — a filed large-cap biopharma take-private is a concrete reason to engage Goldman's healthcare team.",
       "outreach_draft": {
         "subject": "Apogee / AbbVie — supporting a large-cap take-private",
         "body": "Congratulations on Goldman's role advising Apogee Therapeutics on the AbbVie acquisition. All-cash biopharma take-privates run heavy, time-sensitive diligence through the shareholder vote — would welcome a conversation on how we support secure, auditable data-room access to close.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
@@ -274,8 +279,8 @@
       "published": "2026-07-13",
       "confidence": "Filed",
       "first_seen": "2026-07-14",
-      "last_confirmed": "2026-07-14",
-      "carry_badge": "NEW"
+      "last_confirmed": "2026-07-15",
+      "carry_badge": "Day 2"
     },
     {
       "id": "o2",
@@ -301,7 +306,7 @@
       "confidence": "Filed",
       "first_seen": "2026-07-14",
       "last_confirmed": "2026-07-14",
-      "carry_badge": "NEW"
+      "carry_badge": "Day 2"
     },
     {
       "id": "o3",
@@ -327,7 +332,7 @@
       "confidence": "Filed",
       "first_seen": "2026-07-13",
       "last_confirmed": "2026-07-13",
-      "carry_badge": "Day 2"
+      "carry_badge": "Day 3"
     },
     {
       "id": "o4",
@@ -353,36 +358,62 @@
       "confidence": "Filed",
       "first_seen": "2026-07-13",
       "last_confirmed": "2026-07-13",
-      "carry_badge": "Day 2"
+      "carry_badge": "Day 3"
     },
     {
       "id": "o5",
-      "bank": "Morgan Stanley",
-      "sector": "Real Estate / Cross-border",
+      "bank": "JPMorgan",
+      "sector": "Energy / Infrastructure",
       "urgency": "HOT",
-      "headline": "Adviser to Real on its acquisition of RE/MAX (definitive proxy filed)",
-      "why_it_matters": "Morgan Stanley advises Real on the RE/MAX combination to form Real REMAX Group, with an elect-cash-or-stock structure and $60-80M cash proration. DEFM14A filed Jul 9 — integration diligence is live.",
+      "headline": "Adviser to ePointZero on its $2.25B acquisition of Traverse Midstream",
+      "why_it_matters": "JPMorgan advised ePointZero on its completed $2.25B all-cash buy of Traverse Midstream (Rover Pipeline / Ohio River System stakes), with committed financing from Santander and Mizuho. A large cross-border infrastructure deal with heavy diligence and financing workstreams.",
       "deal_clock": [
         {
-          "date": "Jul 9, 2026",
-          "event": "RE/MAX definitive merger proxy filed"
+          "date": "Jul 14, 2026",
+          "event": "ePointZero completes $2.25B Traverse Midstream acquisition"
         }
       ],
-      "outreach_idea": "Open on the Real/RE/MAX combination — a cross-border merger with a fresh definitive proxy is a concrete reason to talk diligence access.",
+      "outreach_idea": "Open on the Traverse Midstream close — a $2.25B cross-border infrastructure deal is a concrete reason to engage JPMorgan on diligence access.",
       "outreach_draft": {
-        "subject": "Real / RE/MAX — supporting a cross-border combination",
-        "body": "Congratulations on Morgan Stanley's role advising Real on the RE/MAX combination. With the definitive proxy now filed, integration and diligence workstreams are active — would welcome a conversation on how we support clean, auditable data-room access across the deal.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+        "subject": "Traverse Midstream — supporting a $2.25B infrastructure close",
+        "body": "Congratulations on JPMorgan's role advising ePointZero on the $2.25B Traverse Midstream acquisition. Cross-border infrastructure deals with committed financing run heavy, multi-party diligence — would welcome a conversation on how we support secure, auditable data-room access across the deal.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
       },
-      "source": "SEC EDGAR — RE/MAX DEFM14A",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1581091/000110465926082291/tm2620002-1_defm14a.htm",
-      "published": "2026-07-09",
-      "confidence": "Filed",
-      "first_seen": "2026-07-13",
-      "last_confirmed": "2026-07-13",
-      "carry_badge": "Day 2"
+      "source": "PR Newswire (deal completion release)",
+      "source_url": "https://www.prnewswire.com/news-releases/epointzero-enters-us-market-completes-acquisition-of-traverse-midstream-partners-for-usd-2-25-billion-302825155.html",
+      "published": "2026-07-14",
+      "confidence": "Reported",
+      "first_seen": "2026-07-15",
+      "last_confirmed": "2026-07-15",
+      "carry_badge": "NEW"
     },
     {
       "id": "o6",
+      "bank": "Evercore",
+      "sector": "Energy / Infrastructure",
+      "urgency": "HOT",
+      "headline": "Sell-side adviser to Traverse Midstream on its $2.25B sale to ePointZero",
+      "why_it_matters": "Evercore advised Traverse Midstream (with Greenhill) on its completed $2.25B all-cash sale to ePointZero, representing The Energy & Minerals Group. A large energy-infrastructure sell-side with cross-border financing.",
+      "deal_clock": [
+        {
+          "date": "Jul 14, 2026",
+          "event": "Traverse Midstream $2.25B sale completed"
+        }
+      ],
+      "outreach_idea": "Engage Evercore's energy team on the Traverse Midstream sale — a completed $2.25B infrastructure deal across a multi-adviser group.",
+      "outreach_draft": {
+        "subject": "Traverse Midstream — supporting a $2.25B energy sell-side",
+        "body": "Congratulations on Evercore's role advising Traverse Midstream on the $2.25B sale to ePointZero. Large infrastructure sell-sides run detailed diligence across multiple advisers — would welcome a conversation on how we support clean, auditable data-room access.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "PR Newswire (deal completion release)",
+      "source_url": "https://www.prnewswire.com/news-releases/epointzero-enters-us-market-completes-acquisition-of-traverse-midstream-partners-for-usd-2-25-billion-302825155.html",
+      "published": "2026-07-14",
+      "confidence": "Reported",
+      "first_seen": "2026-07-15",
+      "last_confirmed": "2026-07-15",
+      "carry_badge": "NEW"
+    },
+    {
+      "id": "o7",
       "bank": "Citi",
       "sector": "Chemicals / Industrials",
       "urgency": "WARM",
@@ -391,7 +422,7 @@
       "deal_clock": [
         {
           "date": "Jul 13, 2026",
-          "event": "Huntsman/Olin DEFM14A filed"
+          "event": "Huntsman/Olin joint merger proxy filed"
         }
       ],
       "outreach_idea": "Reach out to Citi's chemicals coverage on Huntsman/Olin — a filed merger-of-scale is a clean diligence use case.",
@@ -404,33 +435,59 @@
       "published": "2026-07-13",
       "confidence": "Filed",
       "first_seen": "2026-07-14",
-      "last_confirmed": "2026-07-14",
-      "carry_badge": "NEW"
+      "last_confirmed": "2026-07-15",
+      "carry_badge": "Day 2"
     },
     {
-      "id": "o7",
-      "bank": "Wells Fargo",
-      "sector": "Real Estate / REIT",
+      "id": "o8",
+      "bank": "Jefferies",
+      "sector": "Shipping / Contested M&A",
       "urgency": "WARM",
-      "headline": "Adviser on the AvalonBay / Equity Residential REIT merger",
-      "why_it_matters": "Wells Fargo (with Centerview) advises on the AvalonBay/Equity Residential all-stock REIT combination. Joint proxy filed Jul 13; diligence and integration workstreams are live.",
+      "headline": "Adviser to Genco on its defense against Diana's $24.80 tender",
+      "why_it_matters": "Jefferies is Genco's financial adviser as the board (Jul 13) again urges rejection of Diana Shipping's extended $24.80/sh tender. Contested tender defenses are among the most access-sensitive diligence situations.",
       "deal_clock": [
         {
           "date": "Jul 13, 2026",
-          "event": "AvalonBay/Equity Residential DEFM14A filed"
+          "event": "Genco reiterates rejection of Diana's $24.80 tender"
         }
       ],
-      "outreach_idea": "Talk to Wells Fargo's real estate team on the AvalonBay/Equity Residential merger — a filed mega-cap REIT deal.",
+      "outreach_idea": "Engage Jefferies on the Genco defense — a live contested tender is a high-stakes access-control use case.",
       "outreach_draft": {
-        "subject": "AvalonBay / Equity Residential — supporting a REIT combination",
-        "body": "Congratulations on Wells Fargo's role on the AvalonBay/Equity Residential merger. Large REIT combinations run substantial diligence and integration workstreams — would welcome a conversation on how we support clean, auditable data-room access.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+        "subject": "Genco — supporting a contested-tender defense",
+        "body": "Congratulations on Jefferies' continued role advising Genco through the Diana tender. Contested defenses demand tightly controlled, auditable diligence access — would welcome a conversation on how we support that through the process.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
       },
-      "source": "SEC EDGAR — AvalonBay DEFM14A",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/915912/000110465926083113/tm2619865-1_defm14a.htm",
+      "source": "SEC EDGAR — Genco EX-99.(A)(67)",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326200/000114036126028322/ef20077876_ex99-a67.htm",
       "published": "2026-07-13",
       "confidence": "Filed",
-      "first_seen": "2026-07-14",
-      "last_confirmed": "2026-07-14",
+      "first_seen": "2026-07-15",
+      "last_confirmed": "2026-07-15",
+      "carry_badge": "NEW"
+    },
+    {
+      "id": "o9",
+      "bank": "Greenhill & Co",
+      "sector": "Energy / Infrastructure",
+      "urgency": "WARM",
+      "headline": "Co-adviser to Traverse Midstream on its $2.25B sale to ePointZero",
+      "why_it_matters": "Greenhill (a Mizuho affiliate) co-advised Traverse Midstream (with Evercore) on its completed $2.25B all-cash sale to ePointZero. A large cross-border energy-infrastructure sell-side mandate.",
+      "deal_clock": [
+        {
+          "date": "Jul 14, 2026",
+          "event": "Traverse Midstream $2.25B sale completed"
+        }
+      ],
+      "outreach_idea": "Talk to Greenhill on the Traverse Midstream sale — a completed multi-adviser infrastructure deal.",
+      "outreach_draft": {
+        "subject": "Traverse Midstream — supporting a $2.25B energy sale",
+        "body": "Congratulations on Greenhill's role co-advising Traverse Midstream on the $2.25B sale to ePointZero. Large infrastructure deals run detailed, multi-party diligence — would welcome a conversation on how we support secure, auditable data-room access.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "PR Newswire (deal completion release)",
+      "source_url": "https://www.prnewswire.com/news-releases/epointzero-enters-us-market-completes-acquisition-of-traverse-midstream-partners-for-usd-2-25-billion-302825155.html",
+      "published": "2026-07-14",
+      "confidence": "Reported",
+      "first_seen": "2026-07-15",
+      "last_confirmed": "2026-07-15",
       "carry_badge": "NEW"
     }
   ],
@@ -438,57 +495,62 @@
     "indices": [
       {
         "label": "S&P 500",
-        "value": "7,548.38",
-        "change": "+33.04 (+0.44%)",
+        "value": "7,573.17",
+        "change": "+29.58 (+0.39%)",
         "positive": true
       },
       {
         "label": "Nasdaq Composite",
-        "value": "26,150.12",
-        "change": "+276.94 (+1.07%)",
+        "value": "26,261.53",
+        "change": "+154.52 (+0.59%)",
         "positive": true
       },
       {
         "label": "Dow Jones",
-        "value": "52,439.28",
-        "change": "-59.36 (-0.11%)",
-        "positive": false
+        "value": "52,629.43",
+        "change": "+121.16 (+0.23%)",
+        "positive": true
       }
     ],
     "bank_stocks": [
       {
         "ticker": "GS",
-        "price": "$1,126.06",
-        "change": "+7.66%",
+        "price": "$1,140.00",
+        "change": "+9.00%",
         "positive": true
       },
       {
         "ticker": "JPM",
-        "price": "$340.71",
-        "change": "+1.85%",
+        "price": "$342.89",
+        "change": "+2.50%",
         "positive": true
       },
       {
         "ticker": "MS",
-        "price": "$230.60",
-        "change": "+4.30%",
+        "price": "$228.10",
+        "change": "flat",
         "positive": true
       }
     ],
-    "macro_note": "Bank-earnings day lifted advisory-levered names — GS +7.7% on record global banking & markets revenue, MS +4.3%, JPM +1.9% on a Q2 beat. Intraday levels ~1:55 PM EDT Jul 14; Treasury-yield/VIX and boutique-bank quotes omitted where only stale data was verifiable."
+    "macro_note": "Big-bank earnings wrapped constructively — MS record Q2 (today), after GS (+9%) and JPM (+2.5%) prints. Indices intraday ~9:45 AM EDT Jul 15; GS/JPM shown at prior close (earnings-day moves). Treasury-yield, VIX and boutique-bank quotes omitted where only stale data was verifiable — accuracy over completeness."
   },
   "talking_point": {
-    "quote": "Goldman just printed record global banking and markets revenue and the stock's up almost 8% — the market is rewarding deal-flow momentum, not punishing it. With the filing record this week (Apogee/AbbVie, AvalonBay/Equity Residential, Olin/Huntsman all posting definitive proxies), how are you thinking about relaunching processes that stalled earlier in the summer?",
-    "use_with": "M&A and advisory coverage teams (esp. Goldman, JPMorgan, Morgan Stanley, Lazard, Citi)",
-    "context": "Anchors on the day's concrete earnings signal — GS record banking/markets revenue, MS +4.3%, JPM beat — tied to the dense filing record (three definitive proxies this week). A natural post-earnings hook on pipeline confidence and process relaunches, the moment room infrastructure gets revisited.",
+    "quote": "The big three all printed strong quarters — Goldman up 9% on record banking and markets, and now Morgan Stanley with record revenue on dealmaking. The market is paying up for deal-flow momentum. With this week's filings — Apogee/AbbVie, AvalonBay/Equity Residential, the $2.25B Traverse Midstream close — how are you framing second-half pipeline?",
+    "use_with": "M&A and advisory coverage teams (esp. Morgan Stanley, Goldman, JPMorgan, Evercore, Jefferies)",
+    "context": "Anchors on the completed bank-earnings run — MS record Q2 today, GS +9% and JPM +2.5% this week — tied to a dense filing/deal record (Apogee, AvalonBay, Huntsman, Traverse Midstream). A natural post-earnings hook on H2 pipeline confidence and relaunching processes, the moment room infrastructure gets revisited.",
     "confidence": "Reported"
   },
   "sector_heat": {
     "ranked": [
       {
         "sector": "Financial Institutions (FIG)",
-        "read": "Earnings day in focus — GS record banking/markets revenue (+7.7%), JPM beat (+1.9%), MS +4.3%; capital-markets momentum reinforced.",
-        "source_note": "Yahoo Finance Q2 earnings, Jul 14 2026"
+        "read": "Earnings run wrapped strong — MS record Q2 today; GS +9% and JPM +2.5% this week reinforce capital-markets momentum.",
+        "source_note": "Yahoo Finance Q2 earnings, Jul 14-15 2026"
+      },
+      {
+        "sector": "Energy / Infrastructure",
+        "read": "ePointZero's $2.25B all-cash buy of Traverse Midstream (JPMorgan buy-side; Evercore, Greenhill sell-side) — a cross-border infrastructure deal of scale.",
+        "source_note": "PR Newswire, Jul 14 2026"
       },
       {
         "sector": "Healthcare / Biopharma",
@@ -497,13 +559,8 @@
       },
       {
         "sector": "Real Estate / REITs",
-        "read": "AvalonBay/Equity Residential all-stock merger (Goldman; Wells Fargo, Centerview) — a mega-cap apartment REIT combination.",
+        "read": "AvalonBay/Equity Residential all-stock merger (Goldman, Morgan Stanley; Wells Fargo, Centerview) — a mega-cap apartment REIT combination.",
         "source_note": "SEC EDGAR AvalonBay DEFM14A, Jul 13 2026"
-      },
-      {
-        "sector": "Chemicals / Industrials",
-        "read": "Olin/Huntsman all-stock merger-of-scale (Citi, Lazard) advanced with a filed joint proxy.",
-        "source_note": "SEC EDGAR Huntsman DEFM14A, Jul 13 2026"
       }
     ]
   },
@@ -513,10 +570,56 @@
     "situations_to_watch": []
   },
   "skeptics_corner": {
-    "note": "Unconfirmed leads — rumored deals and situations with no adviser named yet. Real reporting, but treat as speculative: chase them, don't quote them on a call.",
-    "items": []
+    "note": "Unconfirmed leads — rumored deals and situations with no adviser named yet (or advisers unconfirmed). Real reporting, but treat as speculative: chase them, don't quote them on a call.",
+    "items": [
+      {
+        "company": "PayPal Holdings (PYPL)",
+        "bank": "unconfirmed",
+        "lead": "Received an unsolicited ~$53B buyout proposal ($60.50/share) from Stripe and Advent International, who would jointly own it 50/50; all parties declined to comment.",
+        "why_unverified": "Reported takeover proposal; no financial advisers disclosed. A massive potential mandate up for grabs — reach out early.",
+        "sector": "Fintech / Payments",
+        "source_note": "Yahoo Finance (citing Reuters/WSJ/FT), Jul 15 2026",
+        "source_url": "https://finance.yahoo.com/markets/stocks/article/paypal-stock-soars-on-report-of-buyout-proposal-from-stripe-advent-131101969.html",
+        "confidence": "Speculative"
+      },
+      {
+        "company": "Genuine Parts Company (GPC)",
+        "bank": "unconfirmed",
+        "lead": "O'Reilly Automotive has reportedly made a cash bid of $10B+ for GPC's automotive (NAPA) division, which GPC had planned to spin off — a rival move to the planned tax-free spinoff.",
+        "why_unverified": "Reported bid; JPMorgan and Guggenheim were hired for the spinoff, not confirmed on the O'Reilly bid. Situation in flux.",
+        "sector": "Automotive Aftermarket",
+        "source_note": "Yahoo Finance / The Auto Wire (citing Bloomberg), Jul 11 2026",
+        "source_url": "https://finance.yahoo.com/markets/stocks/articles/oreillys-reported-10-billion-bid-120800421.html",
+        "confidence": "Speculative"
+      },
+      {
+        "company": "Lionsgate Studios (LION)",
+        "bank": "unconfirmed",
+        "lead": "Exploring a sale; has attracted takeover interest from France's Bolloré Group (backing Canal+) and Banijay Group — a deal is uncertain and it could remain independent.",
+        "why_unverified": "Article says an unnamed investment bank is helping evaluate approaches; no adviser confirmed and no deal certain.",
+        "sector": "Media / Entertainment",
+        "source_note": "AOL (Reuters exclusive), Jul 14 2026",
+        "source_url": "https://www.aol.com/articles/exclusive-lionsgate-studios-attracts-takeover-210942000.html",
+        "confidence": "Speculative"
+      },
+      {
+        "company": "NextEnergy Solar Fund (LSE: NESF)",
+        "bank": "unconfirmed",
+        "lead": "Launched a formal sale process inviting expressions of interest for the entire share capital, after trading at a discount to NAV; board says it is not yet in active discussions with any bidder.",
+        "why_unverified": "Formally announced sale process (firmer than a rumor) but no buyer or sell-side adviser confirmed yet — a legitimate chase.",
+        "sector": "Renewable Energy / Solar (UK)",
+        "source_note": "Proactive via Yahoo Finance UK, Jul 15 2026",
+        "source_url": "https://uk.finance.yahoo.com/news/jefferies-says-sale-best-way-091800859.html",
+        "confidence": "Speculative"
+      }
+    ]
   },
   "archive": [
+    {
+      "date": "2026-07-14",
+      "edition": 9,
+      "file": "2026-07-14.json"
+    },
     {
       "date": "2026-07-13",
       "edition": 8,
