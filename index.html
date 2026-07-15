@@ -6,9 +6,23 @@
   <title>DealBrief · Banking & Capital Advisory Intelligence</title>
   <meta name="description" content="Daily intelligence for Banking & Capital Advisory sales teams." />
   <meta name="theme-color" content="#FFFFFF" />
+  <!-- Apply the saved theme BEFORE first paint to avoid a flash of the wrong
+       theme. Light is the default; only dark sets the data-theme attribute. -->
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem('dealbrief_theme');
+        if (t === 'dark') {
+          document.documentElement.setAttribute('data-theme', 'dark');
+          var m = document.querySelector('meta[name="theme-color"]');
+          if (m) m.setAttribute('content', '#0D0F12');
+        }
+      } catch (e) {}
+    })();
+  </script>
   <!-- Bump ?v= on any CSS change so browsers fetch the new file instead of a
        cached copy (GitHub Pages caches assets aggressively). -->
-  <link rel="stylesheet" href="assets/css/main.css?v=20260715-2" />
+  <link rel="stylesheet" href="assets/css/main.css?v=20260715-3" />
 </head>
 <body>
 
@@ -48,6 +62,10 @@
           <span>Resources</span>
         </button>
       </div>
+
+      <button class="nav-settings" id="theme-toggle" aria-label="Toggle light/dark theme" title="Toggle theme">
+        <span id="theme-toggle-icon">☾</span>
+      </button>
 
       <button class="nav-settings" id="settings-btn" aria-label="Open settings" title="Settings">
         ⚙
@@ -300,7 +318,7 @@
 
   <!-- ── Scripts ──────────────────────────────────────────── -->
   <!-- Bump ?v= on any JS change (matches the CSS version) to bust the cache. -->
-  <script type="module" src="assets/js/app.js?v=20260715-2"></script>
+  <script type="module" src="assets/js/app.js?v=20260715-3"></script>
 
 </body>
 </html>

@@ -58,6 +58,35 @@ function initNavigation() {
   });
 }
 
+/* ── Theme toggle (light / dark) ─────────────────────────── */
+function applyTheme(theme) {
+  const isDark = theme === 'dark';
+  // Light is the default (no attribute); only dark sets data-theme.
+  if (isDark) {
+    document.documentElement.setAttribute('data-theme', 'dark');
+  } else {
+    document.documentElement.removeAttribute('data-theme');
+  }
+  // Icon shows the theme you'd switch TO: moon while light, sun while dark.
+  const icon = document.getElementById('theme-toggle-icon');
+  if (icon) icon.textContent = isDark ? '☀' : '☾';
+  // Keep the browser chrome color in sync.
+  const meta = document.querySelector('meta[name="theme-color"]');
+  if (meta) meta.setAttribute('content', isDark ? '#0D0F12' : '#FFFFFF');
+}
+
+function initTheme() {
+  let saved = 'light';
+  try { saved = localStorage.getItem('dealbrief_theme') || 'light'; } catch (e) {}
+  applyTheme(saved);
+
+  document.getElementById('theme-toggle')?.addEventListener('click', () => {
+    const next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+    applyTheme(next);
+    try { localStorage.setItem('dealbrief_theme', next); } catch (e) {}
+  });
+}
+
 /* ── Settings Panel ──────────────────────────────────────── */
 function initSettings() {
   const btn     = document.getElementById('settings-btn');
@@ -181,6 +210,7 @@ function initKeyboard() {
 
 /* ── Bootstrap ───────────────────────────────────────────── */
 function boot() {
+  initTheme();
   initNavigation();
   initSettings();
   initModal();

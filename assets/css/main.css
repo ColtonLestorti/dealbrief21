@@ -84,11 +84,41 @@
   --shadow-modal: 0 24px 64px rgba(16,21,28,0.18), 0 0 0 1px var(--bg-border);
   --shadow-hover: 0 4px 16px rgba(16,21,28,0.12), 0 0 0 1px var(--bg-border);
 
+  /* Chrome surfaces (fixed bars) — tokenized so light/dark both control them */
+  --chrome-ticker:  var(--bg-elevated);          /* ticker strip */
+  --chrome-nav:     rgba(255, 255, 255, 0.92);   /* top nav (translucent) */
+  --chrome-subnav:  rgba(247, 248, 250, 0.95);   /* sticky section nav */
+
   /* Layout */
   --max-width: 1200px;
   --sidebar-width: 320px;
   --nav-height: 52px;
   --ticker-height: 36px;
+}
+
+/* ── Dark theme override ─────────────────────────────────────
+   Light is the default (:root above). Setting data-theme="dark" on <html>
+   re-declares the surface/text/chrome tokens back to the original dark
+   palette. Accent and all badge/status colors are shared (unchanged). */
+html[data-theme="dark"] {
+  --bg-base:        #0D0F12;
+  --bg-surface:     #13161B;
+  --bg-elevated:    #1A1E25;
+  --bg-border:      #252A33;
+  --bg-subtle:      #1F242C;
+
+  --text-primary:   #F0F2F5;
+  --text-secondary: #8A94A6;
+  --text-muted:     #6B7686;
+  --text-accent:    #3B9BE0;   /* brighter blue for links on dark */
+
+  --shadow-card:  0 1px 3px rgba(0,0,0,0.4), 0 0 0 1px var(--bg-border);
+  --shadow-modal: 0 24px 64px rgba(0,0,0,0.7), 0 0 0 1px var(--bg-border);
+  --shadow-hover: 0 4px 16px rgba(0,0,0,0.5), 0 0 0 1px var(--bg-border);
+
+  --chrome-ticker:  #0A0C0F;
+  --chrome-nav:     rgba(13, 15, 18, 0.95);
+  --chrome-subnav:  rgba(13, 15, 18, 0.95);
 }
 
 /* ── Reset ──────────────────────────────────────────────── */
@@ -128,7 +158,7 @@ ul, ol { list-style: none; }
   left: 0;
   right: 0;
   height: var(--ticker-height);
-  background: var(--bg-elevated);
+  background: var(--chrome-ticker);
   border-bottom: 1px solid var(--bg-border);
   z-index: 100;
   overflow: hidden;
@@ -187,7 +217,7 @@ ul, ol { list-style: none; }
   left: 0;
   right: 0;
   height: var(--nav-height);
-  background: rgba(255, 255, 255, 0.92);
+  background: var(--chrome-nav);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--bg-border);
@@ -334,7 +364,7 @@ ul, ol { list-style: none; }
   position: sticky;
   top: calc(var(--ticker-height) + var(--nav-height));
   z-index: 90;
-  background: rgba(247, 248, 250, 0.95);
+  background: var(--chrome-subnav);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
 }
