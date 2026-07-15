@@ -36,11 +36,12 @@
   --positive:       #3DAB73;   /* market up */
   --negative:       #E85D4A;   /* market down */
 
-  /* Text scale — dark ink on light canvas */
-  --text-primary:   #10151C;   /* headings, primary content — near-black ink */
-  --text-secondary: #4A5568;   /* supporting text, metadata */
-  --text-muted:     #7B8494;   /* timestamps, labels */
-  --text-accent:    #0077C8;   /* highlighted text — SS&C blue */
+  /* Text scale — dark ink on light canvas.
+     Tuned for readability on white: body ~9:1, meta/labels ~5.5:1 (WCAG AA). */
+  --text-primary:   #0E1319;   /* headings, primary content — near-black ink */
+  --text-secondary: #333B47;   /* body / supporting text — dark slate, ~9:1 */
+  --text-muted:     #566072;   /* timestamps, labels — mid slate, ~5.6:1 AA */
+  --text-accent:    #0069B0;   /* highlighted text — SS&C blue, slightly deepened for links on white */
 
   /* Typography */
   --font-display:   'DM Serif Display', Georgia, serif;
