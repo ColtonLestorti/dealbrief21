@@ -12,12 +12,13 @@
 
 /* ── Design Tokens ───────────────────────────────────────── */
 :root {
-  /* Core palette */
-  --bg-base:        #0D0F12;   /* near-black — primary canvas */
-  --bg-surface:     #13161B;   /* cards, panels */
-  --bg-elevated:    #1A1E25;   /* hover states, modals */
-  --bg-border:      #252A33;   /* dividers, card borders */
-  --bg-subtle:      #1F242C;   /* tag backgrounds, secondary surfaces */
+  /* Core palette — light theme (professional / research-note look).
+     Accent and all badge/status colors are unchanged from the dark theme. */
+  --bg-base:        #F7F8FA;   /* light grey — primary canvas */
+  --bg-surface:     #FFFFFF;   /* cards, panels — white */
+  --bg-elevated:    #F0F2F5;   /* hover states, modals */
+  --bg-border:      #E2E6EC;   /* dividers, card borders */
+  --bg-subtle:      #EEF1F5;   /* tag backgrounds, secondary surfaces */
 
   /* Accent — SS&C Blue (brand primary, #0077C8) */
   --accent:         #0077C8;   /* primary accent — SS&C Blue */
@@ -35,11 +36,11 @@
   --positive:       #3DAB73;   /* market up */
   --negative:       #E85D4A;   /* market down */
 
-  /* Text scale */
-  --text-primary:   #F0F2F5;   /* headings, primary content */
-  --text-secondary: #8A94A6;   /* supporting text, metadata */
-  --text-muted:     #545E6E;   /* timestamps, labels */
-  --text-accent:    #0077C8;   /* highlighted text */
+  /* Text scale — dark ink on light canvas */
+  --text-primary:   #10151C;   /* headings, primary content — near-black ink */
+  --text-secondary: #4A5568;   /* supporting text, metadata */
+  --text-muted:     #7B8494;   /* timestamps, labels */
+  --text-accent:    #0077C8;   /* highlighted text — SS&C blue */
 
   /* Typography */
   --font-display:   'DM Serif Display', Georgia, serif;
@@ -78,9 +79,9 @@
   --transition-slow: 300ms ease;
 
   /* Shadows */
-  --shadow-card:  0 1px 3px rgba(0,0,0,0.4), 0 0 0 1px var(--bg-border);
-  --shadow-modal: 0 24px 64px rgba(0,0,0,0.7), 0 0 0 1px var(--bg-border);
-  --shadow-hover: 0 4px 16px rgba(0,0,0,0.5), 0 0 0 1px var(--bg-border);
+  --shadow-card:  0 1px 3px rgba(16,21,28,0.06), 0 0 0 1px var(--bg-border);
+  --shadow-modal: 0 24px 64px rgba(16,21,28,0.18), 0 0 0 1px var(--bg-border);
+  --shadow-hover: 0 4px 16px rgba(16,21,28,0.12), 0 0 0 1px var(--bg-border);
 
   /* Layout */
   --max-width: 1200px;
@@ -126,7 +127,7 @@ ul, ol { list-style: none; }
   left: 0;
   right: 0;
   height: var(--ticker-height);
-  background: #0A0C0F;
+  background: var(--bg-elevated);
   border-bottom: 1px solid var(--bg-border);
   z-index: 100;
   overflow: hidden;
@@ -185,7 +186,7 @@ ul, ol { list-style: none; }
   left: 0;
   right: 0;
   height: var(--nav-height);
-  background: rgba(13, 15, 18, 0.95);
+  background: rgba(255, 255, 255, 0.92);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--bg-border);
@@ -221,7 +222,7 @@ ul, ol { list-style: none; }
   justify-content: center;
   font-family: var(--font-display);
   font-size: 14px;
-  color: var(--bg-base);
+  color: #FFFFFF;
   font-weight: 700;
   flex-shrink: 0;
 }
@@ -332,7 +333,7 @@ ul, ol { list-style: none; }
   position: sticky;
   top: calc(var(--ticker-height) + var(--nav-height));
   z-index: 90;
-  background: rgba(13, 15, 18, 0.95);
+  background: rgba(247, 248, 250, 0.95);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
 }
@@ -1856,7 +1857,7 @@ ul, ol { list-style: none; }
 }
 
 .selection-pill.selected {
-  color: var(--bg-base);
+  color: #FFFFFF;
   background: var(--accent);
   border-color: var(--accent);
 }
@@ -1894,7 +1895,7 @@ ul, ol { list-style: none; }
   height: 44px;
   padding: 0 var(--space-8);
   background: var(--accent);
-  color: var(--bg-base);
+  color: #FFFFFF;
   border: none;
   border-radius: var(--radius-sm);
   font-family: var(--font-body);
