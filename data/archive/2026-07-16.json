@@ -1,0 +1,592 @@
+{
+  "date": "2026-07-16",
+  "edition": 11,
+  "lens": "Fresh multi-bank deal flow keeps landing even as the tape rolls over (Nasdaq -1.0%, S&P -0.4%): Eli Lilly's ~$2.8B buy of AtaiBeckley (Goldman buy-side; Moelis, Centerview and Citi sell-side), Big Brand's acquisition of Belle Tire (Evercore, Jefferies), Wonder's $650M Series D (Goldman, Jefferies, JPMorgan placement), and First Hawaiian's now-definitive $1.0B+ acquisition of TriCo (Evercore; KBW/Stifel).",
+  "ticker": [
+    {
+      "label": "S&P 500",
+      "value": "7,545.05",
+      "change": "-0.36%",
+      "positive": false
+    },
+    {
+      "label": "Nasdaq",
+      "value": "26,003.00",
+      "change": "-1.01%",
+      "positive": false
+    },
+    {
+      "label": "Dow",
+      "value": "52,754.17",
+      "change": "+0.18%",
+      "positive": true
+    },
+    {
+      "label": "GS",
+      "value": "$1,127.23",
+      "change": "-2.17%",
+      "positive": false
+    },
+    {
+      "label": "JPM",
+      "value": "$343.84",
+      "change": "-0.92%",
+      "positive": false
+    },
+    {
+      "label": "MS",
+      "value": "$223.40",
+      "change": "-2.24%",
+      "positive": false
+    }
+  ],
+  "stories": [
+    {
+      "id": "s1",
+      "category": "M&A",
+      "urgency": "HIGH",
+      "scope": "bank",
+      "bank": "Goldman Sachs",
+      "headline": "Goldman advises Eli Lilly on its ~$2.8B acquisition of AtaiBeckley (up to ~$3.8B with CVRs)",
+      "why_it_matters": "Eli Lilly signed a definitive agreement to acquire AtaiBeckley for ~$2.8B upfront ($6.75/share) plus up to ~$1.0B in milestone CVRs ($2.50/share), advancing therapies for treatment-resistant depression (candidates BPL-003, VLS-01). The release names Goldman Sachs as exclusive financial adviser to Lilly (the buyer). A large-cap biopharma acquisition with heavy scientific, regulatory, and CVR-structuring diligence.",
+      "suggested_action": "Reach out to Goldman's healthcare/biopharma coverage on the Lilly/AtaiBeckley signing — a fresh large-cap CNS acquisition with a CVR structure is a document- and diligence-heavy use case.",
+      "deal_clock": [
+        {
+          "date": "Jul 16, 2026",
+          "event": "Lilly signs definitive agreement to acquire AtaiBeckley"
+        }
+      ],
+      "source": "PR Newswire (deal announcement)",
+      "source_url": "https://www.prnewswire.com/news-releases/lilly-to-acquire-ataibeckley-to-advance-therapies-for-treatment-resistant-depression-and-other-mental-health-conditions-302827468.html",
+      "published": "2026-07-16",
+      "confidence": "Reported",
+      "tags": [
+        "healthcare",
+        "biopharma",
+        "cns"
+      ]
+    },
+    {
+      "id": "s2",
+      "category": "M&A",
+      "urgency": "HIGH",
+      "scope": "bank",
+      "bank": "Moelis",
+      "headline": "Moelis and Centerview advise AtaiBeckley on its ~$2.8B sale to Eli Lilly (Citi also advises the board)",
+      "why_it_matters": "On the sell-side of Lilly's AtaiBeckley acquisition, the release names Moelis & Company and Centerview Partners as financial advisers to AtaiBeckley, with Citi also providing financial advice to the AtaiBeckley board. A multi-adviser large-cap biopharma sell-side with CVR consideration and cross-border (UK/US) diligence.",
+      "suggested_action": "Engage Moelis's healthcare team on the AtaiBeckley sale — a multi-adviser biopharma sell-side spins up a controlled, multi-party diligence process immediately.",
+      "deal_clock": [
+        {
+          "date": "Jul 16, 2026",
+          "event": "AtaiBeckley agrees to ~$2.8B sale to Lilly"
+        }
+      ],
+      "source": "PR Newswire (deal announcement)",
+      "source_url": "https://www.prnewswire.com/news-releases/lilly-to-acquire-ataibeckley-to-advance-therapies-for-treatment-resistant-depression-and-other-mental-health-conditions-302827468.html",
+      "published": "2026-07-16",
+      "confidence": "Reported",
+      "tags": [
+        "healthcare",
+        "biopharma",
+        "sell-side"
+      ]
+    },
+    {
+      "id": "s3",
+      "category": "DEALS",
+      "urgency": "MEDIUM",
+      "scope": "bank",
+      "bank": "Evercore",
+      "headline": "Evercore advises Big Brand Tire on its acquisition of Belle Tire (Jefferies advises Belle Tire)",
+      "why_it_matters": "Big Brand Tire & Service signed a definitive agreement to acquire Belle Tire, creating a tire-and-auto-service platform with >$1.5B combined revenue, expected to close Q3 2026. The release names Evercore as exclusive financial adviser to Big Brand (buyer) and Jefferies as exclusive financial adviser to Belle Tire (seller). A sponsor-backed consumer/services consolidation with two-sided diligence.",
+      "suggested_action": "Talk to Evercore's consumer/services coverage on the Belle Tire acquisition — a signed platform combination heading to a Q3 close is a live diligence and integration use case.",
+      "deal_clock": [
+        {
+          "date": "Jul 16, 2026",
+          "event": "Big Brand Tire signs deal to acquire Belle Tire"
+        }
+      ],
+      "source": "PR Newswire (deal announcement)",
+      "source_url": "https://www.prnewswire.com/news-releases/big-brand-tire--service-announces-strategic-acquisition-of-belle-tire-302827599.html",
+      "published": "2026-07-16",
+      "confidence": "Reported",
+      "tags": [
+        "consumer",
+        "automotive",
+        "sponsor"
+      ]
+    },
+    {
+      "id": "s4",
+      "category": "DEALS",
+      "urgency": "MEDIUM",
+      "scope": "bank",
+      "bank": "Jefferies",
+      "headline": "Jefferies advises Belle Tire on its sale to Big Brand Tire & Service",
+      "why_it_matters": "On the sell-side of the Big Brand/Belle Tire combination, the release names Jefferies as exclusive financial adviser to Belle Tire. A consumer/automotive-services sell-side to a strategic buyer, expected to close in Q3 2026 with active diligence now.",
+      "suggested_action": "Reach out to Jefferies's sponsor/consumer coverage on the Belle Tire sale — a signed strategic sale is a concrete near-term diligence conversation.",
+      "deal_clock": [
+        {
+          "date": "Jul 16, 2026",
+          "event": "Belle Tire agrees to sale to Big Brand Tire"
+        }
+      ],
+      "source": "PR Newswire (deal announcement)",
+      "source_url": "https://www.prnewswire.com/news-releases/big-brand-tire--service-announces-strategic-acquisition-of-belle-tire-302827599.html",
+      "published": "2026-07-16",
+      "confidence": "Reported",
+      "tags": [
+        "consumer",
+        "automotive",
+        "sell-side"
+      ]
+    },
+    {
+      "id": "s5",
+      "category": "DEALS",
+      "urgency": "MEDIUM",
+      "scope": "bank",
+      "bank": "JPMorgan",
+      "headline": "Goldman, Jefferies and JPMorgan are placement agents on Wonder's $650M Series D ($9B pre-money)",
+      "why_it_matters": "Food-tech company Wonder raised a $650M Series D at a $9B pre-money valuation, with new and existing investors (AllianceBernstein, ARK Invest, Kayne Anderson Rudnick, Accel, GV, NEA). The release names Goldman Sachs, Jefferies and J.P. Morgan as placement agents. A large late-stage private raise with investor-diligence and data-room workstreams.",
+      "suggested_action": "Use the Wonder raise as a private-capital-markets hook with JPMorgan's (and Goldman's/Jefferies') placement teams — large late-stage rounds run controlled investor diligence that maps directly to secure data rooms.",
+      "deal_clock": [
+        {
+          "date": "Jul 16, 2026",
+          "event": "Wonder announces $650M Series D at $9B pre-money"
+        }
+      ],
+      "source": "PR Newswire (via AOL)",
+      "source_url": "https://www.aol.com/articles/wonder-announces-650-million-series-130000000.html",
+      "published": "2026-07-16",
+      "confidence": "Reported",
+      "tags": [
+        "fintech",
+        "capital-raise",
+        "private"
+      ]
+    },
+    {
+      "id": "s6",
+      "category": "M&A",
+      "urgency": "HIGH",
+      "scope": "bank",
+      "bank": "Evercore",
+      "headline": "First Hawaiian/TriCo merger goes definitive; Evercore advises FHB, KBW (a Stifel company) advises TriCo",
+      "why_it_matters": "First Hawaiian (NASDAQ: FHB) and TriCo Bancshares (NASDAQ: TCBK) signed a definitive agreement for First Hawaiian to acquire TriCo in an all-stock deal creating a leading Pacific banking franchise; the merger agreement (EX-2.1) was filed Jul 15. The press release names Evercore as financial adviser to First Hawaiian and Keefe, Bruyette & Woods (A Stifel Company) as financial adviser to TriCo. A signed public bank merger now advancing to the proxy/vote phase.",
+      "suggested_action": "Reach out to Evercore's FIG team on the now-definitive TriCo deal — a signed bank merger triggers two-sided diligence and integration planning heading into the shareholder vote.",
+      "deal_clock": [
+        {
+          "date": "Jul 13, 2026",
+          "event": "First Hawaiian/TriCo combination announced"
+        },
+        {
+          "date": "Jul 15, 2026",
+          "event": "Definitive merger agreement (EX-2.1) filed"
+        }
+      ],
+      "source": "SEC EDGAR — TriCo EX-99.1 (press release) and EX-2.1 (merger agreement)",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/356171/000110465926082856/tm2620283d1_ex99-1.htm",
+      "published": "2026-07-15",
+      "confidence": "Filed",
+      "tags": [
+        "fig",
+        "bank-merger",
+        "all-stock"
+      ]
+    },
+    {
+      "id": "s7",
+      "category": "MACRO",
+      "urgency": "MEDIUM",
+      "scope": "market",
+      "headline": "Stocks slip as tech leads lower: Nasdaq -1.0%, S&P -0.4%, Dow holds +0.2%",
+      "why_it_matters": "US equities opened softer on Jul 16, with the Nasdaq off 1.0% (26,003) and the S&P 500 down 0.4% (7,545), while the Dow held modestly positive (+0.2%, 52,754). The VIX ticked up to ~16.3 and the 10Y yield firmed to ~4.59%. Bank stocks pulled back after the earnings run (GS -2.2%, MS -2.2%, JPM -0.9%). A pause in the tape doesn't slow signed deal flow — diligence timelines run regardless of the day's index prints.",
+      "suggested_action": "Frame outreach around deal-process continuity: signed mandates (Lilly/AtaiBeckley, Belle Tire, TriCo) keep diligence clocks running even on a red day — a natural reason to talk room readiness now.",
+      "source": "Yahoo Finance",
+      "source_url": "https://finance.yahoo.com/quote/%5EGSPC/",
+      "published": "2026-07-16"
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "o1",
+      "bank": "Evercore",
+      "sector": "FIG / Bank M&A",
+      "urgency": "HOT",
+      "headline": "Adviser to First Hawaiian on its all-stock acquisition of TriCo Bancshares",
+      "why_it_matters": "Evercore advises First Hawaiian on its all-stock acquisition of TriCo Bancshares — now under a definitive merger agreement filed Jul 15 (KBW/Stifel advises TriCo). A signed public bank merger triggers two-sided diligence and integration planning into the shareholder vote.",
+      "deal_clock": [
+        {
+          "date": "Jul 13, 2026",
+          "event": "First Hawaiian/TriCo combination announced"
+        },
+        {
+          "date": "Jul 15, 2026",
+          "event": "Definitive merger agreement filed"
+        }
+      ],
+      "outreach_idea": "Open on the now-definitive First Hawaiian/TriCo agreement — a signed bank merger is a concrete reason to engage Evercore's FIG team on diligence infrastructure.",
+      "outreach_draft": {
+        "subject": "First Hawaiian / TriCo — supporting a signed bank merger",
+        "body": "Congratulations on Evercore's role advising First Hawaiian on the TriCo Bancshares combination, now under a definitive agreement. All-stock bank mergers spin up two-sided diligence and integration workstreams heading into the vote — would welcome a conversation on how we support clean, auditable data-room access.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "SEC EDGAR — TriCo EX-2.1 merger agreement and EX-99.1 press release",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/356171/000110465926083899/tm2620283d6_ex2-1.htm",
+      "published": "2026-07-15",
+      "confidence": "Filed",
+      "first_seen": "2026-07-13",
+      "last_confirmed": "2026-07-16",
+      "carry_badge": "Day 4"
+    },
+    {
+      "id": "o2",
+      "bank": "Goldman Sachs",
+      "sector": "Healthcare / Biopharma",
+      "urgency": "HOT",
+      "headline": "Adviser to Apogee on AbbVie's $135.11/share cash acquisition",
+      "why_it_matters": "Goldman (with Jefferies) advises Apogee Therapeutics on AbbVie's $135.11/sh all-cash take-private. Definitive proxy filed Jul 13 — the vote and diligence phase is live in a large-cap biopharma deal.",
+      "deal_clock": [
+        {
+          "date": "Jul 13, 2026",
+          "event": "Apogee DEFM14A filed; $135.11/sh cash"
+        }
+      ],
+      "outreach_idea": "Open on Apogee/AbbVie — a filed large-cap biopharma take-private is a concrete reason to engage Goldman's healthcare team.",
+      "outreach_draft": {
+        "subject": "Apogee / AbbVie — supporting a large-cap take-private",
+        "body": "Congratulations on Goldman's role advising Apogee Therapeutics on the AbbVie acquisition. All-cash biopharma take-privates run heavy, time-sensitive diligence through the shareholder vote — would welcome a conversation on how we support secure, auditable data-room access to close.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "SEC EDGAR — Apogee Therapeutics DEFM14A",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1974640/000114036126028341/ny20076262x2_defm14a.htm",
+      "published": "2026-07-13",
+      "confidence": "Filed",
+      "first_seen": "2026-07-14",
+      "last_confirmed": "2026-07-15",
+      "carry_badge": "Day 3"
+    },
+    {
+      "id": "o3",
+      "bank": "Goldman Sachs",
+      "sector": "Real Estate / REIT",
+      "urgency": "HOT",
+      "headline": "Adviser on the AvalonBay / Equity Residential all-stock REIT merger",
+      "why_it_matters": "Goldman advises on the AvalonBay/Equity Residential combination (2.793 EQR per AVB share) — one of the largest US apartment REIT mergers. Joint proxy filed Jul 13; integration diligence is live.",
+      "deal_clock": [
+        {
+          "date": "Jul 13, 2026",
+          "event": "AvalonBay/Equity Residential DEFM14A filed"
+        }
+      ],
+      "outreach_idea": "Engage Goldman's real estate coverage on the AvalonBay/Equity Residential merger — a mega-cap REIT combination with a fresh proxy.",
+      "outreach_draft": {
+        "subject": "AvalonBay / Equity Residential — supporting a mega-cap REIT merger",
+        "body": "Congratulations on Goldman's role on the AvalonBay/Equity Residential combination. Mega-cap all-stock REIT mergers run extensive integration and diligence workstreams — would welcome a conversation on how we support clean, auditable access across the process.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "SEC EDGAR — AvalonBay DEFM14A",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/915912/000110465926083113/tm2619865-1_defm14a.htm",
+      "published": "2026-07-13",
+      "confidence": "Filed",
+      "first_seen": "2026-07-14",
+      "last_confirmed": "2026-07-14",
+      "carry_badge": "Day 3"
+    },
+    {
+      "id": "o4",
+      "bank": "JPMorgan",
+      "sector": "TMT / Take-private",
+      "urgency": "HOT",
+      "headline": "Adviser to IHS Holding board on MTN's $8.50/share cash take-private",
+      "why_it_matters": "JPMorgan advises the IHS Holding board on MTN Group's $8.50/sh cash take-private, funded partly by a $1.0B term loan. Tender/merger materials filed Jul 10 — a document-heavy, cross-border process in motion.",
+      "deal_clock": [
+        {
+          "date": "Jul 10, 2026",
+          "event": "IHS tender/merger materials filed; $8.50/sh cash"
+        }
+      ],
+      "outreach_idea": "Engage JPMorgan's telecom-infrastructure coverage on IHS — a cross-border cash take-private with financing is a strong diligence use case.",
+      "outreach_draft": {
+        "subject": "IHS Holding — supporting a cross-border take-private",
+        "body": "Congratulations on JPMorgan's role advising the IHS Holding board on the MTN take-private. Cross-border cash take-privates with debt financing tend to run heavy, multi-party diligence — would welcome a conversation on how we support secure, auditable access through to close.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "SEC EDGAR — IHS Holding tender materials (EX-99.(A)(1))",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876183/000110465926082643/tm2611054d6_ex99-a1.htm",
+      "published": "2026-07-10",
+      "confidence": "Filed",
+      "first_seen": "2026-07-13",
+      "last_confirmed": "2026-07-13",
+      "carry_badge": "Day 4"
+    },
+    {
+      "id": "o5",
+      "bank": "Goldman Sachs",
+      "sector": "Healthcare / Biopharma",
+      "urgency": "HOT",
+      "headline": "Exclusive adviser to Eli Lilly on its ~$2.8B acquisition of AtaiBeckley",
+      "why_it_matters": "Goldman is exclusive financial adviser to Eli Lilly on its signed ~$2.8B upfront acquisition of AtaiBeckley (up to ~$3.8B with CVRs), a treatment-resistant-depression play. Announced today — large-cap biopharma buy-side diligence is live.",
+      "deal_clock": [
+        {
+          "date": "Jul 16, 2026",
+          "event": "Lilly signs deal to acquire AtaiBeckley (~$2.8B upfront)"
+        }
+      ],
+      "outreach_idea": "Open on the Lilly/AtaiBeckley signing — a fresh large-cap CNS acquisition with a CVR structure is a concrete reason to engage Goldman's healthcare team on secure diligence.",
+      "outreach_draft": {
+        "subject": "Lilly / AtaiBeckley — supporting a large-cap biopharma close",
+        "body": "Congratulations on Goldman's role advising Eli Lilly on the AtaiBeckley acquisition announced today. Large-cap biopharma deals with milestone/CVR structures run heavy scientific and regulatory diligence through to close — would welcome a conversation on how we support secure, auditable data-room access across the process.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "PR Newswire (deal announcement)",
+      "source_url": "https://www.prnewswire.com/news-releases/lilly-to-acquire-ataibeckley-to-advance-therapies-for-treatment-resistant-depression-and-other-mental-health-conditions-302827468.html",
+      "published": "2026-07-16",
+      "confidence": "Reported",
+      "first_seen": "2026-07-16",
+      "last_confirmed": "2026-07-16",
+      "carry_badge": "NEW"
+    },
+    {
+      "id": "o6",
+      "bank": "Moelis",
+      "sector": "Healthcare / Biopharma",
+      "urgency": "HOT",
+      "headline": "Sell-side adviser (with Centerview) to AtaiBeckley on its ~$2.8B sale to Eli Lilly",
+      "why_it_matters": "Moelis and Centerview advise AtaiBeckley on its signed ~$2.8B sale to Eli Lilly (Citi also advises the board). A multi-adviser large-cap biopharma sell-side with CVR consideration — a controlled, multi-party diligence process from day one.",
+      "deal_clock": [
+        {
+          "date": "Jul 16, 2026",
+          "event": "AtaiBeckley agrees to ~$2.8B sale to Lilly"
+        }
+      ],
+      "outreach_idea": "Engage Moelis's healthcare coverage on the AtaiBeckley sale — a multi-adviser biopharma sell-side is a strong secure-diligence use case.",
+      "outreach_draft": {
+        "subject": "AtaiBeckley / Lilly — supporting a multi-adviser biopharma sell-side",
+        "body": "Congratulations on Moelis's role advising AtaiBeckley on its sale to Eli Lilly. Multi-adviser sell-sides run tightly controlled, auditable diligence across parties — would welcome a conversation on how we support clean data-room access through to close.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "PR Newswire (deal announcement)",
+      "source_url": "https://www.prnewswire.com/news-releases/lilly-to-acquire-ataibeckley-to-advance-therapies-for-treatment-resistant-depression-and-other-mental-health-conditions-302827468.html",
+      "published": "2026-07-16",
+      "confidence": "Reported",
+      "first_seen": "2026-07-16",
+      "last_confirmed": "2026-07-16",
+      "carry_badge": "NEW"
+    },
+    {
+      "id": "o7",
+      "bank": "Jefferies",
+      "sector": "Consumer / Automotive Services",
+      "urgency": "WARM",
+      "headline": "Exclusive adviser to Belle Tire on its sale to Big Brand Tire & Service",
+      "why_it_matters": "Jefferies is exclusive financial adviser to Belle Tire on its signed sale to Big Brand Tire & Service (Evercore advises Big Brand), creating a >$1.5B-revenue platform expected to close Q3 2026. A sponsor-backed consumer/services sell-side with active diligence.",
+      "deal_clock": [
+        {
+          "date": "Jul 16, 2026",
+          "event": "Belle Tire agrees to sale to Big Brand Tire"
+        }
+      ],
+      "outreach_idea": "Reach out to Jefferies's consumer/sponsor coverage on the Belle Tire sale — a signed strategic sale heading to a Q3 close is a near-term diligence conversation.",
+      "outreach_draft": {
+        "subject": "Belle Tire / Big Brand — supporting a signed consumer sale",
+        "body": "Congratulations on Jefferies's role advising Belle Tire on its sale to Big Brand Tire & Service. Strategic consumer sales run focused diligence on the path to close — would welcome a conversation on how we support secure, auditable data-room access as the deal moves toward its Q3 close.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "PR Newswire (deal announcement)",
+      "source_url": "https://www.prnewswire.com/news-releases/big-brand-tire--service-announces-strategic-acquisition-of-belle-tire-302827599.html",
+      "published": "2026-07-16",
+      "confidence": "Reported",
+      "first_seen": "2026-07-16",
+      "last_confirmed": "2026-07-16",
+      "carry_badge": "NEW"
+    },
+    {
+      "id": "o8",
+      "bank": "JPMorgan",
+      "sector": "Food Tech / Private Capital",
+      "urgency": "WARM",
+      "headline": "Placement agent (with Goldman, Jefferies) on Wonder's $650M Series D",
+      "why_it_matters": "JPMorgan is a placement agent, alongside Goldman and Jefferies, on Wonder's $650M Series D at a $9B pre-money valuation. Large late-stage private raises run controlled investor diligence that maps directly to secure data rooms.",
+      "deal_clock": [
+        {
+          "date": "Jul 16, 2026",
+          "event": "Wonder announces $650M Series D at $9B pre-money"
+        }
+      ],
+      "outreach_idea": "Use the Wonder raise as a private-capital-markets hook with JPMorgan's placement team — late-stage rounds run investor diligence in secure rooms.",
+      "outreach_draft": {
+        "subject": "Wonder Series D — supporting late-stage private diligence",
+        "body": "Congratulations on J.P. Morgan's role as placement agent on Wonder's $650M Series D. Large late-stage rounds run controlled investor diligence across many parties — would welcome a conversation on how we support secure, auditable data-room access for private capital raises.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "PR Newswire (via AOL)",
+      "source_url": "https://www.aol.com/articles/wonder-announces-650-million-series-130000000.html",
+      "published": "2026-07-16",
+      "confidence": "Reported",
+      "first_seen": "2026-07-16",
+      "last_confirmed": "2026-07-16",
+      "carry_badge": "NEW"
+    }
+  ],
+  "market_snapshot": {
+    "indices": [
+      {
+        "label": "S&P 500",
+        "value": "7,545.05",
+        "change": "-27.35 (-0.36%)",
+        "positive": false
+      },
+      {
+        "label": "Nasdaq Composite",
+        "value": "26,003.00",
+        "change": "-266.22 (-1.01%)",
+        "positive": false
+      },
+      {
+        "label": "Dow Jones",
+        "value": "52,754.17",
+        "change": "+95.53 (+0.18%)",
+        "positive": true
+      },
+      {
+        "label": "Russell 2000",
+        "value": "2,968.16",
+        "change": "-8.10 (-0.27%)",
+        "positive": false
+      },
+      {
+        "label": "CBOE VIX",
+        "value": "16.26",
+        "change": "+0.59 (+3.76%)",
+        "positive": true
+      },
+      {
+        "label": "10Y Treasury",
+        "value": "4.594%",
+        "change": "+0.049 (+1.08%)",
+        "positive": true
+      },
+      {
+        "label": "WTI Crude",
+        "value": "$80.10",
+        "change": "+0.50 (+0.63%)",
+        "positive": true
+      }
+    ],
+    "bank_stocks": [
+      {
+        "ticker": "GS",
+        "price": "$1,127.23",
+        "change": "-2.17%",
+        "positive": false
+      },
+      {
+        "ticker": "MS",
+        "price": "$223.40",
+        "change": "-2.24%",
+        "positive": false
+      },
+      {
+        "ticker": "JPM",
+        "price": "$343.84",
+        "change": "-0.92%",
+        "positive": false
+      }
+    ],
+    "macro_note": "Tape softened Jul 16 (S&P -0.4%, Nasdaq -1.0%; Dow held +0.2%). VIX ~16.3, 10Y ~4.59%. Bank stocks pulled back post-earnings (GS/MS ~-2.2%, JPM -0.9%). Data live from the Jul 16 open session; BAC, C, LAZ, JEF, HLI and EVR omitted where only stale Jul 15 quotes were verifiable — accuracy over completeness."
+  },
+  "talking_point": {
+    "quote": "Even on a red tape, the deals keep signing — Lilly’s $2.8B AtaiBeckley buy, Big Brand/Belle Tire, First Hawaiian/TriCo going definitive, Wonder’s $650M round. Signed mandates run their diligence clocks regardless of the day’s index prints. How are you thinking about room readiness across the processes you’re launching this quarter?",
+    "use_with": "M&A and advisory coverage teams (esp. Goldman, Moelis, Evercore, Jefferies, JPMorgan, Citi)",
+    "context": "Anchors on a busy Jul 16 deal tape against a down market — a natural way to separate deal-process momentum from the day’s volatility and open a room-readiness conversation.",
+    "confidence": "Reported"
+  },
+  "sector_heat": {
+    "ranked": [
+      {
+        "sector": "Healthcare / Biopharma",
+        "read": "Lilly’s ~$2.8B AtaiBeckley buy (Goldman buy-side; Moelis, Centerview, Citi sell-side) headlines fresh large-cap CNS M&A, on top of AbbVie/Apogee.",
+        "source_note": "PR Newswire, Jul 16 2026"
+      },
+      {
+        "sector": "Financial Institutions (FIG)",
+        "read": "First Hawaiian/TriCo goes definitive (Evercore; KBW/Stifel) — a Pacific bank-merger of scale now heading to the vote.",
+        "source_note": "SEC EDGAR TriCo EX-2.1, Jul 15 2026"
+      },
+      {
+        "sector": "Consumer / Automotive Services",
+        "read": "Big Brand acquires Belle Tire (Evercore, Jefferies) — a >$1.5B-revenue platform combination.",
+        "source_note": "PR Newswire, Jul 16 2026"
+      },
+      {
+        "sector": "Food Tech / Private Capital",
+        "read": "Wonder’s $650M Series D at $9B pre-money (Goldman, Jefferies, JPMorgan placement) signals live late-stage private-raise diligence.",
+        "source_note": "PR Newswire via AOL, Jul 16 2026"
+      }
+    ]
+  },
+  "pipeline_watch": {
+    "note": "Named covered-bank mandates and sector heat. Rumored / no-adviser situations live in the Rumor Mill.",
+    "covered_bank_leads": [],
+    "situations_to_watch": []
+  },
+  "skeptics_corner": {
+    "note": "Unconfirmed leads — rumored deals and situations with no adviser named yet (or advisers unconfirmed). Real reporting, but treat as speculative: chase them, don’t quote them on a call.",
+    "items": [
+      {
+        "company": "CCC Intelligent Solutions (NYSE: CCCS)",
+        "bank": "Morgan Stanley",
+        "lead": "Auto-insurance software firm CCC is exploring a sale and has reached out to prospective buyers including PE firms, with activist Elliott holding a large stake; Morgan Stanley reported to be advising.",
+        "why_unverified": "Reuters/Bloomberg report citing people familiar; CCC and Morgan Stanley declined/did not comment, no deal announced.",
+        "sector": "Insurance / Enterprise Software",
+        "source_note": "Claims Journal (Reuters), Jul 14 2026",
+        "source_url": "https://www.claimsjournal.com/news/national/2026/07/14/338821.htm",
+        "confidence": "Speculative"
+      },
+      {
+        "company": "Qiagen N.V. (NYSE: QGEN)",
+        "bank": "unconfirmed",
+        "lead": "Diagnostics maker Qiagen has drawn early takeover interest from EQT, Advent and KKR, with suitors indicating offers of at least $50/share as part of a strategic review begun in January.",
+        "why_unverified": "Bloomberg report citing people familiar; discussions preliminary, no formal offer, advisers not confirmed.",
+        "sector": "Healthcare / Diagnostics",
+        "source_note": "Sahm Capital (via Benzinga/Bloomberg), Jul 10 2026",
+        "source_url": "https://www.sahmcapital.com/news/content/qiagen-ma-fever-builds-kkr-eqt-advent-explore-possible-takeover-2026-07-10",
+        "confidence": "Speculative"
+      },
+      {
+        "company": "PayPal Holdings (NASDAQ: PYPL)",
+        "bank": "unconfirmed",
+        "lead": "Stripe and PE firm Advent International have made a ~$53B ($60.50/share) unsolicited takeover approach for PayPal, backed by ~$50B in committed bank financing.",
+        "why_unverified": "Reuters report citing sources; PayPal has left the bid unanswered, no adviser named, no certainty it leads to a deal.",
+        "sector": "Fintech / Payments",
+        "source_note": "Yahoo Finance (Reuters), Jul 15 2026",
+        "source_url": "https://finance.yahoo.com/markets/stocks/articles/paypal-draws-53-billion-takeover-072926701.html",
+        "confidence": "Speculative"
+      },
+      {
+        "company": "Lionsgate Studios (NYSE: LION)",
+        "bank": "unconfirmed",
+        "lead": "Lionsgate Studios is exploring a sale and has attracted interest from Bollore Group, Banijay and Mediawan, reportedly working with an unnamed investment bank to assess suitors.",
+        "why_unverified": "Reuters report citing sources; representatives declined to comment, bank unnamed, a deal is not certain.",
+        "sector": "Media / Entertainment",
+        "source_note": "TheWrap (Reuters), Jul 15 2026",
+        "source_url": "https://www.thewrap.com/industry-news/deals-ma/lionsgate-banijay-bollore-group-takeover-interest/",
+        "confidence": "Speculative"
+      },
+      {
+        "company": "loanDepot (NYSE: LDI)",
+        "bank": "unconfirmed",
+        "lead": "Activist Randian Capital sent a letter urging loanDepot’s board to court acquirers, arguing its $120B+ servicing portfolio could command a premium in a strategic transaction.",
+        "why_unverified": "Activist letter only; company declined to comment, no adviser or process, founder holds controlling position.",
+        "sector": "Financials / Mortgage",
+        "source_note": "National Mortgage News, Jul 15 2026",
+        "source_url": "https://www.nationalmortgagenews.com/news/activist-investor-pushes-loandepot-to-consider-a-sale",
+        "confidence": "Speculative"
+      },
+      {
+        "company": "M&C Saatchi (LSE: SAA)",
+        "bank": "unconfirmed",
+        "lead": "Harwood Capital’s Christopher Mills (8%+ holder) is publicly pushing for a breakup/piecemeal sale of ad group M&C Saatchi, predicting it won’t be independent within a year.",
+        "why_unverified": "Activist commentary only; company declined to comment, no formal process or adviser mandate.",
+        "sector": "Marketing / Advertising",
+        "source_note": "City AM, Jul 14 2026",
+        "source_url": "https://www.cityam.com/activist-investor-pushes-for-mc-saatchi-break-up-in-next-year/",
+        "confidence": "Speculative"
+      }
+    ]
+  }
+}
