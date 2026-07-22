@@ -1,0 +1,730 @@
+{
+  "date": "2026-07-21",
+  "edition": 12,
+  "lens": "Deal flow roars back to open the week on a risk-on tape (Nasdaq +1.4%, S&P +0.9%): Magnolia's $4.06B buy of WildFire Energy (JPMorgan, Moelis, Citi buy-side; Jefferies, BofA sell-side), Intersnack's ~$2.9B take-private of Utz (Citi, RBC; BofA), Reformation's ~$239M IPO launch (JPMorgan, Morgan Stanley; Citi, RBC), and the Tempus/Personalis merger filing (Morgan Stanley; Centerview, TD Cowen).",
+  "ticker": [
+    {
+      "label": "S&P 500",
+      "value": "7,513.47",
+      "change": "+0.94%",
+      "positive": true
+    },
+    {
+      "label": "Nasdaq",
+      "value": "25,856.58",
+      "change": "+1.37%",
+      "positive": true
+    },
+    {
+      "label": "Dow",
+      "value": "52,349.59",
+      "change": "+0.98%",
+      "positive": true
+    },
+    {
+      "label": "GS",
+      "value": "$1,084.09",
+      "change": "+2.75%",
+      "positive": true
+    },
+    {
+      "label": "MS",
+      "value": "$217.14",
+      "change": "+2.94%",
+      "positive": true
+    },
+    {
+      "label": "JPM",
+      "value": "$345.08",
+      "change": "+1.83%",
+      "positive": true
+    }
+  ],
+  "stories": [
+    {
+      "id": "s1",
+      "category": "M&A",
+      "urgency": "HIGH",
+      "scope": "bank",
+      "bank": "JPMorgan",
+      "headline": "JPMorgan, Moelis and Citi advise Magnolia Oil & Gas on its $4.06B acquisition of WildFire Energy",
+      "why_it_matters": "Magnolia Oil & Gas agreed to acquire Eagle Ford producer WildFire Energy for $4.06B from Warburg Pincus and Kayne Anderson. The release names J.P. Morgan and Moelis as lead financial advisers and Citi as a financial adviser to Magnolia (buyer), with JPMorgan, Citi and Wells Fargo providing committed financing. A large PE-backed upstream carve-out with reserves, title, and financing diligence running in parallel.",
+      "suggested_action": "Engage JPMorgan's energy coverage on Magnolia/WildFire — a $4B upstream acquisition with a financing syndicate is a heavy multi-party diligence use case.",
+      "deal_clock": [
+        {
+          "date": "Jul 20, 2026",
+          "event": "Magnolia agrees to acquire WildFire Energy for $4.06B"
+        }
+      ],
+      "source": "Magnolia Oil & Gas (investor newsroom)",
+      "source_url": "https://www.magnoliaoilgas.com/investors/press-releases/year/2026/07-20-2026-120106731",
+      "published": "2026-07-20",
+      "confidence": "Reported",
+      "tags": [
+        "energy",
+        "oil-gas",
+        "sponsor"
+      ]
+    },
+    {
+      "id": "s2",
+      "category": "M&A",
+      "urgency": "HIGH",
+      "scope": "bank",
+      "bank": "Jefferies",
+      "headline": "Jefferies and BofA advise WildFire Energy on its $4.06B sale to Magnolia Oil & Gas",
+      "why_it_matters": "On the sell-side of the Magnolia/WildFire deal, the release names Jefferies as lead financial adviser and BofA Securities as a financial adviser to WildFire, a Warburg Pincus/Kayne Anderson-backed Eagle Ford producer. A sponsor exit of this scale runs a controlled, document-heavy sell-side diligence process.",
+      "suggested_action": "Reach out to Jefferies's energy/sponsor coverage on the WildFire sale — a $4B PE exit is a concrete near-term diligence conversation.",
+      "deal_clock": [
+        {
+          "date": "Jul 20, 2026",
+          "event": "WildFire Energy agrees to $4.06B sale to Magnolia"
+        }
+      ],
+      "source": "Magnolia Oil & Gas (investor newsroom)",
+      "source_url": "https://www.magnoliaoilgas.com/investors/press-releases/year/2026/07-20-2026-120106731",
+      "published": "2026-07-20",
+      "confidence": "Reported",
+      "tags": [
+        "energy",
+        "oil-gas",
+        "sell-side"
+      ]
+    },
+    {
+      "id": "s3",
+      "category": "M&A",
+      "urgency": "HIGH",
+      "scope": "bank",
+      "bank": "Citi",
+      "headline": "Citi (lead, Special Committee) and RBC advise Utz on its ~$2.9B take-private by Intersnack",
+      "why_it_matters": "Intersnack Group agreed to take Utz Brands private at $14.25/share (~$2.9B EV). The release names Citi as exclusive financial adviser to Utz's Special Committee and RBC Capital Markets as a financial adviser to Utz, with BofA Securities advising Intersnack and providing committed debt financing. A public-company take-private with a Special Committee — the highest-diligence room type.",
+      "suggested_action": "Open with Citi's consumer coverage on the Utz take-private — a Special Committee process with fairness backup and a debt syndicate is a strong secure-diligence use case.",
+      "deal_clock": [
+        {
+          "date": "Jul 21, 2026",
+          "event": "Intersnack agrees to take Utz private at $14.25/share"
+        }
+      ],
+      "source": "Utz Brands (investor relations)",
+      "source_url": "https://investors.utzsnacks.com/news/news-details/2026/Utz-Brands-Inc--and-Intersnack-Group-GmbH--Co--KG-Announce-Agreement-to-Take-Utz-Private-and-Partnership-with-Founding-Family/default.aspx",
+      "published": "2026-07-21",
+      "confidence": "Reported",
+      "tags": [
+        "consumer",
+        "take-private",
+        "packaged-food"
+      ]
+    },
+    {
+      "id": "s4",
+      "category": "DEALS",
+      "urgency": "MEDIUM",
+      "scope": "bank",
+      "bank": "Morgan Stanley",
+      "headline": "JPMorgan and Morgan Stanley lead Reformation's ~$239M NYSE IPO (Citi, RBC bookrunners)",
+      "why_it_matters": "Womenswear retailer Reformation launched its IPO (14.06M shares, $15–$17 range, up to ~$239M) on the NYSE under ticker REF. Reporting names J.P. Morgan and Morgan Stanley as joint lead bookrunners, with Citigroup and RBC Capital Markets as joint bookrunners. An active roadshow means live S-1 and due-diligence-defense workstreams.",
+      "suggested_action": "Use the Reformation launch as an ECM hook with Morgan Stanley's syndicate desk — live IPOs run coordinated diligence-defense data rooms across bookrunners and selling holders.",
+      "deal_clock": [
+        {
+          "date": "Jul 21, 2026",
+          "event": "Reformation launches IPO, $15–$17 range"
+        }
+      ],
+      "source": "PR Newswire (issuer release)",
+      "source_url": "https://www.prnewswire.com/news-releases/reformation-launches-initial-public-offering-302829541.html",
+      "published": "2026-07-21",
+      "confidence": "Reported",
+      "tags": [
+        "consumer",
+        "ipo",
+        "ecm"
+      ]
+    },
+    {
+      "id": "s5",
+      "category": "DEALS",
+      "urgency": "MEDIUM",
+      "scope": "bank",
+      "bank": "Guggenheim Securities",
+      "headline": "Guggenheim, Jefferies and TD Cowen advise on Freenome's ~$310M SPAC/PIPE public debut",
+      "why_it_matters": "Blood-based cancer-detection firm Freenome began trading (Nasdaq: FRNM) via a PCSC SPAC combination plus a $240M PIPE (~$310M gross). The release names Guggenheim Securities as capital-markets adviser and TD Cowen as lead financial adviser to Freenome, with Jefferies as lead financial/capital-markets adviser and joint lead PIPE placement agent for PCSC. A de-SPAC plus large PIPE is document-intensive across subscription and diligence workstreams.",
+      "suggested_action": "Reach out to Guggenheim on the Freenome debut — de-SPAC/PIPE combinations run heavy subscription-doc and diligence exchange that map directly to secure rooms.",
+      "deal_clock": [
+        {
+          "date": "Jul 20, 2026",
+          "event": "Freenome debuts via PCSC SPAC + $240M PIPE"
+        },
+        {
+          "date": "Jul 21, 2026",
+          "event": "FRNM begins trading"
+        }
+      ],
+      "source": "GlobeNewswire",
+      "source_url": "https://www.globenewswire.com/news-release/2026/07/20/3330086/0/en/freenome-debuts-as-a-publicly-traded-company-focused-on-blood-based-early-cancer-detection.html",
+      "published": "2026-07-20",
+      "confidence": "Reported",
+      "tags": [
+        "healthcare",
+        "diagnostics",
+        "de-spac"
+      ]
+    },
+    {
+      "id": "s6",
+      "category": "M&A",
+      "urgency": "HIGH",
+      "scope": "bank",
+      "bank": "Morgan Stanley",
+      "headline": "Morgan Stanley advises Tempus on its acquisition of Personalis; Centerview and TD Cowen advise Personalis ($16.25/share)",
+      "why_it_matters": "Tempus AI agreed to acquire Personalis in a stock-for-stock two-step merger with an optional cash election up to 50% at $16.25/share. The S-4/425 names Morgan Stanley as financial adviser to Tempus (buyer) and Centerview Partners and TD Securities (\"TD Cowen\") as advisers to Personalis's board, each delivering fairness opinions. A diagnostics combination now advancing through the S-4/vote phase.",
+      "suggested_action": "Engage Morgan Stanley's healthcare-tech coverage on Tempus/Personalis — a filed stock-for-stock merger with a cash election runs two-sided diligence into the vote.",
+      "deal_clock": [
+        {
+          "date": "Jul 20, 2026",
+          "event": "Tempus/Personalis merger materials (425) filed; $16.25/share cash election"
+        }
+      ],
+      "source": "SEC EDGAR — Personalis/Tempus Form 425",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1527753/000119312526309081/d128960d425.htm",
+      "published": "2026-07-20",
+      "confidence": "Filed",
+      "tags": [
+        "healthcare",
+        "diagnostics",
+        "stock-for-stock"
+      ]
+    },
+    {
+      "id": "s7",
+      "category": "M&A",
+      "urgency": "MEDIUM",
+      "scope": "bank",
+      "bank": "Guggenheim Securities",
+      "headline": "Guggenheim advises the Destination XL board on a stock-for-stock merger with FULLBEAUTY Brands",
+      "why_it_matters": "Destination XL (DXLG) filed a preliminary proxy for a stock-for-stock merger with Oaktree-backed FULLBEAUTY Brands (~55/45 in FBB's favor). The proxy names Guggenheim Securities as financial adviser to the DXL board — notably, the board is now recommending against the share-issuance proposal, keeping the process contested and diligence-heavy. (BofA appears only as ABL lender; not an M&A adviser.)",
+      "suggested_action": "A contested stock-for-stock merger with a board recommending against is a live, document-intensive situation — a reason to talk to Guggenheim on secure, auditable diligence access.",
+      "deal_clock": [
+        {
+          "date": "Jul 17, 2026",
+          "event": "DXL files preliminary merger proxy (PREM14A)"
+        }
+      ],
+      "source": "SEC EDGAR — Destination XL PREM14A",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/813298/000119312526307826/d76201dprem14a.htm",
+      "published": "2026-07-17",
+      "confidence": "Filed",
+      "tags": [
+        "consumer",
+        "retail",
+        "stock-for-stock"
+      ]
+    },
+    {
+      "id": "s8",
+      "category": "M&A",
+      "urgency": "MEDIUM",
+      "scope": "bank",
+      "bank": "Raymond James",
+      "headline": "Raymond James advises Identiv on the $50M sale of its IoT business to Trackonomy",
+      "why_it_matters": "Identiv (INVE) filed a preliminary proxy for the sale of its IoT business (plus $25M cash) to Trackonomy Systems for $50M of Trackonomy Series C preferred, pivoting to a \"Physical AI\" strategy. The proxy names Raymond James as financial adviser to Identiv's board, delivering the fairness opinion. A carve-out asset sale with valuation and closing diligence.",
+      "suggested_action": "Reach out to Raymond James on the Identiv carve-out — an asset sale for stock consideration runs focused diligence and closing-document exchange.",
+      "deal_clock": [
+        {
+          "date": "Jul 17, 2026",
+          "event": "Identiv files preliminary proxy for IoT-business sale"
+        }
+      ],
+      "source": "SEC EDGAR — Identiv PREM14A",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1036044/000119312526307972/d103630dprem14a.htm",
+      "published": "2026-07-17",
+      "confidence": "Filed",
+      "tags": [
+        "technology",
+        "iot",
+        "carve-out"
+      ]
+    },
+    {
+      "id": "s9",
+      "category": "DEALS",
+      "urgency": "MEDIUM",
+      "scope": "bank",
+      "bank": "TD Cowen",
+      "headline": "TD Cowen advises Searchlight and Abry on the completed ~$726M take-private of KORE Group",
+      "why_it_matters": "Searchlight Capital and Abry Partners completed their ~$726M take-private of IoT-connectivity firm KORE Group, which is now private. The release names TD Cowen as financial adviser to Searchlight and Abry (Rothschild advised KORE's Special Committee). A completed take-private runs delisting, closing, and sponsor-onboarding workstreams through shared rooms.",
+      "suggested_action": "Congratulate TD Cowen on the closed KORE take-private and ask about the next sponsor mandate where fast, clean room setup helps at signing and close.",
+      "deal_clock": [
+        {
+          "date": "Jul 21, 2026",
+          "event": "KORE completes take-private; becomes private company"
+        }
+      ],
+      "source": "KORE Wireless (investor relations)",
+      "source_url": "https://ir.korewireless.com/news-events/press-releases/detail/267/kore-begins-new-chapter-as-private-company-backed-by",
+      "published": "2026-07-21",
+      "confidence": "Reported",
+      "tags": [
+        "technology",
+        "iot",
+        "take-private"
+      ]
+    },
+    {
+      "id": "s10",
+      "category": "DEALS",
+      "urgency": "MEDIUM",
+      "scope": "bank",
+      "bank": "Bank of America",
+      "headline": "BofA advises Cross Country Healthcare on its completed take-private by Knox Lane",
+      "why_it_matters": "PE firm Knox Lane completed its take-private of Cross Country Healthcare, with a simultaneous carve-out of the locums business to All Star Healthcare. The release names BofA Securities as exclusive financial adviser to Cross Country Healthcare (MTS Health Partners advised Knox Lane). A take-private plus divisional carve-out means multi-entity diligence and closing-document exchange.",
+      "suggested_action": "Reach out to BofA's healthcare-services coverage on the Cross Country close — a take-private with a simultaneous carve-out is a multi-entity room use case.",
+      "deal_clock": [
+        {
+          "date": "Jul 21, 2026",
+          "event": "Knox Lane completes Cross Country Healthcare take-private"
+        }
+      ],
+      "source": "Yahoo Finance (press-release syndication)",
+      "source_url": "https://finance.yahoo.com/healthcare/articles/knox-lane-completes-acquisition-cross-134500384.html",
+      "published": "2026-07-21",
+      "confidence": "Reported",
+      "tags": [
+        "healthcare",
+        "staffing",
+        "take-private"
+      ]
+    },
+    {
+      "id": "s11",
+      "category": "MACRO",
+      "urgency": "MEDIUM",
+      "scope": "market",
+      "headline": "Risk-on rally: Nasdaq +1.4%, S&P +0.9%, Dow +1.0% as VIX falls to ~17",
+      "why_it_matters": "US equities rallied broadly on Jul 21, with the Nasdaq up 1.4% (25,857) and the S&P 500 up 0.9% (7,513); the VIX fell ~8% to 17.1 and WTI firmed to ~$84. Memory/semiconductor names led and advisory stocks rallied with the tape (GS +2.8%, MS +2.9%, EVR +2.8%). A constructive tape is the backdrop against which fresh mandates — Magnolia/WildFire, Utz, Reformation's IPO — get signed and launched.",
+      "suggested_action": "Frame outreach around a risk-on open supporting fresh signings and launches — a natural reason to talk room readiness while deal flow accelerates.",
+      "source": "Yahoo Finance",
+      "source_url": "https://finance.yahoo.com/quote/%5EGSPC/",
+      "published": "2026-07-21"
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "o1",
+      "bank": "Morgan Stanley",
+      "sector": "Healthcare / Diagnostics",
+      "urgency": "HOT",
+      "headline": "Adviser to Tempus on its stock-for-stock acquisition of Personalis ($16.25/share cash election)",
+      "why_it_matters": "Morgan Stanley advises Tempus AI on its signed stock-for-stock acquisition of Personalis, with an optional cash election up to 50% at $16.25/share (Centerview and TD Cowen advise Personalis). Merger materials (Form 425) filed Jul 20 — a diagnostics combination advancing through the S-4/vote phase with two-sided diligence.",
+      "deal_clock": [
+        {
+          "date": "Jul 20, 2026",
+          "event": "Tempus/Personalis merger materials filed; $16.25/share cash election"
+        }
+      ],
+      "outreach_idea": "Open on Tempus/Personalis — a filed stock-for-stock diagnostics merger is a concrete reason to engage Morgan Stanley's healthcare-tech team on secure diligence.",
+      "outreach_draft": {
+        "subject": "Tempus / Personalis — supporting a filed diagnostics merger",
+        "body": "Congratulations on Morgan Stanley's role advising Tempus on the Personalis combination. Stock-for-stock mergers with cash elections run two-sided diligence through the S-4 and shareholder vote — would welcome a conversation on how we support secure, auditable data-room access to close.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "SEC EDGAR — Personalis/Tempus Form 425",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1527753/000119312526309081/d128960d425.htm",
+      "published": "2026-07-20",
+      "confidence": "Filed",
+      "first_seen": "2026-07-21",
+      "last_confirmed": "2026-07-21",
+      "carry_badge": "NEW"
+    },
+    {
+      "id": "o2",
+      "bank": "Evercore",
+      "sector": "FIG / Bank M&A",
+      "urgency": "HOT",
+      "headline": "Adviser to First Hawaiian on its all-stock acquisition of TriCo Bancshares",
+      "why_it_matters": "Evercore advises First Hawaiian on its all-stock acquisition of TriCo Bancshares — now under a definitive merger agreement filed Jul 15 (KBW/Stifel advises TriCo). A signed public bank merger triggers two-sided diligence and integration planning into the shareholder vote.",
+      "deal_clock": [
+        {
+          "date": "Jul 13, 2026",
+          "event": "First Hawaiian/TriCo combination announced"
+        },
+        {
+          "date": "Jul 15, 2026",
+          "event": "Definitive merger agreement filed"
+        }
+      ],
+      "outreach_idea": "Open on the now-definitive First Hawaiian/TriCo agreement — a signed bank merger is a concrete reason to engage Evercore's FIG team on diligence infrastructure.",
+      "outreach_draft": {
+        "subject": "First Hawaiian / TriCo — supporting a signed bank merger",
+        "body": "Congratulations on Evercore's role advising First Hawaiian on the TriCo Bancshares combination, now under a definitive agreement. All-stock bank mergers spin up two-sided diligence and integration workstreams heading into the vote — would welcome a conversation on how we support clean, auditable data-room access.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "SEC EDGAR — TriCo EX-2.1 merger agreement and EX-99.1 press release",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/356171/000110465926083899/tm2620283d6_ex2-1.htm",
+      "published": "2026-07-15",
+      "confidence": "Filed",
+      "first_seen": "2026-07-13",
+      "last_confirmed": "2026-07-16",
+      "carry_badge": "Day 7"
+    },
+    {
+      "id": "o3",
+      "bank": "JPMorgan",
+      "sector": "Energy / Oil & Gas",
+      "urgency": "HOT",
+      "headline": "Lead adviser (with Moelis, Citi) to Magnolia on its $4.06B acquisition of WildFire Energy",
+      "why_it_matters": "J.P. Morgan and Moelis are lead financial advisers (Citi also advising) to Magnolia Oil & Gas on its signed $4.06B acquisition of WildFire Energy from Warburg Pincus and Kayne Anderson, with JPMorgan/Citi/Wells Fargo providing financing. A large PE-backed upstream deal with reserves, title, and financing diligence in parallel.",
+      "deal_clock": [
+        {
+          "date": "Jul 20, 2026",
+          "event": "Magnolia agrees to acquire WildFire Energy for $4.06B"
+        }
+      ],
+      "outreach_idea": "Open on Magnolia/WildFire — a $4B upstream acquisition with a financing syndicate is a concrete reason to engage JPMorgan's energy team on secure, multi-party diligence.",
+      "outreach_draft": {
+        "subject": "Magnolia / WildFire — supporting a $4B upstream acquisition",
+        "body": "Congratulations on J.P. Morgan's lead role advising Magnolia on the WildFire Energy acquisition. Large upstream deals with financing syndicates run heavy reserves, title, and lender diligence in parallel — would welcome a conversation on how we support secure, auditable data-room access across the workstreams.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "Magnolia Oil & Gas (investor newsroom)",
+      "source_url": "https://www.magnoliaoilgas.com/investors/press-releases/year/2026/07-20-2026-120106731",
+      "published": "2026-07-20",
+      "confidence": "Reported",
+      "first_seen": "2026-07-21",
+      "last_confirmed": "2026-07-21",
+      "carry_badge": "NEW"
+    },
+    {
+      "id": "o4",
+      "bank": "Jefferies",
+      "sector": "Energy / Oil & Gas",
+      "urgency": "HOT",
+      "headline": "Lead sell-side adviser (with BofA) to WildFire Energy on its $4.06B sale to Magnolia",
+      "why_it_matters": "Jefferies is lead financial adviser (BofA also advising) to WildFire Energy on its signed $4.06B sale to Magnolia Oil & Gas — a Warburg Pincus/Kayne Anderson exit. A sponsor sell-side of this scale runs a controlled, document-heavy diligence process from signing to close.",
+      "deal_clock": [
+        {
+          "date": "Jul 20, 2026",
+          "event": "WildFire Energy agrees to $4.06B sale to Magnolia"
+        }
+      ],
+      "outreach_idea": "Engage Jefferies's energy/sponsor coverage on the WildFire sale — a $4B PE exit is a strong secure sell-side diligence use case.",
+      "outreach_draft": {
+        "subject": "WildFire Energy / Magnolia — supporting a $4B sponsor exit",
+        "body": "Congratulations on Jefferies's lead role advising WildFire Energy on its sale to Magnolia. Sponsor exits of this scale run tightly controlled, auditable diligence to close — would welcome a conversation on how we support clean data-room access across the process.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "Magnolia Oil & Gas (investor newsroom)",
+      "source_url": "https://www.magnoliaoilgas.com/investors/press-releases/year/2026/07-20-2026-120106731",
+      "published": "2026-07-20",
+      "confidence": "Reported",
+      "first_seen": "2026-07-21",
+      "last_confirmed": "2026-07-21",
+      "carry_badge": "NEW"
+    },
+    {
+      "id": "o5",
+      "bank": "Citi",
+      "sector": "Consumer / Packaged Food",
+      "urgency": "HOT",
+      "headline": "Lead adviser to Utz's Special Committee on its ~$2.9B take-private by Intersnack",
+      "why_it_matters": "Citi is exclusive financial adviser to Utz Brands' Special Committee (RBC also advising Utz) on its signed ~$2.9B take-private by Intersnack at $14.25/share, with BofA advising Intersnack and providing debt financing. A Special Committee take-private is the highest-diligence room type — fairness backup, family-partnership docs, and a debt syndicate.",
+      "deal_clock": [
+        {
+          "date": "Jul 21, 2026",
+          "event": "Intersnack agrees to take Utz private at $14.25/share"
+        }
+      ],
+      "outreach_idea": "Open with Citi's consumer coverage on the Utz take-private — a Special Committee process with a debt syndicate is a strong secure-diligence use case.",
+      "outreach_draft": {
+        "subject": "Utz / Intersnack — supporting a Special Committee take-private",
+        "body": "Congratulations on Citi's role advising the Utz Special Committee on the Intersnack take-private. Special Committee processes run tightly controlled, auditable diligence alongside a debt-financing syndicate — would welcome a conversation on how we support secure data-room access through to close.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "Utz Brands (investor relations)",
+      "source_url": "https://investors.utzsnacks.com/news/news-details/2026/Utz-Brands-Inc--and-Intersnack-Group-GmbH--Co--KG-Announce-Agreement-to-Take-Utz-Private-and-Partnership-with-Founding-Family/default.aspx",
+      "published": "2026-07-21",
+      "confidence": "Reported",
+      "first_seen": "2026-07-21",
+      "last_confirmed": "2026-07-21",
+      "carry_badge": "NEW"
+    },
+    {
+      "id": "o6",
+      "bank": "Goldman Sachs",
+      "sector": "Healthcare / Biopharma",
+      "urgency": "HOT",
+      "headline": "Exclusive adviser to Eli Lilly on its ~$2.8B acquisition of AtaiBeckley",
+      "why_it_matters": "Goldman is exclusive financial adviser to Eli Lilly on its signed ~$2.8B upfront acquisition of AtaiBeckley (up to ~$3.8B with CVRs), a treatment-resistant-depression play. Announced today — large-cap biopharma buy-side diligence is live.",
+      "deal_clock": [
+        {
+          "date": "Jul 16, 2026",
+          "event": "Lilly signs deal to acquire AtaiBeckley (~$2.8B upfront)"
+        }
+      ],
+      "outreach_idea": "Open on the Lilly/AtaiBeckley signing — a fresh large-cap CNS acquisition with a CVR structure is a concrete reason to engage Goldman's healthcare team on secure diligence.",
+      "outreach_draft": {
+        "subject": "Lilly / AtaiBeckley — supporting a large-cap biopharma close",
+        "body": "Congratulations on Goldman's role advising Eli Lilly on the AtaiBeckley acquisition announced today. Large-cap biopharma deals with milestone/CVR structures run heavy scientific and regulatory diligence through to close — would welcome a conversation on how we support secure, auditable data-room access across the process.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "PR Newswire (deal announcement)",
+      "source_url": "https://www.prnewswire.com/news-releases/lilly-to-acquire-ataibeckley-to-advance-therapies-for-treatment-resistant-depression-and-other-mental-health-conditions-302827468.html",
+      "published": "2026-07-16",
+      "confidence": "Reported",
+      "first_seen": "2026-07-16",
+      "last_confirmed": "2026-07-16",
+      "carry_badge": "Day 4"
+    },
+    {
+      "id": "o7",
+      "bank": "Moelis",
+      "sector": "Healthcare / Biopharma",
+      "urgency": "HOT",
+      "headline": "Sell-side adviser (with Centerview) to AtaiBeckley on its ~$2.8B sale to Eli Lilly",
+      "why_it_matters": "Moelis and Centerview advise AtaiBeckley on its signed ~$2.8B sale to Eli Lilly (Citi also advises the board). A multi-adviser large-cap biopharma sell-side with CVR consideration — a controlled, multi-party diligence process from day one.",
+      "deal_clock": [
+        {
+          "date": "Jul 16, 2026",
+          "event": "AtaiBeckley agrees to ~$2.8B sale to Lilly"
+        }
+      ],
+      "outreach_idea": "Engage Moelis's healthcare coverage on the AtaiBeckley sale — a multi-adviser biopharma sell-side is a strong secure-diligence use case.",
+      "outreach_draft": {
+        "subject": "AtaiBeckley / Lilly — supporting a multi-adviser biopharma sell-side",
+        "body": "Congratulations on Moelis's role advising AtaiBeckley on its sale to Eli Lilly. Multi-adviser sell-sides run tightly controlled, auditable diligence across parties — would welcome a conversation on how we support clean data-room access through to close.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "PR Newswire (deal announcement)",
+      "source_url": "https://www.prnewswire.com/news-releases/lilly-to-acquire-ataibeckley-to-advance-therapies-for-treatment-resistant-depression-and-other-mental-health-conditions-302827468.html",
+      "published": "2026-07-16",
+      "confidence": "Reported",
+      "first_seen": "2026-07-16",
+      "last_confirmed": "2026-07-16",
+      "carry_badge": "Day 4"
+    },
+    {
+      "id": "o8",
+      "bank": "Raymond James",
+      "sector": "Technology / IoT",
+      "urgency": "WARM",
+      "headline": "Adviser to Identiv on the $50M sale of its IoT business to Trackonomy",
+      "why_it_matters": "Raymond James is financial adviser to Identiv's board on the sale of its IoT business (plus $25M cash) to Trackonomy for $50M of Series C preferred, delivering the fairness opinion. A carve-out asset sale for stock consideration runs focused valuation and closing diligence.",
+      "deal_clock": [
+        {
+          "date": "Jul 17, 2026",
+          "event": "Identiv files preliminary proxy for IoT-business sale"
+        }
+      ],
+      "outreach_idea": "Reach out to Raymond James on the Identiv carve-out — an asset sale for stock consideration runs focused diligence and closing-document exchange.",
+      "outreach_draft": {
+        "subject": "Identiv IoT sale — supporting a carve-out to Trackonomy",
+        "body": "Congratulations on Raymond James's role advising Identiv on the sale of its IoT business. Carve-out asset sales for stock consideration run focused valuation and closing diligence — would welcome a conversation on how we support secure, auditable data-room access through to close.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "SEC EDGAR — Identiv PREM14A",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1036044/000119312526307972/d103630dprem14a.htm",
+      "published": "2026-07-17",
+      "confidence": "Filed",
+      "first_seen": "2026-07-21",
+      "last_confirmed": "2026-07-21",
+      "carry_badge": "NEW"
+    },
+    {
+      "id": "o9",
+      "bank": "Guggenheim Securities",
+      "sector": "Healthcare / Diagnostics",
+      "urgency": "WARM",
+      "headline": "Capital-markets adviser (with TD Cowen, Jefferies) on Freenome's ~$310M SPAC/PIPE debut",
+      "why_it_matters": "Guggenheim Securities is capital-markets adviser and TD Cowen lead financial adviser to Freenome on its ~$310M public debut via a PCSC SPAC combination plus a $240M PIPE (Jefferies advised PCSC and was joint lead PIPE placement agent). A de-SPAC plus large PIPE is document-intensive across subscription and diligence workstreams.",
+      "deal_clock": [
+        {
+          "date": "Jul 20, 2026",
+          "event": "Freenome debuts via PCSC SPAC + $240M PIPE"
+        }
+      ],
+      "outreach_idea": "Reach out to Guggenheim on the Freenome debut — de-SPAC/PIPE combinations run heavy subscription-doc and diligence exchange that map to secure rooms.",
+      "outreach_draft": {
+        "subject": "Freenome debut — supporting a de-SPAC + $240M PIPE",
+        "body": "Congratulations on Guggenheim's capital-markets role on Freenome's public debut. De-SPAC combinations with large PIPEs run document-intensive subscription and diligence workstreams across many parties — would welcome a conversation on how we support secure, auditable data-room access.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "GlobeNewswire",
+      "source_url": "https://www.globenewswire.com/news-release/2026/07/20/3330086/0/en/freenome-debuts-as-a-publicly-traded-company-focused-on-blood-based-early-cancer-detection.html",
+      "published": "2026-07-20",
+      "confidence": "Reported",
+      "first_seen": "2026-07-21",
+      "last_confirmed": "2026-07-21",
+      "carry_badge": "NEW"
+    },
+    {
+      "id": "o10",
+      "bank": "TD Cowen",
+      "sector": "Technology / IoT",
+      "urgency": "WARM",
+      "headline": "Adviser to Searchlight and Abry on the completed ~$726M take-private of KORE Group",
+      "why_it_matters": "TD Cowen advised Searchlight Capital and Abry Partners on their completed ~$726M take-private of IoT-connectivity firm KORE Group (Rothschild advised KORE's Special Committee). A closed take-private runs delisting, closing, and sponsor-onboarding workstreams — and signals the next mandate.",
+      "deal_clock": [
+        {
+          "date": "Jul 21, 2026",
+          "event": "KORE completes take-private; becomes private company"
+        }
+      ],
+      "outreach_idea": "Congratulate TD Cowen on the closed KORE take-private and open on the next sponsor mandate where fast, clean room setup helps at signing and close.",
+      "outreach_draft": {
+        "subject": "KORE take-private — and the next sponsor mandate",
+        "body": "Congratulations on TD Cowen's role advising Searchlight and Abry on the completed KORE take-private. As the team rotates onto the next sponsor process, would welcome a conversation on how we support fast, secure, auditable data-room setup from signing through close.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "KORE Wireless (investor relations)",
+      "source_url": "https://ir.korewireless.com/news-events/press-releases/detail/267/kore-begins-new-chapter-as-private-company-backed-by",
+      "published": "2026-07-21",
+      "confidence": "Reported",
+      "first_seen": "2026-07-21",
+      "last_confirmed": "2026-07-21",
+      "carry_badge": "NEW"
+    }
+  ],
+  "market_snapshot": {
+    "indices": [
+      {
+        "label": "S&P 500",
+        "value": "7,513.47",
+        "change": "+70.19 (+0.94%)",
+        "positive": true
+      },
+      {
+        "label": "Nasdaq Composite",
+        "value": "25,856.58",
+        "change": "+348.51 (+1.37%)",
+        "positive": true
+      },
+      {
+        "label": "Dow Jones",
+        "value": "52,349.59",
+        "change": "+510.33 (+0.98%)",
+        "positive": true
+      },
+      {
+        "label": "Russell 2000",
+        "value": "2,978.85",
+        "change": "+36.42 (+1.24%)",
+        "positive": true
+      },
+      {
+        "label": "CBOE VIX",
+        "value": "17.12",
+        "change": "-1.53 (-8.20%)",
+        "positive": false
+      },
+      {
+        "label": "10Y Treasury",
+        "value": "4.628%",
+        "change": "+0.030 (+0.65%)",
+        "positive": true
+      },
+      {
+        "label": "WTI Crude",
+        "value": "$84.42",
+        "change": "+1.94 (+2.35%)",
+        "positive": true
+      }
+    ],
+    "bank_stocks": [
+      {
+        "ticker": "GS",
+        "price": "$1,084.09",
+        "change": "+2.75%",
+        "positive": true
+      },
+      {
+        "ticker": "MS",
+        "price": "$217.14",
+        "change": "+2.94%",
+        "positive": true
+      },
+      {
+        "ticker": "JPM",
+        "price": "$345.08",
+        "change": "+1.83%",
+        "positive": true
+      },
+      {
+        "ticker": "EVR",
+        "price": "$342.99",
+        "change": "+2.84%",
+        "positive": true
+      }
+    ],
+    "macro_note": "Broad risk-on rally on Jul 21: S&P +0.9%, Nasdaq +1.4%, Dow +1.0%, with the VIX down ~8% to 17.1. Memory/semis led (Micron, Western Digital, Seagate double-digit gains); advisory names rallied with the tape (GS +2.8%, MS +2.9%, EVR +2.8%). Values are live intraday levels from the Jul 21 session (~1pm ET), not final closes; JEF and several boutique quotes omitted where only stale or single-source prints were verifiable — accuracy over completeness."
+  },
+  "talking_point": {
+    "quote": "Deal flow came back hot to start the week — Magnolia's $4B WildFire buy, Utz going private, Reformation's IPO launch, and Tempus/Personalis filing — all on a risk-on tape with the VIX back to 17. Fresh signings and launches spin up diligence clocks immediately. How are you thinking about room readiness across the processes you're launching this quarter?",
+    "use_with": "M&A, sponsor, and ECM coverage teams (esp. JPMorgan, Jefferies, Citi, Morgan Stanley, Moelis, Guggenheim)",
+    "context": "Anchors on a busy Jul 21 deal tape against a rallying market — a natural way to open a room-readiness conversation as signings and launches accelerate.",
+    "confidence": "Reported"
+  },
+  "sector_heat": {
+    "ranked": [
+      {
+        "sector": "Energy / Oil & Gas",
+        "read": "Magnolia's $4.06B WildFire Energy buy (JPMorgan, Moelis, Citi buy-side; Jefferies, BofA sell-side) headlines a large PE-backed upstream carve-out with a financing syndicate.",
+        "source_note": "Magnolia Oil & Gas, Jul 20 2026"
+      },
+      {
+        "sector": "Consumer / Packaged Food",
+        "read": "Intersnack takes Utz private at $14.25/share (~$2.9B; Citi lead to the Special Committee, RBC to Utz, BofA to Intersnack) — a Special Committee process with debt financing.",
+        "source_note": "Business Wire, Jul 21 2026"
+      },
+      {
+        "sector": "Healthcare / Diagnostics",
+        "read": "Tempus/Personalis files its stock-for-stock merger (Morgan Stanley; Centerview, TD Cowen) and Freenome debuts via SPAC+$240M PIPE (Guggenheim, TD Cowen, Jefferies).",
+        "source_note": "SEC EDGAR + GlobeNewswire, Jul 20 2026"
+      },
+      {
+        "sector": "Consumer / Apparel (ECM)",
+        "read": "Reformation launches its ~$239M NYSE IPO (JPMorgan, Morgan Stanley lead; Citi, RBC) — a live roadshow with a four-bank syndicate.",
+        "source_note": "Reuters via Yahoo Finance, Jul 21 2026"
+      }
+    ]
+  },
+  "pipeline_watch": {
+    "note": "Named covered-bank mandates and sector heat. Rumored / no-adviser situations live in the Rumor Mill.",
+    "covered_bank_leads": [],
+    "situations_to_watch": []
+  },
+  "skeptics_corner": {
+    "note": "Unconfirmed leads — rumored deals and situations with no adviser named yet (or advisers unconfirmed). Real reporting, but treat as speculative: chase them, don't quote them on a call.",
+    "items": [
+      {
+        "company": "Voya Financial (NYSE: VOYA)",
+        "bank": "unconfirmed",
+        "lead": "The retirement/insurance group is reportedly fielding takeover interest — Principal Financial approached earlier in 2026 — with activist Toms Capital among its largest holders adding pressure.",
+        "why_unverified": "Semafor report of interest only; no active talks confirmed, company has not commented, and the earlier Principal approach reportedly went nowhere.",
+        "sector": "Financials / Asset Management",
+        "source_note": "Semafor via Yahoo Finance, Jul 16 2026",
+        "source_url": "https://finance.yahoo.com/markets/stocks/articles/retirement-giant-voya-financial-fields-133758769.html",
+        "confidence": "Speculative"
+      },
+      {
+        "company": "ACI Worldwide (NASDAQ: ACIW)",
+        "bank": "unconfirmed",
+        "lead": "The payments-software firm is exploring a sale of its Biller/billing division, valued around $1.5B, amid strong demand for recurring-revenue payments assets.",
+        "why_unverified": "Reuters sourced it to people familiar; early-stage \"exploring,\" no adviser or buyer named.",
+        "sector": "Payments / Fintech Software",
+        "source_note": "Reuters, Jul 17 2026",
+        "source_url": "https://www.reuters.com/world/payments-company-aci-explores-sale-billing-unit-sources-say-2026-07-17/",
+        "confidence": "Speculative"
+      },
+      {
+        "company": "Chemed Corp. (NYSE: CHE)",
+        "bank": "unconfirmed",
+        "lead": "Activist Barington Capital is ramping up a campaign pushing the VITAS hospice / Roto-Rooter parent for a strategic review and cost cuts, having taken a stake and proposed a director.",
+        "why_unverified": "Activist push, not a company-sanctioned process — Chemed has not committed to any review or sale.",
+        "sector": "Healthcare Services / Diversified",
+        "source_note": "Bloomberg, Jul 21 2026",
+        "source_url": "https://www.bloomberg.com/news/articles/2026-07-21/activist-barington-pushes-chemed-for-strategic-review-cost-cuts",
+        "confidence": "Speculative"
+      },
+      {
+        "company": "OpenRouter (private)",
+        "bank": "unconfirmed",
+        "lead": "The AI-model-routing startup (recent ~$1.3B valuation, Alphabet-backed) has reportedly discussed a potential multibillion-dollar sale to a larger tech company.",
+        "why_unverified": "The Information reports preliminary interest; no acquirer named, private company, no confirmation.",
+        "sector": "AI Infrastructure / Software",
+        "source_note": "The Information, Jul 17 2026",
+        "source_url": "https://www.theinformation.com/articles/startup-openrouter-fields-multi-billion-dollar-takeover-interest",
+        "confidence": "Speculative"
+      }
+    ]
+  }
+}

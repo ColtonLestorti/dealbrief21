@@ -1,42 +1,42 @@
 {
-  "date": "2026-07-21",
-  "edition": 12,
-  "lens": "Deal flow roars back to open the week on a risk-on tape (Nasdaq +1.4%, S&P +0.9%): Magnolia's $4.06B buy of WildFire Energy (JPMorgan, Moelis, Citi buy-side; Jefferies, BofA sell-side), Intersnack's ~$2.9B take-private of Utz (Citi, RBC; BofA), Reformation's ~$239M IPO launch (JPMorgan, Morgan Stanley; Citi, RBC), and the Tempus/Personalis merger filing (Morgan Stanley; Centerview, TD Cowen).",
+  "date": "2026-07-22",
+  "edition": 13,
+  "lens": "Cross-sector deal flow stays heavy on a risk-on close (Russell 2000 +1.5%, Nasdaq +1.3%): Prologis' ~£14B \"best and final\" run at SEGRO (JPMorgan, BofA), NOVAGOLD's ~$4.2B Donlin Gold consolidation (Citi), Vertex's $85/share take-private of Crinetics (JPMorgan, Leerink; Lazard, Morgan Stanley), and the Corebridge/Equitable merger of equals (Morgan Stanley; Goldman) heading to a Jul 30 vote.",
   "ticker": [
     {
       "label": "S&P 500",
-      "value": "7,513.47",
-      "change": "+0.94%",
+      "value": "7,509.20",
+      "change": "+0.89%",
       "positive": true
     },
     {
       "label": "Nasdaq",
-      "value": "25,856.58",
-      "change": "+1.37%",
+      "value": "25,837.21",
+      "change": "+1.29%",
       "positive": true
     },
     {
       "label": "Dow",
-      "value": "52,349.59",
-      "change": "+0.98%",
+      "value": "52,224.64",
+      "change": "+0.74%",
       "positive": true
     },
     {
       "label": "GS",
-      "value": "$1,084.09",
-      "change": "+2.75%",
+      "value": "$1,085.56",
+      "change": "+2.89%",
       "positive": true
     },
     {
       "label": "MS",
-      "value": "$217.14",
-      "change": "+2.94%",
+      "value": "$216.40",
+      "change": "+2.59%",
       "positive": true
     },
     {
       "label": "JPM",
-      "value": "$345.08",
-      "change": "+1.83%",
+      "value": "$345.23",
+      "change": "+1.88%",
       "positive": true
     }
   ],
@@ -47,23 +47,23 @@
       "urgency": "HIGH",
       "scope": "bank",
       "bank": "JPMorgan",
-      "headline": "JPMorgan, Moelis and Citi advise Magnolia Oil & Gas on its $4.06B acquisition of WildFire Energy",
-      "why_it_matters": "Magnolia Oil & Gas agreed to acquire Eagle Ford producer WildFire Energy for $4.06B from Warburg Pincus and Kayne Anderson. The release names J.P. Morgan and Moelis as lead financial advisers and Citi as a financial adviser to Magnolia (buyer), with JPMorgan, Citi and Wells Fargo providing committed financing. A large PE-backed upstream carve-out with reserves, title, and financing diligence running in parallel.",
-      "suggested_action": "Engage JPMorgan's energy coverage on Magnolia/WildFire — a $4B upstream acquisition with a financing syndicate is a heavy multi-party diligence use case.",
+      "headline": "JPMorgan and BofA advise Prologis on its ~£14B ($18.7B) \"best and final\" bid for SEGRO",
+      "why_it_matters": "Prologis made a \"best and final\" ~£14B all-share (plus partial-cash) proposal for UK logistics REIT SEGRO and sought a PUSU deadline extension. The release names J.P. Morgan (J.P. Morgan Cazenove) and Merrill Lynch International (BofA Securities), alongside Rothschild and Eastdil, as acting exclusively for Prologis (buyer). A contested UK-Takeover-Code mega-cap with a multi-bank syndicate drives enormous cross-border diligence.",
+      "suggested_action": "Engage JPMorgan's real estate / cross-border M&A coverage on Prologis/SEGRO — a contested UK-Code mega-cap is a heavy multi-party, multi-jurisdiction data-room use case.",
       "deal_clock": [
         {
-          "date": "Jul 20, 2026",
-          "event": "Magnolia agrees to acquire WildFire Energy for $4.06B"
+          "date": "Jul 22, 2026",
+          "event": "Prologis makes \"best and final\" ~£14B proposal for SEGRO"
         }
       ],
-      "source": "Magnolia Oil & Gas (investor newsroom)",
-      "source_url": "https://www.magnoliaoilgas.com/investors/press-releases/year/2026/07-20-2026-120106731",
-      "published": "2026-07-20",
+      "source": "PR Newswire (issuer release)",
+      "source_url": "https://www.prnewswire.com/news-releases/best-and-final-proposal-and-request-for-pusu-deadline-extension-302832029.html",
+      "published": "2026-07-22",
       "confidence": "Reported",
       "tags": [
-        "energy",
-        "oil-gas",
-        "sponsor"
+        "real-estate",
+        "logistics",
+        "cross-border"
       ]
     },
     {
@@ -71,24 +71,24 @@
       "category": "M&A",
       "urgency": "HIGH",
       "scope": "bank",
-      "bank": "Jefferies",
-      "headline": "Jefferies and BofA advise WildFire Energy on its $4.06B sale to Magnolia Oil & Gas",
-      "why_it_matters": "On the sell-side of the Magnolia/WildFire deal, the release names Jefferies as lead financial adviser and BofA Securities as a financial adviser to WildFire, a Warburg Pincus/Kayne Anderson-backed Eagle Ford producer. A sponsor exit of this scale runs a controlled, document-heavy sell-side diligence process.",
-      "suggested_action": "Reach out to Jefferies's energy/sponsor coverage on the WildFire sale — a $4B PE exit is a concrete near-term diligence conversation.",
+      "bank": "JPMorgan",
+      "headline": "JPMorgan (with Leerink) advises Crinetics on its $85/share, all-cash sale to Vertex; Lazard and Morgan Stanley advise Vertex",
+      "why_it_matters": "Vertex Pharmaceuticals agreed to acquire Crinetics Pharmaceuticals for $85.00/share in cash (raised from $78.00). The preliminary proxy names J.P. Morgan and Leerink Partners as financial advisers to Crinetics (target, each delivering a fairness opinion) and Lazard and Morgan Stanley as advisers to Vertex (buyer), with a three-bank debt commitment. A sizable, financed biopharma take-private now advancing to the vote.",
+      "suggested_action": "Open with JPMorgan's healthcare coverage on Crinetics/Vertex — a financed all-cash biopharma take-private runs heavy, time-boxed diligence through the shareholder vote.",
       "deal_clock": [
         {
-          "date": "Jul 20, 2026",
-          "event": "WildFire Energy agrees to $4.06B sale to Magnolia"
+          "date": "Jul 21, 2026",
+          "event": "Crinetics files preliminary proxy; $85.00/share cash from Vertex"
         }
       ],
-      "source": "Magnolia Oil & Gas (investor newsroom)",
-      "source_url": "https://www.magnoliaoilgas.com/investors/press-releases/year/2026/07-20-2026-120106731",
-      "published": "2026-07-20",
-      "confidence": "Reported",
+      "source": "SEC EDGAR — Crinetics PREM14A",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1658247/000114036126029134/ny20077458x1_prem14a.htm",
+      "published": "2026-07-21",
+      "confidence": "Filed",
       "tags": [
-        "energy",
-        "oil-gas",
-        "sell-side"
+        "healthcare",
+        "biopharma",
+        "take-private"
       ]
     },
     {
@@ -96,213 +96,242 @@
       "category": "M&A",
       "urgency": "HIGH",
       "scope": "bank",
-      "bank": "Citi",
-      "headline": "Citi (lead, Special Committee) and RBC advise Utz on its ~$2.9B take-private by Intersnack",
-      "why_it_matters": "Intersnack Group agreed to take Utz Brands private at $14.25/share (~$2.9B EV). The release names Citi as exclusive financial adviser to Utz's Special Committee and RBC Capital Markets as a financial adviser to Utz, with BofA Securities advising Intersnack and providing committed debt financing. A public-company take-private with a Special Committee — the highest-diligence room type.",
-      "suggested_action": "Open with Citi's consumer coverage on the Utz take-private — a Special Committee process with fairness backup and a debt syndicate is a strong secure-diligence use case.",
+      "bank": "Morgan Stanley",
+      "headline": "Morgan Stanley advises Corebridge and Goldman advises Equitable on their merger of equals",
+      "why_it_matters": "Corebridge Financial and Equitable Holdings are combining in an all-stock merger of equals under a new holding company (\"New Equitable\"), with Corebridge holders ending up with ~51%. A supplemental joint-proxy disclosure filed Jul 21 names Morgan Stanley as Corebridge's financial adviser and Goldman Sachs as Equitable's, ahead of a Jul 30 special meeting. A large-cap insurance MOE with two-sided fairness work heading into the vote.",
+      "suggested_action": "Reach out to Morgan Stanley's FIG coverage on the Corebridge/Equitable MOE — a large insurance combination with an imminent vote runs multi-workstream integration diligence.",
       "deal_clock": [
         {
           "date": "Jul 21, 2026",
-          "event": "Intersnack agrees to take Utz private at $14.25/share"
+          "event": "Supplemental joint-proxy disclosure filed"
+        },
+        {
+          "date": "Jul 30, 2026",
+          "event": "Special meeting / shareholder vote"
         }
       ],
-      "source": "Utz Brands (investor relations)",
-      "source_url": "https://investors.utzsnacks.com/news/news-details/2026/Utz-Brands-Inc--and-Intersnack-Group-GmbH--Co--KG-Announce-Agreement-to-Take-Utz-Private-and-Partnership-with-Founding-Family/default.aspx",
+      "source": "SEC EDGAR — Corebridge Form 425",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1889539/000114036126029153/ef20078276_425.htm",
       "published": "2026-07-21",
-      "confidence": "Reported",
+      "confidence": "Filed",
       "tags": [
-        "consumer",
-        "take-private",
-        "packaged-food"
+        "fig",
+        "insurance",
+        "merger-of-equals"
       ]
     },
     {
       "id": "s4",
-      "category": "DEALS",
-      "urgency": "MEDIUM",
+      "category": "M&A",
+      "urgency": "HIGH",
       "scope": "bank",
-      "bank": "Morgan Stanley",
-      "headline": "JPMorgan and Morgan Stanley lead Reformation's ~$239M NYSE IPO (Citi, RBC bookrunners)",
-      "why_it_matters": "Womenswear retailer Reformation launched its IPO (14.06M shares, $15–$17 range, up to ~$239M) on the NYSE under ticker REF. Reporting names J.P. Morgan and Morgan Stanley as joint lead bookrunners, with Citigroup and RBC Capital Markets as joint bookrunners. An active roadshow means live S-1 and due-diligence-defense workstreams.",
-      "suggested_action": "Use the Reformation launch as an ECM hook with Morgan Stanley's syndicate desk — live IPOs run coordinated diligence-defense data rooms across bookrunners and selling holders.",
+      "bank": "Citi",
+      "headline": "Citi advises NOVAGOLD on its ~$4.2B all-share acquisition of 100% of Donlin Gold",
+      "why_it_matters": "NOVAGOLD entered definitive agreements to acquire Paulson's 40% interest in Donlin Gold in an all-share deal implying ~US$4.2B combined equity value. The release names Citi as exclusive financial adviser to NOVAGOLD, also delivering a fairness opinion to its board (dated Jul 21). A JV-consolidation of scale with board-diligence and shareholder-vote document flow.",
+      "suggested_action": "Engage Citi's metals & mining coverage on NOVAGOLD/Donlin — a $4.2B all-share consolidation with a board fairness opinion is a strong secure-diligence use case.",
       "deal_clock": [
         {
           "date": "Jul 21, 2026",
-          "event": "Reformation launches IPO, $15–$17 range"
+          "event": "NOVAGOLD signs definitive agreements to acquire 100% of Donlin Gold"
         }
       ],
-      "source": "PR Newswire (issuer release)",
-      "source_url": "https://www.prnewswire.com/news-releases/reformation-launches-initial-public-offering-302829541.html",
+      "source": "GlobeNewswire",
+      "source_url": "https://www.globenewswire.com/news-release/2026/07/22/3331219/0/en/novagold-enters-into-definitive-agreements-to-acquire-100-of-donlin-gold.html",
       "published": "2026-07-21",
       "confidence": "Reported",
       "tags": [
-        "consumer",
-        "ipo",
-        "ecm"
+        "mining",
+        "gold",
+        "all-share"
       ]
     },
     {
       "id": "s5",
-      "category": "DEALS",
+      "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Guggenheim Securities",
-      "headline": "Guggenheim, Jefferies and TD Cowen advise on Freenome's ~$310M SPAC/PIPE public debut",
-      "why_it_matters": "Blood-based cancer-detection firm Freenome began trading (Nasdaq: FRNM) via a PCSC SPAC combination plus a $240M PIPE (~$310M gross). The release names Guggenheim Securities as capital-markets adviser and TD Cowen as lead financial adviser to Freenome, with Jefferies as lead financial/capital-markets adviser and joint lead PIPE placement agent for PCSC. A de-SPAC plus large PIPE is document-intensive across subscription and diligence workstreams.",
-      "suggested_action": "Reach out to Guggenheim on the Freenome debut — de-SPAC/PIPE combinations run heavy subscription-doc and diligence exchange that map directly to secure rooms.",
+      "bank": "Goldman Sachs",
+      "headline": "Goldman and Perella Weinberg advise Repligen on its cash-and-stock acquisition of BioLife Solutions; Centerview advises BioLife",
+      "why_it_matters": "Repligen agreed to acquire BioLife Solutions for $11.25 cash plus 0.1442 Repligen shares per BioLife share (expected close Q4 2026). The Form 425 names Goldman Sachs and Perella Weinberg as advisers to Repligen (buyer) and Centerview Partners as adviser to BioLife (target). A mid-cap life-sciences-tools combination with two-sided diligence as the S-4 process begins.",
+      "suggested_action": "Reach out to Goldman's healthcare/life-sciences coverage on Repligen/BioLife — a cash-and-stock strategic acquisition spins up two-sided diligence into the S-4.",
       "deal_clock": [
         {
-          "date": "Jul 20, 2026",
-          "event": "Freenome debuts via PCSC SPAC + $240M PIPE"
-        },
-        {
-          "date": "Jul 21, 2026",
-          "event": "FRNM begins trading"
+          "date": "Jul 22, 2026",
+          "event": "Repligen agrees to acquire BioLife Solutions (cash + stock)"
         }
       ],
-      "source": "GlobeNewswire",
-      "source_url": "https://www.globenewswire.com/news-release/2026/07/20/3330086/0/en/freenome-debuts-as-a-publicly-traded-company-focused-on-blood-based-early-cancer-detection.html",
-      "published": "2026-07-20",
-      "confidence": "Reported",
+      "source": "SEC EDGAR — Repligen Form 425",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/730272/000119312526311411/d141685d425.htm",
+      "published": "2026-07-22",
+      "confidence": "Filed",
       "tags": [
         "healthcare",
-        "diagnostics",
-        "de-spac"
+        "life-sciences",
+        "cash-and-stock"
       ]
     },
     {
       "id": "s6",
-      "category": "M&A",
-      "urgency": "HIGH",
+      "category": "DEALS",
+      "urgency": "MEDIUM",
       "scope": "bank",
       "bank": "Morgan Stanley",
-      "headline": "Morgan Stanley advises Tempus on its acquisition of Personalis; Centerview and TD Cowen advise Personalis ($16.25/share)",
-      "why_it_matters": "Tempus AI agreed to acquire Personalis in a stock-for-stock two-step merger with an optional cash election up to 50% at $16.25/share. The S-4/425 names Morgan Stanley as financial adviser to Tempus (buyer) and Centerview Partners and TD Securities (\"TD Cowen\") as advisers to Personalis's board, each delivering fairness opinions. A diagnostics combination now advancing through the S-4/vote phase.",
-      "suggested_action": "Engage Morgan Stanley's healthcare-tech coverage on Tempus/Personalis — a filed stock-for-stock merger with a cash election runs two-sided diligence into the vote.",
+      "headline": "Morgan Stanley and Wells Fargo advise Greenbacker on its ~$375M sale to MN8 (JPMorgan advises MN8)",
+      "why_it_matters": "MN8 Energy agreed to acquire Greenbacker Renewable Energy for ~$375M, creating a top-tier US power platform. The release names Morgan Stanley and Wells Fargo as advisers to Greenbacker (seller) and J.P. Morgan as adviser to MN8 (buyer). A renewables consolidation with portfolio-asset and PPA/contract diligence across shared rooms.",
+      "suggested_action": "Talk to Morgan Stanley's power & renewables coverage on the Greenbacker sale — renewables platform deals run complex contract and asset diligence.",
       "deal_clock": [
         {
-          "date": "Jul 20, 2026",
-          "event": "Tempus/Personalis merger materials (425) filed; $16.25/share cash election"
+          "date": "Jul 22, 2026",
+          "event": "MN8 agrees to acquire Greenbacker for ~$375M"
         }
       ],
-      "source": "SEC EDGAR — Personalis/Tempus Form 425",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1527753/000119312526309081/d128960d425.htm",
-      "published": "2026-07-20",
-      "confidence": "Filed",
+      "source": "MN8 Energy (investor relations)",
+      "source_url": "https://mn8.com/mn8-energy-to-acquire-greenbacker-renewable-energy-company-llc-creating-a-top-tier-american-power-platform/",
+      "published": "2026-07-22",
+      "confidence": "Reported",
       "tags": [
-        "healthcare",
-        "diagnostics",
-        "stock-for-stock"
+        "energy",
+        "renewables",
+        "power"
       ]
     },
     {
       "id": "s7",
-      "category": "M&A",
+      "category": "DEALS",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Guggenheim Securities",
-      "headline": "Guggenheim advises the Destination XL board on a stock-for-stock merger with FULLBEAUTY Brands",
-      "why_it_matters": "Destination XL (DXLG) filed a preliminary proxy for a stock-for-stock merger with Oaktree-backed FULLBEAUTY Brands (~55/45 in FBB's favor). The proxy names Guggenheim Securities as financial adviser to the DXL board — notably, the board is now recommending against the share-issuance proposal, keeping the process contested and diligence-heavy. (BofA appears only as ABL lender; not an M&A adviser.)",
-      "suggested_action": "A contested stock-for-stock merger with a board recommending against is a live, document-intensive situation — a reason to talk to Guggenheim on secure, auditable diligence access.",
+      "bank": "Jefferies",
+      "headline": "Jefferies, TD Cowen, Stifel and Guggenheim place Mentari Therapeutics' $200M PIPE (ahead of an InMed reverse merger)",
+      "why_it_matters": "Mentari Therapeutics announced a $200M private placement for its migraine-prevention pipeline, concurrent with a reverse merger into InMed Pharmaceuticals. The release names Jefferies, TD Cowen, Stifel and Guggenheim Securities as placement agents. A large PIPE plus a public-shell reverse merger drives confidential financing diligence across four agents.",
+      "suggested_action": "Reach out to Jefferies's healthcare ECM/private-capital coverage on the Mentari PIPE — a $200M placement plus reverse merger runs document-intensive investor diligence.",
       "deal_clock": [
         {
-          "date": "Jul 17, 2026",
-          "event": "DXL files preliminary merger proxy (PREM14A)"
+          "date": "Jul 22, 2026",
+          "event": "Mentari announces $200M private placement + InMed reverse merger"
         }
       ],
-      "source": "SEC EDGAR — Destination XL PREM14A",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/813298/000119312526307826/d76201dprem14a.htm",
-      "published": "2026-07-17",
-      "confidence": "Filed",
+      "source": "PR Newswire (issuer release)",
+      "source_url": "https://www.prnewswire.com/news-releases/mentari-therapeutics-announces-200-million-private-placement-for-migraine-prevention-pipeline-302832045.html",
+      "published": "2026-07-22",
+      "confidence": "Reported",
       "tags": [
-        "consumer",
-        "retail",
-        "stock-for-stock"
+        "biotech",
+        "pipe",
+        "reverse-merger"
       ]
     },
     {
       "id": "s8",
-      "category": "M&A",
+      "category": "DEALS",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Raymond James",
-      "headline": "Raymond James advises Identiv on the $50M sale of its IoT business to Trackonomy",
-      "why_it_matters": "Identiv (INVE) filed a preliminary proxy for the sale of its IoT business (plus $25M cash) to Trackonomy Systems for $50M of Trackonomy Series C preferred, pivoting to a \"Physical AI\" strategy. The proxy names Raymond James as financial adviser to Identiv's board, delivering the fairness opinion. A carve-out asset sale with valuation and closing diligence.",
-      "suggested_action": "Reach out to Raymond James on the Identiv carve-out — an asset sale for stock consideration runs focused diligence and closing-document exchange.",
+      "bank": "Evercore",
+      "headline": "Morgan Stanley, Jefferies, Evercore and Raymond James run Dyne Therapeutics' upsized $375M offering",
+      "why_it_matters": "Dyne Therapeutics priced an upsized $375M public offering (18.3M shares at $20.50). The release names Morgan Stanley, Jefferies and Evercore ISI as joint book-running managers, with LifeSci Capital and Raymond James also joint book-running managers. A large upsized equity raise across multiple banks means active ECM underwriting and closing diligence (expected Jul 23).",
+      "suggested_action": "Use the Dyne raise as an ECM hook with Evercore's (and the syndicate's) healthcare capital-markets desks — upsized follow-ons run coordinated underwriting diligence to close.",
       "deal_clock": [
         {
-          "date": "Jul 17, 2026",
-          "event": "Identiv files preliminary proxy for IoT-business sale"
+          "date": "Jul 21, 2026",
+          "event": "Dyne prices upsized $375M offering at $20.50"
+        },
+        {
+          "date": "Jul 23, 2026",
+          "event": "Expected closing"
         }
       ],
-      "source": "SEC EDGAR — Identiv PREM14A",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1036044/000119312526307972/d103630dprem14a.htm",
-      "published": "2026-07-17",
-      "confidence": "Filed",
+      "source": "GlobeNewswire",
+      "source_url": "https://www.globenewswire.com/news-release/2026/07/22/3331062/0/en/dyne-therapeutics-announces-pricing-of-upsized-375-million-public-offering-of-common-stock.html",
+      "published": "2026-07-21",
+      "confidence": "Reported",
       "tags": [
-        "technology",
-        "iot",
-        "carve-out"
+        "biotech",
+        "ecm",
+        "follow-on"
       ]
     },
     {
       "id": "s9",
-      "category": "DEALS",
+      "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "TD Cowen",
-      "headline": "TD Cowen advises Searchlight and Abry on the completed ~$726M take-private of KORE Group",
-      "why_it_matters": "Searchlight Capital and Abry Partners completed their ~$726M take-private of IoT-connectivity firm KORE Group, which is now private. The release names TD Cowen as financial adviser to Searchlight and Abry (Rothschild advised KORE's Special Committee). A completed take-private runs delisting, closing, and sponsor-onboarding workstreams through shared rooms.",
-      "suggested_action": "Congratulate TD Cowen on the closed KORE take-private and ask about the next sponsor mandate where fast, clean room setup helps at signing and close.",
+      "bank": "Morgan Stanley",
+      "headline": "Morgan Stanley advises First Financial Bancorp on its acquisition of Finward Bancorp",
+      "why_it_matters": "First Financial Bancorp (Ohio) agreed to acquire Finward Bancorp (Indiana) in a stock-based bank merger (Finward merges into First Financial). The Form 425 names Morgan Stanley as financial adviser to First Financial (buyer) and Stephens as adviser to Finward (seller). A community-bank combination advancing to an S-4 and shareholder vote.",
+      "suggested_action": "Reach out to Morgan Stanley's depositories/FIG coverage on First Financial/Finward — a signed bank merger runs two-sided diligence into the S-4 and vote.",
       "deal_clock": [
         {
           "date": "Jul 21, 2026",
-          "event": "KORE completes take-private; becomes private company"
+          "event": "First Financial agrees to acquire Finward Bancorp"
         }
       ],
-      "source": "KORE Wireless (investor relations)",
-      "source_url": "https://ir.korewireless.com/news-events/press-releases/detail/267/kore-begins-new-chapter-as-private-company-backed-by",
+      "source": "SEC EDGAR — Finward Bancorp Form 425",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/919864/000119312526310393/d155212d425.htm",
       "published": "2026-07-21",
-      "confidence": "Reported",
+      "confidence": "Filed",
       "tags": [
-        "technology",
-        "iot",
-        "take-private"
+        "fig",
+        "bank-merger",
+        "stock"
       ]
     },
     {
       "id": "s10",
-      "category": "DEALS",
+      "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Bank of America",
-      "headline": "BofA advises Cross Country Healthcare on its completed take-private by Knox Lane",
-      "why_it_matters": "PE firm Knox Lane completed its take-private of Cross Country Healthcare, with a simultaneous carve-out of the locums business to All Star Healthcare. The release names BofA Securities as exclusive financial adviser to Cross Country Healthcare (MTS Health Partners advised Knox Lane). A take-private plus divisional carve-out means multi-entity diligence and closing-document exchange.",
-      "suggested_action": "Reach out to BofA's healthcare-services coverage on the Cross Country close — a take-private with a simultaneous carve-out is a multi-entity room use case.",
+      "bank": "Perella Weinberg",
+      "headline": "Perella Weinberg (TPH&Co) advises Citadel Drilling on its US$65M sale to Ensign Energy Services",
+      "why_it_matters": "Ensign Energy Services agreed to acquire Citadel Drilling for US$65M. The release names TPH&Co, the energy business of Perella Weinberg Partners, as financial adviser to Citadel (seller). A cross-border oilfield-services sell-side with a single adviser is a targeted, faster-close diligence engagement.",
+      "suggested_action": "Reach out to Perella Weinberg's (TPH&Co) energy coverage on the Citadel sale — a focused oilfield-services sell-side is a clean, near-term diligence conversation.",
       "deal_clock": [
         {
           "date": "Jul 21, 2026",
-          "event": "Knox Lane completes Cross Country Healthcare take-private"
+          "event": "Ensign agrees to acquire Citadel Drilling for US$65M"
         }
       ],
-      "source": "Yahoo Finance (press-release syndication)",
-      "source_url": "https://finance.yahoo.com/healthcare/articles/knox-lane-completes-acquisition-cross-134500384.html",
+      "source": "Canada Newswire (via Yahoo Finance)",
+      "source_url": "https://finance.yahoo.com/energy/articles/ensign-energy-services-inc-announces-013000532.html",
       "published": "2026-07-21",
       "confidence": "Reported",
       "tags": [
-        "healthcare",
-        "staffing",
-        "take-private"
+        "energy",
+        "oilfield-services",
+        "sell-side"
       ]
     },
     {
       "id": "s11",
+      "category": "M&A",
+      "urgency": "LOW",
+      "scope": "bank",
+      "bank": "Lincoln International",
+      "headline": "Lincoln International advises Senti Biosciences' Special Committee on its CVR-only take-private by Celadon",
+      "why_it_matters": "Celadon Partners (an affiliate of Senti's largest stockholder) agreed to take Senti Biosciences private, with consideration consisting solely of contingent value rights capped at $60M (no upfront cash for common stock). The preliminary proxy names Lincoln International as financial adviser to Senti's Special Committee, delivering the fairness opinion. A distressed, special-committee-led take-private — process-heavy despite its small size.",
+      "suggested_action": "A special-committee CVR-only take-private is a niche but document-heavy process — worth a light-touch note to Lincoln International on secure special-committee diligence.",
+      "deal_clock": [
+        {
+          "date": "Jul 21, 2026",
+          "event": "Senti files preliminary proxy for CVR-only take-private by Celadon"
+        }
+      ],
+      "source": "SEC EDGAR — Senti Biosciences PREM14A",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1854270/000114036126029160/ny20078262x1_prem14a.htm",
+      "published": "2026-07-21",
+      "confidence": "Filed",
+      "tags": [
+        "biotech",
+        "take-private",
+        "special-committee"
+      ]
+    },
+    {
+      "id": "s12",
       "category": "MACRO",
       "urgency": "MEDIUM",
       "scope": "market",
-      "headline": "Risk-on rally: Nasdaq +1.4%, S&P +0.9%, Dow +1.0% as VIX falls to ~17",
-      "why_it_matters": "US equities rallied broadly on Jul 21, with the Nasdaq up 1.4% (25,857) and the S&P 500 up 0.9% (7,513); the VIX fell ~8% to 17.1 and WTI firmed to ~$84. Memory/semiconductor names led and advisory stocks rallied with the tape (GS +2.8%, MS +2.9%, EVR +2.8%). A constructive tape is the backdrop against which fresh mandates — Magnolia/WildFire, Utz, Reformation's IPO — get signed and launched.",
-      "suggested_action": "Frame outreach around a risk-on open supporting fresh signings and launches — a natural reason to talk room readiness while deal flow accelerates.",
+      "headline": "Risk-on rally holds into the close: Nasdaq +1.3%, S&P +0.9%, Russell 2000 leads +1.5%, VIX ~17",
+      "why_it_matters": "US equities closed broadly higher on Jul 21, with the small-cap Russell 2000 leading (+1.5%) — signaling participation beyond mega-cap tech — and the VIX falling ~8.6% to ~17.1. Advisory names closed up with the tape (GS +2.9%, MS +2.6%, EVR +2.1%, JEF +2.8%). A constructive backdrop is where fresh mega-deals (Prologis/SEGRO, NOVAGOLD/Donlin) and financings (Dyne, Mentari) get signed and launched.",
+      "suggested_action": "Frame outreach around a risk-on tape supporting fresh signings and raises — a natural reason to talk room readiness as deal flow accelerates.",
       "source": "Yahoo Finance",
       "source_url": "https://finance.yahoo.com/quote/%5EGSPC/",
       "published": "2026-07-21"
@@ -311,6 +340,62 @@
   "opportunities": [
     {
       "id": "o1",
+      "bank": "JPMorgan",
+      "sector": "Healthcare / Biopharma",
+      "urgency": "HOT",
+      "headline": "Adviser (with Leerink) to Crinetics on its $85/share, all-cash sale to Vertex",
+      "why_it_matters": "J.P. Morgan and Leerink advise Crinetics on its signed $85.00/share all-cash sale to Vertex (Lazard and Morgan Stanley advise Vertex), with a three-bank debt commitment. A sizable, financed biopharma take-private advancing to the shareholder vote.",
+      "deal_clock": [
+        {
+          "date": "Jul 21, 2026",
+          "event": "Crinetics files preliminary proxy; $85.00/share cash from Vertex"
+        }
+      ],
+      "outreach_idea": "Open with JPMorgan's healthcare team on Crinetics/Vertex — a financed all-cash take-private runs time-boxed diligence through the vote.",
+      "outreach_draft": {
+        "subject": "Crinetics / Vertex — supporting a financed biopharma take-private",
+        "body": "Congratulations on J.P. Morgan's role advising Crinetics on its sale to Vertex. All-cash biopharma take-privates with debt financing run heavy, time-sensitive diligence through the shareholder vote — would welcome a conversation on how we support secure, auditable data-room access to close.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "SEC EDGAR — Crinetics PREM14A",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1658247/000114036126029134/ny20077458x1_prem14a.htm",
+      "published": "2026-07-21",
+      "confidence": "Filed",
+      "first_seen": "2026-07-22",
+      "last_confirmed": "2026-07-22",
+      "carry_badge": "NEW"
+    },
+    {
+      "id": "o2",
+      "bank": "Morgan Stanley",
+      "sector": "FIG / Insurance",
+      "urgency": "HOT",
+      "headline": "Adviser to Corebridge on its merger of equals with Equitable (Goldman advises Equitable)",
+      "why_it_matters": "Morgan Stanley advises Corebridge Financial on its all-stock merger of equals with Equitable Holdings (Goldman advises Equitable), forming \"New Equitable\" with Corebridge holders at ~51%. A supplemental joint proxy was filed Jul 21 ahead of a Jul 30 vote — a large-cap insurance MOE with two-sided fairness work.",
+      "deal_clock": [
+        {
+          "date": "Jul 21, 2026",
+          "event": "Supplemental joint-proxy disclosure filed"
+        },
+        {
+          "date": "Jul 30, 2026",
+          "event": "Special meeting / vote"
+        }
+      ],
+      "outreach_idea": "Engage Morgan Stanley's FIG coverage on Corebridge/Equitable — a large insurance MOE with an imminent vote runs multi-workstream integration diligence.",
+      "outreach_draft": {
+        "subject": "Corebridge / Equitable — supporting an insurance merger of equals",
+        "body": "Congratulations on Morgan Stanley's role advising Corebridge on the Equitable merger of equals. Large insurance MOEs run extensive integration and regulatory diligence into the shareholder vote — would welcome a conversation on how we support clean, auditable data-room access across the process.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "SEC EDGAR — Corebridge Form 425",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1889539/000114036126029153/ef20078276_425.htm",
+      "published": "2026-07-21",
+      "confidence": "Filed",
+      "first_seen": "2026-07-22",
+      "last_confirmed": "2026-07-22",
+      "carry_badge": "NEW"
+    },
+    {
+      "id": "o3",
       "bank": "Morgan Stanley",
       "sector": "Healthcare / Diagnostics",
       "urgency": "HOT",
@@ -333,40 +418,62 @@
       "confidence": "Filed",
       "first_seen": "2026-07-21",
       "last_confirmed": "2026-07-21",
+      "carry_badge": "Day 2"
+    },
+    {
+      "id": "o4",
+      "bank": "JPMorgan",
+      "sector": "Real Estate / Logistics",
+      "urgency": "HOT",
+      "headline": "Adviser (with BofA) to Prologis on its ~£14B ($18.7B) bid for SEGRO",
+      "why_it_matters": "J.P. Morgan (Cazenove) and BofA Securities are advising Prologis on its \"best and final\" ~£14B proposal for UK logistics REIT SEGRO (Rothschild and Eastdil also advising). A contested UK-Takeover-Code mega-cap drives enormous cross-border, multi-party diligence.",
+      "deal_clock": [
+        {
+          "date": "Jul 22, 2026",
+          "event": "Prologis makes \"best and final\" ~£14B proposal for SEGRO"
+        }
+      ],
+      "outreach_idea": "Open on Prologis/SEGRO — a contested UK-Code mega-cap is a concrete reason to engage JPMorgan's real estate / cross-border team on secure, multi-jurisdiction diligence.",
+      "outreach_draft": {
+        "subject": "Prologis / SEGRO — supporting a cross-border mega-cap bid",
+        "body": "Congratulations on J.P. Morgan's role advising Prologis on the SEGRO proposal. Contested UK-Code mega-caps run heavy cross-border, multi-party diligence under tight timelines — would welcome a conversation on how we support secure, auditable data-room access across jurisdictions.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "PR Newswire (issuer release)",
+      "source_url": "https://www.prnewswire.com/news-releases/best-and-final-proposal-and-request-for-pusu-deadline-extension-302832029.html",
+      "published": "2026-07-22",
+      "confidence": "Reported",
+      "first_seen": "2026-07-22",
+      "last_confirmed": "2026-07-22",
       "carry_badge": "NEW"
     },
     {
-      "id": "o2",
-      "bank": "Evercore",
-      "sector": "FIG / Bank M&A",
+      "id": "o5",
+      "bank": "Citi",
+      "sector": "Metals & Mining",
       "urgency": "HOT",
-      "headline": "Adviser to First Hawaiian on its all-stock acquisition of TriCo Bancshares",
-      "why_it_matters": "Evercore advises First Hawaiian on its all-stock acquisition of TriCo Bancshares — now under a definitive merger agreement filed Jul 15 (KBW/Stifel advises TriCo). A signed public bank merger triggers two-sided diligence and integration planning into the shareholder vote.",
+      "headline": "Exclusive adviser to NOVAGOLD on its ~$4.2B all-share acquisition of Donlin Gold",
+      "why_it_matters": "Citi is exclusive financial adviser to NOVAGOLD on its signed all-share acquisition of Paulson's 40% Donlin Gold interest (~US$4.2B combined equity value), also delivering a board fairness opinion. A JV-consolidation of scale with board-diligence and shareholder-vote document flow.",
       "deal_clock": [
         {
-          "date": "Jul 13, 2026",
-          "event": "First Hawaiian/TriCo combination announced"
-        },
-        {
-          "date": "Jul 15, 2026",
-          "event": "Definitive merger agreement filed"
+          "date": "Jul 21, 2026",
+          "event": "NOVAGOLD signs definitive agreements to acquire 100% of Donlin Gold"
         }
       ],
-      "outreach_idea": "Open on the now-definitive First Hawaiian/TriCo agreement — a signed bank merger is a concrete reason to engage Evercore's FIG team on diligence infrastructure.",
+      "outreach_idea": "Engage Citi's metals & mining coverage on NOVAGOLD/Donlin — a $4.2B all-share consolidation with a fairness opinion is a strong secure-diligence use case.",
       "outreach_draft": {
-        "subject": "First Hawaiian / TriCo — supporting a signed bank merger",
-        "body": "Congratulations on Evercore's role advising First Hawaiian on the TriCo Bancshares combination, now under a definitive agreement. All-stock bank mergers spin up two-sided diligence and integration workstreams heading into the vote — would welcome a conversation on how we support clean, auditable data-room access.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+        "subject": "NOVAGOLD / Donlin — supporting a $4.2B mining consolidation",
+        "body": "Congratulations on Citi's role as exclusive adviser to NOVAGOLD on the Donlin Gold acquisition. All-share consolidations of this scale run board-level and shareholder-vote diligence across many parties — would welcome a conversation on how we support secure, auditable data-room access.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
       },
-      "source": "SEC EDGAR — TriCo EX-2.1 merger agreement and EX-99.1 press release",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/356171/000110465926083899/tm2620283d6_ex2-1.htm",
-      "published": "2026-07-15",
-      "confidence": "Filed",
-      "first_seen": "2026-07-13",
-      "last_confirmed": "2026-07-16",
-      "carry_badge": "Day 7"
+      "source": "GlobeNewswire",
+      "source_url": "https://www.globenewswire.com/news-release/2026/07/22/3331219/0/en/novagold-enters-into-definitive-agreements-to-acquire-100-of-donlin-gold.html",
+      "published": "2026-07-21",
+      "confidence": "Reported",
+      "first_seen": "2026-07-22",
+      "last_confirmed": "2026-07-22",
+      "carry_badge": "NEW"
     },
     {
-      "id": "o3",
+      "id": "o6",
       "bank": "JPMorgan",
       "sector": "Energy / Oil & Gas",
       "urgency": "HOT",
@@ -389,10 +496,10 @@
       "confidence": "Reported",
       "first_seen": "2026-07-21",
       "last_confirmed": "2026-07-21",
-      "carry_badge": "NEW"
+      "carry_badge": "Day 2"
     },
     {
-      "id": "o4",
+      "id": "o7",
       "bank": "Jefferies",
       "sector": "Energy / Oil & Gas",
       "urgency": "HOT",
@@ -415,162 +522,114 @@
       "confidence": "Reported",
       "first_seen": "2026-07-21",
       "last_confirmed": "2026-07-21",
-      "carry_badge": "NEW"
-    },
-    {
-      "id": "o5",
-      "bank": "Citi",
-      "sector": "Consumer / Packaged Food",
-      "urgency": "HOT",
-      "headline": "Lead adviser to Utz's Special Committee on its ~$2.9B take-private by Intersnack",
-      "why_it_matters": "Citi is exclusive financial adviser to Utz Brands' Special Committee (RBC also advising Utz) on its signed ~$2.9B take-private by Intersnack at $14.25/share, with BofA advising Intersnack and providing debt financing. A Special Committee take-private is the highest-diligence room type — fairness backup, family-partnership docs, and a debt syndicate.",
-      "deal_clock": [
-        {
-          "date": "Jul 21, 2026",
-          "event": "Intersnack agrees to take Utz private at $14.25/share"
-        }
-      ],
-      "outreach_idea": "Open with Citi's consumer coverage on the Utz take-private — a Special Committee process with a debt syndicate is a strong secure-diligence use case.",
-      "outreach_draft": {
-        "subject": "Utz / Intersnack — supporting a Special Committee take-private",
-        "body": "Congratulations on Citi's role advising the Utz Special Committee on the Intersnack take-private. Special Committee processes run tightly controlled, auditable diligence alongside a debt-financing syndicate — would welcome a conversation on how we support secure data-room access through to close.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
-      },
-      "source": "Utz Brands (investor relations)",
-      "source_url": "https://investors.utzsnacks.com/news/news-details/2026/Utz-Brands-Inc--and-Intersnack-Group-GmbH--Co--KG-Announce-Agreement-to-Take-Utz-Private-and-Partnership-with-Founding-Family/default.aspx",
-      "published": "2026-07-21",
-      "confidence": "Reported",
-      "first_seen": "2026-07-21",
-      "last_confirmed": "2026-07-21",
-      "carry_badge": "NEW"
-    },
-    {
-      "id": "o6",
-      "bank": "Goldman Sachs",
-      "sector": "Healthcare / Biopharma",
-      "urgency": "HOT",
-      "headline": "Exclusive adviser to Eli Lilly on its ~$2.8B acquisition of AtaiBeckley",
-      "why_it_matters": "Goldman is exclusive financial adviser to Eli Lilly on its signed ~$2.8B upfront acquisition of AtaiBeckley (up to ~$3.8B with CVRs), a treatment-resistant-depression play. Announced today — large-cap biopharma buy-side diligence is live.",
-      "deal_clock": [
-        {
-          "date": "Jul 16, 2026",
-          "event": "Lilly signs deal to acquire AtaiBeckley (~$2.8B upfront)"
-        }
-      ],
-      "outreach_idea": "Open on the Lilly/AtaiBeckley signing — a fresh large-cap CNS acquisition with a CVR structure is a concrete reason to engage Goldman's healthcare team on secure diligence.",
-      "outreach_draft": {
-        "subject": "Lilly / AtaiBeckley — supporting a large-cap biopharma close",
-        "body": "Congratulations on Goldman's role advising Eli Lilly on the AtaiBeckley acquisition announced today. Large-cap biopharma deals with milestone/CVR structures run heavy scientific and regulatory diligence through to close — would welcome a conversation on how we support secure, auditable data-room access across the process.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
-      },
-      "source": "PR Newswire (deal announcement)",
-      "source_url": "https://www.prnewswire.com/news-releases/lilly-to-acquire-ataibeckley-to-advance-therapies-for-treatment-resistant-depression-and-other-mental-health-conditions-302827468.html",
-      "published": "2026-07-16",
-      "confidence": "Reported",
-      "first_seen": "2026-07-16",
-      "last_confirmed": "2026-07-16",
-      "carry_badge": "Day 4"
-    },
-    {
-      "id": "o7",
-      "bank": "Moelis",
-      "sector": "Healthcare / Biopharma",
-      "urgency": "HOT",
-      "headline": "Sell-side adviser (with Centerview) to AtaiBeckley on its ~$2.8B sale to Eli Lilly",
-      "why_it_matters": "Moelis and Centerview advise AtaiBeckley on its signed ~$2.8B sale to Eli Lilly (Citi also advises the board). A multi-adviser large-cap biopharma sell-side with CVR consideration — a controlled, multi-party diligence process from day one.",
-      "deal_clock": [
-        {
-          "date": "Jul 16, 2026",
-          "event": "AtaiBeckley agrees to ~$2.8B sale to Lilly"
-        }
-      ],
-      "outreach_idea": "Engage Moelis's healthcare coverage on the AtaiBeckley sale — a multi-adviser biopharma sell-side is a strong secure-diligence use case.",
-      "outreach_draft": {
-        "subject": "AtaiBeckley / Lilly — supporting a multi-adviser biopharma sell-side",
-        "body": "Congratulations on Moelis's role advising AtaiBeckley on its sale to Eli Lilly. Multi-adviser sell-sides run tightly controlled, auditable diligence across parties — would welcome a conversation on how we support clean data-room access through to close.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
-      },
-      "source": "PR Newswire (deal announcement)",
-      "source_url": "https://www.prnewswire.com/news-releases/lilly-to-acquire-ataibeckley-to-advance-therapies-for-treatment-resistant-depression-and-other-mental-health-conditions-302827468.html",
-      "published": "2026-07-16",
-      "confidence": "Reported",
-      "first_seen": "2026-07-16",
-      "last_confirmed": "2026-07-16",
-      "carry_badge": "Day 4"
+      "carry_badge": "Day 2"
     },
     {
       "id": "o8",
-      "bank": "Raymond James",
-      "sector": "Technology / IoT",
+      "bank": "Goldman Sachs",
+      "sector": "Healthcare / Life Sciences",
       "urgency": "WARM",
-      "headline": "Adviser to Identiv on the $50M sale of its IoT business to Trackonomy",
-      "why_it_matters": "Raymond James is financial adviser to Identiv's board on the sale of its IoT business (plus $25M cash) to Trackonomy for $50M of Series C preferred, delivering the fairness opinion. A carve-out asset sale for stock consideration runs focused valuation and closing diligence.",
+      "headline": "Adviser (with Perella Weinberg) to Repligen on its cash-and-stock acquisition of BioLife Solutions",
+      "why_it_matters": "Goldman Sachs and Perella Weinberg advise Repligen on its signed acquisition of BioLife Solutions ($11.25 cash + 0.1442 shares per BioLife share; Centerview advises BioLife). A mid-cap life-sciences-tools combination with two-sided diligence as the S-4 process begins.",
       "deal_clock": [
         {
-          "date": "Jul 17, 2026",
-          "event": "Identiv files preliminary proxy for IoT-business sale"
+          "date": "Jul 22, 2026",
+          "event": "Repligen agrees to acquire BioLife Solutions (cash + stock)"
         }
       ],
-      "outreach_idea": "Reach out to Raymond James on the Identiv carve-out — an asset sale for stock consideration runs focused diligence and closing-document exchange.",
+      "outreach_idea": "Reach out to Goldman's life-sciences coverage on Repligen/BioLife — a cash-and-stock strategic acquisition spins up two-sided diligence into the S-4.",
       "outreach_draft": {
-        "subject": "Identiv IoT sale — supporting a carve-out to Trackonomy",
-        "body": "Congratulations on Raymond James's role advising Identiv on the sale of its IoT business. Carve-out asset sales for stock consideration run focused valuation and closing diligence — would welcome a conversation on how we support secure, auditable data-room access through to close.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+        "subject": "Repligen / BioLife — supporting a life-sciences acquisition",
+        "body": "Congratulations on Goldman's role advising Repligen on the BioLife Solutions acquisition. Cash-and-stock strategic combinations run two-sided diligence through the S-4 and vote — would welcome a conversation on how we support secure, auditable data-room access across the process.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
       },
-      "source": "SEC EDGAR — Identiv PREM14A",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1036044/000119312526307972/d103630dprem14a.htm",
-      "published": "2026-07-17",
+      "source": "SEC EDGAR — Repligen Form 425",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/730272/000119312526311411/d141685d425.htm",
+      "published": "2026-07-22",
       "confidence": "Filed",
-      "first_seen": "2026-07-21",
-      "last_confirmed": "2026-07-21",
+      "first_seen": "2026-07-22",
+      "last_confirmed": "2026-07-22",
       "carry_badge": "NEW"
     },
     {
       "id": "o9",
-      "bank": "Guggenheim Securities",
-      "sector": "Healthcare / Diagnostics",
+      "bank": "Morgan Stanley",
+      "sector": "Energy / Renewables",
       "urgency": "WARM",
-      "headline": "Capital-markets adviser (with TD Cowen, Jefferies) on Freenome's ~$310M SPAC/PIPE debut",
-      "why_it_matters": "Guggenheim Securities is capital-markets adviser and TD Cowen lead financial adviser to Freenome on its ~$310M public debut via a PCSC SPAC combination plus a $240M PIPE (Jefferies advised PCSC and was joint lead PIPE placement agent). A de-SPAC plus large PIPE is document-intensive across subscription and diligence workstreams.",
+      "headline": "Adviser (with Wells Fargo) to Greenbacker on its ~$375M sale to MN8 Energy",
+      "why_it_matters": "Morgan Stanley and Wells Fargo advise Greenbacker Renewable Energy on its signed ~$375M sale to MN8 Energy (J.P. Morgan advises MN8), creating a top-tier US power platform. A renewables consolidation with portfolio-asset and PPA/contract diligence across shared rooms.",
       "deal_clock": [
         {
-          "date": "Jul 20, 2026",
-          "event": "Freenome debuts via PCSC SPAC + $240M PIPE"
+          "date": "Jul 22, 2026",
+          "event": "MN8 agrees to acquire Greenbacker for ~$375M"
         }
       ],
-      "outreach_idea": "Reach out to Guggenheim on the Freenome debut — de-SPAC/PIPE combinations run heavy subscription-doc and diligence exchange that map to secure rooms.",
+      "outreach_idea": "Talk to Morgan Stanley's power & renewables coverage on the Greenbacker sale — renewables platform deals run complex contract and asset diligence.",
       "outreach_draft": {
-        "subject": "Freenome debut — supporting a de-SPAC + $240M PIPE",
-        "body": "Congratulations on Guggenheim's capital-markets role on Freenome's public debut. De-SPAC combinations with large PIPEs run document-intensive subscription and diligence workstreams across many parties — would welcome a conversation on how we support secure, auditable data-room access.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+        "subject": "Greenbacker / MN8 — supporting a renewables platform sale",
+        "body": "Congratulations on Morgan Stanley's role advising Greenbacker on its sale to MN8 Energy. Renewables platform deals run detailed portfolio-asset, PPA, and contract diligence across parties — would welcome a conversation on how we support secure, auditable data-room access to close.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
       },
-      "source": "GlobeNewswire",
-      "source_url": "https://www.globenewswire.com/news-release/2026/07/20/3330086/0/en/freenome-debuts-as-a-publicly-traded-company-focused-on-blood-based-early-cancer-detection.html",
-      "published": "2026-07-20",
+      "source": "MN8 Energy (investor relations)",
+      "source_url": "https://mn8.com/mn8-energy-to-acquire-greenbacker-renewable-energy-company-llc-creating-a-top-tier-american-power-platform/",
+      "published": "2026-07-22",
       "confidence": "Reported",
-      "first_seen": "2026-07-21",
-      "last_confirmed": "2026-07-21",
+      "first_seen": "2026-07-22",
+      "last_confirmed": "2026-07-22",
       "carry_badge": "NEW"
     },
     {
       "id": "o10",
-      "bank": "TD Cowen",
-      "sector": "Technology / IoT",
+      "bank": "Jefferies",
+      "sector": "Biotech / Private Capital",
       "urgency": "WARM",
-      "headline": "Adviser to Searchlight and Abry on the completed ~$726M take-private of KORE Group",
-      "why_it_matters": "TD Cowen advised Searchlight Capital and Abry Partners on their completed ~$726M take-private of IoT-connectivity firm KORE Group (Rothschild advised KORE's Special Committee). A closed take-private runs delisting, closing, and sponsor-onboarding workstreams — and signals the next mandate.",
+      "headline": "Placement agent (with TD Cowen, Stifel, Guggenheim) on Mentari's $200M PIPE",
+      "why_it_matters": "Jefferies, TD Cowen, Stifel and Guggenheim Securities are placement agents on Mentari Therapeutics' $200M private placement, concurrent with a reverse merger into InMed. A large PIPE plus a public-shell reverse merger drives confidential financing diligence across four agents.",
+      "deal_clock": [
+        {
+          "date": "Jul 22, 2026",
+          "event": "Mentari announces $200M private placement + InMed reverse merger"
+        }
+      ],
+      "outreach_idea": "Reach out to Jefferies's healthcare private-capital coverage on the Mentari PIPE — a $200M placement plus reverse merger runs document-intensive investor diligence.",
+      "outreach_draft": {
+        "subject": "Mentari $200M PIPE — supporting a financing + reverse merger",
+        "body": "Congratulations on Jefferies's placement-agent role on Mentari's $200M private placement. Large PIPEs alongside a reverse merger run confidential, multi-party investor diligence — would welcome a conversation on how we support secure, auditable data-room access for private raises.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "PR Newswire (issuer release)",
+      "source_url": "https://www.prnewswire.com/news-releases/mentari-therapeutics-announces-200-million-private-placement-for-migraine-prevention-pipeline-302832045.html",
+      "published": "2026-07-22",
+      "confidence": "Reported",
+      "first_seen": "2026-07-22",
+      "last_confirmed": "2026-07-22",
+      "carry_badge": "NEW"
+    },
+    {
+      "id": "o11",
+      "bank": "Evercore",
+      "sector": "Biotech / ECM",
+      "urgency": "WARM",
+      "headline": "Joint bookrunner (with Morgan Stanley, Jefferies, Raymond James) on Dyne's upsized $375M offering",
+      "why_it_matters": "Evercore ISI is a joint book-running manager, with Morgan Stanley, Jefferies and Raymond James, on Dyne Therapeutics' upsized $375M public offering (18.3M shares at $20.50). A large upsized equity raise across multiple banks means active ECM underwriting and closing diligence (expected Jul 23).",
       "deal_clock": [
         {
           "date": "Jul 21, 2026",
-          "event": "KORE completes take-private; becomes private company"
+          "event": "Dyne prices upsized $375M offering at $20.50"
+        },
+        {
+          "date": "Jul 23, 2026",
+          "event": "Expected closing"
         }
       ],
-      "outreach_idea": "Congratulate TD Cowen on the closed KORE take-private and open on the next sponsor mandate where fast, clean room setup helps at signing and close.",
+      "outreach_idea": "Use the Dyne raise as an ECM hook with Evercore's healthcare capital-markets desk — upsized follow-ons run coordinated underwriting diligence to close.",
       "outreach_draft": {
-        "subject": "KORE take-private — and the next sponsor mandate",
-        "body": "Congratulations on TD Cowen's role advising Searchlight and Abry on the completed KORE take-private. As the team rotates onto the next sponsor process, would welcome a conversation on how we support fast, secure, auditable data-room setup from signing through close.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+        "subject": "Dyne $375M offering — supporting an upsized follow-on",
+        "body": "Congratulations on Evercore's book-running role on Dyne Therapeutics' upsized $375M offering. Large follow-ons run coordinated underwriting and closing diligence across the syndicate — would welcome a conversation on how we support secure, auditable data-room access through pricing and close.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
       },
-      "source": "KORE Wireless (investor relations)",
-      "source_url": "https://ir.korewireless.com/news-events/press-releases/detail/267/kore-begins-new-chapter-as-private-company-backed-by",
+      "source": "GlobeNewswire",
+      "source_url": "https://www.globenewswire.com/news-release/2026/07/22/3331062/0/en/dyne-therapeutics-announces-pricing-of-upsized-375-million-public-offering-of-common-stock.html",
       "published": "2026-07-21",
       "confidence": "Reported",
-      "first_seen": "2026-07-21",
-      "last_confirmed": "2026-07-21",
+      "first_seen": "2026-07-22",
+      "last_confirmed": "2026-07-22",
       "carry_badge": "NEW"
     }
   ],
@@ -578,32 +637,32 @@
     "indices": [
       {
         "label": "S&P 500",
-        "value": "7,513.47",
-        "change": "+70.19 (+0.94%)",
+        "value": "7,509.20",
+        "change": "+65.92 (+0.89%)",
         "positive": true
       },
       {
         "label": "Nasdaq Composite",
-        "value": "25,856.58",
-        "change": "+348.51 (+1.37%)",
+        "value": "25,837.21",
+        "change": "+329.13 (+1.29%)",
         "positive": true
       },
       {
         "label": "Dow Jones",
-        "value": "52,349.59",
-        "change": "+510.33 (+0.98%)",
+        "value": "52,224.64",
+        "change": "+385.38 (+0.74%)",
         "positive": true
       },
       {
         "label": "Russell 2000",
-        "value": "2,978.85",
-        "change": "+36.42 (+1.24%)",
+        "value": "2,987.40",
+        "change": "+44.97 (+1.53%)",
         "positive": true
       },
       {
         "label": "CBOE VIX",
-        "value": "17.12",
-        "change": "-1.53 (-8.20%)",
+        "value": "17.05",
+        "change": "-1.60 (-8.58%)",
         "positive": false
       },
       {
@@ -611,69 +670,69 @@
         "value": "4.628%",
         "change": "+0.030 (+0.65%)",
         "positive": true
-      },
-      {
-        "label": "WTI Crude",
-        "value": "$84.42",
-        "change": "+1.94 (+2.35%)",
-        "positive": true
       }
     ],
     "bank_stocks": [
       {
         "ticker": "GS",
-        "price": "$1,084.09",
-        "change": "+2.75%",
+        "price": "$1,085.56",
+        "change": "+2.89%",
         "positive": true
       },
       {
         "ticker": "MS",
-        "price": "$217.14",
-        "change": "+2.94%",
+        "price": "$216.40",
+        "change": "+2.59%",
         "positive": true
       },
       {
         "ticker": "JPM",
-        "price": "$345.08",
-        "change": "+1.83%",
+        "price": "$345.23",
+        "change": "+1.88%",
         "positive": true
       },
       {
         "ticker": "EVR",
-        "price": "$342.99",
-        "change": "+2.84%",
+        "price": "$340.52",
+        "change": "+2.10%",
+        "positive": true
+      },
+      {
+        "ticker": "JEF",
+        "price": "$56.74",
+        "change": "+2.83%",
         "positive": true
       }
     ],
-    "macro_note": "Broad risk-on rally on Jul 21: S&P +0.9%, Nasdaq +1.4%, Dow +1.0%, with the VIX down ~8% to 17.1. Memory/semis led (Micron, Western Digital, Seagate double-digit gains); advisory names rallied with the tape (GS +2.8%, MS +2.9%, EVR +2.8%). Values are live intraday levels from the Jul 21 session (~1pm ET), not final closes; JEF and several boutique quotes omitted where only stale or single-source prints were verifiable — accuracy over completeness."
+    "macro_note": "Broad risk-on rally at the Jul 21 close: S&P +0.9% (7,509), Nasdaq +1.3% (25,837), Dow +0.7%, with the small-cap Russell 2000 leading (+1.5%) and the VIX down ~8.6% to ~17.1 — participation beyond mega-cap tech. Advisory names closed higher (GS +2.9%, MS +2.6%, EVR +2.1%, JEF +2.8%). Values are Jul 21 closing levels; WTI omitted (only a Jul 22 intraday tick was verifiable) and no single macro catalyst was independently confirmable — accuracy over completeness."
   },
   "talking_point": {
-    "quote": "Deal flow came back hot to start the week — Magnolia's $4B WildFire buy, Utz going private, Reformation's IPO launch, and Tempus/Personalis filing — all on a risk-on tape with the VIX back to 17. Fresh signings and launches spin up diligence clocks immediately. How are you thinking about room readiness across the processes you're launching this quarter?",
-    "use_with": "M&A, sponsor, and ECM coverage teams (esp. JPMorgan, Jefferies, Citi, Morgan Stanley, Moelis, Guggenheim)",
-    "context": "Anchors on a busy Jul 21 deal tape against a rallying market — a natural way to open a room-readiness conversation as signings and launches accelerate.",
+    "quote": "The tape keeps handing bankers reasons to open a room — Prologis' £14B run at SEGRO, NOVAGOLD's $4.2B Donlin consolidation, Vertex taking Crinetics private at $85, and the Corebridge/Equitable merger heading to a Jul 30 vote — all on a risk-on session led by small caps. Every one of these spins up diligence the day it signs. How are you thinking about room readiness across the processes you're launching this quarter?",
+    "use_with": "M&A, FIG, energy, and healthcare coverage teams (esp. JPMorgan, Morgan Stanley, Goldman, Citi, Jefferies, Evercore)",
+    "context": "Anchors on a dense Jul 21–22 deal tape against a rallying market — a natural way to open a room-readiness conversation as signings accelerate across sectors.",
     "confidence": "Reported"
   },
   "sector_heat": {
     "ranked": [
       {
-        "sector": "Energy / Oil & Gas",
-        "read": "Magnolia's $4.06B WildFire Energy buy (JPMorgan, Moelis, Citi buy-side; Jefferies, BofA sell-side) headlines a large PE-backed upstream carve-out with a financing syndicate.",
-        "source_note": "Magnolia Oil & Gas, Jul 20 2026"
+        "sector": "Real Estate / Logistics",
+        "read": "Prologis makes a \"best and final\" ~£14B ($18.7B) run at UK REIT SEGRO (JPMorgan, BofA buy-side) — a contested UK-Code cross-border mega-cap.",
+        "source_note": "PR Newswire, Jul 22 2026"
       },
       {
-        "sector": "Consumer / Packaged Food",
-        "read": "Intersnack takes Utz private at $14.25/share (~$2.9B; Citi lead to the Special Committee, RBC to Utz, BofA to Intersnack) — a Special Committee process with debt financing.",
-        "source_note": "Business Wire, Jul 21 2026"
+        "sector": "Healthcare / Biopharma",
+        "read": "Vertex takes Crinetics private at $85/share (JPMorgan, Leerink; Lazard, Morgan Stanley), Repligen buys BioLife (Goldman, Perella; Centerview), and Mentari/Dyne raise $200M+/$375M.",
+        "source_note": "SEC EDGAR + wires, Jul 21–22 2026"
       },
       {
-        "sector": "Healthcare / Diagnostics",
-        "read": "Tempus/Personalis files its stock-for-stock merger (Morgan Stanley; Centerview, TD Cowen) and Freenome debuts via SPAC+$240M PIPE (Guggenheim, TD Cowen, Jefferies).",
-        "source_note": "SEC EDGAR + GlobeNewswire, Jul 20 2026"
+        "sector": "Metals & Mining",
+        "read": "NOVAGOLD signs a ~$4.2B all-share consolidation of Donlin Gold (Citi exclusive) — a large JV buy-in with a board fairness opinion.",
+        "source_note": "GlobeNewswire, Jul 21 2026"
       },
       {
-        "sector": "Consumer / Apparel (ECM)",
-        "read": "Reformation launches its ~$239M NYSE IPO (JPMorgan, Morgan Stanley lead; Citi, RBC) — a live roadshow with a four-bank syndicate.",
-        "source_note": "Reuters via Yahoo Finance, Jul 21 2026"
+        "sector": "Financial Institutions (FIG)",
+        "read": "Corebridge/Equitable merger of equals heads to a Jul 30 vote (Morgan Stanley; Goldman); First Financial acquires Finward (Morgan Stanley buy-side).",
+        "source_note": "SEC EDGAR, Jul 21 2026"
       }
     ]
   },
@@ -686,48 +745,63 @@
     "note": "Unconfirmed leads — rumored deals and situations with no adviser named yet (or advisers unconfirmed). Real reporting, but treat as speculative: chase them, don't quote them on a call.",
     "items": [
       {
-        "company": "Voya Financial (NYSE: VOYA)",
-        "bank": "unconfirmed",
-        "lead": "The retirement/insurance group is reportedly fielding takeover interest — Principal Financial approached earlier in 2026 — with activist Toms Capital among its largest holders adding pressure.",
-        "why_unverified": "Semafor report of interest only; no active talks confirmed, company has not commented, and the earlier Principal approach reportedly went nowhere.",
-        "sector": "Financials / Asset Management",
-        "source_note": "Semafor via Yahoo Finance, Jul 16 2026",
-        "source_url": "https://finance.yahoo.com/markets/stocks/articles/retirement-giant-voya-financial-fields-133758769.html",
+        "company": "Catawiki (private)",
+        "bank": "Barclays",
+        "lead": "The Dutch online-auction platform (Permira/Accel-backed) has reportedly hired Barclays to explore options including a potential sale, described as early-stage.",
+        "why_unverified": "Reuters report citing people familiar; no formal process or seller confirmation and the company has not commented.",
+        "sector": "E-commerce / Online Marketplaces",
+        "source_note": "Reuters (via Global Banking & Finance), Jul 22 2026",
+        "source_url": "https://www.globalbankingandfinance.com/dutch-auction-site-catawiki-explores-options-including-sale/",
         "confidence": "Speculative"
       },
       {
-        "company": "ACI Worldwide (NASDAQ: ACIW)",
+        "company": "KKR Real Estate Finance Trust (NYSE: KREF)",
         "bank": "unconfirmed",
-        "lead": "The payments-software firm is exploring a sale of its Biller/billing division, valued around $1.5B, amid strong demand for recurring-revenue payments assets.",
-        "why_unverified": "Reuters sourced it to people familiar; early-stage \"exploring,\" no adviser or buyer named.",
-        "sector": "Payments / Fintech Software",
-        "source_note": "Reuters, Jul 17 2026",
-        "source_url": "https://www.reuters.com/world/payments-company-aci-explores-sale-billing-unit-sources-say-2026-07-17/",
+        "lead": "The board formed a strategic review committee to evaluate alternatives including a sale, merger, or asset sales, disclosed alongside a $121.8M Q2 net loss.",
+        "why_unverified": "Company-announced review only — no adviser, buyer, or transaction identified, and management will not update until the review concludes.",
+        "sector": "Commercial Real Estate Finance / REIT",
+        "source_note": "StockTitan (8-K summary), Jul 21 2026",
+        "source_url": "https://www.stocktitan.net/sec-filings/KREF/8-k-kkr-real-estate-finance-trust-inc-reports-material-event-ca75d92971af.html",
         "confidence": "Speculative"
       },
       {
-        "company": "Chemed Corp. (NYSE: CHE)",
+        "company": "CBIZ, Inc. (NYSE: CBZ)",
         "bank": "unconfirmed",
-        "lead": "Activist Barington Capital is ramping up a campaign pushing the VITAS hospice / Roto-Rooter parent for a strategic review and cost cuts, having taken a stake and proposed a director.",
-        "why_unverified": "Activist push, not a company-sanctioned process — Chemed has not committed to any review or sale.",
-        "sector": "Healthcare Services / Diversified",
-        "source_note": "Bloomberg, Jul 21 2026",
-        "source_url": "https://www.bloomberg.com/news/articles/2026-07-21/activist-barington-pushes-chemed-for-strategic-review-cost-cuts",
+        "lead": "Activist Reference Equity is publicly pressing the board to suspend buybacks, raise equity, and restart an accretive M&A program — a buy-side activist situation.",
+        "why_unverified": "Activist campaign only; the board has not endorsed the strategy and no financing or deal is in motion.",
+        "sector": "Accounting / Professional Services",
+        "source_note": "Sahm Capital, Jul 20 2026",
+        "source_url": "https://www.sahmcapital.com/news/content/cbiz-cbz-faces-a-new-valuation-debate-on-activist-pressure-2026-07-20",
         "confidence": "Speculative"
       },
       {
-        "company": "OpenRouter (private)",
+        "company": "Compass Diversified (NYSE: CODI)",
         "bank": "unconfirmed",
-        "lead": "The AI-model-routing startup (recent ~$1.3B valuation, Alphabet-backed) has reportedly discussed a potential multibillion-dollar sale to a larger tech company.",
-        "why_unverified": "The Information reports preliminary interest; no acquirer named, private company, no confirmation.",
-        "sector": "AI Infrastructure / Software",
-        "source_note": "The Information, Jul 17 2026",
-        "source_url": "https://www.theinformation.com/articles/startup-openrouter-fields-multi-billion-dollar-takeover-interest",
+        "lead": "Activist ADW Capital (~19.3%) sent a public letter demanding the board internalize its external manager and launch a strategic review including an orderly liquidation, threatening a proxy fight.",
+        "why_unverified": "Activist demand, not a board-endorsed process — CODI has not agreed to any review or sale.",
+        "sector": "Diversified Holding / Private Equity",
+        "source_note": "GlobeNewswire (via Yahoo Finance), Jul 16 2026",
+        "source_url": "https://finance.yahoo.com/markets/stocks/articles/adw-capital-management-sends-letter-171900294.html",
+        "confidence": "Speculative"
+      },
+      {
+        "company": "Conmed Corp. (NYSE: CNMD)",
+        "bank": "unconfirmed",
+        "lead": "The medtech firm is reportedly exploring options including a potential sale after drawing takeover interest from private equity; shares jumped ~10%.",
+        "why_unverified": "Bloomberg report citing people familiar; no PE bidder named on the record and no process confirmed by the company.",
+        "sector": "Medical Devices / Medtech",
+        "source_note": "Bloomberg (via Yahoo Finance), Jul 13 2026",
+        "source_url": "https://finance.yahoo.com/markets/stocks/articles/conmed-cnmd-stock-trades-why-223039972.html",
         "confidence": "Speculative"
       }
     ]
   },
   "archive": [
+    {
+      "date": "2026-07-21",
+      "edition": 12,
+      "file": "2026-07-21.json"
+    },
     {
       "date": "2026-07-16",
       "edition": 11,
