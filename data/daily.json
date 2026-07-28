@@ -1,43 +1,42 @@
 {
-  "date": "2026-07-23",
-  "edition": 14,
-  "lens": "Risk-off snap flips yesterday's rally (Nasdaq -1.9%, S&P -1.1%, VIX ~+20% back above 20), but signings keep coming: Blackstone's ~$7B sale of Aypa Power to Brookfield (BofA), Platinum Equity's $5.6B Peranel JV with Nestlé (BofA), Altaris' $18.50/share take-private of Simulations Plus out of a Morgan Stanley auction, and Nordic Capital's sale of ArisGlobal to Dassault (Evercore, Jefferies) — deals that still must grind through diligence to close regardless of the tape.",
+  "date": "2026-07-28",
+  "lens": "Deals keep closing into a calmer tape (VIX back to ~18, Dow +1.1%): Berkshire's $8.5B take-private of Taylor Morrison closes, CRH's $150/share bid for Arcosa hits the proxy, and AIP closes its $1.27B Avanos buy — while a contested Genco/Diana tender fight and a wave of strategic reviews (Pitney Bowes, Alithya, KREF) give reps live reasons to call.",
   "ticker": [
     {
       "label": "S&P 500",
-      "value": "7,420.16",
-      "change": "-1.05%",
-      "positive": false
+      "value": "7,433.29",
+      "change": "+0.27%",
+      "positive": true
     },
     {
       "label": "Nasdaq",
-      "value": "25,196.70",
-      "change": "-1.92%",
+      "value": "24,908.62",
+      "change": "-0.09%",
       "positive": false
     },
     {
       "label": "Dow",
-      "value": "51,754.91",
-      "change": "-0.89%",
-      "positive": false
+      "value": "52,804.07",
+      "change": "+1.14%",
+      "positive": true
     },
     {
       "label": "VIX",
-      "value": "20.05",
-      "change": "+20.46%",
-      "positive": false
+      "value": "17.99",
+      "change": "-3.63%",
+      "positive": true
     },
     {
       "label": "GS",
-      "value": "$1,074.94",
-      "change": "-2.12%",
+      "value": "$1,038.76",
+      "change": "-0.90%",
       "positive": false
     },
     {
-      "label": "MS",
-      "value": "$214.58",
-      "change": "-1.79%",
-      "positive": false
+      "label": "JEF",
+      "value": "$57.19",
+      "change": "+1.68%",
+      "positive": true
     }
   ],
   "stories": [
@@ -46,24 +45,24 @@
       "category": "M&A",
       "urgency": "HIGH",
       "scope": "bank",
-      "bank": "Bank of America",
-      "headline": "BofA advises on Brookfield's ~$7B acquisition of battery-storage platform Aypa Power from Blackstone",
-      "why_it_matters": "Brookfield agreed to acquire Aypa Power, a leading North American battery-storage platform (~6.5 GW operating, 20 GW+ pipeline), from Blackstone at a ~$7B enterprise value. The release names Cantor Fitzgerald as lead adviser with BofA Securities also advising the seller side. A large sponsor-to-sponsor energy-infrastructure exit runs heavy asset, contract, and financing diligence.",
-      "suggested_action": "Engage BofA's power & infrastructure coverage on the Aypa exit — a $7B sponsor-to-sponsor platform sale runs document-intensive asset and offtake diligence across many parties.",
+      "bank": "Goldman Sachs",
+      "headline": "Goldman and Moelis advise Taylor Morrison as Berkshire Hathaway closes its $8.5B take-private",
+      "why_it_matters": "Berkshire Hathaway completed its acquisition of homebuilder Taylor Morrison (TMHC) at $72.50/share cash (~$6.8B equity, ~$8.5B enterprise value). Taylor Morrison's newsroom names Goldman Sachs and Moelis as its financial advisers (sell-side). A closed large-cap take-private caps a diligence cycle spanning confirmatory review, financing, and regulatory workstreams.",
+      "suggested_action": "Use the closed Taylor Morrison deal as a post-close hook with Goldman's (and Moelis's) real-estate/homebuilding coverage — integration and financing workstreams keep secure rooms active past signing.",
       "deal_clock": [
         {
-          "date": "Jul 22, 2026",
-          "event": "Brookfield agrees to acquire Aypa Power from Blackstone (~$7B EV)"
+          "date": "Jul 24, 2026",
+          "event": "Berkshire Hathaway completes Taylor Morrison acquisition (~$8.5B EV)"
         }
       ],
-      "source": "StockTitan (Brookfield release)",
-      "source_url": "https://www.stocktitan.net/news/BAM/brookfield-to-acquire-aypa-power-the-leading-north-american-battery-ldkr0u282lwr.html",
-      "published": "2026-07-22",
+      "source": "Taylor Morrison newsroom",
+      "source_url": "https://newsroom.taylormorrison.com/2026-07-24-Berkshire-Hathaway-Completes-Acquisition-of-Taylor-Morrison",
+      "published": "2026-07-24",
       "confidence": "Reported",
       "tags": [
-        "energy",
-        "battery-storage",
-        "sponsor-exit"
+        "homebuilding",
+        "take-private",
+        "dual-adviser"
       ]
     },
     {
@@ -71,24 +70,28 @@
       "category": "M&A",
       "urgency": "HIGH",
       "scope": "bank",
-      "bank": "Bank of America",
-      "headline": "BofA advises Platinum Equity on its $5.6B Peranel water & premium-beverages JV with Nestlé",
-      "why_it_matters": "Platinum Equity and Nestlé agreed to create Peranel, a $5.6B (EUR 4.9B) water and premium-beverages leader, as a 50/50 joint venture carved out of Nestlé Waters. The release names BofA Securities as financial adviser to Platinum Equity (buyer). A large carve-out JV runs complex separation, TSA, and cross-border diligence into a 1H-2027 close.",
-      "suggested_action": "Open with BofA's consumer/sponsors coverage on Peranel — carve-out JVs run heavy separation and TSA diligence across shared rooms through a long close.",
+      "bank": "Evercore",
+      "headline": "Evercore and Goldman advise Arcosa's board as CRH's $150/share, ~$5.4B take-private hits the proxy",
+      "why_it_matters": "Arcosa (ACA) filed a preliminary proxy (PREM14A) on Jul 24 for its all-cash sale to CRH Americas at $150.00/share. The filing shows Evercore and Goldman Sachs BOTH advising the Arcosa board, each delivering a fairness opinion (Annex B / Annex C). A large-cap industrial take-private with two advisers runs a document-heavy diligence process toward the shareholder vote.",
+      "suggested_action": "Engage Evercore's (and Goldman's) industrials coverage on Arcosa/CRH — a dual-adviser take-private advancing to a vote runs concentrated confirmatory diligence a data room is built for.",
       "deal_clock": [
         {
-          "date": "Jul 23, 2026",
-          "event": "Platinum Equity + Nestlé agree to create Peranel ($5.6B EV)"
+          "date": "Jun 21, 2026",
+          "event": "Arcosa signs $150.00/share merger with CRH Americas"
+        },
+        {
+          "date": "Jul 24, 2026",
+          "event": "Arcosa files PREM14A (preliminary proxy)"
         }
       ],
-      "source": "PR Newswire (Platinum Equity release)",
-      "source_url": "https://www.prnewswire.com/news-releases/platinum-equity-and-nestle-to-create-peranel-a-5-6-billion-leader-in-water-and-premium-beverages-302833015.html",
-      "published": "2026-07-23",
-      "confidence": "Reported",
+      "source": "SEC EDGAR — Arcosa PREM14A",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1739445/000114036126029608/ny20076790x1_prem14a.htm",
+      "published": "2026-07-24",
+      "confidence": "Filed",
       "tags": [
-        "consumer",
-        "carve-out",
-        "cross-border"
+        "industrials",
+        "take-private",
+        "dual-adviser"
       ]
     },
     {
@@ -96,22 +99,22 @@
       "category": "M&A",
       "urgency": "HIGH",
       "scope": "bank",
-      "bank": "Morgan Stanley",
-      "headline": "Morgan Stanley advises Simulations Plus on its $18.50/share, ~$375M take-private by Altaris",
-      "why_it_matters": "Simulations Plus (SLP) agreed to be taken private by Altaris at $18.50/share in cash (~$375M, ~26% premium). The definitive proxy (DEFM14A) shows Morgan Stanley ran a formal auction — contacting 23 parties, 16 diligence processes — and delivered the fairness opinion to SLP's board (seller). A completed auction now advancing to the shareholder vote.",
-      "suggested_action": "Reach out to Morgan Stanley's healthcare/tech coverage on Simulations Plus — a sponsor take-private out of a full auction runs concentrated confirmatory diligence into the vote.",
+      "bank": "JPMorgan",
+      "headline": "JPMorgan and UBS advise Avanos Medical as American Industrial Partners closes its $1.27B take-private",
+      "why_it_matters": "American Industrial Partners completed its acquisition of Avanos Medical (AVNS) at $25.00/share cash (~$1.272B). Avanos's investor room names JPMorgan as lead financial adviser and UBS as financial adviser (both sell-side). A closed medtech sponsor take-private runs concentrated regulatory (FDA/quality) and IP diligence.",
+      "suggested_action": "Reach out to JPMorgan's (and UBS's) healthcare coverage on the closed Avanos deal — a sponsor medtech take-private is a clean post-close integration and diligence conversation.",
       "deal_clock": [
         {
-          "date": "Jul 22, 2026",
-          "event": "SLP files DEFM14A; $18.50/share cash from Altaris"
+          "date": "Jul 27, 2026",
+          "event": "AIP completes Avanos Medical acquisition (~$1.27B)"
         }
       ],
-      "source": "SEC EDGAR — Simulations Plus DEFM14A",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1023459/000102345926000051/defm14a.htm",
-      "published": "2026-07-22",
-      "confidence": "Filed",
+      "source": "Avanos investor room",
+      "source_url": "https://avanos.investorroom.com/2026-07-27-American-Industrial-Partners-Completes-Acquisition-of-Avanos-Medical,-Inc",
+      "published": "2026-07-27",
+      "confidence": "Reported",
       "tags": [
-        "healthcare-tech",
+        "medtech",
         "take-private",
         "sponsor"
       ]
@@ -119,30 +122,26 @@
     {
       "id": "s4",
       "category": "M&A",
-      "urgency": "MEDIUM",
+      "urgency": "HIGH",
       "scope": "bank",
-      "bank": "Lazard",
-      "headline": "Lazard and Houlihan Lokey advise LivePerson as its SoundHound AI stock merger heads to an Aug 20 vote",
-      "why_it_matters": "A fresh Jul 23 proxy solicitation for SoundHound AI's acquisition of LivePerson (LPSN) confirms Lazard ran LivePerson's strategic-review/sale process and Houlihan Lokey delivered the fairness opinion (both target-side). Most holders receive SoundHound stock (~$3.33/share at announcement, ~22% premium) with a collar; a distressed-balance-sheet deal (secured noteholders taking a discount) advancing to a special meeting.",
-      "suggested_action": "A special-meeting run-in is a clean reason to engage Lazard and Houlihan Lokey on secure, auditable diligence for a stock merger with a noteholder workstream.",
+      "bank": "Jefferies",
+      "headline": "Jefferies advises Genco with Morgan Stanley as it rejects Diana Shipping's $24.80 hostile tender",
+      "why_it_matters": "Genco Shipping & Trading (GNK) filed an SC 14D9 exhibit (Jul 23) responding to Diana Shipping's revised proposal ($24.80 cash + 1 Diana share) and recommending shareholders NOT tender into Diana's separate $24.80/share hostile offer. The filing names Jefferies as financial adviser and Morgan Stanley as special adviser to the Genco board (target defense). One of the few live contested situations — defense mandates move fast.",
+      "suggested_action": "Engage Jefferies (and Morgan Stanley) on the Genco defense — contested tender fights lean on secure data rooms and rapid adviser collaboration as the board response develops.",
       "deal_clock": [
         {
-          "date": "Apr 21, 2026",
-          "event": "SoundHound/LivePerson merger announced"
-        },
-        {
-          "date": "Aug 20, 2026",
-          "event": "LivePerson special meeting / shareholder vote"
+          "date": "Jul 23, 2026",
+          "event": "Genco files SC 14D9; board recommends against Diana's tender"
         }
       ],
-      "source": "SEC EDGAR — LivePerson Form 425",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1102993/000119312526313372/d861476d425.htm",
+      "source": "SEC EDGAR — Genco SC 14D9 exhibit",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326200/000114036126029428/ef20078433_ex99-a68.htm",
       "published": "2026-07-23",
       "confidence": "Filed",
       "tags": [
-        "tech",
-        "stock-merger",
-        "distressed"
+        "shipping",
+        "hostile-tender",
+        "defense"
       ]
     },
     {
@@ -150,24 +149,28 @@
       "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Citi",
-      "headline": "Citi advises Progress Software on its $400M acquisition of Domo's AI & data platform; Jefferies advises Domo",
-      "why_it_matters": "Progress Software agreed to acquire Domo's AI and data-platform business for $400M in cash. The release names Citi as exclusive adviser to Progress (buyer) and Jefferies as exclusive adviser to Domo (seller). A carve-out asset purchase funded via cash and revolver runs two-sided diligence into a close by Progress's Nov-30 fiscal year-end.",
-      "suggested_action": "Open with Citi's software coverage on Progress/Domo — an asset carve-out runs focused IP, data, and separation diligence on a tight fiscal-year timeline.",
+      "bank": "Morgan Stanley",
+      "headline": "Morgan Stanley and Wells Fargo advise Greenbacker on its ~$350M sale to MN8 Energy",
+      "why_it_matters": "MN8 Energy agreed to acquire Greenbacker Renewable Energy ($350M at closing plus up to $25M contingent, ~$1.71/share), creating a top-3 US clean-power platform (~6.2 GW). An investor-call transcript (Form 425, Jul 27) confirms Morgan Stanley and Wells Fargo advised Greenbacker (seller), with Wells Fargo delivering the fairness opinion. The deal ran a 60+ party auction and now advances to an S-4.",
+      "suggested_action": "Open with Morgan Stanley's (and Wells Fargo's) power/renewables coverage on Greenbacker/MN8 — a multi-bidder auction consolidating into an S-4 process is a strong secure sell-side diligence use case.",
       "deal_clock": [
         {
           "date": "Jul 22, 2026",
-          "event": "Progress agrees to acquire Domo's AI/data platform for $400M"
+          "event": "MN8 agrees to acquire Greenbacker (~$350M + earnout)"
+        },
+        {
+          "date": "Jul 27, 2026",
+          "event": "Investor-call transcript filed (Form 425)"
         }
       ],
-      "source": "StockTitan (Progress Software release)",
-      "source_url": "https://www.stocktitan.net/news/PRGS/progress-software-to-acquire-domo-s-ai-and-data-platform-nwg9nukydxq2.html",
-      "published": "2026-07-22",
-      "confidence": "Reported",
+      "source": "SEC EDGAR — MN8/Greenbacker Form 425",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2136853/000162828026049851/mn8-42572726.htm",
+      "published": "2026-07-27",
+      "confidence": "Filed",
       "tags": [
-        "tech",
-        "software",
-        "carve-out"
+        "renewables",
+        "auction",
+        "sponsor-exit"
       ]
     },
     {
@@ -175,24 +178,24 @@
       "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Evercore",
-      "headline": "Evercore and Jefferies advise Nordic Capital on its sale of ArisGlobal to Dassault Systèmes",
-      "why_it_matters": "Nordic Capital agreed to sell ArisGlobal, an AI-enabled life-sciences software platform (~$175M 2026 revenue), to Dassault Systèmes. The release names Evercore and Jefferies as advisers to the target/seller ArisGlobal. A sponsor software exit runs controlled, document-heavy diligence into a 2H-2026 close subject to regulatory clearance.",
-      "suggested_action": "Engage Evercore's (and Jefferies's) tech/sponsors coverage on the ArisGlobal sale — a PE software exit is a strong secure sell-side diligence use case.",
+      "bank": "Morgan Stanley",
+      "headline": "Morgan Stanley advises Leonardo DRS on its $450M acquisition of AI software firm Raft; JPMorgan advises Raft",
+      "why_it_matters": "Leonardo DRS (DRS) agreed to acquire Raft, a multi-domain AI, data-fusion and mission-software firm, for $450M cash. The release names Morgan Stanley as adviser to Leonardo DRS (buyer) and JPMorgan as exclusive adviser to Raft (seller). A defense-AI carve-in runs CFIUS-type regulatory and classified-adjacent IP diligence into a Q4-2026 close.",
+      "suggested_action": "Reach out to Morgan Stanley's (and JPMorgan's) defense/tech coverage on Leonardo DRS/Raft — defense-software deals run heavy regulatory and IP diligence a secure room is built for.",
       "deal_clock": [
         {
-          "date": "Jul 23, 2026",
-          "event": "Nordic Capital agrees to sell ArisGlobal to Dassault Systèmes"
+          "date": "Jul 28, 2026",
+          "event": "Leonardo DRS agrees to acquire Raft for $450M"
         }
       ],
-      "source": "PR Newswire (Nordic Capital release)",
-      "source_url": "https://www.prnewswire.com/news-releases/nordic-capital-announces-agreement-to-sell-arisglobal-to-dassault-systemes-following-its-transformation-into-a-scaled-and-ai-enabled-life-sciences-platform-302833100.html",
-      "published": "2026-07-23",
+      "source": "Leonardo DRS press release",
+      "source_url": "https://www.leonardodrs.com/news/press-releases/leonardo-drs-to-acquire-raft-expanding-multi-domain-ai-data-fusion-and-mission-software-capabilities/",
+      "published": "2026-07-28",
       "confidence": "Reported",
       "tags": [
-        "tech",
-        "life-sciences-software",
-        "sponsor-exit"
+        "defense",
+        "ai-software",
+        "carve-in"
       ]
     },
     {
@@ -200,24 +203,24 @@
       "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "RBC Capital Markets",
-      "headline": "RBC (Richardson Barr) advises the seller on Matador's $1.275B Paloma Permian acquisition",
-      "why_it_matters": "Matador Resources agreed to acquire Paloma Permian (an EnCap portfolio company) for $1.275B in cash, adding ~16,235 net Delaware Basin acres. The release names RBC Richardson Barr as adviser to the seller. A sizable upstream A&D deal runs reserves, title, and lender diligence, funded with cash and RBL borrowings into a Q4-2026 close.",
-      "suggested_action": "Reach out to RBC's energy A&D coverage on Matador/Paloma — upstream acreage deals run heavy reserves and title diligence a data room is built for.",
+      "bank": "Moelis",
+      "headline": "Moelis advises USA Rare Earth on its cross-border merger with SVRE Holdings",
+      "why_it_matters": "USA Rare Earth (USAR) filed a definitive proxy (DEFM14A, Jul 24) for its merger with SVRE Holdings (BVI; Brazil/Switzerland operations), with SVRE holders taking ~34.1% of the combined company. The filing names Moelis as financial adviser to the USAR board (fairness opinion dated Apr 19). A critical-minerals deal with a US-government offtake angle runs heavy cross-border regulatory and technical diligence.",
+      "suggested_action": "Engage Moelis's coverage on USA Rare Earth/SVRE — a multi-jurisdiction critical-minerals merger heading to a vote is an ideal structured-data-room diligence process.",
       "deal_clock": [
         {
-          "date": "Jul 23, 2026",
-          "event": "Matador agrees to acquire Paloma Permian for $1.275B"
+          "date": "Jul 24, 2026",
+          "event": "USA Rare Earth files DEFM14A; special meeting called"
         }
       ],
-      "source": "StockTitan (Matador release)",
-      "source_url": "https://www.stocktitan.net/news/MTDR/matador-resources-company-announces-strategic-delaware-basin-b8wsg9m3n8o8.html",
-      "published": "2026-07-23",
-      "confidence": "Reported",
+      "source": "SEC EDGAR — USA Rare Earth DEFM14A",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1970622/000121390026081091/ea0290028-06.htm",
+      "published": "2026-07-24",
+      "confidence": "Filed",
       "tags": [
-        "energy",
-        "upstream",
-        "a-and-d"
+        "critical-minerals",
+        "cross-border",
+        "merger"
       ]
     },
     {
@@ -225,74 +228,74 @@
       "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Goldman Sachs",
-      "headline": "Goldman and Wells Fargo advise Public Storage on its closed all-stock acquisition of National Storage Affiliates; Morgan Stanley advised NSA",
-      "why_it_matters": "Public Storage closed its all-stock acquisition of National Storage Affiliates Trust (0.14 PS share per NSA share), backed by ~$2.0B secured mortgage plus $237M mezzanine JV financing. The release names Goldman Sachs and Wells Fargo advising Public Storage (buyer, and providing the financing) and Morgan Stanley advising NSA (target). A completed public-REIT combination with financing and JV workstreams.",
-      "suggested_action": "Use the closed Public Storage/NSA deal as a post-close hook with Goldman's real estate coverage — integration and financing workstreams keep secure rooms active past signing.",
+      "bank": "Jefferies",
+      "headline": "Jefferies advises Carrier on the divestiture of energy-services unit NORESCO to LS Power's OPTERRA",
+      "why_it_matters": "Carrier agreed to sell NORESCO, its energy-services business, to OPTERRA Energy Services (an LS Power subsidiary). The PR Newswire release names Jefferies as financial adviser to Carrier (seller). A corporate carve-out runs diligence-heavy separated financials, contracts, and TSA workstreams staged in a data room.",
+      "suggested_action": "Open with Jefferies on the Carrier/NORESCO carve-out — divestitures require separated financials and TSAs staged securely, a natural VDR conversation.",
       "deal_clock": [
         {
-          "date": "Jul 22, 2026",
-          "event": "Public Storage closes NSA acquisition"
+          "date": "Jul 27, 2026",
+          "event": "Carrier agrees to sell NORESCO to OPTERRA (LS Power)"
         }
       ],
-      "source": "StockTitan (Public Storage release)",
-      "source_url": "https://www.stocktitan.net/news/PSA/public-storage-announces-closing-of-national-storage-affiliates-g0wrv01xw0tv.html",
-      "published": "2026-07-22",
+      "source": "PR Newswire (Carrier release)",
+      "source_url": "https://www.prnewswire.com/news-releases/carrier-announces-agreement-to-sell-noresco-to-opterra-energy-services-302835171.html",
+      "published": "2026-07-27",
       "confidence": "Reported",
       "tags": [
-        "real-estate",
-        "reit",
-        "all-stock"
+        "industrials",
+        "carve-out",
+        "energy-services"
       ]
     },
     {
       "id": "s9",
-      "category": "DEALS",
+      "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Morgan Stanley",
-      "headline": "Morgan Stanley advises First Financial Bancorp on its ~$208M all-stock acquisition of Finward Bancorp; Stephens advises Finward",
-      "why_it_matters": "First Financial Bancorp agreed to acquire Finward Bancorp in an all-stock deal (~$208M, 1.35 FFBC shares per Finward share). The Form 425 names Morgan Stanley as adviser to First Financial (buyer) and Stephens as adviser to Finward (target), which rendered the fairness opinion. A community-bank combination advancing to an S-4 and shareholder vote into a Q4-2026 close.",
-      "suggested_action": "Reach out to Morgan Stanley's depositories/FIG coverage on First Financial/Finward — a signed bank merger runs two-sided diligence into the S-4 and vote.",
+      "bank": "Evercore",
+      "headline": "Evercore advises Preservation Capital on the sale of specialty-insurance MGA Optio Group to Cinven and La Caisse",
+      "why_it_matters": "Cinven and La Caisse agreed to acquire a majority stake in Optio Group (a UK specialty-insurance MGA writing >£460M in annual premiums) from Preservation Capital Partners. Trade press (Reinsurance News) names Evercore as sell-side adviser. A cross-border insurance-MGA sponsor sale across ~15 countries runs regulatory-licensing and underwriting-book diligence.",
+      "suggested_action": "Engage Evercore's FIG/insurance coverage on Optio — a multi-country MGA sale runs licensing and underwriting-book diligence well-suited to a secure room. (Adviser confirmed via trade press, not the primary release.)",
       "deal_clock": [
         {
-          "date": "Jul 21, 2026",
-          "event": "First Financial agrees to acquire Finward Bancorp (~$208M)"
+          "date": "Jul 27, 2026",
+          "event": "Cinven + La Caisse agree to acquire majority of Optio Group"
         }
       ],
-      "source": "StockTitan (First Financial Bancorp release)",
-      "source_url": "https://www.stocktitan.net/news/FFBC/first-financial-bancorp-announces-second-quarter-2026-financial-ur7mb5ho8r00.html",
-      "published": "2026-07-21",
-      "confidence": "Filed",
+      "source": "Reinsurance News",
+      "source_url": "https://www.reinsurancene.ws/cinven-and-la-caisse-acquire-majority-stake-in-optio-from-pcp/",
+      "published": "2026-07-27",
+      "confidence": "Reported",
       "tags": [
-        "fig",
-        "bank-merger",
-        "stock"
+        "insurance",
+        "mga",
+        "sponsor-sale"
       ]
     },
     {
       "id": "s10",
-      "category": "DEALS",
+      "category": "BANKING",
       "urgency": "LOW",
       "scope": "bank",
-      "bank": "Evercore",
-      "headline": "Evercore advises Vita Coco on its $175M acquisition of coconut-supply firm Copra",
-      "why_it_matters": "The Vita Coco Company agreed to acquire Copra, Inc. for $175M upfront (80% cash / 20% stock) plus a $45M-$100M earnout payable in 2029. The release names Evercore as adviser to Vita Coco (buyer). A vertical-integration acquisition that closed at announcement — a smaller but clean strategic-buyer diligence engagement.",
-      "suggested_action": "A quick, closed strategic acquisition is a light-touch reason to stay in front of Evercore's consumer coverage on repeatable room setup for bolt-ons.",
+      "bank": "JPMorgan",
+      "headline": "JPMorgan and Barclays are dealer managers on PG&E utility's upsized $1.2B cash tender offers",
+      "why_it_matters": "Pacific Gas and Electric Company (a PG&E subsidiary) upsized its cash tender offers for near-term notes and first-mortgage bonds from $1.0B to $1.2B. The release names J.P. Morgan and Barclays as dealer managers. A live liability-management exercise — relevant for DCM deal teams even outside classic M&A.",
+      "suggested_action": "Note JPMorgan and Barclays as dealer managers on the PG&E tender — liability-management mandates keep DCM teams in structured document workflows worth a light-touch outreach.",
       "deal_clock": [
         {
-          "date": "Jul 22, 2026",
-          "event": "Vita Coco acquires Copra for $175M (closed)"
+          "date": "Jul 27, 2026",
+          "event": "PG&E utility upsizes cash tender offers to $1.2B"
         }
       ],
-      "source": "StockTitan (Vita Coco release)",
-      "source_url": "https://www.stocktitan.net/news/COCO/the-vita-coco-company-announces-the-acquisition-of-copra-wdw7fg4pejy4.html",
-      "published": "2026-07-22",
+      "source": "PR Newswire (PG&E utility release)",
+      "source_url": "https://www.prnewswire.com/news-releases/pacific-gas-and-electric-company-announces-upsizing-of-cash-tender-offers-302835619.html",
+      "published": "2026-07-27",
       "confidence": "Reported",
       "tags": [
-        "consumer",
-        "bolt-on",
-        "vertical-integration"
+        "utilities",
+        "dcm",
+        "liability-management"
       ]
     },
     {
@@ -301,70 +304,123 @@
       "urgency": "MEDIUM",
       "scope": "bank",
       "bank": "Stifel",
-      "headline": "Stifel's KBW runs Five Star Bancorp's ~$113.6M common-stock offering; Stephens and Raymond James co-manage",
-      "why_it_matters": "Five Star Bancorp (FSBC) priced a common-stock offering of 2,725,000 shares at $44.00 (~$113.6M net, plus an option). The release names Keefe, Bruyette & Woods (A Stifel Company) as sole bookrunner, with Stephens, D.A. Davidson, Raymond James and Brean Capital as co-managers. A bank-equity raise closing ~Jul 24 for growth and general corporate purposes.",
-      "suggested_action": "Use the Five Star raise as an ECM hook with Stifel/KBW's depositories desk — bank follow-ons run coordinated underwriting and closing diligence.",
+      "headline": "Stifel's KBW advises First Seacoast Bancorp on its $17.25/share sale to Cambridge Financial Group",
+      "why_it_matters": "First Seacoast Bancorp (FSEA) filed a definitive proxy (DEFM14A, Jul 23) for its all-cash merger into Cambridge Financial Group at $17.25/share. The filing names Keefe, Bruyette & Woods (A Stifel Company) as financial adviser to First Seacoast (target; fairness opinion dated May 4). A community-bank sale with a hard Aug 27 vote date — diligence-intensive on loan books and regulatory files.",
+      "suggested_action": "Use the Aug 27 vote as an ECM/FIG hook with Stifel/KBW's depositories desk — a signed bank merger runs concentrated loan-book and regulatory diligence into the meeting.",
       "deal_clock": [
         {
-          "date": "Jul 22, 2026",
-          "event": "Five Star prices ~$113.6M offering at $44.00"
+          "date": "Jul 23, 2026",
+          "event": "First Seacoast files DEFM14A; $17.25/share cash"
         },
         {
-          "date": "Jul 24, 2026",
-          "event": "Expected closing"
+          "date": "Aug 27, 2026",
+          "event": "Special meeting / shareholder vote (Dover, NH)"
         }
       ],
-      "source": "StockTitan (Five Star Bancorp release)",
-      "source_url": "https://www.stocktitan.net/news/FSBC/five-star-bancorp-announces-pricing-of-common-stock-ui84a26az1rz.html",
-      "published": "2026-07-22",
-      "confidence": "Reported",
+      "source": "SEC EDGAR — First Seacoast DEFM14A",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1943802/000119312526314200/d155500ddefm14a.htm",
+      "published": "2026-07-23",
+      "confidence": "Filed",
       "tags": [
         "fig",
-        "ecm",
-        "follow-on"
+        "bank-merger",
+        "community-bank"
       ]
     },
     {
       "id": "s12",
-      "category": "DEALS",
-      "urgency": "LOW",
-      "scope": "bank",
-      "bank": "Citi",
-      "headline": "Citi is sole bookrunner on B&R Technology Merger Corp.'s $325M SPAC IPO",
-      "why_it_matters": "B&R Technology Merger Corp., an AI-focused SPAC, completed a $325M IPO (32,500,000 units at $10.00). The release names Citigroup as sole book-running manager, with $325M held in trust and a 45-day over-allotment option. A sizable SPAC listing that will drive de-SPAC target diligence once a combination is identified.",
-      "suggested_action": "Note Citi's sole-bookrunner SPAC IPO — the eventual de-SPAC target search is a downstream diligence conversation worth seeding early.",
-      "deal_clock": [
-        {
-          "date": "Jul 22, 2026",
-          "event": "B&R Technology Merger Corp. completes $325M IPO"
-        }
-      ],
-      "source": "StockTitan (B&R Technology Merger Corp. release)",
-      "source_url": "https://www.stocktitan.net/news/BRTM/b-r-technology-merger-corp-completes-325-million-initial-public-4gpzjzqflv6c.html",
-      "published": "2026-07-22",
-      "confidence": "Reported",
-      "tags": [
-        "tech",
-        "spac",
-        "ipo"
-      ]
-    },
-    {
-      "id": "s13",
       "category": "MACRO",
       "urgency": "MEDIUM",
       "scope": "market",
-      "headline": "Risk-off snap: Nasdaq -1.9%, S&P -1.1%, VIX spikes ~20% back above 20",
-      "why_it_matters": "US equities reversed sharply intraday Jul 23 — Nasdaq -1.9%, S&P -1.1%, Dow -0.9%, Russell 2000 -0.7% — with the VIX jumping ~20% back above 20 and the 10Y yield firming to ~4.71%. Advisory names sold off with the tape (GS -2.1%, MS -1.8%). Volatility resets are exactly when signed processes (Simulations Plus, ArisGlobal, Peranel) still need to grind through diligence to close.",
-      "suggested_action": "Frame outreach around a volatility reset — signed deals still have to close regardless of the tape, and room readiness is what keeps diligence on schedule.",
+      "headline": "Calmer tape: Dow +1.1%, VIX eases to ~18, 10Y slips to 4.59% as WTI drops ~4%",
+      "why_it_matters": "US equities were mixed-to-firm on Jul 28 — Dow +1.1% (52,804), S&P +0.3% (7,433), Nasdaq roughly flat (-0.1%), Russell 2000 flat — with the VIX easing ~4% to ~18 and the 10Y yield slipping to ~4.59%. WTI fell ~4% to ~$79. Advisory names were soft (GS -0.9%, MS -1.5%) except Jefferies (+1.7%). A calmer backdrop is when signed processes push confidently toward close.",
+      "suggested_action": "Frame outreach around a steadier tape — with volatility back near 18, deal teams can focus on execution, and room readiness is what keeps diligence on schedule.",
       "source": "Yahoo Finance",
-      "source_url": "https://finance.yahoo.com/quote/%5EIXIC/",
-      "published": "2026-07-23"
+      "source_url": "https://finance.yahoo.com/quote/%5EDJI/",
+      "published": "2026-07-28"
     }
   ],
   "opportunities": [
     {
       "id": "o1",
+      "bank": "Evercore",
+      "sector": "Industrials",
+      "urgency": "HOT",
+      "headline": "Adviser (with Goldman) to Arcosa's board on its $150/share, ~$5.4B take-private by CRH",
+      "why_it_matters": "Evercore and Goldman Sachs both advise the Arcosa (ACA) board on its all-cash $150.00/share sale to CRH Americas, each delivering a fairness opinion. Arcosa filed its preliminary proxy Jul 24 — a large-cap industrial take-private advancing to the shareholder vote with concentrated confirmatory diligence.",
+      "deal_clock": [
+        {
+          "date": "Jul 24, 2026",
+          "event": "Arcosa files PREM14A; $150.00/share cash from CRH"
+        }
+      ],
+      "outreach_idea": "Engage Evercore's (and Goldman's) industrials coverage on Arcosa/CRH — a dual-adviser take-private advancing to a vote runs concentrated confirmatory diligence.",
+      "outreach_draft": {
+        "subject": "Arcosa / CRH — supporting a take-private to the vote",
+        "body": "Congratulations on Evercore's role advising Arcosa on its sale to CRH. Large-cap take-privates with a dual-adviser board run concentrated confirmatory diligence through the shareholder vote — would welcome a conversation on how we support secure, auditable data-room access to close.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "SEC EDGAR — Arcosa PREM14A",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1739445/000114036126029608/ny20076790x1_prem14a.htm",
+      "published": "2026-07-24",
+      "confidence": "Filed",
+      "first_seen": "2026-07-28",
+      "last_confirmed": "2026-07-28",
+      "carry_badge": "NEW"
+    },
+    {
+      "id": "o2",
+      "bank": "Jefferies",
+      "sector": "Shipping / Transportation",
+      "urgency": "HOT",
+      "headline": "Adviser (with Morgan Stanley) to Genco on its defense against Diana Shipping's $24.80 hostile tender",
+      "why_it_matters": "Jefferies is financial adviser and Morgan Stanley special adviser to the Genco Shipping (GNK) board, which filed an SC 14D9 Jul 23 recommending shareholders NOT tender into Diana Shipping's $24.80/share hostile offer. A live contested tender fight — defense mandates move fast and lean on secure rooms.",
+      "deal_clock": [
+        {
+          "date": "Jul 23, 2026",
+          "event": "Genco files SC 14D9; board recommends against Diana's tender"
+        }
+      ],
+      "outreach_idea": "Engage Jefferies (and Morgan Stanley) on the Genco defense — contested tenders lean on secure data rooms and rapid adviser collaboration as the board response develops.",
+      "outreach_draft": {
+        "subject": "Genco / Diana — supporting a live tender defense",
+        "body": "Congratulations on Jefferies's role advising Genco on its response to Diana Shipping. Contested tender defenses run fast, document-intensive workstreams across advisers and the board — would welcome a conversation on how we support secure, auditable data-room access under a tight clock.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "SEC EDGAR — Genco SC 14D9 exhibit",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326200/000114036126029428/ef20078433_ex99-a68.htm",
+      "published": "2026-07-23",
+      "confidence": "Filed",
+      "first_seen": "2026-07-28",
+      "last_confirmed": "2026-07-28",
+      "carry_badge": "NEW"
+    },
+    {
+      "id": "o3",
+      "bank": "Morgan Stanley",
+      "sector": "Energy / Renewables",
+      "urgency": "HOT",
+      "headline": "Adviser (with Wells Fargo) to Greenbacker on its ~$350M sale to MN8 Energy",
+      "why_it_matters": "Morgan Stanley and Wells Fargo advise Greenbacker Renewable Energy on its signed sale to MN8 Energy (~$350M at closing plus up to $25M contingent), creating a top-3 US clean-power platform (~6.2 GW). Wells Fargo delivered the fairness opinion. The deal ran a 60+ party auction and now advances to an S-4.",
+      "deal_clock": [
+        {
+          "date": "Jul 27, 2026",
+          "event": "MN8/Greenbacker investor-call transcript filed (Form 425)"
+        }
+      ],
+      "outreach_idea": "Open with Morgan Stanley's (and Wells Fargo's) power/renewables coverage on Greenbacker/MN8 — a multi-bidder auction consolidating into an S-4 is a strong secure sell-side use case.",
+      "outreach_draft": {
+        "subject": "Greenbacker / MN8 — supporting a renewables consolidation",
+        "body": "Congratulations on Morgan Stanley's role advising Greenbacker on its sale to MN8 Energy. Renewables roll-ups out of a broad auction run document-heavy diligence into the S-4 and close — would welcome a conversation on how we support secure, auditable data-room access across the process.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "SEC EDGAR — MN8/Greenbacker Form 425",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2136853/000162828026049851/mn8-42572726.htm",
+      "published": "2026-07-27",
+      "confidence": "Filed",
+      "first_seen": "2026-07-28",
+      "last_confirmed": "2026-07-28",
+      "carry_badge": "NEW"
+    },
+    {
+      "id": "o4",
       "bank": "Morgan Stanley",
       "sector": "Healthcare-Tech / Software",
       "urgency": "HOT",
@@ -387,89 +443,7 @@
       "confidence": "Filed",
       "first_seen": "2026-07-23",
       "last_confirmed": "2026-07-23",
-      "carry_badge": "NEW"
-    },
-    {
-      "id": "o2",
-      "bank": "JPMorgan",
-      "sector": "Healthcare / Biopharma",
-      "urgency": "HOT",
-      "headline": "Adviser (with Leerink) to Crinetics on its $85/share, all-cash sale to Vertex",
-      "why_it_matters": "J.P. Morgan and Leerink advise Crinetics on its signed $85.00/share all-cash sale to Vertex (Lazard and Morgan Stanley advise Vertex), with a three-bank debt commitment. A sizable, financed biopharma take-private advancing to the shareholder vote.",
-      "deal_clock": [
-        {
-          "date": "Jul 21, 2026",
-          "event": "Crinetics files preliminary proxy; $85.00/share cash from Vertex"
-        }
-      ],
-      "outreach_idea": "Open with JPMorgan's healthcare team on Crinetics/Vertex — a financed all-cash take-private runs time-boxed diligence through the vote.",
-      "outreach_draft": {
-        "subject": "Crinetics / Vertex — supporting a financed biopharma take-private",
-        "body": "Congratulations on J.P. Morgan's role advising Crinetics on its sale to Vertex. All-cash biopharma take-privates with debt financing run heavy, time-sensitive diligence through the shareholder vote — would welcome a conversation on how we support secure, auditable data-room access to close.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
-      },
-      "source": "SEC EDGAR — Crinetics PREM14A",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1658247/000114036126029134/ny20077458x1_prem14a.htm",
-      "published": "2026-07-21",
-      "confidence": "Filed",
-      "first_seen": "2026-07-22",
-      "last_confirmed": "2026-07-22",
-      "carry_badge": "Day 2"
-    },
-    {
-      "id": "o3",
-      "bank": "Morgan Stanley",
-      "sector": "FIG / Insurance",
-      "urgency": "HOT",
-      "headline": "Adviser to Corebridge on its merger of equals with Equitable (Goldman advises Equitable)",
-      "why_it_matters": "Morgan Stanley advises Corebridge Financial on its all-stock merger of equals with Equitable Holdings (Goldman advises Equitable), forming \"New Equitable\" with Corebridge holders at ~51%. A supplemental joint proxy was filed Jul 21 ahead of a Jul 30 vote — a large-cap insurance MOE with two-sided fairness work.",
-      "deal_clock": [
-        {
-          "date": "Jul 21, 2026",
-          "event": "Supplemental joint-proxy disclosure filed"
-        },
-        {
-          "date": "Jul 30, 2026",
-          "event": "Special meeting / vote"
-        }
-      ],
-      "outreach_idea": "Engage Morgan Stanley's FIG coverage on Corebridge/Equitable — a large insurance MOE with an imminent vote runs multi-workstream integration diligence.",
-      "outreach_draft": {
-        "subject": "Corebridge / Equitable — supporting an insurance merger of equals",
-        "body": "Congratulations on Morgan Stanley's role advising Corebridge on the Equitable merger of equals. Large insurance MOEs run extensive integration and regulatory diligence into the shareholder vote — would welcome a conversation on how we support clean, auditable data-room access across the process.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
-      },
-      "source": "SEC EDGAR — Corebridge Form 425",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1889539/000114036126029153/ef20078276_425.htm",
-      "published": "2026-07-21",
-      "confidence": "Filed",
-      "first_seen": "2026-07-22",
-      "last_confirmed": "2026-07-22",
-      "carry_badge": "Day 2"
-    },
-    {
-      "id": "o4",
-      "bank": "Morgan Stanley",
-      "sector": "Healthcare / Diagnostics",
-      "urgency": "HOT",
-      "headline": "Adviser to Tempus on its stock-for-stock acquisition of Personalis ($16.25/share cash election)",
-      "why_it_matters": "Morgan Stanley advises Tempus AI on its signed stock-for-stock acquisition of Personalis, with an optional cash election up to 50% at $16.25/share (Centerview and TD Cowen advise Personalis). Merger materials (Form 425) filed Jul 20 — a diagnostics combination advancing through the S-4/vote phase with two-sided diligence.",
-      "deal_clock": [
-        {
-          "date": "Jul 20, 2026",
-          "event": "Tempus/Personalis merger materials filed; $16.25/share cash election"
-        }
-      ],
-      "outreach_idea": "Open on Tempus/Personalis — a filed stock-for-stock diagnostics merger is a concrete reason to engage Morgan Stanley's healthcare-tech team on secure diligence.",
-      "outreach_draft": {
-        "subject": "Tempus / Personalis — supporting a filed diagnostics merger",
-        "body": "Congratulations on Morgan Stanley's role advising Tempus on the Personalis combination. Stock-for-stock mergers with cash elections run two-sided diligence through the S-4 and shareholder vote — would welcome a conversation on how we support secure, auditable data-room access to close.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
-      },
-      "source": "SEC EDGAR — Personalis/Tempus Form 425",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1527753/000119312526309081/d128960d425.htm",
-      "published": "2026-07-20",
-      "confidence": "Filed",
-      "first_seen": "2026-07-21",
-      "last_confirmed": "2026-07-21",
-      "carry_badge": "Day 3"
+      "carry_badge": "Day 4"
     },
     {
       "id": "o5",
@@ -495,7 +469,7 @@
       "confidence": "Reported",
       "first_seen": "2026-07-23",
       "last_confirmed": "2026-07-23",
-      "carry_badge": "NEW"
+      "carry_badge": "Day 4"
     },
     {
       "id": "o6",
@@ -521,144 +495,140 @@
       "confidence": "Reported",
       "first_seen": "2026-07-23",
       "last_confirmed": "2026-07-23",
-      "carry_badge": "NEW"
+      "carry_badge": "Day 4"
     },
     {
       "id": "o7",
-      "bank": "Lazard",
-      "sector": "Technology / Software",
+      "bank": "Moelis",
+      "sector": "Critical Minerals / Materials",
       "urgency": "WARM",
-      "headline": "Adviser (with Houlihan Lokey) to LivePerson on its stock merger with SoundHound AI (Aug 20 vote)",
-      "why_it_matters": "Lazard ran LivePerson's strategic-review/sale process and Houlihan Lokey delivered the fairness opinion (both target-side) on SoundHound AI's stock acquisition of LivePerson. A fresh Jul 23 proxy solicitation confirms the deal is heading to an Aug 20 special meeting, with a secured-noteholder discount workstream alongside the vote.",
+      "headline": "Adviser to USA Rare Earth on its cross-border merger with SVRE Holdings",
+      "why_it_matters": "Moelis advises the USA Rare Earth (USAR) board on its merger with SVRE Holdings (BVI; Brazil/Switzerland operations), with SVRE holders taking ~34.1% of the combined company. USAR filed a definitive proxy Jul 24. A critical-minerals deal with a US-government offtake angle runs heavy cross-border regulatory and technical diligence.",
       "deal_clock": [
         {
-          "date": "Apr 21, 2026",
-          "event": "SoundHound/LivePerson merger announced"
-        },
-        {
-          "date": "Aug 20, 2026",
-          "event": "LivePerson special meeting / vote"
+          "date": "Jul 24, 2026",
+          "event": "USA Rare Earth files DEFM14A; special meeting called"
         }
       ],
-      "outreach_idea": "A special-meeting run-in is a clean reason to engage Lazard and Houlihan Lokey on secure diligence for a stock merger with a noteholder workstream.",
+      "outreach_idea": "Engage Moelis on USA Rare Earth/SVRE — a multi-jurisdiction critical-minerals merger heading to a vote is an ideal structured-data-room diligence process.",
       "outreach_draft": {
-        "subject": "LivePerson / SoundHound — supporting a stock merger to the vote",
-        "body": "Congratulations on Lazard's role advising LivePerson on its merger with SoundHound AI. Stock mergers with a noteholder workstream run coordinated diligence into the special meeting — would welcome a conversation on how we support secure, auditable data-room access through the vote.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+        "subject": "USA Rare Earth / SVRE — supporting a cross-border merger",
+        "body": "Congratulations on Moelis's role advising USA Rare Earth on the SVRE combination. Cross-border critical-minerals mergers run technical and multi-jurisdiction regulatory diligence into the shareholder vote — would welcome a conversation on how we support secure, auditable data-room access to close.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
       },
-      "source": "SEC EDGAR — LivePerson Form 425",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1102993/000119312526313372/d861476d425.htm",
-      "published": "2026-07-23",
+      "source": "SEC EDGAR — USA Rare Earth DEFM14A",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1970622/000121390026081091/ea0290028-06.htm",
+      "published": "2026-07-24",
       "confidence": "Filed",
-      "first_seen": "2026-07-23",
-      "last_confirmed": "2026-07-23",
+      "first_seen": "2026-07-28",
+      "last_confirmed": "2026-07-28",
       "carry_badge": "NEW"
     },
     {
       "id": "o8",
-      "bank": "Citi",
-      "sector": "Technology / Software",
+      "bank": "Stifel",
+      "sector": "FIG / Depositories",
       "urgency": "WARM",
-      "headline": "Exclusive adviser to Progress Software on its $400M acquisition of Domo's AI & data platform",
-      "why_it_matters": "Citi is exclusive financial adviser to Progress Software on its signed $400M acquisition of Domo's AI and data-platform business (Jefferies advises Domo). An asset carve-out funded via cash and revolver runs two-sided IP, data, and separation diligence into a close by Progress's Nov-30 fiscal year-end.",
+      "headline": "Sell-side adviser (KBW) to First Seacoast Bancorp on its $17.25/share sale to Cambridge Financial",
+      "why_it_matters": "Keefe, Bruyette & Woods (A Stifel Company) advises First Seacoast Bancorp (FSEA) on its all-cash $17.25/share merger into Cambridge Financial Group. A definitive proxy filed Jul 23 sets a hard Aug 27 vote — a community-bank sale that's diligence-intensive on loan books and regulatory files.",
       "deal_clock": [
         {
-          "date": "Jul 22, 2026",
-          "event": "Progress agrees to acquire Domo's AI/data platform for $400M"
+          "date": "Jul 23, 2026",
+          "event": "First Seacoast files DEFM14A; $17.25/share cash"
+        },
+        {
+          "date": "Aug 27, 2026",
+          "event": "Special meeting / shareholder vote"
         }
       ],
-      "outreach_idea": "Open with Citi's software coverage on Progress/Domo — an asset carve-out runs focused IP, data, and separation diligence on a tight fiscal-year timeline.",
+      "outreach_idea": "Use the Aug 27 vote as a FIG hook with Stifel/KBW's depositories desk — a signed bank merger runs concentrated loan-book and regulatory diligence into the meeting.",
       "outreach_draft": {
-        "subject": "Progress / Domo — supporting a $400M software carve-out",
-        "body": "Congratulations on Citi's exclusive role advising Progress Software on the Domo platform acquisition. Asset carve-outs run focused IP, data, and separation diligence on tight timelines — would welcome a conversation on how we support secure, auditable data-room access to close.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+        "subject": "First Seacoast / Cambridge — supporting a bank merger to the vote",
+        "body": "Congratulations on KBW/Stifel's role advising First Seacoast Bancorp on its sale to Cambridge Financial. Community-bank mergers run loan-book and regulatory diligence into the shareholder vote — would welcome a conversation on how we support secure, auditable data-room access through the Aug 27 meeting.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
       },
-      "source": "StockTitan (Progress Software release)",
-      "source_url": "https://www.stocktitan.net/news/PRGS/progress-software-to-acquire-domo-s-ai-and-data-platform-nwg9nukydxq2.html",
-      "published": "2026-07-22",
-      "confidence": "Reported",
-      "first_seen": "2026-07-23",
-      "last_confirmed": "2026-07-23",
+      "source": "SEC EDGAR — First Seacoast DEFM14A",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1943802/000119312526314200/d155500ddefm14a.htm",
+      "published": "2026-07-23",
+      "confidence": "Filed",
+      "first_seen": "2026-07-28",
+      "last_confirmed": "2026-07-28",
       "carry_badge": "NEW"
     },
     {
       "id": "o9",
-      "bank": "Evercore",
-      "sector": "Technology / Life-Sciences Software",
+      "bank": "Jefferies",
+      "sector": "Industrials / Energy Services",
       "urgency": "WARM",
-      "headline": "Adviser (with Jefferies) to Nordic Capital on the sale of ArisGlobal to Dassault Systèmes",
-      "why_it_matters": "Evercore and Jefferies advise Nordic Capital on its signed sale of AI-enabled life-sciences software platform ArisGlobal (~$175M 2026 revenue) to Dassault Systèmes. A sponsor software exit runs controlled, document-heavy diligence into a 2H-2026 close subject to regulatory clearance.",
+      "headline": "Sell-side adviser to Carrier on the divestiture of NORESCO to LS Power's OPTERRA",
+      "why_it_matters": "Jefferies is financial adviser to Carrier on the sale of its NORESCO energy-services business to OPTERRA Energy Services (an LS Power subsidiary). A corporate carve-out runs diligence-heavy separated financials, contracts, and TSA workstreams staged in a data room.",
       "deal_clock": [
         {
-          "date": "Jul 23, 2026",
-          "event": "Nordic Capital agrees to sell ArisGlobal to Dassault"
+          "date": "Jul 27, 2026",
+          "event": "Carrier agrees to sell NORESCO to OPTERRA (LS Power)"
         }
       ],
-      "outreach_idea": "Engage Evercore's (and Jefferies's) tech/sponsors coverage on the ArisGlobal sale — a PE software exit is a strong secure sell-side diligence use case.",
+      "outreach_idea": "Open with Jefferies on the Carrier/NORESCO carve-out — divestitures require separated financials and TSAs staged securely, a natural VDR conversation.",
       "outreach_draft": {
-        "subject": "ArisGlobal / Dassault — supporting a software sponsor exit",
-        "body": "Congratulations on Evercore's role advising Nordic Capital on the ArisGlobal sale to Dassault Systèmes. Sponsor software exits run controlled, auditable diligence through regulatory clearance to close — would welcome a conversation on how we support secure data-room access across the process.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+        "subject": "Carrier / NORESCO — supporting a carve-out divestiture",
+        "body": "Congratulations on Jefferies's role advising Carrier on the NORESCO divestiture. Carve-outs run separation, TSA, and contract diligence across shared rooms into close — would welcome a conversation on how we support secure, auditable data-room access through the process.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
       },
-      "source": "PR Newswire (Nordic Capital release)",
-      "source_url": "https://www.prnewswire.com/news-releases/nordic-capital-announces-agreement-to-sell-arisglobal-to-dassault-systemes-following-its-transformation-into-a-scaled-and-ai-enabled-life-sciences-platform-302833100.html",
-      "published": "2026-07-23",
+      "source": "PR Newswire (Carrier release)",
+      "source_url": "https://www.prnewswire.com/news-releases/carrier-announces-agreement-to-sell-noresco-to-opterra-energy-services-302835171.html",
+      "published": "2026-07-27",
       "confidence": "Reported",
-      "first_seen": "2026-07-23",
-      "last_confirmed": "2026-07-23",
+      "first_seen": "2026-07-28",
+      "last_confirmed": "2026-07-28",
       "carry_badge": "NEW"
     },
     {
       "id": "o10",
-      "bank": "RBC Capital Markets",
-      "sector": "Energy / Upstream",
+      "bank": "Evercore",
+      "sector": "FIG / Insurance",
       "urgency": "WARM",
-      "headline": "Sell-side adviser (RBC Richardson Barr) on Matador's $1.275B Paloma Permian acquisition",
-      "why_it_matters": "RBC Richardson Barr advises the seller (EnCap portfolio company Paloma Permian) on its signed $1.275B sale to Matador Resources — ~16,235 net Delaware Basin acres. A sizable upstream A&D deal runs reserves, title, and lender diligence into a Q4-2026 close.",
+      "headline": "Sell-side adviser to Preservation Capital on the sale of MGA Optio Group to Cinven and La Caisse",
+      "why_it_matters": "Evercore advises Preservation Capital Partners on the sale of a majority stake in specialty-insurance MGA Optio Group (>£460M annual premiums) to Cinven and La Caisse. A cross-border insurance-MGA sponsor sale across ~15 countries runs regulatory-licensing and underwriting-book diligence. (Adviser confirmed via trade press.)",
       "deal_clock": [
         {
-          "date": "Jul 23, 2026",
-          "event": "Matador agrees to acquire Paloma Permian for $1.275B"
+          "date": "Jul 27, 2026",
+          "event": "Cinven + La Caisse agree to acquire majority of Optio Group"
         }
       ],
-      "outreach_idea": "Reach out to RBC's energy A&D coverage on Matador/Paloma — upstream acreage deals run heavy reserves and title diligence a data room is built for.",
+      "outreach_idea": "Engage Evercore's FIG/insurance coverage on Optio — a multi-country MGA sale runs licensing and underwriting-book diligence well-suited to a secure room.",
       "outreach_draft": {
-        "subject": "Paloma Permian / Matador — supporting a $1.275B A&D process",
-        "body": "Congratulations on RBC Richardson Barr's role on the Paloma Permian sale to Matador. Upstream A&D deals run detailed reserves, title, and lender diligence to close — would welcome a conversation on how we support secure, auditable data-room access across the workstreams.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+        "subject": "Optio Group / Cinven — supporting a cross-border MGA sale",
+        "body": "Congratulations on Evercore's role advising Preservation Capital on the Optio Group sale. Cross-border MGA transactions run regulatory-licensing and underwriting-book diligence across many jurisdictions — would welcome a conversation on how we support secure, auditable data-room access to close.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
       },
-      "source": "StockTitan (Matador release)",
-      "source_url": "https://www.stocktitan.net/news/MTDR/matador-resources-company-announces-strategic-delaware-basin-b8wsg9m3n8o8.html",
-      "published": "2026-07-23",
+      "source": "Reinsurance News",
+      "source_url": "https://www.reinsurancene.ws/cinven-and-la-caisse-acquire-majority-stake-in-optio-from-pcp/",
+      "published": "2026-07-27",
       "confidence": "Reported",
-      "first_seen": "2026-07-23",
-      "last_confirmed": "2026-07-23",
+      "first_seen": "2026-07-28",
+      "last_confirmed": "2026-07-28",
       "carry_badge": "NEW"
     },
     {
       "id": "o11",
-      "bank": "Stifel",
-      "sector": "FIG / ECM",
+      "bank": "JPMorgan",
+      "sector": "Utilities / DCM",
       "urgency": "WARM",
-      "headline": "Sole bookrunner (KBW) on Five Star Bancorp's ~$113.6M common-stock offering",
-      "why_it_matters": "Keefe, Bruyette & Woods (A Stifel Company) is sole book-running manager on Five Star Bancorp's ~$113.6M common-stock offering at $44.00 (Stephens, D.A. Davidson, Raymond James, Brean co-managers). A bank-equity raise closing ~Jul 24 runs coordinated underwriting and closing diligence.",
+      "headline": "Dealer manager (with Barclays) on PG&E utility's upsized $1.2B cash tender offers",
+      "why_it_matters": "J.P. Morgan and Barclays are dealer managers on Pacific Gas and Electric Company's cash tender offers, upsized from $1.0B to $1.2B for near-term notes and first-mortgage bonds. A live liability-management exercise keeping DCM teams in structured document workflows.",
       "deal_clock": [
         {
-          "date": "Jul 22, 2026",
-          "event": "Five Star prices ~$113.6M offering at $44.00"
-        },
-        {
-          "date": "Jul 24, 2026",
-          "event": "Expected closing"
+          "date": "Jul 27, 2026",
+          "event": "PG&E utility upsizes cash tender offers to $1.2B"
         }
       ],
-      "outreach_idea": "Use the Five Star raise as an ECM hook with Stifel/KBW's depositories desk — bank follow-ons run coordinated underwriting and closing diligence.",
+      "outreach_idea": "Note JPMorgan and Barclays as dealer managers on the PG&E tender — liability-management mandates keep DCM teams in structured document workflows worth a light-touch outreach.",
       "outreach_draft": {
-        "subject": "Five Star Bancorp offering — supporting a bank follow-on",
-        "body": "Congratulations on KBW/Stifel's sole-bookrunner role on Five Star Bancorp's common-stock offering. Bank follow-ons run coordinated underwriting and closing diligence across the syndicate — would welcome a conversation on how we support secure, auditable data-room access through close.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+        "subject": "PG&E tender — supporting a liability-management exercise",
+        "body": "Congratulations on J.P. Morgan's dealer-manager role on the PG&E utility tender offers. Liability-management exercises run coordinated document and disclosure workflows across the dealer group — would welcome a conversation on how we support secure, auditable access through the process.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
       },
-      "source": "StockTitan (Five Star Bancorp release)",
-      "source_url": "https://www.stocktitan.net/news/FSBC/five-star-bancorp-announces-pricing-of-common-stock-ui84a26az1rz.html",
-      "published": "2026-07-22",
+      "source": "PR Newswire (PG&E utility release)",
+      "source_url": "https://www.prnewswire.com/news-releases/pacific-gas-and-electric-company-announces-upsizing-of-cash-tender-offers-302835619.html",
+      "published": "2026-07-27",
       "confidence": "Reported",
-      "first_seen": "2026-07-23",
-      "last_confirmed": "2026-07-23",
+      "first_seen": "2026-07-28",
+      "last_confirmed": "2026-07-28",
       "carry_badge": "NEW"
     }
   ],
@@ -666,96 +636,107 @@
     "indices": [
       {
         "label": "S&P 500",
-        "value": "7,420.16",
-        "change": "-78.80 (-1.05%)",
-        "positive": false
+        "value": "7,433.29",
+        "change": "+20.11 (+0.27%)",
+        "positive": true
       },
       {
         "label": "Nasdaq Composite",
-        "value": "25,196.70",
-        "change": "-494.21 (-1.92%)",
+        "value": "24,908.62",
+        "change": "-23.46 (-0.09%)",
         "positive": false
       },
       {
         "label": "Dow Jones",
-        "value": "51,754.91",
-        "change": "-463.67 (-0.89%)",
-        "positive": false
+        "value": "52,804.07",
+        "change": "+593.99 (+1.14%)",
+        "positive": true
       },
       {
         "label": "Russell 2000",
-        "value": "2,938.47",
-        "change": "-21.47 (-0.73%)",
+        "value": "2,946.28",
+        "change": "-1.75 (-0.06%)",
         "positive": false
       },
       {
         "label": "CBOE VIX",
-        "value": "20.05",
-        "change": "+3.41 (+20.46%)",
-        "positive": false
+        "value": "17.99",
+        "change": "-0.68 (-3.63%)",
+        "positive": true
       },
       {
         "label": "10Y Treasury",
-        "value": "4.707%",
-        "change": "+0.050 (+1.07%)",
-        "positive": true
+        "value": "4.592%",
+        "change": "-0.049 (-1.06%)",
+        "positive": false
+      },
+      {
+        "label": "WTI Crude",
+        "value": "$79.29",
+        "change": "-$3.32 (-4.02%)",
+        "positive": false
       }
     ],
     "bank_stocks": [
       {
         "ticker": "GS",
-        "price": "$1,074.94",
-        "change": "-2.12%",
+        "price": "$1,038.76",
+        "change": "-0.90%",
         "positive": false
       },
       {
         "ticker": "MS",
-        "price": "$214.58",
-        "change": "-1.79%",
+        "price": "$211.30",
+        "change": "-1.52%",
         "positive": false
       },
       {
         "ticker": "JPM",
-        "price": "$348.04",
-        "change": "-0.05%",
+        "price": "$356.19",
+        "change": "0.00%",
         "positive": false
       },
       {
         "ticker": "JEF",
-        "price": "$55.31",
-        "change": "-1.16%",
-        "positive": false
+        "price": "$57.19",
+        "change": "+1.68%",
+        "positive": true
       }
     ],
-    "macro_note": "Risk-off reversal on Jul 23: S&P -1.1% (7,420), Nasdaq -1.9% (25,197), Dow -0.9%, Russell 2000 -0.7%, with the VIX spiking ~20% back above 20 and the 10Y firming to ~4.71%. Advisory names sold off (GS -2.1%, MS -1.8%, JPM roughly flat). Values are LIVE INTRADAY levels captured midday EDT Jul 23 (market open) — not a settled close. EVR omitted (Yahoo returned a stale prior-close snapshot) and WTI omitted — accuracy over completeness."
+    "macro_note": "Mixed-to-firm tape on Jul 28: Dow +1.1% (52,804), S&P +0.3% (7,433), Nasdaq -0.1% (24,909), Russell 2000 flat, with the VIX easing ~4% to ~18 and the 10Y slipping to ~4.59%. WTI fell ~4% to ~$79. Advisory names were soft (GS -0.9%, MS -1.5%, JPM flat) except Jefferies (+1.7%). Values are LIVE INTRADAY levels captured mid-afternoon EDT Jul 28 — not a settled close. EVR omitted (Yahoo returned a Jul 21 prior-close snapshot) and LAZ omitted (Jul 27 prior close, not Jul 28) — accuracy over completeness."
   },
   "talking_point": {
-    "quote": "The tape flipped risk-off today — VIX back above 20, Nasdaq down nearly 2% — but the signings didn't stop: Brookfield buying Aypa Power at ~$7B, Platinum Equity's $5.6B Peranel JV with Nestlé, Altaris taking Simulations Plus private, Nordic Capital selling ArisGlobal to Dassault. Every one of these still has to close, and volatility is exactly when diligence timelines slip. How are you thinking about room readiness on the processes you're carrying into a choppier market?",
-    "use_with": "M&A, sponsors, energy, consumer, and software coverage teams (esp. BofA, Morgan Stanley, Citi, Evercore, RBC)",
-    "context": "Pairs a Jul 23 risk-off reversal with a dense signing tape — a natural way to open a room-readiness conversation as deals push through a more volatile close.",
+    "quote": "The tape's calmed down — VIX back near 18, Dow up over 1% — and the signings kept right on coming: Berkshire closing its $8.5B Taylor Morrison take-private, CRH's $150-a-share bid for Arcosa hitting the proxy, AIP closing Avanos, and a live Genco/Diana tender fight. A steadier backdrop is exactly when deal teams can focus on execution — how are you thinking about room readiness on the processes you're carrying into August?",
+    "use_with": "M&A, sponsors, industrials, healthcare, and FIG coverage teams (esp. Goldman, Evercore, JPMorgan, Morgan Stanley, Jefferies, Stifel/KBW)",
+    "context": "Pairs a Jul 28 calmer-tape read with a dense closing/filing cycle — a natural way to open a room-readiness conversation as deals push toward August milestones.",
     "confidence": "Reported"
   },
   "sector_heat": {
     "ranked": [
       {
-        "sector": "Energy / Infrastructure",
-        "read": "Blackstone sells battery-storage platform Aypa Power to Brookfield at ~$7B (BofA sell-side); Matador buys Paloma Permian for $1.275B (RBC Richardson Barr sell-side).",
-        "source_note": "StockTitan, Jul 22-23 2026"
+        "sector": "Industrials",
+        "read": "CRH's $150/share, ~$5.4B take-private of Arcosa hits the proxy (Evercore, Goldman); Carrier divests NORESCO to LS Power's OPTERRA (Jefferies); Leonardo DRS buys AI-software firm Raft for $450M (Morgan Stanley; JPMorgan).",
+        "source_note": "SEC EDGAR + PR Newswire + Leonardo DRS, Jul 24-28 2026"
       },
       {
-        "sector": "Technology / Software",
-        "read": "Progress buys Domo's AI/data platform for $400M (Citi; Jefferies), Nordic Capital sells ArisGlobal to Dassault (Evercore, Jefferies), and SoundHound's LivePerson stock merger heads to an Aug 20 vote (Lazard, Houlihan Lokey).",
-        "source_note": "PR Newswire + SEC EDGAR + StockTitan, Jul 22-23 2026"
+        "sector": "Real Estate / Homebuilding",
+        "read": "Berkshire Hathaway closes its ~$8.5B take-private of Taylor Morrison (Goldman, Moelis).",
+        "source_note": "Taylor Morrison newsroom, Jul 24 2026"
       },
       {
-        "sector": "Consumer / Beverages",
-        "read": "Platinum Equity + Nestlé form the $5.6B Peranel water & premium-beverages JV (BofA buy-side); Vita Coco buys Copra for $175M (Evercore).",
-        "source_note": "PR Newswire + StockTitan, Jul 22-23 2026"
+        "sector": "Healthcare / Medtech",
+        "read": "American Industrial Partners closes its $1.27B take-private of Avanos Medical (JPMorgan, UBS).",
+        "source_note": "Avanos investor room, Jul 27 2026"
+      },
+      {
+        "sector": "Energy / Renewables",
+        "read": "MN8 Energy buys Greenbacker (~$350M) out of a 60+ party auction, forming a top-3 US clean-power platform (Morgan Stanley, Wells Fargo).",
+        "source_note": "SEC EDGAR, Jul 27 2026"
       },
       {
         "sector": "Financial Institutions (FIG)",
-        "read": "First Financial acquires Finward Bancorp (~$208M; Morgan Stanley, Stephens); Five Star Bancorp raises ~$113.6M (KBW/Stifel bookrunner).",
-        "source_note": "SEC EDGAR + StockTitan, Jul 21-22 2026"
+        "read": "First Seacoast Bancorp sells to Cambridge Financial at $17.25/share into an Aug 27 vote (KBW/Stifel); Optio Group MGA sold to Cinven & La Caisse (Evercore).",
+        "source_note": "SEC EDGAR + Reinsurance News, Jul 23-27 2026"
       }
     ]
   },
@@ -768,68 +749,73 @@
     "note": "Unconfirmed leads — rumored deals and situations with no adviser named yet (or advisers unconfirmed). Real reporting, but treat as speculative: chase them, don't quote them on a call.",
     "items": [
       {
-        "company": "Arcadis NV (AMS: ARCAD)",
+        "company": "Brown-Forman (NYSE: BF.B)",
         "bank": "unconfirmed",
-        "lead": "The Dutch engineering/consultancy group (~EUR 3.2B market cap) has reportedly attracted takeover interest, including from Canadian peer WSP Global and several large-cap PE firms; shares jumped ~9.5% and were briefly halted.",
-        "why_unverified": "Reuters 'sources' story; WSP said it does not comment on speculation and Arcadis declined to comment. No formal process or adviser confirmed, and the ~18% employee-led Lovinklaan foundation could block a deal.",
-        "sector": "Engineering & Consulting",
-        "source_note": "Global Banking & Finance Review, Jul 23 2026",
-        "source_url": "https://www.globalbankingandfinance.com/exclusive-dutch-engineering-group-arcadis-attracts-takeover/",
+        "lead": "Brown-Forman rejected an unsolicited ~$15B takeover approach from Sazerac; the family-controlled distiller says it will remain independent, but the approach is now public.",
+        "why_unverified": "Approach disclosed and reported but rejected as 'not actionable'; no negotiated deal and no adviser named — a potential live defense mandate.",
+        "sector": "Consumer Staples / Spirits",
+        "source_note": "Louisville Business First (bizjournals), Jul 28 2026",
+        "source_url": "https://www.bizjournals.com/louisville/news/2026/07/28/sazerac-brown-forman-merger-offer-details-2026.html",
         "confidence": "Speculative"
       },
       {
-        "company": "ACI Worldwide (NASDAQ: ACIW)",
+        "company": "MarineMax (NYSE: HZO)",
         "bank": "unconfirmed",
-        "lead": "ACI is reportedly exploring a sale of its Biller/billing division, potentially valued around $1.5B (10-12x 2025 EBITDA), with early-stage talks said to include private equity firms.",
-        "why_unverified": "Reuters 'three sources familiar'; ACI had not responded to comment requests and has not confirmed. No bank publicly named.",
-        "sector": "Fintech / Payments Software",
-        "source_note": "PYMNTS, Jul 19 2026",
-        "source_url": "https://www.pymnts.com/acquisitions/2026/aci-worldwide-considers-putting-billing-division-up-for-sale/",
+        "lead": "Yacht retailer MarineMax is in a sale process with Blackstone and The Donerail Group reported among the final bidders.",
+        "why_unverified": "Reuters 'sources say'; company has not confirmed, and the sell-side adviser is engaged but unnamed.",
+        "sector": "Consumer / Recreational Retail",
+        "source_note": "Reuters, Jul 24 2026",
+        "source_url": "https://www.reuters.com/business/blackstone-donerail-among-final-bidders-yacht-retailer-marinemax-sources-say-2026-07-24/",
         "confidence": "Speculative"
       },
       {
-        "company": "Quadient S.A. (Euronext Paris: QDT)",
-        "bank": "Rothschild & Co / Societe Generale",
-        "lead": "Quadient's board formally announced a strategic review of its Lockers Solution business (28,000+ parcel lockers, EUR 114M FY25 revenue), weighing continued ownership, partnerships, geographic sales, or a full disposal.",
-        "why_unverified": "Company-announced review with 'no certainty as to outcome, structure or timing'; no buyer identified and no transaction agreed. Next update expected with H1 results Sept 23, 2026.",
-        "sector": "Industrial / Parcel-Locker Technology",
-        "source_note": "GlobeNewswire, Jul 20 2026",
-        "source_url": "https://www.globenewswire.com/news-release/2026/07/20/3329438/0/en/quadient-announces-a-strategic-review-of-its-lockers-solution.html",
-        "confidence": "Speculative"
-      },
-      {
-        "company": "Lionsgate Studios (NYSE: LION)",
+        "company": "Pitney Bowes (NYSE: PBI)",
         "bank": "unconfirmed",
-        "lead": "Lionsgate Studios is reportedly evaluating inbound takeover approaches — with France's Bollore Group and TV producer Banijay named as interested parties — sending shares up as much as 9% after hours.",
-        "why_unverified": "Reuters 'sources' report; no deal is certain and Lionsgate could remain independent. Company has not confirmed, adviser unnamed, and Netflix earlier denied interest.",
-        "sector": "Media & Entertainment",
-        "source_note": "StockTwits / Stocktitan, Jul 14 2026",
-        "source_url": "https://stocktwits.com/news-articles/markets/equity/lion-stock-soars-after-hours-as-european-bidders-eye-lionsgate/cZZRXRXR7qs",
+        "lead": "Pitney Bowes advanced the next phase of its strategic review — explicitly including a potential sale or take-private — and added a director to its Strategic Review Committee on Jul 27.",
+        "why_unverified": "Ongoing company-run review with 'independent advisers' cited but none named; sale is one option among several, no decision made.",
+        "sector": "Industrials / Shipping & Mailing Tech",
+        "source_note": "MarketWatch + company release, review ongoing; committee appointment Jul 27 2026",
+        "source_url": "https://www.msn.com/en-us/money/other/pitney-bowes-launches-next-strategic-review-phase-including-sale/ar-AA26TaiJ",
         "confidence": "Speculative"
       },
       {
-        "company": "Thai Beverage / QSR of Asia (SGX: Y92)",
-        "bank": "Bank of America",
-        "lead": "ThaiBev is reportedly considering a sale of QSR of Asia, Thailand's largest KFC franchise (500+ restaurants), and has enlisted Bank of America to gauge buyer interest amid a 21.7% profit decline.",
-        "why_unverified": "Bloomberg 'said to' report; 'no sale is guaranteed at this time' and ThaiBev has not formally confirmed a process.",
-        "sector": "Food & Beverage / Restaurants",
-        "source_note": "Inside Retail Asia, Jul 21 2026",
-        "source_url": "https://insideretail.asia/2026/07/21/thaibev-considers-selling-thailands-largest-kfc-franchise-business/",
-        "confidence": "Speculative"
-      },
-      {
-        "company": "M&C Saatchi (LSE AIM: SAA)",
+        "company": "KKR Real Estate Finance Trust (NYSE: KREF)",
         "bank": "unconfirmed",
-        "lead": "Activist Harwood Capital, having built its stake above 8%, is publicly pushing for a piecemeal break-up of M&C Saatchi — selling its lobbying/events, advertising, and sports-marketing divisions — targeting a process within the next year.",
-        "why_unverified": "Activist demand, not board-endorsed; M&C Saatchi declined to comment. No formal review or sale process launched and no adviser named.",
-        "sector": "Advertising / Marketing Services",
-        "source_note": "City AM, Jul 18 2026",
-        "source_url": "https://www.cityam.com/activist-investor-pushing-for-mc-saatchi-break-up-builds-stake/",
+        "lead": "Commercial-real-estate lender KREF is studying a sale, merger, or asset sale as loan losses mount (posted a ~$122M loss).",
+        "why_unverified": "Bloomberg 'sources'; no adviser named and no decision or timing.",
+        "sector": "Financials / CRE Lending",
+        "source_note": "Bloomberg, Jul 21 2026",
+        "source_url": "https://www.bloomberg.com/news/articles/2026-07-21/kkr-commercial-real-estate-lender-studies-potential-sale-merger",
+        "confidence": "Speculative"
+      },
+      {
+        "company": "Alithya Group (TSX: ALYA)",
+        "bank": "unconfirmed",
+        "lead": "IT consultancy Alithya launched a formal strategic review weighing a merger, sale, privatization, recapitalization, or partnership, saying its public valuation understates intrinsic value.",
+        "why_unverified": "Company-announced strategic review with no outcome, no timetable, and no adviser named.",
+        "sector": "Technology / IT Services",
+        "source_note": "GlobeNewswire (via Yahoo Finance), Jul 27 2026",
+        "source_url": "https://finance.yahoo.com/markets/stocks/articles/alithya-announces-launch-strategic-review-110000652.html",
+        "confidence": "Speculative"
+      },
+      {
+        "company": "Catawiki (private; Permira, TCV)",
+        "bank": "Barclays",
+        "lead": "Dutch online auction platform Catawiki has reportedly hired a bank to explore options including a sale.",
+        "why_unverified": "Reuters 'sources say'; the Barclays name comes only from secondary trade press (Finimize), not the primary report, and the company has not commented.",
+        "sector": "E-commerce / Online Marketplace",
+        "source_note": "Reuters (via MSN), Jul 21 2026",
+        "source_url": "https://www.msn.com/en-gb/money/other/dutch-auction-site-catawiki-explores-options-including-sale-sources-say/ar-AA28qQve",
         "confidence": "Speculative"
       }
     ]
   },
   "archive": [
+    {
+      "date": "2026-07-23",
+      "edition": 14,
+      "file": "2026-07-23.json"
+    },
     {
       "date": "2026-07-22",
       "edition": 13,
@@ -884,11 +870,7 @@
       "date": "2026-06-25",
       "edition": 3,
       "file": "2026-06-25.json"
-    },
-    {
-      "date": "2026-06-22",
-      "edition": 2,
-      "file": "2026-06-22.json"
     }
-  ]
+  ],
+  "edition": 15
 }
