@@ -2,7 +2,7 @@
    pages.js — Banks, Deals, and Resources page renderers
    ============================================================ */
 
-import { fetchData, esc, urgencyToBadgeType, getPrefs, copyToClipboard } from './utils.js?v=20260731-2';
+import { fetchData, esc, urgencyToBadgeType, getPrefs, copyToClipboard } from './utils.js?v=20260731-4';
 
 /* ══════════════════════════════════════════════════════════
    BANKS PAGE

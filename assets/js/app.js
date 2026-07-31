@@ -1,21 +1,21 @@
-﻿/* ============================================================
-   app.js â€” Main application controller
+/* ============================================================
+   app.js — Main application controller
    Handles routing, navigation, modal, settings, and init.
    ============================================================ */
 
 // NOTE: ?v= on the <script> tag does NOT propagate to these ES imports, so the
 // versions are pinned here too. Bump them (matching index.html) on any change to
 // the imported modules, or browsers keep serving the cached copies.
-import { initOnboarding, resetOnboarding } from './onboarding.js?v=20260731-3';
-import { initToday } from './today.js?v=20260731-3';
-import { initBanks, initDeals, initResources } from './pages.js?v=20260731-3';
-import { getPrefs, savePrefs, copyToClipboard, esc } from './utils.js?v=20260731-3';
+import { initOnboarding, resetOnboarding } from './onboarding.js?v=20260731-4';
+import { initToday } from './today.js?v=20260731-4';
+import { initBanks, initDeals, initResources } from './pages.js?v=20260731-4';
+import { getPrefs, savePrefs, copyToClipboard, esc } from './utils.js?v=20260731-4';
 
-/* â”€â”€ State â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+/* ── State ──────────────────────────────────────────────── */
 let currentPage = 'today';
 const pageInitialized = { today: false, banks: false, deals: false, resources: false };
 
-/* â”€â”€ Router â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+/* ── Router ──────────────────────────────────────────────── */
 function navigateTo(page) {
   if (currentPage === page) return;
 
@@ -44,7 +44,7 @@ function navigateTo(page) {
   }
 }
 
-/* â”€â”€ Navigation Events â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+/* ── Navigation Events ───────────────────────────────────── */
 function initNavigation() {
   document.querySelectorAll('.nav-link').forEach(link => {
     link.addEventListener('click', () => {
@@ -61,7 +61,7 @@ function initNavigation() {
   });
 }
 
-/* â”€â”€ Theme toggle (light / dark) â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+/* ── Theme toggle (light / dark) ─────────────────────────── */
 function applyTheme(theme) {
   const isDark = theme === 'dark';
   // Light is the default (no attribute); only dark sets data-theme.
@@ -72,7 +72,7 @@ function applyTheme(theme) {
   }
   // Icon shows the theme you'd switch TO: moon while light, sun while dark.
   const icon = document.getElementById('theme-toggle-icon');
-  if (icon) icon.textContent = isDark ? 'â˜€' : 'â˜¾';
+  if (icon) icon.textContent = isDark ? '☀' : '☾';
   // Keep the browser chrome color in sync.
   const meta = document.querySelector('meta[name="theme-color"]');
   if (meta) meta.setAttribute('content', isDark ? '#0D0F12' : '#FFFFFF');
@@ -90,7 +90,7 @@ function initTheme() {
   });
 }
 
-/* â”€â”€ Settings Panel â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+/* ── Settings Panel ──────────────────────────────────────── */
 function initSettings() {
   const btn     = document.getElementById('settings-btn');
   const overlay = document.getElementById('settings-overlay');
@@ -155,7 +155,7 @@ function triggerResetOnboarding() {
   });
 }
 
-/* â”€â”€ Outreach Modal â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+/* ── Outreach Modal ──────────────────────────────────────── */
 function initModal() {
   const overlay = document.getElementById('modal-overlay');
   const closeBtn = document.getElementById('modal-close');
@@ -192,7 +192,7 @@ function initModal() {
     const subjectEl  = document.getElementById('modal-subject');
     const bodyEl     = document.getElementById('modal-body-text');
 
-    if (titleEl)    titleEl.textContent    = `Outreach Draft Â· ${item.bank || item.advisor || item.company}`;
+    if (titleEl)    titleEl.textContent    = `Outreach Draft · ${item.bank || item.advisor || item.company}`;
     if (subtitleEl) subtitleEl.textContent = item.headline || item.company;
     if (subjectEl)  subjectEl.textContent  = draft.subject;
     if (bodyEl)     bodyEl.textContent     = draft.body;
@@ -201,7 +201,7 @@ function initModal() {
   };
 }
 
-/* â”€â”€ Keyboard shortcuts â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+/* ── Keyboard shortcuts ──────────────────────────────────── */
 function initKeyboard() {
   document.addEventListener('keydown', e => {
     if (e.key === 'Escape') {
@@ -211,7 +211,7 @@ function initKeyboard() {
   });
 }
 
-/* â”€â”€ Bootstrap â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+/* ── Bootstrap ───────────────────────────────────────────── */
 function boot() {
   initTheme();
   initNavigation();
@@ -219,7 +219,7 @@ function boot() {
   initModal();
   initKeyboard();
 
-  // Start onboarding flow â€” navigates to today on completion
+  // Start onboarding flow — navigates to today on completion
   initOnboarding((prefs) => {
     navigateTo('today');
     pageInitialized.today = true;
