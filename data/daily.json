@@ -1,6 +1,6 @@
 {
   "date": "2026-07-31",
-  "lens": "A deep per-bank sweep widened today’s catch well beyond the bulge bracket: alongside Couche-Tard’s ~$8.6B tender for Żabka (JPMorgan / Goldman) and Nscale/Anyscale (Goldman, Morgan Stanley), the boutiques were busy — Guggenheim on argenx’s ~$2.2B buy of Forte, Lazard on the Ripple Fiber/Verizon fiber deal, Perella Weinberg + Centerview on opposite sides of Repligen/BioLife (~$1.5B), and Jefferies on Domo’s $400M platform sale — a filing- and signing-heavy day that keeps secure rooms busy across every tier of the Street.",
+  "lens": "A deep per-bank sweep widened today’s catch well beyond the bulge bracket: alongside Couche-Tard’s ~$8.6B tender for Żabka (JPMorgan / Goldman) and Nscale/Anyscale (Goldman, Morgan Stanley), the boutiques were busy — Guggenheim on argenx’s ~$2.2B buy of Forte, Lazard on the Ripple Fiber/Verizon fiber deal, Perella Weinberg + Centerview on opposite sides of Repligen/BioLife (~$1.5B), and Jefferies on Domo’s $400M platform sale. A bank-name-driven middle-market sweep then surfaced a wave the headlines miss — Lincoln International (PetIQ/MYOS, Crown Brands/Cosabella), Harris Williams (Micross/AEMtec), Raymond James (Providence/SCG), Baird and Piper Sandler on opposite sides of Vesterra/PHFM, plus Baird (ATOZ), Piper Sandler (M&F Bancorp, Delphinus) — a filing- and signing-heavy day that keeps secure rooms busy across every tier of the Street.",
   "ticker": [
     {
       "label": "S&P 500",
@@ -275,6 +275,231 @@
         "software",
         "ai-data-platform",
         "carve-out"
+      ]
+    },
+    {
+      "id": "s11",
+      "category": "M&A",
+      "urgency": "MEDIUM",
+      "scope": "bank",
+      "bank": "Piper Sandler",
+      "headline": "Piper Sandler advises M&F Bancorp as Optus Financial agrees to a >$105M merger, creating a ~$1.27B institution",
+      "why_it_matters": "Optus Financial Corporation agreed to acquire M&F Bancorp (parent of Mechanics & Farmers Bank, the historic Durham, NC Black-owned bank) for more than $105M — up to $53.30/share in cash — creating a combined ~$1.27B institution. The release names Piper Sandler as financial adviser to M&F Bancorp (sell-side). A community-bank merger runs regulatory-application and confirmatory diligence toward close. (Distinct from the separate Alma Bank / American Community Bancorp deal Piper is also on.)",
+      "suggested_action": "Engage Piper Sandler (M&F Bancorp) — a bank merger runs regulatory-application and confirmatory diligence a data room supports.",
+      "deal_clock": [
+        {
+          "date": "Jul 23, 2026",
+          "event": "Optus Financial and M&F Bancorp agree to >$105M merger"
+        }
+      ],
+      "source": "Pulse 2.0",
+      "source_url": "https://pulse2.com/optus-financial-and-mf-bancorp-agree-to-more-than-105-million-merger/",
+      "published": "2026-07-23",
+      "confidence": "Reported",
+      "tags": [
+        "community-banking",
+        "merger",
+        "middle-market"
+      ]
+    },
+    {
+      "id": "s12",
+      "category": "M&A",
+      "urgency": "MEDIUM",
+      "scope": "bank",
+      "bank": "Raymond James",
+      "headline": "Raymond James advises Providence Equity on its significant investment in UK managed-IT provider SCG",
+      "why_it_matters": "Providence Equity Partners agreed to make a significant investment in SCG — a UK provider of communications, connectivity and managed IT services to ~35,000 SMB customers (~900 employees across the UK and South Africa), with management retaining a stake and Ares as debt partner (terms undisclosed). The release names Raymond James as adviser to Providence (buy-side); Houlihan Lokey advised SCG (sell-side). A cross-border PE growth investment runs commercial, technical, and financing diligence to close.",
+      "suggested_action": "Reach out to Raymond James (Providence) — a cross-border managed-services investment runs commercial and technical diligence a secure room organizes.",
+      "deal_clock": [
+        {
+          "date": "Jul 29, 2026",
+          "event": "Providence Equity agrees to significant investment in SCG"
+        }
+      ],
+      "source": "Pulse 2.0",
+      "source_url": "https://pulse2.com/providence-equity-partners-makes-significant-investment-in-scg/",
+      "published": "2026-07-29",
+      "confidence": "Reported",
+      "tags": [
+        "managed-services",
+        "cross-border",
+        "sponsor"
+      ]
+    },
+    {
+      "id": "s13",
+      "category": "M&A",
+      "urgency": "LOW",
+      "scope": "bank",
+      "bank": "Lincoln International",
+      "headline": "Lincoln International advises PetIQ (Bansk Group) on its acquisition of pet muscle-health portfolio MYOS",
+      "why_it_matters": "PetIQ, owned by Bansk Group, agreed to acquire MYOS Corp — a clinically studied portfolio of pet muscle-health products built on the patented Fortetropin ingredient (terms undisclosed). The release names Lincoln International as financial adviser to PetIQ and Bansk Group (buy-side). A consumer/animal-health bolt-on runs IP, formulation, and commercial diligence to close.",
+      "suggested_action": "Note Lincoln International (PetIQ/Bansk) — a pet-health bolt-on runs IP and commercial diligence a data room supports.",
+      "deal_clock": [
+        {
+          "date": "Jul 29, 2026",
+          "event": "PetIQ agrees to acquire MYOS (terms undisclosed)"
+        }
+      ],
+      "source": "PR Newswire (PetIQ release)",
+      "source_url": "https://www.prnewswire.com/news-releases/petiq-acquires-myos-a-clinically-studied-portfolio-of-muscle-health-products-that-support-muscle-preservation-injury-recovery-and-healthy-aging-for-pets-302837104.html",
+      "published": "2026-07-29",
+      "confidence": "Reported",
+      "tags": [
+        "consumer-health",
+        "pet-care",
+        "bolt-on"
+      ]
+    },
+    {
+      "id": "s14",
+      "category": "M&A",
+      "urgency": "LOW",
+      "scope": "bank",
+      "bank": "Harris Williams",
+      "headline": "Harris Williams advises Micross (Behrman Capital) on its cross-border acquisition of Germany's AEMtec",
+      "why_it_matters": "Micross Components, backed by Behrman Capital, agreed to acquire AEMtec GmbH from Capiton AG — a German provider of high-reliability microelectronics, advanced packaging and optoelectronics — significantly expanding Micross's European footprint (terms undisclosed). The release names Harris Williams as exclusive financial adviser to Micross (buy-side). A cross-border industrials/microelectronics acquisition runs export-control, IP, and integration diligence to close.",
+      "suggested_action": "Note Harris Williams (Micross) — a cross-border microelectronics acquisition runs export-control and IP diligence a secure room organizes.",
+      "deal_clock": [
+        {
+          "date": "Jul 28, 2026",
+          "event": "Micross agrees to acquire AEMtec from Capiton"
+        }
+      ],
+      "source": "PR Newswire (Micross release)",
+      "source_url": "https://www.prnewswire.com/news-releases/micross-to-acquire-aemtec-significantly-expanding-european-footprint-in-advanced-packaging-and-optoelectronics-302836712.html",
+      "published": "2026-07-28",
+      "confidence": "Reported",
+      "tags": [
+        "industrials",
+        "microelectronics",
+        "cross-border"
+      ]
+    },
+    {
+      "id": "s15",
+      "category": "M&A",
+      "urgency": "LOW",
+      "scope": "bank",
+      "bank": "Piper Sandler",
+      "headline": "Baird and Piper Sandler on opposite sides as Vesterra Capital acquires facilities-maintenance platform PHFM",
+      "why_it_matters": "Vesterra Capital Partners (formerly Comvest Private Equity) agreed to acquire PHFM — a tech-enabled facilities-maintenance platform — from Lincolnshire Management/Powerhouse (terms undisclosed). The release names Baird as adviser to Lincolnshire/Powerhouse (sell-side) and Citizens plus Piper Sandler as advisers to Vesterra (buy-side). A sponsor-to-sponsor business-services buyout runs contract, QofE, and integration diligence to close.",
+      "suggested_action": "Engage Baird (Lincolnshire, sell) or Piper Sandler (Vesterra, buy) — a facilities-maintenance buyout with two covered banks runs contract and QofE diligence a data room supports.",
+      "deal_clock": [
+        {
+          "date": "Jul 23, 2026",
+          "event": "Vesterra agrees to acquire PHFM from Lincolnshire/Powerhouse"
+        }
+      ],
+      "source": "Pulse 2.0",
+      "source_url": "https://pulse2.com/vesterra-capital-partners-announces-acquisition-of-phfm/",
+      "published": "2026-07-26",
+      "confidence": "Reported",
+      "tags": [
+        "business-services",
+        "sponsor",
+        "two-covered-banks"
+      ]
+    },
+    {
+      "id": "s16",
+      "category": "M&A",
+      "urgency": "LOW",
+      "scope": "bank",
+      "bank": "Piper Sandler",
+      "headline": "Piper Sandler advises Delphinus Engineering on its growth investment from Bluestone Investment Partners",
+      "why_it_matters": "Bluestone Investment Partners agreed to back Delphinus Engineering — a provider of naval maintenance and modernization / defense services (terms undisclosed). The release names Piper Sandler as Delphinus's sole sell-side financial adviser. A defense-services buyout runs contract, facility-security, and compliance diligence to close.",
+      "suggested_action": "Note Piper Sandler (Delphinus) — a defense-services buyout runs contract and facility-security diligence a secure room organizes.",
+      "deal_clock": [
+        {
+          "date": "Jul 28, 2026",
+          "event": "Bluestone agrees to back Delphinus Engineering"
+        }
+      ],
+      "source": "MyChesCo",
+      "source_url": "https://mychesco.com/a/business/delphinus-secures-bluestone-backing/",
+      "published": "2026-07-28",
+      "confidence": "Reported",
+      "tags": [
+        "defense",
+        "naval-services",
+        "sponsor"
+      ]
+    },
+    {
+      "id": "s17",
+      "category": "M&A",
+      "urgency": "LOW",
+      "scope": "bank",
+      "bank": "Baird",
+      "headline": "Baird advises ATOZ Services on Bregal Sagemount's majority growth investment in the fund administrator",
+      "why_it_matters": "Bregal Sagemount agreed to acquire a majority stake in ATOZ Services — an international fund-services / fund-administration provider (terms undisclosed). The release names Baird as ATOZ Services' exclusive financial adviser (sell-side). A financial-services recapitalization runs regulatory, client-contract, and QofE diligence to close.",
+      "suggested_action": "Engage Baird (ATOZ Services) — a fund-administration recap runs regulatory and client-contract diligence a data room supports.",
+      "deal_clock": [
+        {
+          "date": "Jul 23, 2026",
+          "event": "Bregal Sagemount agrees to majority stake in ATOZ Services"
+        }
+      ],
+      "source": "Pulse 2.0",
+      "source_url": "https://pulse2.com/bregal-sagemount-to-acquire-majority-stake-in-atoz-services/",
+      "published": "2026-07-23",
+      "confidence": "Reported",
+      "tags": [
+        "financial-services",
+        "fund-administration",
+        "recapitalization"
+      ]
+    },
+    {
+      "id": "s18",
+      "category": "M&A",
+      "urgency": "LOW",
+      "scope": "bank",
+      "bank": "Lincoln International",
+      "headline": "Lincoln International advises Crown Brands Group on its acquisition of Italian lingerie brand Cosabella from CALIDA",
+      "why_it_matters": "Crown Brands Group agreed to acquire Cosabella — an Italian luxury lingerie brand — from Swiss-listed CALIDA GROUP in a cross-border carve-out (terms undisclosed). The release names Lincoln International as financial adviser to Crown Brands Group (buy-side). A cross-border consumer/apparel carve-out runs brand-IP, supply-chain, and integration diligence to close.",
+      "suggested_action": "Note Lincoln International (Crown Brands) — a cross-border apparel carve-out runs brand-IP and supply-chain diligence a secure room organizes.",
+      "deal_clock": [
+        {
+          "date": "Jul 27, 2026",
+          "event": "Crown Brands agrees to acquire Cosabella from CALIDA"
+        }
+      ],
+      "source": "PR Newswire (Crown Brands release)",
+      "source_url": "https://www.prnewswire.com/news-releases/crown-brands-group-acquires-italian-luxury-lingerie-brand-cosabella-from-calida-group-302835250.html",
+      "published": "2026-07-27",
+      "confidence": "Reported",
+      "tags": [
+        "consumer",
+        "apparel",
+        "cross-border"
+      ]
+    },
+    {
+      "id": "s19",
+      "category": "M&A",
+      "urgency": "MEDIUM",
+      "scope": "bank",
+      "bank": "Citi",
+      "headline": "Citi advises DroneDeploy and Goldman advises Procore on Procore’s ~$845M acquisition of the drone-mapping platform",
+      "why_it_matters": "Procore Technologies (PCOR) agreed to acquire DroneDeploy — a construction drone-mapping and reality-capture software platform — for ~$845M in cash, announced Jul 29. The release names Citi as financial adviser to DroneDeploy (sell-side) and Goldman Sachs as exclusive financial adviser to Procore (buy-side). A construction-tech software acquisition runs IP, customer-contract, and data diligence to close.",
+      "suggested_action": "Engage Citi (DroneDeploy) or Goldman (Procore) — an ~$845M construction-tech acquisition runs IP, customer-contract, and data diligence a secure room organizes.",
+      "deal_clock": [
+        {
+          "date": "Jul 29, 2026",
+          "event": "Procore agrees to acquire DroneDeploy for ~$845M"
+        }
+      ],
+      "source": "StockTitan (Procore release)",
+      "source_url": "https://www.stocktitan.net/news/PCOR/procore-to-acquire-drone-deploy-creating-next-generation-platform-lsjpabggxwgj.html",
+      "published": "2026-07-29",
+      "confidence": "Reported",
+      "tags": [
+        "construction-tech",
+        "software",
+        "acquisition"
       ]
     }
   ],
@@ -641,6 +866,240 @@
       "first_seen": "2026-07-31",
       "last_confirmed": "2026-07-31",
       "id": "o14",
+      "carry_badge": "NEW"
+    },
+    {
+      "id": "o15",
+      "bank": "Raymond James",
+      "sector": "Technology / Managed Services",
+      "urgency": "WARM",
+      "headline": "Buy-side adviser to Providence Equity on its significant investment in UK managed-IT provider SCG",
+      "why_it_matters": "Raymond James advises Providence Equity Partners on its significant investment in SCG — a UK provider of communications, connectivity and managed IT services to ~35,000 SMB customers — announced Jul 29; Houlihan Lokey advised SCG (sell-side). A cross-border PE growth investment runs commercial, technical, and financing diligence to close.",
+      "deal_clock": [
+        {
+          "date": "Jul 29, 2026",
+          "event": "Providence Equity agrees to significant investment in SCG"
+        }
+      ],
+      "outreach_idea": "Reach out to Raymond James (Providence) — a cross-border managed-services investment runs commercial and technical diligence a secure room organizes.",
+      "outreach_draft": {
+        "subject": "Providence / SCG — supporting a cross-border investment",
+        "body": "Congratulations on Raymond James's role advising Providence Equity on its investment in SCG. Cross-border managed-services investments run commercial, technical, and financing diligence to close — would welcome a conversation on how we support secure, auditable data-room access.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "Pulse 2.0",
+      "source_url": "https://pulse2.com/providence-equity-partners-makes-significant-investment-in-scg/",
+      "published": "2026-07-29",
+      "confidence": "Reported",
+      "first_seen": "2026-07-31",
+      "last_confirmed": "2026-07-31",
+      "carry_badge": "NEW"
+    },
+    {
+      "id": "o16",
+      "bank": "Piper Sandler",
+      "sector": "Community Banking",
+      "urgency": "WARM",
+      "headline": "Sell-side adviser to M&F Bancorp on its >$105M merger with Optus Financial",
+      "why_it_matters": "Piper Sandler advises M&F Bancorp (parent of historic Durham, NC Black-owned Mechanics & Farmers Bank) on its >$105M merger with Optus Financial — up to $53.30/share cash, creating a ~$1.27B institution — announced Jul 23. A community-bank merger runs regulatory-application and confirmatory diligence toward close. (Distinct from Piper's Alma Bank / American Community Bancorp mandate.)",
+      "deal_clock": [
+        {
+          "date": "Jul 23, 2026",
+          "event": "Optus Financial and M&F Bancorp agree to >$105M merger"
+        }
+      ],
+      "outreach_idea": "Engage Piper Sandler (M&F Bancorp) — a bank merger runs regulatory-application and confirmatory diligence a data room supports.",
+      "outreach_draft": {
+        "subject": "M&F Bancorp / Optus — supporting a bank merger",
+        "body": "Congratulations on Piper Sandler's role advising M&F Bancorp on its merger with Optus Financial. Community-bank mergers run regulatory-application and confirmatory diligence toward close — would welcome a conversation on how we support secure, auditable data-room access.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "Pulse 2.0",
+      "source_url": "https://pulse2.com/optus-financial-and-mf-bancorp-agree-to-more-than-105-million-merger/",
+      "published": "2026-07-23",
+      "confidence": "Reported",
+      "first_seen": "2026-07-31",
+      "last_confirmed": "2026-07-31",
+      "carry_badge": "NEW"
+    },
+    {
+      "id": "o17",
+      "bank": "Lincoln International",
+      "sector": "Consumer / Pet Health",
+      "urgency": "WARM",
+      "headline": "Buy-side adviser to PetIQ (Bansk Group) on its acquisition of pet muscle-health portfolio MYOS",
+      "why_it_matters": "Lincoln International advises PetIQ and its owner Bansk Group on the acquisition of MYOS Corp — a clinically studied portfolio of pet muscle-health products built on the patented Fortetropin ingredient (terms undisclosed) — announced Jul 29. A consumer/animal-health bolt-on runs IP, formulation, and commercial diligence to close.",
+      "deal_clock": [
+        {
+          "date": "Jul 29, 2026",
+          "event": "PetIQ agrees to acquire MYOS"
+        }
+      ],
+      "outreach_idea": "Note Lincoln International (PetIQ/Bansk) — a pet-health bolt-on runs IP and commercial diligence a data room supports.",
+      "outreach_draft": {
+        "subject": "PetIQ / MYOS — supporting a pet-health bolt-on",
+        "body": "Congratulations on Lincoln International's role advising PetIQ and Bansk Group on the MYOS acquisition. Consumer-health bolt-ons run IP, formulation, and commercial diligence to close — would welcome a conversation on how we support secure, auditable data-room access.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "PR Newswire (PetIQ release)",
+      "source_url": "https://www.prnewswire.com/news-releases/petiq-acquires-myos-a-clinically-studied-portfolio-of-muscle-health-products-that-support-muscle-preservation-injury-recovery-and-healthy-aging-for-pets-302837104.html",
+      "published": "2026-07-29",
+      "confidence": "Reported",
+      "first_seen": "2026-07-31",
+      "last_confirmed": "2026-07-31",
+      "carry_badge": "NEW"
+    },
+    {
+      "id": "o18",
+      "bank": "Harris Williams",
+      "sector": "Industrials / Microelectronics",
+      "urgency": "WARM",
+      "headline": "Buy-side adviser to Micross (Behrman Capital) on its cross-border acquisition of AEMtec",
+      "why_it_matters": "Harris Williams is exclusive financial adviser to Micross Components (backed by Behrman Capital) on its acquisition of Germany's AEMtec GmbH from Capiton AG — high-reliability microelectronics, advanced packaging and optoelectronics — announced Jul 28. A cross-border microelectronics acquisition runs export-control, IP, and integration diligence to close.",
+      "deal_clock": [
+        {
+          "date": "Jul 28, 2026",
+          "event": "Micross agrees to acquire AEMtec from Capiton"
+        }
+      ],
+      "outreach_idea": "Note Harris Williams (Micross) — a cross-border microelectronics acquisition runs export-control and IP diligence a secure room organizes.",
+      "outreach_draft": {
+        "subject": "Micross / AEMtec — supporting a cross-border acquisition",
+        "body": "Congratulations on Harris Williams's role advising Micross on its acquisition of AEMtec. Cross-border microelectronics deals run export-control, IP, and integration diligence to close — would welcome a conversation on how we support secure, auditable data-room access.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "PR Newswire (Micross release)",
+      "source_url": "https://www.prnewswire.com/news-releases/micross-to-acquire-aemtec-significantly-expanding-european-footprint-in-advanced-packaging-and-optoelectronics-302836712.html",
+      "published": "2026-07-28",
+      "confidence": "Reported",
+      "first_seen": "2026-07-31",
+      "last_confirmed": "2026-07-31",
+      "carry_badge": "NEW"
+    },
+    {
+      "id": "o19",
+      "bank": "Piper Sandler",
+      "sector": "Business Services",
+      "urgency": "WARM",
+      "headline": "Buy-side adviser (with Baird sell-side) as Vesterra Capital acquires facilities-maintenance platform PHFM",
+      "why_it_matters": "Piper Sandler (with Citizens) advises Vesterra Capital Partners on its acquisition of PHFM — a tech-enabled facilities-maintenance platform — from Lincolnshire Management/Powerhouse (terms undisclosed), announced Jul 23; Baird advised the sell-side. A sponsor-to-sponsor business-services buyout runs contract, QofE, and integration diligence to close.",
+      "deal_clock": [
+        {
+          "date": "Jul 23, 2026",
+          "event": "Vesterra agrees to acquire PHFM"
+        }
+      ],
+      "outreach_idea": "Engage Piper Sandler (Vesterra, buy) or Baird (Lincolnshire, sell) — a facilities-maintenance buyout with two covered banks runs contract and QofE diligence a data room supports.",
+      "outreach_draft": {
+        "subject": "Vesterra / PHFM — supporting a business-services buyout",
+        "body": "Congratulations on Piper Sandler's role advising Vesterra on its acquisition of PHFM. Sponsor-to-sponsor business-services buyouts run contract, QofE, and integration diligence to close — would welcome a conversation on how we support secure, auditable data-room access.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "Pulse 2.0",
+      "source_url": "https://pulse2.com/vesterra-capital-partners-announces-acquisition-of-phfm/",
+      "published": "2026-07-26",
+      "confidence": "Reported",
+      "first_seen": "2026-07-31",
+      "last_confirmed": "2026-07-31",
+      "carry_badge": "NEW"
+    },
+    {
+      "id": "o20",
+      "bank": "Baird",
+      "sector": "Financial Services / Fund Administration",
+      "urgency": "WARM",
+      "headline": "Sell-side adviser to ATOZ Services on Bregal Sagemount's majority growth investment",
+      "why_it_matters": "Baird is ATOZ Services' exclusive financial adviser on Bregal Sagemount's acquisition of a majority stake in the international fund-administration provider (terms undisclosed), announced Jul 23. A financial-services recapitalization runs regulatory, client-contract, and QofE diligence to close.",
+      "deal_clock": [
+        {
+          "date": "Jul 23, 2026",
+          "event": "Bregal Sagemount agrees to majority stake in ATOZ Services"
+        }
+      ],
+      "outreach_idea": "Engage Baird (ATOZ Services) — a fund-administration recap runs regulatory and client-contract diligence a data room supports.",
+      "outreach_draft": {
+        "subject": "ATOZ Services / Bregal Sagemount — supporting a recapitalization",
+        "body": "Congratulations on Baird's role advising ATOZ Services on Bregal Sagemount's majority investment. Fund-administration recaps run regulatory, client-contract, and QofE diligence to close — would welcome a conversation on how we support secure, auditable data-room access.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "Pulse 2.0",
+      "source_url": "https://pulse2.com/bregal-sagemount-to-acquire-majority-stake-in-atoz-services/",
+      "published": "2026-07-23",
+      "confidence": "Reported",
+      "first_seen": "2026-07-31",
+      "last_confirmed": "2026-07-31",
+      "carry_badge": "NEW"
+    },
+    {
+      "id": "o21",
+      "bank": "Piper Sandler",
+      "sector": "Defense / Naval Services",
+      "urgency": "WARM",
+      "headline": "Sole sell-side adviser to Delphinus Engineering on its growth investment from Bluestone",
+      "why_it_matters": "Piper Sandler is Delphinus Engineering's sole sell-side financial adviser on Bluestone Investment Partners' backing of the naval maintenance / modernization and defense-services provider (terms undisclosed), announced Jul 28. A defense-services buyout runs contract, facility-security, and compliance diligence to close.",
+      "deal_clock": [
+        {
+          "date": "Jul 28, 2026",
+          "event": "Bluestone agrees to back Delphinus Engineering"
+        }
+      ],
+      "outreach_idea": "Note Piper Sandler (Delphinus) — a defense-services buyout runs contract and facility-security diligence a secure room organizes.",
+      "outreach_draft": {
+        "subject": "Delphinus / Bluestone — supporting a defense-services buyout",
+        "body": "Congratulations on Piper Sandler's role advising Delphinus Engineering on Bluestone's investment. Defense-services buyouts run contract, facility-security, and compliance diligence to close — would welcome a conversation on how we support secure, auditable data-room access.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "MyChesCo",
+      "source_url": "https://mychesco.com/a/business/delphinus-secures-bluestone-backing/",
+      "published": "2026-07-28",
+      "confidence": "Reported",
+      "first_seen": "2026-07-31",
+      "last_confirmed": "2026-07-31",
+      "carry_badge": "NEW"
+    },
+    {
+      "id": "o22",
+      "bank": "Lincoln International",
+      "sector": "Consumer / Apparel",
+      "urgency": "WARM",
+      "headline": "Buy-side adviser to Crown Brands Group on its acquisition of Italian lingerie brand Cosabella",
+      "why_it_matters": "Lincoln International advises Crown Brands Group on its acquisition of Cosabella — an Italian luxury lingerie brand — from Swiss-listed CALIDA GROUP in a cross-border carve-out (terms undisclosed), announced Jul 27. A consumer/apparel carve-out runs brand-IP, supply-chain, and integration diligence to close.",
+      "deal_clock": [
+        {
+          "date": "Jul 27, 2026",
+          "event": "Crown Brands agrees to acquire Cosabella from CALIDA"
+        }
+      ],
+      "outreach_idea": "Note Lincoln International (Crown Brands) — a cross-border apparel carve-out runs brand-IP and supply-chain diligence a secure room organizes.",
+      "outreach_draft": {
+        "subject": "Crown Brands / Cosabella — supporting an apparel carve-out",
+        "body": "Congratulations on Lincoln International's role advising Crown Brands Group on the Cosabella acquisition. Cross-border apparel carve-outs run brand-IP, supply-chain, and integration diligence to close — would welcome a conversation on how we support secure, auditable data-room access.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "PR Newswire (Crown Brands release)",
+      "source_url": "https://www.prnewswire.com/news-releases/crown-brands-group-acquires-italian-luxury-lingerie-brand-cosabella-from-calida-group-302835250.html",
+      "published": "2026-07-27",
+      "confidence": "Reported",
+      "first_seen": "2026-07-31",
+      "last_confirmed": "2026-07-31",
+      "carry_badge": "NEW"
+    },
+    {
+      "bank": "Citi",
+      "sector": "Technology / Construction Software",
+      "urgency": "WARM",
+      "headline": "Sell-side adviser to DroneDeploy on its ~$845M sale to Procore",
+      "why_it_matters": "Citi is financial adviser to DroneDeploy on its ~$845M cash sale to Procore Technologies (PCOR), announced Jul 29; Goldman advises Procore (buy-side). A construction-tech software sale runs IP, customer-contract, and data diligence to close.",
+      "deal_clock": [
+        {
+          "date": "Jul 29, 2026",
+          "event": "Procore agrees to acquire DroneDeploy (~$845M)"
+        }
+      ],
+      "outreach_idea": "Engage Citi (DroneDeploy) — a construction-tech software sale runs IP and customer-contract diligence a secure room organizes.",
+      "outreach_draft": {
+        "subject": "DroneDeploy / Procore — supporting a software sell-side",
+        "body": "Congratulations on Citi’s role advising DroneDeploy on its sale to Procore. Software acquisitions run IP, customer-contract, and data diligence to close — would welcome a conversation on how we support secure, auditable data-room access through the process.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "StockTitan (Procore release)",
+      "source_url": "https://www.stocktitan.net/news/PCOR/procore-to-acquire-drone-deploy-creating-next-generation-platform-lsjpabggxwgj.html",
+      "published": "2026-07-29",
+      "confidence": "Reported",
+      "first_seen": "2026-07-31",
+      "last_confirmed": "2026-07-31",
+      "id": "o23",
       "carry_badge": "NEW"
     }
   ],
