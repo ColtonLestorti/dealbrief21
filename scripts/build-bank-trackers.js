@@ -2,9 +2,9 @@
 /* ============================================================
    build-bank-trackers.js
    Enriches data/banks.json with a per-bank `dealbrief_tracker`:
-     - mandates_30d / mandates_total  (computed from editions)
+     - mandates_30d / mandates_total  (computed from editions — these are
+       mandates DealBrief CAUGHT in its own coverage, not the bank's full book)
      - advisory_signal   (league-table rank / revenue, period-labeled)
-     - next_earnings      (Q2 2026 report date — a seller timing hook)
      - pipeline_watch[]   (prospective/rumored deals; Speculative)
 
    Honesty guardrails:
@@ -26,8 +26,26 @@ import { dirname, join } from 'node:path';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
-const AS_OF = '2026-07-08';
+// Recompute the mandate counts as of the latest edition on disk so the tracker
+// doesn't silently freeze in the past. Override with --as-of YYYY-MM-DD.
+const asOfArg = process.argv.includes('--as-of') ? process.argv[process.argv.indexOf('--as-of') + 1] : null;
+const AS_OF = asOfArg || latestEditionDate() || new Date().toISOString().slice(0, 10);
 const WINDOW_DAYS = 30;
+
+/** Newest edition date across daily.json + archives (ISO string), or null. */
+function latestEditionDate() {
+  const dates = [];
+  try {
+    const d = JSON.parse(readFileSync(join(ROOT, 'data/daily.json'), 'utf8')).date;
+    if (d) dates.push(d);
+  } catch { /* ignore */ }
+  try {
+    for (const f of readdirSync(join(ROOT, 'data/archive')).filter(f => f.endsWith('.json'))) {
+      dates.push(f.replace(/\.json$/, ''));
+    }
+  } catch { /* ignore */ }
+  return dates.sort().pop() || null;
+}
 
 /* ── 1. Tally tracked mandates per bank (same rule as tally-mandates.js) ── */
 const cutoff = new Date(AS_OF);
@@ -82,14 +100,6 @@ const SIGNALS = {
   'Jefferies':          { rank: 'IB net revenue $1.21B — a record, +53% YoY (fiscal Q2 2026, reported Jun 24)', source: 'StockTitan', source_url: 'https://www.stocktitan.net/', period: 'Fiscal Q2 2026', date: '2026-06-24' }
 };
 
-/* Confirmed Q2 2026 (calendar) earnings dates — a seller timing hook. */
-const EARNINGS = {
-  'JPMorgan': '2026-07-14', 'Goldman Sachs': '2026-07-14', 'Citi': '2026-07-14',
-  'Bank of America': '2026-07-14', 'Wells Fargo': '2026-07-14',
-  'Morgan Stanley': '2026-07-15', 'Lazard': '2026-07-23', 'Barclays': '2026-07-28',
-  'Deutsche Bank': '2026-07-29', 'UBS': '2026-07-29'
-};
-
 /* Pipeline leads tied to a covered bank as named adviser.
    Verified headline+publisher+date; Google News redirect links don't
    resolve, so we cite publisher+date in source_note (no dead URL). */
@@ -106,7 +116,7 @@ const PIPELINE = {
   ]
 };
 
-const TRACKER_NOTE = 'Mandates tracked by DealBrief from public news — a coverage tally, not an official league table. Bulge brackets are undercounted; see advisory_signal for authoritative rank.';
+const TRACKER_NOTE = 'Mandates DealBrief caught in its own coverage — not the bank\'s full book, and not an official league table. Bulge brackets are heavily undercounted; see advisory_signal for authoritative rank.';
 
 /* ── 3. Write the tracker into each bank ── */
 const banksDoc = JSON.parse(readFileSync(join(ROOT, 'data/banks.json'), 'utf8'));
@@ -115,11 +125,10 @@ for (const bank of banksDoc.banks) {
   const t30 = (window30[bank.name] && window30[bank.name].size) || 0;
   const tAll = (allTime[bank.name] && allTime[bank.name].size) || 0;
   const signal = SIGNALS[bank.name] || null;
-  const earnings = EARNINGS[bank.name] || null;
   const pipeline = PIPELINE[bank.name] || [];
 
   // Skip banks with nothing to add (no tracked deals, no signal, no pipeline).
-  if (t30 === 0 && tAll === 0 && !signal && !earnings && pipeline.length === 0) {
+  if (t30 === 0 && tAll === 0 && !signal && pipeline.length === 0) {
     delete bank.dealbrief_tracker;
     continue;
   }
@@ -130,7 +139,6 @@ for (const bank of banksDoc.banks) {
     as_of: AS_OF,
     note: TRACKER_NOTE,
     advisory_signal: signal,
-    next_earnings: earnings,
     pipeline_watch: pipeline
   };
   enriched++;

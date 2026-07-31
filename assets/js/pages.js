@@ -2,7 +2,7 @@
    pages.js — Banks, Deals, and Resources page renderers
    ============================================================ */
 
-import { fetchData, esc, urgencyToBadgeType, getPrefs, copyToClipboard } from './utils.js?v=20260731-1';
+import { fetchData, esc, urgencyToBadgeType, getPrefs, copyToClipboard } from './utils.js?v=20260731-2';
 
 /* ══════════════════════════════════════════════════════════
    BANKS PAGE
@@ -145,13 +145,6 @@ function renderBankDetail(bank) {
 function renderBankTracker(tracker) {
   if (!tracker) return '';
 
-  const fmtEarnings = (d) => {
-    if (!d) return '';
-    const dt = new Date(d + 'T00:00:00');
-    if (isNaN(dt)) return esc(d);
-    return dt.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
-  };
-
   const signalHtml = tracker.advisory_signal ? `
     <div class="tracker-signal">
       <div class="tracker-label">Advisory Signal</div>
@@ -159,13 +152,6 @@ function renderBankTracker(tracker) {
       <a href="${esc(tracker.advisory_signal.source_url)}" target="_blank" rel="noopener" class="source-link">
         ${esc(tracker.advisory_signal.source)} · ${esc(tracker.advisory_signal.period)} ↗
       </a>
-    </div>
-  ` : '';
-
-  const earningsHtml = tracker.next_earnings ? `
-    <div class="tracker-stat">
-      <div class="tracker-stat-num">${fmtEarnings(tracker.next_earnings)}</div>
-      <div class="tracker-stat-label">Next earnings</div>
     </div>
   ` : '';
 
@@ -186,18 +172,19 @@ function renderBankTracker(tracker) {
     </div>
   ` : '';
 
+  const asOf = tracker.as_of ? ` as of ${esc(tracker.as_of)}` : '';
+
   return `
     <div class="bank-tracker">
       <div class="tracker-row">
         <div class="tracker-stat">
           <div class="tracker-stat-num">${tracker.mandates_30d}</div>
-          <div class="tracker-stat-label">Mandates (30d)</div>
+          <div class="tracker-stat-label" title="Mandates DealBrief caught in its own coverage over the last 30 days — not the bank's full book">Mandates we caught (30d)</div>
         </div>
         <div class="tracker-stat">
           <div class="tracker-stat-num">${tracker.mandates_total}</div>
-          <div class="tracker-stat-label">Tracked total</div>
+          <div class="tracker-stat-label" title="All mandates DealBrief has caught in its coverage to date${asOf}">Caught to date</div>
         </div>
-        ${earningsHtml}
       </div>
       ${signalHtml}
       ${pipelineHtml}

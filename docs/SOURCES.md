@@ -49,7 +49,7 @@ Run Google News RSS across these themes, then verify details on a loadable sourc
 - **Pipeline / prospective:** search `"exploring strategic alternatives"`, `"hired an adviser"`, `"exploring a sale"`, `"takeover approach"`, `"in talks to acquire"`, `"activist stake"`. Tag `Speculative`; capture the adviser only if named.
 - **Per-bank counts:** `scripts/tally-mandates.js` (tracked-mandate tally across editions).
 - **Advisory signals / league tables:** public ION Analytics insight articles (`ionanalytics.com/insights/...`), LSEG, Private Banker International, FactSet Flashwire (public PDF). Label with the period covered. (The paywalled Mergermarket database itself is a lead-only source — see Subscription sources below.)
-- **Bank earnings:** quarterly IB/advisory revenue + pipeline commentary (a seller timing hook). Confirmed Q2 2026 dates live in each bank's `dealbrief_tracker.next_earnings`.
+- **Bank earnings:** quarterly IB/advisory revenue + pipeline commentary is useful edition context, but is NOT stored as a per-bank field — a static "next earnings" date silently goes stale, so it was removed from `dealbrief_tracker`.
 
 ## Podcasts & newsletters
 
