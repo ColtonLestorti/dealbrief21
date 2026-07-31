@@ -3,7 +3,7 @@
    Loads daily.json and renders all sections.
    ============================================================ */
 
-import { fetchData, fetchDataFresh, isMarketDataFresh, confidenceTooltip, esc, urgencyToBadgeType, isMyBank, copyToClipboard, formatDate, getPrefs, coverageTeams } from './utils.js?v=20260731-4';
+import { fetchData, fetchDataFresh, isMarketDataFresh, confidenceTooltip, esc, urgencyToBadgeType, isMyBank, copyToClipboard, formatDate, getPrefs, coverageTeams, banksMissingCoverage } from './utils.js?v=20260731-5';
 
 /**
  * Build the coverage-team badge HTML for a deal (story or opportunity) — the
@@ -205,9 +205,24 @@ function renderStories(allStories) {
   const contextEl = document.getElementById('stories-context');
   if (contextEl) {
     if (filtered) {
-      contextEl.innerHTML = bankCount > 0
+      const base = bankCount > 0
         ? `Showing <strong>${bankCount}</strong> ${bankCount === 1 ? 'story' : 'stories'} for your banks plus ${marketCount} market-wide ${marketCount === 1 ? 'headline' : 'headlines'}.`
         : `No bank-specific stories today for your coverage. Showing ${marketCount} market-wide ${marketCount === 1 ? 'headline' : 'headlines'} — Fed, macro, and the biggest deals.`;
+
+      // Honest per-bank gap note: which of the user's picks have zero coverage
+      // today (no story AND no opportunity) — so a quiet bank reads as a clear
+      // status, not a broken feed.
+      const prefs = getPrefs();
+      const missing = banksMissingCoverage(
+        prefs?.banks || [],
+        activeData?.stories || [],
+        activeData?.opportunities || []
+      );
+      const gapNote = missing.length
+        ? `<div class="coverage-gap-note">No verified deals today for <strong>${missing.map(esc).join('</strong>, <strong>')}</strong>. We only surface mandates confirmed from a primary source — check the Rumor Mill for early, unconfirmed situations.</div>`
+        : '';
+
+      contextEl.innerHTML = base + gapNote;
       contextEl.style.display = 'block';
     } else {
       contextEl.style.display = 'none';
@@ -455,6 +470,38 @@ function renderPipelineWatch(pipeline, sectorHeat) {
   container.innerHTML = `<div class="pipeline-panel">${leads}${watch}${sectors}${note}</div>`;
 }
 
+/**
+ * Render the "possible advisers" line for an unconfirmed lead. Two clearly
+ * separated, clearly-labeled groups so neither reads as a confirmed mandate:
+ *   - possible_advisers          — names a source actually floated (reported)
+ *   - possible_advisers_inferred — our own by-fit guess (sector/size/history)
+ * Each accepts a string or array. Renders nothing if neither is present.
+ * @param {{possible_advisers?: string|string[], possible_advisers_inferred?: string|string[]}} it
+ * @returns {string}
+ */
+function possibleAdvisersHtml(it) {
+  const toList = v => (Array.isArray(v) ? v : (v ? [v] : [])).map(x => String(x).trim()).filter(Boolean);
+  const reported = toList(it.possible_advisers);
+  const inferred = toList(it.possible_advisers_inferred);
+  if (!reported.length && !inferred.length) return '';
+
+  const chips = names => names.map(n => `<span class="possible-adviser-chip">${esc(n)}</span>`).join('');
+  const rows = [];
+  if (reported.length) {
+    rows.push(`<div class="possible-advisers-row">
+      <span class="possible-advisers-label" title="Advisers named in reporting on this situation — reported, not company-confirmed">Possible advisers (reported):</span>
+      ${chips(reported)}
+    </div>`);
+  }
+  if (inferred.length) {
+    rows.push(`<div class="possible-advisers-row">
+      <span class="possible-advisers-label" title="Our own estimate of likely advisers by sector strength, deal size, and prior mandates — not sourced, not confirmed">Could be mandated (our estimate):</span>
+      ${chips(inferred)}
+    </div>`);
+  }
+  return `<div class="possible-advisers">${rows.join('')}</div>`;
+}
+
 /* ── Rumor Mill (unconfirmed leads: rumored deals + no-advisor-yet) ── */
 function renderSkepticsCorner(sk) {
   const section = document.getElementById('section-skeptics');
@@ -483,6 +530,7 @@ function renderSkepticsCorner(sk) {
       </div>
       <div class="pipeline-situation">${esc(detail)}</div>
       ${why ? `<div class="skeptic-why">⚠ ${esc(why)}</div>` : ''}
+      ${possibleAdvisersHtml(it)}
       <div class="pipeline-meta">
         ${it.sector ? `<span class="pipeline-sector">${esc(it.sector)}</span><span class="deal-meta-dot">·</span>` : ''}
         <span class="pipeline-source">${esc(it.source_note)}</span>

@@ -1238,7 +1238,12 @@
         "sector": "Fintech / Cloud Banking Software",
         "source_note": "Investing.com (Bloomberg-sourced), Jul 31 2026",
         "source_url": "https://www.investing.com/news/stock-market-news/activist-jana-said-to-urge-alkami-to-run-proper-sale-process-4828777",
-        "confidence": "Speculative"
+        "confidence": "Speculative",
+        "possible_advisers_inferred": [
+          "Qatalyst Partners",
+          "Goldman Sachs",
+          "Morgan Stanley"
+        ]
       },
       {
         "company": "Leonardo (BIT: LDO) / Iveco Defence Vehicles",
@@ -1248,7 +1253,12 @@
         "sector": "Defense (Europe)",
         "source_note": "Investing.com, Jul 31 2026",
         "source_url": "https://www.investing.com/news/stock-market-news/leonardo-says-still-in-talks-with-rheinmetall-on-iveco-defence-sale-93CH-4828351",
-        "confidence": "Speculative"
+        "confidence": "Speculative",
+        "possible_advisers_inferred": [
+          "Bank of America",
+          "Barclays",
+          "Deutsche Bank"
+        ]
       },
       {
         "company": "Virgin Media O2 (owners Telefónica / Liberty Global)",
@@ -1258,7 +1268,12 @@
         "sector": "Telecom (UK)",
         "source_note": "Investing.com (FT-sourced), Jul 30 2026",
         "source_url": "https://www.investing.com/news/stock-market-news/virgin-media-o2-owners-consider-options-to-cut-22bn-debt-ft-reports-93CH-4822317",
-        "confidence": "Speculative"
+        "confidence": "Speculative",
+        "possible_advisers_inferred": [
+          "Barclays",
+          "Morgan Stanley",
+          "PJT Partners"
+        ]
       },
       {
         "company": "GE HealthCare (Nasdaq: GEHC) — Patient Care Solutions",
@@ -1268,7 +1283,12 @@
         "sector": "Healthcare / Medical Devices",
         "source_note": "Investing.com, Jul 29 2026",
         "source_url": "https://www.investing.com/news/stock-market-news/ge-healthcare-beats-quarterly-profit-estimates-on-strong-imaging-demand-tariff-refunds-4819733",
-        "confidence": "Speculative"
+        "confidence": "Speculative",
+        "possible_advisers_inferred": [
+          "Goldman Sachs",
+          "JPMorgan",
+          "Morgan Stanley"
+        ]
       },
       {
         "company": "TAP Air Portugal (Portuguese government privatization)",
@@ -1278,7 +1298,12 @@
         "sector": "Airlines (Europe)",
         "source_note": "Investing.com (Bloomberg-sourced), Jul 29 2026",
         "source_url": "https://www.investing.com/news/stock-market-news/lufthansa-and-air-franceklm-submit-bids-for-tap-stake--bloomberg-93CH-4821282",
-        "confidence": "Speculative"
+        "confidence": "Speculative",
+        "possible_advisers_inferred": [
+          "Citi",
+          "Barclays",
+          "UBS"
+        ]
       }
     ]
   },

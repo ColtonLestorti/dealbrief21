@@ -111,6 +111,29 @@ export function isMyBank(bankName) {
 }
 
 /**
+ * Given the user's selected bank names and today's stories + opportunities,
+ * return the selected banks that have NO coverage today (no bank-scope story
+ * and no opportunity). This powers an honest "no deals today for X" note so a
+ * rep who picked a quiet bank sees a clear status instead of an empty feed.
+ * Case-insensitive match; preserves the caller's bank-name spelling/order.
+ * @param {string[]} selectedBanks
+ * @param {Array<{scope?: string, bank?: string}>} stories
+ * @param {Array<{bank?: string}>} opps
+ * @returns {string[]}
+ */
+export function banksMissingCoverage(selectedBanks, stories = [], opps = []) {
+  if (!Array.isArray(selectedBanks) || selectedBanks.length === 0) return [];
+  const covered = new Set();
+  for (const s of stories) {
+    if (s && s.scope === 'bank' && s.bank) covered.add(s.bank.toLowerCase());
+  }
+  for (const o of opps) {
+    if (o && o.bank) covered.add(o.bank.toLowerCase());
+  }
+  return selectedBanks.filter(b => b && !covered.has(b.toLowerCase()));
+}
+
+/**
  * Escape HTML to prevent XSS when inserting user/data content.
  * @param {string} str
  * @returns {string}

@@ -3,7 +3,7 @@
    Handles 3-step onboarding and writes prefs to localStorage.
    ============================================================ */
 
-import { savePrefs, getPrefs } from './utils.js?v=20260731-4';
+import { savePrefs, getPrefs } from './utils.js?v=20260731-5';
 
 // Full NYC coverage universe, grouped by tier.
 // Labels here must match the "name" field in banks.json exactly.

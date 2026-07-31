@@ -719,6 +719,22 @@ ul, ol { list-style: none; }
   font-weight: 600;
 }
 
+/* Honest "no deals today for [bank]" note inside the section context — a quiet
+   selected bank reads as a clear status, not a broken/empty feed. */
+.coverage-gap-note {
+  margin-top: var(--space-3);
+  padding-top: var(--space-3);
+  border-top: 1px dashed var(--bg-border);
+  font-size: var(--text-sm);
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+
+.coverage-gap-note strong {
+  color: var(--text-secondary);
+  font-weight: 600;
+}
+
 /* ── Bank Tracker panel (My Banks) ───────────────────────── */
 .bank-tracker {
   background: var(--bg-surface);
@@ -923,6 +939,44 @@ ul, ol { list-style: none; }
   color: var(--hot);
   margin: var(--space-2) 0;
   font-style: italic;
+}
+
+/* Possible-advisers block on an unconfirmed lead: who might get the mandate.
+   Two labeled rows — "reported" (a source floated the name) vs "our estimate"
+   (by-fit guess). Chips are deliberately muted so they never read as a
+   confirmed adviser tag. */
+.possible-advisers {
+  margin: var(--space-2) 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.possible-advisers-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.possible-advisers-label {
+  font-size: var(--text-xs);
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+.possible-adviser-chip {
+  display: inline-flex;
+  align-items: center;
+  height: 18px;
+  padding: 0 var(--space-2);
+  border-radius: var(--radius-sm);
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.04em;
+  color: var(--text-secondary);
+  background: var(--bg-subtle);
+  border: 1px dashed var(--bg-border);
 }
 
 /* ── Buttons ─────────────────────────────────────────────── */

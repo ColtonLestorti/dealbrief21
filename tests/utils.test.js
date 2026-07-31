@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { isMarketDataFresh, confidenceTooltip, coverageTeams } from '../assets/js/utils.js';
+import { isMarketDataFresh, confidenceTooltip, coverageTeams, banksMissingCoverage } from '../assets/js/utils.js';
 
 test('isMarketDataFresh returns true when market data was generated today', () => {
   assert.equal(isMarketDataFresh('2026-07-01', '2026-07-01T14:35:00Z'), true);
@@ -69,4 +69,29 @@ test('coverageTeams falls back to M&A when nothing matches', () => {
   assert.deepEqual(coverageTeams({ sector: 'Miscellaneous widgets' }), ['M&A']);
   assert.deepEqual(coverageTeams({}), ['M&A']);
   assert.deepEqual(coverageTeams(null), ['M&A']);
+});
+
+test('banksMissingCoverage flags selected banks with no story and no opp', () => {
+  const stories = [{ scope: 'bank', bank: 'Goldman Sachs' }, { scope: 'market' }];
+  const opps = [{ bank: 'Jefferies' }];
+  assert.deepEqual(
+    banksMissingCoverage(['Goldman Sachs', 'Jefferies', 'Morgan Stanley'], stories, opps),
+    ['Morgan Stanley']
+  );
+});
+
+test('banksMissingCoverage is case-insensitive and preserves input spelling', () => {
+  const stories = [{ scope: 'bank', bank: 'goldman sachs' }];
+  assert.deepEqual(banksMissingCoverage(['Goldman Sachs', 'Citi'], stories, []), ['Citi']);
+});
+
+test('banksMissingCoverage ignores market-scope stories as coverage', () => {
+  // A market-wide story mentioning no bank must not count as covering a pick.
+  const stories = [{ scope: 'market', bank: 'Goldman Sachs' }];
+  assert.deepEqual(banksMissingCoverage(['Goldman Sachs'], stories, []), ['Goldman Sachs']);
+});
+
+test('banksMissingCoverage returns empty when no banks selected', () => {
+  assert.deepEqual(banksMissingCoverage([], [{ scope: 'bank', bank: 'X' }], []), []);
+  assert.deepEqual(banksMissingCoverage(null, [], []), []);
 });
