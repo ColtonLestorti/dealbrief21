@@ -3,7 +3,21 @@
    Loads daily.json and renders all sections.
    ============================================================ */
 
-import { fetchData, fetchDataFresh, isMarketDataFresh, confidenceTooltip, esc, urgencyToBadgeType, isMyBank, copyToClipboard, formatDate, getPrefs } from './utils.js';
+import { fetchData, fetchDataFresh, isMarketDataFresh, confidenceTooltip, esc, urgencyToBadgeType, isMyBank, copyToClipboard, formatDate, getPrefs, coverageTeams } from './utils.js?v=20260731-1';
+
+/**
+ * Build the coverage-team badge HTML for a deal (story or opportunity) — the
+ * likely covering group(s) at the bank (TMT, Healthcare, FIG…). Skipped for
+ * market-wide items, which aren't tied to a coverage team.
+ * @param {object} item
+ * @returns {string}
+ */
+function coverageTeamBadges(item) {
+  if (!item || item.scope === 'market') return '';
+  return coverageTeams(item)
+    .map(team => `<span class="badge badge-team" title="Likely covering team at the advising bank">${esc(team)}</span>`)
+    .join('');
+}
 
 let dailyData = null;   // today's brief (the live edition)
 let activeData = null;  // currently displayed brief (today or an archived edition)
@@ -236,6 +250,7 @@ function renderStories(allStories) {
               <span class="badge badge-${urgencyType}">${esc(story.urgency)}</span>
               ${myBank ? '<span class="badge badge-your-bank">YOUR BANK</span>' : ''}
               ${isMarket ? '<span class="badge badge-market">MARKET-WIDE</span>' : ''}
+              ${coverageTeamBadges(story)}
               ${story.confidence ? `<span class="badge badge-conf-${story.confidence.toLowerCase()}" title="${confidenceTooltip(story.confidence)}">${esc(story.confidence.toUpperCase())}</span>` : ''}
             </div>
             <h3 class="card-headline mt-2">${esc(story.headline)}</h3>
@@ -336,6 +351,7 @@ function renderOpportunities(opps) {
               ${opp.carry_badge === 'NEW' ? '<span class="badge badge-new" title="First appeared today">NEW</span>' : ''}
               ${opp.carry_badge && opp.carry_badge !== 'NEW' ? `<span class="badge badge-running" title="A live deal process still open — carried forward from an earlier edition">${esc(opp.carry_badge)}</span>` : ''}
               ${myBank ? '<span class="badge badge-your-bank">YOUR BANK</span>' : ''}
+              ${coverageTeamBadges(opp)}
               ${opp.confidence ? `<span class="badge badge-conf-${opp.confidence.toLowerCase()}" title="${confidenceTooltip(opp.confidence)}">${esc(opp.confidence.toUpperCase())}</span>` : ''}
             </div>
             <div class="mt-2 flex items-center gap-2" style="flex-wrap:wrap;gap:6px;">

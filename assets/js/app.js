@@ -3,10 +3,13 @@
    Handles routing, navigation, modal, settings, and init.
    ============================================================ */
 
-import { initOnboarding, resetOnboarding } from './onboarding.js';
-import { initToday } from './today.js';
-import { initBanks, initDeals, initResources } from './pages.js';
-import { getPrefs, savePrefs, copyToClipboard, esc } from './utils.js';
+// NOTE: ?v= on the <script> tag does NOT propagate to these ES imports, so the
+// versions are pinned here too. Bump them (matching index.html) on any change to
+// the imported modules, or browsers keep serving the cached copies.
+import { initOnboarding, resetOnboarding } from './onboarding.js?v=20260731-1';
+import { initToday } from './today.js?v=20260731-1';
+import { initBanks, initDeals, initResources } from './pages.js?v=20260731-1';
+import { getPrefs, savePrefs, copyToClipboard, esc } from './utils.js?v=20260731-1';
 
 /* ── State ──────────────────────────────────────────────── */
 let currentPage = 'today';

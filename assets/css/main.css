@@ -675,6 +675,15 @@ ul, ol { list-style: none; }
   border: 1px solid rgba(138, 148, 166, 0.2);
 }
 
+/* Coverage team most likely to own the mandate at the advising bank
+   (TMT, Healthcare, FIG, Energy & Power…) — inferred from the deal's
+   sector/tags so a rep knows which desk to call. */
+.badge-team {
+  background: rgba(63, 81, 181, 0.10);
+  color: #5C6BC0;
+  border: 1px solid rgba(63, 81, 181, 0.24);
+}
+
 .badge-conf-filed {
   background: rgba(16, 153, 172, 0.12);
   color: #1099AC;               /* SS&C brand teal — kept distinct from the blue accent */

@@ -180,3 +180,87 @@ export function confidenceTooltip(confidence) {
   };
   return map[confidence] || 'From news — verify before quoting';
 }
+
+/* ============================================================
+   Coverage-team inference
+   A rep works a bank's *coverage group* (TMT, Healthcare, FIG…),
+   not the whole bank — so each deal card shows which team most
+   likely owns the mandate. We infer it from the deal's sector,
+   tags, and headline so it works on every past edition too, with
+   no data re-tagging. An explicit `coverage_team` (string or
+   array) on the item always wins over inference.
+   ============================================================ */
+
+// Each team owns a set of keyword signals. Order matters only for the
+// display order of multiple matches; a deal can surface more than one team.
+const COVERAGE_TEAMS = [
+  // NOTE: "platform" is deliberately excluded — PE releases call almost any
+  // deal a "platform investment", which over-matches to TMT.
+  { team: 'TMT', keywords: ['tech', 'software', 'saas', 'ai', 'artificial intelligence', 'cloud', 'data center', 'data-center', 'semiconductor', 'chip', 'media', 'telecom', 'telecommunication', 'internet', 'digital', 'fintech', 'payments', 'compute'] },
+  { team: 'Healthcare', keywords: ['health', 'healthcare', 'biotech', 'biopharma', 'pharma', 'medtech', 'medical', 'device', 'life science', 'therapeutic', 'drug', 'clinical', 'regenerative', 'diagnostic'] },
+  { team: 'FIG', keywords: ['bank', 'banking', 'financial services', 'financial institution', 'insurance', 'insurer', 'asset manager', 'wealth', 'exchange', 'market structure', 'brokerage', 'specialty finance', 'lending'] },
+  { team: 'Energy & Power', keywords: ['energy', 'oil', 'gas', 'midstream', 'utility', 'utilities', 'power', 'renewable', 'renewables', 'clean power', 'royalty', 'pipeline', 'lng', 'solar', 'wind'] },
+  { team: 'Consumer & Retail', keywords: ['consumer', 'retail', 'convenience', 'restaurant', 'food', 'beverage', 'apparel', 'grocery', 'e-commerce', 'ecommerce', 'marine', 'boat', 'auto retail', 'dealership'] },
+  // NOTE: "infrastructure" is deliberately NOT a keyword here — "AI/digital
+  // infrastructure" is TMT, and generic "infrastructure" over-matches. Physical
+  // industrial deals surface via the specific terms below.
+  { team: 'Industrials', keywords: ['industrial', 'industrials', 'manufactur', 'materials', 'chemical', 'aerospace', 'defense', 'defence', 'machinery', 'engineering', 'inspection', 'thermal', 'building', 'transportation', 'shipping', 'logistics', 'automotive'] },
+  { team: 'Real Estate', keywords: ['real estate', 'reit', 'property', 'realty', 'hospitality', 'lodging'] }
+];
+
+const COVERAGE_TEAM_ORDER = COVERAGE_TEAMS.map(t => t.team);
+
+/**
+ * Does a keyword match the deal text? Token-aware to avoid false hits from
+ * naive substring matching (e.g. "ai" living inside "retail"/"AtaiBeckley"):
+ *  - multi-word / hyphenated phrases ("data center", "e-commerce") match as
+ *    substrings of the full text;
+ *  - keywords of 4+ chars match a token *prefix*, so "tech" catches
+ *    "technology" and "manufactur" catches "manufacturing";
+ *  - short, ambiguous keywords (≤3 chars: "ai", "gas", "oil") require a whole
+ *    token, allowing a trailing "s" for a simple plural.
+ * @param {string} keyword — already lowercase
+ * @param {string} haystack — full lowercase text
+ * @param {string[]} tokens — haystack split into alphanumeric tokens
+ * @returns {boolean}
+ */
+function keywordMatches(keyword, haystack, tokens) {
+  if (/[ -]/.test(keyword)) return haystack.includes(keyword);
+  if (keyword.length >= 4) return tokens.some(t => t.startsWith(keyword));
+  return tokens.some(t => t === keyword || t === `${keyword}s`);
+}
+
+/**
+ * Infer the likely covering team(s) for a deal from its sector, tags, and
+ * headline. Returns an ordered, de-duplicated list; falls back to a generic
+ * ['M&A'] when nothing matches. An explicit `coverage_team` on the item
+ * (string or array) short-circuits inference.
+ * @param {{sector?: string, tags?: string[], headline?: string, category?: string, coverage_team?: string|string[]}} item
+ * @returns {string[]}
+ */
+export function coverageTeams(item) {
+  if (!item) return ['M&A'];
+
+  // Explicit override always wins.
+  if (item.coverage_team) {
+    const explicit = Array.isArray(item.coverage_team) ? item.coverage_team : [item.coverage_team];
+    const cleaned = explicit.map(t => String(t).trim()).filter(Boolean);
+    if (cleaned.length) return cleaned;
+  }
+
+  const haystack = [
+    item.sector || '',
+    Array.isArray(item.tags) ? item.tags.join(' ') : '',
+    item.headline || ''
+  ].join(' ').toLowerCase();
+  const tokens = haystack.split(/[^a-z0-9]+/).filter(Boolean);
+
+  const matched = new Set();
+  for (const { team, keywords } of COVERAGE_TEAMS) {
+    if (keywords.some(kw => keywordMatches(kw, haystack, tokens))) matched.add(team);
+  }
+
+  if (matched.size === 0) return ['M&A'];
+  // Preserve the canonical team order for a stable, readable display.
+  return COVERAGE_TEAM_ORDER.filter(t => matched.has(t));
+}
