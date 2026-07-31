@@ -1,0 +1,638 @@
+{
+  "date": "2026-07-30",
+  "lens": "The advisory complex kept selling off (GS -5.5%, EVR -7.8%, LAZ -6.2%) even as the tape steadied — but signings didn’t slow: ICE agreed to buy MarketAxess for ~$6B (BofA / JPMorgan), Eli Lilly’s $6.75-plus-CVR take-out of AtaiBeckley hit a preliminary proxy (Moelis, Centerview, Citi / Goldman), Blackstone bought Koch’s DarkVision (Stifel, Guggenheim / Evercore), MIMEDX agreed to buy Sanara for ~$350M (Centerview / Truist), and the $2.2B PBT combination signed (JPMorgan, RBC) — a filing- and signing-heavy day that keeps secure rooms busy regardless of bank-stock prices.",
+  "ticker": [
+    {
+      "label": "S&P 500",
+      "value": "7,415.99",
+      "change": "+0.10%",
+      "positive": true
+    },
+    {
+      "label": "Nasdaq",
+      "value": "25,105.48",
+      "change": "-0.13%",
+      "positive": false
+    },
+    {
+      "label": "Dow",
+      "value": "51,952.85",
+      "change": "+0.47%",
+      "positive": true
+    },
+    {
+      "label": "VIX",
+      "value": "18.37",
+      "change": "-1.13%",
+      "positive": true
+    },
+    {
+      "label": "GS",
+      "value": "$1,015.31",
+      "change": "-5.53%",
+      "positive": false
+    },
+    {
+      "label": "EVR",
+      "value": "$308.73",
+      "change": "-7.79%",
+      "positive": false
+    }
+  ],
+  "stories": [
+    {
+      "id": "s1",
+      "category": "M&A",
+      "urgency": "HIGH",
+      "scope": "bank",
+      "bank": "Bank of America",
+      "headline": "BofA advises ICE and JPMorgan advises MarketAxess on ICE’s $167/share, ~$6B acquisition of the fixed-income trading platform",
+      "why_it_matters": "Intercontinental Exchange (ICE) agreed to acquire electronic fixed-income trading venue MarketAxess (MKTX) in an all-cash deal at $167.00/share — ~$6.0B equity value / ~$5.7B enterprise value, a 33% premium to MarketAxess’s Jul 29 close. The release names BofA Securities as financial adviser to ICE (buy-side) and J.P. Morgan as financial adviser to MarketAxess (sell-side). A public-company take-out of a regulated trading platform runs antitrust and market-structure review alongside confirmatory diligence toward a shareholder vote.",
+      "suggested_action": "Open with BofA (ICE) and JPMorgan (MarketAxess) — a $6B take-out of a regulated exchange platform runs concentrated antitrust, market-structure, and confirmatory diligence a secure room is built for.",
+      "deal_clock": [
+        {
+          "date": "Jul 30, 2026",
+          "event": "ICE agrees to acquire MarketAxess at $167.00/share (~$6.0B)"
+        }
+      ],
+      "source": "StockTitan (ICE release)",
+      "source_url": "https://www.stocktitan.net/news/ICE/intercontinental-exchange-to-acquire-market-axess-creating-a-premier-lw6rmpgt62px.html",
+      "published": "2026-07-30",
+      "confidence": "Reported",
+      "tags": [
+        "financial-services",
+        "market-structure",
+        "take-out"
+      ]
+    },
+    {
+      "id": "s2",
+      "category": "M&A",
+      "urgency": "HIGH",
+      "scope": "bank",
+      "bank": "Moelis",
+      "headline": "Moelis and Centerview advise AtaiBeckley’s board (Citi additional; Goldman for Lilly) as the $6.75 + CVR sale to Eli Lilly hits a preliminary proxy",
+      "why_it_matters": "AtaiBeckley (ATAI) filed its preliminary merger proxy (PREM14A, Jul 30) on its sale to Eli Lilly — $6.75/share cash plus a non-transferable CVR worth up to $2.50 tied to VLS-01/BPL-003 clinical and regulatory milestones (up to $9.25/share; ~$2.8B upfront, ~$3.8B max). The filing names Moelis and Centerview as financial advisers to the AtaiBeckley board (both delivered fairness opinions Jul 15), Citi as an additional AtaiBeckley adviser, and Goldman Sachs as adviser to Lilly (buy-side). A CVR-structured biopharma take-out runs milestone-heavy diligence toward a shareholder vote.",
+      "suggested_action": "Engage Moelis/Centerview/Citi (AtaiBeckley) or Goldman (Lilly) — a CVR-structured take-out advancing to a vote runs concentrated confirmatory and milestone diligence a secure room organizes.",
+      "deal_clock": [
+        {
+          "date": "Jul 16, 2026",
+          "event": "Lilly agrees to acquire AtaiBeckley ($6.75 + up to $2.50 CVR)"
+        },
+        {
+          "date": "Jul 30, 2026",
+          "event": "AtaiBeckley files PREM14A"
+        }
+      ],
+      "source": "SEC EDGAR — AtaiBeckley PREM14A",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2081043/000114036126030109/ny20078129x1_prem14a.htm",
+      "published": "2026-07-30",
+      "confidence": "Filed",
+      "tags": [
+        "biopharma",
+        "take-out",
+        "cvr"
+      ]
+    },
+    {
+      "id": "s3",
+      "category": "M&A",
+      "urgency": "MEDIUM",
+      "scope": "bank",
+      "bank": "Evercore",
+      "headline": "Evercore advises DarkVision (Koch) as Blackstone agrees to acquire the inspection-tech maker; Stifel and Guggenheim advise Blackstone",
+      "why_it_matters": "Blackstone Energy Transition Partners agreed to acquire DarkVision Technologies — an ultrasound/non-destructive inspection-technology maker for energy and industrial infrastructure — from Koch Engineered Solutions (terms undisclosed). The release names Evercore as financial adviser to DarkVision/Koch (sell-side) and Stifel and Guggenheim Securities as financial advisers to Blackstone (buy-side). A sponsor buyout carved out of a strategic runs contract, IP, and separation diligence to close.",
+      "suggested_action": "Reach out to Evercore (DarkVision/Koch) and Stifel/Guggenheim (Blackstone) — a carve-out of an industrial-tech asset to a sponsor runs IP, contract, and separation diligence a secure room keeps organized.",
+      "deal_clock": [
+        {
+          "date": "Jul 30, 2026",
+          "event": "Blackstone agrees to acquire DarkVision from Koch"
+        }
+      ],
+      "source": "StockTitan (Blackstone release)",
+      "source_url": "https://www.stocktitan.net/news/BX/blackstone-energy-transition-partners-announces-agreement-to-acquire-k07zrdhy3fgi.html",
+      "published": "2026-07-30",
+      "confidence": "Reported",
+      "tags": [
+        "industrial-tech",
+        "carve-out",
+        "sponsor"
+      ]
+    },
+    {
+      "id": "s4",
+      "category": "M&A",
+      "urgency": "MEDIUM",
+      "scope": "bank",
+      "bank": "Centerview",
+      "headline": "Centerview advises MIMEDX on its ~$350M cash-and-stock acquisition of Sanara MedTech; Truist advises Sanara",
+      "why_it_matters": "MIMEDX Group (MDXG) agreed to acquire Sanara MedTech (SMTI) in a cash-and-stock deal at $35.00/share ($33.00 cash + 0.4735 MIMEDX shares), ~$350M enterprise value, roughly doubling MIMEDX’s surgical revenue and extending it into collagen, wound irrigation, and bone-fixation products. The release names Centerview as exclusive adviser to MIMEDX (buy-side) and Truist as exclusive adviser to Sanara (sell-side). A stock-inclusive strategic acquisition runs S-4 and confirmatory diligence toward close.",
+      "suggested_action": "Engage Centerview (MIMEDX) on the Sanara acquisition — a cash-and-stock strategic combination runs S-4 registration and confirmatory diligence a data room supports.",
+      "deal_clock": [
+        {
+          "date": "Jul 29, 2026",
+          "event": "MIMEDX agrees to acquire Sanara at $35.00/share (~$350M EV)"
+        }
+      ],
+      "source": "Yahoo Finance (GlobeNewswire syndication)",
+      "source_url": "https://finance.yahoo.com/healthcare/articles/mimedx-acquire-sanara-medtech-200100791.html",
+      "published": "2026-07-29",
+      "confidence": "Reported",
+      "tags": [
+        "medtech",
+        "cash-and-stock",
+        "regenerative-medicine"
+      ]
+    },
+    {
+      "id": "s5",
+      "category": "M&A",
+      "urgency": "MEDIUM",
+      "scope": "bank",
+      "bank": "JPMorgan",
+      "headline": "JPMorgan and RBC advise Blackbeard as the $2.2B PBT / US Land Guild combination signs a definitive agreement",
+      "why_it_matters": "SoftVest and Blackbeard signed a definitive agreement for the ~$2.2B combination of Permian Basin Royalty Trust (PBT) with US Land Guild to form PBT Land and Minerals (“New PBT”), a Form 425 (Jul 30) confirmed. The filing names J.P. Morgan and RBC Capital Markets as financial advisers to Blackbeard (buy-side) and Stephens as adviser to SoftVest. Signing a royalty-to-operating-company conversion runs asset, title, and reserve diligence into a unitholder vote.",
+      "suggested_action": "Engage JPMorgan and RBC (Blackbeard) on the now-signed PBT combination — a royalty-to-operating conversion runs concentrated reserve and title diligence into the vote.",
+      "deal_clock": [
+        {
+          "date": "Jul 30, 2026",
+          "event": "SoftVest & Blackbeard sign definitive agreement for $2.2B PBT combination"
+        }
+      ],
+      "source": "SEC EDGAR — SoftVest/PBT Form 425",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/319654/000121390026083015/ea029961601-425_soft.htm",
+      "published": "2026-07-30",
+      "confidence": "Filed",
+      "tags": [
+        "energy",
+        "royalty-trust",
+        "combination"
+      ]
+    },
+    {
+      "id": "s6",
+      "category": "MACRO",
+      "urgency": "MEDIUM",
+      "scope": "market",
+      "headline": "Advisory stocks slide again even as the tape steadies: GS -5.5%, EVR -7.8%, LAZ -6.2% while the S&P holds ~flat",
+      "why_it_matters": "US equities steadied Jul 30 — S&P 500 ~flat (+0.1% to ~7,416), Dow +0.5% (~51,953), Nasdaq -0.1% (~25,105), Russell 2000 -0.6% — with the VIX easing to ~18.4 and the 10Y ticking down to ~4.66%. WTI firmed ~1.6% to ~$84. But advisory names kept selling off hard: Goldman -5.5%, Evercore -7.8%, Lazard -6.2%, Morgan Stanley -2.9%, PJT -1.9% (a two-day drawdown across the group, earnings/estimate-driven). A softer advisory tape doesn’t slow signed processes — it sharpens the case for certainty of execution.",
+      "suggested_action": "Frame outreach around execution certainty — with the advisory complex under pressure but deal signings steady, clients want their live processes to stay on schedule; room readiness protects the timeline.",
+      "source": "Yahoo Finance",
+      "source_url": "https://finance.yahoo.com/quote/%5EDJI/",
+      "published": "2026-07-30"
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "o1",
+      "bank": "Moelis",
+      "sector": "Biopharma / Healthcare",
+      "urgency": "HOT",
+      "headline": "Adviser (with Centerview, Citi) to AtaiBeckley’s board on its $6.75 + CVR sale to Eli Lilly",
+      "why_it_matters": "Moelis and Centerview advise the AtaiBeckley (ATAI) board on its sale to Eli Lilly — $6.75/share cash plus a CVR worth up to $2.50 tied to VLS-01/BPL-003 milestones (up to $9.25; ~$2.8B upfront). Citi is an additional board adviser; Goldman advises Lilly. A PREM14A filed Jul 30 advances a CVR-structured biopharma take-out toward a shareholder vote.",
+      "deal_clock": [
+        {
+          "date": "Jul 30, 2026",
+          "event": "AtaiBeckley files PREM14A ($6.75 + up to $2.50 CVR)"
+        }
+      ],
+      "outreach_idea": "Engage Moelis/Centerview/Citi (AtaiBeckley) — a CVR-structured take-out advancing to a vote runs milestone and confirmatory diligence a secure room organizes.",
+      "outreach_draft": {
+        "subject": "AtaiBeckley / Lilly — supporting a CVR-structured take-out",
+        "body": "Congratulations on Moelis’s role advising AtaiBeckley on its sale to Eli Lilly. CVR-structured biopharma take-outs run milestone-tracking and confirmatory diligence toward the shareholder vote — would welcome a conversation on how we support secure, auditable data-room access through close.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "SEC EDGAR — AtaiBeckley PREM14A",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2081043/000114036126030109/ny20078129x1_prem14a.htm",
+      "published": "2026-07-30",
+      "confidence": "Filed",
+      "first_seen": "2026-07-30",
+      "last_confirmed": "2026-07-30",
+      "carry_badge": "NEW"
+    },
+    {
+      "id": "o2",
+      "bank": "Goldman Sachs",
+      "sector": "Biopharma / Healthcare",
+      "urgency": "HOT",
+      "headline": "Buy-side adviser to Eli Lilly on its $6.75 + CVR acquisition of AtaiBeckley",
+      "why_it_matters": "Goldman Sachs advises Eli Lilly on its acquisition of AtaiBeckley (ATAI) — $6.75/share cash plus a CVR worth up to $2.50 (up to $9.25/share; ~$2.8B upfront, ~$3.8B max) — expanding Lilly into rapid-acting neuroplastogens for treatment-resistant depression. A PREM14A filed Jul 30 advances the deal toward a target-shareholder vote and close expected Q3 2026.",
+      "deal_clock": [
+        {
+          "date": "Jul 30, 2026",
+          "event": "AtaiBeckley files PREM14A on Lilly acquisition"
+        }
+      ],
+      "outreach_idea": "Engage Goldman (Lilly) — a large-pharma bolt-on with a CVR runs buy-side confirmatory and milestone diligence a secure room supports.",
+      "outreach_draft": {
+        "subject": "Lilly / AtaiBeckley — supporting a CVR-structured bolt-on",
+        "body": "Congratulations on Goldman’s role advising Eli Lilly on its acquisition of AtaiBeckley. Large-pharma bolt-ons with CVR structures run confirmatory and milestone diligence through close — would welcome a conversation on how we support secure, auditable data-room access across the process.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "SEC EDGAR — AtaiBeckley PREM14A",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2081043/000114036126030109/ny20078129x1_prem14a.htm",
+      "published": "2026-07-30",
+      "confidence": "Filed",
+      "first_seen": "2026-07-30",
+      "last_confirmed": "2026-07-30",
+      "carry_badge": "NEW"
+    },
+    {
+      "id": "o3",
+      "bank": "Goldman Sachs",
+      "sector": "Utilities / Power",
+      "urgency": "HOT",
+      "headline": "Adviser (with JPMorgan) to Dominion Energy’s board on its stock-and-cash merger with NextEra",
+      "why_it_matters": "Goldman Sachs and J.P. Morgan advise the Dominion Energy (D) board on its merger into NextEra Energy (NEE) — 0.8138 NextEra shares plus a pro-rata portion of a $360M aggregate cash payment per share (implied ~$73–$76). A definitive joint proxy filed Jul 28 advances a mega-cap utility combination toward dual shareholder votes and FERC/state regulatory review.",
+      "deal_clock": [
+        {
+          "date": "Jul 28, 2026",
+          "event": "Dominion & NextEra file DEFM14A; dual votes ahead"
+        }
+      ],
+      "outreach_idea": "Engage Goldman’s (and JPMorgan’s) power & utilities coverage on Dominion/NextEra — a four-adviser mega-merger runs concentrated confirmatory, regulatory, and integration diligence to close.",
+      "outreach_draft": {
+        "subject": "Dominion / NextEra — supporting a utility mega-merger to the votes",
+        "body": "Congratulations on Goldman’s role advising Dominion Energy on its merger with NextEra. Utility combinations of this scale run document- and regulatory-heavy diligence across FERC and state reviews toward dual shareholder votes — would welcome a conversation on how we support secure, auditable data-room access through the process.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "SEC EDGAR — Dominion/NextEra DEFM14A",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/715957/000110465926087585/tm2621467-2_defm14a.htm",
+      "published": "2026-07-28",
+      "confidence": "Filed",
+      "first_seen": "2026-07-29",
+      "last_confirmed": "2026-07-29",
+      "carry_badge": "Day 2"
+    },
+    {
+      "id": "o4",
+      "bank": "Evercore",
+      "sector": "Industrials",
+      "urgency": "HOT",
+      "headline": "Adviser (with Goldman) to Arcosa's board on its $150/share, ~$5.4B take-private by CRH",
+      "why_it_matters": "Evercore and Goldman Sachs both advise the Arcosa (ACA) board on its all-cash $150.00/share sale to CRH Americas, each delivering a fairness opinion. Arcosa filed its preliminary proxy Jul 24 — a large-cap industrial take-private advancing to the shareholder vote with concentrated confirmatory diligence.",
+      "deal_clock": [
+        {
+          "date": "Jul 24, 2026",
+          "event": "Arcosa files PREM14A; $150.00/share cash from CRH"
+        }
+      ],
+      "outreach_idea": "Engage Evercore's (and Goldman's) industrials coverage on Arcosa/CRH — a dual-adviser take-private advancing to a vote runs concentrated confirmatory diligence.",
+      "outreach_draft": {
+        "subject": "Arcosa / CRH — supporting a take-private to the vote",
+        "body": "Congratulations on Evercore's role advising Arcosa on its sale to CRH. Large-cap take-privates with a dual-adviser board run concentrated confirmatory diligence through the shareholder vote — would welcome a conversation on how we support secure, auditable data-room access to close.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "SEC EDGAR — Arcosa PREM14A",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1739445/000114036126029608/ny20076790x1_prem14a.htm",
+      "published": "2026-07-24",
+      "confidence": "Filed",
+      "first_seen": "2026-07-28",
+      "last_confirmed": "2026-07-28",
+      "carry_badge": "Day 3"
+    },
+    {
+      "id": "o5",
+      "bank": "Jefferies",
+      "sector": "Shipping / Transportation",
+      "urgency": "HOT",
+      "headline": "Adviser (with Morgan Stanley) to Genco on its defense against Diana Shipping's $24.80 hostile tender",
+      "why_it_matters": "Jefferies is financial adviser and Morgan Stanley special adviser to the Genco Shipping (GNK) board, which filed an SC 14D9 Jul 23 recommending shareholders NOT tender into Diana Shipping's $24.80/share hostile offer. A live contested tender fight — defense mandates move fast and lean on secure rooms.",
+      "deal_clock": [
+        {
+          "date": "Jul 23, 2026",
+          "event": "Genco files SC 14D9; board recommends against Diana's tender"
+        }
+      ],
+      "outreach_idea": "Engage Jefferies (and Morgan Stanley) on the Genco defense — contested tenders lean on secure data rooms and rapid adviser collaboration as the board response develops.",
+      "outreach_draft": {
+        "subject": "Genco / Diana — supporting a live tender defense",
+        "body": "Congratulations on Jefferies's role advising Genco on its response to Diana Shipping. Contested tender defenses run fast, document-intensive workstreams across advisers and the board — would welcome a conversation on how we support secure, auditable data-room access under a tight clock.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "SEC EDGAR — Genco SC 14D9 exhibit",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326200/000114036126029428/ef20078433_ex99-a68.htm",
+      "published": "2026-07-23",
+      "confidence": "Filed",
+      "first_seen": "2026-07-28",
+      "last_confirmed": "2026-07-28",
+      "carry_badge": "Day 3"
+    },
+    {
+      "id": "o6",
+      "bank": "Bank of America",
+      "sector": "Financial Services / Market Structure",
+      "urgency": "HOT",
+      "headline": "Buy-side adviser to ICE on its $167/share, ~$6B acquisition of MarketAxess",
+      "why_it_matters": "BofA Securities advises Intercontinental Exchange (ICE) on its all-cash $167.00/share (~$6.0B equity / ~$5.7B EV) acquisition of fixed-income trading platform MarketAxess (MKTX), announced Jul 30 at a 33% premium. J.P. Morgan advises MarketAxess (sell-side). A take-out of a regulated trading venue runs antitrust and market-structure review alongside confirmatory diligence to a shareholder vote.",
+      "deal_clock": [
+        {
+          "date": "Jul 30, 2026",
+          "event": "ICE agrees to acquire MarketAxess (~$6.0B)"
+        }
+      ],
+      "outreach_idea": "Open with BofA (ICE) — a $6B acquisition of a regulated exchange runs concentrated antitrust and confirmatory diligence a secure room is built for.",
+      "outreach_draft": {
+        "subject": "ICE / MarketAxess — supporting a market-structure acquisition",
+        "body": "Congratulations on BofA’s role advising ICE on its acquisition of MarketAxess. Take-outs of regulated trading platforms run antitrust and market-structure review alongside confirmatory diligence toward the vote — would welcome a conversation on how we support secure, auditable data-room access across the process.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "StockTitan (ICE release)",
+      "source_url": "https://www.stocktitan.net/news/ICE/intercontinental-exchange-to-acquire-market-axess-creating-a-premier-lw6rmpgt62px.html",
+      "published": "2026-07-30",
+      "confidence": "Reported",
+      "first_seen": "2026-07-30",
+      "last_confirmed": "2026-07-30",
+      "carry_badge": "NEW"
+    },
+    {
+      "id": "o7",
+      "bank": "JPMorgan",
+      "sector": "Financial Services / Market Structure",
+      "urgency": "HOT",
+      "headline": "Sell-side adviser to MarketAxess on its $167/share, ~$6B sale to ICE",
+      "why_it_matters": "J.P. Morgan advises MarketAxess (MKTX) on its all-cash $167.00/share sale to Intercontinental Exchange (~$6.0B equity value), announced Jul 30 at a 33% premium. BofA advises ICE (buy-side). A public-company sale of a regulated fixed-income venue runs confirmatory and regulatory diligence toward a stockholder vote.",
+      "deal_clock": [
+        {
+          "date": "Jul 30, 2026",
+          "event": "MarketAxess agrees to $167/share sale to ICE"
+        }
+      ],
+      "outreach_idea": "Engage JPMorgan (MarketAxess) — a sell-side of a regulated trading platform runs concentrated confirmatory and market-structure diligence to the vote.",
+      "outreach_draft": {
+        "subject": "MarketAxess / ICE — supporting a sell-side to the vote",
+        "body": "Congratulations on J.P. Morgan’s role advising MarketAxess on its sale to ICE. Sell-sides of regulated trading venues run confirmatory and regulatory diligence toward the stockholder vote — would welcome a conversation on how we support secure, auditable data-room access through close.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "StockTitan (ICE release)",
+      "source_url": "https://www.stocktitan.net/news/ICE/intercontinental-exchange-to-acquire-market-axess-creating-a-premier-lw6rmpgt62px.html",
+      "published": "2026-07-30",
+      "confidence": "Reported",
+      "first_seen": "2026-07-30",
+      "last_confirmed": "2026-07-30",
+      "carry_badge": "NEW"
+    },
+    {
+      "id": "o8",
+      "bank": "JPMorgan",
+      "sector": "Energy / Oil & Gas",
+      "urgency": "WARM",
+      "headline": "Adviser (with RBC) to Blackbeard on the now-signed $2.2B PBT / US Land Guild combination",
+      "why_it_matters": "J.P. Morgan (with RBC) advises Blackbeard on the ~$2.2B combination of Permian Basin Royalty Trust (PBT) with US Land Guild to form PBT Land and Minerals. A Form 425 filed Jul 30 confirmed the definitive agreement is signed — a royalty-to-operating-company conversion heading to a unitholder vote with concentrated reserve and title diligence.",
+      "deal_clock": [
+        {
+          "date": "Jul 30, 2026",
+          "event": "Definitive agreement signed for $2.2B PBT combination"
+        }
+      ],
+      "outreach_idea": "Engage JPMorgan/RBC (Blackbeard) on the signed PBT combination — a royalty-to-operating conversion runs reserve and title diligence into the vote.",
+      "outreach_draft": {
+        "subject": "PBT / US Land Guild — supporting a signed royalty-trust combination",
+        "body": "Congratulations on J.P. Morgan’s role advising Blackbeard on the now-signed Permian Basin Royalty Trust combination. Converting a royalty trust into an operating company runs reserve, title, and asset diligence toward the unitholder vote — would welcome a conversation on how we support secure, auditable data-room access.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "SEC EDGAR — SoftVest/PBT Form 425",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/319654/000121390026082512/ea029960901-425_pbt.htm",
+      "published": "2026-07-30",
+      "confidence": "Filed",
+      "first_seen": "2026-07-30",
+      "last_confirmed": "2026-07-30",
+      "carry_badge": "NEW"
+    },
+    {
+      "id": "o9",
+      "bank": "Evercore",
+      "sector": "Industrial Technology",
+      "urgency": "WARM",
+      "headline": "Sell-side adviser to DarkVision (Koch) on its sale to Blackstone",
+      "why_it_matters": "Evercore advises DarkVision Technologies and Koch Engineered Solutions on the sale of the ultrasound/non-destructive inspection-tech maker to Blackstone Energy Transition Partners (terms undisclosed). Stifel and Guggenheim advise Blackstone (buy-side). A carve-out of an industrial-tech asset to a sponsor runs IP, contract, and separation diligence to close.",
+      "deal_clock": [
+        {
+          "date": "Jul 30, 2026",
+          "event": "Blackstone agrees to acquire DarkVision from Koch"
+        }
+      ],
+      "outreach_idea": "Reach out to Evercore (DarkVision/Koch) — a carve-out to a sponsor runs IP and separation diligence a data room organizes.",
+      "outreach_draft": {
+        "subject": "DarkVision / Blackstone — supporting a carve-out sell-side",
+        "body": "Congratulations on Evercore’s role advising DarkVision and Koch on the sale to Blackstone. Carve-outs of technology assets to sponsors run IP, contract, and separation diligence across shared rooms — would welcome a conversation on how we support secure, auditable access through the separation.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "StockTitan (Blackstone release)",
+      "source_url": "https://www.stocktitan.net/news/BX/blackstone-energy-transition-partners-announces-agreement-to-acquire-k07zrdhy3fgi.html",
+      "published": "2026-07-30",
+      "confidence": "Reported",
+      "first_seen": "2026-07-30",
+      "last_confirmed": "2026-07-30",
+      "carry_badge": "NEW"
+    },
+    {
+      "id": "o10",
+      "bank": "Guggenheim",
+      "sector": "Industrial Technology",
+      "urgency": "WARM",
+      "headline": "Adviser (with Stifel) to Blackstone on its acquisition of DarkVision from Koch",
+      "why_it_matters": "Guggenheim Securities and Stifel advise Blackstone Energy Transition Partners on its acquisition of DarkVision Technologies — a non-destructive inspection-tech maker — from Koch Engineered Solutions (terms undisclosed). Evercore advises the seller. A sponsor buyout of a carved-out asset runs buy-side confirmatory, IP, and separation diligence to close.",
+      "deal_clock": [
+        {
+          "date": "Jul 30, 2026",
+          "event": "Blackstone agrees to acquire DarkVision"
+        }
+      ],
+      "outreach_idea": "Engage Guggenheim/Stifel (Blackstone) — a sponsor buyout of a carved-out tech asset runs buy-side and separation diligence a secure room supports.",
+      "outreach_draft": {
+        "subject": "Blackstone / DarkVision — supporting a sponsor buy-side",
+        "body": "Congratulations on Guggenheim’s role advising Blackstone on its acquisition of DarkVision. Sponsor buyouts of carved-out assets run confirmatory, IP, and separation diligence toward close — would welcome a conversation on how we support secure, auditable data-room access across the process.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "StockTitan (Blackstone release)",
+      "source_url": "https://www.stocktitan.net/news/BX/blackstone-energy-transition-partners-announces-agreement-to-acquire-k07zrdhy3fgi.html",
+      "published": "2026-07-30",
+      "confidence": "Reported",
+      "first_seen": "2026-07-30",
+      "last_confirmed": "2026-07-30",
+      "carry_badge": "NEW"
+    },
+    {
+      "id": "o11",
+      "bank": "Centerview",
+      "sector": "MedTech / Healthcare",
+      "urgency": "WARM",
+      "headline": "Buy-side adviser to MIMEDX on its ~$350M acquisition of Sanara MedTech",
+      "why_it_matters": "Centerview advises MIMEDX Group (MDXG) on its cash-and-stock acquisition of Sanara MedTech (SMTI) at $35.00/share ($33.00 cash + 0.4735 MIMEDX shares), ~$350M EV, announced Jul 29. Truist advises Sanara (sell-side). A stock-inclusive strategic acquisition runs S-4 registration and confirmatory diligence toward close.",
+      "deal_clock": [
+        {
+          "date": "Jul 29, 2026",
+          "event": "MIMEDX agrees to acquire Sanara (~$350M EV)"
+        }
+      ],
+      "outreach_idea": "Engage Centerview (MIMEDX) — a cash-and-stock strategic combination runs S-4 and confirmatory diligence a data room supports.",
+      "outreach_draft": {
+        "subject": "MIMEDX / Sanara — supporting a cash-and-stock combination",
+        "body": "Congratulations on Centerview’s role advising MIMEDX on its acquisition of Sanara MedTech. Cash-and-stock combinations run S-4 registration and confirmatory diligence through close — would welcome a conversation on how we support secure, auditable data-room access across the process.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "Yahoo Finance (GlobeNewswire syndication)",
+      "source_url": "https://finance.yahoo.com/healthcare/articles/mimedx-acquire-sanara-medtech-200100791.html",
+      "published": "2026-07-29",
+      "confidence": "Reported",
+      "first_seen": "2026-07-30",
+      "last_confirmed": "2026-07-30",
+      "carry_badge": "NEW"
+    }
+  ],
+  "market_snapshot": {
+    "indices": [
+      {
+        "label": "S&P 500",
+        "value": "7,415.99",
+        "change": "+7.69 (+0.10%)",
+        "positive": true
+      },
+      {
+        "label": "Nasdaq Composite",
+        "value": "25,105.48",
+        "change": "-32.21 (-0.13%)",
+        "positive": false
+      },
+      {
+        "label": "Dow Jones",
+        "value": "51,952.85",
+        "change": "+241.20 (+0.47%)",
+        "positive": true
+      },
+      {
+        "label": "Russell 2000",
+        "value": "2,921.30",
+        "change": "-18.86 (-0.64%)",
+        "positive": false
+      },
+      {
+        "label": "CBOE VIX",
+        "value": "18.37",
+        "change": "-0.21 (-1.13%)",
+        "positive": true
+      },
+      {
+        "label": "10Y Treasury",
+        "value": "4.659%",
+        "change": "-0.020 (-0.43%)",
+        "positive": true
+      },
+      {
+        "label": "WTI Crude",
+        "value": "$83.96",
+        "change": "+$1.35 (+1.63%)",
+        "positive": true
+      }
+    ],
+    "bank_stocks": [
+      {
+        "ticker": "GS",
+        "price": "$1,015.31",
+        "change": "-5.53%",
+        "positive": false
+      },
+      {
+        "ticker": "MS",
+        "price": "$208.92",
+        "change": "-2.91%",
+        "positive": false
+      },
+      {
+        "ticker": "JPM",
+        "price": "$348.89",
+        "change": "-0.29%",
+        "positive": false
+      },
+      {
+        "ticker": "EVR",
+        "price": "$308.73",
+        "change": "-7.79%",
+        "positive": false
+      },
+      {
+        "ticker": "LAZ",
+        "price": "$40.37",
+        "change": "-6.23%",
+        "positive": false
+      }
+    ],
+    "macro_note": "Steadier tape, weaker advisers on Jul 30: S&P 500 ~flat (+0.1% to 7,416), Dow +0.5% (51,953), Nasdaq -0.1% (25,105), Russell 2000 -0.6%, with the VIX easing to ~18.4 and the 10Y down to ~4.66%. WTI firmed ~1.6% to ~$84. But advisory names extended a two-day slide — GS -5.5%, EVR -7.8%, LAZ -6.2%, MS -2.9%, PJT -1.9% (earnings/estimate-driven). Values are LIVE INTRADAY levels captured ~10:30am EDT Jul 30 — not a settled close."
+  },
+  "talking_point": {
+    "quote": "The advisory names are having a rough couple of days — Goldman, Evercore and Lazard all down hard again — but the deal calendar didn’t flinch: ICE agreed to buy MarketAxess for ~$6 billion, Lilly’s CVR-structured take-out of AtaiBeckley hit a proxy, Blackstone bought Koch’s DarkVision, and the $2.2B Permian royalty-trust combination signed. When bank stocks are volatile, the one thing clients control is execution — how are you thinking about room readiness on the deals you’re carrying into August?",
+    "use_with": "M&A, sponsors, financial-institutions, energy, and healthcare coverage teams (esp. BofA, JPMorgan, Goldman, Moelis, Centerview, Evercore, Guggenheim, Stifel)",
+    "context": "Pairs a Jul 30 advisory-stock drawdown with a dense filing/signing cycle — a natural way to open a room-readiness conversation as deals push toward August milestones.",
+    "confidence": "Reported"
+  },
+  "sector_heat": {
+    "ranked": [
+      {
+        "sector": "Financial Services / Market Structure",
+        "read": "ICE agrees to acquire MarketAxess for ~$6B at $167/share (BofA for ICE; JPMorgan for MarketAxess) — a regulated-venue take-out heading to a vote.",
+        "source_note": "StockTitan, Jul 30 2026"
+      },
+      {
+        "sector": "Biopharma / Healthcare",
+        "read": "Eli Lilly’s $6.75 + CVR take-out of AtaiBeckley hits a preliminary proxy (Moelis, Centerview, Citi for the board; Goldman for Lilly); MIMEDX agrees to buy Sanara for ~$350M (Centerview; Truist).",
+        "source_note": "SEC EDGAR + GlobeNewswire, Jul 29-30 2026"
+      },
+      {
+        "sector": "Industrial Technology",
+        "read": "Blackstone agrees to acquire Koch’s DarkVision inspection-tech unit (Stifel, Guggenheim for Blackstone; Evercore for the seller).",
+        "source_note": "StockTitan, Jul 30 2026"
+      },
+      {
+        "sector": "Energy / Oil & Gas",
+        "read": "The ~$2.2B Permian Basin Royalty Trust / US Land Guild combination signs a definitive agreement (JPMorgan, RBC for Blackbeard; Stephens for SoftVest).",
+        "source_note": "SEC EDGAR, Jul 30 2026"
+      },
+      {
+        "sector": "Utilities / Power",
+        "read": "Dominion and NextEra’s utility mega-merger proxy (Goldman, JPMorgan / Lazard, BofA) continues to advance toward dual shareholder votes.",
+        "source_note": "SEC EDGAR, Jul 28 2026"
+      }
+    ]
+  },
+  "pipeline_watch": {
+    "note": "Named covered-bank mandates and sector heat. Rumored / no-adviser situations live in the Rumor Mill.",
+    "covered_bank_leads": [],
+    "situations_to_watch": []
+  },
+  "skeptics_corner": {
+    "note": "Unconfirmed leads — rumored deals and situations with no adviser named yet (or advisers unconfirmed). Real reporting, but treat as speculative: chase them, don’t quote them on a call.",
+    "items": [
+      {
+        "company": "MarineMax (NYSE: HZO)",
+        "bank": "unconfirmed",
+        "lead": "The boat/yacht retailer is reportedly in the final round of bidding for a take-private, with Blackstone, Donerail and Centerbridge among the suitors; shares jumped ~8% on the report. Follows a Donerail activist campaign that pushed the board to explore a sale.",
+        "why_unverified": "No deal announced and MarineMax has not confirmed a process; the \"final round\" and bidder list are sources-say reporting. Price and winning bidder unknown, and no sell-side adviser is named.",
+        "sector": "Consumer Discretionary / Marine Retail",
+        "source_note": "Yahoo Finance / StockStory, Jul 24 2026",
+        "source_url": "https://finance.yahoo.com/markets/stocks/articles/marinemax-hzo-shares-skyrocket-know-231308340.html",
+        "confidence": "Speculative"
+      },
+      {
+        "company": "Fiserv (NYSE: FI)",
+        "bank": "unconfirmed",
+        "lead": "Activist JANA Partners sent Fiserv's board a Jul 30 letter urging a comprehensive review of its entire portfolio and backing a reported sale of its Star/Accel debit-network assets, after an ~80% stock drop from 2025 highs.",
+        "why_unverified": "The JANA letter is public/confirmed, but Fiserv has not confirmed a portfolio review, and the debit-network sale is anonymous-sourced (not formally announced). No adviser named in the letter.",
+        "sector": "Fintech / Payments",
+        "source_note": "Yahoo Finance (JANA Partners release), Jul 30 2026",
+        "source_url": "https://finance.yahoo.com/markets/stocks/articles/jana-partners-sends-letter-fiserv-140000973.html",
+        "confidence": "Speculative"
+      },
+      {
+        "company": "Shell (NYSE: SHEL) / Phillips 66 (NYSE: PSX)",
+        "bank": "unconfirmed",
+        "lead": "Reuters reports the two are weighing a sale of their combined stakes in the owner of the Explorer refined-products pipeline, a deal that could value the asset at ~$3.5B.",
+        "why_unverified": "Anonymous-sourced Reuters report; neither company has confirmed a process, and no adviser is named.",
+        "sector": "Energy / Midstream",
+        "source_note": "Reuters, Jul 29 2026",
+        "source_url": "https://www.reuters.com/legal/litigation/shell-phillips-66-weigh-sale-stakes-35-billion-us-pipeline-explorer-sources-say-2026-07-29/",
+        "confidence": "Speculative"
+      },
+      {
+        "company": "Cashmere Valley Bank (OTC: CSHX)",
+        "bank": "unconfirmed",
+        "lead": "Activist Down Range Capital is publicly pressing the ~$2.3B-asset Washington community bank to sell itself, pegging a sale at $125–$165/share and citing 7+ potential buyers, low board ownership, and an unresolved CEO succession.",
+        "why_unverified": "The bank has not agreed to a sale — it says only that it reviews strategic alternatives on a rolling basis. The valuation and buyer count are the activist's assertions, and no buyer or adviser is named.",
+        "sector": "Regional Banking",
+        "source_note": "Banking Dive, Jul 29 2026",
+        "source_url": "https://www.bankingdive.com/news/activist-investor-prods-cashmere-washington-bank-sell/826470/",
+        "confidence": "Speculative"
+      }
+    ]
+  },
+  "edition": 17
+}

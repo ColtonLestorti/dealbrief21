@@ -1,41 +1,41 @@
 {
-  "date": "2026-07-30",
-  "lens": "The advisory complex kept selling off (GS -5.5%, EVR -7.8%, LAZ -6.2%) even as the tape steadied — but signings didn’t slow: ICE agreed to buy MarketAxess for ~$6B (BofA / JPMorgan), Eli Lilly’s $6.75-plus-CVR take-out of AtaiBeckley hit a preliminary proxy (Moelis, Centerview, Citi / Goldman), Blackstone bought Koch’s DarkVision (Stifel, Guggenheim / Evercore), MIMEDX agreed to buy Sanara for ~$350M (Centerview / Truist), and the $2.2B PBT combination signed (JPMorgan, RBC) — a filing- and signing-heavy day that keeps secure rooms busy regardless of bank-stock prices.",
+  "date": "2026-07-31",
+  "lens": "Month-end brought a firm tape but a third-straight advisory-stock slide (GS -3.6%, EVR -5.6%, LAZ -4.8%) — and the signings kept coming: Couche-Tard launched a ~$8.6B tender for Poland’s Żabka (JPMorgan / Goldman), Nscale bought AI-compute platform Anyscale (Goldman, Morgan Stanley), Group 1 agreed to a ~$1.3B Atlanta dealership deal (JPMorgan), Truelink bought JT Thorpe from H.I.G. (Goldman, Harris Williams), and Alma Bank agreed to buy American Community Bank (Piper Sandler) — a cross-border, cross-sector signing day that keeps secure rooms busy regardless of bank-stock prices.",
   "ticker": [
     {
       "label": "S&P 500",
-      "value": "7,415.99",
-      "change": "+0.10%",
+      "value": "7,442.16",
+      "change": "+0.41%",
       "positive": true
     },
     {
       "label": "Nasdaq",
-      "value": "25,105.48",
-      "change": "-0.13%",
-      "positive": false
+      "value": "25,185.32",
+      "change": "+0.84%",
+      "positive": true
     },
     {
       "label": "Dow",
-      "value": "51,952.85",
-      "change": "+0.47%",
+      "value": "52,245.90",
+      "change": "+0.57%",
       "positive": true
     },
     {
       "label": "VIX",
-      "value": "18.37",
-      "change": "-1.13%",
+      "value": "17.50",
+      "change": "-6.27%",
       "positive": true
     },
     {
       "label": "GS",
-      "value": "$1,015.31",
-      "change": "-5.53%",
+      "value": "$1,022.67",
+      "change": "-3.63%",
       "positive": false
     },
     {
       "label": "EVR",
-      "value": "$308.73",
-      "change": "-7.79%",
+      "value": "$320.48",
+      "change": "-5.64%",
       "positive": false
     }
   ],
@@ -45,53 +45,49 @@
       "category": "M&A",
       "urgency": "HIGH",
       "scope": "bank",
-      "bank": "Bank of America",
-      "headline": "BofA advises ICE and JPMorgan advises MarketAxess on ICE’s $167/share, ~$6B acquisition of the fixed-income trading platform",
-      "why_it_matters": "Intercontinental Exchange (ICE) agreed to acquire electronic fixed-income trading venue MarketAxess (MKTX) in an all-cash deal at $167.00/share — ~$6.0B equity value / ~$5.7B enterprise value, a 33% premium to MarketAxess’s Jul 29 close. The release names BofA Securities as financial adviser to ICE (buy-side) and J.P. Morgan as financial adviser to MarketAxess (sell-side). A public-company take-out of a regulated trading platform runs antitrust and market-structure review alongside confirmatory diligence toward a shareholder vote.",
-      "suggested_action": "Open with BofA (ICE) and JPMorgan (MarketAxess) — a $6B take-out of a regulated exchange platform runs concentrated antitrust, market-structure, and confirmatory diligence a secure room is built for.",
+      "bank": "JPMorgan",
+      "headline": "JPMorgan advises Couche-Tard and Goldman advises Żabka on Couche-Tard’s ~$8.6B tender offer for the Polish convenience giant",
+      "why_it_matters": "Alimentation Couche-Tard agreed to acquire a controlling stake in Żabka Group — the Warsaw-listed convenience-store operator — and launched a voluntary tender offer at PLN 32.00/share (~US$8.48), ~PLN 32.62B (~US$8.6B) equity value. The release names J.P. Morgan as exclusive financial adviser to Couche-Tard (buy-side, and lead arranger on the debt) and Goldman Sachs as exclusive financial adviser to Żabka (sell-side). A cross-border public tender for a listed retailer runs concentrated regulatory, financing, and confirmatory diligence toward the offer close.",
+      "suggested_action": "Open with JPMorgan (Couche-Tard) and Goldman (Żabka) — a ~$8.6B cross-border tender for a listed retailer runs securities-regulator, financing, and confirmatory diligence a secure room is built for.",
       "deal_clock": [
         {
-          "date": "Jul 30, 2026",
-          "event": "ICE agrees to acquire MarketAxess at $167.00/share (~$6.0B)"
+          "date": "Jul 31, 2026",
+          "event": "Couche-Tard agrees to buy control of Żabka; launches PLN 32.00/share tender"
         }
       ],
-      "source": "StockTitan (ICE release)",
-      "source_url": "https://www.stocktitan.net/news/ICE/intercontinental-exchange-to-acquire-market-axess-creating-a-premier-lw6rmpgt62px.html",
-      "published": "2026-07-30",
+      "source": "PR Newswire (Couche-Tard release)",
+      "source_url": "https://www.prnewswire.com/news-releases/alimentation-couche-tard-announces-agreement-to-acquire-controlling-stake-in-abka-group-and-launches-voluntary-tender-offer-302839695.html",
+      "published": "2026-07-31",
       "confidence": "Reported",
       "tags": [
-        "financial-services",
-        "market-structure",
-        "take-out"
+        "retail",
+        "cross-border",
+        "tender-offer"
       ]
     },
     {
       "id": "s2",
       "category": "M&A",
-      "urgency": "HIGH",
+      "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Moelis",
-      "headline": "Moelis and Centerview advise AtaiBeckley’s board (Citi additional; Goldman for Lilly) as the $6.75 + CVR sale to Eli Lilly hits a preliminary proxy",
-      "why_it_matters": "AtaiBeckley (ATAI) filed its preliminary merger proxy (PREM14A, Jul 30) on its sale to Eli Lilly — $6.75/share cash plus a non-transferable CVR worth up to $2.50 tied to VLS-01/BPL-003 clinical and regulatory milestones (up to $9.25/share; ~$2.8B upfront, ~$3.8B max). The filing names Moelis and Centerview as financial advisers to the AtaiBeckley board (both delivered fairness opinions Jul 15), Citi as an additional AtaiBeckley adviser, and Goldman Sachs as adviser to Lilly (buy-side). A CVR-structured biopharma take-out runs milestone-heavy diligence toward a shareholder vote.",
-      "suggested_action": "Engage Moelis/Centerview/Citi (AtaiBeckley) or Goldman (Lilly) — a CVR-structured take-out advancing to a vote runs concentrated confirmatory and milestone diligence a secure room organizes.",
+      "bank": "Goldman Sachs",
+      "headline": "Goldman leads and Morgan Stanley advises Nscale on its acquisition of AI-compute platform Anyscale",
+      "why_it_matters": "AI cloud provider Nscale agreed to acquire Anyscale — the AI-compute platform built by the creators of the open-source Ray framework — in a strategic combination (terms undisclosed), expected to close in H2 2026. The release names Goldman Sachs International as lead financial adviser and Morgan Stanley as financial adviser to Nscale (buy-side); Qatalyst advised Anyscale (sell-side). An AI-infrastructure roll-up runs IP, contract, and technical diligence across two fast-scaling platforms.",
+      "suggested_action": "Engage Goldman and Morgan Stanley (Nscale) — an AI-infrastructure acquisition runs IP, customer-contract, and technical diligence a secure room keeps organized.",
       "deal_clock": [
         {
-          "date": "Jul 16, 2026",
-          "event": "Lilly agrees to acquire AtaiBeckley ($6.75 + up to $2.50 CVR)"
-        },
-        {
           "date": "Jul 30, 2026",
-          "event": "AtaiBeckley files PREM14A"
+          "event": "Nscale agrees to acquire Anyscale (terms undisclosed)"
         }
       ],
-      "source": "SEC EDGAR — AtaiBeckley PREM14A",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/2081043/000114036126030109/ny20078129x1_prem14a.htm",
+      "source": "PR Newswire (Nscale release)",
+      "source_url": "https://www.prnewswire.com/news-releases/nscale-acquires-anyscale-enhancing-its-full-stack-ai-cloud-platform-302838058.html",
       "published": "2026-07-30",
-      "confidence": "Filed",
+      "confidence": "Reported",
       "tags": [
-        "biopharma",
-        "take-out",
-        "cvr"
+        "technology",
+        "ai-infrastructure",
+        "merger"
       ]
     },
     {
@@ -99,74 +95,74 @@
       "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Evercore",
-      "headline": "Evercore advises DarkVision (Koch) as Blackstone agrees to acquire the inspection-tech maker; Stifel and Guggenheim advise Blackstone",
-      "why_it_matters": "Blackstone Energy Transition Partners agreed to acquire DarkVision Technologies — an ultrasound/non-destructive inspection-technology maker for energy and industrial infrastructure — from Koch Engineered Solutions (terms undisclosed). The release names Evercore as financial adviser to DarkVision/Koch (sell-side) and Stifel and Guggenheim Securities as financial advisers to Blackstone (buy-side). A sponsor buyout carved out of a strategic runs contract, IP, and separation diligence to close.",
-      "suggested_action": "Reach out to Evercore (DarkVision/Koch) and Stifel/Guggenheim (Blackstone) — a carve-out of an industrial-tech asset to a sponsor runs IP, contract, and separation diligence a secure room keeps organized.",
+      "bank": "JPMorgan",
+      "headline": "JPMorgan advises Group 1 Automotive on its ~$1.3B acquisition of Hennessy’s Atlanta dealership group",
+      "why_it_matters": "Group 1 Automotive (GPI) agreed to acquire the Hennessy Automobile Companies dealership group in the Atlanta market for ~$1.3B (inclusive of blue sky, real estate, and operating assets; ~$1.7B annualized revenue), expected to close by year-end 2026. The release names J.P. Morgan as exclusive financial adviser to Group 1 (buy-side); Kerrigan Advisors advised Hennessy. A large multi-store dealership acquisition runs real-estate, OEM-approval, and operating diligence to close.",
+      "suggested_action": "Reach out to JPMorgan (Group 1) — a ~$1.3B dealership-cluster acquisition runs real-estate, OEM-approval, and operating diligence a data room supports.",
       "deal_clock": [
         {
           "date": "Jul 30, 2026",
-          "event": "Blackstone agrees to acquire DarkVision from Koch"
+          "event": "Group 1 agrees to acquire Hennessy dealerships (~$1.3B)"
         }
       ],
-      "source": "StockTitan (Blackstone release)",
-      "source_url": "https://www.stocktitan.net/news/BX/blackstone-energy-transition-partners-announces-agreement-to-acquire-k07zrdhy3fgi.html",
+      "source": "PR Newswire (Group 1 release)",
+      "source_url": "https://www.prnewswire.com/news-releases/group-1-agrees-to-acquire-hennessy-automobile-dealerships-in-the-atlanta-market-to-advance-proven-cluster-strategy-302838323.html",
       "published": "2026-07-30",
       "confidence": "Reported",
       "tags": [
-        "industrial-tech",
-        "carve-out",
-        "sponsor"
+        "auto-retail",
+        "acquisition",
+        "real-estate"
       ]
     },
     {
       "id": "s4",
       "category": "M&A",
-      "urgency": "MEDIUM",
+      "urgency": "LOW",
       "scope": "bank",
-      "bank": "Centerview",
-      "headline": "Centerview advises MIMEDX on its ~$350M cash-and-stock acquisition of Sanara MedTech; Truist advises Sanara",
-      "why_it_matters": "MIMEDX Group (MDXG) agreed to acquire Sanara MedTech (SMTI) in a cash-and-stock deal at $35.00/share ($33.00 cash + 0.4735 MIMEDX shares), ~$350M enterprise value, roughly doubling MIMEDX’s surgical revenue and extending it into collagen, wound irrigation, and bone-fixation products. The release names Centerview as exclusive adviser to MIMEDX (buy-side) and Truist as exclusive adviser to Sanara (sell-side). A stock-inclusive strategic acquisition runs S-4 and confirmatory diligence toward close.",
-      "suggested_action": "Engage Centerview (MIMEDX) on the Sanara acquisition — a cash-and-stock strategic combination runs S-4 registration and confirmatory diligence a data room supports.",
+      "bank": "Goldman Sachs",
+      "headline": "Goldman and Harris Williams advise JT Thorpe as Truelink Capital agrees to acquire the industrial-services platform from H.I.G.",
+      "why_it_matters": "Truelink Capital signed a definitive agreement to acquire JT Thorpe Group — a provider of mission-critical specialty industrial maintenance and thermal-management services — from H.I.G. Capital (terms undisclosed), Truelink’s third Fund II platform. The release names Goldman Sachs and Harris Williams as financial advisers to JT Thorpe (sell-side). A sponsor-to-sponsor buyout runs contract, safety-record, and QofE diligence to close.",
+      "suggested_action": "Note Goldman/Harris Williams on the JT Thorpe sale — a sponsor-to-sponsor industrial-services buyout runs contract and quality-of-earnings diligence a secure room organizes.",
       "deal_clock": [
         {
-          "date": "Jul 29, 2026",
-          "event": "MIMEDX agrees to acquire Sanara at $35.00/share (~$350M EV)"
+          "date": "Jul 30, 2026",
+          "event": "Truelink signs agreement to acquire JT Thorpe from H.I.G."
         }
       ],
-      "source": "Yahoo Finance (GlobeNewswire syndication)",
-      "source_url": "https://finance.yahoo.com/healthcare/articles/mimedx-acquire-sanara-medtech-200100791.html",
-      "published": "2026-07-29",
+      "source": "PR Newswire (Truelink release)",
+      "source_url": "https://www.prnewswire.com/news-releases/truelink-capital-signs-definitive-agreement-to-acquire-jt-thorpe-group-a-leading-provider-of-mission-critical-specialty-industrial-maintenance-and-thermal-management-services-302838631.html",
+      "published": "2026-07-30",
       "confidence": "Reported",
       "tags": [
-        "medtech",
-        "cash-and-stock",
-        "regenerative-medicine"
+        "industrials",
+        "sponsor",
+        "buyout"
       ]
     },
     {
       "id": "s5",
       "category": "M&A",
-      "urgency": "MEDIUM",
+      "urgency": "LOW",
       "scope": "bank",
-      "bank": "JPMorgan",
-      "headline": "JPMorgan and RBC advise Blackbeard as the $2.2B PBT / US Land Guild combination signs a definitive agreement",
-      "why_it_matters": "SoftVest and Blackbeard signed a definitive agreement for the ~$2.2B combination of Permian Basin Royalty Trust (PBT) with US Land Guild to form PBT Land and Minerals (“New PBT”), a Form 425 (Jul 30) confirmed. The filing names J.P. Morgan and RBC Capital Markets as financial advisers to Blackbeard (buy-side) and Stephens as adviser to SoftVest. Signing a royalty-to-operating-company conversion runs asset, title, and reserve diligence into a unitholder vote.",
-      "suggested_action": "Engage JPMorgan and RBC (Blackbeard) on the now-signed PBT combination — a royalty-to-operating conversion runs concentrated reserve and title diligence into the vote.",
+      "bank": "Piper Sandler",
+      "headline": "Piper Sandler advises American Community Bancorp as Alma Bank agrees to acquire it, creating a ~$2B NY/NJ franchise",
+      "why_it_matters": "Alma Bank agreed to acquire American Community Bank (American Community Bancorp), creating a ~$2.0B-asset community-banking franchise across New York and New Jersey (terms undisclosed). The release names Piper Sandler as financial adviser to American Community Bancorp (sell-side); Keefe, Bruyette & Woods advised Alma Bank. A community-bank merger runs regulatory-application and confirmatory diligence toward close.",
+      "suggested_action": "Engage Piper Sandler (American Community Bancorp) — a community-bank combination runs regulatory-application and confirmatory diligence a data room supports.",
       "deal_clock": [
         {
           "date": "Jul 30, 2026",
-          "event": "SoftVest & Blackbeard sign definitive agreement for $2.2B PBT combination"
+          "event": "Alma Bank agrees to acquire American Community Bank (~$2B franchise)"
         }
       ],
-      "source": "SEC EDGAR — SoftVest/PBT Form 425",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/319654/000121390026083015/ea029961601-425_soft.htm",
+      "source": "PR Newswire (Alma Bank release)",
+      "source_url": "https://www.prnewswire.com/news-releases/alma-bank-announces-agreement-to-acquire-american-community-bank-creating-a-premier-community-banking-franchise-across-new-york-and-new-jersey-302839576.html",
       "published": "2026-07-30",
-      "confidence": "Filed",
+      "confidence": "Reported",
       "tags": [
-        "energy",
-        "royalty-trust",
-        "combination"
+        "community-banking",
+        "merger",
+        "northeast"
       ]
     },
     {
@@ -174,12 +170,12 @@
       "category": "MACRO",
       "urgency": "MEDIUM",
       "scope": "market",
-      "headline": "Advisory stocks slide again even as the tape steadies: GS -5.5%, EVR -7.8%, LAZ -6.2% while the S&P holds ~flat",
-      "why_it_matters": "US equities steadied Jul 30 — S&P 500 ~flat (+0.1% to ~7,416), Dow +0.5% (~51,953), Nasdaq -0.1% (~25,105), Russell 2000 -0.6% — with the VIX easing to ~18.4 and the 10Y ticking down to ~4.66%. WTI firmed ~1.6% to ~$84. But advisory names kept selling off hard: Goldman -5.5%, Evercore -7.8%, Lazard -6.2%, Morgan Stanley -2.9%, PJT -1.9% (a two-day drawdown across the group, earnings/estimate-driven). A softer advisory tape doesn’t slow signed processes — it sharpens the case for certainty of execution.",
-      "suggested_action": "Frame outreach around execution certainty — with the advisory complex under pressure but deal signings steady, clients want their live processes to stay on schedule; room readiness protects the timeline.",
+      "headline": "Indices rally into month-end but advisory stocks slide a third day: S&P +0.4%, Nasdaq +0.8% while GS -3.6%, EVR -5.6%, LAZ -4.8%",
+      "why_it_matters": "US equities rallied Jul 31 into month-end — S&P 500 +0.4% (~7,442), Nasdaq +0.8% (~25,185), Dow +0.6% (~52,246), though the Russell 2000 slipped -0.3% — with the VIX easing to ~17.5 and WTI jumping ~3.5% to ~$85.50; the 10Y backed up to ~4.73%. But advisory names extended their drawdown for a third straight session: Goldman -3.6%, Evercore -5.6%, Lazard -4.8%, Jefferies -1.9%, Morgan Stanley -1.6% (Moelis and PJT bucked the trend, +1.6% / +0.2%). A weak advisory tape against a firm market doesn’t slow signed processes — it sharpens the case for certainty of execution.",
+      "suggested_action": "Frame outreach around execution certainty — with the advisory complex under pressure into August but signings steady, clients want their live processes to stay on schedule; room readiness protects the timeline.",
       "source": "Yahoo Finance",
-      "source_url": "https://finance.yahoo.com/quote/%5EDJI/",
-      "published": "2026-07-30"
+      "source_url": "https://finance.yahoo.com/quote/%5EGSPC/",
+      "published": "2026-07-31"
     }
   ],
   "opportunities": [
@@ -207,7 +203,7 @@
       "confidence": "Filed",
       "first_seen": "2026-07-30",
       "last_confirmed": "2026-07-30",
-      "carry_badge": "NEW"
+      "carry_badge": "Day 2"
     },
     {
       "id": "o2",
@@ -233,7 +229,7 @@
       "confidence": "Filed",
       "first_seen": "2026-07-30",
       "last_confirmed": "2026-07-30",
-      "carry_badge": "NEW"
+      "carry_badge": "Day 2"
     },
     {
       "id": "o3",
@@ -259,214 +255,162 @@
       "confidence": "Filed",
       "first_seen": "2026-07-29",
       "last_confirmed": "2026-07-29",
-      "carry_badge": "Day 2"
+      "carry_badge": "Day 3"
     },
     {
       "id": "o4",
-      "bank": "Evercore",
-      "sector": "Industrials",
+      "bank": "JPMorgan",
+      "sector": "Retail / Convenience",
       "urgency": "HOT",
-      "headline": "Adviser (with Goldman) to Arcosa's board on its $150/share, ~$5.4B take-private by CRH",
-      "why_it_matters": "Evercore and Goldman Sachs both advise the Arcosa (ACA) board on its all-cash $150.00/share sale to CRH Americas, each delivering a fairness opinion. Arcosa filed its preliminary proxy Jul 24 — a large-cap industrial take-private advancing to the shareholder vote with concentrated confirmatory diligence.",
+      "headline": "Buy-side adviser to Couche-Tard on its ~$8.6B tender offer for Żabka Group",
+      "why_it_matters": "J.P. Morgan is exclusive financial adviser to Alimentation Couche-Tard on its ~US$8.6B (PLN 32.00/share) voluntary tender offer for control of Warsaw-listed convenience operator Żabka Group, announced Jul 31; JPMorgan is also lead arranger on the debt. Goldman advises Żabka (sell-side). A cross-border public tender runs concentrated regulatory, financing, and confirmatory diligence toward the offer close.",
       "deal_clock": [
         {
-          "date": "Jul 24, 2026",
-          "event": "Arcosa files PREM14A; $150.00/share cash from CRH"
+          "date": "Jul 31, 2026",
+          "event": "Couche-Tard launches PLN 32.00/share tender for Żabka"
         }
       ],
-      "outreach_idea": "Engage Evercore's (and Goldman's) industrials coverage on Arcosa/CRH — a dual-adviser take-private advancing to a vote runs concentrated confirmatory diligence.",
+      "outreach_idea": "Open with JPMorgan (Couche-Tard) — a ~$8.6B cross-border tender for a listed retailer runs securities-regulator, financing, and confirmatory diligence a secure room is built for.",
       "outreach_draft": {
-        "subject": "Arcosa / CRH — supporting a take-private to the vote",
-        "body": "Congratulations on Evercore's role advising Arcosa on its sale to CRH. Large-cap take-privates with a dual-adviser board run concentrated confirmatory diligence through the shareholder vote — would welcome a conversation on how we support secure, auditable data-room access to close.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+        "subject": "Couche-Tard / Żabka — supporting a cross-border tender",
+        "body": "Congratulations on J.P. Morgan’s role advising Couche-Tard on its tender offer for Żabka Group. Cross-border public tenders run securities-regulator, financing, and confirmatory diligence toward the offer close — would welcome a conversation on how we support secure, auditable data-room access across the process.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
       },
-      "source": "SEC EDGAR — Arcosa PREM14A",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1739445/000114036126029608/ny20076790x1_prem14a.htm",
-      "published": "2026-07-24",
-      "confidence": "Filed",
-      "first_seen": "2026-07-28",
-      "last_confirmed": "2026-07-28",
-      "carry_badge": "Day 3"
+      "source": "PR Newswire (Couche-Tard release)",
+      "source_url": "https://www.prnewswire.com/news-releases/alimentation-couche-tard-announces-agreement-to-acquire-controlling-stake-in-abka-group-and-launches-voluntary-tender-offer-302839695.html",
+      "published": "2026-07-31",
+      "confidence": "Reported",
+      "first_seen": "2026-07-31",
+      "last_confirmed": "2026-07-31",
+      "carry_badge": "NEW"
     },
     {
       "id": "o5",
-      "bank": "Jefferies",
-      "sector": "Shipping / Transportation",
+      "bank": "Goldman Sachs",
+      "sector": "Retail / Convenience",
       "urgency": "HOT",
-      "headline": "Adviser (with Morgan Stanley) to Genco on its defense against Diana Shipping's $24.80 hostile tender",
-      "why_it_matters": "Jefferies is financial adviser and Morgan Stanley special adviser to the Genco Shipping (GNK) board, which filed an SC 14D9 Jul 23 recommending shareholders NOT tender into Diana Shipping's $24.80/share hostile offer. A live contested tender fight — defense mandates move fast and lean on secure rooms.",
+      "headline": "Sell-side adviser to Żabka Group on its ~$8.6B sale of control to Couche-Tard",
+      "why_it_matters": "Goldman Sachs is exclusive financial adviser to Żabka Group on the ~US$8.6B (PLN 32.00/share) sale of a controlling stake to Alimentation Couche-Tard via voluntary tender, announced Jul 31. J.P. Morgan advises Couche-Tard (buy-side). A sell-side of a Warsaw-listed retailer runs cross-border regulatory and confirmatory diligence toward the offer close.",
       "deal_clock": [
         {
-          "date": "Jul 23, 2026",
-          "event": "Genco files SC 14D9; board recommends against Diana's tender"
+          "date": "Jul 31, 2026",
+          "event": "Żabka agrees to Couche-Tard control stake at PLN 32.00/share"
         }
       ],
-      "outreach_idea": "Engage Jefferies (and Morgan Stanley) on the Genco defense — contested tenders lean on secure data rooms and rapid adviser collaboration as the board response develops.",
+      "outreach_idea": "Engage Goldman (Żabka) — a cross-border sell-side of a listed retailer runs securities-regulator and confirmatory diligence to the offer close.",
       "outreach_draft": {
-        "subject": "Genco / Diana — supporting a live tender defense",
-        "body": "Congratulations on Jefferies's role advising Genco on its response to Diana Shipping. Contested tender defenses run fast, document-intensive workstreams across advisers and the board — would welcome a conversation on how we support secure, auditable data-room access under a tight clock.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+        "subject": "Żabka / Couche-Tard — supporting a cross-border sell-side",
+        "body": "Congratulations on Goldman’s role advising Żabka Group on its sale of control to Couche-Tard. Cross-border sell-sides of listed companies run securities-regulator and confirmatory diligence toward the tender close — would welcome a conversation on how we support secure, auditable data-room access through the process.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
       },
-      "source": "SEC EDGAR — Genco SC 14D9 exhibit",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1326200/000114036126029428/ef20078433_ex99-a68.htm",
-      "published": "2026-07-23",
-      "confidence": "Filed",
-      "first_seen": "2026-07-28",
-      "last_confirmed": "2026-07-28",
-      "carry_badge": "Day 3"
+      "source": "PR Newswire (Couche-Tard release)",
+      "source_url": "https://www.prnewswire.com/news-releases/alimentation-couche-tard-announces-agreement-to-acquire-controlling-stake-in-abka-group-and-launches-voluntary-tender-offer-302839695.html",
+      "published": "2026-07-31",
+      "confidence": "Reported",
+      "first_seen": "2026-07-31",
+      "last_confirmed": "2026-07-31",
+      "carry_badge": "NEW"
     },
     {
       "id": "o6",
-      "bank": "Bank of America",
-      "sector": "Financial Services / Market Structure",
-      "urgency": "HOT",
-      "headline": "Buy-side adviser to ICE on its $167/share, ~$6B acquisition of MarketAxess",
-      "why_it_matters": "BofA Securities advises Intercontinental Exchange (ICE) on its all-cash $167.00/share (~$6.0B equity / ~$5.7B EV) acquisition of fixed-income trading platform MarketAxess (MKTX), announced Jul 30 at a 33% premium. J.P. Morgan advises MarketAxess (sell-side). A take-out of a regulated trading venue runs antitrust and market-structure review alongside confirmatory diligence to a shareholder vote.",
+      "bank": "Goldman Sachs",
+      "sector": "Technology / AI Infrastructure",
+      "urgency": "WARM",
+      "headline": "Lead adviser (with Morgan Stanley) to Nscale on its acquisition of Anyscale",
+      "why_it_matters": "Goldman Sachs International is lead financial adviser and Morgan Stanley financial adviser to AI cloud provider Nscale on its acquisition of AI-compute platform Anyscale (terms undisclosed), expected to close H2 2026; Qatalyst advised Anyscale. An AI-infrastructure combination runs IP, customer-contract, and technical diligence across two fast-scaling platforms.",
       "deal_clock": [
         {
           "date": "Jul 30, 2026",
-          "event": "ICE agrees to acquire MarketAxess (~$6.0B)"
+          "event": "Nscale agrees to acquire Anyscale"
         }
       ],
-      "outreach_idea": "Open with BofA (ICE) — a $6B acquisition of a regulated exchange runs concentrated antitrust and confirmatory diligence a secure room is built for.",
+      "outreach_idea": "Engage Goldman/Morgan Stanley (Nscale) — an AI-infrastructure acquisition runs IP and technical diligence a secure room keeps organized.",
       "outreach_draft": {
-        "subject": "ICE / MarketAxess — supporting a market-structure acquisition",
-        "body": "Congratulations on BofA’s role advising ICE on its acquisition of MarketAxess. Take-outs of regulated trading platforms run antitrust and market-structure review alongside confirmatory diligence toward the vote — would welcome a conversation on how we support secure, auditable data-room access across the process.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+        "subject": "Nscale / Anyscale — supporting an AI-infrastructure deal",
+        "body": "Congratulations on Goldman’s and Morgan Stanley’s roles advising Nscale on its acquisition of Anyscale. AI-infrastructure combinations run IP, customer-contract, and technical diligence across fast-scaling platforms — would welcome a conversation on how we support secure, auditable data-room access.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
       },
-      "source": "StockTitan (ICE release)",
-      "source_url": "https://www.stocktitan.net/news/ICE/intercontinental-exchange-to-acquire-market-axess-creating-a-premier-lw6rmpgt62px.html",
+      "source": "PR Newswire (Nscale release)",
+      "source_url": "https://www.prnewswire.com/news-releases/nscale-acquires-anyscale-enhancing-its-full-stack-ai-cloud-platform-302838058.html",
       "published": "2026-07-30",
       "confidence": "Reported",
-      "first_seen": "2026-07-30",
-      "last_confirmed": "2026-07-30",
+      "first_seen": "2026-07-31",
+      "last_confirmed": "2026-07-31",
       "carry_badge": "NEW"
     },
     {
       "id": "o7",
       "bank": "JPMorgan",
-      "sector": "Financial Services / Market Structure",
-      "urgency": "HOT",
-      "headline": "Sell-side adviser to MarketAxess on its $167/share, ~$6B sale to ICE",
-      "why_it_matters": "J.P. Morgan advises MarketAxess (MKTX) on its all-cash $167.00/share sale to Intercontinental Exchange (~$6.0B equity value), announced Jul 30 at a 33% premium. BofA advises ICE (buy-side). A public-company sale of a regulated fixed-income venue runs confirmatory and regulatory diligence toward a stockholder vote.",
+      "sector": "Auto Retail",
+      "urgency": "WARM",
+      "headline": "Buy-side adviser to Group 1 Automotive on its ~$1.3B acquisition of Hennessy’s Atlanta dealerships",
+      "why_it_matters": "J.P. Morgan is exclusive financial adviser to Group 1 Automotive (GPI) on its ~$1.3B acquisition of the Hennessy Automobile Companies dealership group in Atlanta (~$1.7B annualized revenue), announced Jul 30, expected to close by year-end 2026. A multi-store dealership acquisition runs real-estate, OEM-approval, and operating diligence to close.",
       "deal_clock": [
         {
           "date": "Jul 30, 2026",
-          "event": "MarketAxess agrees to $167/share sale to ICE"
+          "event": "Group 1 agrees to acquire Hennessy dealerships (~$1.3B)"
         }
       ],
-      "outreach_idea": "Engage JPMorgan (MarketAxess) — a sell-side of a regulated trading platform runs concentrated confirmatory and market-structure diligence to the vote.",
+      "outreach_idea": "Reach out to JPMorgan (Group 1) — a ~$1.3B dealership-cluster acquisition runs real-estate and OEM-approval diligence a data room supports.",
       "outreach_draft": {
-        "subject": "MarketAxess / ICE — supporting a sell-side to the vote",
-        "body": "Congratulations on J.P. Morgan’s role advising MarketAxess on its sale to ICE. Sell-sides of regulated trading venues run confirmatory and regulatory diligence toward the stockholder vote — would welcome a conversation on how we support secure, auditable data-room access through close.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+        "subject": "Group 1 / Hennessy — supporting a dealership acquisition",
+        "body": "Congratulations on J.P. Morgan’s role advising Group 1 Automotive on its acquisition of the Hennessy dealership group. Large dealership deals run real-estate, OEM-approval, and operating diligence to close — would welcome a conversation on how we support secure, auditable data-room access.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
       },
-      "source": "StockTitan (ICE release)",
-      "source_url": "https://www.stocktitan.net/news/ICE/intercontinental-exchange-to-acquire-market-axess-creating-a-premier-lw6rmpgt62px.html",
+      "source": "PR Newswire (Group 1 release)",
+      "source_url": "https://www.prnewswire.com/news-releases/group-1-agrees-to-acquire-hennessy-automobile-dealerships-in-the-atlanta-market-to-advance-proven-cluster-strategy-302838323.html",
       "published": "2026-07-30",
       "confidence": "Reported",
-      "first_seen": "2026-07-30",
-      "last_confirmed": "2026-07-30",
+      "first_seen": "2026-07-31",
+      "last_confirmed": "2026-07-31",
       "carry_badge": "NEW"
     },
     {
       "id": "o8",
-      "bank": "JPMorgan",
-      "sector": "Energy / Oil & Gas",
+      "bank": "Goldman Sachs",
+      "sector": "Industrials / Business Services",
       "urgency": "WARM",
-      "headline": "Adviser (with RBC) to Blackbeard on the now-signed $2.2B PBT / US Land Guild combination",
-      "why_it_matters": "J.P. Morgan (with RBC) advises Blackbeard on the ~$2.2B combination of Permian Basin Royalty Trust (PBT) with US Land Guild to form PBT Land and Minerals. A Form 425 filed Jul 30 confirmed the definitive agreement is signed — a royalty-to-operating-company conversion heading to a unitholder vote with concentrated reserve and title diligence.",
+      "headline": "Sell-side adviser (with Harris Williams) to JT Thorpe on its sale to Truelink Capital",
+      "why_it_matters": "Goldman Sachs and Harris Williams are financial advisers to JT Thorpe Group — a mission-critical specialty industrial maintenance and thermal-management services provider — on its sale by H.I.G. Capital to Truelink Capital (terms undisclosed), announced Jul 30. A sponsor-to-sponsor buyout runs contract, safety-record, and quality-of-earnings diligence to close.",
       "deal_clock": [
         {
           "date": "Jul 30, 2026",
-          "event": "Definitive agreement signed for $2.2B PBT combination"
+          "event": "Truelink signs agreement to acquire JT Thorpe from H.I.G."
         }
       ],
-      "outreach_idea": "Engage JPMorgan/RBC (Blackbeard) on the signed PBT combination — a royalty-to-operating conversion runs reserve and title diligence into the vote.",
+      "outreach_idea": "Note Goldman/Harris Williams (JT Thorpe) — a sponsor-to-sponsor industrial-services buyout runs contract and QofE diligence a data room organizes.",
       "outreach_draft": {
-        "subject": "PBT / US Land Guild — supporting a signed royalty-trust combination",
-        "body": "Congratulations on J.P. Morgan’s role advising Blackbeard on the now-signed Permian Basin Royalty Trust combination. Converting a royalty trust into an operating company runs reserve, title, and asset diligence toward the unitholder vote — would welcome a conversation on how we support secure, auditable data-room access.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+        "subject": "JT Thorpe / Truelink — supporting a sponsor-to-sponsor sale",
+        "body": "Congratulations on Goldman’s role advising JT Thorpe on its sale to Truelink Capital. Sponsor-to-sponsor buyouts run contract, safety-record, and quality-of-earnings diligence to close — would welcome a conversation on how we support secure, auditable data-room access across the process.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
       },
-      "source": "SEC EDGAR — SoftVest/PBT Form 425",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/319654/000121390026082512/ea029960901-425_pbt.htm",
+      "source": "PR Newswire (Truelink release)",
+      "source_url": "https://www.prnewswire.com/news-releases/truelink-capital-signs-definitive-agreement-to-acquire-jt-thorpe-group-a-leading-provider-of-mission-critical-specialty-industrial-maintenance-and-thermal-management-services-302838631.html",
       "published": "2026-07-30",
-      "confidence": "Filed",
-      "first_seen": "2026-07-30",
-      "last_confirmed": "2026-07-30",
+      "confidence": "Reported",
+      "first_seen": "2026-07-31",
+      "last_confirmed": "2026-07-31",
       "carry_badge": "NEW"
     },
     {
       "id": "o9",
-      "bank": "Evercore",
-      "sector": "Industrial Technology",
+      "bank": "Piper Sandler",
+      "sector": "Community Banking",
       "urgency": "WARM",
-      "headline": "Sell-side adviser to DarkVision (Koch) on its sale to Blackstone",
-      "why_it_matters": "Evercore advises DarkVision Technologies and Koch Engineered Solutions on the sale of the ultrasound/non-destructive inspection-tech maker to Blackstone Energy Transition Partners (terms undisclosed). Stifel and Guggenheim advise Blackstone (buy-side). A carve-out of an industrial-tech asset to a sponsor runs IP, contract, and separation diligence to close.",
+      "headline": "Sell-side adviser to American Community Bancorp on its sale to Alma Bank",
+      "why_it_matters": "Piper Sandler is financial adviser to American Community Bancorp on its sale to Alma Bank, creating a ~$2.0B-asset community-banking franchise across New York and New Jersey (terms undisclosed), announced Jul 30; KBW advised Alma Bank. A community-bank merger runs regulatory-application and confirmatory diligence toward close.",
       "deal_clock": [
         {
           "date": "Jul 30, 2026",
-          "event": "Blackstone agrees to acquire DarkVision from Koch"
+          "event": "Alma Bank agrees to acquire American Community Bank"
         }
       ],
-      "outreach_idea": "Reach out to Evercore (DarkVision/Koch) — a carve-out to a sponsor runs IP and separation diligence a data room organizes.",
+      "outreach_idea": "Engage Piper Sandler (American Community Bancorp) — a community-bank combination runs regulatory-application and confirmatory diligence a data room supports.",
       "outreach_draft": {
-        "subject": "DarkVision / Blackstone — supporting a carve-out sell-side",
-        "body": "Congratulations on Evercore’s role advising DarkVision and Koch on the sale to Blackstone. Carve-outs of technology assets to sponsors run IP, contract, and separation diligence across shared rooms — would welcome a conversation on how we support secure, auditable access through the separation.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+        "subject": "American Community / Alma Bank — supporting a bank merger",
+        "body": "Congratulations on Piper Sandler’s role advising American Community Bancorp on its sale to Alma Bank. Community-bank mergers run regulatory-application and confirmatory diligence toward close — would welcome a conversation on how we support secure, auditable data-room access through the process.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
       },
-      "source": "StockTitan (Blackstone release)",
-      "source_url": "https://www.stocktitan.net/news/BX/blackstone-energy-transition-partners-announces-agreement-to-acquire-k07zrdhy3fgi.html",
+      "source": "PR Newswire (Alma Bank release)",
+      "source_url": "https://www.prnewswire.com/news-releases/alma-bank-announces-agreement-to-acquire-american-community-bank-creating-a-premier-community-banking-franchise-across-new-york-and-new-jersey-302839576.html",
       "published": "2026-07-30",
       "confidence": "Reported",
-      "first_seen": "2026-07-30",
-      "last_confirmed": "2026-07-30",
-      "carry_badge": "NEW"
-    },
-    {
-      "id": "o10",
-      "bank": "Guggenheim",
-      "sector": "Industrial Technology",
-      "urgency": "WARM",
-      "headline": "Adviser (with Stifel) to Blackstone on its acquisition of DarkVision from Koch",
-      "why_it_matters": "Guggenheim Securities and Stifel advise Blackstone Energy Transition Partners on its acquisition of DarkVision Technologies — a non-destructive inspection-tech maker — from Koch Engineered Solutions (terms undisclosed). Evercore advises the seller. A sponsor buyout of a carved-out asset runs buy-side confirmatory, IP, and separation diligence to close.",
-      "deal_clock": [
-        {
-          "date": "Jul 30, 2026",
-          "event": "Blackstone agrees to acquire DarkVision"
-        }
-      ],
-      "outreach_idea": "Engage Guggenheim/Stifel (Blackstone) — a sponsor buyout of a carved-out tech asset runs buy-side and separation diligence a secure room supports.",
-      "outreach_draft": {
-        "subject": "Blackstone / DarkVision — supporting a sponsor buy-side",
-        "body": "Congratulations on Guggenheim’s role advising Blackstone on its acquisition of DarkVision. Sponsor buyouts of carved-out assets run confirmatory, IP, and separation diligence toward close — would welcome a conversation on how we support secure, auditable data-room access across the process.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
-      },
-      "source": "StockTitan (Blackstone release)",
-      "source_url": "https://www.stocktitan.net/news/BX/blackstone-energy-transition-partners-announces-agreement-to-acquire-k07zrdhy3fgi.html",
-      "published": "2026-07-30",
-      "confidence": "Reported",
-      "first_seen": "2026-07-30",
-      "last_confirmed": "2026-07-30",
-      "carry_badge": "NEW"
-    },
-    {
-      "id": "o11",
-      "bank": "Centerview",
-      "sector": "MedTech / Healthcare",
-      "urgency": "WARM",
-      "headline": "Buy-side adviser to MIMEDX on its ~$350M acquisition of Sanara MedTech",
-      "why_it_matters": "Centerview advises MIMEDX Group (MDXG) on its cash-and-stock acquisition of Sanara MedTech (SMTI) at $35.00/share ($33.00 cash + 0.4735 MIMEDX shares), ~$350M EV, announced Jul 29. Truist advises Sanara (sell-side). A stock-inclusive strategic acquisition runs S-4 registration and confirmatory diligence toward close.",
-      "deal_clock": [
-        {
-          "date": "Jul 29, 2026",
-          "event": "MIMEDX agrees to acquire Sanara (~$350M EV)"
-        }
-      ],
-      "outreach_idea": "Engage Centerview (MIMEDX) — a cash-and-stock strategic combination runs S-4 and confirmatory diligence a data room supports.",
-      "outreach_draft": {
-        "subject": "MIMEDX / Sanara — supporting a cash-and-stock combination",
-        "body": "Congratulations on Centerview’s role advising MIMEDX on its acquisition of Sanara MedTech. Cash-and-stock combinations run S-4 registration and confirmatory diligence through close — would welcome a conversation on how we support secure, auditable data-room access across the process.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
-      },
-      "source": "Yahoo Finance (GlobeNewswire syndication)",
-      "source_url": "https://finance.yahoo.com/healthcare/articles/mimedx-acquire-sanara-medtech-200100791.html",
-      "published": "2026-07-29",
-      "confidence": "Reported",
-      "first_seen": "2026-07-30",
-      "last_confirmed": "2026-07-30",
+      "first_seen": "2026-07-31",
+      "last_confirmed": "2026-07-31",
       "carry_badge": "NEW"
     }
   ],
@@ -474,113 +418,113 @@
     "indices": [
       {
         "label": "S&P 500",
-        "value": "7,415.99",
-        "change": "+7.69 (+0.10%)",
+        "value": "7,442.16",
+        "change": "+30.18 (+0.41%)",
         "positive": true
       },
       {
         "label": "Nasdaq Composite",
-        "value": "25,105.48",
-        "change": "-32.21 (-0.13%)",
-        "positive": false
+        "value": "25,185.32",
+        "change": "+209.50 (+0.84%)",
+        "positive": true
       },
       {
         "label": "Dow Jones",
-        "value": "51,952.85",
-        "change": "+241.20 (+0.47%)",
+        "value": "52,245.90",
+        "change": "+298.65 (+0.57%)",
         "positive": true
       },
       {
         "label": "Russell 2000",
-        "value": "2,921.30",
-        "change": "-18.86 (-0.64%)",
+        "value": "2,920.42",
+        "change": "-9.58 (-0.33%)",
         "positive": false
       },
       {
         "label": "CBOE VIX",
-        "value": "18.37",
-        "change": "-0.21 (-1.13%)",
+        "value": "17.50",
+        "change": "-1.17 (-6.27%)",
         "positive": true
       },
       {
         "label": "10Y Treasury",
-        "value": "4.659%",
-        "change": "-0.020 (-0.43%)",
-        "positive": true
+        "value": "4.726%",
+        "change": "+0.085 (+1.83%)",
+        "positive": false
       },
       {
         "label": "WTI Crude",
-        "value": "$83.96",
-        "change": "+$1.35 (+1.63%)",
+        "value": "$85.51",
+        "change": "+$2.90 (+3.51%)",
         "positive": true
       }
     ],
     "bank_stocks": [
       {
         "ticker": "GS",
-        "price": "$1,015.31",
-        "change": "-5.53%",
+        "price": "$1,022.67",
+        "change": "-3.63%",
         "positive": false
       },
       {
         "ticker": "MS",
-        "price": "$208.92",
-        "change": "-2.91%",
+        "price": "$211.08",
+        "change": "-1.59%",
         "positive": false
       },
       {
         "ticker": "JPM",
-        "price": "$348.89",
-        "change": "-0.29%",
+        "price": "$352.55",
+        "change": "-0.19%",
         "positive": false
       },
       {
         "ticker": "EVR",
-        "price": "$308.73",
-        "change": "-7.79%",
+        "price": "$320.48",
+        "change": "-5.64%",
         "positive": false
       },
       {
         "ticker": "LAZ",
-        "price": "$40.37",
-        "change": "-6.23%",
+        "price": "$42.22",
+        "change": "-4.81%",
         "positive": false
       }
     ],
-    "macro_note": "Steadier tape, weaker advisers on Jul 30: S&P 500 ~flat (+0.1% to 7,416), Dow +0.5% (51,953), Nasdaq -0.1% (25,105), Russell 2000 -0.6%, with the VIX easing to ~18.4 and the 10Y down to ~4.66%. WTI firmed ~1.6% to ~$84. But advisory names extended a two-day slide — GS -5.5%, EVR -7.8%, LAZ -6.2%, MS -2.9%, PJT -1.9% (earnings/estimate-driven). Values are LIVE INTRADAY levels captured ~10:30am EDT Jul 30 — not a settled close."
+    "macro_note": "Firm tape, weak advisers into month-end Jul 31: S&P 500 +0.4% (7,442), Nasdaq +0.8% (25,185), Dow +0.6% (52,246), Russell 2000 -0.3%, with the VIX easing to ~17.5 and WTI jumping ~3.5% to ~$85.50; the 10Y backed up to ~4.73%. Advisory names extended a third-day slide — GS -3.6%, EVR -5.6%, LAZ -4.8%, JEF -1.9%, MS -1.6% — though Moelis (+1.6%) and PJT (+0.2%) bucked it. Values are LIVE INTRADAY levels captured ~10:55am EDT Jul 31 — not a settled close."
   },
   "talking_point": {
-    "quote": "The advisory names are having a rough couple of days — Goldman, Evercore and Lazard all down hard again — but the deal calendar didn’t flinch: ICE agreed to buy MarketAxess for ~$6 billion, Lilly’s CVR-structured take-out of AtaiBeckley hit a proxy, Blackstone bought Koch’s DarkVision, and the $2.2B Permian royalty-trust combination signed. When bank stocks are volatile, the one thing clients control is execution — how are you thinking about room readiness on the deals you’re carrying into August?",
-    "use_with": "M&A, sponsors, financial-institutions, energy, and healthcare coverage teams (esp. BofA, JPMorgan, Goldman, Moelis, Centerview, Evercore, Guggenheim, Stifel)",
-    "context": "Pairs a Jul 30 advisory-stock drawdown with a dense filing/signing cycle — a natural way to open a room-readiness conversation as deals push toward August milestones.",
+    "quote": "The market firmed into month-end but the advisory names kept sliding for a third day — and yet the deal calendar was as busy as ever: Couche-Tard launched an ~$8.6B tender for Poland’s Żabka, Nscale bought an AI-compute platform, and three more mid-market deals signed across autos, industrials and banking. When bank stocks are volatile, the one thing clients control is execution — how are you thinking about room readiness on the deals you’re carrying into August?",
+    "use_with": "M&A, sponsors, retail/consumer, TMT, financial-institutions, and industrials coverage teams (esp. JPMorgan, Goldman, Morgan Stanley, Piper Sandler)",
+    "context": "Pairs a Jul 31 advisory-stock drawdown against a firm market with a cross-border, cross-sector signing day — a natural way to open a room-readiness conversation into August.",
     "confidence": "Reported"
   },
   "sector_heat": {
     "ranked": [
       {
-        "sector": "Financial Services / Market Structure",
-        "read": "ICE agrees to acquire MarketAxess for ~$6B at $167/share (BofA for ICE; JPMorgan for MarketAxess) — a regulated-venue take-out heading to a vote.",
-        "source_note": "StockTitan, Jul 30 2026"
+        "sector": "Retail / Convenience",
+        "read": "Couche-Tard launches a ~$8.6B (PLN 32.00/share) voluntary tender for control of Warsaw-listed Żabka Group (JPMorgan for Couche-Tard; Goldman for Żabka).",
+        "source_note": "PR Newswire, Jul 31 2026"
       },
       {
-        "sector": "Biopharma / Healthcare",
-        "read": "Eli Lilly’s $6.75 + CVR take-out of AtaiBeckley hits a preliminary proxy (Moelis, Centerview, Citi for the board; Goldman for Lilly); MIMEDX agrees to buy Sanara for ~$350M (Centerview; Truist).",
-        "source_note": "SEC EDGAR + GlobeNewswire, Jul 29-30 2026"
+        "sector": "Technology / AI Infrastructure",
+        "read": "Nscale agrees to acquire AI-compute platform Anyscale (Goldman lead + Morgan Stanley for Nscale; Qatalyst for Anyscale).",
+        "source_note": "PR Newswire, Jul 30 2026"
       },
       {
-        "sector": "Industrial Technology",
-        "read": "Blackstone agrees to acquire Koch’s DarkVision inspection-tech unit (Stifel, Guggenheim for Blackstone; Evercore for the seller).",
-        "source_note": "StockTitan, Jul 30 2026"
+        "sector": "Auto Retail",
+        "read": "Group 1 Automotive agrees to a ~$1.3B acquisition of Hennessy’s Atlanta dealership group (JPMorgan for Group 1).",
+        "source_note": "PR Newswire, Jul 30 2026"
       },
       {
-        "sector": "Energy / Oil & Gas",
-        "read": "The ~$2.2B Permian Basin Royalty Trust / US Land Guild combination signs a definitive agreement (JPMorgan, RBC for Blackbeard; Stephens for SoftVest).",
-        "source_note": "SEC EDGAR, Jul 30 2026"
+        "sector": "Industrials / Business Services",
+        "read": "Truelink Capital agrees to acquire JT Thorpe from H.I.G. Capital (Goldman, Harris Williams for JT Thorpe).",
+        "source_note": "PR Newswire, Jul 30 2026"
       },
       {
-        "sector": "Utilities / Power",
-        "read": "Dominion and NextEra’s utility mega-merger proxy (Goldman, JPMorgan / Lazard, BofA) continues to advance toward dual shareholder votes.",
-        "source_note": "SEC EDGAR, Jul 28 2026"
+        "sector": "Community Banking",
+        "read": "Alma Bank agrees to acquire American Community Bank, a ~$2B NY/NJ franchise (Piper Sandler for the target; KBW for Alma).",
+        "source_note": "PR Newswire, Jul 30 2026"
       }
     ]
   },
@@ -593,48 +537,63 @@
     "note": "Unconfirmed leads — rumored deals and situations with no adviser named yet (or advisers unconfirmed). Real reporting, but treat as speculative: chase them, don’t quote them on a call.",
     "items": [
       {
-        "company": "MarineMax (NYSE: HZO)",
+        "company": "Alkami Technology (Nasdaq: ALKT)",
         "bank": "unconfirmed",
-        "lead": "The boat/yacht retailer is reportedly in the final round of bidding for a take-private, with Blackstone, Donerail and Centerbridge among the suitors; shares jumped ~8% on the report. Follows a Donerail activist campaign that pushed the board to explore a sale.",
-        "why_unverified": "No deal announced and MarineMax has not confirmed a process; the \"final round\" and bidder list are sources-say reporting. Price and winning bidder unknown, and no sell-side adviser is named.",
-        "sector": "Consumer Discretionary / Marine Retail",
-        "source_note": "Yahoo Finance / StockStory, Jul 24 2026",
-        "source_url": "https://finance.yahoo.com/markets/stocks/articles/marinemax-hzo-shares-skyrocket-know-231308340.html",
+        "lead": "Activist JANA Partners (which holds a >10% economic stake) sent a letter urging Alkami to run a full, board-supervised sale process, claiming multiple strategic and financial buyers were rebuffed by the company’s lack of engagement and unrealistic value expectations; JANA is also seeking a board-leadership change.",
+        "why_unverified": "Bloomberg-originated reporting; Alkami has not confirmed the letter, the buyer interest, or any process. Buyer identities and any adviser are unknown. (Distinct from the Fiserv/JANA situation — same activist, different target.)",
+        "sector": "Fintech / Cloud Banking Software",
+        "source_note": "Investing.com (Bloomberg-sourced), Jul 31 2026",
+        "source_url": "https://www.investing.com/news/stock-market-news/activist-jana-said-to-urge-alkami-to-run-proper-sale-process-4828777",
         "confidence": "Speculative"
       },
       {
-        "company": "Fiserv (NYSE: FI)",
+        "company": "Leonardo (BIT: LDO) / Iveco Defence Vehicles",
         "bank": "unconfirmed",
-        "lead": "Activist JANA Partners sent Fiserv's board a Jul 30 letter urging a comprehensive review of its entire portfolio and backing a reported sale of its Star/Accel debit-network assets, after an ~80% stock drop from 2025 highs.",
-        "why_unverified": "The JANA letter is public/confirmed, but Fiserv has not confirmed a portfolio review, and the debit-network sale is anonymous-sourced (not formally announced). No adviser named in the letter.",
-        "sector": "Fintech / Payments",
-        "source_note": "Yahoo Finance (JANA Partners release), Jul 30 2026",
-        "source_url": "https://finance.yahoo.com/markets/stocks/articles/jana-partners-sends-letter-fiserv-140000973.html",
+        "lead": "Leonardo said it remains in non-binding talks with Germany’s Rheinmetall over selling part of Iveco Defence Vehicles — a “gentlemen’s agreement, but nothing formally binding” — and has fielded enquiries from other interested parties, framing a sale as one of several options.",
+        "why_unverified": "Leonardo acknowledges the talks (so not pure rumor), but there is no binding agreement, no price, and no chosen buyer; management calls a sale just one option among several. No adviser named.",
+        "sector": "Defense (Europe)",
+        "source_note": "Investing.com, Jul 31 2026",
+        "source_url": "https://www.investing.com/news/stock-market-news/leonardo-says-still-in-talks-with-rheinmetall-on-iveco-defence-sale-93CH-4828351",
         "confidence": "Speculative"
       },
       {
-        "company": "Shell (NYSE: SHEL) / Phillips 66 (NYSE: PSX)",
+        "company": "Virgin Media O2 (owners Telefónica / Liberty Global)",
         "bank": "unconfirmed",
-        "lead": "Reuters reports the two are weighing a sale of their combined stakes in the owner of the Explorer refined-products pipeline, a deal that could value the asset at ~$3.5B.",
-        "why_unverified": "Anonymous-sourced Reuters report; neither company has confirmed a process, and no adviser is named.",
-        "sector": "Energy / Midstream",
-        "source_note": "Reuters, Jul 29 2026",
-        "source_url": "https://www.reuters.com/legal/litigation/shell-phillips-66-weigh-sale-stakes-35-billion-us-pipeline-explorer-sources-say-2026-07-29/",
+        "lead": "Per an FT report, VMO2’s shareholders are weighing steps to address a ~£22bn debt pile after a sharp bond sell-off — options cited include cutting the ~£200M dividend, headcount reductions, and lower capex, the kind of balance-sheet pressure that often precedes asset disposals.",
+        "why_unverified": "Anonymous-sourced FT report; no confirmation from VMO2, Telefónica, or Liberty Global. The options discussed are restructuring/balance-sheet moves, not yet an outright asset sale, and no adviser is named.",
+        "sector": "Telecom (UK)",
+        "source_note": "Investing.com (FT-sourced), Jul 30 2026",
+        "source_url": "https://www.investing.com/news/stock-market-news/virgin-media-o2-owners-consider-options-to-cut-22bn-debt-ft-reports-93CH-4822317",
         "confidence": "Speculative"
       },
       {
-        "company": "Cashmere Valley Bank (OTC: CSHX)",
+        "company": "GE HealthCare (Nasdaq: GEHC) — Patient Care Solutions",
         "bank": "unconfirmed",
-        "lead": "Activist Down Range Capital is publicly pressing the ~$2.3B-asset Washington community bank to sell itself, pegging a sale at $125–$165/share and citing 7+ potential buyers, low board ownership, and an unresolved CEO succession.",
-        "why_unverified": "The bank has not agreed to a sale — it says only that it reviews strategic alternatives on a rolling basis. The valuation and buyer count are the activist's assertions, and no buyer or adviser is named.",
-        "sector": "Regional Banking",
-        "source_note": "Banking Dive, Jul 29 2026",
-        "source_url": "https://www.bankingdive.com/news/activist-investor-prods-cashmere-washington-bank-sell/826470/",
+        "lead": "On its Q2 call, CEO Peter Arduini confirmed a formal review of strategic options for the Patient Care Solutions segment (patient-monitoring, anesthesia delivery) — explicitly including “a sale and other value-enhancing transactions.” Segment Q2 revenue was $675M, down 13.3%.",
+        "why_unverified": "COMPANY-CONFIRMED that a review is underway — but whether it sells, at what price, to whom, with which adviser, and on what timeline are all unconfirmed. Actionable as a potential carve-out mandate, not a rumored deal.",
+        "sector": "Healthcare / Medical Devices",
+        "source_note": "Investing.com, Jul 29 2026",
+        "source_url": "https://www.investing.com/news/stock-market-news/ge-healthcare-beats-quarterly-profit-estimates-on-strong-imaging-demand-tariff-refunds-4819733",
+        "confidence": "Speculative"
+      },
+      {
+        "company": "TAP Air Portugal (Portuguese government privatization)",
+        "bank": "unconfirmed",
+        "lead": "Bloomberg reports Deutsche Lufthansa and Air France-KLM submitted binding offers for a stake as Portugal sells up to 49.9% of flag carrier TAP (5% reserved for employees) — one of Europe’s last mid-sized carriers still on the market.",
+        "why_unverified": "A live government privatization with binding bids reportedly in — more “confirmed live process” than rumor — but bid amounts, the winner, and timeline are unconfirmed, and reporting is anonymous-sourced. No adviser named.",
+        "sector": "Airlines (Europe)",
+        "source_note": "Investing.com (Bloomberg-sourced), Jul 29 2026",
+        "source_url": "https://www.investing.com/news/stock-market-news/lufthansa-and-air-franceklm-submit-bids-for-tap-stake--bloomberg-93CH-4821282",
         "confidence": "Speculative"
       }
     ]
   },
   "archive": [
+    {
+      "date": "2026-07-30",
+      "edition": 17,
+      "file": "2026-07-30.json"
+    },
     {
       "date": "2026-07-29",
       "edition": 16,
@@ -689,12 +648,7 @@
       "date": "2026-07-08",
       "edition": 6,
       "file": "2026-07-08.json"
-    },
-    {
-      "date": "2026-07-07",
-      "edition": 5,
-      "file": "2026-07-07.json"
     }
   ],
-  "edition": 17
+  "edition": 18
 }
