@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>DealBrief · Banking & Capital Advisory Intelligence</title>
+  <title>DealBrief Â· Banking & Capital Advisory Intelligence</title>
   <meta name="description" content="Daily intelligence for Banking & Capital Advisory sales teams." />
   <meta name="theme-color" content="#FFFFFF" />
   <!-- Apply the saved theme BEFORE first paint to avoid a flash of the wrong
@@ -22,21 +22,21 @@
   </script>
   <!-- Bump ?v= on any CSS change so browsers fetch the new file instead of a
        cached copy (GitHub Pages caches assets aggressively). -->
-  <link rel="stylesheet" href="assets/css/main.css?v=20260731-2" />
+  <link rel="stylesheet" href="assets/css/main.css?v=20260731-3" />
 </head>
 <body>
 
-  <!-- ── Onboarding ──────────────────────────────────────── -->
+  <!-- â”€â”€ Onboarding â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ -->
   <div id="onboarding"></div>
 
-  <!-- ── Ticker Bar ──────────────────────────────────────── -->
+  <!-- â”€â”€ Ticker Bar â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ -->
   <div class="ticker-bar" aria-hidden="true">
     <div class="ticker-track" id="ticker-track">
       <!-- Populated by today.js -->
     </div>
   </div>
 
-  <!-- ── Navigation ──────────────────────────────────────── -->
+  <!-- â”€â”€ Navigation â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ -->
   <nav class="nav" role="navigation" aria-label="Main navigation">
     <div class="nav-inner">
       <a class="nav-brand" href="#" onclick="return false;" aria-label="DealBrief home">
@@ -46,37 +46,37 @@
 
       <div class="nav-links" role="tablist">
         <button class="nav-link active" data-page="today" role="tab" aria-selected="true">
-          <span class="nav-link-icon" aria-hidden="true">◈</span>
+          <span class="nav-link-icon" aria-hidden="true">â—ˆ</span>
           <span>Today</span>
         </button>
         <button class="nav-link" data-page="banks" role="tab" aria-selected="false">
-          <span class="nav-link-icon" aria-hidden="true">⬡</span>
+          <span class="nav-link-icon" aria-hidden="true">â¬¡</span>
           <span>My Banks</span>
         </button>
         <button class="nav-link" data-page="deals" role="tab" aria-selected="false">
-          <span class="nav-link-icon" aria-hidden="true">◇</span>
+          <span class="nav-link-icon" aria-hidden="true">â—‡</span>
           <span>Deals</span>
         </button>
         <button class="nav-link" data-page="resources" role="tab" aria-selected="false">
-          <span class="nav-link-icon" aria-hidden="true">▦</span>
+          <span class="nav-link-icon" aria-hidden="true">â–¦</span>
           <span>Resources</span>
         </button>
       </div>
 
       <button class="nav-settings" id="theme-toggle" aria-label="Toggle light/dark theme" title="Toggle theme">
-        <span id="theme-toggle-icon">☾</span>
+        <span id="theme-toggle-icon">â˜¾</span>
       </button>
 
       <button class="nav-settings" id="settings-btn" aria-label="Open settings" title="Settings">
-        ⚙
+        âš™
       </button>
     </div>
   </nav>
 
-  <!-- ── Page Shell ──────────────────────────────────────── -->
+  <!-- â”€â”€ Page Shell â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ -->
   <main class="page-shell">
 
-    <!-- ══ TODAY PAGE ════════════════════════════════════════ -->
+    <!-- â•â• TODAY PAGE â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
     <div class="page active" id="page-today" role="tabpanel">
       <div class="page-content">
 
@@ -93,7 +93,6 @@
           <a href="#section-stories"       class="section-nav-link">Top Stories</a>
           <a href="#section-opportunities" class="section-nav-link">Opportunities</a>
           <a href="#section-skeptics"      class="section-nav-link">Rumor Mill</a>
-          <a href="#section-market"        class="section-nav-link">Market Snapshot</a>
           <a href="#section-talking-point" class="section-nav-link">Talking Point</a>
           <a href="#section-archive"       class="section-nav-link">Archive</a>
         </nav>
@@ -140,16 +139,6 @@
           </div>
         </section>
 
-        <!-- Market Snapshot -->
-        <section class="section" id="section-market" aria-labelledby="market-heading">
-          <div class="section-header">
-            <h2 class="section-title" id="market-heading">Market Snapshot</h2>
-          </div>
-          <div id="market-snapshot">
-            <!-- Populated by today.js -->
-          </div>
-        </section>
-
         <!-- Talking Point of the Day -->
         <section class="section" id="section-talking-point" aria-labelledby="tp-heading">
           <div class="section-header">
@@ -173,7 +162,7 @@
       </div>
     </div><!-- /page-today -->
 
-    <!-- ══ BANKS PAGE ════════════════════════════════════════ -->
+    <!-- â•â• BANKS PAGE â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
     <div class="page" id="page-banks" role="tabpanel">
       <div class="page-content">
         <div class="page-header">
@@ -202,7 +191,7 @@
       </div>
     </div><!-- /page-banks -->
 
-    <!-- ══ DEALS PAGE ════════════════════════════════════════ -->
+    <!-- â•â• DEALS PAGE â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
     <div class="page" id="page-deals" role="tabpanel">
       <div class="page-content">
         <div class="page-header">
@@ -224,7 +213,7 @@
       </div>
     </div><!-- /page-deals -->
 
-    <!-- ══ RESOURCES PAGE ════════════════════════════════════ -->
+    <!-- â•â• RESOURCES PAGE â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
     <div class="page" id="page-resources" role="tabpanel">
       <div class="page-content">
         <div class="page-header">
@@ -242,12 +231,12 @@
 
   </main><!-- /page-shell -->
 
-  <!-- ── Settings Overlay ────────────────────────────────── -->
+  <!-- â”€â”€ Settings Overlay â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ -->
   <div class="settings-overlay" id="settings-overlay" role="dialog" aria-label="Settings" aria-modal="true">
     <div class="settings-panel">
       <div class="settings-header">
         <h2 class="settings-title">Settings</h2>
-        <button class="settings-close" id="settings-close" aria-label="Close settings">✕</button>
+        <button class="settings-close" id="settings-close" aria-label="Close settings">âœ•</button>
       </div>
       <div class="settings-body">
 
@@ -255,11 +244,11 @@
           <div class="settings-section-title">My Coverage</div>
           <div class="settings-row">
             <span class="settings-row-label">Banks</span>
-            <span class="settings-row-value" id="settings-banks-value">—</span>
+            <span class="settings-row-value" id="settings-banks-value">â€”</span>
           </div>
           <div class="settings-row">
             <span class="settings-row-label">Industries</span>
-            <span class="settings-row-value" id="settings-industries-value">—</span>
+            <span class="settings-row-value" id="settings-industries-value">â€”</span>
           </div>
         </div>
 
@@ -267,11 +256,11 @@
           <div class="settings-section-title">Update Selections</div>
           <div class="settings-row">
             <span class="settings-row-label">Edit banks</span>
-            <button class="btn btn-ghost" id="settings-edit-banks">Edit →</button>
+            <button class="btn btn-ghost" id="settings-edit-banks">Edit â†’</button>
           </div>
           <div class="settings-row">
             <span class="settings-row-label">Edit industries</span>
-            <button class="btn btn-ghost" id="settings-edit-industries">Edit →</button>
+            <button class="btn btn-ghost" id="settings-edit-industries">Edit â†’</button>
           </div>
         </div>
 
@@ -286,7 +275,7 @@
     </div>
   </div>
 
-  <!-- ── Outreach Draft Modal ─────────────────────────────── -->
+  <!-- â”€â”€ Outreach Draft Modal â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ -->
   <div class="modal-overlay" id="modal-overlay" role="dialog" aria-label="Outreach draft" aria-modal="true">
     <div class="modal">
       <div class="modal-header">
@@ -294,7 +283,7 @@
           <div class="modal-title" id="modal-title">Outreach Draft</div>
           <div class="modal-subtitle" id="modal-subtitle"></div>
         </div>
-        <button class="modal-close" id="modal-close" aria-label="Close">✕</button>
+        <button class="modal-close" id="modal-close" aria-label="Close">âœ•</button>
       </div>
       <div class="modal-body">
         <div class="modal-field">
@@ -313,12 +302,13 @@
     </div>
   </div>
 
-  <!-- ── Toast ────────────────────────────────────────────── -->
+  <!-- â”€â”€ Toast â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ -->
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
-  <!-- ── Scripts ──────────────────────────────────────────── -->
+  <!-- â”€â”€ Scripts â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ -->
   <!-- Bump ?v= on any JS change (matches the CSS version) to bust the cache. -->
-  <script type="module" src="assets/js/app.js?v=20260731-2"></script>
+  <script type="module" src="assets/js/app.js?v=20260731-3"></script>
 
 </body>
 </html>
+

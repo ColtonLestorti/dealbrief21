@@ -40,7 +40,7 @@ const MARKET_POLL_INTERVAL_MS = 5 * 60 * 1000; // 5 minutes
 
 /**
  * Fetch data/market.json and, if it's fresher than today's embedded
- * ticker/market_snapshot, re-render just those two sections.
+ * ticker, re-render the ticker.
  */
 async function loadMarketData() {
   if (!dailyData) return;
@@ -51,11 +51,10 @@ async function loadMarketData() {
     const market = await fetchDataFresh('market.json');
     if (isMarketDataFresh(dailyData.date, market.generated_at)) {
       renderTicker(market.ticker);
-      renderMarketSnapshot(market.market_snapshot);
     }
   } catch (err) {
     // Background enhancement only — fall back silently to daily.json's
-    // already-rendered embedded ticker/market_snapshot.
+    // already-rendered embedded ticker.
   }
 }
 
@@ -78,7 +77,6 @@ function renderBrief(data, { archived }) {
   renderOpportunities(data.opportunities);
   renderPipelineWatch(data.pipeline_watch, data.sector_heat);
   renderSkepticsCorner(data.skeptics_corner);
-  renderMarketSnapshot(data.market_snapshot);
   renderTalkingPoint(data.talking_point);
   // Archive list always reflects today's archive (the live edition).
   renderArchive(dailyData ? dailyData.archive : data.archive);
@@ -497,35 +495,6 @@ function renderSkepticsCorner(sk) {
       ${sk.note ? `<div class="skeptics-banner">${esc(sk.note)}</div>` : ''}
       ${items}
     </div>
-  `;
-}
-
-/* ── Market Snapshot ─────────────────────────────────────── */
-function renderMarketSnapshot(snapshot) {
-  const container = document.getElementById('market-snapshot');
-  if (!container || !snapshot) return;
-
-  const indicesHtml = snapshot.indices.map(idx => `
-    <div class="market-stat">
-      <div class="market-stat-label">${esc(idx.label)}</div>
-      <div class="market-stat-value">${esc(idx.value)}</div>
-      <div class="market-stat-change ${idx.positive ? 'positive' : 'negative'}">${esc(idx.change)}</div>
-    </div>
-  `).join('');
-
-  const stocksHtml = (snapshot.bank_stocks && snapshot.bank_stocks.length)
-    ? `<div class="bank-stocks-row">${snapshot.bank_stocks.map(s => `
-        <div class="bank-stock">
-          <span class="bank-stock-ticker">${esc(s.ticker)}</span>
-          <span class="bank-stock-price">${esc(s.price)}</span>
-          <span class="bank-stock-change ${s.positive ? 'positive' : 'negative'}">${esc(s.change)}</span>
-        </div>`).join('')}</div>`
-    : '';
-
-  container.innerHTML = `
-    <div class="market-grid">${indicesHtml}</div>
-    ${stocksHtml}
-    <div class="macro-note">${esc(snapshot.macro_note)}</div>
   `;
 }
 
