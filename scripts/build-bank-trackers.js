@@ -97,6 +97,47 @@ function itemBanks(item) {
   return out;
 }
 
+/* Coverage-team inference — mirrors coverageTeams() in assets/js/utils.js so the
+   drawer's industry-group badges match the Today feed's. Token-aware to avoid
+   false hits (e.g. "ai" inside "retail"). An explicit item.coverage_team wins. */
+const COVERAGE_TEAMS = [
+  { team: 'TMT', keywords: ['tech', 'software', 'saas', 'ai', 'artificial intelligence', 'cloud', 'data center', 'data-center', 'semiconductor', 'chip', 'media', 'telecom', 'telecommunication', 'internet', 'digital', 'fintech', 'payments', 'compute'] },
+  { team: 'Healthcare', keywords: ['health', 'healthcare', 'biotech', 'biopharma', 'pharma', 'medtech', 'medical', 'device', 'life science', 'therapeutic', 'drug', 'clinical', 'regenerative', 'diagnostic'] },
+  { team: 'FIG', keywords: ['bank', 'banking', 'financial services', 'financial institution', 'insurance', 'insurer', 'asset manager', 'wealth', 'exchange', 'market structure', 'brokerage', 'specialty finance', 'lending'] },
+  { team: 'Energy & Power', keywords: ['energy', 'oil', 'gas', 'midstream', 'utility', 'utilities', 'power', 'renewable', 'renewables', 'clean power', 'royalty', 'pipeline', 'lng', 'solar', 'wind'] },
+  { team: 'Consumer & Retail', keywords: ['consumer', 'retail', 'convenience', 'restaurant', 'food', 'beverage', 'apparel', 'grocery', 'e-commerce', 'ecommerce', 'marine', 'boat', 'auto retail', 'dealership'] },
+  { team: 'Industrials', keywords: ['industrial', 'industrials', 'manufactur', 'materials', 'chemical', 'aerospace', 'defense', 'defence', 'machinery', 'engineering', 'inspection', 'thermal', 'building', 'transportation', 'shipping', 'logistics', 'automotive'] },
+  { team: 'Real Estate', keywords: ['real estate', 'reit', 'property', 'realty', 'hospitality', 'lodging'] }
+];
+const COVERAGE_TEAM_ORDER = COVERAGE_TEAMS.map(t => t.team);
+
+function keywordMatches(keyword, haystack, tokens) {
+  if (/[ -]/.test(keyword)) return haystack.includes(keyword);
+  if (keyword.length >= 4) return tokens.some(t => t.startsWith(keyword));
+  return tokens.some(t => t === keyword || t === `${keyword}s`);
+}
+
+function coverageTeams(item) {
+  if (!item) return ['M&A'];
+  if (item.coverage_team) {
+    const explicit = Array.isArray(item.coverage_team) ? item.coverage_team : [item.coverage_team];
+    const cleaned = explicit.map(t => String(t).trim()).filter(Boolean);
+    if (cleaned.length) return cleaned;
+  }
+  const haystack = [
+    item.sector || '',
+    Array.isArray(item.tags) ? item.tags.join(' ') : '',
+    item.headline || ''
+  ].join(' ').toLowerCase();
+  const tokens = haystack.split(/[^a-z0-9]+/).filter(Boolean);
+  const matched = new Set();
+  for (const { team, keywords } of COVERAGE_TEAMS) {
+    if (keywords.some(kw => keywordMatches(kw, haystack, tokens))) matched.add(team);
+  }
+  if (matched.size === 0) return ['M&A'];
+  return COVERAGE_TEAM_ORDER.filter(t => matched.has(t));
+}
+
 for (const file of editionFiles) {
   let ed;
   try { ed = JSON.parse(readFileSync(file, 'utf8')); } catch { continue; }
@@ -117,6 +158,7 @@ for (const file of editionFiles) {
         headline: item.headline || '',
         published: published || ed.date || '',
         confidence: item.confidence || 'Reported',
+        coverage_team: coverageTeams(item),
         source: item.source || '',
         source_url: url || ''
       });

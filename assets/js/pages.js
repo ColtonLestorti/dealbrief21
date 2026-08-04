@@ -2,7 +2,7 @@
    pages.js — Banks, Deals, and Resources page renderers
    ============================================================ */
 
-import { fetchData, esc, urgencyToBadgeType, getPrefs, copyToClipboard, confidenceTooltip, confidenceLabel } from './utils.js?v=20260804-3';
+import { fetchData, esc, urgencyToBadgeType, getPrefs, copyToClipboard, confidenceTooltip, confidenceLabel } from './utils.js?v=20260804-4';
 
 /* ══════════════════════════════════════════════════════════
    BANKS PAGE
@@ -206,6 +206,11 @@ const CAUGHT_PREVIEW = 15;
 function renderCaughtMandates(mandates) {
   if (!Array.isArray(mandates) || mandates.length === 0) return '';
 
+  const teamBadges = m => {
+    const teams = Array.isArray(m.coverage_team) ? m.coverage_team : (m.coverage_team ? [m.coverage_team] : []);
+    return teams.map(t => `<span class="badge badge-team" title="Covering group at the advising bank">${esc(t)}</span>`).join('');
+  };
+
   const row = m => `
     <div class="caught-item">
       <span class="caught-date font-mono">${esc(m.published || '')}</span>
@@ -213,6 +218,7 @@ function renderCaughtMandates(mandates) {
         <div class="caught-headline">${esc(m.headline || '')}</div>
         <div class="caught-meta">
           ${m.confidence ? `<span class="badge badge-conf-${esc(m.confidence.toLowerCase())}" title="${esc(m.confidence)} — ${esc(confidenceTooltip(m.confidence))}">${esc(confidenceLabel(m.confidence))}</span>` : ''}
+          ${teamBadges(m)}
           ${m.source_url ? `<a href="${esc(m.source_url)}" target="_blank" rel="noopener" class="source-link">${esc(m.source || 'Source')} ↗</a>` : (m.source ? `<span class="pipeline-source">${esc(m.source)}</span>` : '')}
         </div>
       </div>
