@@ -3,7 +3,7 @@
    Loads daily.json and renders all sections.
    ============================================================ */
 
-import { fetchData, fetchDataFresh, isMarketDataFresh, confidenceTooltip, esc, urgencyToBadgeType, isMyBank, isMyBankAny, itemBanks, copyToClipboard, formatDate, getPrefs, coverageTeams, banksMissingCoverage } from './utils.js?v=20260804-1';
+import { fetchData, fetchDataFresh, isMarketDataFresh, confidenceTooltip, confidenceLabel, esc, urgencyToBadgeType, isMyBank, isMyBankAny, itemBanks, copyToClipboard, formatDate, getPrefs, coverageTeams, banksMissingCoverage } from './utils.js?v=20260804-2';
 
 /**
  * Build the coverage-team badge HTML for a deal (story or opportunity) — the
@@ -236,7 +236,7 @@ function renderStories(allStories) {
   }
 
   container.innerHTML = stories.map((story, index) => {
-    const isExpanded = index < 3; // First 3 expanded by default
+    const isExpanded = false; // All cards collapsed on load — rep scans, expands to dig in
     const urgencyType = urgencyToBadgeType(story.urgency);
     const myBank = isMyBankAny(itemBanks(story));
     const isMarket = story.scope === 'market';
@@ -265,7 +265,7 @@ function renderStories(allStories) {
               ${myBank ? '<span class="badge badge-your-bank">YOUR BANK</span>' : ''}
               ${isMarket ? '<span class="badge badge-market">MARKET-WIDE</span>' : ''}
               ${coverageTeamBadges(story)}
-              ${story.confidence ? `<span class="badge badge-conf-${story.confidence.toLowerCase()}" title="${confidenceTooltip(story.confidence)}">${esc(story.confidence.toUpperCase())}</span>` : ''}
+              ${story.confidence ? `<span class="badge badge-conf-${story.confidence.toLowerCase()}" title="${esc(story.confidence)} — ${confidenceTooltip(story.confidence)}">${esc(confidenceLabel(story.confidence))}</span>` : ''}
             </div>
             <h3 class="card-headline mt-2">${esc(story.headline)}</h3>
           </div>
@@ -338,7 +338,7 @@ function renderOpportunities(opps) {
   }
 
   container.innerHTML = visible.map((opp, index) => {
-    const isExpanded = index === 0;
+    const isExpanded = false; // Collapsed on load — rep scans, expands to dig in
     const urgencyType = urgencyToBadgeType(opp.urgency);
     const oppBanks = itemBanks(opp);
     const myBank = isMyBankAny(oppBanks);
@@ -367,7 +367,7 @@ function renderOpportunities(opps) {
               ${opp.carry_badge && opp.carry_badge !== 'NEW' ? `<span class="badge badge-running" title="A live deal process still open — carried forward from an earlier edition">${esc(opp.carry_badge)}</span>` : ''}
               ${myBank ? '<span class="badge badge-your-bank">YOUR BANK</span>' : ''}
               ${coverageTeamBadges(opp)}
-              ${opp.confidence ? `<span class="badge badge-conf-${opp.confidence.toLowerCase()}" title="${confidenceTooltip(opp.confidence)}">${esc(opp.confidence.toUpperCase())}</span>` : ''}
+              ${opp.confidence ? `<span class="badge badge-conf-${opp.confidence.toLowerCase()}" title="${esc(opp.confidence)} — ${confidenceTooltip(opp.confidence)}">${esc(confidenceLabel(opp.confidence))}</span>` : ''}
             </div>
             <div class="mt-2 flex items-center gap-2" style="flex-wrap:wrap;gap:6px;">
               <span class="opp-card-bank">${esc(oppBanks.join(', ') || opp.bank || '')}</span>

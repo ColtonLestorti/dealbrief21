@@ -2,7 +2,7 @@
    pages.js — Banks, Deals, and Resources page renderers
    ============================================================ */
 
-import { fetchData, esc, urgencyToBadgeType, getPrefs, copyToClipboard, confidenceTooltip } from './utils.js?v=20260804-1';
+import { fetchData, esc, urgencyToBadgeType, getPrefs, copyToClipboard, confidenceTooltip, confidenceLabel } from './utils.js?v=20260804-2';
 
 /* ══════════════════════════════════════════════════════════
    BANKS PAGE
@@ -212,7 +212,7 @@ function renderCaughtMandates(mandates) {
       <div class="caught-body">
         <div class="caught-headline">${esc(m.headline || '')}</div>
         <div class="caught-meta">
-          ${m.confidence ? `<span class="badge badge-conf-${esc(m.confidence.toLowerCase())}" title="${esc(confidenceTooltip(m.confidence))}">${esc(m.confidence.toUpperCase())}</span>` : ''}
+          ${m.confidence ? `<span class="badge badge-conf-${esc(m.confidence.toLowerCase())}" title="${esc(m.confidence)} — ${esc(confidenceTooltip(m.confidence))}">${esc(confidenceLabel(m.confidence))}</span>` : ''}
           ${m.source_url ? `<a href="${esc(m.source_url)}" target="_blank" rel="noopener" class="source-link">${esc(m.source || 'Source')} ↗</a>` : (m.source ? `<span class="pipeline-source">${esc(m.source)}</span>` : '')}
         </div>
       </div>

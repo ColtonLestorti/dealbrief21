@@ -246,6 +246,22 @@ export function confidenceTooltip(confidence) {
   return map[confidence] || 'From news — verify before quoting';
 }
 
+/**
+ * Plain-language, action-oriented label for a confidence tag — what the badge
+ * shows a rep. The precise tag (Filed/Reported/Speculative) stays in the
+ * tooltip; the badge itself reads as an instruction they can act on at a glance.
+ * @param {string} confidence — 'Filed' | 'Reported' | 'Speculative'
+ * @returns {string}
+ */
+export function confidenceLabel(confidence) {
+  const map = {
+    Filed: 'Safe to quote',
+    Reported: 'Verify first',
+    Speculative: 'Rumor'
+  };
+  return map[confidence] || 'Verify first';
+}
+
 /* ============================================================
    Coverage-team inference
    A rep works a bank's *coverage group* (TMT, Healthcare, FIG…),
