@@ -1,0 +1,691 @@
+{
+  "date": "2026-08-03",
+  "lens": "August opened with a healthcare-heavy signing wave — three multi-billion-dollar processes (KKR/Integer, Curium/Lantheus, Supernus/Indivior) plus two definitive proxies — against a firm tape where the day’s real constraint was execution capacity, not deal supply.",
+  "ticker": [
+    {
+      "label": "S&P 500",
+      "value": "7,540.42",
+      "change": "+0.68%",
+      "positive": true
+    },
+    {
+      "label": "Nasdaq",
+      "value": "25,593.35",
+      "change": "+0.87%",
+      "positive": true
+    },
+    {
+      "label": "Dow",
+      "value": "53,059.69",
+      "change": "+1.09%",
+      "positive": true
+    },
+    {
+      "label": "VIX",
+      "value": "16.02",
+      "change": "+0.19%",
+      "positive": false
+    },
+    {
+      "label": "GS",
+      "value": "$1,009.55",
+      "change": "-0.83%",
+      "positive": false
+    },
+    {
+      "label": "JEF",
+      "value": "$54.65",
+      "change": "+0.07%",
+      "positive": true
+    }
+  ],
+  "stories": [
+    {
+      "id": "s1",
+      "category": "M&A",
+      "urgency": "HIGH",
+      "scope": "bank",
+      "bank": "Goldman Sachs",
+      "headline": "Goldman advises Integer on its ~$5.7B take-private by KKR; Centerview, Barclays, Citi and Raymond James advise KKR",
+      "why_it_matters": "KKR agreed to acquire Integer Holdings (NYSE: ITGR) — a leading medical-device contract developer/manufacturer (CDMO) — in an all-cash deal at $127.00/share, ~$5.7B enterprise value (a ~51.8% premium to Integer’s Apr 29 unaffected price), following a board-led strategic review. The release names Goldman Sachs as Integer’s exclusive financial adviser (sell-side); Centerview Partners, Barclays, Citi and Raymond James advise KKR (buy-side); Citi, KKR Capital Markets, Barclays, UBS and Jefferies are lead arrangers on the debt financing. A sponsor take-private of a regulated device maker runs lender-syndicate, FDA/quality-system and confirmatory diligence to close.",
+      "suggested_action": "Open with Goldman (Integer) and the KKR adviser group (Centerview / Barclays / Citi / Raymond James) — a ~$5.7B device-CDMO take-private runs lender-group, regulatory and confirmatory diligence a secure room is built for.",
+      "deal_clock": [
+        {
+          "date": "Aug 3, 2026",
+          "event": "KKR agrees to acquire Integer at $127/share (~$5.7B)"
+        }
+      ],
+      "source": "GlobeNewswire (Integer / KKR release)",
+      "source_url": "https://www.globenewswire.com/news-release/2026/08/03/3337312/26755/en/integer-to-be-acquired-by-kkr-in-transaction-valued-at-approximately-5-7-billion.html",
+      "published": "2026-08-03",
+      "confidence": "Reported",
+      "tags": [
+        "healthcare",
+        "medical-devices",
+        "sponsor",
+        "take-private"
+      ]
+    },
+    {
+      "id": "s2",
+      "category": "M&A",
+      "urgency": "HIGH",
+      "scope": "bank",
+      "bank": "Morgan Stanley",
+      "headline": "Morgan Stanley and BofA advise Lantheus; Jefferies, JPMorgan and PJT advise Curium on the up-to-$8.0B take-private",
+      "why_it_matters": "Curium (the CapVest-backed radiopharmaceutical group) agreed to acquire and take private Lantheus Holdings (Nasdaq: LNTH) for up to $114.50/share — $102.50 cash at closing plus up to $12.00 in CVRs tied to commercial milestones — an aggregate transaction value up to $8.0B (a 38% premium to the 60-day VWAP). The release names Morgan Stanley as lead financial adviser to Lantheus with BofA Securities and Solomon Partners (sell-side); Jefferies as lead adviser to Curium with J.P. Morgan and PJT Partners (buy-side). A cross-border radiopharma combination with a CVR runs milestone-tracking, antitrust and confirmatory diligence toward a 1H 2027 close.",
+      "suggested_action": "Engage Morgan Stanley / BofA (Lantheus) and Jefferies / JPMorgan / PJT (Curium) — an up-to-$8.0B CVR-structured take-private runs milestone and regulatory diligence a secure room organizes.",
+      "deal_clock": [
+        {
+          "date": "Aug 3, 2026",
+          "event": "Curium agrees to acquire Lantheus (up to $114.50/share; up to $8.0B)"
+        }
+      ],
+      "source": "GlobeNewswire (Curium / Lantheus release)",
+      "source_url": "https://www.globenewswire.com/news-release/2026/08/03/3337413/0/en/curium-announces-definitive-agreement-to-merge-with-lantheus.html",
+      "published": "2026-08-03",
+      "confidence": "Reported",
+      "tags": [
+        "healthcare",
+        "radiopharmaceuticals",
+        "take-private",
+        "cvr"
+      ]
+    },
+    {
+      "id": "s3",
+      "category": "M&A",
+      "urgency": "HIGH",
+      "scope": "bank",
+      "bank": "Jefferies",
+      "headline": "Jefferies and Piper Sandler advise Indivior, Wells Fargo advises Supernus on their all-stock merger of equals (~$2.2B combined revenue)",
+      "why_it_matters": "Supernus Pharmaceuticals (Nasdaq: SUPN) and Indivior Pharmaceuticals (Nasdaq: INDV) agreed to combine in a tax-free all-stock merger of equals, creating a diversified CNS biopharmaceutical company with ~$2.2B combined annual revenue and $125M of expected cost synergies; the combined company keeps the Supernus name and SUPN ticker, and Indivior holders receive a $1.0B special cash dividend (1.5401 exchange ratio). The release names Cantor Fitzgerald (lead) and Wells Fargo as advisers to Supernus; Jefferies and Piper Sandler as joint advisers to Indivior, with Citi also advising Indivior and Citibank providing a $650M term loan. A merger of equals runs dual-company diligence, S-4 registration and integration workstreams.",
+      "suggested_action": "Reach out to Wells Fargo (Supernus) and Jefferies / Piper Sandler / Citi (Indivior) — an all-stock MoE runs dual-company confirmatory diligence and S-4 workstreams a secure room keeps organized.",
+      "deal_clock": [
+        {
+          "date": "Aug 3, 2026",
+          "event": "Supernus and Indivior agree to all-stock merger of equals"
+        }
+      ],
+      "source": "SEC EDGAR — Supernus/Indivior EX-99.1 (Aug 3)",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1356576/000110465926089426/tm2622009d1_ex99-1.htm",
+      "published": "2026-08-03",
+      "confidence": "Filed",
+      "tags": [
+        "healthcare",
+        "biopharma",
+        "merger-of-equals"
+      ]
+    },
+    {
+      "id": "s4",
+      "category": "M&A",
+      "urgency": "MEDIUM",
+      "scope": "bank",
+      "bank": "Evercore",
+      "headline": "Evercore and Goldman advise Arcosa’s board as it files a definitive proxy for its $150/share cash sale to CRH",
+      "why_it_matters": "Arcosa (NYSE: ACA) filed a definitive proxy (DEFM14A) on Aug 3 for its all-cash acquisition by CRH Americas at $150.00/share, with a special stockholder meeting set for Sep 4, 2026. The filing names Evercore and Goldman Sachs as financial advisers to the Arcosa board. A signed public-company sale moving to a shareholder vote runs SEC-review, financing and confirmatory diligence through close — the window where secure-room activity peaks.",
+      "suggested_action": "Note Evercore/Goldman (Arcosa) — a signed $150/share cash sale heading to a Sep 4 vote runs SEC-review and confirmatory diligence a data room supports through close.",
+      "deal_clock": [
+        {
+          "date": "Jun 21, 2026",
+          "event": "Arcosa signs merger agreement with CRH Americas"
+        },
+        {
+          "date": "Aug 3, 2026",
+          "event": "Definitive proxy (DEFM14A) filed"
+        },
+        {
+          "date": "Sep 4, 2026",
+          "event": "Special stockholder meeting"
+        }
+      ],
+      "source": "SEC EDGAR — Arcosa DEFM14A",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1739445/000114036126030551/ny20076790x2_defm14a.htm",
+      "published": "2026-08-03",
+      "confidence": "Filed",
+      "tags": [
+        "industrials",
+        "infrastructure",
+        "take-private"
+      ]
+    },
+    {
+      "id": "s5",
+      "category": "M&A",
+      "urgency": "MEDIUM",
+      "scope": "bank",
+      "bank": "JPMorgan",
+      "headline": "JPMorgan and Leerink advise Crinetics as it files a definitive proxy for its $85/share cash sale to Vertex",
+      "why_it_matters": "Crinetics Pharmaceuticals (Nasdaq: CRNX) filed a definitive proxy (DEFM14A) on Jul 31 for its all-cash acquisition by Vertex Pharmaceuticals at $85.00/share. The filing names J.P. Morgan and Leerink Partners as Crinetics’ financial advisers. A signed biopharma take-out moving to a vote runs milestone, IP and confirmatory diligence toward close.",
+      "suggested_action": "Engage JPMorgan (Crinetics) — a signed $85/share biopharma take-out advancing to a vote runs IP and confirmatory diligence a secure room organizes.",
+      "deal_clock": [
+        {
+          "date": "Jul 31, 2026",
+          "event": "Crinetics files DEFM14A ($85.00/share cash, Vertex)"
+        }
+      ],
+      "source": "SEC EDGAR — Crinetics DEFM14A",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1658247/000114036126030500/ny20077458x2_defm14a.htm",
+      "published": "2026-07-31",
+      "confidence": "Filed",
+      "tags": [
+        "healthcare",
+        "biopharma",
+        "take-private"
+      ]
+    },
+    {
+      "id": "s6",
+      "category": "M&A",
+      "urgency": "LOW",
+      "scope": "bank",
+      "bank": "Jefferies",
+      "headline": "Jefferies advises Carrier on the completed sale of its NORESCO energy-services business to OPTERRA (LS Power)",
+      "why_it_matters": "Carrier Global (NYSE: CARR) completed the sale of its NORESCO business — an energy-efficiency and infrastructure services provider — to OPTERRA Energy Services, a subsidiary of LS Power (terms undisclosed). The release names Jefferies as financial adviser to Carrier (sell-side). A corporate carve-out to an infrastructure buyer runs contract, project-backlog and TSA diligence — a natural data-room use case even on a completed deal, as integration and post-close workstreams begin.",
+      "suggested_action": "Note Jefferies (Carrier) on the NORESCO carve-out — divestitures to infrastructure buyers run contract and TSA diligence a secure room supports through separation.",
+      "deal_clock": [
+        {
+          "date": "Aug 3, 2026",
+          "event": "Carrier completes sale of NORESCO to OPTERRA (LS Power)"
+        }
+      ],
+      "source": "PR Newswire (Carrier release)",
+      "source_url": "https://www.prnewswire.com/news-releases/carrier-completes-sale-of-noresco-to-opterra-energy-services-302841200.html",
+      "published": "2026-08-03",
+      "confidence": "Reported",
+      "tags": [
+        "industrials",
+        "energy-services",
+        "carve-out"
+      ]
+    },
+    {
+      "id": "s7",
+      "category": "MACRO",
+      "urgency": "MEDIUM",
+      "scope": "market",
+      "headline": "Stocks open August higher — S&P +0.7%, Dow +1.1% — as the 10Y eases to ~4.69% and advisory names steady after last week’s slide",
+      "why_it_matters": "US equities opened August broadly higher: S&P 500 +0.7% (~7,540), Nasdaq +0.9% (~25,593), Dow +1.1% (~53,060), with the VIX steady near 16.0 and the 10Y Treasury easing to ~4.69%. The advisory complex, which slid three straight sessions into month-end, steadied — Goldman -0.8%, Evercore -1.6%, Jefferies roughly flat. A firm tape and a heavy Aug 3 signing day (two multi-billion healthcare take-privates plus a CNS merger of equals) reinforce that signed processes keep moving regardless of adviser-stock swings.",
+      "suggested_action": "Frame outreach around execution certainty — a busy signing day against a firm-but-choppy tape means clients want live processes on schedule; room readiness protects the timeline into August.",
+      "source": "Yahoo Finance",
+      "source_url": "https://finance.yahoo.com/quote/%5EGSPC/",
+      "published": "2026-08-03"
+    }
+  ],
+  "opportunities": [
+    {
+      "bank": "Jefferies",
+      "sector": "Healthcare / Biopharma",
+      "urgency": "HOT",
+      "headline": "Joint adviser (with Piper Sandler, Citi) to Indivior on its all-stock merger of equals with Supernus",
+      "why_it_matters": "Jefferies and Piper Sandler are joint financial advisers to Indivior (INDV), with Citi also advising and Citibank providing a $650M term loan, on its all-stock merger of equals with Supernus (~$2.2B combined revenue; $1.0B special dividend to Indivior holders). A MoE runs dual-company diligence and S-4 registration workstreams.",
+      "deal_clock": [
+        {
+          "date": "Aug 3, 2026",
+          "event": "Supernus and Indivior agree to merger of equals"
+        }
+      ],
+      "outreach_idea": "Engage Jefferies / Piper Sandler / Citi (Indivior) — an all-stock MoE runs dual-company confirmatory diligence and S-4 workstreams a secure room organizes.",
+      "outreach_draft": {
+        "subject": "Indivior / Supernus — supporting a merger of equals",
+        "body": "Congratulations on advising Indivior on its merger of equals with Supernus. All-stock combinations run dual-company diligence and S-4 registration workstreams — would welcome a conversation on secure, auditable room access across both sides through close.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "SEC EDGAR — Supernus/Indivior EX-99.1",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1356576/000110465926089426/tm2622009d1_ex99-1.htm",
+      "published": "2026-08-03",
+      "confidence": "Filed",
+      "first_seen": "2026-08-03",
+      "last_confirmed": "2026-08-03",
+      "id": "o1",
+      "carry_badge": "NEW"
+    },
+    {
+      "bank": "Wells Fargo",
+      "sector": "Healthcare / Biopharma",
+      "urgency": "HOT",
+      "headline": "Adviser (with Cantor Fitzgerald) to Supernus on its all-stock merger of equals with Indivior",
+      "why_it_matters": "Wells Fargo advises Supernus (SUPN), alongside lead adviser Cantor Fitzgerald, on its all-stock merger of equals with Indivior (~$2.2B combined revenue, $125M cost synergies). The combined company keeps the Supernus name and SUPN ticker. A MoE runs dual-company diligence and S-4 workstreams to close.",
+      "deal_clock": [
+        {
+          "date": "Aug 3, 2026",
+          "event": "Supernus and Indivior agree to merger of equals"
+        }
+      ],
+      "outreach_idea": "Engage Wells Fargo (Supernus) — an all-stock MoE runs dual-company confirmatory diligence and S-4 workstreams a secure room organizes.",
+      "outreach_draft": {
+        "subject": "Supernus / Indivior — supporting a merger of equals",
+        "body": "Congratulations on Wells Fargo’s role advising Supernus on its merger of equals with Indivior. All-stock combinations run dual-company diligence and S-4 registration workstreams — happy to discuss secure, auditable room access across both sides through close.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "SEC EDGAR — Supernus/Indivior EX-99.1",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1356576/000110465926089426/tm2622009d1_ex99-1.htm",
+      "published": "2026-08-03",
+      "confidence": "Filed",
+      "first_seen": "2026-08-03",
+      "last_confirmed": "2026-08-03",
+      "id": "o2",
+      "carry_badge": "NEW"
+    },
+    {
+      "id": "o3",
+      "bank": "Moelis",
+      "sector": "Biopharma / Healthcare",
+      "urgency": "HOT",
+      "headline": "Adviser (with Centerview, Citi) to AtaiBeckley’s board on its $6.75 + CVR sale to Eli Lilly",
+      "why_it_matters": "Moelis and Centerview advise the AtaiBeckley (ATAI) board on its sale to Eli Lilly — $6.75/share cash plus a CVR worth up to $2.50 tied to VLS-01/BPL-003 milestones (up to $9.25; ~$2.8B upfront). Citi is an additional board adviser; Goldman advises Lilly. A PREM14A filed Jul 30 advances a CVR-structured biopharma take-out toward a shareholder vote.",
+      "deal_clock": [
+        {
+          "date": "Jul 30, 2026",
+          "event": "AtaiBeckley files PREM14A ($6.75 + up to $2.50 CVR)"
+        }
+      ],
+      "outreach_idea": "Engage Moelis/Centerview/Citi (AtaiBeckley) — a CVR-structured take-out advancing to a vote runs milestone and confirmatory diligence a secure room organizes.",
+      "outreach_draft": {
+        "subject": "AtaiBeckley / Lilly — supporting a CVR-structured take-out",
+        "body": "Congratulations on Moelis’s role advising AtaiBeckley on its sale to Eli Lilly. CVR-structured biopharma take-outs run milestone-tracking and confirmatory diligence toward the shareholder vote — would welcome a conversation on how we support secure, auditable data-room access through close.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "SEC EDGAR — AtaiBeckley PREM14A",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2081043/000114036126030109/ny20078129x1_prem14a.htm",
+      "published": "2026-07-30",
+      "confidence": "Filed",
+      "first_seen": "2026-07-30",
+      "last_confirmed": "2026-07-30",
+      "carry_badge": "Day 3"
+    },
+    {
+      "id": "o4",
+      "bank": "Goldman Sachs",
+      "sector": "Biopharma / Healthcare",
+      "urgency": "HOT",
+      "headline": "Buy-side adviser to Eli Lilly on its $6.75 + CVR acquisition of AtaiBeckley",
+      "why_it_matters": "Goldman Sachs advises Eli Lilly on its acquisition of AtaiBeckley (ATAI) — $6.75/share cash plus a CVR worth up to $2.50 (up to $9.25/share; ~$2.8B upfront, ~$3.8B max) — expanding Lilly into rapid-acting neuroplastogens for treatment-resistant depression. A PREM14A filed Jul 30 advances the deal toward a target-shareholder vote and close expected Q3 2026.",
+      "deal_clock": [
+        {
+          "date": "Jul 30, 2026",
+          "event": "AtaiBeckley files PREM14A on Lilly acquisition"
+        }
+      ],
+      "outreach_idea": "Engage Goldman (Lilly) — a large-pharma bolt-on with a CVR runs buy-side confirmatory and milestone diligence a secure room supports.",
+      "outreach_draft": {
+        "subject": "Lilly / AtaiBeckley — supporting a CVR-structured bolt-on",
+        "body": "Congratulations on Goldman’s role advising Eli Lilly on its acquisition of AtaiBeckley. Large-pharma bolt-ons with CVR structures run confirmatory and milestone diligence through close — would welcome a conversation on how we support secure, auditable data-room access across the process.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "SEC EDGAR — AtaiBeckley PREM14A",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2081043/000114036126030109/ny20078129x1_prem14a.htm",
+      "published": "2026-07-30",
+      "confidence": "Filed",
+      "first_seen": "2026-07-30",
+      "last_confirmed": "2026-07-30",
+      "carry_badge": "Day 3"
+    },
+    {
+      "id": "o5",
+      "bank": "Goldman Sachs",
+      "sector": "Utilities / Power",
+      "urgency": "HOT",
+      "headline": "Adviser (with JPMorgan) to Dominion Energy’s board on its stock-and-cash merger with NextEra",
+      "why_it_matters": "Goldman Sachs and J.P. Morgan advise the Dominion Energy (D) board on its merger into NextEra Energy (NEE) — 0.8138 NextEra shares plus a pro-rata portion of a $360M aggregate cash payment per share (implied ~$73–$76). A definitive joint proxy filed Jul 28 advances a mega-cap utility combination toward dual shareholder votes and FERC/state regulatory review.",
+      "deal_clock": [
+        {
+          "date": "Jul 28, 2026",
+          "event": "Dominion & NextEra file DEFM14A; dual votes ahead"
+        }
+      ],
+      "outreach_idea": "Engage Goldman’s (and JPMorgan’s) power & utilities coverage on Dominion/NextEra — a four-adviser mega-merger runs concentrated confirmatory, regulatory, and integration diligence to close.",
+      "outreach_draft": {
+        "subject": "Dominion / NextEra — supporting a utility mega-merger to the votes",
+        "body": "Congratulations on Goldman’s role advising Dominion Energy on its merger with NextEra. Utility combinations of this scale run document- and regulatory-heavy diligence across FERC and state reviews toward dual shareholder votes — would welcome a conversation on how we support secure, auditable data-room access through the process.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "SEC EDGAR — Dominion/NextEra DEFM14A",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/715957/000110465926087585/tm2621467-2_defm14a.htm",
+      "published": "2026-07-28",
+      "confidence": "Filed",
+      "first_seen": "2026-07-29",
+      "last_confirmed": "2026-07-29",
+      "carry_badge": "Day 4"
+    },
+    {
+      "bank": "Goldman Sachs",
+      "sector": "Healthcare / Medical Devices",
+      "urgency": "HOT",
+      "headline": "Exclusive sell-side adviser to Integer on its ~$5.7B take-private by KKR",
+      "why_it_matters": "Goldman Sachs is Integer Holdings’ (ITGR) exclusive financial adviser on its $127.00/share all-cash sale to KKR (~$5.7B EV), following a board-led strategic review. A regulated device-CDMO take-private runs lender-syndicate and FDA/quality-system diligence to close.",
+      "deal_clock": [
+        {
+          "date": "Aug 3, 2026",
+          "event": "KKR agrees to acquire Integer (~$5.7B)"
+        }
+      ],
+      "outreach_idea": "Engage Goldman (Integer) — a ~$5.7B device-maker take-private runs regulatory and lender diligence a secure room organizes.",
+      "outreach_draft": {
+        "subject": "Integer / KKR — supporting a device-CDMO take-private",
+        "body": "Congratulations on Goldman’s role advising Integer on its sale to KKR. Regulated device take-privates run lender-syndicate and quality-system diligence toward close — would welcome a conversation on secure, auditable data-room access through the process.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "GlobeNewswire — Integer / KKR release",
+      "source_url": "https://www.globenewswire.com/news-release/2026/08/03/3337312/26755/en/integer-to-be-acquired-by-kkr-in-transaction-valued-at-approximately-5-7-billion.html",
+      "published": "2026-08-03",
+      "confidence": "Reported",
+      "first_seen": "2026-08-03",
+      "last_confirmed": "2026-08-03",
+      "id": "o6",
+      "carry_badge": "NEW"
+    },
+    {
+      "bank": "Centerview",
+      "sector": "Healthcare / Medical Devices",
+      "urgency": "HOT",
+      "headline": "Buy-side adviser (with Barclays, Citi, Raymond James) to KKR on its ~$5.7B acquisition of Integer",
+      "why_it_matters": "Centerview Partners, Barclays, Citi and Raymond James advise KKR on its $127.00/share (~$5.7B EV) take-private of Integer Holdings. Citi, KKR Capital Markets, Barclays, UBS and Jefferies are lead arrangers on the debt. A sponsor buy-side runs financing, antitrust and confirmatory diligence to close.",
+      "deal_clock": [
+        {
+          "date": "Aug 3, 2026",
+          "event": "KKR agrees to acquire Integer (~$5.7B)"
+        }
+      ],
+      "outreach_idea": "Engage the KKR adviser group (Centerview / Barclays / Citi / Raymond James) — a ~$5.7B sponsor take-private runs financing and confirmatory diligence a secure room supports.",
+      "outreach_draft": {
+        "subject": "KKR / Integer — supporting a sponsor take-private",
+        "body": "Congratulations on advising KKR on its acquisition of Integer. Sponsor take-privates of regulated device makers run financing, antitrust and confirmatory diligence — happy to discuss how we keep lender and diligence access organized and auditable through close.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "GlobeNewswire — Integer / KKR release",
+      "source_url": "https://www.globenewswire.com/news-release/2026/08/03/3337312/26755/en/integer-to-be-acquired-by-kkr-in-transaction-valued-at-approximately-5-7-billion.html",
+      "published": "2026-08-03",
+      "confidence": "Reported",
+      "first_seen": "2026-08-03",
+      "last_confirmed": "2026-08-03",
+      "id": "o7",
+      "carry_badge": "NEW"
+    },
+    {
+      "bank": "Morgan Stanley",
+      "sector": "Healthcare / Radiopharmaceuticals",
+      "urgency": "HOT",
+      "headline": "Lead sell-side adviser (with BofA, Solomon) to Lantheus on its up-to-$8.0B take-private by Curium",
+      "why_it_matters": "Morgan Stanley is lead financial adviser to Lantheus (LNTH), with BofA Securities and Solomon Partners, on its up-to-$114.50/share sale to Curium ($102.50 cash + up to $12.00 CVR; up to $8.0B). A CVR-structured radiopharma take-private runs milestone and antitrust diligence toward a 1H 2027 close.",
+      "deal_clock": [
+        {
+          "date": "Aug 3, 2026",
+          "event": "Curium agrees to acquire Lantheus (up to $8.0B)"
+        }
+      ],
+      "outreach_idea": "Engage Morgan Stanley / BofA (Lantheus) — an up-to-$8.0B CVR take-private runs milestone-tracking and regulatory diligence a secure room organizes.",
+      "outreach_draft": {
+        "subject": "Lantheus / Curium — supporting a CVR-structured take-private",
+        "body": "Congratulations on Morgan Stanley’s lead role advising Lantheus on its sale to Curium. CVR-structured take-privates run milestone-tracking and confirmatory diligence toward close — would welcome a conversation on secure, auditable room access through the process.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "GlobeNewswire — Curium / Lantheus release",
+      "source_url": "https://www.globenewswire.com/news-release/2026/08/03/3337413/0/en/curium-announces-definitive-agreement-to-merge-with-lantheus.html",
+      "published": "2026-08-03",
+      "confidence": "Reported",
+      "first_seen": "2026-08-03",
+      "last_confirmed": "2026-08-03",
+      "id": "o8",
+      "carry_badge": "NEW"
+    },
+    {
+      "bank": "Jefferies",
+      "sector": "Healthcare / Radiopharmaceuticals",
+      "urgency": "HOT",
+      "headline": "Lead buy-side adviser (with JPMorgan, PJT) to Curium on its up-to-$8.0B acquisition of Lantheus",
+      "why_it_matters": "Jefferies is lead financial adviser to Curium, with J.P. Morgan and PJT Partners, on its up-to-$8.0B take-private of Lantheus (LNTH). A cross-border radiopharma combination runs financing, antitrust and confirmatory diligence toward close.",
+      "deal_clock": [
+        {
+          "date": "Aug 3, 2026",
+          "event": "Curium agrees to acquire Lantheus (up to $8.0B)"
+        }
+      ],
+      "outreach_idea": "Engage Jefferies / JPMorgan / PJT (Curium) — an up-to-$8.0B radiopharma take-private runs financing and confirmatory diligence a secure room supports.",
+      "outreach_draft": {
+        "subject": "Curium / Lantheus — supporting an up-to-$8.0B take-private",
+        "body": "Congratulations on Jefferies’ lead role advising Curium on its acquisition of Lantheus. Large cross-border take-privates run financing and confirmatory diligence — happy to discuss how we keep diligence and lender access organized and auditable through close.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "GlobeNewswire — Curium / Lantheus release",
+      "source_url": "https://www.globenewswire.com/news-release/2026/08/03/3337413/0/en/curium-announces-definitive-agreement-to-merge-with-lantheus.html",
+      "published": "2026-08-03",
+      "confidence": "Reported",
+      "first_seen": "2026-08-03",
+      "last_confirmed": "2026-08-03",
+      "id": "o9",
+      "carry_badge": "NEW"
+    },
+    {
+      "bank": "Evercore",
+      "sector": "Industrials / Infrastructure",
+      "urgency": "WARM",
+      "headline": "Adviser (with Goldman) to Arcosa’s board on its $150/share cash sale to CRH (definitive proxy filed)",
+      "why_it_matters": "Evercore and Goldman advise the Arcosa (ACA) board on its $150.00/share all-cash sale to CRH Americas. A definitive proxy filed Aug 3 sets a Sep 4 special meeting. A signed public-company sale moving to a vote runs SEC-review, financing and confirmatory diligence through close.",
+      "deal_clock": [
+        {
+          "date": "Aug 3, 2026",
+          "event": "Arcosa files definitive proxy ($150/share cash, CRH)"
+        },
+        {
+          "date": "Sep 4, 2026",
+          "event": "Special stockholder meeting"
+        }
+      ],
+      "outreach_idea": "Engage Evercore/Goldman (Arcosa) — a signed $150/share cash sale heading to a vote runs SEC-review and confirmatory diligence a data room supports.",
+      "outreach_draft": {
+        "subject": "Arcosa / CRH — supporting a signed cash sale to close",
+        "body": "Congratulations on Evercore’s role advising Arcosa on its sale to CRH. Signed public-company sales run SEC-review and confirmatory diligence toward the shareholder vote — would welcome a conversation on secure, auditable room access through close.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "SEC EDGAR — Arcosa DEFM14A",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1739445/000114036126030551/ny20076790x2_defm14a.htm",
+      "published": "2026-08-03",
+      "confidence": "Filed",
+      "first_seen": "2026-08-03",
+      "last_confirmed": "2026-08-03",
+      "id": "o10",
+      "carry_badge": "NEW"
+    },
+    {
+      "bank": "JPMorgan",
+      "sector": "Healthcare / Biopharma",
+      "urgency": "WARM",
+      "headline": "Adviser (with Leerink) to Crinetics on its $85/share cash sale to Vertex (definitive proxy filed)",
+      "why_it_matters": "J.P. Morgan and Leerink Partners advise Crinetics (CRNX) on its $85.00/share all-cash sale to Vertex. A definitive proxy filed Jul 31 advances the take-out to a shareholder vote, running IP, milestone and confirmatory diligence to close.",
+      "deal_clock": [
+        {
+          "date": "Jul 31, 2026",
+          "event": "Crinetics files DEFM14A ($85/share cash, Vertex)"
+        }
+      ],
+      "outreach_idea": "Engage JPMorgan (Crinetics) — a signed $85/share biopharma take-out advancing to a vote runs IP and confirmatory diligence a secure room organizes.",
+      "outreach_draft": {
+        "subject": "Crinetics / Vertex — supporting a signed biopharma take-out",
+        "body": "Congratulations on JPMorgan’s role advising Crinetics on its sale to Vertex. Biopharma take-outs run IP, milestone and confirmatory diligence toward the vote — happy to discuss secure, auditable data-room access through close.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "SEC EDGAR — Crinetics DEFM14A",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1658247/000114036126030500/ny20077458x2_defm14a.htm",
+      "published": "2026-07-31",
+      "confidence": "Filed",
+      "first_seen": "2026-08-03",
+      "last_confirmed": "2026-08-03",
+      "id": "o11",
+      "carry_badge": "NEW"
+    },
+    {
+      "bank": "Jefferies",
+      "sector": "Industrials / Energy Services",
+      "urgency": "WARM",
+      "headline": "Sell-side adviser to Carrier on the completed carve-out of NORESCO to OPTERRA (LS Power)",
+      "why_it_matters": "Jefferies advised Carrier Global (CARR) on the completed sale of its NORESCO energy-efficiency and infrastructure-services business to OPTERRA Energy Services (LS Power). A corporate carve-out to an infrastructure buyer runs contract, backlog and TSA diligence as integration and separation workstreams begin.",
+      "deal_clock": [
+        {
+          "date": "Aug 3, 2026",
+          "event": "Carrier completes sale of NORESCO to OPTERRA"
+        }
+      ],
+      "outreach_idea": "Note Jefferies (Carrier) — divestitures to infrastructure buyers run contract and TSA diligence a secure room supports through separation.",
+      "outreach_draft": {
+        "subject": "Carrier / NORESCO — supporting a carve-out separation",
+        "body": "Congratulations on Jefferies’ role advising Carrier on the NORESCO carve-out. Divestitures run contract, backlog and transition-services diligence through separation — would welcome a conversation on secure, auditable room access post-close.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "PR Newswire — Carrier release",
+      "source_url": "https://www.prnewswire.com/news-releases/carrier-completes-sale-of-noresco-to-opterra-energy-services-302841200.html",
+      "published": "2026-08-03",
+      "confidence": "Reported",
+      "first_seen": "2026-08-03",
+      "last_confirmed": "2026-08-03",
+      "id": "o12",
+      "carry_badge": "NEW"
+    }
+  ],
+  "market_snapshot": {
+    "indices": [
+      {
+        "label": "S&P 500",
+        "value": "7,540.42",
+        "change": "+50.70 (+0.68%)",
+        "positive": true
+      },
+      {
+        "label": "Nasdaq Composite",
+        "value": "25,593.35",
+        "change": "+219.50 (+0.87%)",
+        "positive": true
+      },
+      {
+        "label": "Dow Jones",
+        "value": "53,059.69",
+        "change": "+574.66 (+1.09%)",
+        "positive": true
+      },
+      {
+        "label": "CBOE VIX",
+        "value": "16.02",
+        "change": "+0.03 (+0.19%)",
+        "positive": false
+      },
+      {
+        "label": "10Y Treasury",
+        "value": "4.690%",
+        "change": "-0.055 (-1.16%)",
+        "positive": true
+      }
+    ],
+    "bank_stocks": [
+      {
+        "ticker": "GS",
+        "price": "$1,009.55",
+        "change": "-0.83%",
+        "positive": false
+      },
+      {
+        "ticker": "EVR",
+        "price": "$315.69",
+        "change": "-1.61%",
+        "positive": false
+      },
+      {
+        "ticker": "JEF",
+        "price": "$54.65",
+        "change": "+0.07%",
+        "positive": true
+      }
+    ],
+    "macro_note": "Stocks opened August higher: S&P 500 +0.7% (~7,540), Nasdaq +0.9% (~25,593), Dow +1.1% (~53,060), with the VIX steady near 16.0 and the 10Y easing to ~4.69%. Advisory names, which slid three straight sessions into month-end, steadied — GS -0.8%, EVR -1.6%, JEF roughly flat. Values are LIVE INTRADAY levels captured ~9:45am EDT Aug 3 — not a settled close."
+  },
+  "talking_point": {
+    "quote": "August opened with a heavy signing day: KKR agreed to take Integer private for ~$5.7B, Curium struck an up-to-$8.0B deal for Lantheus, and Supernus and Indivior announced an all-stock merger of equals — three healthcare processes, six-plus advisers, all in one morning. When the deal calendar is this active, the constraint clients feel isn’t sourcing, it’s execution capacity. How are you thinking about room readiness on the mandates you’re carrying into August?",
+    "use_with": "Healthcare, M&A, sponsors and financial-institutions coverage teams (esp. Goldman, Morgan Stanley, Jefferies, Wells Fargo, Centerview, Piper Sandler)",
+    "context": "Anchors on an unusually deal-dense Aug 3 in healthcare/medtech — a natural way to open a room-readiness conversation into August.",
+    "confidence": "Reported"
+  },
+  "sector_heat": {
+    "ranked": [
+      {
+        "sector": "Healthcare / Radiopharmaceuticals",
+        "read": "Curium agrees to take Lantheus private for up to $8.0B (Morgan Stanley + BofA + Solomon for Lantheus; Jefferies + JPMorgan + PJT for Curium).",
+        "source_note": "GlobeNewswire, Aug 3 2026"
+      },
+      {
+        "sector": "Healthcare / Medical Devices",
+        "read": "KKR agrees to acquire Integer for ~$5.7B at $127/share (Goldman for Integer; Centerview + Barclays + Citi + Raymond James for KKR).",
+        "source_note": "GlobeNewswire, Aug 3 2026"
+      },
+      {
+        "sector": "Healthcare / CNS Biopharma",
+        "read": "Supernus and Indivior agree to an all-stock merger of equals, ~$2.2B combined revenue (Wells Fargo + Cantor for Supernus; Jefferies + Piper Sandler + Citi for Indivior).",
+        "source_note": "SEC EDGAR, Aug 3 2026"
+      },
+      {
+        "sector": "Industrials / Infrastructure",
+        "read": "Arcosa files a definitive proxy for its $150/share cash sale to CRH; Sep 4 vote (Evercore + Goldman for Arcosa).",
+        "source_note": "SEC EDGAR, Aug 3 2026"
+      },
+      {
+        "sector": "Industrials / Energy Services",
+        "read": "Carrier completes the carve-out of NORESCO to OPTERRA (LS Power) (Jefferies for Carrier).",
+        "source_note": "PR Newswire, Aug 3 2026"
+      }
+    ]
+  },
+  "pipeline_watch": {
+    "note": "Named covered-bank mandates and sector heat. Rumored / no-adviser situations live in the Rumor Mill.",
+    "covered_bank_leads": [],
+    "situations_to_watch": []
+  },
+  "skeptics_corner": {
+    "note": "Unconfirmed leads — rumored deals and situations with no adviser named yet (or advisers unconfirmed). Real reporting, but treat as speculative: chase them, don’t quote them on a call.",
+    "items": [
+      {
+        "company": "Saber Power Services (Greenbelt Capital Partners)",
+        "bank": "Harris Williams (unconfirmed mandate)",
+        "lead": "Harris Williams is reported to be running an early-stage sale process for Saber Power Services — a Greenbelt Capital-backed electrical infrastructure and power-services platform (~$200M EBITDA) — testing sponsor and strategic interest.",
+        "why_unverified": "Process reporting from deal-trade sources; no signed transaction, price, or buyer, and the mandate itself is not company-confirmed. Actionable as an early prospecting nudge, not a deal.",
+        "sector": "Industrials / Power Services",
+        "source_note": "Deal-trade reporting (PE Hub / The Deal), early Aug 2026",
+        "confidence": "Speculative",
+        "possible_advisers": [
+          "Harris Williams"
+        ]
+      },
+      {
+        "company": "A1 Garage Door Service (Cortec Group)",
+        "bank": "unconfirmed",
+        "lead": "Cortec Group is reported to be preparing a sale of A1 Garage Door Service — a residential garage-door repair and installation platform — with a process expected to launch, per PE Hub.",
+        "why_unverified": "Sponsor-exit reporting; no adviser named, no price, no signed deal. Early-stage prospecting signal only.",
+        "sector": "Consumer / Home Services",
+        "source_note": "PE Hub, early Aug 2026",
+        "confidence": "Speculative",
+        "possible_advisers_inferred": [
+          "Harris Williams",
+          "Baird",
+          "William Blair"
+        ]
+      },
+      {
+        "company": "GE HealthCare (Nasdaq: GEHC) — Patient Care Solutions",
+        "bank": "unconfirmed",
+        "lead": "On its Q2 call CEO Peter Arduini confirmed a formal review of strategic options for the Patient Care Solutions segment (patient-monitoring, anesthesia delivery), explicitly including “a sale and other value-enhancing transactions.” Segment Q2 revenue was $675M, down 13.3%.",
+        "why_unverified": "Company-confirmed that a review is underway — but whether it sells, at what price, to whom, with which adviser, and on what timeline are all unconfirmed. Actionable as a potential carve-out mandate, not a rumored deal.",
+        "sector": "Healthcare / Medical Devices",
+        "source_note": "Investing.com, Jul 29 2026",
+        "source_url": "https://www.investing.com/news/stock-market-news/ge-healthcare-beats-quarterly-profit-estimates-on-strong-imaging-demand-tariff-refunds-4819733",
+        "confidence": "Speculative",
+        "possible_advisers_inferred": [
+          "Goldman Sachs",
+          "JPMorgan",
+          "Morgan Stanley"
+        ]
+      },
+      {
+        "company": "TAP Air Portugal (Portuguese government privatization)",
+        "bank": "unconfirmed",
+        "lead": "Bloomberg reports Deutsche Lufthansa and Air France-KLM submitted binding offers for a stake as Portugal sells up to 49.9% of flag carrier TAP (5% reserved for employees) — one of Europe’s last mid-sized carriers still on the market.",
+        "why_unverified": "A live government privatization with binding bids reportedly in — more “confirmed live process” than rumor — but bid amounts, the winner, and timeline are unconfirmed, and reporting is anonymous-sourced. No adviser named.",
+        "sector": "Airlines (Europe)",
+        "source_note": "Investing.com (Bloomberg-sourced), Jul 29 2026",
+        "source_url": "https://www.investing.com/news/stock-market-news/lufthansa-and-air-franceklm-submit-bids-for-tap-stake--bloomberg-93CH-4821282",
+        "confidence": "Speculative",
+        "possible_advisers_inferred": [
+          "Citi",
+          "Barclays",
+          "UBS"
+        ]
+      }
+    ]
+  },
+  "edition": 19
+}
