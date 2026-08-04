@@ -45,7 +45,6 @@
       "category": "M&A",
       "urgency": "HIGH",
       "scope": "bank",
-      "bank": "JPMorgan",
       "headline": "Six covered banks work Prologis’ ~$18.8B recommended combination with UK logistics REIT SEGRO",
       "why_it_matters": "Prologis (NYSE: PLD) reached agreement on a recommended all-share combination with SEGRO plc, valuing SEGRO at ~£14.0B (~$18.8B) — 0.0920 new Prologis shares per SEGRO share plus an optional partial-cash alternative up to £3.51B, a 39–49.8% premium to pre-offer prices, targeted to close 1H 2027. The Rule 2.7 announcement names Rothschild, J.P. Morgan and Eastdil Secured as joint lead financial advisers to Prologis, with BofA Securities and Citigroup as additional advisers; Evercore and Morgan Stanley as joint lead advisers to SEGRO, with UBS and Goldman Sachs also advising. A cross-border public-company REIT combination runs UK Takeover Code, antitrust and shareholder-documentation workstreams over a long path to close.",
       "suggested_action": "This deal touches six covered banks — open with JPMorgan/BofA/Citi (Prologis) or Evercore/Morgan Stanley/UBS/Goldman (SEGRO). A cross-border REIT combination under the UK Takeover Code runs months of regulated diligence a secure room organizes.",
@@ -72,6 +71,15 @@
         "reit",
         "logistics",
         "cross-border"
+      ],
+      "banks": [
+        "JPMorgan",
+        "Bank of America",
+        "Citi",
+        "Evercore",
+        "Morgan Stanley",
+        "UBS",
+        "Goldman Sachs"
       ]
     },
     {
@@ -79,7 +87,6 @@
       "category": "M&A",
       "urgency": "HIGH",
       "scope": "bank",
-      "bank": "Bank of America",
       "headline": "BofA leads Williams’ up-to-$5.5B acquisition of Momentum Midstream; Barclays and Jefferies advise the seller",
       "why_it_matters": "The Williams Companies (NYSE: WMB) agreed to acquire Momentum Midstream / M6 Midstream from EnCap Flatrock for up to $5.5B (~$3.5B cash and debt plus ~$2.0B in Williams equity), announced alongside Q2 results and subject to HSR clearance. The release names BofA Securities as lead financial adviser to Williams (with Truist), and Barclays and Jefferies as exclusive financial advisers to M6 (sell-side). A large gas-gathering acquisition runs antitrust, asset-integrity and confirmatory diligence across a sizeable midstream complex.",
       "suggested_action": "Engage BofA (Williams buy-side) and Barclays / Jefferies (M6 sell-side) — a ~$5.5B midstream acquisition runs HSR and asset-level diligence a secure room keeps organized.",
@@ -97,6 +104,11 @@
         "energy",
         "midstream",
         "natural-gas"
+      ],
+      "banks": [
+        "Bank of America",
+        "Barclays",
+        "Jefferies"
       ]
     },
     {
@@ -104,7 +116,6 @@
       "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Citi",
       "headline": "Citi and JPMorgan advise Atkore on its ~$3.8B all-cash sale to Prysmian",
       "why_it_matters": "Atkore (NYSE: ATKR) agreed to be acquired by Italy’s Prysmian S.p.A. for $95.00/share in cash, ~$3.8B enterprise value (~30% premium). The release names Citi as lead financial adviser and J.P. Morgan as financial adviser to Atkore (sell-side). A cross-border take-private of a listed electrical-products maker runs antitrust, financing and confirmatory diligence toward close.",
       "suggested_action": "Reach out to Citi and JPMorgan (Atkore) — a ~$3.8B cross-border cash sale runs antitrust and confirmatory diligence a data room supports through close.",
@@ -123,6 +134,10 @@
         "electrical-products",
         "cross-border",
         "take-private"
+      ],
+      "banks": [
+        "Citi",
+        "JPMorgan"
       ]
     },
     {
@@ -269,7 +284,6 @@
       "carry_badge": "Day 4"
     },
     {
-      "bank": "JPMorgan",
       "sector": "Real Estate / Logistics REIT",
       "urgency": "HOT",
       "headline": "Joint lead adviser (with Rothschild, Eastdil) to Prologis on its ~$18.8B recommended combination with SEGRO",
@@ -296,10 +310,14 @@
       "first_seen": "2026-08-04",
       "last_confirmed": "2026-08-04",
       "id": "o4",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "JPMorgan",
+        "Bank of America",
+        "Citi"
+      ]
     },
     {
-      "bank": "Evercore",
       "sector": "Real Estate / Logistics REIT",
       "urgency": "HOT",
       "headline": "Joint lead adviser (with Morgan Stanley) to SEGRO on its ~$18.8B recommended combination with Prologis",
@@ -326,7 +344,13 @@
       "first_seen": "2026-08-04",
       "last_confirmed": "2026-08-04",
       "id": "o5",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Evercore",
+        "Morgan Stanley",
+        "UBS",
+        "Goldman Sachs"
+      ]
     },
     {
       "bank": "Bank of America",
@@ -355,7 +379,6 @@
       "carry_badge": "NEW"
     },
     {
-      "bank": "Barclays",
       "sector": "Energy / Midstream",
       "urgency": "HOT",
       "headline": "Exclusive sell-side adviser (with Jefferies) to M6 Midstream on its up-to-$5.5B sale to Williams",
@@ -378,10 +401,13 @@
       "first_seen": "2026-08-04",
       "last_confirmed": "2026-08-04",
       "id": "o7",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Barclays",
+        "Jefferies"
+      ]
     },
     {
-      "bank": "Citi",
       "sector": "Industrials / Electrical Products",
       "urgency": "HOT",
       "headline": "Lead sell-side adviser (with JPMorgan) to Atkore on its ~$3.8B all-cash sale to Prysmian",
@@ -404,7 +430,11 @@
       "first_seen": "2026-08-04",
       "last_confirmed": "2026-08-04",
       "id": "o8",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Citi",
+        "JPMorgan"
+      ]
     },
     {
       "bank": "JPMorgan",

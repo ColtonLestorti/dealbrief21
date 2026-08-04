@@ -182,7 +182,7 @@
       "category": "M&A",
       "urgency": "HIGH",
       "scope": "bank",
-      "bank": "Guggenheim",
+      "bank": "Guggenheim Securities",
       "headline": "Guggenheim advises Forte Biosciences on its ~$2.2B sale to argenx; Goldman advises argenx",
       "why_it_matters": "argenx SE agreed to acquire Forte Biosciences (FBRX) for $77.00/share (~$2.2B equity value, ~41% premium), adding first-in-class anti-CD122 antibody FB102 to argenx’s immunology pipeline. The release names Guggenheim Securities as exclusive financial adviser to Forte (sell-side) and Goldman Sachs International as exclusive adviser to argenx (buy-side). A public-company biotech take-out runs concentrated confirmatory and IP diligence toward a shareholder vote.",
       "suggested_action": "Engage Guggenheim (Forte) or Goldman (argenx) — a ~$2.2B antibody take-out advancing to a vote runs concentrated confirmatory and IP diligence a secure room organizes.",
@@ -635,7 +635,7 @@
       "carry_badge": "NEW"
     },
     {
-      "bank": "Guggenheim",
+      "bank": "Guggenheim Securities",
       "sector": "Biotech / Immunology",
       "urgency": "HOT",
       "headline": "Sell-side adviser to Forte Biosciences on its ~$2.2B sale to argenx",
@@ -817,7 +817,7 @@
       "carry_badge": "NEW"
     },
     {
-      "bank": "Centerview",
+      "bank": "Centerview Partners",
       "sector": "Life Sciences / Bioprocessing",
       "urgency": "WARM",
       "headline": "Sell-side adviser to BioLife Solutions on its ~$1.5B sale to Repligen",

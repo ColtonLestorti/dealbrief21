@@ -124,7 +124,7 @@
       "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Centerview",
+      "bank": "Centerview Partners",
       "headline": "Centerview advises MIMEDX on its ~$350M cash-and-stock acquisition of Sanara MedTech; Truist advises Sanara",
       "why_it_matters": "MIMEDX Group (MDXG) agreed to acquire Sanara MedTech (SMTI) in a cash-and-stock deal at $35.00/share ($33.00 cash + 0.4735 MIMEDX shares), ~$350M enterprise value, roughly doubling MIMEDX’s surgical revenue and extending it into collagen, wound irrigation, and bone-fixation products. The release names Centerview as exclusive adviser to MIMEDX (buy-side) and Truist as exclusive adviser to Sanara (sell-side). A stock-inclusive strategic acquisition runs S-4 and confirmatory diligence toward close.",
       "suggested_action": "Engage Centerview (MIMEDX) on the Sanara acquisition — a cash-and-stock strategic combination runs S-4 registration and confirmatory diligence a data room supports.",
@@ -419,7 +419,7 @@
     },
     {
       "id": "o10",
-      "bank": "Guggenheim",
+      "bank": "Guggenheim Securities",
       "sector": "Industrial Technology",
       "urgency": "WARM",
       "headline": "Adviser (with Stifel) to Blackstone on its acquisition of DarkVision from Koch",
@@ -445,7 +445,7 @@
     },
     {
       "id": "o11",
-      "bank": "Centerview",
+      "bank": "Centerview Partners",
       "sector": "MedTech / Healthcare",
       "urgency": "WARM",
       "headline": "Buy-side adviser to MIMEDX on its ~$350M acquisition of Sanara MedTech",

@@ -112,7 +112,7 @@ Return ONLY a JSON object (no markdown, no backticks, no preamble) with this exa
       "category": "MACRO|M&A|DEALS|BANKING|RESTRUCTURING|REGULATORY",
       "urgency": "HIGH|MEDIUM|LOW",
       "scope": "market|bank",
-      "bank": "<exact bank name from the list, or omit if scope is market>",
+      "banks": ["<exact covered-bank name>", "<...every covered bank advising this deal, buy- OR sell-side; lead bank first>"],
       "headline": "...",
       "why_it_matters": "...",
       "suggested_action": "...",
@@ -127,7 +127,7 @@ Return ONLY a JSON object (no markdown, no backticks, no preamble) with this exa
   "opportunities": [
     {
       "id": "o1",
-      "bank": "<exact bank name from the list>",
+      "banks": ["<exact covered-bank name>", "<...every covered bank on this deal; lead bank first>"],
       "sector": "...",
       "urgency": "HOT|WARM",
       "headline": "...",
@@ -170,11 +170,17 @@ Rules:
   published today or yesterday. Do not include anything older than 48 hours unless it is a
   still-active deal that advanced to a new stage. Lead with the freshest, highest-impact items.
 - 10 to 14 stories. Tag each "scope": "market" (macro/regulatory, no bank) or "scope": "bank"
-  (tied to one covered bank, set "bank" to its exact name).
+  (tied to at least one covered bank).
+- MULTI-BANK: "banks" is an ARRAY. List EVERY covered bank advising the deal — both sides
+  (buy-side and sell-side) — with the lead/primary bank first. A co-advised deal (e.g. one
+  covered bank for the buyer and another for the seller) must list all of them, so it surfaces
+  for every rep who covers any bank on it. Omit "banks" only when scope is "market". Never
+  invent an adviser — a bank goes in "banks" only if a real source names it advising the deal.
 - Aim for at least 8 bank-specific stories spread across different banks, per the BANK ROTATION
   instruction above, so coverage filtering has real variety.
-- 6 to 10 opportunities, each tied to a covered bank, each with a ready-to-send outreach_draft
-  AND a real source/source_url/published — an opportunity with no verifiable link must be dropped.
+- 6 to 10 opportunities, each tied to at least one covered bank (via "banks"), each with a
+  ready-to-send outreach_draft AND a real source/source_url/published — an opportunity with no
+  verifiable link must be dropped.
 - CONFIDENCE TAGGING: every bank-scoped story and every opportunity must carry a "confidence"
   field.
   * Use "Filed" ONLY for mandates that appear in the VERIFIED FILED MANDATES block

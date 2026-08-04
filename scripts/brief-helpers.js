@@ -15,13 +15,33 @@ export function recentlyCoveredBanks(recentEditions) {
   const covered = new Set();
   for (const edition of recentEditions) {
     for (const story of edition?.stories || []) {
-      if (story.bank) covered.add(story.bank);
+      for (const b of advisingBanks(story)) covered.add(b);
     }
     for (const opp of edition?.opportunities || []) {
-      if (opp.bank) covered.add(opp.bank);
+      for (const b of advisingBanks(opp)) covered.add(b);
     }
   }
   return covered;
+}
+
+/**
+ * An item's advising bank(s), normalized to an array. Supports the multi-bank
+ * `banks: [...]` field and the legacy single `bank` string (older editions
+ * carry only `bank`). The first entry is the primary/lead bank.
+ * @param {{banks?: string[]|string, bank?: string}} item
+ * @returns {string[]}
+ */
+export function advisingBanks(item) {
+  if (!item) return [];
+  const raw = Array.isArray(item.banks) ? item.banks
+    : (item.banks ? [item.banks] : (item.bank ? [item.bank] : []));
+  const seen = new Set();
+  const out = [];
+  for (const b of raw) {
+    const name = String(b || '').trim();
+    if (name && !seen.has(name.toLowerCase())) { seen.add(name.toLowerCase()); out.push(name); }
+  }
+  return out;
 }
 
 /**
@@ -99,7 +119,9 @@ const KEY_STOPWORDS = new Set([
  * @returns {string}
  */
 export function opportunityKey(opp) {
-  const bank = (opp.bank || '').toLowerCase().trim();
+  // Key on the PRIMARY (lead) bank only, so re-listing co-advisers between
+  // editions doesn't fragment a running deal's carry-forward identity.
+  const bank = (advisingBanks(opp)[0] || '').toLowerCase().trim();
   // Tokens that make up the bank's own name shouldn't distinguish deals.
   const bankTokens = new Set(bank.split(/[^a-z0-9]+/).filter(Boolean));
   const source = (opp.deal || opp.headline || opp.sector || '').toLowerCase();

@@ -6,10 +6,10 @@
 // NOTE: ?v= on the <script> tag does NOT propagate to these ES imports, so the
 // versions are pinned here too. Bump them (matching index.html) on any change to
 // the imported modules, or browsers keep serving the cached copies.
-import { initOnboarding, resetOnboarding } from './onboarding.js?v=20260731-5';
-import { initToday } from './today.js?v=20260731-5';
-import { initBanks, initDeals, initResources } from './pages.js?v=20260731-5';
-import { getPrefs, savePrefs, copyToClipboard, esc } from './utils.js?v=20260731-5';
+import { initOnboarding, resetOnboarding } from './onboarding.js?v=20260804-1';
+import { initToday } from './today.js?v=20260804-1';
+import { initBanks, initDeals, initResources } from './pages.js?v=20260804-1';
+import { getPrefs, savePrefs, copyToClipboard, esc, itemBanks } from './utils.js?v=20260804-1';
 
 /* ── State ──────────────────────────────────────────────── */
 let currentPage = 'today';
@@ -192,7 +192,7 @@ function initModal() {
     const subjectEl  = document.getElementById('modal-subject');
     const bodyEl     = document.getElementById('modal-body-text');
 
-    if (titleEl)    titleEl.textContent    = `Outreach Draft · ${item.bank || item.advisor || item.company}`;
+    if (titleEl)    titleEl.textContent    = `Outreach Draft · ${itemBanks(item)[0] || item.advisor || item.company}`;
     if (subtitleEl) subtitleEl.textContent = item.headline || item.company;
     if (subjectEl)  subjectEl.textContent  = draft.subject;
     if (bodyEl)     bodyEl.textContent     = draft.body;

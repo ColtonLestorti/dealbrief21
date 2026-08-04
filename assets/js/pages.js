@@ -2,7 +2,7 @@
    pages.js — Banks, Deals, and Resources page renderers
    ============================================================ */
 
-import { fetchData, esc, urgencyToBadgeType, getPrefs, copyToClipboard } from './utils.js?v=20260731-5';
+import { fetchData, esc, urgencyToBadgeType, getPrefs, copyToClipboard, confidenceTooltip } from './utils.js?v=20260804-1';
 
 /* ══════════════════════════════════════════════════════════
    BANKS PAGE
@@ -187,9 +187,56 @@ function renderBankTracker(tracker) {
         </div>
       </div>
       ${signalHtml}
+      ${renderCaughtMandates(tracker.caught_mandates)}
       ${pipelineHtml}
       <div class="tracker-note">${esc(tracker.note)}</div>
     </div>
+  `;
+}
+
+/**
+ * "Mandates we caught (full list)" — a collapsible drawer of the actual deals
+ * behind the tracker counts, newest-first, each with its date, confidence, and
+ * source link. Shows the 15 newest by default with a "show all" toggle so a
+ * high-volume bank (Goldman, Jefferies) doesn't become a scroll wall.
+ * @param {Array<{headline:string, published:string, confidence:string, source:string, source_url:string}>} mandates
+ * @returns {string}
+ */
+const CAUGHT_PREVIEW = 15;
+function renderCaughtMandates(mandates) {
+  if (!Array.isArray(mandates) || mandates.length === 0) return '';
+
+  const row = m => `
+    <div class="caught-item">
+      <span class="caught-date font-mono">${esc(m.published || '')}</span>
+      <div class="caught-body">
+        <div class="caught-headline">${esc(m.headline || '')}</div>
+        <div class="caught-meta">
+          ${m.confidence ? `<span class="badge badge-conf-${esc(m.confidence.toLowerCase())}" title="${esc(confidenceTooltip(m.confidence))}">${esc(m.confidence.toUpperCase())}</span>` : ''}
+          ${m.source_url ? `<a href="${esc(m.source_url)}" target="_blank" rel="noopener" class="source-link">${esc(m.source || 'Source')} ↗</a>` : (m.source ? `<span class="pipeline-source">${esc(m.source)}</span>` : '')}
+        </div>
+      </div>
+    </div>
+  `;
+
+  const preview = mandates.slice(0, CAUGHT_PREVIEW).map(row).join('');
+  const rest = mandates.slice(CAUGHT_PREVIEW);
+  const restHtml = rest.length ? `
+    <details class="caught-more">
+      <summary>Show all ${mandates.length}</summary>
+      ${rest.map(row).join('')}
+    </details>
+  ` : '';
+
+  return `
+    <details class="tracker-caught">
+      <summary class="tracker-label">Mandates we caught (full list) — ${mandates.length}</summary>
+      <div class="caught-list">
+        ${preview}
+        ${restHtml}
+      </div>
+      <div class="tracker-subnote">Each row is a deal DealBrief caught in its coverage, verified from a primary source. Verify Reported items before quoting on a call.</div>
+    </details>
   `;
 }
 

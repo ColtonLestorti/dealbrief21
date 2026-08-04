@@ -9,7 +9,8 @@ import {
   businessDaysBetween,
   carryBadge,
   sortOpportunities,
-  carryForwardOpportunities
+  carryForwardOpportunities,
+  advisingBanks
 } from '../scripts/brief-helpers.js';
 
 test('recentlyCoveredBanks collects bank names from stories and opportunities', () => {
@@ -24,6 +25,23 @@ test('recentlyCoveredBanks collects bank names from stories and opportunities', 
 test('recentlyCoveredBanks handles editions with no stories/opportunities', () => {
   const result = recentlyCoveredBanks([{}, { stories: [] }]);
   assert.equal(result.size, 0);
+});
+
+test('recentlyCoveredBanks collects every bank from a multi-bank banks[] array', () => {
+  const editions = [
+    { stories: [{ banks: ['Citi', 'JPMorgan'] }], opportunities: [{ banks: ['Evercore', 'Morgan Stanley'] }] }
+  ];
+  const result = recentlyCoveredBanks(editions);
+  assert.deepEqual([...result].sort(), ['Citi', 'Evercore', 'JPMorgan', 'Morgan Stanley']);
+});
+
+test('advisingBanks normalizes both legacy bank string and banks[] array', () => {
+  assert.deepEqual(advisingBanks({ bank: 'Goldman Sachs' }), ['Goldman Sachs']);
+  assert.deepEqual(advisingBanks({ banks: ['Citi', 'JPMorgan'] }), ['Citi', 'JPMorgan']);
+  assert.deepEqual(advisingBanks({ banks: 'Jefferies' }), ['Jefferies']); // string in banks
+  assert.deepEqual(advisingBanks({}), []); // market-scoped, no bank
+  // de-dupes case-insensitively, drops blanks, preserves order (lead first)
+  assert.deepEqual(advisingBanks({ banks: ['Citi', 'citi', '', 'Barclays'] }), ['Citi', 'Barclays']);
 });
 
 test('pickRotationPriority separates bulge bracket from smaller banks and finds ones due for coverage', () => {
@@ -76,6 +94,20 @@ test('opportunityKey distinguishes different banks on the same deal', () => {
   const a = { bank: 'PJT Partners', headline: 'Genel Energy Capricorn offer' };
   const b = { bank: 'Jefferies', headline: 'Genel Energy Capricorn offer' };
   assert.notEqual(opportunityKey(a), opportunityKey(b));
+});
+
+test('opportunityKey keys on the primary (lead) bank so co-adviser changes do not fragment identity', () => {
+  // Same deal, same lead bank, same headline, but a co-adviser is added in a
+  // later edition — must stay the same key so carry-forward dedupe still merges.
+  const day1 = { banks: ['Jefferies'], headline: 'Advising Indivior on the Supernus merger of equals' };
+  const day2 = { banks: ['Jefferies', 'Piper Sandler', 'Citi'], headline: 'Advising Indivior on the Supernus merger of equals' };
+  assert.equal(opportunityKey(day1), opportunityKey(day2));
+});
+
+test('opportunityKey treats a legacy single bank and a one-element banks[] identically', () => {
+  const legacy = { bank: 'PJT Partners', headline: 'Genel Energy Capricorn offer' };
+  const arr = { banks: ['PJT Partners'], headline: 'Genel Energy Capricorn offer' };
+  assert.equal(opportunityKey(legacy), opportunityKey(arr));
 });
 
 test('qualifiesForCarry: HOT, Filed, or named process qualify; routine WARM does not', () => {

@@ -107,7 +107,45 @@ export function savePrefs(prefs) {
 export function isMyBank(bankName) {
   const prefs = getPrefs();
   if (!prefs || !prefs.banks) return false;
+  if (typeof bankName !== 'string' || !bankName) return false;
   return prefs.banks.some(b => b.toLowerCase() === bankName.toLowerCase());
+}
+
+/**
+ * Normalize a story/opportunity's advising bank(s) into a clean array.
+ * Supports both the multi-bank `banks: [...]` field and the legacy single
+ * `bank: "..."` string (older editions carry only `bank`), so the whole app
+ * can iterate one shape. The first entry is treated as the primary/lead bank
+ * for display and carry-forward identity.
+ * @param {{banks?: string[]|string, bank?: string}} item
+ * @returns {string[]}
+ */
+export function itemBanks(item) {
+  if (!item) return [];
+  const raw = Array.isArray(item.banks) ? item.banks
+    : (item.banks ? [item.banks] : (item.bank ? [item.bank] : []));
+  const seen = new Set();
+  const out = [];
+  for (const b of raw) {
+    const name = String(b || '').trim();
+    if (!name) continue;
+    const key = name.toLowerCase();
+    if (seen.has(key)) continue;
+    seen.add(key);
+    out.push(name);
+  }
+  return out;
+}
+
+/**
+ * Does any of an item's advising banks belong to the user's coverage? This is
+ * the multi-bank coverage test — a co-advised deal surfaces for a rep who
+ * covers ANY bank on it, not just the lead.
+ * @param {string[]} banks — from itemBanks(item)
+ * @returns {boolean}
+ */
+export function isMyBankAny(banks) {
+  return Array.isArray(banks) && banks.some(b => isMyBank(b));
 }
 
 /**
@@ -125,10 +163,14 @@ export function banksMissingCoverage(selectedBanks, stories = [], opps = []) {
   if (!Array.isArray(selectedBanks) || selectedBanks.length === 0) return [];
   const covered = new Set();
   for (const s of stories) {
-    if (s && s.scope === 'bank' && s.bank) covered.add(s.bank.toLowerCase());
+    if (s && s.scope === 'bank') {
+      for (const b of itemBanks(s)) covered.add(b.toLowerCase());
+    }
   }
   for (const o of opps) {
-    if (o && o.bank) covered.add(o.bank.toLowerCase());
+    if (o) {
+      for (const b of itemBanks(o)) covered.add(b.toLowerCase());
+    }
   }
   return selectedBanks.filter(b => b && !covered.has(b.toLowerCase()));
 }

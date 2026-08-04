@@ -59,6 +59,19 @@ function record(map, bank, key) {
   (map[bank] = map[bank] || new Set()).add(key);
 }
 
+// An item's advising banks: multi-bank `banks: [...]` or legacy single `bank`.
+// Kept in lockstep with build-bank-trackers.js — same dedupe/credit rule.
+function itemBanks(item) {
+  const raw = Array.isArray(item.banks) ? item.banks
+    : (item.banks ? [item.banks] : (item.bank ? [item.bank] : []));
+  const seen = new Set(), out = [];
+  for (const b of raw) {
+    const name = String(b || '').trim();
+    if (name && !seen.has(name.toLowerCase())) { seen.add(name.toLowerCase()); out.push(name); }
+  }
+  return out;
+}
+
 for (const file of editionFiles) {
   let edition;
   try {
@@ -68,15 +81,17 @@ for (const file of editionFiles) {
   }
   const items = [...(edition.stories || []), ...(edition.opportunities || [])];
   for (const item of items) {
-    if (!item.bank) continue; // market-scoped items have no bank to credit
+    const banks = itemBanks(item);
+    if (!banks.length) continue; // market-scoped items have no bank to credit
     const url = sourceUrlOf(item);
-    const key = item.bank + '|' + (url || (item.headline || item.id || '').slice(0, 50).toLowerCase());
-    record(allTime, item.bank, key);
-
     const pub = publishedOf(item, edition.date);
     const pubDate = pub ? new Date(pub) : null;
-    if (pubDate && !isNaN(pubDate) && pubDate >= cutoff) {
-      record(window30, item.bank, key);
+    const inWindow = pubDate && !isNaN(pubDate) && pubDate >= cutoff;
+    // Credit every advising bank on the deal (co-advised deals count per bank).
+    for (const bank of banks) {
+      const key = bank + '|' + (url || (item.headline || item.id || '').slice(0, 50).toLowerCase());
+      record(allTime, bank, key);
+      if (inWindow) record(window30, bank, key);
     }
   }
 }

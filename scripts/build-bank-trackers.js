@@ -70,16 +70,57 @@ editionFiles.push(join(ROOT, 'data/daily.json'));
 const allTime = {}, window30 = {};
 function record(map, bank, key) { if (!bank) return; (map[bank] = map[bank] || new Set()).add(key); }
 
+// Per-bank list of the actual caught mandates (deduped by the same key as the
+// counts), so the "Mandates we caught (full list)" drawer shows the deals
+// behind each number. bank -> Map(key -> mandate detail).
+const caught = {};
+function recordDetail(bank, key, detail) {
+  if (!bank) return;
+  const m = (caught[bank] = caught[bank] || new Map());
+  // First write wins per key, but prefer a Filed entry over a Reported one and
+  // keep the most recent published date if a later edition re-surfaced it.
+  const prior = m.get(key);
+  if (!prior) { m.set(key, detail); return; }
+  if (prior.confidence !== 'Filed' && detail.confidence === 'Filed') m.set(key, { ...detail });
+  if (detail.published > (prior.published || '')) prior.published = detail.published;
+}
+
+// An item's advising banks: multi-bank `banks: [...]` or legacy single `bank`.
+function itemBanks(item) {
+  const raw = Array.isArray(item.banks) ? item.banks
+    : (item.banks ? [item.banks] : (item.bank ? [item.bank] : []));
+  const seen = new Set(), out = [];
+  for (const b of raw) {
+    const name = String(b || '').trim();
+    if (name && !seen.has(name.toLowerCase())) { seen.add(name.toLowerCase()); out.push(name); }
+  }
+  return out;
+}
+
 for (const file of editionFiles) {
   let ed;
   try { ed = JSON.parse(readFileSync(file, 'utf8')); } catch { continue; }
   for (const item of [...(ed.stories || []), ...(ed.opportunities || [])]) {
-    if (!item.bank) continue;
+    const banks = itemBanks(item);
+    if (!banks.length) continue; // market-scoped items have no bank to credit
     const url = sourceUrlOf(item);
-    const key = item.bank + '|' + (url || (item.headline || item.id || '').slice(0, 50).toLowerCase());
-    record(allTime, item.bank, key);
-    const pd = new Date(publishedOf(item, ed.date));
-    if (!isNaN(pd) && pd >= cutoff) record(window30, item.bank, key);
+    const published = publishedOf(item, ed.date);
+    const pd = new Date(published);
+    const inWindow = !isNaN(pd) && pd >= cutoff;
+    // Credit the mandate to EVERY advising bank on it (a co-advised deal counts
+    // for each bank that worked it), keyed per-bank so no bank double-counts.
+    for (const bank of banks) {
+      const key = bank + '|' + (url || (item.headline || item.id || '').slice(0, 50).toLowerCase());
+      record(allTime, bank, key);
+      if (inWindow) record(window30, bank, key);
+      recordDetail(bank, key, {
+        headline: item.headline || '',
+        published: published || ed.date || '',
+        confidence: item.confidence || 'Reported',
+        source: item.source || '',
+        source_url: url || ''
+      });
+    }
   }
 }
 
@@ -133,13 +174,20 @@ for (const bank of banksDoc.banks) {
     continue;
   }
 
+  // The deals behind the counts, newest-first — powers the
+  // "Mandates we caught (full list)" drawer. Length === mandates_total.
+  const caughtList = caught[bank.name]
+    ? [...caught[bank.name].values()].sort((a, b) => (b.published || '').localeCompare(a.published || ''))
+    : [];
+
   bank.dealbrief_tracker = {
     mandates_30d: t30,
     mandates_total: tAll,
     as_of: AS_OF,
     note: TRACKER_NOTE,
     advisory_signal: signal,
-    pipeline_watch: pipeline
+    pipeline_watch: pipeline,
+    caught_mandates: caughtList
   };
   enriched++;
 }

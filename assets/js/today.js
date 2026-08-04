@@ -3,7 +3,7 @@
    Loads daily.json and renders all sections.
    ============================================================ */
 
-import { fetchData, fetchDataFresh, isMarketDataFresh, confidenceTooltip, esc, urgencyToBadgeType, isMyBank, copyToClipboard, formatDate, getPrefs, coverageTeams, banksMissingCoverage } from './utils.js?v=20260731-5';
+import { fetchData, fetchDataFresh, isMarketDataFresh, confidenceTooltip, esc, urgencyToBadgeType, isMyBank, isMyBankAny, itemBanks, copyToClipboard, formatDate, getPrefs, coverageTeams, banksMissingCoverage } from './utils.js?v=20260804-1';
 
 /**
  * Build the coverage-team badge HTML for a deal (story or opportunity) — the
@@ -184,9 +184,10 @@ function filterStories(stories) {
     .sort(byUrgency)
     .slice(0, 5);
 
-  // Bank-specific: keep only the user's banks.
+  // Bank-specific: keep any story where at least one advising bank is covered
+  // (a co-advised deal surfaces for every rep on it, not just the lead's).
   const myBankStories = stories
-    .filter(s => s.scope === 'bank' && s.bank && isMyBank(s.bank))
+    .filter(s => s.scope === 'bank' && isMyBankAny(itemBanks(s)))
     .sort(byUrgency);
 
   // My banks lead, then the market headlines.
@@ -237,7 +238,7 @@ function renderStories(allStories) {
   container.innerHTML = stories.map((story, index) => {
     const isExpanded = index < 3; // First 3 expanded by default
     const urgencyType = urgencyToBadgeType(story.urgency);
-    const myBank = story.bank && isMyBank(story.bank);
+    const myBank = isMyBankAny(itemBanks(story));
     const isMarket = story.scope === 'market';
 
     const dealClockHtml = story.deal_clock && story.deal_clock.length ? `
@@ -314,7 +315,7 @@ function renderOpportunities(opps) {
 
   let visible = opps;
   if (hasSelections) {
-    visible = opps.filter(o => isMyBank(o.bank));
+    visible = opps.filter(o => isMyBankAny(itemBanks(o)));
   }
 
   // Context line
@@ -339,7 +340,8 @@ function renderOpportunities(opps) {
   container.innerHTML = visible.map((opp, index) => {
     const isExpanded = index === 0;
     const urgencyType = urgencyToBadgeType(opp.urgency);
-    const myBank = isMyBank(opp.bank);
+    const oppBanks = itemBanks(opp);
+    const myBank = isMyBankAny(oppBanks);
 
     const dealClockHtml = opp.deal_clock && opp.deal_clock.length ? `
       <div class="deal-clock">
@@ -368,7 +370,7 @@ function renderOpportunities(opps) {
               ${opp.confidence ? `<span class="badge badge-conf-${opp.confidence.toLowerCase()}" title="${confidenceTooltip(opp.confidence)}">${esc(opp.confidence.toUpperCase())}</span>` : ''}
             </div>
             <div class="mt-2 flex items-center gap-2" style="flex-wrap:wrap;gap:6px;">
-              <span class="opp-card-bank">${esc(opp.bank)}</span>
+              <span class="opp-card-bank">${esc(oppBanks.join(', ') || opp.bank || '')}</span>
               <span class="opp-card-divider">·</span>
               <span class="opp-card-sector" style="color:var(--text-muted);font-size:var(--text-sm)">${esc(opp.sector)}</span>
             </div>
