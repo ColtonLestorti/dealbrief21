@@ -3,7 +3,7 @@
    Loads daily.json and renders all sections.
    ============================================================ */
 
-import { fetchData, fetchDataFresh, isMarketDataFresh, confidenceTooltip, confidenceLabel, esc, urgencyToBadgeType, isMyBank, isMyBankAny, itemBanks, copyToClipboard, formatDate, getPrefs, coverageTeams, banksMissingCoverage } from './utils.js?v=20260804-2';
+import { fetchData, fetchDataFresh, isMarketDataFresh, confidenceTooltip, confidenceLabel, esc, urgencyToBadgeType, isMyBank, isMyBankAny, itemBanks, copyToClipboard, formatDate, getPrefs, coverageTeams, banksMissingCoverage } from './utils.js?v=20260804-3';
 
 /**
  * Build the coverage-team badge HTML for a deal (story or opportunity) — the

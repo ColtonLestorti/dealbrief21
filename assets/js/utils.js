@@ -255,7 +255,7 @@ export function confidenceTooltip(confidence) {
  */
 export function confidenceLabel(confidence) {
   const map = {
-    Filed: 'Safe to quote',
+    Filed: 'Confirmed',
     Reported: 'Verify first',
     Speculative: 'Rumor'
   };
