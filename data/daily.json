@@ -1,41 +1,41 @@
 {
-  "date": "2026-08-04",
-  "lens": "A landmark cross-border REIT combination led the tape: Prologis and SEGRO agreed an ~$18.8B recommended deal that put six covered banks on a single transaction — even as Williams struck an up-to-$5.5B midstream acquisition, Prysmian agreed to buy Atkore for ~$3.8B, and The Hartford picked up Equitable’s employee-benefits book, all against a sharp rebound in advisory stocks.",
+  "date": "2026-08-05",
+  "lens": "The tape went quiet midweek — the S&P barely moved — but the deal calendar stayed busy: Procter & Gamble agreed to buy Thorne for $3.8B, ContextLogic struck an $850M specialty-chemicals deal, and cross-border divestitures signed across energy (Gran Tierra), software (Command Alkon) and media (Clear Channel’s Spain business), several with two covered banks apiece and two fresh Deutsche Bank mandates.",
   "ticker": [
     {
       "label": "S&P 500",
-      "value": "7,668.92",
-      "change": "+0.90%",
+      "value": "7,744.49",
+      "change": "+0.10%",
       "positive": true
     },
     {
       "label": "Nasdaq",
-      "value": "26,309.23",
-      "change": "+1.53%",
-      "positive": true
+      "value": "26,573.97",
+      "change": "-0.04%",
+      "positive": false
     },
     {
       "label": "Dow",
-      "value": "53,768.92",
-      "change": "+1.11%",
+      "value": "54,546.74",
+      "change": "+0.85%",
       "positive": true
     },
     {
       "label": "VIX",
-      "value": "16.03",
-      "change": "+1.07%",
-      "positive": false
-    },
-    {
-      "label": "GS",
-      "value": "$1,055.65",
-      "change": "+2.78%",
+      "value": "16.30",
+      "change": "-1.21%",
       "positive": true
     },
     {
-      "label": "JPM",
-      "value": "$358.94",
-      "change": "+1.79%",
+      "label": "GS",
+      "value": "$1,071.11",
+      "change": "+1.72%",
+      "positive": true
+    },
+    {
+      "label": "JEF",
+      "value": "$56.62",
+      "change": "+1.63%",
       "positive": true
     }
   ],
@@ -45,70 +45,59 @@
       "category": "M&A",
       "urgency": "HIGH",
       "scope": "bank",
-      "headline": "Six covered banks work Prologis’ ~$18.8B recommended combination with UK logistics REIT SEGRO",
-      "why_it_matters": "Prologis (NYSE: PLD) reached agreement on a recommended all-share combination with SEGRO plc, valuing SEGRO at ~£14.0B (~$18.8B) — 0.0920 new Prologis shares per SEGRO share plus an optional partial-cash alternative up to £3.51B, a 39–49.8% premium to pre-offer prices, targeted to close 1H 2027. The Rule 2.7 announcement names Rothschild, J.P. Morgan and Eastdil Secured as joint lead financial advisers to Prologis, with BofA Securities and Citigroup as additional advisers; Evercore and Morgan Stanley as joint lead advisers to SEGRO, with UBS and Goldman Sachs also advising. A cross-border public-company REIT combination runs UK Takeover Code, antitrust and shareholder-documentation workstreams over a long path to close.",
-      "suggested_action": "This deal touches six covered banks — open with JPMorgan/BofA/Citi (Prologis) or Evercore/Morgan Stanley/UBS/Goldman (SEGRO). A cross-border REIT combination under the UK Takeover Code runs months of regulated diligence a secure room organizes.",
+      "banks": [
+        "Perella Weinberg"
+      ],
+      "headline": "Perella Weinberg advises Thorne on its $3.8B sale to Procter & Gamble",
+      "why_it_matters": "L Catterton agreed to sell Thorne — a science-backed health-and-wellness (vitamins, minerals, supplements) leader — to Procter & Gamble (NYSE: PG) for $3.8B in cash, expected to close in Q4 2026. The release names Perella Weinberg Partners (with Canaccord Genuity) as financial adviser to Thorne (sell-side); no adviser was named for P&G. A sponsor-to-strategic sale of a consumer-health brand runs brand, regulatory, and QofE diligence toward close.",
+      "suggested_action": "Engage Perella Weinberg (Thorne) — a $3.8B consumer-health sale to a strategic runs brand, regulatory and quality-of-earnings diligence a secure room organizes through close.",
       "deal_clock": [
         {
-          "date": "Jul 22, 2026",
-          "event": "Prologis discloses possible combination with SEGRO"
-        },
-        {
           "date": "Aug 4, 2026",
-          "event": "Recommended combination announced (~$18.8B)"
+          "event": "L Catterton agrees to sell Thorne to P&G ($3.8B)"
         },
         {
-          "date": "H1 2027",
-          "event": "Targeted completion"
+          "date": "Q4 2026",
+          "event": "Expected close"
         }
       ],
-      "source": "StockTitan (Prologis Rule 2.7 announcement)",
-      "source_url": "https://www.stocktitan.net/news/PLD/prologis-inc-announces-recommended-usvbmqu2pemj.html",
+      "source": "PR Newswire (L Catterton release)",
+      "source_url": "https://www.prnewswire.com/news-releases/l-catterton-announces-sale-of-thorne-to-the-procter--gamble-company-for-3-8-billion-302842797.html",
       "published": "2026-08-04",
       "confidence": "Reported",
       "tags": [
-        "real-estate",
-        "reit",
-        "logistics",
-        "cross-border"
-      ],
-      "banks": [
-        "JPMorgan",
-        "Bank of America",
-        "Citi",
-        "Evercore",
-        "Morgan Stanley",
-        "UBS",
-        "Goldman Sachs"
+        "consumer",
+        "health-wellness",
+        "sponsor-exit"
       ]
     },
     {
       "id": "s2",
       "category": "M&A",
-      "urgency": "HIGH",
+      "urgency": "MEDIUM",
       "scope": "bank",
-      "headline": "BofA leads Williams’ up-to-$5.5B acquisition of Momentum Midstream; Barclays and Jefferies advise the seller",
-      "why_it_matters": "The Williams Companies (NYSE: WMB) agreed to acquire Momentum Midstream / M6 Midstream from EnCap Flatrock for up to $5.5B (~$3.5B cash and debt plus ~$2.0B in Williams equity), announced alongside Q2 results and subject to HSR clearance. The release names BofA Securities as lead financial adviser to Williams (with Truist), and Barclays and Jefferies as exclusive financial advisers to M6 (sell-side). A large gas-gathering acquisition runs antitrust, asset-integrity and confirmatory diligence across a sizeable midstream complex.",
-      "suggested_action": "Engage BofA (Williams buy-side) and Barclays / Jefferies (M6 sell-side) — a ~$5.5B midstream acquisition runs HSR and asset-level diligence a secure room keeps organized.",
+      "banks": [
+        "Bank of America",
+        "RBC Capital Markets"
+      ],
+      "headline": "BofA (lead) and RBC advise Gran Tierra on its $1.33B sale of its Colombia/Ecuador business to Maurel & Prom",
+      "why_it_matters": "Gran Tierra Energy (NYSE/TSX: GTE) agreed to sell its Colombia and Ecuador business — all of its South American assets — to Maurel & Prom (a Pertamina subsidiary) for $1.33B total consideration (~$315M net cash proceeds), repositioning the company for fully financed growth. The release names BofA Securities as lead financial adviser (and fairness-opinion provider) to Gran Tierra, with RBC Capital Markets also advising (sell-side). A cross-border upstream divestiture runs reserve, regulatory and confirmatory diligence to close.",
+      "suggested_action": "Engage BofA and RBC (Gran Tierra) — a $1.33B cross-border upstream divestiture runs reserve, regulatory and confirmatory diligence a data room supports.",
       "deal_clock": [
         {
-          "date": "Aug 3, 2026",
-          "event": "Williams agrees to acquire Momentum/M6 Midstream (up to $5.5B)"
+          "date": "Aug 5, 2026",
+          "event": "Gran Tierra agrees to sell Colombia/Ecuador business ($1.33B)"
         }
       ],
-      "source": "StockTitan (EnCap Flatrock / Williams release)",
-      "source_url": "https://www.stocktitan.net/news/WMB/en-cap-flatrock-announces-sale-of-m6-midstream-to-williams-for-5-5-8yar78uyylia.html",
-      "published": "2026-08-03",
+      "source": "GlobeNewswire (Gran Tierra release)",
+      "source_url": "https://www.globenewswire.com/news-release/2026/08/05/3339040/0/en/gran-tierra-energy-inc-announces-agreement-to-sell-its-colombia-and-ecuador-business-to-maurel-prom-and-reposition-the-company-for-fully-financed-growth.html",
+      "published": "2026-08-05",
       "confidence": "Reported",
       "tags": [
         "energy",
-        "midstream",
-        "natural-gas"
-      ],
-      "banks": [
-        "Bank of America",
-        "Barclays",
-        "Jefferies"
+        "oil-gas",
+        "cross-border",
+        "divestiture"
       ]
     },
     {
@@ -116,28 +105,27 @@
       "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "headline": "Citi and JPMorgan advise Atkore on its ~$3.8B all-cash sale to Prysmian",
-      "why_it_matters": "Atkore (NYSE: ATKR) agreed to be acquired by Italy’s Prysmian S.p.A. for $95.00/share in cash, ~$3.8B enterprise value (~30% premium). The release names Citi as lead financial adviser and J.P. Morgan as financial adviser to Atkore (sell-side). A cross-border take-private of a listed electrical-products maker runs antitrust, financing and confirmatory diligence toward close.",
-      "suggested_action": "Reach out to Citi and JPMorgan (Atkore) — a ~$3.8B cross-border cash sale runs antitrust and confirmatory diligence a data room supports through close.",
+      "banks": [
+        "Morgan Stanley",
+        "Piper Sandler"
+      ],
+      "headline": "Morgan Stanley advises gChem and Piper Sandler advises ContextLogic on the $850M specialty-chemicals acquisition",
+      "why_it_matters": "ContextLogic (Nasdaq: LOGC) agreed to acquire gChem — a specialty-chemicals maker (DMSO for pharma, semiconductors, ag and aerospace), sold by EagleTree Capital — for $850M enterprise value. The release names Morgan Stanley as exclusive financial adviser to gChem (sell-side) and Piper Sandler as financial adviser to ContextLogic (buy-side). A sponsor-exit chemicals carve-out runs environmental, contract and QofE diligence to close.",
+      "suggested_action": "Engage Morgan Stanley (gChem) and Piper Sandler (ContextLogic) — an $850M specialty-chemicals sale runs environmental and quality-of-earnings diligence a secure room keeps organized.",
       "deal_clock": [
         {
-          "date": "Aug 3, 2026",
-          "event": "Prysmian agrees to acquire Atkore at $95/share (~$3.8B)"
+          "date": "Aug 5, 2026",
+          "event": "ContextLogic agrees to acquire gChem ($850M)"
         }
       ],
-      "source": "StockTitan (Atkore release)",
-      "source_url": "https://www.stocktitan.net/news/ATKR/atkore-inc-to-be-acquired-by-prysmian-for-95-00-per-share-in-m5cd95iqt2sx.html",
-      "published": "2026-08-03",
+      "source": "GlobeNewswire (ContextLogic release)",
+      "source_url": "https://www.globenewswire.com/news-release/2026/08/05/3339169/0/en/contextlogic-to-acquire-gchem-for-850-million.html",
+      "published": "2026-08-05",
       "confidence": "Reported",
       "tags": [
         "industrials",
-        "electrical-products",
-        "cross-border",
-        "take-private"
-      ],
-      "banks": [
-        "Citi",
-        "JPMorgan"
+        "specialty-chemicals",
+        "sponsor-exit"
       ]
     },
     {
@@ -145,26 +133,27 @@
       "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "headline": "JPMorgan advises Equitable and Rothschild advises The Hartford on Hartford’s acquisition of Equitable’s employee-benefits business",
-      "why_it_matters": "The Hartford (NYSE: HIG) agreed to acquire Equitable’s Employee Benefits business — group life, disability, PFML, supplemental health and dental/vision, plus the tech platform and ~300 employees (~$500M in premium; financial terms undisclosed). The release names J.P. Morgan as financial adviser to Equitable (sell-side) and Rothschild as adviser to The Hartford. A carve-out of a regulated insurance block runs policyholder, regulatory-approval and platform-transition diligence to close.",
-      "suggested_action": "Engage JPMorgan (Equitable) — a regulated insurance-block carve-out runs policyholder and regulatory-transition diligence a secure room supports through separation.",
+      "banks": [
+        "Deutsche Bank",
+        "Evercore"
+      ],
+      "headline": "Deutsche Bank advises Francisco Partners and Evercore advises Thoma Bravo on the sale of software maker Command Alkon",
+      "why_it_matters": "Francisco Partners agreed to acquire Command Alkon — a construction and heavy-building-materials software provider — from Thoma Bravo (terms undisclosed), expected to close in H2 2026 subject to regulatory approval. The release names Deutsche Bank Securities as financial adviser to Francisco Partners (buy-side) and Evercore as financial adviser to Thoma Bravo / Command Alkon (sell-side). A sponsor-to-sponsor software buyout runs code, contract and QofE diligence to close.",
+      "suggested_action": "Engage Deutsche Bank (Francisco Partners) and Evercore (Thoma Bravo) — a sponsor-to-sponsor software buyout runs code-escrow, contract and QofE diligence a secure room organizes.",
       "deal_clock": [
         {
           "date": "Aug 4, 2026",
-          "event": "Hartford agrees to acquire Equitable’s employee-benefits business"
+          "event": "Francisco Partners agrees to acquire Command Alkon from Thoma Bravo"
         }
       ],
-      "source": "StockTitan (The Hartford release)",
-      "source_url": "https://www.stocktitan.net/news/HIG/the-hartford-to-acquire-equitable-s-employee-benefits-n0u90rhn6xog.html",
+      "source": "GlobeNewswire (Command Alkon release)",
+      "source_url": "https://www.globenewswire.com/news-release/2026/08/04/3338569/0/en/command-alkon-announces-acquisition-by-francisco-partners-from-thoma-bravo.html",
       "published": "2026-08-04",
       "confidence": "Reported",
       "tags": [
-        "insurance",
-        "employee-benefits",
-        "carve-out"
-      ],
-      "banks": [
-        "JPMorgan"
+        "technology",
+        "software",
+        "sponsor"
       ]
     },
     {
@@ -172,40 +161,70 @@
       "category": "M&A",
       "urgency": "LOW",
       "scope": "bank",
-      "headline": "Harris Williams advises Ridgemont Equity Partners on its acquisition of environmental-remediation platform ENTACT",
-      "why_it_matters": "Ridgemont Equity Partners acquired ENTACT — an environmental remediation and geotechnical infrastructure-services provider (terms undisclosed) — from its prior ownership. The release names Harris Williams as financial adviser to Ridgemont (buy-side); Brown Gibbons Lang and AEC Advisors advised ENTACT. A sponsor platform acquisition in environmental services runs contract, backlog and quality-of-earnings diligence to close.",
-      "suggested_action": "Note Harris Williams (Ridgemont/ENTACT) — a sponsor platform buy in environmental services runs contract and QofE diligence a secure room organizes.",
+      "banks": [
+        "Moelis",
+        "Deutsche Bank"
+      ],
+      "headline": "Moelis and Deutsche Bank advise Clear Channel Outdoor on the ~$132M sale of its Spain business to Atresmedia",
+      "why_it_matters": "Clear Channel Outdoor (NYSE: CCO) completed the sale of its Spain out-of-home advertising business to Atresmedia for ~€115M (~US$132M), continuing its international-market divestiture program. The release names Moelis & Company and Deutsche Bank Securities as financial advisers to Clear Channel (sell-side). A cross-border media carve-out runs local-regulatory and separation diligence through close.",
+      "suggested_action": "Note Moelis and Deutsche Bank (Clear Channel) — a cross-border media carve-out runs local-regulatory and TSA/separation diligence a data room supports.",
       "deal_clock": [
         {
           "date": "Aug 4, 2026",
-          "event": "Ridgemont acquires ENTACT"
+          "event": "Clear Channel completes sale of Spain business to Atresmedia (~$132M)"
         }
       ],
-      "source": "Ridgemont Equity Partners (press release)",
-      "source_url": "https://www.ridgemontep.com/press-releases/ridgemont-equity-partners-acquires-entact/",
+      "source": "PR Newswire (Clear Channel release)",
+      "source_url": "https://www.prnewswire.com/news-releases/clear-channel-outdoor-holdings-inc-completes-sale-of-its-business-in-spain-to-atresmedia-302842912.html",
       "published": "2026-08-04",
       "confidence": "Reported",
       "tags": [
-        "industrials",
-        "environmental-services",
-        "sponsor",
-        "buyout"
-      ],
-      "banks": [
-        "Harris Williams"
+        "media",
+        "out-of-home",
+        "cross-border",
+        "carve-out"
       ]
     },
     {
       "id": "s6",
+      "category": "M&A",
+      "urgency": "LOW",
+      "scope": "bank",
+      "banks": [
+        "Lazard",
+        "JPMorgan",
+        "Raymond James"
+      ],
+      "headline": "Lazard and JPMorgan advise Ascensus; Raymond James advises AmericanTCS on the completed retirement-platform acquisition",
+      "why_it_matters": "Ascensus completed its acquisition of AmericanTCS — a retirement, trust-and-custody and fintech provider (terms undisclosed) — expanding its platform and capabilities. The release names Lazard and J.P. Morgan as financial advisers to Ascensus (buy-side) and Raymond James as financial adviser to AmericanTCS (sell-side). A financial-services platform acquisition runs client-contract, regulatory and integration diligence.",
+      "suggested_action": "Engage Lazard/JPMorgan (Ascensus) and Raymond James (AmericanTCS) — a retirement-platform combination runs client-contract and regulatory diligence a secure room organizes through integration.",
+      "deal_clock": [
+        {
+          "date": "Aug 5, 2026",
+          "event": "Ascensus completes acquisition of AmericanTCS"
+        }
+      ],
+      "source": "PR Newswire (Ascensus release)",
+      "source_url": "https://www.prnewswire.com/news-releases/ascensus-completes-acquisition-of-americantcs-expanding-platform-and-capabilities-302843116.html",
+      "published": "2026-08-05",
+      "confidence": "Reported",
+      "tags": [
+        "financials",
+        "retirement",
+        "fintech"
+      ]
+    },
+    {
+      "id": "s7",
       "category": "MACRO",
-      "urgency": "MEDIUM",
+      "urgency": "LOW",
       "scope": "market",
-      "headline": "Markets extend the August rally — Nasdaq +1.5%, Dow +1.1% — and advisory stocks surge: GS +2.8%, JPM +1.8%, LAZ +2.0%",
-      "why_it_matters": "US equities extended their August advance: S&P 500 +0.9% (~7,669), Nasdaq +1.5% (~26,309), Dow +1.1% (~53,769), with the 10Y Treasury easing to ~4.64% and the VIX steady near 16.0. The advisory complex — which slid three sessions into month-end — rallied hard: Goldman +2.8%, JPMorgan +1.8%, Lazard +2.0%, Jefferies +1.8%, Morgan Stanley +1.4%. A firm tape plus a re-rating in the advisory names lines up with a genuinely deal-dense stretch, from an ~$18.8B cross-border REIT combination to multiple multi-billion signings.",
-      "suggested_action": "Use the advisory-stock rebound and a heavy signing calendar to reconnect now — reps are busy, and room readiness is the difference between a process that stays on schedule and one that slips.",
+      "headline": "Markets pause after the August run — S&P flat, Dow +0.85%, Nasdaq -0.04% — with the 10Y steady at ~4.63%",
+      "why_it_matters": "US equities took a breather midweek: S&P 500 roughly flat (~7,744), Dow +0.85% (~54,547), Nasdaq slightly negative (-0.04%, ~26,574), with the VIX easing to ~16.3 and the 10Y Treasury steady at ~4.63%. Advisory names held their recent gains — Goldman +1.7%, Jefferies +1.6%, JPMorgan +0.7% — as a steady stream of mid-cap and cross-border deals kept signing. A calm tape and full deal calendar keep signed processes moving on schedule.",
+      "suggested_action": "Use the steady tape and continued signings to keep the conversation on execution — clients want live processes on schedule; room readiness protects the timeline.",
       "source": "Yahoo Finance",
       "source_url": "https://finance.yahoo.com/quote/%5EGSPC/",
-      "published": "2026-08-04"
+      "published": "2026-08-05"
     }
   ],
   "opportunities": [
@@ -232,7 +251,7 @@
       "first_seen": "2026-08-03",
       "last_confirmed": "2026-08-03",
       "id": "o1",
-      "carry_badge": "Day 2",
+      "carry_badge": "Day 3",
       "banks": [
         "Jefferies",
         "Citi",
@@ -262,41 +281,71 @@
       "first_seen": "2026-08-03",
       "last_confirmed": "2026-08-03",
       "id": "o2",
-      "carry_badge": "Day 2",
+      "carry_badge": "Day 3",
       "banks": [
         "Wells Fargo"
       ]
     },
     {
-      "id": "o3",
-      "sector": "Biopharma / Healthcare",
+      "banks": [
+        "Perella Weinberg"
+      ],
+      "sector": "Consumer / Health & Wellness",
       "urgency": "HOT",
-      "headline": "Adviser (with Centerview, Citi) to AtaiBeckley’s board on its $6.75 + CVR sale to Eli Lilly",
-      "why_it_matters": "Moelis and Centerview advise the AtaiBeckley (ATAI) board on its sale to Eli Lilly — $6.75/share cash plus a CVR worth up to $2.50 tied to VLS-01/BPL-003 milestones (up to $9.25; ~$2.8B upfront). Citi is an additional board adviser; Goldman advises Lilly. A PREM14A filed Jul 30 advances a CVR-structured biopharma take-out toward a shareholder vote.",
+      "headline": "Sell-side adviser to Thorne on its $3.8B sale to Procter & Gamble",
+      "why_it_matters": "Perella Weinberg (with Canaccord Genuity) advises Thorne on its $3.8B all-cash sale by L Catterton to Procter & Gamble (close expected Q4 2026). A consumer-health sale to a strategic runs brand, regulatory and QofE diligence toward close.",
       "deal_clock": [
         {
-          "date": "Jul 30, 2026",
-          "event": "AtaiBeckley files PREM14A ($6.75 + up to $2.50 CVR)"
+          "date": "Aug 4, 2026",
+          "event": "L Catterton agrees to sell Thorne to P&G ($3.8B)"
+        },
+        {
+          "date": "Q4 2026",
+          "event": "Expected close"
         }
       ],
-      "outreach_idea": "Engage Moelis/Centerview/Citi (AtaiBeckley) — a CVR-structured take-out advancing to a vote runs milestone and confirmatory diligence a secure room organizes.",
+      "outreach_idea": "Engage Perella Weinberg (Thorne) — a $3.8B consumer-health sale runs brand and QofE diligence a secure room organizes through close.",
       "outreach_draft": {
-        "subject": "AtaiBeckley / Lilly — supporting a CVR-structured take-out",
-        "body": "Congratulations on Moelis’s role advising AtaiBeckley on its sale to Eli Lilly. CVR-structured biopharma take-outs run milestone-tracking and confirmatory diligence toward the shareholder vote — would welcome a conversation on how we support secure, auditable data-room access through close.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+        "subject": "Thorne / P&G — supporting a $3.8B consumer-health sale",
+        "body": "Congratulations on Perella Weinberg’s role advising Thorne on its sale to Procter & Gamble. Sales of consumer-health brands to strategics run brand, regulatory and quality-of-earnings diligence toward close — would welcome a conversation on secure, auditable data-room access through completion.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
       },
-      "source": "SEC EDGAR — AtaiBeckley PREM14A",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/2081043/000114036126030109/ny20078129x1_prem14a.htm",
-      "published": "2026-07-30",
-      "confidence": "Filed",
-      "first_seen": "2026-07-30",
-      "last_confirmed": "2026-07-30",
-      "carry_badge": "Day 4",
+      "source": "PR Newswire — L Catterton release",
+      "source_url": "https://www.prnewswire.com/news-releases/l-catterton-announces-sale-of-thorne-to-the-procter--gamble-company-for-3-8-billion-302842797.html",
+      "published": "2026-08-04",
+      "confidence": "Reported",
+      "first_seen": "2026-08-05",
+      "last_confirmed": "2026-08-05",
+      "id": "o3",
+      "carry_badge": "NEW"
+    },
+    {
       "banks": [
-        "Moelis",
-        "Citi",
-        "Centerview Partners",
-        "Goldman Sachs"
-      ]
+        "Bank of America",
+        "RBC Capital Markets"
+      ],
+      "sector": "Energy / Oil & Gas",
+      "urgency": "HOT",
+      "headline": "Lead sell-side adviser (with RBC) to Gran Tierra on its $1.33B South American divestiture to Maurel & Prom",
+      "why_it_matters": "BofA Securities is lead financial adviser (and fairness-opinion provider), with RBC Capital Markets, to Gran Tierra on the $1.33B sale of its Colombia/Ecuador business to Maurel & Prom (a Pertamina subsidiary). A cross-border upstream divestiture runs reserve, regulatory and confirmatory diligence to close.",
+      "deal_clock": [
+        {
+          "date": "Aug 5, 2026",
+          "event": "Gran Tierra agrees to sell Colombia/Ecuador business ($1.33B)"
+        }
+      ],
+      "outreach_idea": "Engage BofA / RBC (Gran Tierra) — a $1.33B cross-border upstream divestiture runs reserve and regulatory diligence a secure room organizes.",
+      "outreach_draft": {
+        "subject": "Gran Tierra — supporting a cross-border upstream divestiture",
+        "body": "Congratulations on BofA’s lead role advising Gran Tierra on the sale of its Colombia and Ecuador business. Cross-border upstream divestitures run reserve, regulatory and confirmatory diligence to close — happy to discuss secure, auditable data-room access through the process.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "GlobeNewswire — Gran Tierra release",
+      "source_url": "https://www.globenewswire.com/news-release/2026/08/05/3339040/0/en/gran-tierra-energy-inc-announces-agreement-to-sell-its-colombia-and-ecuador-business-to-maurel-prom-and-reposition-the-company-for-fully-financed-growth.html",
+      "published": "2026-08-05",
+      "confidence": "Reported",
+      "first_seen": "2026-08-05",
+      "last_confirmed": "2026-08-05",
+      "id": "o4",
+      "carry_badge": "NEW"
     },
     {
       "sector": "Real Estate / Logistics REIT",
@@ -324,8 +373,8 @@
       "confidence": "Reported",
       "first_seen": "2026-08-04",
       "last_confirmed": "2026-08-04",
-      "id": "o4",
-      "carry_badge": "NEW",
+      "id": "o5",
+      "carry_badge": "Day 2",
       "banks": [
         "JPMorgan",
         "Bank of America",
@@ -333,284 +382,222 @@
       ]
     },
     {
-      "sector": "Real Estate / Logistics REIT",
-      "urgency": "HOT",
-      "headline": "Joint lead adviser (with Morgan Stanley) to SEGRO on its ~$18.8B recommended combination with Prologis",
-      "why_it_matters": "Evercore is a joint lead financial adviser to SEGRO (with Morgan Stanley; UBS and Goldman Sachs also advising) on its ~$18.8B recommended combination with Prologis. A recommended cross-border REIT combination runs UK Takeover Code, antitrust and confirmatory workstreams toward a 1H 2027 close.",
-      "deal_clock": [
-        {
-          "date": "Aug 4, 2026",
-          "event": "Prologis/SEGRO recommended combination announced (~$18.8B)"
-        },
-        {
-          "date": "H1 2027",
-          "event": "Targeted completion"
-        }
-      ],
-      "outreach_idea": "Engage Evercore / Morgan Stanley (SEGRO) — a ~$18.8B cross-border REIT combination runs regulated, months-long diligence a secure room organizes.",
-      "outreach_draft": {
-        "subject": "SEGRO / Prologis — supporting a recommended REIT combination",
-        "body": "Congratulations on Evercore’s joint-lead role advising SEGRO on its recommended combination with Prologis. Cross-border combinations run UK Takeover Code and antitrust workstreams over many months — happy to discuss secure, auditable room access on the target side through completion.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
-      },
-      "source": "StockTitan — Prologis Rule 2.7 announcement",
-      "source_url": "https://www.stocktitan.net/news/PLD/prologis-inc-announces-recommended-usvbmqu2pemj.html",
-      "published": "2026-08-04",
-      "confidence": "Reported",
-      "first_seen": "2026-08-04",
-      "last_confirmed": "2026-08-04",
-      "id": "o5",
-      "carry_badge": "NEW",
       "banks": [
-        "Evercore",
         "Morgan Stanley",
-        "UBS",
-        "Goldman Sachs"
-      ]
-    },
-    {
-      "sector": "Energy / Midstream",
-      "urgency": "HOT",
-      "headline": "Lead buy-side adviser to Williams on its up-to-$5.5B acquisition of Momentum Midstream",
-      "why_it_matters": "BofA Securities is lead financial adviser to Williams (with Truist) on its up-to-$5.5B acquisition of Momentum/M6 Midstream from EnCap Flatrock (Barclays and Jefferies advise the seller). A large gas-gathering acquisition runs HSR antitrust, asset-integrity and confirmatory diligence across a sizeable midstream complex.",
+        "Piper Sandler"
+      ],
+      "sector": "Industrials / Specialty Chemicals",
+      "urgency": "WARM",
+      "headline": "Exclusive sell-side adviser to gChem (with Piper Sandler for the buyer) on the $850M ContextLogic acquisition",
+      "why_it_matters": "Morgan Stanley is exclusive financial adviser to gChem (sold by EagleTree Capital) on its $850M sale to ContextLogic; Piper Sandler advises the buyer. A specialty-chemicals carve-out runs environmental, contract and QofE diligence to close.",
       "deal_clock": [
         {
-          "date": "Aug 3, 2026",
-          "event": "Williams agrees to acquire Momentum/M6 (up to $5.5B)"
+          "date": "Aug 5, 2026",
+          "event": "ContextLogic agrees to acquire gChem ($850M)"
         }
       ],
-      "outreach_idea": "Engage BofA (Williams) — a ~$5.5B midstream acquisition runs HSR and asset-level diligence a secure room organizes.",
+      "outreach_idea": "Engage Morgan Stanley (gChem) / Piper Sandler (ContextLogic) — an $850M chemicals sale runs environmental and QofE diligence a secure room organizes.",
       "outreach_draft": {
-        "subject": "Williams / Momentum Midstream — supporting a midstream acquisition",
-        "body": "Congratulations on BofA’s lead role advising Williams on its acquisition of Momentum Midstream. Large midstream deals run HSR antitrust and asset-integrity diligence to close — would welcome a conversation on secure, auditable data-room access through the process.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+        "subject": "gChem / ContextLogic — supporting an $850M chemicals sale",
+        "body": "Congratulations on Morgan Stanley’s role advising gChem on its sale to ContextLogic. Specialty-chemicals carve-outs run environmental, contract and quality-of-earnings diligence to close — would welcome a conversation on secure, auditable room access through the process.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
       },
-      "source": "StockTitan — EnCap Flatrock / Williams release",
-      "source_url": "https://www.stocktitan.net/news/WMB/en-cap-flatrock-announces-sale-of-m6-midstream-to-williams-for-5-5-8yar78uyylia.html",
-      "published": "2026-08-03",
+      "source": "GlobeNewswire — ContextLogic release",
+      "source_url": "https://www.globenewswire.com/news-release/2026/08/05/3339169/0/en/contextlogic-to-acquire-gchem-for-850-million.html",
+      "published": "2026-08-05",
       "confidence": "Reported",
-      "first_seen": "2026-08-04",
-      "last_confirmed": "2026-08-04",
+      "first_seen": "2026-08-05",
+      "last_confirmed": "2026-08-05",
       "id": "o6",
-      "carry_badge": "NEW",
-      "banks": [
-        "Bank of America",
-        "Barclays",
-        "Jefferies"
-      ]
+      "carry_badge": "NEW"
     },
     {
-      "sector": "Energy / Midstream",
-      "urgency": "HOT",
-      "headline": "Exclusive sell-side adviser (with Jefferies) to M6 Midstream on its up-to-$5.5B sale to Williams",
-      "why_it_matters": "Barclays and Jefferies are exclusive financial advisers to M6 Midstream / EnCap Flatrock on the up-to-$5.5B sale to Williams. A sponsor-backed midstream exit runs antitrust and confirmatory diligence across a sizeable gas-gathering complex to close.",
+      "banks": [
+        "Deutsche Bank",
+        "Evercore"
+      ],
+      "sector": "Technology / Software",
+      "urgency": "WARM",
+      "headline": "Buy-side adviser to Francisco Partners (with Evercore for Thoma Bravo) on the Command Alkon software buyout",
+      "why_it_matters": "Deutsche Bank Securities advises Francisco Partners on its acquisition of construction-software maker Command Alkon from Thoma Bravo (Evercore sell-side; terms undisclosed; close H2 2026). A sponsor-to-sponsor software buyout runs code, contract and QofE diligence to close.",
       "deal_clock": [
         {
-          "date": "Aug 3, 2026",
-          "event": "M6/EnCap Flatrock agrees to sell to Williams (up to $5.5B)"
+          "date": "Aug 4, 2026",
+          "event": "Francisco Partners agrees to acquire Command Alkon from Thoma Bravo"
         }
       ],
-      "outreach_idea": "Engage Barclays / Jefferies (M6) — a ~$5.5B midstream exit runs antitrust and confirmatory diligence a secure room organizes.",
+      "outreach_idea": "Engage Deutsche Bank (Francisco Partners) / Evercore (Thoma Bravo) — a sponsor-to-sponsor software buyout runs code and QofE diligence a secure room organizes.",
       "outreach_draft": {
-        "subject": "M6 Midstream / Williams — supporting a midstream exit",
-        "body": "Congratulations on Barclays’ role advising M6 Midstream on its sale to Williams. Sponsor-backed midstream exits run antitrust and confirmatory diligence to close — happy to discuss secure, auditable room access on the sell-side through the process.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+        "subject": "Command Alkon — supporting a software buyout",
+        "body": "Congratulations on Deutsche Bank’s role advising Francisco Partners on its acquisition of Command Alkon. Sponsor-to-sponsor software buyouts run code-escrow, contract and quality-of-earnings diligence to close — happy to discuss secure, auditable data-room access through the process.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
       },
-      "source": "StockTitan — EnCap Flatrock / Williams release",
-      "source_url": "https://www.stocktitan.net/news/WMB/en-cap-flatrock-announces-sale-of-m6-midstream-to-williams-for-5-5-8yar78uyylia.html",
-      "published": "2026-08-03",
+      "source": "GlobeNewswire — Command Alkon release",
+      "source_url": "https://www.globenewswire.com/news-release/2026/08/04/3338569/0/en/command-alkon-announces-acquisition-by-francisco-partners-from-thoma-bravo.html",
+      "published": "2026-08-04",
       "confidence": "Reported",
-      "first_seen": "2026-08-04",
-      "last_confirmed": "2026-08-04",
+      "first_seen": "2026-08-05",
+      "last_confirmed": "2026-08-05",
       "id": "o7",
-      "carry_badge": "NEW",
-      "banks": [
-        "Barclays",
-        "Jefferies"
-      ]
+      "carry_badge": "NEW"
     },
     {
-      "sector": "Industrials / Electrical Products",
-      "urgency": "HOT",
-      "headline": "Lead sell-side adviser (with JPMorgan) to Atkore on its ~$3.8B all-cash sale to Prysmian",
-      "why_it_matters": "Citi is lead financial adviser to Atkore (with J.P. Morgan) on its $95.00/share, ~$3.8B all-cash sale to Italy’s Prysmian. A cross-border take-private of a listed electrical-products maker runs antitrust, financing and confirmatory diligence toward close.",
+      "banks": [
+        "Lazard",
+        "JPMorgan",
+        "Raymond James"
+      ],
+      "sector": "Financials / Retirement",
+      "urgency": "WARM",
+      "headline": "Adviser group on Ascensus’ completed acquisition of retirement-platform AmericanTCS",
+      "why_it_matters": "Lazard and J.P. Morgan advise Ascensus (buy-side) and Raymond James advises AmericanTCS (sell-side) on the completed acquisition, expanding Ascensus’ retirement, trust-and-custody and fintech platform. A financial-services platform combination runs client-contract, regulatory and integration diligence.",
       "deal_clock": [
         {
-          "date": "Aug 3, 2026",
-          "event": "Prysmian agrees to acquire Atkore at $95/share (~$3.8B)"
+          "date": "Aug 5, 2026",
+          "event": "Ascensus completes acquisition of AmericanTCS"
         }
       ],
-      "outreach_idea": "Engage Citi / JPMorgan (Atkore) — a ~$3.8B cross-border cash sale runs antitrust and confirmatory diligence a secure room organizes.",
+      "outreach_idea": "Engage Lazard/JPMorgan (Ascensus) or Raymond James (AmericanTCS) — a retirement-platform combination runs client-contract and integration diligence a secure room organizes.",
       "outreach_draft": {
-        "subject": "Atkore / Prysmian — supporting a cross-border cash sale",
-        "body": "Congratulations on Citi’s lead role advising Atkore on its sale to Prysmian. Cross-border take-privates run antitrust, financing and confirmatory diligence toward close — would welcome a conversation on secure, auditable data-room access through the process.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+        "subject": "Ascensus / AmericanTCS — supporting a retirement-platform combination",
+        "body": "Congratulations on advising on Ascensus’ acquisition of AmericanTCS. Financial-services platform combinations run client-contract, regulatory and integration diligence — would welcome a conversation on secure, auditable data-room access through the process.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
       },
-      "source": "StockTitan — Atkore release",
-      "source_url": "https://www.stocktitan.net/news/ATKR/atkore-inc-to-be-acquired-by-prysmian-for-95-00-per-share-in-m5cd95iqt2sx.html",
-      "published": "2026-08-03",
+      "source": "PR Newswire — Ascensus release",
+      "source_url": "https://www.prnewswire.com/news-releases/ascensus-completes-acquisition-of-americantcs-expanding-platform-and-capabilities-302843116.html",
+      "published": "2026-08-05",
       "confidence": "Reported",
-      "first_seen": "2026-08-04",
-      "last_confirmed": "2026-08-04",
+      "first_seen": "2026-08-05",
+      "last_confirmed": "2026-08-05",
       "id": "o8",
-      "carry_badge": "NEW",
-      "banks": [
-        "Citi",
-        "JPMorgan"
-      ]
+      "carry_badge": "NEW"
     },
     {
-      "sector": "Insurance / Employee Benefits",
+      "banks": [
+        "Moelis",
+        "Deutsche Bank"
+      ],
+      "sector": "Media / Out-of-Home",
       "urgency": "WARM",
-      "headline": "Sell-side adviser to Equitable on the sale of its employee-benefits business to The Hartford",
-      "why_it_matters": "J.P. Morgan advises Equitable on the sale of its Employee Benefits business (~$500M in premium; terms undisclosed) to The Hartford; Rothschild advises the buyer. A carve-out of a regulated insurance block runs policyholder, regulatory-approval and platform-transition diligence to close.",
+      "headline": "Sell-side adviser to Clear Channel Outdoor on the ~$132M sale of its Spain business to Atresmedia",
+      "why_it_matters": "Moelis and Deutsche Bank Securities advise Clear Channel Outdoor on the completed ~€115M (~$132M) sale of its Spain out-of-home advertising business to Atresmedia. A cross-border media carve-out runs local-regulatory and separation diligence.",
       "deal_clock": [
         {
           "date": "Aug 4, 2026",
-          "event": "Hartford agrees to acquire Equitable’s employee-benefits business"
+          "event": "Clear Channel completes sale of Spain business (~$132M)"
         }
       ],
-      "outreach_idea": "Engage JPMorgan (Equitable) — a regulated insurance-block carve-out runs policyholder and regulatory-transition diligence a secure room supports.",
+      "outreach_idea": "Engage Moelis / Deutsche Bank (Clear Channel) — a cross-border media carve-out runs local-regulatory and separation diligence a secure room organizes.",
       "outreach_draft": {
-        "subject": "Equitable / The Hartford — supporting an insurance carve-out",
-        "body": "Congratulations on JPMorgan’s role advising Equitable on the sale of its employee-benefits business to The Hartford. Regulated insurance carve-outs run policyholder, regulatory-approval and platform-transition diligence — happy to discuss secure, auditable room access through separation.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+        "subject": "Clear Channel Spain — supporting a cross-border carve-out",
+        "body": "Congratulations on Moelis and Deutsche Bank’s role advising Clear Channel on the sale of its Spain business. Cross-border media carve-outs run local-regulatory and separation diligence — happy to discuss secure, auditable room access through the process.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
       },
-      "source": "StockTitan — The Hartford release",
-      "source_url": "https://www.stocktitan.net/news/HIG/the-hartford-to-acquire-equitable-s-employee-benefits-n0u90rhn6xog.html",
+      "source": "PR Newswire — Clear Channel release",
+      "source_url": "https://www.prnewswire.com/news-releases/clear-channel-outdoor-holdings-inc-completes-sale-of-its-business-in-spain-to-atresmedia-302842912.html",
       "published": "2026-08-04",
       "confidence": "Reported",
-      "first_seen": "2026-08-04",
-      "last_confirmed": "2026-08-04",
+      "first_seen": "2026-08-05",
+      "last_confirmed": "2026-08-05",
       "id": "o9",
-      "carry_badge": "NEW",
-      "banks": [
-        "JPMorgan"
-      ]
-    },
-    {
-      "sector": "Industrials / Environmental Services",
-      "urgency": "WARM",
-      "headline": "Buy-side adviser to Ridgemont Equity Partners on its acquisition of environmental-remediation platform ENTACT",
-      "why_it_matters": "Harris Williams advises Ridgemont Equity Partners on its acquisition of ENTACT, an environmental remediation and geotechnical infrastructure-services provider (terms undisclosed). A sponsor platform acquisition runs contract, backlog and quality-of-earnings diligence to close.",
-      "deal_clock": [
-        {
-          "date": "Aug 4, 2026",
-          "event": "Ridgemont acquires ENTACT"
-        }
-      ],
-      "outreach_idea": "Engage Harris Williams (Ridgemont) — a sponsor platform buy in environmental services runs contract and QofE diligence a secure room organizes.",
-      "outreach_draft": {
-        "subject": "Ridgemont / ENTACT — supporting a platform acquisition",
-        "body": "Congratulations on Harris Williams’ role advising Ridgemont on its acquisition of ENTACT. Sponsor platform acquisitions run contract, backlog and quality-of-earnings diligence to close — would welcome a conversation on secure, auditable data-room access through the process.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
-      },
-      "source": "Ridgemont Equity Partners — press release",
-      "source_url": "https://www.ridgemontep.com/press-releases/ridgemont-equity-partners-acquires-entact/",
-      "published": "2026-08-04",
-      "confidence": "Reported",
-      "first_seen": "2026-08-04",
-      "last_confirmed": "2026-08-04",
-      "id": "o10",
-      "carry_badge": "NEW",
-      "banks": [
-        "Harris Williams"
-      ]
+      "carry_badge": "NEW"
     }
   ],
   "market_snapshot": {
     "indices": [
       {
         "label": "S&P 500",
-        "value": "7,668.92",
-        "change": "+68.42 (+0.90%)",
+        "value": "7,744.49",
+        "change": "+7.97 (+0.10%)",
         "positive": true
       },
       {
         "label": "Nasdaq Composite",
-        "value": "26,309.23",
-        "change": "+395.33 (+1.53%)",
-        "positive": true
+        "value": "26,573.97",
+        "change": "-11.02 (-0.04%)",
+        "positive": false
       },
       {
         "label": "Dow Jones",
-        "value": "53,768.92",
-        "change": "+590.51 (+1.11%)",
+        "value": "54,546.74",
+        "change": "+460.86 (+0.85%)",
         "positive": true
       },
       {
         "label": "CBOE VIX",
-        "value": "16.03",
-        "change": "+0.17 (+1.07%)",
-        "positive": false
+        "value": "16.30",
+        "change": "-0.20 (-1.21%)",
+        "positive": true
       },
       {
         "label": "10Y Treasury",
-        "value": "4.635%",
-        "change": "-0.051 (-1.09%)",
+        "value": "4.627%",
+        "change": "+0.000 (0.00%)",
         "positive": true
       }
     ],
     "bank_stocks": [
       {
         "ticker": "GS",
-        "price": "$1,055.65",
-        "change": "+2.78%",
+        "price": "$1,071.11",
+        "change": "+1.72%",
         "positive": true
       },
       {
         "ticker": "MS",
-        "price": "$214.26",
-        "change": "+1.44%",
+        "price": "$217.83",
+        "change": "+0.36%",
         "positive": true
       },
       {
         "ticker": "JPM",
-        "price": "$358.94",
-        "change": "+1.79%",
+        "price": "$360.08",
+        "change": "+0.71%",
         "positive": true
       },
       {
-        "ticker": "EVR",
-        "price": "$320.48",
-        "change": "+0.67%",
+        "ticker": "JEF",
+        "price": "$56.62",
+        "change": "+1.63%",
         "positive": true
       },
       {
         "ticker": "LAZ",
-        "price": "$44.05",
-        "change": "+1.99%",
+        "price": "$44.07",
+        "change": "+0.75%",
         "positive": true
       }
     ],
-    "macro_note": "Markets extended the August rally: S&P 500 +0.9% (~7,669), Nasdaq +1.5% (~26,309), Dow +1.1% (~53,769), with the 10Y easing to ~4.64% and the VIX steady near 16.0. Advisory names rallied after last week’s three-day slide — GS +2.8%, JPM +1.8%, LAZ +2.0%, JEF +1.8%, MS +1.4%. Values are LIVE INTRADAY levels captured ~10:10am EDT Aug 4 — not a settled close."
+    "macro_note": "A calm midweek tape: S&P 500 roughly flat (~7,744), Dow +0.85% (~54,547), Nasdaq -0.04% (~26,574), with the VIX easing to ~16.3 and the 10Y steady at ~4.63%. Advisory names held recent gains — GS +1.7%, JEF +1.6%, JPM +0.7%. Values are LIVE INTRADAY levels captured ~11:30am EDT Aug 5 — not a settled close."
   },
   "talking_point": {
-    "quote": "The advisory tape rebounded hard today — Goldman +2.8%, Lazard +2.0% — and the deal calendar backs it up: Prologis and SEGRO agreed an ~$18.8B cross-border REIT combination that alone put six of the Street’s banks on one transaction, on top of multi-billion energy and industrial signings. When one deal spreads across half a dozen advisers, the shared workspace becomes the control layer. How are you thinking about room readiness on your cross-border mandates this quarter?",
-    "use_with": "Real estate, energy, industrials, insurance and M&A coverage teams (esp. JPMorgan, BofA, Citi, Evercore, Morgan Stanley, Goldman)",
-    "context": "Pairs the advisory-stock rebound with a landmark six-adviser cross-border REIT combination — a natural way to open a room-readiness conversation on complex, multi-party deals.",
+    "quote": "The tape went quiet midweek but the deal calendar didn’t: P&G paid $3.8B for Thorne, ContextLogic struck an $850M chemicals deal, and cross-border divestitures signed across energy and media — several with two covered banks apiece. A calm market is when signed processes need to stay on schedule, and that’s a room-readiness conversation. How are you thinking about execution on the mandates you’re carrying this week?",
+    "use_with": "Consumer, energy, industrials, software and financial-institutions coverage teams (esp. Perella Weinberg, BofA, Morgan Stanley, Deutsche Bank, Moelis)",
+    "context": "Pairs a flat market with a steady, cross-sector signing day — a natural way to open an execution-certainty conversation.",
     "confidence": "Reported"
   },
   "sector_heat": {
     "ranked": [
       {
-        "sector": "Real Estate / Logistics REIT",
-        "read": "Prologis agrees an ~$18.8B recommended combination with UK REIT SEGRO — six covered banks on one deal (JPMorgan/BofA/Citi for Prologis; Evercore/Morgan Stanley/UBS/Goldman for SEGRO).",
-        "source_note": "StockTitan, Aug 4 2026"
+        "sector": "Consumer / Health & Wellness",
+        "read": "P&G agrees to acquire Thorne from L Catterton for $3.8B (Perella Weinberg + Canaccord for Thorne).",
+        "source_note": "PR Newswire, Aug 4 2026"
       },
       {
-        "sector": "Energy / Midstream",
-        "read": "Williams agrees to acquire Momentum/M6 Midstream for up to $5.5B (BofA + Truist for Williams; Barclays + Jefferies for M6).",
-        "source_note": "StockTitan, Aug 3 2026"
+        "sector": "Energy / Oil & Gas",
+        "read": "Gran Tierra agrees to sell its Colombia/Ecuador business to Maurel & Prom for $1.33B (BofA lead + RBC for Gran Tierra).",
+        "source_note": "GlobeNewswire, Aug 5 2026"
       },
       {
-        "sector": "Industrials / Electrical Products",
-        "read": "Prysmian agrees to acquire Atkore for ~$3.8B at $95/share (Citi + JPMorgan for Atkore).",
-        "source_note": "StockTitan, Aug 3 2026"
+        "sector": "Industrials / Specialty Chemicals",
+        "read": "ContextLogic agrees to acquire gChem for $850M (Morgan Stanley for gChem; Piper Sandler for ContextLogic).",
+        "source_note": "GlobeNewswire, Aug 5 2026"
       },
       {
-        "sector": "Insurance / Employee Benefits",
-        "read": "The Hartford agrees to acquire Equitable’s employee-benefits business (~$500M premium) (JPMorgan for Equitable; Rothschild for Hartford).",
-        "source_note": "StockTitan, Aug 4 2026"
+        "sector": "Technology / Software",
+        "read": "Francisco Partners agrees to acquire Command Alkon from Thoma Bravo (Deutsche Bank for FP; Evercore for Thoma Bravo).",
+        "source_note": "GlobeNewswire, Aug 4 2026"
       },
       {
-        "sector": "Industrials / Environmental Services",
-        "read": "Ridgemont acquires environmental-remediation platform ENTACT (Harris Williams for Ridgemont).",
-        "source_note": "Ridgemont, Aug 4 2026"
+        "sector": "Financials / Retirement",
+        "read": "Ascensus completes its acquisition of AmericanTCS (Lazard + JPMorgan for Ascensus; Raymond James for AmericanTCS).",
+        "source_note": "PR Newswire, Aug 5 2026"
       }
     ]
   },
@@ -625,8 +612,8 @@
       {
         "company": "Airtable (acquired by Bending Spoons)",
         "bank": "unconfirmed",
-        "lead": "Bending Spoons agreed to acquire collaboration-software maker Airtable for a reported ~$1.285B (announced Aug 4). Airtable is private, and no financial adviser has been confirmed from a primary source.",
-        "why_unverified": "Deal is real (Business Wire, Aug 4) but the release did not surface a named financial adviser, and the primary page was unreachable — adviser attribution unconfirmed.",
+        "lead": "Bending Spoons agreed to acquire enterprise-software maker Airtable for a reported ~$1.285B enterprise value (~$2.25B equity incl. cash), all-cash, announced Aug 4. Airtable is private.",
+        "why_unverified": "Deal is real (Business Wire, Aug 4) but the primary release was unreachable and no aggregator snippet named a financial adviser — no covered-bank involvement confirmed either way.",
         "sector": "Technology / SaaS",
         "source_note": "Business Wire, Aug 4 2026",
         "confidence": "Speculative",
@@ -637,15 +624,18 @@
         ]
       },
       {
-        "company": "Saber Power Services (Greenbelt Capital Partners)",
-        "bank": "Harris Williams (unconfirmed mandate)",
-        "lead": "Harris Williams is reported to be running an early-stage sale process for Saber Power Services — a Greenbelt-backed electrical infrastructure and power-services platform (~$200M EBITDA).",
-        "why_unverified": "Process reporting from deal-trade sources; no signed transaction, price, or buyer, and the mandate is not company-confirmed. Early prospecting nudge, not a deal.",
-        "sector": "Industrials / Power Services",
-        "source_note": "Deal-trade reporting (PE Hub / The Deal), early Aug 2026",
+        "company": "Digital Brands Group (Nasdaq: DBGI)",
+        "bank": "unconfirmed",
+        "lead": "DBGI disclosed an unsolicited $77.58/share all-cash acquisition proposal (Aug 5) and said its board \"recently retained a financial adviser\" to evaluate it — but the adviser is not named.",
+        "why_unverified": "Company-confirmed that an adviser was retained, but no name disclosed and the proposal is unsolicited/early — chase-early edge, not a confirmed mandate.",
+        "sector": "Consumer / Apparel & E-commerce",
+        "source_note": "StockTitan, Aug 5 2026",
+        "source_url": "https://www.stocktitan.net/news/DBGI/digital-brands-group-announces-receipt-of-77-58-per-share-all-cash-iimdsycsrje4.html",
         "confidence": "Speculative",
-        "possible_advisers": [
-          "Harris Williams"
+        "possible_advisers_inferred": [
+          "Houlihan Lokey",
+          "Jefferies",
+          "Piper Sandler"
         ]
       },
       {
@@ -662,25 +652,15 @@
           "JPMorgan",
           "Morgan Stanley"
         ]
-      },
-      {
-        "company": "TAP Air Portugal (Portuguese government privatization)",
-        "bank": "unconfirmed",
-        "lead": "Bloomberg reports Deutsche Lufthansa and Air France-KLM submitted binding offers for a stake as Portugal sells up to 49.9% of flag carrier TAP (5% reserved for employees).",
-        "why_unverified": "A live government privatization with binding bids reportedly in — more “confirmed live process” than rumor — but bid amounts, the winner, and timeline are unconfirmed, and reporting is anonymous-sourced. No adviser named.",
-        "sector": "Airlines (Europe)",
-        "source_note": "Investing.com (Bloomberg-sourced), Jul 29 2026",
-        "source_url": "https://www.investing.com/news/stock-market-news/lufthansa-and-air-franceklm-submit-bids-for-tap-stake--bloomberg-93CH-4821282",
-        "confidence": "Speculative",
-        "possible_advisers_inferred": [
-          "Citi",
-          "Barclays",
-          "UBS"
-        ]
       }
     ]
   },
   "archive": [
+    {
+      "date": "2026-08-04",
+      "edition": 20,
+      "file": "2026-08-04.json"
+    },
     {
       "date": "2026-08-03",
       "edition": 19,
@@ -735,12 +715,7 @@
       "date": "2026-07-14",
       "edition": 9,
       "file": "2026-07-14.json"
-    },
-    {
-      "date": "2026-07-13",
-      "edition": 8,
-      "file": "2026-07-13.json"
     }
   ],
-  "edition": 20
+  "edition": 21
 }

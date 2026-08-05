@@ -479,8 +479,8 @@
         }
       ],
       "dealbrief_tracker": {
-        "mandates_30d": 24,
-        "mandates_total": 29,
+        "mandates_30d": 25,
+        "mandates_total": 30,
         "as_of": "2026-08-05",
         "note": "Mandates DealBrief caught in its own coverage — not the bank's full book, and not an official league table. Bulge brackets are heavily undercounted; see advisory_signal for authoritative rank.",
         "advisory_signal": {
@@ -507,6 +507,16 @@
           }
         ],
         "caught_mandates": [
+          {
+            "headline": "Morgan Stanley advises gChem and Piper Sandler advises ContextLogic on the $850M specialty-chemicals acquisition",
+            "published": "2026-08-05",
+            "confidence": "Reported",
+            "coverage_team": [
+              "Industrials"
+            ],
+            "source": "GlobeNewswire (ContextLogic release)",
+            "source_url": "https://www.globenewswire.com/news-release/2026/08/05/3339169/0/en/contextlogic-to-acquire-gchem-for-850-million.html"
+          },
           {
             "headline": "Six covered banks work Prologis’ ~$18.8B recommended combination with UK logistics REIT SEGRO",
             "published": "2026-08-04",
@@ -880,8 +890,8 @@
         }
       ],
       "dealbrief_tracker": {
-        "mandates_30d": 27,
-        "mandates_total": 32,
+        "mandates_30d": 28,
+        "mandates_total": 33,
         "as_of": "2026-08-05",
         "note": "Mandates DealBrief caught in its own coverage — not the bank's full book, and not an official league table. Bulge brackets are heavily undercounted; see advisory_signal for authoritative rank.",
         "advisory_signal": {
@@ -901,6 +911,16 @@
           }
         ],
         "caught_mandates": [
+          {
+            "headline": "Lazard and JPMorgan advise Ascensus; Raymond James advises AmericanTCS on the completed retirement-platform acquisition",
+            "published": "2026-08-05",
+            "confidence": "Reported",
+            "coverage_team": [
+              "TMT"
+            ],
+            "source": "PR Newswire (Ascensus release)",
+            "source_url": "https://www.prnewswire.com/news-releases/ascensus-completes-acquisition-of-americantcs-expanding-platform-and-capabilities-302843116.html"
+          },
           {
             "headline": "Six covered banks work Prologis’ ~$18.8B recommended combination with UK logistics REIT SEGRO",
             "published": "2026-08-04",
@@ -1269,13 +1289,23 @@
         }
       ],
       "dealbrief_tracker": {
-        "mandates_30d": 16,
-        "mandates_total": 21,
+        "mandates_30d": 17,
+        "mandates_total": 22,
         "as_of": "2026-08-05",
         "note": "Mandates DealBrief caught in its own coverage — not the bank's full book, and not an official league table. Bulge brackets are heavily undercounted; see advisory_signal for authoritative rank.",
         "advisory_signal": null,
         "pipeline_watch": [],
         "caught_mandates": [
+          {
+            "headline": "BofA (lead) and RBC advise Gran Tierra on its $1.33B sale of its Colombia/Ecuador business to Maurel & Prom",
+            "published": "2026-08-05",
+            "confidence": "Reported",
+            "coverage_team": [
+              "Energy & Power"
+            ],
+            "source": "GlobeNewswire (Gran Tierra release)",
+            "source_url": "https://www.globenewswire.com/news-release/2026/08/05/3339040/0/en/gran-tierra-energy-inc-announces-agreement-to-sell-its-colombia-and-ecuador-business-to-maurel-prom-and-reposition-the-company-for-fully-financed-growth.html"
+          },
           {
             "headline": "Six covered banks work Prologis’ ~$18.8B recommended combination with UK logistics REIT SEGRO",
             "published": "2026-08-04",
@@ -1772,8 +1802,8 @@
         }
       ],
       "dealbrief_tracker": {
-        "mandates_30d": 14,
-        "mandates_total": 17,
+        "mandates_30d": 15,
+        "mandates_total": 18,
         "as_of": "2026-08-05",
         "note": "Mandates DealBrief caught in its own coverage — not the bank's full book, and not an official league table. Bulge brackets are heavily undercounted; see advisory_signal for authoritative rank.",
         "advisory_signal": null,
@@ -1790,6 +1820,17 @@
             ],
             "source": "StockTitan (Prologis Rule 2.7 announcement)",
             "source_url": "https://www.stocktitan.net/news/PLD/prologis-inc-announces-recommended-usvbmqu2pemj.html"
+          },
+          {
+            "headline": "Deutsche Bank advises Francisco Partners and Evercore advises Thoma Bravo on the sale of software maker Command Alkon",
+            "published": "2026-08-04",
+            "confidence": "Reported",
+            "coverage_team": [
+              "TMT",
+              "FIG"
+            ],
+            "source": "GlobeNewswire (Command Alkon release)",
+            "source_url": "https://www.globenewswire.com/news-release/2026/08/04/3338569/0/en/command-alkon-announces-acquisition-by-francisco-partners-from-thoma-bravo.html"
           },
           {
             "headline": "Evercore and Goldman advise Arcosa’s board as it files a definitive proxy for its $150/share cash sale to CRH",
@@ -1995,8 +2036,8 @@
         }
       ],
       "dealbrief_tracker": {
-        "mandates_30d": 9,
-        "mandates_total": 9,
+        "mandates_30d": 10,
+        "mandates_total": 10,
         "as_of": "2026-08-05",
         "note": "Mandates DealBrief caught in its own coverage — not the bank's full book, and not an official league table. Bulge brackets are heavily undercounted; see advisory_signal for authoritative rank.",
         "advisory_signal": {
@@ -2008,6 +2049,16 @@
         },
         "pipeline_watch": [],
         "caught_mandates": [
+          {
+            "headline": "Lazard and JPMorgan advise Ascensus; Raymond James advises AmericanTCS on the completed retirement-platform acquisition",
+            "published": "2026-08-05",
+            "confidence": "Reported",
+            "coverage_team": [
+              "TMT"
+            ],
+            "source": "PR Newswire (Ascensus release)",
+            "source_url": "https://www.prnewswire.com/news-releases/ascensus-completes-acquisition-of-americantcs-expanding-platform-and-capabilities-302843116.html"
+          },
           {
             "headline": "Lazard advises Ripple Fiber on its sale to Eaton Fiber, backed by a $1.5B Bain/Tillman investment for Verizon fiber expansion",
             "published": "2026-07-29",
@@ -2141,13 +2192,24 @@
         }
       ],
       "dealbrief_tracker": {
-        "mandates_30d": 6,
-        "mandates_total": 6,
+        "mandates_30d": 7,
+        "mandates_total": 7,
         "as_of": "2026-08-05",
         "note": "Mandates DealBrief caught in its own coverage — not the bank's full book, and not an official league table. Bulge brackets are heavily undercounted; see advisory_signal for authoritative rank.",
         "advisory_signal": null,
         "pipeline_watch": [],
         "caught_mandates": [
+          {
+            "headline": "Moelis and Deutsche Bank advise Clear Channel Outdoor on the ~$132M sale of its Spain business to Atresmedia",
+            "published": "2026-08-04",
+            "confidence": "Reported",
+            "coverage_team": [
+              "TMT",
+              "FIG"
+            ],
+            "source": "PR Newswire (Clear Channel release)",
+            "source_url": "https://www.prnewswire.com/news-releases/clear-channel-outdoor-holdings-inc-completes-sale-of-its-business-in-spain-to-atresmedia-302842912.html"
+          },
           {
             "headline": "Moelis and Centerview advise AtaiBeckley’s board (Citi additional; Goldman for Lilly) as the $6.75 + CVR sale to Eli Lilly hits a preliminary proxy",
             "published": "2026-07-30",
@@ -2946,13 +3008,35 @@
         }
       ],
       "dealbrief_tracker": {
-        "mandates_30d": 2,
-        "mandates_total": 3,
+        "mandates_30d": 4,
+        "mandates_total": 5,
         "as_of": "2026-08-05",
         "note": "Mandates DealBrief caught in its own coverage — not the bank's full book, and not an official league table. Bulge brackets are heavily undercounted; see advisory_signal for authoritative rank.",
         "advisory_signal": null,
         "pipeline_watch": [],
         "caught_mandates": [
+          {
+            "headline": "Deutsche Bank advises Francisco Partners and Evercore advises Thoma Bravo on the sale of software maker Command Alkon",
+            "published": "2026-08-04",
+            "confidence": "Reported",
+            "coverage_team": [
+              "TMT",
+              "FIG"
+            ],
+            "source": "GlobeNewswire (Command Alkon release)",
+            "source_url": "https://www.globenewswire.com/news-release/2026/08/04/3338569/0/en/command-alkon-announces-acquisition-by-francisco-partners-from-thoma-bravo.html"
+          },
+          {
+            "headline": "Moelis and Deutsche Bank advise Clear Channel Outdoor on the ~$132M sale of its Spain business to Atresmedia",
+            "published": "2026-08-04",
+            "confidence": "Reported",
+            "coverage_team": [
+              "TMT",
+              "FIG"
+            ],
+            "source": "PR Newswire (Clear Channel release)",
+            "source_url": "https://www.prnewswire.com/news-releases/clear-channel-outdoor-holdings-inc-completes-sale-of-its-business-in-spain-to-atresmedia-302842912.html"
+          },
           {
             "headline": "Goldman advises CBIZ as Grant Thornton Advisors agrees to take it private for ~$5B; Evercore, JPMorgan among a deep buy-side roster",
             "published": "2026-07-29",
@@ -3277,13 +3361,23 @@
         }
       ],
       "dealbrief_tracker": {
-        "mandates_30d": 8,
-        "mandates_total": 10,
+        "mandates_30d": 9,
+        "mandates_total": 11,
         "as_of": "2026-08-05",
         "note": "Mandates DealBrief caught in its own coverage — not the bank's full book, and not an official league table. Bulge brackets are heavily undercounted; see advisory_signal for authoritative rank.",
         "advisory_signal": null,
         "pipeline_watch": [],
         "caught_mandates": [
+          {
+            "headline": "BofA (lead) and RBC advise Gran Tierra on its $1.33B sale of its Colombia/Ecuador business to Maurel & Prom",
+            "published": "2026-08-05",
+            "confidence": "Reported",
+            "coverage_team": [
+              "Energy & Power"
+            ],
+            "source": "GlobeNewswire (Gran Tierra release)",
+            "source_url": "https://www.globenewswire.com/news-release/2026/08/05/3339040/0/en/gran-tierra-energy-inc-announces-agreement-to-sell-its-colombia-and-ecuador-business-to-maurel-prom-and-reposition-the-company-for-fully-financed-growth.html"
+          },
           {
             "headline": "Adviser (with RBC) to Blackbeard on the ~$2.2B PBT / US Land Guild combination",
             "published": "2026-07-30",
@@ -3572,13 +3666,24 @@
         }
       ],
       "dealbrief_tracker": {
-        "mandates_30d": 3,
-        "mandates_total": 3,
+        "mandates_30d": 4,
+        "mandates_total": 4,
         "as_of": "2026-08-05",
         "note": "Mandates DealBrief caught in its own coverage — not the bank's full book, and not an official league table. Bulge brackets are heavily undercounted; see advisory_signal for authoritative rank.",
         "advisory_signal": null,
         "pipeline_watch": [],
         "caught_mandates": [
+          {
+            "headline": "Perella Weinberg advises Thorne on its $3.8B sale to Procter & Gamble",
+            "published": "2026-08-04",
+            "confidence": "Reported",
+            "coverage_team": [
+              "Healthcare",
+              "Consumer & Retail"
+            ],
+            "source": "PR Newswire (L Catterton release)",
+            "source_url": "https://www.prnewswire.com/news-releases/l-catterton-announces-sale-of-thorne-to-the-procter--gamble-company-for-3-8-billion-302842797.html"
+          },
           {
             "headline": "Goldman and Perella Weinberg advise Repligen on its cash-and-stock acquisition of BioLife Solutions; Centerview advises BioLife",
             "published": "2026-07-22",
@@ -4209,13 +4314,23 @@
         }
       ],
       "dealbrief_tracker": {
-        "mandates_30d": 5,
-        "mandates_total": 7,
+        "mandates_30d": 6,
+        "mandates_total": 8,
         "as_of": "2026-08-05",
         "note": "Mandates DealBrief caught in its own coverage — not the bank's full book, and not an official league table. Bulge brackets are heavily undercounted; see advisory_signal for authoritative rank.",
         "advisory_signal": null,
         "pipeline_watch": [],
         "caught_mandates": [
+          {
+            "headline": "Morgan Stanley advises gChem and Piper Sandler advises ContextLogic on the $850M specialty-chemicals acquisition",
+            "published": "2026-08-05",
+            "confidence": "Reported",
+            "coverage_team": [
+              "Industrials"
+            ],
+            "source": "GlobeNewswire (ContextLogic release)",
+            "source_url": "https://www.globenewswire.com/news-release/2026/08/05/3339169/0/en/contextlogic-to-acquire-gchem-for-850-million.html"
+          },
           {
             "headline": "Jefferies and Piper Sandler advise Indivior, Wells Fargo advises Supernus on their all-stock merger of equals (~$2.2B combined revenue)",
             "published": "2026-08-03",
@@ -4328,13 +4443,23 @@
         }
       ],
       "dealbrief_tracker": {
-        "mandates_30d": 5,
-        "mandates_total": 6,
+        "mandates_30d": 6,
+        "mandates_total": 7,
         "as_of": "2026-08-05",
         "note": "Mandates DealBrief caught in its own coverage — not the bank's full book, and not an official league table. Bulge brackets are heavily undercounted; see advisory_signal for authoritative rank.",
         "advisory_signal": null,
         "pipeline_watch": [],
         "caught_mandates": [
+          {
+            "headline": "Lazard and JPMorgan advise Ascensus; Raymond James advises AmericanTCS on the completed retirement-platform acquisition",
+            "published": "2026-08-05",
+            "confidence": "Reported",
+            "coverage_team": [
+              "TMT"
+            ],
+            "source": "PR Newswire (Ascensus release)",
+            "source_url": "https://www.prnewswire.com/news-releases/ascensus-completes-acquisition-of-americantcs-expanding-platform-and-capabilities-302843116.html"
+          },
           {
             "headline": "Goldman advises Integer on its ~$5.7B take-private by KKR; Centerview, Barclays, Citi and Raymond James advise KKR",
             "published": "2026-08-03",
