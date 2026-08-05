@@ -45,7 +45,6 @@
       "category": "M&A",
       "urgency": "HIGH",
       "scope": "bank",
-      "bank": "Bank of America",
       "headline": "BofA advises ICE and JPMorgan advises MarketAxess on ICE’s $167/share, ~$6B acquisition of the fixed-income trading platform",
       "why_it_matters": "Intercontinental Exchange (ICE) agreed to acquire electronic fixed-income trading venue MarketAxess (MKTX) in an all-cash deal at $167.00/share — ~$6.0B equity value / ~$5.7B enterprise value, a 33% premium to MarketAxess’s Jul 29 close. The release names BofA Securities as financial adviser to ICE (buy-side) and J.P. Morgan as financial adviser to MarketAxess (sell-side). A public-company take-out of a regulated trading platform runs antitrust and market-structure review alongside confirmatory diligence toward a shareholder vote.",
       "suggested_action": "Open with BofA (ICE) and JPMorgan (MarketAxess) — a $6B take-out of a regulated exchange platform runs concentrated antitrust, market-structure, and confirmatory diligence a secure room is built for.",
@@ -63,6 +62,10 @@
         "financial-services",
         "market-structure",
         "take-out"
+      ],
+      "banks": [
+        "Bank of America",
+        "JPMorgan"
       ]
     },
     {
@@ -70,7 +73,6 @@
       "category": "M&A",
       "urgency": "HIGH",
       "scope": "bank",
-      "bank": "Moelis",
       "headline": "Moelis and Centerview advise AtaiBeckley’s board (Citi additional; Goldman for Lilly) as the $6.75 + CVR sale to Eli Lilly hits a preliminary proxy",
       "why_it_matters": "AtaiBeckley (ATAI) filed its preliminary merger proxy (PREM14A, Jul 30) on its sale to Eli Lilly — $6.75/share cash plus a non-transferable CVR worth up to $2.50 tied to VLS-01/BPL-003 clinical and regulatory milestones (up to $9.25/share; ~$2.8B upfront, ~$3.8B max). The filing names Moelis and Centerview as financial advisers to the AtaiBeckley board (both delivered fairness opinions Jul 15), Citi as an additional AtaiBeckley adviser, and Goldman Sachs as adviser to Lilly (buy-side). A CVR-structured biopharma take-out runs milestone-heavy diligence toward a shareholder vote.",
       "suggested_action": "Engage Moelis/Centerview/Citi (AtaiBeckley) or Goldman (Lilly) — a CVR-structured take-out advancing to a vote runs concentrated confirmatory and milestone diligence a secure room organizes.",
@@ -92,6 +94,12 @@
         "biopharma",
         "take-out",
         "cvr"
+      ],
+      "banks": [
+        "Moelis",
+        "Citi",
+        "Centerview Partners",
+        "Goldman Sachs"
       ]
     },
     {
@@ -99,7 +107,6 @@
       "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Evercore",
       "headline": "Evercore advises DarkVision (Koch) as Blackstone agrees to acquire the inspection-tech maker; Stifel and Guggenheim advise Blackstone",
       "why_it_matters": "Blackstone Energy Transition Partners agreed to acquire DarkVision Technologies — an ultrasound/non-destructive inspection-technology maker for energy and industrial infrastructure — from Koch Engineered Solutions (terms undisclosed). The release names Evercore as financial adviser to DarkVision/Koch (sell-side) and Stifel and Guggenheim Securities as financial advisers to Blackstone (buy-side). A sponsor buyout carved out of a strategic runs contract, IP, and separation diligence to close.",
       "suggested_action": "Reach out to Evercore (DarkVision/Koch) and Stifel/Guggenheim (Blackstone) — a carve-out of an industrial-tech asset to a sponsor runs IP, contract, and separation diligence a secure room keeps organized.",
@@ -117,6 +124,11 @@
         "industrial-tech",
         "carve-out",
         "sponsor"
+      ],
+      "banks": [
+        "Evercore",
+        "Guggenheim Securities",
+        "Stifel"
       ]
     },
     {
@@ -124,7 +136,6 @@
       "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Centerview Partners",
       "headline": "Centerview advises MIMEDX on its ~$350M cash-and-stock acquisition of Sanara MedTech; Truist advises Sanara",
       "why_it_matters": "MIMEDX Group (MDXG) agreed to acquire Sanara MedTech (SMTI) in a cash-and-stock deal at $35.00/share ($33.00 cash + 0.4735 MIMEDX shares), ~$350M enterprise value, roughly doubling MIMEDX’s surgical revenue and extending it into collagen, wound irrigation, and bone-fixation products. The release names Centerview as exclusive adviser to MIMEDX (buy-side) and Truist as exclusive adviser to Sanara (sell-side). A stock-inclusive strategic acquisition runs S-4 and confirmatory diligence toward close.",
       "suggested_action": "Engage Centerview (MIMEDX) on the Sanara acquisition — a cash-and-stock strategic combination runs S-4 registration and confirmatory diligence a data room supports.",
@@ -142,6 +153,9 @@
         "medtech",
         "cash-and-stock",
         "regenerative-medicine"
+      ],
+      "banks": [
+        "Centerview Partners"
       ]
     },
     {
@@ -149,7 +163,6 @@
       "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "JPMorgan",
       "headline": "JPMorgan and RBC advise Blackbeard as the $2.2B PBT / US Land Guild combination signs a definitive agreement",
       "why_it_matters": "SoftVest and Blackbeard signed a definitive agreement for the ~$2.2B combination of Permian Basin Royalty Trust (PBT) with US Land Guild to form PBT Land and Minerals (“New PBT”), a Form 425 (Jul 30) confirmed. The filing names J.P. Morgan and RBC Capital Markets as financial advisers to Blackbeard (buy-side) and Stephens as adviser to SoftVest. Signing a royalty-to-operating-company conversion runs asset, title, and reserve diligence into a unitholder vote.",
       "suggested_action": "Engage JPMorgan and RBC (Blackbeard) on the now-signed PBT combination — a royalty-to-operating conversion runs concentrated reserve and title diligence into the vote.",
@@ -167,6 +180,10 @@
         "energy",
         "royalty-trust",
         "combination"
+      ],
+      "banks": [
+        "JPMorgan",
+        "RBC Capital Markets"
       ]
     },
     {
@@ -185,7 +202,6 @@
   "opportunities": [
     {
       "id": "o1",
-      "bank": "Moelis",
       "sector": "Biopharma / Healthcare",
       "urgency": "HOT",
       "headline": "Adviser (with Centerview, Citi) to AtaiBeckley’s board on its $6.75 + CVR sale to Eli Lilly",
@@ -207,11 +223,16 @@
       "confidence": "Filed",
       "first_seen": "2026-07-30",
       "last_confirmed": "2026-07-30",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Moelis",
+        "Citi",
+        "Centerview Partners",
+        "Goldman Sachs"
+      ]
     },
     {
       "id": "o2",
-      "bank": "Goldman Sachs",
       "sector": "Biopharma / Healthcare",
       "urgency": "HOT",
       "headline": "Buy-side adviser to Eli Lilly on its $6.75 + CVR acquisition of AtaiBeckley",
@@ -233,11 +254,13 @@
       "confidence": "Filed",
       "first_seen": "2026-07-30",
       "last_confirmed": "2026-07-30",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Goldman Sachs"
+      ]
     },
     {
       "id": "o3",
-      "bank": "Goldman Sachs",
       "sector": "Utilities / Power",
       "urgency": "HOT",
       "headline": "Adviser (with JPMorgan) to Dominion Energy’s board on its stock-and-cash merger with NextEra",
@@ -259,11 +282,14 @@
       "confidence": "Filed",
       "first_seen": "2026-07-29",
       "last_confirmed": "2026-07-29",
-      "carry_badge": "Day 2"
+      "carry_badge": "Day 2",
+      "banks": [
+        "Goldman Sachs",
+        "JPMorgan"
+      ]
     },
     {
       "id": "o4",
-      "bank": "Evercore",
       "sector": "Industrials",
       "urgency": "HOT",
       "headline": "Adviser (with Goldman) to Arcosa's board on its $150/share, ~$5.4B take-private by CRH",
@@ -285,11 +311,14 @@
       "confidence": "Filed",
       "first_seen": "2026-07-28",
       "last_confirmed": "2026-07-28",
-      "carry_badge": "Day 3"
+      "carry_badge": "Day 3",
+      "banks": [
+        "Evercore",
+        "Goldman Sachs"
+      ]
     },
     {
       "id": "o5",
-      "bank": "Jefferies",
       "sector": "Shipping / Transportation",
       "urgency": "HOT",
       "headline": "Adviser (with Morgan Stanley) to Genco on its defense against Diana Shipping's $24.80 hostile tender",
@@ -311,11 +340,14 @@
       "confidence": "Filed",
       "first_seen": "2026-07-28",
       "last_confirmed": "2026-07-28",
-      "carry_badge": "Day 3"
+      "carry_badge": "Day 3",
+      "banks": [
+        "Jefferies",
+        "Morgan Stanley"
+      ]
     },
     {
       "id": "o6",
-      "bank": "Bank of America",
       "sector": "Financial Services / Market Structure",
       "urgency": "HOT",
       "headline": "Buy-side adviser to ICE on its $167/share, ~$6B acquisition of MarketAxess",
@@ -337,11 +369,13 @@
       "confidence": "Reported",
       "first_seen": "2026-07-30",
       "last_confirmed": "2026-07-30",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Bank of America"
+      ]
     },
     {
       "id": "o7",
-      "bank": "JPMorgan",
       "sector": "Financial Services / Market Structure",
       "urgency": "HOT",
       "headline": "Sell-side adviser to MarketAxess on its $167/share, ~$6B sale to ICE",
@@ -363,11 +397,14 @@
       "confidence": "Reported",
       "first_seen": "2026-07-30",
       "last_confirmed": "2026-07-30",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "JPMorgan",
+        "Bank of America"
+      ]
     },
     {
       "id": "o8",
-      "bank": "JPMorgan",
       "sector": "Energy / Oil & Gas",
       "urgency": "WARM",
       "headline": "Adviser (with RBC) to Blackbeard on the now-signed $2.2B PBT / US Land Guild combination",
@@ -389,11 +426,14 @@
       "confidence": "Filed",
       "first_seen": "2026-07-30",
       "last_confirmed": "2026-07-30",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "JPMorgan",
+        "RBC Capital Markets"
+      ]
     },
     {
       "id": "o9",
-      "bank": "Evercore",
       "sector": "Industrial Technology",
       "urgency": "WARM",
       "headline": "Sell-side adviser to DarkVision (Koch) on its sale to Blackstone",
@@ -415,11 +455,15 @@
       "confidence": "Reported",
       "first_seen": "2026-07-30",
       "last_confirmed": "2026-07-30",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Evercore",
+        "Guggenheim Securities",
+        "Stifel"
+      ]
     },
     {
       "id": "o10",
-      "bank": "Guggenheim Securities",
       "sector": "Industrial Technology",
       "urgency": "WARM",
       "headline": "Adviser (with Stifel) to Blackstone on its acquisition of DarkVision from Koch",
@@ -441,11 +485,15 @@
       "confidence": "Reported",
       "first_seen": "2026-07-30",
       "last_confirmed": "2026-07-30",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Guggenheim Securities",
+        "Stifel",
+        "Evercore"
+      ]
     },
     {
       "id": "o11",
-      "bank": "Centerview Partners",
       "sector": "MedTech / Healthcare",
       "urgency": "WARM",
       "headline": "Buy-side adviser to MIMEDX on its ~$350M acquisition of Sanara MedTech",
@@ -467,7 +515,10 @@
       "confidence": "Reported",
       "first_seen": "2026-07-30",
       "last_confirmed": "2026-07-30",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Centerview Partners"
+      ]
     }
   ],
   "market_snapshot": {

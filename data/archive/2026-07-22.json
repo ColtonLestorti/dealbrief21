@@ -46,7 +46,6 @@
       "category": "M&A",
       "urgency": "HIGH",
       "scope": "bank",
-      "bank": "JPMorgan",
       "headline": "JPMorgan and BofA advise Prologis on its ~£14B ($18.7B) \"best and final\" bid for SEGRO",
       "why_it_matters": "Prologis made a \"best and final\" ~£14B all-share (plus partial-cash) proposal for UK logistics REIT SEGRO and sought a PUSU deadline extension. The release names J.P. Morgan (J.P. Morgan Cazenove) and Merrill Lynch International (BofA Securities), alongside Rothschild and Eastdil, as acting exclusively for Prologis (buyer). A contested UK-Takeover-Code mega-cap with a multi-bank syndicate drives enormous cross-border diligence.",
       "suggested_action": "Engage JPMorgan's real estate / cross-border M&A coverage on Prologis/SEGRO — a contested UK-Code mega-cap is a heavy multi-party, multi-jurisdiction data-room use case.",
@@ -64,6 +63,10 @@
         "real-estate",
         "logistics",
         "cross-border"
+      ],
+      "banks": [
+        "JPMorgan",
+        "Bank of America"
       ]
     },
     {
@@ -71,7 +74,6 @@
       "category": "M&A",
       "urgency": "HIGH",
       "scope": "bank",
-      "bank": "JPMorgan",
       "headline": "JPMorgan (with Leerink) advises Crinetics on its $85/share, all-cash sale to Vertex; Lazard and Morgan Stanley advise Vertex",
       "why_it_matters": "Vertex Pharmaceuticals agreed to acquire Crinetics Pharmaceuticals for $85.00/share in cash (raised from $78.00). The preliminary proxy names J.P. Morgan and Leerink Partners as financial advisers to Crinetics (target, each delivering a fairness opinion) and Lazard and Morgan Stanley as advisers to Vertex (buyer), with a three-bank debt commitment. A sizable, financed biopharma take-private now advancing to the vote.",
       "suggested_action": "Open with JPMorgan's healthcare coverage on Crinetics/Vertex — a financed all-cash biopharma take-private runs heavy, time-boxed diligence through the shareholder vote.",
@@ -89,6 +91,11 @@
         "healthcare",
         "biopharma",
         "take-private"
+      ],
+      "banks": [
+        "JPMorgan",
+        "Morgan Stanley",
+        "Lazard"
       ]
     },
     {
@@ -96,7 +103,6 @@
       "category": "M&A",
       "urgency": "HIGH",
       "scope": "bank",
-      "bank": "Morgan Stanley",
       "headline": "Morgan Stanley advises Corebridge and Goldman advises Equitable on their merger of equals",
       "why_it_matters": "Corebridge Financial and Equitable Holdings are combining in an all-stock merger of equals under a new holding company (\"New Equitable\"), with Corebridge holders ending up with ~51%. A supplemental joint-proxy disclosure filed Jul 21 names Morgan Stanley as Corebridge's financial adviser and Goldman Sachs as Equitable's, ahead of a Jul 30 special meeting. A large-cap insurance MOE with two-sided fairness work heading into the vote.",
       "suggested_action": "Reach out to Morgan Stanley's FIG coverage on the Corebridge/Equitable MOE — a large insurance combination with an imminent vote runs multi-workstream integration diligence.",
@@ -118,6 +124,10 @@
         "fig",
         "insurance",
         "merger-of-equals"
+      ],
+      "banks": [
+        "Morgan Stanley",
+        "Goldman Sachs"
       ]
     },
     {
@@ -125,7 +135,6 @@
       "category": "M&A",
       "urgency": "HIGH",
       "scope": "bank",
-      "bank": "Citi",
       "headline": "Citi advises NOVAGOLD on its ~$4.2B all-share acquisition of 100% of Donlin Gold",
       "why_it_matters": "NOVAGOLD entered definitive agreements to acquire Paulson's 40% interest in Donlin Gold in an all-share deal implying ~US$4.2B combined equity value. The release names Citi as exclusive financial adviser to NOVAGOLD, also delivering a fairness opinion to its board (dated Jul 21). A JV-consolidation of scale with board-diligence and shareholder-vote document flow.",
       "suggested_action": "Engage Citi's metals & mining coverage on NOVAGOLD/Donlin — a $4.2B all-share consolidation with a board fairness opinion is a strong secure-diligence use case.",
@@ -143,6 +152,9 @@
         "mining",
         "gold",
         "all-share"
+      ],
+      "banks": [
+        "Citi"
       ]
     },
     {
@@ -150,7 +162,6 @@
       "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Goldman Sachs",
       "headline": "Goldman and Perella Weinberg advise Repligen on its cash-and-stock acquisition of BioLife Solutions; Centerview advises BioLife",
       "why_it_matters": "Repligen agreed to acquire BioLife Solutions for $11.25 cash plus 0.1442 Repligen shares per BioLife share (expected close Q4 2026). The Form 425 names Goldman Sachs and Perella Weinberg as advisers to Repligen (buyer) and Centerview Partners as adviser to BioLife (target). A mid-cap life-sciences-tools combination with two-sided diligence as the S-4 process begins.",
       "suggested_action": "Reach out to Goldman's healthcare/life-sciences coverage on Repligen/BioLife — a cash-and-stock strategic acquisition spins up two-sided diligence into the S-4.",
@@ -168,6 +179,11 @@
         "healthcare",
         "life-sciences",
         "cash-and-stock"
+      ],
+      "banks": [
+        "Goldman Sachs",
+        "Perella Weinberg",
+        "Centerview Partners"
       ]
     },
     {
@@ -175,7 +191,6 @@
       "category": "DEALS",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Morgan Stanley",
       "headline": "Morgan Stanley and Wells Fargo advise Greenbacker on its ~$375M sale to MN8 (JPMorgan advises MN8)",
       "why_it_matters": "MN8 Energy agreed to acquire Greenbacker Renewable Energy for ~$375M, creating a top-tier US power platform. The release names Morgan Stanley and Wells Fargo as advisers to Greenbacker (seller) and J.P. Morgan as adviser to MN8 (buyer). A renewables consolidation with portfolio-asset and PPA/contract diligence across shared rooms.",
       "suggested_action": "Talk to Morgan Stanley's power & renewables coverage on the Greenbacker sale — renewables platform deals run complex contract and asset diligence.",
@@ -193,6 +208,11 @@
         "energy",
         "renewables",
         "power"
+      ],
+      "banks": [
+        "Morgan Stanley",
+        "JPMorgan",
+        "Wells Fargo"
       ]
     },
     {
@@ -200,7 +220,6 @@
       "category": "DEALS",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Jefferies",
       "headline": "Jefferies, TD Cowen, Stifel and Guggenheim place Mentari Therapeutics' $200M PIPE (ahead of an InMed reverse merger)",
       "why_it_matters": "Mentari Therapeutics announced a $200M private placement for its migraine-prevention pipeline, concurrent with a reverse merger into InMed Pharmaceuticals. The release names Jefferies, TD Cowen, Stifel and Guggenheim Securities as placement agents. A large PIPE plus a public-shell reverse merger drives confidential financing diligence across four agents.",
       "suggested_action": "Reach out to Jefferies's healthcare ECM/private-capital coverage on the Mentari PIPE — a $200M placement plus reverse merger runs document-intensive investor diligence.",
@@ -218,6 +237,12 @@
         "biotech",
         "pipe",
         "reverse-merger"
+      ],
+      "banks": [
+        "Jefferies",
+        "Guggenheim Securities",
+        "Stifel",
+        "TD Cowen"
       ]
     },
     {
@@ -225,7 +250,6 @@
       "category": "DEALS",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Evercore",
       "headline": "Morgan Stanley, Jefferies, Evercore and Raymond James run Dyne Therapeutics' upsized $375M offering",
       "why_it_matters": "Dyne Therapeutics priced an upsized $375M public offering (18.3M shares at $20.50). The release names Morgan Stanley, Jefferies and Evercore ISI as joint book-running managers, with LifeSci Capital and Raymond James also joint book-running managers. A large upsized equity raise across multiple banks means active ECM underwriting and closing diligence (expected Jul 23).",
       "suggested_action": "Use the Dyne raise as an ECM hook with Evercore's (and the syndicate's) healthcare capital-markets desks — upsized follow-ons run coordinated underwriting diligence to close.",
@@ -247,6 +271,12 @@
         "biotech",
         "ecm",
         "follow-on"
+      ],
+      "banks": [
+        "Evercore",
+        "Morgan Stanley",
+        "Jefferies",
+        "Raymond James"
       ]
     },
     {
@@ -254,7 +284,6 @@
       "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Morgan Stanley",
       "headline": "Morgan Stanley advises First Financial Bancorp on its acquisition of Finward Bancorp",
       "why_it_matters": "First Financial Bancorp (Ohio) agreed to acquire Finward Bancorp (Indiana) in a stock-based bank merger (Finward merges into First Financial). The Form 425 names Morgan Stanley as financial adviser to First Financial (buyer) and Stephens as adviser to Finward (seller). A community-bank combination advancing to an S-4 and shareholder vote.",
       "suggested_action": "Reach out to Morgan Stanley's depositories/FIG coverage on First Financial/Finward — a signed bank merger runs two-sided diligence into the S-4 and vote.",
@@ -272,6 +301,9 @@
         "fig",
         "bank-merger",
         "stock"
+      ],
+      "banks": [
+        "Morgan Stanley"
       ]
     },
     {
@@ -279,7 +311,6 @@
       "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Perella Weinberg",
       "headline": "Perella Weinberg (TPH&Co) advises Citadel Drilling on its US$65M sale to Ensign Energy Services",
       "why_it_matters": "Ensign Energy Services agreed to acquire Citadel Drilling for US$65M. The release names TPH&Co, the energy business of Perella Weinberg Partners, as financial adviser to Citadel (seller). A cross-border oilfield-services sell-side with a single adviser is a targeted, faster-close diligence engagement.",
       "suggested_action": "Reach out to Perella Weinberg's (TPH&Co) energy coverage on the Citadel sale — a focused oilfield-services sell-side is a clean, near-term diligence conversation.",
@@ -297,6 +328,9 @@
         "energy",
         "oilfield-services",
         "sell-side"
+      ],
+      "banks": [
+        "Perella Weinberg"
       ]
     },
     {
@@ -304,7 +338,6 @@
       "category": "M&A",
       "urgency": "LOW",
       "scope": "bank",
-      "bank": "Lincoln International",
       "headline": "Lincoln International advises Senti Biosciences' Special Committee on its CVR-only take-private by Celadon",
       "why_it_matters": "Celadon Partners (an affiliate of Senti's largest stockholder) agreed to take Senti Biosciences private, with consideration consisting solely of contingent value rights capped at $60M (no upfront cash for common stock). The preliminary proxy names Lincoln International as financial adviser to Senti's Special Committee, delivering the fairness opinion. A distressed, special-committee-led take-private — process-heavy despite its small size.",
       "suggested_action": "A special-committee CVR-only take-private is a niche but document-heavy process — worth a light-touch note to Lincoln International on secure special-committee diligence.",
@@ -322,6 +355,9 @@
         "biotech",
         "take-private",
         "special-committee"
+      ],
+      "banks": [
+        "Lincoln International"
       ]
     },
     {
@@ -340,7 +376,6 @@
   "opportunities": [
     {
       "id": "o1",
-      "bank": "JPMorgan",
       "sector": "Healthcare / Biopharma",
       "urgency": "HOT",
       "headline": "Adviser (with Leerink) to Crinetics on its $85/share, all-cash sale to Vertex",
@@ -362,11 +397,15 @@
       "confidence": "Filed",
       "first_seen": "2026-07-22",
       "last_confirmed": "2026-07-22",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "JPMorgan",
+        "Morgan Stanley",
+        "Lazard"
+      ]
     },
     {
       "id": "o2",
-      "bank": "Morgan Stanley",
       "sector": "FIG / Insurance",
       "urgency": "HOT",
       "headline": "Adviser to Corebridge on its merger of equals with Equitable (Goldman advises Equitable)",
@@ -392,11 +431,14 @@
       "confidence": "Filed",
       "first_seen": "2026-07-22",
       "last_confirmed": "2026-07-22",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Morgan Stanley",
+        "Goldman Sachs"
+      ]
     },
     {
       "id": "o3",
-      "bank": "Morgan Stanley",
       "sector": "Healthcare / Diagnostics",
       "urgency": "HOT",
       "headline": "Adviser to Tempus on its stock-for-stock acquisition of Personalis ($16.25/share cash election)",
@@ -418,11 +460,15 @@
       "confidence": "Filed",
       "first_seen": "2026-07-21",
       "last_confirmed": "2026-07-21",
-      "carry_badge": "Day 2"
+      "carry_badge": "Day 2",
+      "banks": [
+        "Morgan Stanley",
+        "Centerview Partners",
+        "TD Cowen"
+      ]
     },
     {
       "id": "o4",
-      "bank": "JPMorgan",
       "sector": "Real Estate / Logistics",
       "urgency": "HOT",
       "headline": "Adviser (with BofA) to Prologis on its ~£14B ($18.7B) bid for SEGRO",
@@ -444,11 +490,14 @@
       "confidence": "Reported",
       "first_seen": "2026-07-22",
       "last_confirmed": "2026-07-22",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "JPMorgan",
+        "Bank of America"
+      ]
     },
     {
       "id": "o5",
-      "bank": "Citi",
       "sector": "Metals & Mining",
       "urgency": "HOT",
       "headline": "Exclusive adviser to NOVAGOLD on its ~$4.2B all-share acquisition of Donlin Gold",
@@ -470,11 +519,13 @@
       "confidence": "Reported",
       "first_seen": "2026-07-22",
       "last_confirmed": "2026-07-22",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Citi"
+      ]
     },
     {
       "id": "o6",
-      "bank": "JPMorgan",
       "sector": "Energy / Oil & Gas",
       "urgency": "HOT",
       "headline": "Lead adviser (with Moelis, Citi) to Magnolia on its $4.06B acquisition of WildFire Energy",
@@ -496,11 +547,16 @@
       "confidence": "Reported",
       "first_seen": "2026-07-21",
       "last_confirmed": "2026-07-21",
-      "carry_badge": "Day 2"
+      "carry_badge": "Day 2",
+      "banks": [
+        "JPMorgan",
+        "Citi",
+        "Moelis",
+        "Wells Fargo"
+      ]
     },
     {
       "id": "o7",
-      "bank": "Jefferies",
       "sector": "Energy / Oil & Gas",
       "urgency": "HOT",
       "headline": "Lead sell-side adviser (with BofA) to WildFire Energy on its $4.06B sale to Magnolia",
@@ -522,11 +578,14 @@
       "confidence": "Reported",
       "first_seen": "2026-07-21",
       "last_confirmed": "2026-07-21",
-      "carry_badge": "Day 2"
+      "carry_badge": "Day 2",
+      "banks": [
+        "Jefferies",
+        "Bank of America"
+      ]
     },
     {
       "id": "o8",
-      "bank": "Goldman Sachs",
       "sector": "Healthcare / Life Sciences",
       "urgency": "WARM",
       "headline": "Adviser (with Perella Weinberg) to Repligen on its cash-and-stock acquisition of BioLife Solutions",
@@ -548,11 +607,15 @@
       "confidence": "Filed",
       "first_seen": "2026-07-22",
       "last_confirmed": "2026-07-22",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Goldman Sachs",
+        "Perella Weinberg",
+        "Centerview Partners"
+      ]
     },
     {
       "id": "o9",
-      "bank": "Morgan Stanley",
       "sector": "Energy / Renewables",
       "urgency": "WARM",
       "headline": "Adviser (with Wells Fargo) to Greenbacker on its ~$375M sale to MN8 Energy",
@@ -574,11 +637,14 @@
       "confidence": "Reported",
       "first_seen": "2026-07-22",
       "last_confirmed": "2026-07-22",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Morgan Stanley",
+        "Wells Fargo"
+      ]
     },
     {
       "id": "o10",
-      "bank": "Jefferies",
       "sector": "Biotech / Private Capital",
       "urgency": "WARM",
       "headline": "Placement agent (with TD Cowen, Stifel, Guggenheim) on Mentari's $200M PIPE",
@@ -600,11 +666,16 @@
       "confidence": "Reported",
       "first_seen": "2026-07-22",
       "last_confirmed": "2026-07-22",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Jefferies",
+        "Guggenheim Securities",
+        "Stifel",
+        "TD Cowen"
+      ]
     },
     {
       "id": "o11",
-      "bank": "Evercore",
       "sector": "Biotech / ECM",
       "urgency": "WARM",
       "headline": "Joint bookrunner (with Morgan Stanley, Jefferies, Raymond James) on Dyne's upsized $375M offering",
@@ -630,7 +701,13 @@
       "confidence": "Reported",
       "first_seen": "2026-07-22",
       "last_confirmed": "2026-07-22",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Evercore",
+        "Morgan Stanley",
+        "Jefferies",
+        "Raymond James"
+      ]
     }
   ],
   "market_snapshot": {

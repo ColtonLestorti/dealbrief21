@@ -46,7 +46,6 @@
       "category": "M&A",
       "urgency": "HIGH",
       "scope": "bank",
-      "bank": "JPMorgan",
       "headline": "JPMorgan, Moelis and Citi advise Magnolia Oil & Gas on its $4.06B acquisition of WildFire Energy",
       "why_it_matters": "Magnolia Oil & Gas agreed to acquire Eagle Ford producer WildFire Energy for $4.06B from Warburg Pincus and Kayne Anderson. The release names J.P. Morgan and Moelis as lead financial advisers and Citi as a financial adviser to Magnolia (buyer), with JPMorgan, Citi and Wells Fargo providing committed financing. A large PE-backed upstream carve-out with reserves, title, and financing diligence running in parallel.",
       "suggested_action": "Engage JPMorgan's energy coverage on Magnolia/WildFire — a $4B upstream acquisition with a financing syndicate is a heavy multi-party diligence use case.",
@@ -64,6 +63,12 @@
         "energy",
         "oil-gas",
         "sponsor"
+      ],
+      "banks": [
+        "JPMorgan",
+        "Citi",
+        "Moelis",
+        "Wells Fargo"
       ]
     },
     {
@@ -71,7 +76,6 @@
       "category": "M&A",
       "urgency": "HIGH",
       "scope": "bank",
-      "bank": "Jefferies",
       "headline": "Jefferies and BofA advise WildFire Energy on its $4.06B sale to Magnolia Oil & Gas",
       "why_it_matters": "On the sell-side of the Magnolia/WildFire deal, the release names Jefferies as lead financial adviser and BofA Securities as a financial adviser to WildFire, a Warburg Pincus/Kayne Anderson-backed Eagle Ford producer. A sponsor exit of this scale runs a controlled, document-heavy sell-side diligence process.",
       "suggested_action": "Reach out to Jefferies's energy/sponsor coverage on the WildFire sale — a $4B PE exit is a concrete near-term diligence conversation.",
@@ -89,6 +93,10 @@
         "energy",
         "oil-gas",
         "sell-side"
+      ],
+      "banks": [
+        "Jefferies",
+        "Bank of America"
       ]
     },
     {
@@ -96,7 +104,6 @@
       "category": "M&A",
       "urgency": "HIGH",
       "scope": "bank",
-      "bank": "Citi",
       "headline": "Citi (lead, Special Committee) and RBC advise Utz on its ~$2.9B take-private by Intersnack",
       "why_it_matters": "Intersnack Group agreed to take Utz Brands private at $14.25/share (~$2.9B EV). The release names Citi as exclusive financial adviser to Utz's Special Committee and RBC Capital Markets as a financial adviser to Utz, with BofA Securities advising Intersnack and providing committed debt financing. A public-company take-private with a Special Committee — the highest-diligence room type.",
       "suggested_action": "Open with Citi's consumer coverage on the Utz take-private — a Special Committee process with fairness backup and a debt syndicate is a strong secure-diligence use case.",
@@ -114,6 +121,11 @@
         "consumer",
         "take-private",
         "packaged-food"
+      ],
+      "banks": [
+        "Citi",
+        "RBC Capital Markets",
+        "Bank of America"
       ]
     },
     {
@@ -121,7 +133,6 @@
       "category": "DEALS",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Morgan Stanley",
       "headline": "JPMorgan and Morgan Stanley lead Reformation's ~$239M NYSE IPO (Citi, RBC bookrunners)",
       "why_it_matters": "Womenswear retailer Reformation launched its IPO (14.06M shares, $15–$17 range, up to ~$239M) on the NYSE under ticker REF. Reporting names J.P. Morgan and Morgan Stanley as joint lead bookrunners, with Citigroup and RBC Capital Markets as joint bookrunners. An active roadshow means live S-1 and due-diligence-defense workstreams.",
       "suggested_action": "Use the Reformation launch as an ECM hook with Morgan Stanley's syndicate desk — live IPOs run coordinated diligence-defense data rooms across bookrunners and selling holders.",
@@ -139,6 +150,12 @@
         "consumer",
         "ipo",
         "ecm"
+      ],
+      "banks": [
+        "Morgan Stanley",
+        "JPMorgan",
+        "Citi",
+        "RBC Capital Markets"
       ]
     },
     {
@@ -146,7 +163,6 @@
       "category": "DEALS",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Guggenheim Securities",
       "headline": "Guggenheim, Jefferies and TD Cowen advise on Freenome's ~$310M SPAC/PIPE public debut",
       "why_it_matters": "Blood-based cancer-detection firm Freenome began trading (Nasdaq: FRNM) via a PCSC SPAC combination plus a $240M PIPE (~$310M gross). The release names Guggenheim Securities as capital-markets adviser and TD Cowen as lead financial adviser to Freenome, with Jefferies as lead financial/capital-markets adviser and joint lead PIPE placement agent for PCSC. A de-SPAC plus large PIPE is document-intensive across subscription and diligence workstreams.",
       "suggested_action": "Reach out to Guggenheim on the Freenome debut — de-SPAC/PIPE combinations run heavy subscription-doc and diligence exchange that map directly to secure rooms.",
@@ -168,6 +184,11 @@
         "healthcare",
         "diagnostics",
         "de-spac"
+      ],
+      "banks": [
+        "Guggenheim Securities",
+        "Jefferies",
+        "TD Cowen"
       ]
     },
     {
@@ -175,7 +196,6 @@
       "category": "M&A",
       "urgency": "HIGH",
       "scope": "bank",
-      "bank": "Morgan Stanley",
       "headline": "Morgan Stanley advises Tempus on its acquisition of Personalis; Centerview and TD Cowen advise Personalis ($16.25/share)",
       "why_it_matters": "Tempus AI agreed to acquire Personalis in a stock-for-stock two-step merger with an optional cash election up to 50% at $16.25/share. The S-4/425 names Morgan Stanley as financial adviser to Tempus (buyer) and Centerview Partners and TD Securities (\"TD Cowen\") as advisers to Personalis's board, each delivering fairness opinions. A diagnostics combination now advancing through the S-4/vote phase.",
       "suggested_action": "Engage Morgan Stanley's healthcare-tech coverage on Tempus/Personalis — a filed stock-for-stock merger with a cash election runs two-sided diligence into the vote.",
@@ -193,6 +213,11 @@
         "healthcare",
         "diagnostics",
         "stock-for-stock"
+      ],
+      "banks": [
+        "Morgan Stanley",
+        "Centerview Partners",
+        "TD Cowen"
       ]
     },
     {
@@ -200,7 +225,6 @@
       "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Guggenheim Securities",
       "headline": "Guggenheim advises the Destination XL board on a stock-for-stock merger with FULLBEAUTY Brands",
       "why_it_matters": "Destination XL (DXLG) filed a preliminary proxy for a stock-for-stock merger with Oaktree-backed FULLBEAUTY Brands (~55/45 in FBB's favor). The proxy names Guggenheim Securities as financial adviser to the DXL board — notably, the board is now recommending against the share-issuance proposal, keeping the process contested and diligence-heavy. (BofA appears only as ABL lender; not an M&A adviser.)",
       "suggested_action": "A contested stock-for-stock merger with a board recommending against is a live, document-intensive situation — a reason to talk to Guggenheim on secure, auditable diligence access.",
@@ -218,6 +242,9 @@
         "consumer",
         "retail",
         "stock-for-stock"
+      ],
+      "banks": [
+        "Guggenheim Securities"
       ]
     },
     {
@@ -225,7 +252,6 @@
       "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Raymond James",
       "headline": "Raymond James advises Identiv on the $50M sale of its IoT business to Trackonomy",
       "why_it_matters": "Identiv (INVE) filed a preliminary proxy for the sale of its IoT business (plus $25M cash) to Trackonomy Systems for $50M of Trackonomy Series C preferred, pivoting to a \"Physical AI\" strategy. The proxy names Raymond James as financial adviser to Identiv's board, delivering the fairness opinion. A carve-out asset sale with valuation and closing diligence.",
       "suggested_action": "Reach out to Raymond James on the Identiv carve-out — an asset sale for stock consideration runs focused diligence and closing-document exchange.",
@@ -243,6 +269,9 @@
         "technology",
         "iot",
         "carve-out"
+      ],
+      "banks": [
+        "Raymond James"
       ]
     },
     {
@@ -250,7 +279,6 @@
       "category": "DEALS",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "TD Cowen",
       "headline": "TD Cowen advises Searchlight and Abry on the completed ~$726M take-private of KORE Group",
       "why_it_matters": "Searchlight Capital and Abry Partners completed their ~$726M take-private of IoT-connectivity firm KORE Group, which is now private. The release names TD Cowen as financial adviser to Searchlight and Abry (Rothschild advised KORE's Special Committee). A completed take-private runs delisting, closing, and sponsor-onboarding workstreams through shared rooms.",
       "suggested_action": "Congratulate TD Cowen on the closed KORE take-private and ask about the next sponsor mandate where fast, clean room setup helps at signing and close.",
@@ -268,6 +296,9 @@
         "technology",
         "iot",
         "take-private"
+      ],
+      "banks": [
+        "TD Cowen"
       ]
     },
     {
@@ -275,7 +306,6 @@
       "category": "DEALS",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Bank of America",
       "headline": "BofA advises Cross Country Healthcare on its completed take-private by Knox Lane",
       "why_it_matters": "PE firm Knox Lane completed its take-private of Cross Country Healthcare, with a simultaneous carve-out of the locums business to All Star Healthcare. The release names BofA Securities as exclusive financial adviser to Cross Country Healthcare (MTS Health Partners advised Knox Lane). A take-private plus divisional carve-out means multi-entity diligence and closing-document exchange.",
       "suggested_action": "Reach out to BofA's healthcare-services coverage on the Cross Country close — a take-private with a simultaneous carve-out is a multi-entity room use case.",
@@ -293,6 +323,9 @@
         "healthcare",
         "staffing",
         "take-private"
+      ],
+      "banks": [
+        "Bank of America"
       ]
     },
     {
@@ -311,7 +344,6 @@
   "opportunities": [
     {
       "id": "o1",
-      "bank": "Morgan Stanley",
       "sector": "Healthcare / Diagnostics",
       "urgency": "HOT",
       "headline": "Adviser to Tempus on its stock-for-stock acquisition of Personalis ($16.25/share cash election)",
@@ -333,11 +365,15 @@
       "confidence": "Filed",
       "first_seen": "2026-07-21",
       "last_confirmed": "2026-07-21",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Morgan Stanley",
+        "Centerview Partners",
+        "TD Cowen"
+      ]
     },
     {
       "id": "o2",
-      "bank": "Evercore",
       "sector": "FIG / Bank M&A",
       "urgency": "HOT",
       "headline": "Adviser to First Hawaiian on its all-stock acquisition of TriCo Bancshares",
@@ -363,11 +399,14 @@
       "confidence": "Filed",
       "first_seen": "2026-07-13",
       "last_confirmed": "2026-07-16",
-      "carry_badge": "Day 7"
+      "carry_badge": "Day 7",
+      "banks": [
+        "Evercore",
+        "Stifel"
+      ]
     },
     {
       "id": "o3",
-      "bank": "JPMorgan",
       "sector": "Energy / Oil & Gas",
       "urgency": "HOT",
       "headline": "Lead adviser (with Moelis, Citi) to Magnolia on its $4.06B acquisition of WildFire Energy",
@@ -389,11 +428,16 @@
       "confidence": "Reported",
       "first_seen": "2026-07-21",
       "last_confirmed": "2026-07-21",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "JPMorgan",
+        "Citi",
+        "Moelis",
+        "Wells Fargo"
+      ]
     },
     {
       "id": "o4",
-      "bank": "Jefferies",
       "sector": "Energy / Oil & Gas",
       "urgency": "HOT",
       "headline": "Lead sell-side adviser (with BofA) to WildFire Energy on its $4.06B sale to Magnolia",
@@ -415,11 +459,14 @@
       "confidence": "Reported",
       "first_seen": "2026-07-21",
       "last_confirmed": "2026-07-21",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Jefferies",
+        "Bank of America"
+      ]
     },
     {
       "id": "o5",
-      "bank": "Citi",
       "sector": "Consumer / Packaged Food",
       "urgency": "HOT",
       "headline": "Lead adviser to Utz's Special Committee on its ~$2.9B take-private by Intersnack",
@@ -441,11 +488,15 @@
       "confidence": "Reported",
       "first_seen": "2026-07-21",
       "last_confirmed": "2026-07-21",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Citi",
+        "Bank of America",
+        "RBC Capital Markets"
+      ]
     },
     {
       "id": "o6",
-      "bank": "Goldman Sachs",
       "sector": "Healthcare / Biopharma",
       "urgency": "HOT",
       "headline": "Exclusive adviser to Eli Lilly on its ~$2.8B acquisition of AtaiBeckley",
@@ -467,11 +518,13 @@
       "confidence": "Reported",
       "first_seen": "2026-07-16",
       "last_confirmed": "2026-07-16",
-      "carry_badge": "Day 4"
+      "carry_badge": "Day 4",
+      "banks": [
+        "Goldman Sachs"
+      ]
     },
     {
       "id": "o7",
-      "bank": "Moelis",
       "sector": "Healthcare / Biopharma",
       "urgency": "HOT",
       "headline": "Sell-side adviser (with Centerview) to AtaiBeckley on its ~$2.8B sale to Eli Lilly",
@@ -493,11 +546,15 @@
       "confidence": "Reported",
       "first_seen": "2026-07-16",
       "last_confirmed": "2026-07-16",
-      "carry_badge": "Day 4"
+      "carry_badge": "Day 4",
+      "banks": [
+        "Moelis",
+        "Citi",
+        "Centerview Partners"
+      ]
     },
     {
       "id": "o8",
-      "bank": "Raymond James",
       "sector": "Technology / IoT",
       "urgency": "WARM",
       "headline": "Adviser to Identiv on the $50M sale of its IoT business to Trackonomy",
@@ -519,11 +576,13 @@
       "confidence": "Filed",
       "first_seen": "2026-07-21",
       "last_confirmed": "2026-07-21",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Raymond James"
+      ]
     },
     {
       "id": "o9",
-      "bank": "Guggenheim Securities",
       "sector": "Healthcare / Diagnostics",
       "urgency": "WARM",
       "headline": "Capital-markets adviser (with TD Cowen, Jefferies) on Freenome's ~$310M SPAC/PIPE debut",
@@ -545,11 +604,15 @@
       "confidence": "Reported",
       "first_seen": "2026-07-21",
       "last_confirmed": "2026-07-21",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Guggenheim Securities",
+        "Jefferies",
+        "TD Cowen"
+      ]
     },
     {
       "id": "o10",
-      "bank": "TD Cowen",
       "sector": "Technology / IoT",
       "urgency": "WARM",
       "headline": "Adviser to Searchlight and Abry on the completed ~$726M take-private of KORE Group",
@@ -571,7 +634,10 @@
       "confidence": "Reported",
       "first_seen": "2026-07-21",
       "last_confirmed": "2026-07-21",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "TD Cowen"
+      ]
     }
   ],
   "market_snapshot": {

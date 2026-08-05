@@ -46,7 +46,6 @@
       "category": "BANKING",
       "urgency": "HIGH",
       "scope": "bank",
-      "bank": "Goldman Sachs",
       "headline": "Goldman jumps ~7.7% on record global banking & markets revenue in Q2",
       "why_it_matters": "Goldman Sachs reported Q2 2026 revenue of $20.34B and net earnings of $6.4B, topping expectations on record Global Banking & Markets revenue, and the stock rose ~7.66% to $1,126.06. A record banking-and-markets print is a direct signal that advisory and financing pipelines are active — the backdrop for deal-process infrastructure demand.",
       "suggested_action": "Use Goldman's record banking/markets quarter as a pipeline-confidence hook with advisory coverage teams — strong capital-markets revenue means live processes and diligence workflows.",
@@ -63,6 +62,9 @@
       "tags": [
         "earnings",
         "advisory"
+      ],
+      "banks": [
+        "Goldman Sachs"
       ]
     },
     {
@@ -70,7 +72,6 @@
       "category": "BANKING",
       "urgency": "HIGH",
       "scope": "bank",
-      "bank": "JPMorgan",
       "headline": "JPMorgan tops Q2 estimates — EPS $7.70 on $57.35B revenue; stock +1.9%",
       "why_it_matters": "JPMorgan reported Q2 EPS of $7.70 on revenue of $57.35B, both ahead of expectations, and the stock rose ~1.85% to $340.71. Jamie Dimon flagged economic resiliency alongside inflation/geopolitical risk. Strong results from the largest US bank reinforce a constructive backdrop for deal and financing activity.",
       "suggested_action": "Reference JPMorgan's beat when engaging its coverage teams — a strong quarter supports conversations about relaunching and running processes into H2.",
@@ -86,6 +87,9 @@
       "confidence": "Reported",
       "tags": [
         "earnings"
+      ],
+      "banks": [
+        "JPMorgan"
       ]
     },
     {
@@ -105,7 +109,6 @@
       "category": "M&A",
       "urgency": "HIGH",
       "scope": "bank",
-      "bank": "Goldman Sachs",
       "headline": "Goldman and Jefferies advise Apogee on AbbVie's $135.11/share cash acquisition",
       "why_it_matters": "Apogee Therapeutics (NASDAQ: APGE) filed its definitive merger proxy for an all-cash acquisition by AbbVie at $135.11 per share. Goldman Sachs and Jefferies are Apogee's financial advisers. A large-cap biopharma take-private with a filed DEFM14A is a document-heavy, time-sensitive diligence process.",
       "suggested_action": "Reach out to Goldman's healthcare coverage on Apogee/AbbVie — an all-cash biopharma take-private with a filed proxy is a clean, current diligence use case.",
@@ -127,6 +130,10 @@
         "healthcare",
         "biopharma",
         "take-private"
+      ],
+      "banks": [
+        "Goldman Sachs",
+        "Jefferies"
       ]
     },
     {
@@ -134,7 +141,6 @@
       "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Jefferies",
       "headline": "Jefferies advises Apogee Therapeutics on its $135.11/share sale to AbbVie",
       "why_it_matters": "Alongside Goldman, Jefferies is a financial adviser to Apogee Therapeutics on the AbbVie all-cash acquisition ($135.11/sh) whose definitive proxy was filed July 13. Jefferies' healthcare franchise is on a live large-cap biopharma sell-side.",
       "suggested_action": "Engage Jefferies' healthcare team on the Apogee mandate — a filed take-private means the vote and diligence phase is active.",
@@ -151,6 +157,10 @@
       "tags": [
         "healthcare",
         "sell-side"
+      ],
+      "banks": [
+        "Jefferies",
+        "Goldman Sachs"
       ]
     },
     {
@@ -158,7 +168,6 @@
       "category": "M&A",
       "urgency": "HIGH",
       "scope": "bank",
-      "bank": "Goldman Sachs",
       "headline": "AvalonBay–Equity Residential file all-stock REIT merger (2.793 EQR per AVB share)",
       "why_it_matters": "AvalonBay Communities (NYSE: AVB) filed a joint proxy for an all-stock merger with Equity Residential — each AVB share converts to 2.793 EQR shares (fixed ratio), creating one of the largest US apartment REIT combinations. Goldman Sachs advises one side; Wells Fargo and Centerview advise the counterparties. A mega-cap REIT merger is a heavy integration/diligence workflow.",
       "suggested_action": "Talk to Goldman's real estate coverage on AvalonBay/Equity Residential — a mega-cap all-stock REIT merger with a filed proxy is a high-value data-room use case.",
@@ -176,6 +185,11 @@
         "real-estate",
         "reit",
         "all-stock"
+      ],
+      "banks": [
+        "Goldman Sachs",
+        "Wells Fargo",
+        "Centerview Partners"
       ]
     },
     {
@@ -183,7 +197,6 @@
       "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Wells Fargo",
       "headline": "Wells Fargo and Centerview advise on the AvalonBay / Equity Residential merger",
       "why_it_matters": "In the AvalonBay/Equity Residential all-stock REIT combination (joint proxy filed Jul 13), Wells Fargo and Centerview Partners are financial advisers to the transaction alongside Goldman. Multiple covered banks on a single mega-cap REIT merger.",
       "suggested_action": "Reach out to Wells Fargo's real estate team on the AvalonBay/Equity Residential merger — a filed mega-cap REIT deal with live diligence.",
@@ -200,6 +213,11 @@
       "tags": [
         "real-estate",
         "reit"
+      ],
+      "banks": [
+        "Wells Fargo",
+        "Goldman Sachs",
+        "Centerview Partners"
       ]
     },
     {
@@ -207,7 +225,6 @@
       "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Citi",
       "headline": "Citi and Lazard advise Huntsman on its all-stock merger with Olin (0.5476 ratio)",
       "why_it_matters": "Huntsman (NYSE: HUN) filed a joint merger proxy for an all-stock combination with Olin — each Huntsman share converts to 0.5476 Olin shares. Citi and Lazard advise Huntsman. A large chemicals merger-of-scale with a filed DEFM14A is a substantial diligence and integration process.",
       "suggested_action": "Engage Citi's chemicals/industrials coverage on Olin/Huntsman — a filed all-stock merger means diligence workstreams are active.",
@@ -224,6 +241,10 @@
       "tags": [
         "chemicals",
         "all-stock"
+      ],
+      "banks": [
+        "Citi",
+        "Lazard"
       ]
     },
     {
@@ -231,7 +252,6 @@
       "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Lazard",
       "headline": "Lazard advises Huntsman on the Olin merger-of-scale",
       "why_it_matters": "Alongside Citi, Lazard is a financial adviser to Huntsman on the all-stock Olin combination (0.5476 ratio) whose joint proxy was filed July 13. Lazard's industrials franchise is on a live chemicals merger.",
       "suggested_action": "Talk to Lazard's industrials team on Huntsman/Olin — a filed merger-of-scale is a strong diligence use case.",
@@ -247,13 +267,16 @@
       "confidence": "Filed",
       "tags": [
         "chemicals"
+      ],
+      "banks": [
+        "Lazard",
+        "Citi"
       ]
     }
   ],
   "opportunities": [
     {
       "id": "o1",
-      "bank": "Goldman Sachs",
       "sector": "Healthcare / Biopharma",
       "urgency": "HOT",
       "headline": "Adviser to Apogee on AbbVie's $135.11/share cash acquisition",
@@ -275,11 +298,14 @@
       "confidence": "Filed",
       "first_seen": "2026-07-14",
       "last_confirmed": "2026-07-14",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Goldman Sachs",
+        "Jefferies"
+      ]
     },
     {
       "id": "o2",
-      "bank": "Goldman Sachs",
       "sector": "Real Estate / REIT",
       "urgency": "HOT",
       "headline": "Adviser on the AvalonBay / Equity Residential all-stock REIT merger",
@@ -301,11 +327,13 @@
       "confidence": "Filed",
       "first_seen": "2026-07-14",
       "last_confirmed": "2026-07-14",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Goldman Sachs"
+      ]
     },
     {
       "id": "o3",
-      "bank": "Evercore",
       "sector": "FIG / Bank M&A",
       "urgency": "HOT",
       "headline": "Adviser to First Hawaiian on its all-stock acquisition of TriCo Bancshares",
@@ -327,11 +355,13 @@
       "confidence": "Filed",
       "first_seen": "2026-07-13",
       "last_confirmed": "2026-07-13",
-      "carry_badge": "Day 2"
+      "carry_badge": "Day 2",
+      "banks": [
+        "Evercore"
+      ]
     },
     {
       "id": "o4",
-      "bank": "JPMorgan",
       "sector": "TMT / Take-private",
       "urgency": "HOT",
       "headline": "Adviser to IHS Holding board on MTN's $8.50/share cash take-private",
@@ -353,11 +383,13 @@
       "confidence": "Filed",
       "first_seen": "2026-07-13",
       "last_confirmed": "2026-07-13",
-      "carry_badge": "Day 2"
+      "carry_badge": "Day 2",
+      "banks": [
+        "JPMorgan"
+      ]
     },
     {
       "id": "o5",
-      "bank": "Morgan Stanley",
       "sector": "Real Estate / Cross-border",
       "urgency": "HOT",
       "headline": "Adviser to Real on its acquisition of RE/MAX (definitive proxy filed)",
@@ -379,11 +411,13 @@
       "confidence": "Filed",
       "first_seen": "2026-07-13",
       "last_confirmed": "2026-07-13",
-      "carry_badge": "Day 2"
+      "carry_badge": "Day 2",
+      "banks": [
+        "Morgan Stanley"
+      ]
     },
     {
       "id": "o6",
-      "bank": "Citi",
       "sector": "Chemicals / Industrials",
       "urgency": "WARM",
       "headline": "Adviser to Huntsman on its all-stock merger with Olin",
@@ -405,11 +439,14 @@
       "confidence": "Filed",
       "first_seen": "2026-07-14",
       "last_confirmed": "2026-07-14",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Citi",
+        "Lazard"
+      ]
     },
     {
       "id": "o7",
-      "bank": "Wells Fargo",
       "sector": "Real Estate / REIT",
       "urgency": "WARM",
       "headline": "Adviser on the AvalonBay / Equity Residential REIT merger",
@@ -431,7 +468,11 @@
       "confidence": "Filed",
       "first_seen": "2026-07-14",
       "last_confirmed": "2026-07-14",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Wells Fargo",
+        "Centerview Partners"
+      ]
     }
   ],
   "market_snapshot": {

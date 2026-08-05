@@ -2,154 +2,2318 @@
   "deals": [
     {
       "id": "d1",
-      "company": "AES Corporation",
-      "buyer": "Global Infrastructure Partners",
-      "seller": "AES (public take-private)",
-      "advisor": "JPMorgan",
-      "advisor_role": "Lead financial advisor",
-      "sector": "Infrastructure",
-      "size": "$38.4B",
-      "stage": "Pending",
-      "announced": "2026-Q1",
-      "why_it_matters": "One of the year's largest take-privates. Lender diligence across a large syndicate plus heavy utility-sector regulatory documentation — a high-complexity, time-pressured data room use case.",
-      "deal_clock": [
-        { "date": "Q1 2026", "event": "JPM named lead advisor" },
-        { "date": "2026", "event": "Regulatory review underway" }
+      "headline": "Six covered banks work Prologis’ ~$18.8B recommended combination with UK logistics REIT SEGRO",
+      "banks": [
+        "JPMorgan",
+        "Bank of America",
+        "Citi",
+        "Evercore",
+        "Morgan Stanley",
+        "UBS",
+        "Goldman Sachs"
       ],
-      "outreach_draft": {
-        "subject": "AES / GIP — lender & regulator diligence at scale",
-        "body": "Congratulations on the lead advisory role on the AES take-private. A $38B infrastructure process means lender diligence across a large syndicate plus a heavy regulatory documentation load.\n\nWe help deal teams stand up differentiated permissions for dozens of lenders and regulators without rebuilding the room for each party. Worth a short conversation as diligence ramps?\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
-      },
-      "tags": ["infrastructure", "energy", "jpmorgan", "take-private"]
+      "published": "2026-08-04",
+      "confidence": "Reported",
+      "coverage_team": [
+        "FIG",
+        "Industrials",
+        "Real Estate"
+      ],
+      "sector": "Real Estate / Logistics REIT",
+      "source": "StockTitan (Prologis Rule 2.7 announcement)",
+      "source_url": "https://www.stocktitan.net/news/PLD/prologis-inc-announces-recommended-usvbmqu2pemj.html"
     },
     {
       "id": "d2",
-      "company": "Roku",
-      "buyer": "FOX Corporation",
-      "seller": "Roku (public)",
-      "advisor": "Morgan Stanley",
-      "advisor_role": "Sell-side advisor",
-      "sector": "Media / TMT",
-      "size": "Undisclosed",
-      "stage": "Announced",
-      "announced": "2026-06-15",
-      "why_it_matters": "Marquee media consolidation. Sell-side processes of this profile generate parallel buyer diligence and rotate teams onto fresh mandates quickly.",
-      "deal_clock": [
-        { "date": "Jun 15", "event": "Acquisition announced" },
-        { "date": "2026", "event": "Diligence and regulatory review" }
+      "headline": "JPMorgan advises Equitable and Rothschild advises The Hartford on Hartford’s acquisition of Equitable’s employee-benefits business",
+      "banks": [
+        "JPMorgan"
       ],
-      "outreach_draft": {
-        "subject": "Roku process — supporting your next TMT mandate",
-        "body": "Congratulations on the Roku announcement. Large sell-sides generate parallel buyer diligence fast — if the TMT team is running concurrent processes, the question is whether the current data room setup supports compressed timelines.\n\nHappy to compare notes on how other MS teams have structured media-deal rooms.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
-      },
-      "tags": ["media", "technology", "morgan-stanley"]
+      "published": "2026-08-04",
+      "confidence": "Reported",
+      "coverage_team": [
+        "FIG"
+      ],
+      "sector": "Insurance / Employee Benefits",
+      "source": "StockTitan (The Hartford release)",
+      "source_url": "https://www.stocktitan.net/news/HIG/the-hartford-to-acquire-equitable-s-employee-benefits-n0u90rhn6xog.html"
     },
     {
       "id": "d3",
-      "company": "Jetro Restaurant Depot",
-      "buyer": "Sysco Corp",
-      "seller": "Jetro (private)",
-      "advisor": "Evercore",
-      "advisor_role": "Lead financial advisor",
-      "sector": "Consumer / Food",
-      "size": "$29.1B",
-      "stage": "Pending",
-      "announced": "2026-Q1",
-      "why_it_matters": "A large food-distribution combination. Evercore's M&A volume is up 56% YoY — completed mandates mean teams rotating onto new processes this quarter.",
-      "deal_clock": [
-        { "date": "Q1 2026", "event": "Evercore named lead advisor" },
-        { "date": "2026", "event": "Pending close" }
+      "headline": "Harris Williams advises Ridgemont Equity Partners on its acquisition of environmental-remediation platform ENTACT",
+      "banks": [
+        "Harris Williams"
       ],
-      "outreach_draft": {
-        "subject": "Jetro / Sysco — accelerating your next process",
-        "body": "Congratulations on the Jetro / Sysco mandate. With volume up sharply this year, I imagine the team is rotating onto new processes quickly — usually when room infrastructure gets revisited.\n\nIf you have mandates opening where speed-to-launch matters, I'd welcome a short conversation.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
-      },
-      "tags": ["consumer", "food", "evercore"]
+      "published": "2026-08-04",
+      "confidence": "Reported",
+      "coverage_team": [
+        "Industrials"
+      ],
+      "sector": "Industrials / Environmental Services",
+      "source": "Ridgemont Equity Partners (press release)",
+      "source_url": "https://www.ridgemontep.com/press-releases/ridgemont-equity-partners-acquires-entact/"
     },
     {
       "id": "d4",
-      "company": "Kimberly-Clark / Kenvue",
-      "buyer": "Kimberly-Clark",
-      "seller": "Kenvue",
-      "advisor": "JPMorgan",
-      "advisor_role": "Buy-side advisor",
-      "sector": "Consumer / Healthcare",
-      "size": "$50.6B",
-      "stage": "Pending",
-      "announced": "2025-2026",
-      "why_it_matters": "One of JPMorgan's largest mandates of the cycle — a consumer-health megadeal with extensive cross-functional diligence across brands, regulatory, and supply chain.",
-      "deal_clock": [
-        { "date": "Announced", "event": "JPM advising Kimberly-Clark" },
-        { "date": "2026", "event": "Integration planning" }
+      "headline": "Goldman advises Integer on its ~$5.7B take-private by KKR; Centerview, Barclays, Citi and Raymond James advise KKR",
+      "banks": [
+        "Goldman Sachs",
+        "Citi",
+        "Barclays",
+        "Centerview Partners",
+        "Raymond James",
+        "UBS",
+        "Jefferies"
       ],
-      "outreach_draft": {
-        "subject": "Consumer-health diligence at megadeal scale",
-        "body": "The Kimberly-Clark / Kenvue combination is exactly the kind of multi-workstream diligence — brands, regulatory, supply chain — where a well-structured data room saves the deal team real time.\n\nWorth a conversation on how we support megadeal diligence across functions?\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
-      },
-      "tags": ["consumer", "healthcare", "jpmorgan", "megadeal"]
+      "published": "2026-08-03",
+      "confidence": "Reported",
+      "coverage_team": [
+        "Healthcare"
+      ],
+      "sector": "Healthcare / Medical Devices",
+      "source": "GlobeNewswire (Integer / KKR release)",
+      "source_url": "https://www.globenewswire.com/news-release/2026/08/03/3337312/26755/en/integer-to-be-acquired-by-kkr-in-transaction-valued-at-approximately-5-7-billion.html"
     },
     {
       "id": "d5",
-      "company": "Unilever Ice Cream (The Magnum Ice Cream Company)",
-      "buyer": "Spin-off / public listing",
-      "seller": "Unilever",
-      "advisor": "Goldman Sachs",
-      "advisor_role": "Sell-side / spin advisor",
-      "sector": "Consumer",
-      "size": "Undisclosed",
-      "stage": "Active",
-      "announced": "2025-2026",
-      "why_it_matters": "A flagship corporate separation cited as a template for the 2026 de-conglomeration wave. Spin-offs require carve-out diligence and clean separation of financials — a core data room strength.",
-      "deal_clock": [
-        { "date": "2026", "event": "Separation in progress" }
+      "headline": "Morgan Stanley and BofA advise Lantheus; Jefferies, JPMorgan and PJT advise Curium on the up-to-$8.0B take-private",
+      "banks": [
+        "Morgan Stanley",
+        "Bank of America",
+        "JPMorgan",
+        "PJT Partners",
+        "Jefferies"
       ],
-      "outreach_draft": {
-        "subject": "Carve-out diligence on the Ice Cream separation",
-        "body": "Spin-offs like the Unilever Ice Cream separation hinge on clean carve-out documentation and disciplined access control across NewCo and parent.\n\nWe help teams manage that separation in the data room without manual rework. Happy to walk through the approach.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
-      },
-      "tags": ["consumer", "goldman-sachs", "carve-out", "spin-off"]
+      "published": "2026-08-03",
+      "confidence": "Reported",
+      "coverage_team": [
+        "Healthcare"
+      ],
+      "sector": "Healthcare / Radiopharmaceuticals",
+      "source": "GlobeNewswire (Curium / Lantheus release)",
+      "source_url": "https://www.globenewswire.com/news-release/2026/08/03/3337413/0/en/curium-announces-definitive-agreement-to-merge-with-lantheus.html"
     },
     {
       "id": "d6",
-      "company": "Enliven Therapeutics",
-      "buyer": "Public offering (upsized)",
-      "seller": "Enliven Therapeutics",
-      "advisor": "Jefferies",
-      "advisor_role": "Joint bookrunner (w/ Goldman, Morgan Stanley)",
-      "sector": "Healthcare / Biotech",
-      "size": "Undisclosed",
-      "stage": "Priced",
-      "announced": "2026-06-12",
-      "why_it_matters": "A priced biotech follow-on with three bulge/elite bookrunners. Capital-markets transactions are document- and diligence-intensive across legal and financial workstreams.",
-      "deal_clock": [
-        { "date": "Jun 12", "event": "Upsized offering priced" }
+      "headline": "Jefferies and Piper Sandler advise Indivior, Wells Fargo advises Supernus on their all-stock merger of equals (~$2.2B combined revenue)",
+      "banks": [
+        "Jefferies",
+        "Wells Fargo",
+        "Piper Sandler",
+        "Citi"
       ],
-      "outreach_draft": {
-        "subject": "Capital-markets diligence support",
-        "body": "Saw Jefferies on the Enliven offering. ECM transactions carry their own diligence load across legal and financial workstreams — a secure, auditable environment keeps the process clean.\n\nWorth a quick conversation on your live offerings?\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
-      },
-      "tags": ["healthcare", "biotech", "jefferies", "ecm"]
+      "published": "2026-08-03",
+      "confidence": "Filed",
+      "coverage_team": [
+        "Healthcare"
+      ],
+      "sector": "Healthcare / Biopharma",
+      "source": "SEC EDGAR — Supernus/Indivior EX-99.1 (Aug 3)",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1356576/000110465926089426/tm2622009d1_ex99-1.htm"
     },
     {
       "id": "d7",
-      "company": "Anthropic (IPO)",
-      "buyer": "Public listing",
-      "seller": "Anthropic",
-      "advisor": "Goldman Sachs",
-      "advisor_role": "Joint lead underwriter (w/ Morgan Stanley)",
-      "sector": "Technology",
-      "size": "Undisclosed",
-      "stage": "In registration",
-      "announced": "2026-06-03",
-      "why_it_matters": "A landmark AI IPO reinforcing the capital-markets revival — IPO processes are among the most diligence-intensive transactions across legal, financial, and regulatory review.",
-      "deal_clock": [
-        { "date": "Jun 03", "event": "Lead underwriters reported" }
+      "headline": "Evercore and Goldman advise Arcosa’s board as it files a definitive proxy for its $150/share cash sale to CRH",
+      "banks": [
+        "Evercore",
+        "Goldman Sachs"
       ],
-      "outreach_draft": {
-        "subject": "IPO diligence environments for live offerings",
-        "body": "With the IPO window reopening, the diligence and documentation load on lead-left mandates is significant. We help underwriting teams manage secure, auditable rooms across the full offering process.\n\nHappy to share how other ECM teams have set this up.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
-      },
-      "tags": ["technology", "ipo", "goldman-sachs"]
+      "published": "2026-08-03",
+      "confidence": "Filed",
+      "coverage_team": [
+        "Industrials"
+      ],
+      "sector": "Industrials / Infrastructure",
+      "source": "SEC EDGAR — Arcosa DEFM14A",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1739445/000114036126030551/ny20076790x2_defm14a.htm"
+    },
+    {
+      "id": "d8",
+      "headline": "Jefferies advises Carrier on the completed sale of its NORESCO energy-services business to OPTERRA (LS Power)",
+      "banks": [
+        "Jefferies"
+      ],
+      "published": "2026-08-03",
+      "confidence": "Reported",
+      "coverage_team": [
+        "Energy & Power",
+        "Industrials"
+      ],
+      "sector": "Industrials / Energy Services",
+      "source": "PR Newswire (Carrier release)",
+      "source_url": "https://www.prnewswire.com/news-releases/carrier-completes-sale-of-noresco-to-opterra-energy-services-302841200.html"
+    },
+    {
+      "id": "d9",
+      "headline": "BofA leads Williams’ up-to-$5.5B acquisition of Momentum Midstream; Barclays and Jefferies advise the seller",
+      "banks": [
+        "Bank of America",
+        "Barclays",
+        "Jefferies"
+      ],
+      "published": "2026-08-03",
+      "confidence": "Reported",
+      "coverage_team": [
+        "Energy & Power"
+      ],
+      "sector": "Energy / Midstream",
+      "source": "StockTitan (EnCap Flatrock / Williams release)",
+      "source_url": "https://www.stocktitan.net/news/WMB/en-cap-flatrock-announces-sale-of-m6-midstream-to-williams-for-5-5-8yar78uyylia.html"
+    },
+    {
+      "id": "d10",
+      "headline": "Citi and JPMorgan advise Atkore on its ~$3.8B all-cash sale to Prysmian",
+      "banks": [
+        "Citi",
+        "JPMorgan"
+      ],
+      "published": "2026-08-03",
+      "confidence": "Reported",
+      "coverage_team": [
+        "Industrials"
+      ],
+      "sector": "Industrials / Electrical Products",
+      "source": "StockTitan (Atkore release)",
+      "source_url": "https://www.stocktitan.net/news/ATKR/atkore-inc-to-be-acquired-by-prysmian-for-95-00-per-share-in-m5cd95iqt2sx.html"
+    },
+    {
+      "id": "d11",
+      "headline": "JPMorgan advises Couche-Tard and Goldman advises Żabka on Couche-Tard’s ~$8.6B tender offer for the Polish convenience giant",
+      "banks": [
+        "JPMorgan",
+        "Goldman Sachs"
+      ],
+      "published": "2026-07-31",
+      "confidence": "Reported",
+      "coverage_team": [
+        "Consumer & Retail"
+      ],
+      "sector": "Retail / Convenience",
+      "source": "PR Newswire (Couche-Tard release)",
+      "source_url": "https://www.prnewswire.com/news-releases/alimentation-couche-tard-announces-agreement-to-acquire-controlling-stake-in-abka-group-and-launches-voluntary-tender-offer-302839695.html"
+    },
+    {
+      "id": "d12",
+      "headline": "JPMorgan and Leerink advise Crinetics as it files a definitive proxy for its $85/share cash sale to Vertex",
+      "banks": [
+        "JPMorgan"
+      ],
+      "published": "2026-07-31",
+      "confidence": "Filed",
+      "coverage_team": [
+        "Healthcare"
+      ],
+      "sector": "Healthcare / Biopharma",
+      "source": "SEC EDGAR — Crinetics DEFM14A",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1658247/000114036126030500/ny20077458x2_defm14a.htm"
+    },
+    {
+      "id": "d13",
+      "headline": "JPMorgan advises Blackbeard on the ~$2.2B combination of Permian Basin Royalty Trust with US Land Guild",
+      "banks": [
+        "JPMorgan",
+        "RBC Capital Markets"
+      ],
+      "published": "2026-07-30",
+      "confidence": "Filed",
+      "coverage_team": [
+        "Energy & Power"
+      ],
+      "sector": "Energy / Oil & Gas",
+      "source": "SEC EDGAR — PBT Form 425",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/319654/000121390026082512/ea029960901-425_pbt.htm"
+    },
+    {
+      "id": "d14",
+      "headline": "BofA advises ICE and JPMorgan advises MarketAxess on ICE’s $167/share, ~$6B acquisition of the fixed-income trading platform",
+      "banks": [
+        "Bank of America",
+        "JPMorgan"
+      ],
+      "published": "2026-07-30",
+      "confidence": "Reported",
+      "coverage_team": [
+        "M&A"
+      ],
+      "sector": "Financial Services / Market Structure",
+      "source": "StockTitan (ICE release)",
+      "source_url": "https://www.stocktitan.net/news/ICE/intercontinental-exchange-to-acquire-market-axess-creating-a-premier-lw6rmpgt62px.html"
+    },
+    {
+      "id": "d15",
+      "headline": "Moelis and Centerview advise AtaiBeckley’s board (Citi additional; Goldman for Lilly) as the $6.75 + CVR sale to Eli Lilly hits a preliminary proxy",
+      "banks": [
+        "Moelis",
+        "Citi",
+        "Centerview Partners",
+        "Goldman Sachs"
+      ],
+      "published": "2026-07-30",
+      "confidence": "Filed",
+      "coverage_team": [
+        "Healthcare"
+      ],
+      "sector": "Biopharma / Healthcare",
+      "source": "SEC EDGAR — AtaiBeckley PREM14A",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2081043/000114036126030109/ny20078129x1_prem14a.htm"
+    },
+    {
+      "id": "d16",
+      "headline": "Evercore advises DarkVision (Koch) as Blackstone agrees to acquire the inspection-tech maker; Stifel and Guggenheim advise Blackstone",
+      "banks": [
+        "Evercore",
+        "Guggenheim Securities",
+        "Stifel"
+      ],
+      "published": "2026-07-30",
+      "confidence": "Reported",
+      "coverage_team": [
+        "TMT",
+        "Industrials"
+      ],
+      "sector": "Industrial Technology",
+      "source": "StockTitan (Blackstone release)",
+      "source_url": "https://www.stocktitan.net/news/BX/blackstone-energy-transition-partners-announces-agreement-to-acquire-k07zrdhy3fgi.html"
+    },
+    {
+      "id": "d17",
+      "headline": "JPMorgan and RBC advise Blackbeard as the $2.2B PBT / US Land Guild combination signs a definitive agreement",
+      "banks": [
+        "JPMorgan",
+        "RBC Capital Markets"
+      ],
+      "published": "2026-07-30",
+      "confidence": "Filed",
+      "coverage_team": [
+        "Energy & Power"
+      ],
+      "sector": "",
+      "source": "SEC EDGAR — SoftVest/PBT Form 425",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/319654/000121390026083015/ea029961601-425_soft.htm"
+    },
+    {
+      "id": "d18",
+      "headline": "Goldman leads and Morgan Stanley advises Nscale on its acquisition of AI-compute platform Anyscale",
+      "banks": [
+        "Goldman Sachs",
+        "Morgan Stanley"
+      ],
+      "published": "2026-07-30",
+      "confidence": "Reported",
+      "coverage_team": [
+        "TMT"
+      ],
+      "sector": "Technology / AI Infrastructure",
+      "source": "PR Newswire (Nscale release)",
+      "source_url": "https://www.prnewswire.com/news-releases/nscale-acquires-anyscale-enhancing-its-full-stack-ai-cloud-platform-302838058.html"
+    },
+    {
+      "id": "d19",
+      "headline": "JPMorgan advises Group 1 Automotive on its ~$1.3B acquisition of Hennessy’s Atlanta dealership group",
+      "banks": [
+        "JPMorgan"
+      ],
+      "published": "2026-07-30",
+      "confidence": "Reported",
+      "coverage_team": [
+        "Consumer & Retail",
+        "Industrials"
+      ],
+      "sector": "Auto Retail",
+      "source": "PR Newswire (Group 1 release)",
+      "source_url": "https://www.prnewswire.com/news-releases/group-1-agrees-to-acquire-hennessy-automobile-dealerships-in-the-atlanta-market-to-advance-proven-cluster-strategy-302838323.html"
+    },
+    {
+      "id": "d20",
+      "headline": "Goldman and Harris Williams advise JT Thorpe as Truelink Capital agrees to acquire the industrial-services platform from H.I.G.",
+      "banks": [
+        "Goldman Sachs",
+        "Harris Williams"
+      ],
+      "published": "2026-07-30",
+      "confidence": "Reported",
+      "coverage_team": [
+        "Industrials"
+      ],
+      "sector": "Industrials / Business Services",
+      "source": "PR Newswire (Truelink release)",
+      "source_url": "https://www.prnewswire.com/news-releases/truelink-capital-signs-definitive-agreement-to-acquire-jt-thorpe-group-a-leading-provider-of-mission-critical-specialty-industrial-maintenance-and-thermal-management-services-302838631.html"
+    },
+    {
+      "id": "d21",
+      "headline": "Piper Sandler advises American Community Bancorp as Alma Bank agrees to acquire it, creating a ~$2B NY/NJ franchise",
+      "banks": [
+        "Piper Sandler"
+      ],
+      "published": "2026-07-30",
+      "confidence": "Reported",
+      "coverage_team": [
+        "FIG"
+      ],
+      "sector": "Community Banking",
+      "source": "PR Newswire (Alma Bank release)",
+      "source_url": "https://www.prnewswire.com/news-releases/alma-bank-announces-agreement-to-acquire-american-community-bank-creating-a-premier-community-banking-franchise-across-new-york-and-new-jersey-302839576.html"
+    },
+    {
+      "id": "d22",
+      "headline": "Goldman advises CBIZ as Grant Thornton Advisors agrees to take it private for ~$5B; Evercore, JPMorgan among a deep buy-side roster",
+      "banks": [
+        "Goldman Sachs",
+        "JPMorgan",
+        "Evercore",
+        "Deutsche Bank"
+      ],
+      "published": "2026-07-29",
+      "confidence": "Reported",
+      "coverage_team": [
+        "M&A"
+      ],
+      "sector": "Professional Services",
+      "source": "GlobeNewswire (via StockTitan)",
+      "source_url": "https://www.stocktitan.net/news/CBZ/grant-thornton-advisors-to-acquire-cbiz-for-5-billion-in-transaction-ufa8ov3wbbqa.html"
+    },
+    {
+      "id": "d23",
+      "headline": "Jefferies, Guggenheim and UBS act as placement agents as Synlogic and Caldera merge with a $278M private placement",
+      "banks": [
+        "Jefferies",
+        "UBS",
+        "Guggenheim Securities",
+        "TD Cowen"
+      ],
+      "published": "2026-07-29",
+      "confidence": "Reported",
+      "coverage_team": [
+        "Healthcare"
+      ],
+      "sector": "",
+      "source": "Business Wire (via StockTitan)",
+      "source_url": "https://www.stocktitan.net/news/SYBX/synlogic-and-caldera-therapeutics-announce-merger-agreement-and-hq6ae75n5uce.html"
+    },
+    {
+      "id": "d24",
+      "headline": "Centerview advises MIMEDX on its ~$350M cash-and-stock acquisition of Sanara MedTech; Truist advises Sanara",
+      "banks": [
+        "Centerview Partners"
+      ],
+      "published": "2026-07-29",
+      "confidence": "Reported",
+      "coverage_team": [
+        "Healthcare"
+      ],
+      "sector": "MedTech / Healthcare",
+      "source": "Yahoo Finance (GlobeNewswire syndication)",
+      "source_url": "https://finance.yahoo.com/healthcare/articles/mimedx-acquire-sanara-medtech-200100791.html"
+    },
+    {
+      "id": "d25",
+      "headline": "Lazard advises Ripple Fiber on its sale to Eaton Fiber, backed by a $1.5B Bain/Tillman investment for Verizon fiber expansion",
+      "banks": [
+        "Lazard"
+      ],
+      "published": "2026-07-29",
+      "confidence": "Reported",
+      "coverage_team": [
+        "TMT"
+      ],
+      "sector": "Telecom / Fiber Infrastructure",
+      "source": "AOL (wire syndication)",
+      "source_url": "https://www.aol.com/articles/bain-capital-tillman-global-holdings-110000000.html"
+    },
+    {
+      "id": "d26",
+      "headline": "Raymond James advises Providence Equity on its significant investment in UK managed-IT provider SCG",
+      "banks": [
+        "Raymond James",
+        "Houlihan Lokey"
+      ],
+      "published": "2026-07-29",
+      "confidence": "Reported",
+      "coverage_team": [
+        "M&A"
+      ],
+      "sector": "Technology / Managed Services",
+      "source": "Pulse 2.0",
+      "source_url": "https://pulse2.com/providence-equity-partners-makes-significant-investment-in-scg/"
+    },
+    {
+      "id": "d27",
+      "headline": "Lincoln International advises PetIQ (Bansk Group) on its acquisition of pet muscle-health portfolio MYOS",
+      "banks": [
+        "Lincoln International"
+      ],
+      "published": "2026-07-29",
+      "confidence": "Reported",
+      "coverage_team": [
+        "Healthcare",
+        "Consumer & Retail"
+      ],
+      "sector": "Consumer / Pet Health",
+      "source": "PR Newswire (PetIQ release)",
+      "source_url": "https://www.prnewswire.com/news-releases/petiq-acquires-myos-a-clinically-studied-portfolio-of-muscle-health-products-that-support-muscle-preservation-injury-recovery-and-healthy-aging-for-pets-302837104.html"
+    },
+    {
+      "id": "d28",
+      "headline": "Citi advises DroneDeploy and Goldman advises Procore on Procore’s ~$845M acquisition of the drone-mapping platform",
+      "banks": [
+        "Citi",
+        "Goldman Sachs"
+      ],
+      "published": "2026-07-29",
+      "confidence": "Reported",
+      "coverage_team": [
+        "TMT"
+      ],
+      "sector": "Technology / Construction Software",
+      "source": "StockTitan (Procore release)",
+      "source_url": "https://www.stocktitan.net/news/PCOR/procore-to-acquire-drone-deploy-creating-next-generation-platform-lsjpabggxwgj.html"
+    },
+    {
+      "id": "d29",
+      "headline": "Morgan Stanley advises Leonardo DRS on its $450M acquisition of AI software firm Raft; JPMorgan advises Raft",
+      "banks": [
+        "Morgan Stanley",
+        "JPMorgan"
+      ],
+      "published": "2026-07-28",
+      "confidence": "Reported",
+      "coverage_team": [
+        "TMT",
+        "Industrials"
+      ],
+      "sector": "",
+      "source": "Leonardo DRS press release",
+      "source_url": "https://www.leonardodrs.com/news/press-releases/leonardo-drs-to-acquire-raft-expanding-multi-domain-ai-data-fusion-and-mission-software-capabilities/"
+    },
+    {
+      "id": "d30",
+      "headline": "Goldman and JPMorgan advise Dominion Energy’s board as NextEra files its stock-and-cash merger proxy (Lazard, BofA for NextEra)",
+      "banks": [
+        "Goldman Sachs",
+        "JPMorgan",
+        "Bank of America",
+        "Lazard"
+      ],
+      "published": "2026-07-28",
+      "confidence": "Filed",
+      "coverage_team": [
+        "Energy & Power"
+      ],
+      "sector": "Utilities / Power",
+      "source": "SEC EDGAR — Dominion/NextEra DEFM14A",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/715957/000110465926087585/tm2621467-2_defm14a.htm"
+    },
+    {
+      "id": "d31",
+      "headline": "Harris Williams advises Micross (Behrman Capital) on its cross-border acquisition of Germany's AEMtec",
+      "banks": [
+        "Harris Williams"
+      ],
+      "published": "2026-07-28",
+      "confidence": "Reported",
+      "coverage_team": [
+        "Industrials"
+      ],
+      "sector": "Industrials / Microelectronics",
+      "source": "PR Newswire (Micross release)",
+      "source_url": "https://www.prnewswire.com/news-releases/micross-to-acquire-aemtec-significantly-expanding-european-footprint-in-advanced-packaging-and-optoelectronics-302836712.html"
+    },
+    {
+      "id": "d32",
+      "headline": "Piper Sandler advises Delphinus Engineering on its growth investment from Bluestone Investment Partners",
+      "banks": [
+        "Piper Sandler"
+      ],
+      "published": "2026-07-28",
+      "confidence": "Reported",
+      "coverage_team": [
+        "Industrials"
+      ],
+      "sector": "Defense / Naval Services",
+      "source": "MyChesCo",
+      "source_url": "https://mychesco.com/a/business/delphinus-secures-bluestone-backing/"
+    },
+    {
+      "id": "d33",
+      "headline": "JPMorgan and UBS advise Avanos Medical as American Industrial Partners closes its $1.27B take-private",
+      "banks": [
+        "JPMorgan",
+        "UBS"
+      ],
+      "published": "2026-07-27",
+      "confidence": "Reported",
+      "coverage_team": [
+        "Healthcare",
+        "Industrials"
+      ],
+      "sector": "",
+      "source": "Avanos investor room",
+      "source_url": "https://avanos.investorroom.com/2026-07-27-American-Industrial-Partners-Completes-Acquisition-of-Avanos-Medical,-Inc"
+    },
+    {
+      "id": "d34",
+      "headline": "Morgan Stanley and Wells Fargo advise Greenbacker on its ~$350M sale to MN8 Energy",
+      "banks": [
+        "Morgan Stanley",
+        "Wells Fargo"
+      ],
+      "published": "2026-07-27",
+      "confidence": "Filed",
+      "coverage_team": [
+        "Energy & Power"
+      ],
+      "sector": "Energy / Renewables",
+      "source": "SEC EDGAR — MN8/Greenbacker Form 425",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2136853/000162828026049851/mn8-42572726.htm"
+    },
+    {
+      "id": "d35",
+      "headline": "Jefferies advises Carrier on the divestiture of energy-services unit NORESCO to LS Power's OPTERRA",
+      "banks": [
+        "Jefferies"
+      ],
+      "published": "2026-07-27",
+      "confidence": "Reported",
+      "coverage_team": [
+        "Energy & Power",
+        "Industrials"
+      ],
+      "sector": "Industrials / Energy Services",
+      "source": "PR Newswire (Carrier release)",
+      "source_url": "https://www.prnewswire.com/news-releases/carrier-announces-agreement-to-sell-noresco-to-opterra-energy-services-302835171.html"
+    },
+    {
+      "id": "d36",
+      "headline": "Evercore advises Preservation Capital on the sale of specialty-insurance MGA Optio Group to Cinven and La Caisse",
+      "banks": [
+        "Evercore"
+      ],
+      "published": "2026-07-27",
+      "confidence": "Reported",
+      "coverage_team": [
+        "FIG"
+      ],
+      "sector": "FIG / Insurance",
+      "source": "Reinsurance News",
+      "source_url": "https://www.reinsurancene.ws/cinven-and-la-caisse-acquire-majority-stake-in-optio-from-pcp/"
+    },
+    {
+      "id": "d37",
+      "headline": "JPMorgan and Barclays are dealer managers on PG&E utility's upsized $1.2B cash tender offers",
+      "banks": [
+        "JPMorgan",
+        "Barclays"
+      ],
+      "published": "2026-07-27",
+      "confidence": "Reported",
+      "coverage_team": [
+        "Energy & Power"
+      ],
+      "sector": "Utilities / DCM",
+      "source": "PR Newswire (PG&E utility release)",
+      "source_url": "https://www.prnewswire.com/news-releases/pacific-gas-and-electric-company-announces-upsizing-of-cash-tender-offers-302835619.html"
+    },
+    {
+      "id": "d38",
+      "headline": "PJT Partners advises Expand Energy on its $1.25B acquisition of Twin Eagle from Five Point; Lazard advises the seller",
+      "banks": [
+        "PJT Partners",
+        "Lazard"
+      ],
+      "published": "2026-07-27",
+      "confidence": "Reported",
+      "coverage_team": [
+        "Energy & Power"
+      ],
+      "sector": "Energy / Midstream",
+      "source": "GlobeNewswire (via StockTitan)",
+      "source_url": "https://www.stocktitan.net/news/EXE/expand-energy-corporation-to-acquire-twin-eagle-creating-north-83grri05gxte.html"
+    },
+    {
+      "id": "d39",
+      "headline": "Lazard advises Wynnchurch on its $17.37/share take-private of Luxfer; Deutsche Bank advises Luxfer",
+      "banks": [
+        "Lazard",
+        "Deutsche Bank"
+      ],
+      "published": "2026-07-27",
+      "confidence": "Reported",
+      "coverage_team": [
+        "FIG",
+        "Industrials"
+      ],
+      "sector": "Materials / Industrials",
+      "source": "Business Wire (via StockTitan)",
+      "source_url": "https://www.stocktitan.net/news/FERG/luxfer-enters-into-agreement-to-be-acquired-for-17-37-per-share-in-5e4x3cezudqc.html"
+    },
+    {
+      "id": "d40",
+      "headline": "Guggenheim advises Katapult on its merger with CCFI/Aaron’s entities as a supplemental proxy sharpens the fairness disclosures",
+      "banks": [
+        "Guggenheim Securities"
+      ],
+      "published": "2026-07-27",
+      "confidence": "Filed",
+      "coverage_team": [
+        "TMT",
+        "FIG"
+      ],
+      "sector": "Fintech / Specialty Finance",
+      "source": "SEC EDGAR — Katapult Form 425",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1785424/000095010326011212/dp250642_425.htm"
+    },
+    {
+      "id": "d41",
+      "headline": "Guggenheim advises Forte Biosciences on its ~$2.2B sale to argenx; Goldman advises argenx",
+      "banks": [
+        "Guggenheim Securities",
+        "Goldman Sachs"
+      ],
+      "published": "2026-07-27",
+      "confidence": "Reported",
+      "coverage_team": [
+        "Healthcare"
+      ],
+      "sector": "Biotech / Immunology",
+      "source": "GlobeNewswire (argenx release)",
+      "source_url": "https://www.globenewswire.com/news-release/2026/07/27/3333257/0/en/argenx-to-acquire-forte-biosciences-inc-adding-first-in-class-anti-cd122-antibody-fb102-to-its-immunology-pipeline.html"
+    },
+    {
+      "id": "d42",
+      "headline": "Lincoln International advises Crown Brands Group on its acquisition of Italian lingerie brand Cosabella from CALIDA",
+      "banks": [
+        "Lincoln International"
+      ],
+      "published": "2026-07-27",
+      "confidence": "Reported",
+      "coverage_team": [
+        "Consumer & Retail"
+      ],
+      "sector": "Consumer / Apparel",
+      "source": "PR Newswire (Crown Brands release)",
+      "source_url": "https://www.prnewswire.com/news-releases/crown-brands-group-acquires-italian-luxury-lingerie-brand-cosabella-from-calida-group-302835250.html"
+    },
+    {
+      "id": "d43",
+      "headline": "Baird and Piper Sandler on opposite sides as Vesterra Capital acquires facilities-maintenance platform PHFM",
+      "banks": [
+        "Piper Sandler",
+        "Baird"
+      ],
+      "published": "2026-07-26",
+      "confidence": "Reported",
+      "coverage_team": [
+        "FIG"
+      ],
+      "sector": "Business Services",
+      "source": "Pulse 2.0",
+      "source_url": "https://pulse2.com/vesterra-capital-partners-announces-acquisition-of-phfm/"
+    },
+    {
+      "id": "d44",
+      "headline": "Goldman and Moelis advise Taylor Morrison as Berkshire Hathaway closes its $8.5B take-private",
+      "banks": [
+        "Goldman Sachs",
+        "Moelis"
+      ],
+      "published": "2026-07-24",
+      "confidence": "Reported",
+      "coverage_team": [
+        "M&A"
+      ],
+      "sector": "",
+      "source": "Taylor Morrison newsroom",
+      "source_url": "https://newsroom.taylormorrison.com/2026-07-24-Berkshire-Hathaway-Completes-Acquisition-of-Taylor-Morrison"
+    },
+    {
+      "id": "d45",
+      "headline": "Evercore and Goldman advise Arcosa's board as CRH's $150/share, ~$5.4B take-private hits the proxy",
+      "banks": [
+        "Evercore",
+        "Goldman Sachs"
+      ],
+      "published": "2026-07-24",
+      "confidence": "Filed",
+      "coverage_team": [
+        "Industrials"
+      ],
+      "sector": "Industrials",
+      "source": "SEC EDGAR — Arcosa PREM14A",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1739445/000114036126029608/ny20076790x1_prem14a.htm"
+    },
+    {
+      "id": "d46",
+      "headline": "Moelis advises USA Rare Earth on its cross-border merger with SVRE Holdings",
+      "banks": [
+        "Moelis"
+      ],
+      "published": "2026-07-24",
+      "confidence": "Filed",
+      "coverage_team": [
+        "M&A"
+      ],
+      "sector": "Critical Minerals / Materials",
+      "source": "SEC EDGAR — USA Rare Earth DEFM14A",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1970622/000121390026081091/ea0290028-06.htm"
+    },
+    {
+      "id": "d47",
+      "headline": "BofA advises Platinum Equity on its $5.6B Peranel water & premium-beverages JV with Nestlé",
+      "banks": [
+        "Bank of America"
+      ],
+      "published": "2026-07-23",
+      "confidence": "Reported",
+      "coverage_team": [
+        "Consumer & Retail"
+      ],
+      "sector": "Consumer / Beverages",
+      "source": "PR Newswire (Platinum Equity release)",
+      "source_url": "https://www.prnewswire.com/news-releases/platinum-equity-and-nestle-to-create-peranel-a-5-6-billion-leader-in-water-and-premium-beverages-302833015.html"
+    },
+    {
+      "id": "d48",
+      "headline": "Lazard and Houlihan Lokey advise LivePerson as its SoundHound AI stock merger heads to an Aug 20 vote",
+      "banks": [
+        "Lazard",
+        "Houlihan Lokey"
+      ],
+      "published": "2026-07-23",
+      "confidence": "Filed",
+      "coverage_team": [
+        "TMT"
+      ],
+      "sector": "Technology / Software",
+      "source": "SEC EDGAR — LivePerson Form 425",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1102993/000119312526313372/d861476d425.htm"
+    },
+    {
+      "id": "d49",
+      "headline": "Evercore and Jefferies advise Nordic Capital on its sale of ArisGlobal to Dassault Systèmes",
+      "banks": [
+        "Evercore",
+        "Jefferies"
+      ],
+      "published": "2026-07-23",
+      "confidence": "Reported",
+      "coverage_team": [
+        "TMT"
+      ],
+      "sector": "Technology / Life-Sciences Software",
+      "source": "PR Newswire (Nordic Capital release)",
+      "source_url": "https://www.prnewswire.com/news-releases/nordic-capital-announces-agreement-to-sell-arisglobal-to-dassault-systemes-following-its-transformation-into-a-scaled-and-ai-enabled-life-sciences-platform-302833100.html"
+    },
+    {
+      "id": "d50",
+      "headline": "RBC (Richardson Barr) advises the seller on Matador's $1.275B Paloma Permian acquisition",
+      "banks": [
+        "RBC Capital Markets"
+      ],
+      "published": "2026-07-23",
+      "confidence": "Reported",
+      "coverage_team": [
+        "Energy & Power"
+      ],
+      "sector": "Energy / Upstream",
+      "source": "StockTitan (Matador release)",
+      "source_url": "https://www.stocktitan.net/news/MTDR/matador-resources-company-announces-strategic-delaware-basin-b8wsg9m3n8o8.html"
+    },
+    {
+      "id": "d51",
+      "headline": "Jefferies advises Genco with Morgan Stanley as it rejects Diana Shipping's $24.80 hostile tender",
+      "banks": [
+        "Jefferies",
+        "Morgan Stanley"
+      ],
+      "published": "2026-07-23",
+      "confidence": "Filed",
+      "coverage_team": [
+        "Industrials"
+      ],
+      "sector": "Shipping / Transportation",
+      "source": "SEC EDGAR — Genco SC 14D9 exhibit",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326200/000114036126029428/ef20078433_ex99-a68.htm"
+    },
+    {
+      "id": "d52",
+      "headline": "Stifel's KBW advises First Seacoast Bancorp on its $17.25/share sale to Cambridge Financial Group",
+      "banks": [
+        "Stifel"
+      ],
+      "published": "2026-07-23",
+      "confidence": "Filed",
+      "coverage_team": [
+        "FIG"
+      ],
+      "sector": "FIG / Depositories",
+      "source": "SEC EDGAR — First Seacoast DEFM14A",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1943802/000119312526314200/d155500ddefm14a.htm"
+    },
+    {
+      "id": "d53",
+      "headline": "Piper Sandler advises M&F Bancorp as Optus Financial agrees to a >$105M merger, creating a ~$1.27B institution",
+      "banks": [
+        "Piper Sandler"
+      ],
+      "published": "2026-07-23",
+      "confidence": "Reported",
+      "coverage_team": [
+        "FIG"
+      ],
+      "sector": "Community Banking",
+      "source": "Pulse 2.0",
+      "source_url": "https://pulse2.com/optus-financial-and-mf-bancorp-agree-to-more-than-105-million-merger/"
+    },
+    {
+      "id": "d54",
+      "headline": "Baird advises ATOZ Services on Bregal Sagemount's majority growth investment in the fund administrator",
+      "banks": [
+        "Baird"
+      ],
+      "published": "2026-07-23",
+      "confidence": "Reported",
+      "coverage_team": [
+        "M&A"
+      ],
+      "sector": "Financial Services / Fund Administration",
+      "source": "Pulse 2.0",
+      "source_url": "https://pulse2.com/bregal-sagemount-to-acquire-majority-stake-in-atoz-services/"
+    },
+    {
+      "id": "d55",
+      "headline": "JPMorgan and BofA advise Prologis on its ~£14B ($18.7B) \"best and final\" bid for SEGRO",
+      "banks": [
+        "JPMorgan",
+        "Bank of America"
+      ],
+      "published": "2026-07-22",
+      "confidence": "Reported",
+      "coverage_team": [
+        "Industrials",
+        "Real Estate"
+      ],
+      "sector": "Real Estate / Logistics",
+      "source": "PR Newswire (issuer release)",
+      "source_url": "https://www.prnewswire.com/news-releases/best-and-final-proposal-and-request-for-pusu-deadline-extension-302832029.html"
+    },
+    {
+      "id": "d56",
+      "headline": "Goldman and Perella Weinberg advise Repligen on its cash-and-stock acquisition of BioLife Solutions; Centerview advises BioLife",
+      "banks": [
+        "Goldman Sachs",
+        "Perella Weinberg",
+        "Centerview Partners"
+      ],
+      "published": "2026-07-22",
+      "confidence": "Filed",
+      "coverage_team": [
+        "Healthcare"
+      ],
+      "sector": "Healthcare / Life Sciences",
+      "source": "SEC EDGAR — Repligen Form 425",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/730272/000119312526311411/d141685d425.htm"
+    },
+    {
+      "id": "d57",
+      "headline": "Morgan Stanley and Wells Fargo advise Greenbacker on its ~$375M sale to MN8 (JPMorgan advises MN8)",
+      "banks": [
+        "Morgan Stanley",
+        "JPMorgan",
+        "Wells Fargo"
+      ],
+      "published": "2026-07-22",
+      "confidence": "Reported",
+      "coverage_team": [
+        "Energy & Power"
+      ],
+      "sector": "Energy / Renewables",
+      "source": "MN8 Energy (investor relations)",
+      "source_url": "https://mn8.com/mn8-energy-to-acquire-greenbacker-renewable-energy-company-llc-creating-a-top-tier-american-power-platform/"
+    },
+    {
+      "id": "d58",
+      "headline": "Jefferies, TD Cowen, Stifel and Guggenheim place Mentari Therapeutics' $200M PIPE (ahead of an InMed reverse merger)",
+      "banks": [
+        "Jefferies",
+        "Guggenheim Securities",
+        "Stifel",
+        "TD Cowen"
+      ],
+      "published": "2026-07-22",
+      "confidence": "Reported",
+      "coverage_team": [
+        "Healthcare"
+      ],
+      "sector": "Biotech / Private Capital",
+      "source": "PR Newswire (issuer release)",
+      "source_url": "https://www.prnewswire.com/news-releases/mentari-therapeutics-announces-200-million-private-placement-for-migraine-prevention-pipeline-302832045.html"
+    },
+    {
+      "id": "d59",
+      "headline": "BofA advises on Brookfield's ~$7B acquisition of battery-storage platform Aypa Power from Blackstone",
+      "banks": [
+        "Bank of America"
+      ],
+      "published": "2026-07-22",
+      "confidence": "Reported",
+      "coverage_team": [
+        "Energy & Power"
+      ],
+      "sector": "Energy / Battery Storage",
+      "source": "StockTitan (Brookfield release)",
+      "source_url": "https://www.stocktitan.net/news/BAM/brookfield-to-acquire-aypa-power-the-leading-north-american-battery-ldkr0u282lwr.html"
+    },
+    {
+      "id": "d60",
+      "headline": "Morgan Stanley advises Simulations Plus on its $18.50/share, ~$375M take-private by Altaris",
+      "banks": [
+        "Morgan Stanley"
+      ],
+      "published": "2026-07-22",
+      "confidence": "Filed",
+      "coverage_team": [
+        "TMT",
+        "Healthcare"
+      ],
+      "sector": "Healthcare-Tech / Software",
+      "source": "SEC EDGAR — Simulations Plus DEFM14A",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1023459/000102345926000051/defm14a.htm"
+    },
+    {
+      "id": "d61",
+      "headline": "Citi advises Progress Software on its $400M acquisition of Domo's AI & data platform; Jefferies advises Domo",
+      "banks": [
+        "Citi",
+        "Jefferies"
+      ],
+      "published": "2026-07-22",
+      "confidence": "Reported",
+      "coverage_team": [
+        "TMT"
+      ],
+      "sector": "Technology / Software",
+      "source": "StockTitan (Progress Software release)",
+      "source_url": "https://www.stocktitan.net/news/PRGS/progress-software-to-acquire-domo-s-ai-and-data-platform-nwg9nukydxq2.html"
+    },
+    {
+      "id": "d62",
+      "headline": "Goldman and Wells Fargo advise Public Storage on its closed all-stock acquisition of National Storage Affiliates; Morgan Stanley advised NSA",
+      "banks": [
+        "Goldman Sachs",
+        "Wells Fargo",
+        "Morgan Stanley"
+      ],
+      "published": "2026-07-22",
+      "confidence": "Reported",
+      "coverage_team": [
+        "Real Estate"
+      ],
+      "sector": "",
+      "source": "StockTitan (Public Storage release)",
+      "source_url": "https://www.stocktitan.net/news/PSA/public-storage-announces-closing-of-national-storage-affiliates-g0wrv01xw0tv.html"
+    },
+    {
+      "id": "d63",
+      "headline": "Evercore advises Vita Coco on its $175M acquisition of coconut-supply firm Copra",
+      "banks": [
+        "Evercore"
+      ],
+      "published": "2026-07-22",
+      "confidence": "Reported",
+      "coverage_team": [
+        "Consumer & Retail"
+      ],
+      "sector": "",
+      "source": "StockTitan (Vita Coco release)",
+      "source_url": "https://www.stocktitan.net/news/COCO/the-vita-coco-company-announces-the-acquisition-of-copra-wdw7fg4pejy4.html"
+    },
+    {
+      "id": "d64",
+      "headline": "Stifel's KBW runs Five Star Bancorp's ~$113.6M common-stock offering; Stephens and Raymond James co-manage",
+      "banks": [
+        "Stifel",
+        "Raymond James"
+      ],
+      "published": "2026-07-22",
+      "confidence": "Reported",
+      "coverage_team": [
+        "M&A"
+      ],
+      "sector": "FIG / ECM",
+      "source": "StockTitan (Five Star Bancorp release)",
+      "source_url": "https://www.stocktitan.net/news/FSBC/five-star-bancorp-announces-pricing-of-common-stock-ui84a26az1rz.html"
+    },
+    {
+      "id": "d65",
+      "headline": "Citi is sole bookrunner on B&R Technology Merger Corp.'s $325M SPAC IPO",
+      "banks": [
+        "Citi"
+      ],
+      "published": "2026-07-22",
+      "confidence": "Reported",
+      "coverage_team": [
+        "TMT"
+      ],
+      "sector": "",
+      "source": "StockTitan (B&R Technology Merger Corp. release)",
+      "source_url": "https://www.stocktitan.net/news/BRTM/b-r-technology-merger-corp-completes-325-million-initial-public-4gpzjzqflv6c.html"
+    },
+    {
+      "id": "d66",
+      "headline": "Perella Weinberg advises Repligen and Centerview advises BioLife on Repligen’s ~$1.5B acquisition of the bioprocessing-tools maker",
+      "banks": [
+        "Perella Weinberg",
+        "Centerview Partners",
+        "Goldman Sachs"
+      ],
+      "published": "2026-07-22",
+      "confidence": "Reported",
+      "coverage_team": [
+        "FIG"
+      ],
+      "sector": "Life Sciences / Bioprocessing",
+      "source": "StockTitan (Repligen release)",
+      "source_url": "https://www.stocktitan.net/news/RGEN/repligen-to-acquire-bio-life-solutions-expanding-its-cell-therapy-jivsoifbz9h6.html"
+    },
+    {
+      "id": "d67",
+      "headline": "Jefferies advises Domo on the $400M sale of its AI & data-platform business to Progress Software",
+      "banks": [
+        "Jefferies",
+        "Citi"
+      ],
+      "published": "2026-07-22",
+      "confidence": "Reported",
+      "coverage_team": [
+        "TMT"
+      ],
+      "sector": "Technology / Software",
+      "source": "GlobeNewswire (Progress release)",
+      "source_url": "https://www.globenewswire.com/news-release/2026/07/22/3331727/0/en/progress-software-to-acquire-domo-s-ai-and-data-platform-business.html"
+    },
+    {
+      "id": "d68",
+      "headline": "Citi (lead, Special Committee) and RBC advise Utz on its ~$2.9B take-private by Intersnack",
+      "banks": [
+        "Citi",
+        "RBC Capital Markets",
+        "Bank of America"
+      ],
+      "published": "2026-07-21",
+      "confidence": "Reported",
+      "coverage_team": [
+        "Consumer & Retail"
+      ],
+      "sector": "Consumer / Packaged Food",
+      "source": "Utz Brands (investor relations)",
+      "source_url": "https://investors.utzsnacks.com/news/news-details/2026/Utz-Brands-Inc--and-Intersnack-Group-GmbH--Co--KG-Announce-Agreement-to-Take-Utz-Private-and-Partnership-with-Founding-Family/default.aspx"
+    },
+    {
+      "id": "d69",
+      "headline": "JPMorgan and Morgan Stanley lead Reformation's ~$239M NYSE IPO (Citi, RBC bookrunners)",
+      "banks": [
+        "Morgan Stanley",
+        "JPMorgan",
+        "Citi",
+        "RBC Capital Markets"
+      ],
+      "published": "2026-07-21",
+      "confidence": "Reported",
+      "coverage_team": [
+        "Consumer & Retail"
+      ],
+      "sector": "",
+      "source": "PR Newswire (issuer release)",
+      "source_url": "https://www.prnewswire.com/news-releases/reformation-launches-initial-public-offering-302829541.html"
+    },
+    {
+      "id": "d70",
+      "headline": "TD Cowen advises Searchlight and Abry on the completed ~$726M take-private of KORE Group",
+      "banks": [
+        "TD Cowen"
+      ],
+      "published": "2026-07-21",
+      "confidence": "Reported",
+      "coverage_team": [
+        "TMT"
+      ],
+      "sector": "Technology / IoT",
+      "source": "KORE Wireless (investor relations)",
+      "source_url": "https://ir.korewireless.com/news-events/press-releases/detail/267/kore-begins-new-chapter-as-private-company-backed-by"
+    },
+    {
+      "id": "d71",
+      "headline": "BofA advises Cross Country Healthcare on its completed take-private by Knox Lane",
+      "banks": [
+        "Bank of America"
+      ],
+      "published": "2026-07-21",
+      "confidence": "Reported",
+      "coverage_team": [
+        "Healthcare"
+      ],
+      "sector": "",
+      "source": "Yahoo Finance (press-release syndication)",
+      "source_url": "https://finance.yahoo.com/healthcare/articles/knox-lane-completes-acquisition-cross-134500384.html"
+    },
+    {
+      "id": "d72",
+      "headline": "JPMorgan (with Leerink) advises Crinetics on its $85/share, all-cash sale to Vertex; Lazard and Morgan Stanley advise Vertex",
+      "banks": [
+        "JPMorgan",
+        "Morgan Stanley",
+        "Lazard"
+      ],
+      "published": "2026-07-21",
+      "confidence": "Filed",
+      "coverage_team": [
+        "Healthcare"
+      ],
+      "sector": "Healthcare / Biopharma",
+      "source": "SEC EDGAR — Crinetics PREM14A",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1658247/000114036126029134/ny20077458x1_prem14a.htm"
+    },
+    {
+      "id": "d73",
+      "headline": "Morgan Stanley advises Corebridge and Goldman advises Equitable on their merger of equals",
+      "banks": [
+        "Morgan Stanley",
+        "Goldman Sachs"
+      ],
+      "published": "2026-07-21",
+      "confidence": "Filed",
+      "coverage_team": [
+        "FIG"
+      ],
+      "sector": "FIG / Insurance",
+      "source": "SEC EDGAR — Corebridge Form 425",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1889539/000114036126029153/ef20078276_425.htm"
+    },
+    {
+      "id": "d74",
+      "headline": "Citi advises NOVAGOLD on its ~$4.2B all-share acquisition of 100% of Donlin Gold",
+      "banks": [
+        "Citi"
+      ],
+      "published": "2026-07-21",
+      "confidence": "Reported",
+      "coverage_team": [
+        "M&A"
+      ],
+      "sector": "Metals & Mining",
+      "source": "GlobeNewswire",
+      "source_url": "https://www.globenewswire.com/news-release/2026/07/22/3331219/0/en/novagold-enters-into-definitive-agreements-to-acquire-100-of-donlin-gold.html"
+    },
+    {
+      "id": "d75",
+      "headline": "Morgan Stanley, Jefferies, Evercore and Raymond James run Dyne Therapeutics' upsized $375M offering",
+      "banks": [
+        "Evercore",
+        "Morgan Stanley",
+        "Jefferies",
+        "Raymond James"
+      ],
+      "published": "2026-07-21",
+      "confidence": "Reported",
+      "coverage_team": [
+        "Healthcare"
+      ],
+      "sector": "Biotech / ECM",
+      "source": "GlobeNewswire",
+      "source_url": "https://www.globenewswire.com/news-release/2026/07/22/3331062/0/en/dyne-therapeutics-announces-pricing-of-upsized-375-million-public-offering-of-common-stock.html"
+    },
+    {
+      "id": "d76",
+      "headline": "Morgan Stanley advises First Financial Bancorp on its acquisition of Finward Bancorp",
+      "banks": [
+        "Morgan Stanley"
+      ],
+      "published": "2026-07-21",
+      "confidence": "Filed",
+      "coverage_team": [
+        "FIG"
+      ],
+      "sector": "",
+      "source": "SEC EDGAR — Finward Bancorp Form 425",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/919864/000119312526310393/d155212d425.htm"
+    },
+    {
+      "id": "d77",
+      "headline": "Perella Weinberg (TPH&Co) advises Citadel Drilling on its US$65M sale to Ensign Energy Services",
+      "banks": [
+        "Perella Weinberg"
+      ],
+      "published": "2026-07-21",
+      "confidence": "Reported",
+      "coverage_team": [
+        "Energy & Power"
+      ],
+      "sector": "",
+      "source": "Canada Newswire (via Yahoo Finance)",
+      "source_url": "https://finance.yahoo.com/energy/articles/ensign-energy-services-inc-announces-013000532.html"
+    },
+    {
+      "id": "d78",
+      "headline": "Lincoln International advises Senti Biosciences' Special Committee on its CVR-only take-private by Celadon",
+      "banks": [
+        "Lincoln International"
+      ],
+      "published": "2026-07-21",
+      "confidence": "Filed",
+      "coverage_team": [
+        "Healthcare"
+      ],
+      "sector": "",
+      "source": "SEC EDGAR — Senti Biosciences PREM14A",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1854270/000114036126029160/ny20078262x1_prem14a.htm"
+    },
+    {
+      "id": "d79",
+      "headline": "Morgan Stanley advises First Financial Bancorp on its ~$208M all-stock acquisition of Finward Bancorp; Stephens advises Finward",
+      "banks": [
+        "Morgan Stanley"
+      ],
+      "published": "2026-07-21",
+      "confidence": "Filed",
+      "coverage_team": [
+        "FIG"
+      ],
+      "sector": "",
+      "source": "StockTitan (First Financial Bancorp release)",
+      "source_url": "https://www.stocktitan.net/news/FFBC/first-financial-bancorp-announces-second-quarter-2026-financial-ur7mb5ho8r00.html"
+    },
+    {
+      "id": "d80",
+      "headline": "JPMorgan, Moelis and Citi advise Magnolia Oil & Gas on its $4.06B acquisition of WildFire Energy",
+      "banks": [
+        "JPMorgan",
+        "Citi",
+        "Moelis",
+        "Wells Fargo",
+        "Jefferies",
+        "Bank of America"
+      ],
+      "published": "2026-07-20",
+      "confidence": "Reported",
+      "coverage_team": [
+        "Energy & Power"
+      ],
+      "sector": "Energy / Oil & Gas",
+      "source": "Magnolia Oil & Gas (investor newsroom)",
+      "source_url": "https://www.magnoliaoilgas.com/investors/press-releases/year/2026/07-20-2026-120106731"
+    },
+    {
+      "id": "d81",
+      "headline": "Guggenheim, Jefferies and TD Cowen advise on Freenome's ~$310M SPAC/PIPE public debut",
+      "banks": [
+        "Guggenheim Securities",
+        "Jefferies",
+        "TD Cowen"
+      ],
+      "published": "2026-07-20",
+      "confidence": "Reported",
+      "coverage_team": [
+        "Healthcare"
+      ],
+      "sector": "Healthcare / Diagnostics",
+      "source": "GlobeNewswire",
+      "source_url": "https://www.globenewswire.com/news-release/2026/07/20/3330086/0/en/freenome-debuts-as-a-publicly-traded-company-focused-on-blood-based-early-cancer-detection.html"
+    },
+    {
+      "id": "d82",
+      "headline": "Morgan Stanley advises Tempus on its acquisition of Personalis; Centerview and TD Cowen advise Personalis ($16.25/share)",
+      "banks": [
+        "Morgan Stanley",
+        "Centerview Partners",
+        "TD Cowen"
+      ],
+      "published": "2026-07-20",
+      "confidence": "Filed",
+      "coverage_team": [
+        "Healthcare"
+      ],
+      "sector": "Healthcare / Diagnostics",
+      "source": "SEC EDGAR — Personalis/Tempus Form 425",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1527753/000119312526309081/d128960d425.htm"
+    },
+    {
+      "id": "d83",
+      "headline": "Guggenheim advises the Destination XL board on a stock-for-stock merger with FULLBEAUTY Brands",
+      "banks": [
+        "Guggenheim Securities"
+      ],
+      "published": "2026-07-17",
+      "confidence": "Filed",
+      "coverage_team": [
+        "Consumer & Retail"
+      ],
+      "sector": "",
+      "source": "SEC EDGAR — Destination XL PREM14A",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/813298/000119312526307826/d76201dprem14a.htm"
+    },
+    {
+      "id": "d84",
+      "headline": "Raymond James advises Identiv on the $50M sale of its IoT business to Trackonomy",
+      "banks": [
+        "Raymond James"
+      ],
+      "published": "2026-07-17",
+      "confidence": "Filed",
+      "coverage_team": [
+        "TMT"
+      ],
+      "sector": "Technology / IoT",
+      "source": "SEC EDGAR — Identiv PREM14A",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1036044/000119312526307972/d103630dprem14a.htm"
+    },
+    {
+      "id": "d85",
+      "headline": "Goldman advises Eli Lilly on its ~$2.8B acquisition of AtaiBeckley (up to ~$3.8B with CVRs)",
+      "banks": [
+        "Goldman Sachs",
+        "Moelis",
+        "Citi",
+        "Centerview Partners"
+      ],
+      "published": "2026-07-16",
+      "confidence": "Reported",
+      "coverage_team": [
+        "Healthcare"
+      ],
+      "sector": "Healthcare / Biopharma",
+      "source": "PR Newswire (deal announcement)",
+      "source_url": "https://www.prnewswire.com/news-releases/lilly-to-acquire-ataibeckley-to-advance-therapies-for-treatment-resistant-depression-and-other-mental-health-conditions-302827468.html"
+    },
+    {
+      "id": "d86",
+      "headline": "Evercore advises Big Brand Tire on its acquisition of Belle Tire (Jefferies advises Belle Tire)",
+      "banks": [
+        "Evercore",
+        "Jefferies"
+      ],
+      "published": "2026-07-16",
+      "confidence": "Reported",
+      "coverage_team": [
+        "Consumer & Retail",
+        "Industrials"
+      ],
+      "sector": "Consumer / Automotive Services",
+      "source": "PR Newswire (deal announcement)",
+      "source_url": "https://www.prnewswire.com/news-releases/big-brand-tire--service-announces-strategic-acquisition-of-belle-tire-302827599.html"
+    },
+    {
+      "id": "d87",
+      "headline": "Goldman, Jefferies and JPMorgan are placement agents on Wonder's $650M Series D ($9B pre-money)",
+      "banks": [
+        "JPMorgan",
+        "Goldman Sachs",
+        "Jefferies"
+      ],
+      "published": "2026-07-16",
+      "confidence": "Reported",
+      "coverage_team": [
+        "TMT",
+        "Consumer & Retail"
+      ],
+      "sector": "Food Tech / Private Capital",
+      "source": "PR Newswire (via AOL)",
+      "source_url": "https://www.aol.com/articles/wonder-announces-650-million-series-130000000.html"
+    },
+    {
+      "id": "d88",
+      "headline": "Evercore advises First Hawaiian on its all-stock acquisition of TriCo Bancshares ($63.12/sh)",
+      "banks": [
+        "Evercore",
+        "Stifel"
+      ],
+      "published": "2026-07-15",
+      "confidence": "Filed",
+      "coverage_team": [
+        "FIG"
+      ],
+      "sector": "FIG / Bank M&A",
+      "source": "SEC EDGAR — First Hawaiian/TriCo 8-K (EX-99.1)",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/356171/000110465926082856/tm2620283d1_ex99-1.htm"
+    },
+    {
+      "id": "d89",
+      "headline": "Morgan Stanley posts record Q2 revenue and profit on dealmaking and equities trading",
+      "banks": [
+        "Morgan Stanley"
+      ],
+      "published": "2026-07-15",
+      "confidence": "Reported",
+      "coverage_team": [
+        "M&A"
+      ],
+      "sector": "",
+      "source": "Yahoo Finance (MS quote + Q2 earnings)",
+      "source_url": "https://finance.yahoo.com/quote/MS/"
+    },
+    {
+      "id": "d90",
+      "headline": "Adviser to First Hawaiian on its all-stock acquisition of TriCo Bancshares",
+      "banks": [
+        "Evercore",
+        "Stifel"
+      ],
+      "published": "2026-07-15",
+      "confidence": "Filed",
+      "coverage_team": [
+        "FIG"
+      ],
+      "sector": "FIG / Bank M&A",
+      "source": "SEC EDGAR — TriCo EX-2.1 merger agreement and EX-99.1 press release",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/356171/000110465926083899/tm2620283d6_ex2-1.htm"
+    },
+    {
+      "id": "d91",
+      "headline": "Goldman jumps ~7.7% on record global banking & markets revenue in Q2",
+      "banks": [
+        "Goldman Sachs"
+      ],
+      "published": "2026-07-14",
+      "confidence": "Reported",
+      "coverage_team": [
+        "FIG"
+      ],
+      "sector": "",
+      "source": "Yahoo Finance (GS quote + Q2 earnings)",
+      "source_url": "https://finance.yahoo.com/quote/GS/"
+    },
+    {
+      "id": "d92",
+      "headline": "JPMorgan tops Q2 estimates — EPS $7.70 on $57.35B revenue; stock +1.9%",
+      "banks": [
+        "JPMorgan"
+      ],
+      "published": "2026-07-14",
+      "confidence": "Reported",
+      "coverage_team": [
+        "M&A"
+      ],
+      "sector": "",
+      "source": "Yahoo Finance (JPM quote + Q2 earnings)",
+      "source_url": "https://finance.yahoo.com/quote/JPM/"
+    },
+    {
+      "id": "d93",
+      "headline": "JPMorgan advises ePointZero on its completed $2.25B all-cash buy of Traverse Midstream",
+      "banks": [
+        "JPMorgan",
+        "Evercore",
+        "Greenhill & Co"
+      ],
+      "published": "2026-07-14",
+      "confidence": "Reported",
+      "coverage_team": [
+        "Energy & Power"
+      ],
+      "sector": "Energy / Infrastructure",
+      "source": "PR Newswire (deal completion release)",
+      "source_url": "https://www.prnewswire.com/news-releases/epointzero-enters-us-market-completes-acquisition-of-traverse-midstream-partners-for-usd-2-25-billion-302825155.html"
+    },
+    {
+      "id": "d94",
+      "headline": "Goldman and Jefferies advise Apogee on AbbVie's $135.11/share cash acquisition",
+      "banks": [
+        "Goldman Sachs",
+        "Jefferies"
+      ],
+      "published": "2026-07-13",
+      "confidence": "Filed",
+      "coverage_team": [
+        "Healthcare"
+      ],
+      "sector": "Healthcare / Biopharma",
+      "source": "SEC EDGAR — Apogee Therapeutics DEFM14A",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1974640/000114036126028341/ny20076262x2_defm14a.htm"
+    },
+    {
+      "id": "d95",
+      "headline": "AvalonBay–Equity Residential file all-stock REIT merger (2.793 EQR per AVB share)",
+      "banks": [
+        "Goldman Sachs",
+        "Wells Fargo",
+        "Centerview Partners",
+        "Morgan Stanley"
+      ],
+      "published": "2026-07-13",
+      "confidence": "Filed",
+      "coverage_team": [
+        "Real Estate"
+      ],
+      "sector": "Real Estate / REIT",
+      "source": "SEC EDGAR — AvalonBay DEFM14A",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/915912/000110465926083113/tm2619865-1_defm14a.htm"
+    },
+    {
+      "id": "d96",
+      "headline": "Citi and Lazard advise Huntsman on its all-stock merger with Olin (0.5476 ratio)",
+      "banks": [
+        "Citi",
+        "Lazard",
+        "Bank of America",
+        "Morgan Stanley"
+      ],
+      "published": "2026-07-13",
+      "confidence": "Filed",
+      "coverage_team": [
+        "Industrials"
+      ],
+      "sector": "Chemicals / Industrials",
+      "source": "SEC EDGAR — Huntsman DEFM14A",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1307954/000119312526302130/d149884ddefm14a.htm"
+    },
+    {
+      "id": "d97",
+      "headline": "Jefferies advises Genco as its board again urges rejection of Diana's $24.80 tender",
+      "banks": [
+        "Jefferies",
+        "Morgan Stanley"
+      ],
+      "published": "2026-07-13",
+      "confidence": "Filed",
+      "coverage_team": [
+        "Industrials"
+      ],
+      "sector": "Shipping / Contested M&A",
+      "source": "SEC EDGAR — Genco EX-99.(A)(67)",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326200/000114036126028322/ef20077876_ex99-a67.htm"
+    },
+    {
+      "id": "d98",
+      "headline": "JPMorgan advises IHS Holding board on MTN Group's $8.50/share cash take-private",
+      "banks": [
+        "JPMorgan"
+      ],
+      "published": "2026-07-10",
+      "confidence": "Filed",
+      "coverage_team": [
+        "M&A"
+      ],
+      "sector": "TMT / Take-private",
+      "source": "SEC EDGAR — IHS Holding tender materials (EX-99.(A)(1))",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876183/000110465926082643/tm2611054d6_ex99-a1.htm"
+    },
+    {
+      "id": "d99",
+      "headline": "RBC advises Origin Materials as its board pursues strategic alternatives / wind-down",
+      "banks": [
+        "RBC Capital Markets"
+      ],
+      "published": "2026-07-10",
+      "confidence": "Filed",
+      "coverage_team": [
+        "Energy & Power",
+        "Industrials"
+      ],
+      "sector": "Strategic Alternatives",
+      "source": "SEC EDGAR — Origin Materials PREM14A",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1802457/000180245726000036/originmaterials-specialmee.htm"
+    },
+    {
+      "id": "d100",
+      "headline": "RBC and BMO lead MDA Space's upsized US$819M bought deal to fund its ~€567M CLS acquisition",
+      "banks": [
+        "RBC Capital Markets",
+        "JPMorgan",
+        "Bank of America"
+      ],
+      "published": "2026-07-09",
+      "confidence": "Reported",
+      "coverage_team": [
+        "M&A"
+      ],
+      "sector": "Space / ECM / Cross-border",
+      "source": "FinanzNachrichten (company release)",
+      "source_url": "https://www.finanznachrichten.de/nachrichten-2026-07/68986985-mda-space-ltd-mda-space-increases-previously-announced-bought-deal-offering-of-common-shares-399.htm"
+    },
+    {
+      "id": "d101",
+      "headline": "Guggenheim advises Destination XL as its board rejects Zodiac Partners II's revised $0.84/share tender",
+      "banks": [
+        "Guggenheim Securities"
+      ],
+      "published": "2026-07-09",
+      "confidence": "Reported",
+      "coverage_team": [
+        "Consumer & Retail",
+        "Industrials"
+      ],
+      "sector": "Retail / Contested M&A",
+      "source": "Manila Times / GlobeNewswire (DXL release)",
+      "source_url": "https://www.manilatimes.net/2026/07/09/tmt-newswire/globenewswire/destination-xl-group-inc-recommends-dxl-stockholders-reject-zodiac-partners-iis-revised-unsolicited-tender-offer-and-not-tender-their-shares/2381212"
+    },
+    {
+      "id": "d102",
+      "headline": "Morgan Stanley advises Real on its acquisition of RE/MAX to form Real REMAX Group",
+      "banks": [
+        "Morgan Stanley",
+        "JPMorgan"
+      ],
+      "published": "2026-07-09",
+      "confidence": "Filed",
+      "coverage_team": [
+        "M&A"
+      ],
+      "sector": "Real Estate / Cross-border",
+      "source": "SEC EDGAR — RE/MAX DEFM14A",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1581091/000110465926082291/tm2620002-1_defm14a.htm"
+    },
+    {
+      "id": "d103",
+      "headline": "BofA Securities advises Element Solutions on its merger; Goldman advises the acquirer",
+      "banks": [
+        "Bank of America",
+        "Goldman Sachs"
+      ],
+      "published": "2026-07-09",
+      "confidence": "Filed",
+      "coverage_team": [
+        "Industrials"
+      ],
+      "sector": "Chemicals / Industrials",
+      "source": "SEC EDGAR — Element Solutions EX-2.1",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1590714/000121390026076549/ea029740401ex2-1.htm"
+    },
+    {
+      "id": "d104",
+      "headline": "Lazard and Houlihan Lokey advise LivePerson on its all-stock merger with SoundHound",
+      "banks": [
+        "Lazard",
+        "Houlihan Lokey"
+      ],
+      "published": "2026-07-09",
+      "confidence": "Filed",
+      "coverage_team": [
+        "TMT"
+      ],
+      "sector": "Tech / AI",
+      "source": "SEC EDGAR — LivePerson DEFM14A",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1102993/000121390026076759/ea0297465-01.htm"
+    },
+    {
+      "id": "d105",
+      "headline": "Morgan Stanley advises Simulations Plus on its $18.50/share cash sale",
+      "banks": [
+        "Morgan Stanley"
+      ],
+      "published": "2026-07-09",
+      "confidence": "Filed",
+      "coverage_team": [
+        "TMT",
+        "Healthcare"
+      ],
+      "sector": "",
+      "source": "SEC EDGAR — Simulations Plus PREM14A",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1023459/000102345926000036/prem14a.htm"
+    },
+    {
+      "id": "d106",
+      "headline": "Jefferies advises Genco as its board rejects Diana Shipping's $24.80/share hostile tender",
+      "banks": [
+        "Jefferies",
+        "Morgan Stanley"
+      ],
+      "published": "2026-07-08",
+      "confidence": "Reported",
+      "coverage_team": [
+        "Industrials"
+      ],
+      "sector": "Shipping / Contested M&A",
+      "source": "Yahoo Finance / GlobeNewswire (Genco release)",
+      "source_url": "https://finance.yahoo.com/markets/stocks/articles/genco-shipping-trading-limited-comments-151300287.html"
+    },
+    {
+      "id": "d107",
+      "headline": "Moelis retained to review Ticketek-owner TEG's ~$1B debt and raise fresh capital",
+      "banks": [
+        "Moelis"
+      ],
+      "published": "2026-07-08",
+      "confidence": "Reported",
+      "coverage_team": [
+        "M&A"
+      ],
+      "sector": "Restructuring / Capital Advisory",
+      "source": "Australian Financial Review",
+      "source_url": "https://www.afr.com/companies/media-and-marketing/ticketek-owner-in-talks-to-raise-hundreds-of-millions-in-fresh-capital-20260708-p60dl1"
+    },
+    {
+      "id": "d108",
+      "headline": "Standard Nuclear launches ~$328–383M IPO with BofA and Goldman as lead bookrunners",
+      "banks": [
+        "Goldman Sachs",
+        "Bank of America",
+        "Barclays",
+        "UBS",
+        "RBC Capital Markets",
+        "Evercore",
+        "William Blair",
+        "Stifel"
+      ],
+      "published": "2026-07-07",
+      "confidence": "Reported",
+      "coverage_team": [
+        "Energy & Power"
+      ],
+      "sector": "",
+      "source": "StockTitan",
+      "source_url": "https://www.stocktitan.net/news/STDN/standard-nuclear-announces-launch-of-its-initial-public-yer1kcatntes.html"
+    },
+    {
+      "id": "d109",
+      "headline": "Harris Williams and William Blair advise on Sentinel Capital's acquisition of DecoPac from Kohlberg",
+      "banks": [
+        "Harris Williams",
+        "William Blair"
+      ],
+      "published": "2026-07-07",
+      "confidence": "Reported",
+      "coverage_team": [
+        "Consumer & Retail"
+      ],
+      "sector": "Consumer / Private Equity",
+      "source": "PR Newswire (via AOL)",
+      "source_url": "https://www.aol.com/articles/sentinel-capital-partners-acquires-decopac-100000000.html"
+    },
+    {
+      "id": "d110",
+      "headline": "Goldman Sachs is lead advisor to Solstice Advanced Materials on its ~$14.5B acquisition of Element Solutions",
+      "banks": [
+        "Goldman Sachs",
+        "PJT Partners"
+      ],
+      "published": "2026-07-06",
+      "confidence": "Reported",
+      "coverage_team": [
+        "Industrials"
+      ],
+      "sector": "Materials / Industrials",
+      "source": "StockTitan",
+      "source_url": "https://www.stocktitan.net/news/ESI/solstice-advanced-materials-to-acquire-element-solutions-creating-an-veaf0ivxqg6g.html"
+    },
+    {
+      "id": "d111",
+      "headline": "Morgan Stanley and Lazard advise Vertex Pharmaceuticals on its ~$10B acquisition of Crinetics",
+      "banks": [
+        "Morgan Stanley",
+        "Lazard",
+        "Bank of America",
+        "JPMorgan"
+      ],
+      "published": "2026-07-06",
+      "confidence": "Reported",
+      "coverage_team": [
+        "Healthcare"
+      ],
+      "sector": "Healthcare / Life Sciences",
+      "source": "StockTitan",
+      "source_url": "https://www.stocktitan.net/news/CRNX/vertex-to-acquire-crinetics-8m7dd1990oet.html"
+    },
+    {
+      "id": "d112",
+      "headline": "Citi is financial advisor to Lockheed Martin on its $3.45B acquisition of Ultra Maritime",
+      "banks": [
+        "Citi"
+      ],
+      "published": "2026-07-06",
+      "confidence": "Reported",
+      "coverage_team": [
+        "Industrials"
+      ],
+      "sector": "Aerospace / Defense",
+      "source": "StockTitan",
+      "source_url": "https://www.stocktitan.net/news/LMT/lockheed-martin-to-acquire-ultra-maritime-oz3th3ll3s3m.html"
+    },
+    {
+      "id": "d113",
+      "headline": "Lincoln International advises Avance Investment Management on its strategic investment in Lexxel",
+      "banks": [
+        "Lincoln International"
+      ],
+      "published": "2026-07-06",
+      "confidence": "Reported",
+      "coverage_team": [
+        "M&A"
+      ],
+      "sector": "Private Equity",
+      "source": "The Middle Market",
+      "source_url": "https://www.themiddlemarket.com/latest-news/avance-investment-management-invests-in-lexxel"
+    },
+    {
+      "id": "d114",
+      "headline": "PJT Partners retained to run the sale of a former Tether CIO's stake in the stablecoin giant",
+      "banks": [
+        "PJT Partners"
+      ],
+      "published": "2026-07-06",
+      "confidence": "Reported",
+      "coverage_team": [
+        "M&A"
+      ],
+      "sector": "Crypto / Private secondary",
+      "source": "Bloomberg",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-07-06/tether-s-former-cio-plans-sale-of-stake-in-stablecoin-giant"
+    },
+    {
+      "id": "d115",
+      "headline": "JPMorgan named joint bookrunner on Jersey Mike's Subs' IPO filed today",
+      "banks": [
+        "JPMorgan",
+        "Morgan Stanley",
+        "Jefferies"
+      ],
+      "published": "2026-07-02",
+      "confidence": "Filed",
+      "coverage_team": [
+        "Consumer & Retail"
+      ],
+      "sector": "Consumer / ECM",
+      "source": "SEC EDGAR",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/0002127043/000119312526293830/ck0002127043-20260702.htm"
+    },
+    {
+      "id": "d116",
+      "headline": "Jersey Mike's files S-1 with a deep syndicate — Morgan Stanley, Jefferies, and JPMorgan as global coordinators",
+      "banks": [
+        "Morgan Stanley",
+        "JPMorgan",
+        "Jefferies",
+        "Barclays",
+        "Bank of America",
+        "Goldman Sachs",
+        "Deutsche Bank",
+        "UBS",
+        "Wells Fargo",
+        "RBC Capital Markets",
+        "Evercore",
+        "William Blair",
+        "Baird",
+        "Piper Sandler",
+        "Raymond James",
+        "Stifel"
+      ],
+      "published": "2026-07-02",
+      "confidence": "Filed",
+      "coverage_team": [
+        "Consumer & Retail"
+      ],
+      "sector": "Consumer / ECM",
+      "source": "StockTitan",
+      "source_url": "https://www.stocktitan.net/news/JMKE/jersey-mike-s-publicly-files-registration-statement-for-initial-egdhbv7vr0cs.html"
+    },
+    {
+      "id": "d117",
+      "headline": "Cumberland Farms files for IPO with BofA, Goldman, and Jefferies as lead bookrunners",
+      "banks": [
+        "Bank of America",
+        "Goldman Sachs",
+        "Barclays",
+        "Jefferies"
+      ],
+      "published": "2026-07-02",
+      "confidence": "Filed",
+      "coverage_team": [
+        "Consumer & Retail"
+      ],
+      "sector": "Consumer / ECM",
+      "source": "StockTitan",
+      "source_url": "https://www.stocktitan.net/news/CMBY/cumberland-farms-limited-files-registration-statement-for-proposed-bk5sjij4ozso.html"
+    },
+    {
+      "id": "d118",
+      "headline": "PJT Partners and Jefferies advise Genel Energy on its £271M offer for Capricorn Energy",
+      "banks": [
+        "PJT Partners",
+        "Jefferies"
+      ],
+      "published": "2026-07-02",
+      "confidence": "Reported",
+      "coverage_team": [
+        "Energy & Power"
+      ],
+      "sector": "Energy / Cross-border",
+      "source": "Simmons & Simmons (mandate notice)",
+      "source_url": "https://www.simmons-simmons.com/en/about-us/news/advising-pjt-and-jefferies-on-genel-s-271m-offer-for-capricorn"
+    },
+    {
+      "id": "d119",
+      "headline": "Barclays is sole global coordinator and bookrunner on EIG's ~$54.8M Harbour Energy stake sale",
+      "banks": [
+        "Barclays"
+      ],
+      "published": "2026-07-02",
+      "confidence": "Reported",
+      "coverage_team": [
+        "Energy & Power"
+      ],
+      "sector": "",
+      "source": "Investing.com",
+      "source_url": "https://uk.investing.com/news/stock-market-news/eig-to-sell-entire-stake-in-harbour-energy-via-share-placing-93CH-4755295"
+    },
+    {
+      "id": "d120",
+      "headline": "RBC advises Kroger, Wells Fargo advises Giant Eagle on their $1.65B grocery combination",
+      "banks": [
+        "RBC Capital Markets",
+        "Wells Fargo"
+      ],
+      "published": "2026-07-01",
+      "confidence": "Reported",
+      "coverage_team": [
+        "Consumer & Retail"
+      ],
+      "sector": "Consumer / Retail",
+      "source": "PR Newswire (via finanznachrichten.de)",
+      "source_url": "https://www.finanznachrichten.de/nachrichten-2026-07/68918821-the-kroger-co-kroger-announces-agreement-to-acquire-giant-eagle-008.htm"
+    },
+    {
+      "id": "d121",
+      "headline": "Houlihan Lokey to acquire energy-advisory boutique Intrepid Financial Partners",
+      "banks": [
+        "Houlihan Lokey"
+      ],
+      "published": "2026-06-30",
+      "confidence": "Reported",
+      "coverage_team": [
+        "FIG",
+        "Energy & Power"
+      ],
+      "sector": "Energy",
+      "source": "Business Wire",
+      "source_url": "https://www.businesswire.com/news/home/20260630315767/en/Houlihan-Lokey-to-Acquire-Intrepid-Financial-Partners"
+    },
+    {
+      "id": "d122",
+      "headline": "ITG prices $312M IPO; Morgan Stanley, Citi, UBS, and Stifel lead",
+      "banks": [
+        "Morgan Stanley",
+        "Bank of America",
+        "Citi",
+        "UBS",
+        "Baird",
+        "Stifel"
+      ],
+      "published": "2026-06-30",
+      "confidence": "Reported",
+      "coverage_team": [
+        "M&A"
+      ],
+      "sector": "",
+      "source": "StockTitan",
+      "source_url": "https://www.stocktitan.net/news/ITG/itg-inc-announces-pricing-of-initial-public-gbg860ohojx8.html"
+    },
+    {
+      "id": "d123",
+      "headline": "PJT Partners is investment banker to TPx Communications in its Chapter 11 case",
+      "banks": [
+        "PJT Partners"
+      ],
+      "published": "2026-06-28",
+      "confidence": "Filed",
+      "coverage_team": [
+        "TMT",
+        "FIG"
+      ],
+      "sector": "Telecom / Restructuring",
+      "source": "TPx Communications",
+      "source_url": "https://www.tpx.com/press-release/tpx-announces-agreement-to-strengthen-financial-position-and-accelerate-growth/"
+    },
+    {
+      "id": "d124",
+      "headline": "Lead advisor on AES's $38.4B take-private by Global Infrastructure Partners",
+      "banks": [
+        "JPMorgan"
+      ],
+      "published": "2026-06-25",
+      "confidence": "Reported",
+      "coverage_team": [
+        "M&A"
+      ],
+      "sector": "Infrastructure",
+      "source": "",
+      "source_url": ""
+    },
+    {
+      "id": "d125",
+      "headline": "Sell-side advisor on Roku's acquisition by FOX",
+      "banks": [
+        "Morgan Stanley"
+      ],
+      "published": "2026-06-25",
+      "confidence": "Reported",
+      "coverage_team": [
+        "TMT"
+      ],
+      "sector": "Media / TMT",
+      "source": "",
+      "source_url": ""
+    },
+    {
+      "id": "d126",
+      "headline": "BofA analyst raises Micron target to $1,500 amid AI memory supercycle thesis",
+      "banks": [
+        "Bank of America"
+      ],
+      "published": "2026-06-25",
+      "confidence": "Reported",
+      "coverage_team": [
+        "TMT",
+        "FIG"
+      ],
+      "sector": "",
+      "source": "TheStreet",
+      "source_url": "https://www.thestreet.com/investing/stocks/mu-micron-stock-price-target-bank-of-america-raises-june-2026"
+    },
+    {
+      "id": "d127",
+      "headline": "JPMorgan upgrades IBM to overweight — signals renewed conviction in enterprise tech consolidation",
+      "banks": [
+        "JPMorgan"
+      ],
+      "published": "2026-06-25",
+      "confidence": "Reported",
+      "coverage_team": [
+        "TMT"
+      ],
+      "sector": "",
+      "source": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/06/22/stock-market-today-live-updates.html"
+    },
+    {
+      "id": "d128",
+      "headline": "BofA raised Micron price target to $1,500 — signaling active AI infrastructure positioning",
+      "banks": [
+        "Bank of America"
+      ],
+      "published": "2026-06-25",
+      "confidence": "Reported",
+      "coverage_team": [
+        "TMT"
+      ],
+      "sector": "Technology",
+      "source": "",
+      "source_url": ""
+    },
+    {
+      "id": "d129",
+      "headline": "Lead advisor on Jetro Restaurant Depot's $29.1B sale to Sysco — pending close",
+      "banks": [
+        "Evercore"
+      ],
+      "published": "2026-06-25",
+      "confidence": "Reported",
+      "coverage_team": [
+        "Consumer & Retail"
+      ],
+      "sector": "Consumer / Food",
+      "source": "",
+      "source_url": ""
+    },
+    {
+      "id": "d130",
+      "headline": "Guggenheim Securities advises Merck KGaA on its $11.3B acquisition of Bio-Techne",
+      "banks": [
+        "Guggenheim Securities",
+        "Goldman Sachs"
+      ],
+      "published": "2026-06-25",
+      "confidence": "Reported",
+      "coverage_team": [
+        "TMT",
+        "Healthcare"
+      ],
+      "sector": "Healthcare / Life Sciences",
+      "source": "PR Newswire",
+      "source_url": "https://www.prnewswire.com/news-releases/merck-kgaa-darmstadt-germany-agrees-to-acquire-bio-techne-strengthening-leadership-position-in-fast-growing-life-sciences-markets-302810602.html"
+    },
+    {
+      "id": "d131",
+      "headline": "William Blair advises Thoma Bravo on strategic growth investment in padoa",
+      "banks": [
+        "William Blair"
+      ],
+      "published": "2026-06-24",
+      "confidence": "Reported",
+      "coverage_team": [
+        "TMT"
+      ],
+      "sector": "Technology / Private Equity",
+      "source": "William Blair",
+      "source_url": "https://www.williamblair.com/News/Thoma-Bravo-and-padoa-Transaction"
+    },
+    {
+      "id": "d132",
+      "headline": "JPMorgan is lead advisor on AES's $38.4B takeover by Global Infrastructure Partners",
+      "banks": [
+        "JPMorgan",
+        "Evercore"
+      ],
+      "published": "2026-06-22",
+      "confidence": "Reported",
+      "coverage_team": [
+        "Energy & Power",
+        "Industrials"
+      ],
+      "sector": "",
+      "source": "ION Analytics",
+      "source_url": "https://ionanalytics.com/insights/mergermarket/goldman-sachs-jpmorgan-lead-1q26-ma-rankings-amid-relentless-hunt-for-scale/"
+    },
+    {
+      "id": "d133",
+      "headline": "Morgan Stanley advised Roku on its acquisition by FOX",
+      "banks": [
+        "Morgan Stanley",
+        "Goldman Sachs"
+      ],
+      "published": "2026-06-22",
+      "confidence": "Reported",
+      "coverage_team": [
+        "TMT"
+      ],
+      "sector": "",
+      "source": "Tracxn",
+      "source_url": "https://tracxn.com/d/investment-bank/morgan-stanley/__S5BoCCwmg8rk88Pn1kwAIHeb7ouOAFMcUM5I91ybqKY"
+    },
+    {
+      "id": "d134",
+      "headline": "Jefferies shares up 51% this quarter on accelerating sponsor activity",
+      "banks": [
+        "Jefferies"
+      ],
+      "published": "2026-06-22",
+      "confidence": "Reported",
+      "coverage_team": [
+        "M&A"
+      ],
+      "sector": "",
+      "source": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/06/17/stock-market-today-live-updates.html"
+    },
+    {
+      "id": "d135",
+      "headline": "Lead advisor on Jetro Restaurant Depot's $29.1B sale to Sysco",
+      "banks": [
+        "Evercore"
+      ],
+      "published": "2026-06-22",
+      "confidence": "Reported",
+      "coverage_team": [
+        "Consumer & Retail"
+      ],
+      "sector": "Consumer / Food",
+      "source": "",
+      "source_url": ""
+    },
+    {
+      "id": "d136",
+      "headline": "Accelerating sponsor activity; shares up 51% on the quarter",
+      "banks": [
+        "Jefferies"
+      ],
+      "published": "2026-06-22",
+      "confidence": "Reported",
+      "coverage_team": [
+        "M&A"
+      ],
+      "sector": "Sponsor Coverage",
+      "source": "",
+      "source_url": ""
+    },
+    {
+      "id": "d137",
+      "headline": "Goldman Sachs retains the global M&A volume crown into 2026",
+      "banks": [
+        "Goldman Sachs",
+        "Houlihan Lokey"
+      ],
+      "published": "2026-06-18",
+      "confidence": "Reported",
+      "coverage_team": [
+        "M&A"
+      ],
+      "sector": "",
+      "source": "Private Banker International",
+      "source_url": "https://www.privatebankerinternational.com/news/top-ma-advisers-q1-2026/"
+    },
+    {
+      "id": "d138",
+      "headline": "#1 adviser by deal value in Q1 2026 (~$267B)",
+      "banks": [
+        "Goldman Sachs"
+      ],
+      "published": "2026-06-18",
+      "confidence": "Reported",
+      "coverage_team": [
+        "M&A"
+      ],
+      "sector": "Large-cap M&A",
+      "source": "",
+      "source_url": ""
+    },
+    {
+      "id": "d139",
+      "headline": "Piper Sandler advises on a $2.4B-asset community bank merger of equals",
+      "banks": [
+        "Piper Sandler"
+      ],
+      "published": "2026-06-15",
+      "confidence": "Reported",
+      "coverage_team": [
+        "FIG"
+      ],
+      "sector": "Financial Institutions",
+      "source": "PR Newswire",
+      "source_url": "https://www.prnewswire.com/news-releases/odnb-financial-corporation-and-national-capital-bancorp-inc-announce-merger-of-equals-creating-a-top-tier-community-bank-headquartered-in-washington-dc-with-approximately-2-4-billion-in-total-assets-302800229.html"
+    },
+    {
+      "id": "d140",
+      "headline": "Citi is a joint bookrunner on the SpaceX IPO — history's largest",
+      "banks": [
+        "Citi",
+        "Barclays"
+      ],
+      "published": "2026-06-11",
+      "confidence": "Filed",
+      "coverage_team": [
+        "M&A"
+      ],
+      "sector": "Aerospace / ECM",
+      "source": "SEC EDGAR (424(b)(4))",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026042639/spaceexplorationtechnologi.htm"
+    },
+    {
+      "id": "d141",
+      "headline": "GoPro's board is reviewing strategic alternatives, with Houlihan Lokey in a tech advisory role",
+      "banks": [
+        "Houlihan Lokey"
+      ],
+      "published": "2026-05-17",
+      "confidence": "Reported",
+      "coverage_team": [
+        "TMT",
+        "Consumer & Retail"
+      ],
+      "sector": "Technology",
+      "source": "PR Newswire",
+      "source_url": "https://www.prnewswire.com/news-releases/gopro-board-of-directors-announces-review-of-strategic-alternatives-302768658.html"
+    },
+    {
+      "id": "d142",
+      "headline": "Centerview and RedBird remain lead advisors on Paramount's pending $110.9B WBD acquisition",
+      "banks": [
+        "Centerview Partners"
+      ],
+      "published": "2026-03-02",
+      "confidence": "Reported",
+      "coverage_team": [
+        "TMT"
+      ],
+      "sector": "Media / TMT",
+      "source": "Canadian Lawyer",
+      "source_url": "https://www.canadianlawyermag.com/news/international/leading-us-firms-confirm-roles-in-watershed-us110-billion-paramount-warner-bros-discovery-merger/393786"
     }
   ]
 }

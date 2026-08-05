@@ -145,7 +145,6 @@
       "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "JPMorgan",
       "headline": "JPMorgan advises Equitable and Rothschild advises The Hartford on Hartford’s acquisition of Equitable’s employee-benefits business",
       "why_it_matters": "The Hartford (NYSE: HIG) agreed to acquire Equitable’s Employee Benefits business — group life, disability, PFML, supplemental health and dental/vision, plus the tech platform and ~300 employees (~$500M in premium; financial terms undisclosed). The release names J.P. Morgan as financial adviser to Equitable (sell-side) and Rothschild as adviser to The Hartford. A carve-out of a regulated insurance block runs policyholder, regulatory-approval and platform-transition diligence to close.",
       "suggested_action": "Engage JPMorgan (Equitable) — a regulated insurance-block carve-out runs policyholder and regulatory-transition diligence a secure room supports through separation.",
@@ -163,6 +162,9 @@
         "insurance",
         "employee-benefits",
         "carve-out"
+      ],
+      "banks": [
+        "JPMorgan"
       ]
     },
     {
@@ -170,7 +172,6 @@
       "category": "M&A",
       "urgency": "LOW",
       "scope": "bank",
-      "bank": "Harris Williams",
       "headline": "Harris Williams advises Ridgemont Equity Partners on its acquisition of environmental-remediation platform ENTACT",
       "why_it_matters": "Ridgemont Equity Partners acquired ENTACT — an environmental remediation and geotechnical infrastructure-services provider (terms undisclosed) — from its prior ownership. The release names Harris Williams as financial adviser to Ridgemont (buy-side); Brown Gibbons Lang and AEC Advisors advised ENTACT. A sponsor platform acquisition in environmental services runs contract, backlog and quality-of-earnings diligence to close.",
       "suggested_action": "Note Harris Williams (Ridgemont/ENTACT) — a sponsor platform buy in environmental services runs contract and QofE diligence a secure room organizes.",
@@ -189,6 +190,9 @@
         "environmental-services",
         "sponsor",
         "buyout"
+      ],
+      "banks": [
+        "Harris Williams"
       ]
     },
     {
@@ -206,7 +210,6 @@
   ],
   "opportunities": [
     {
-      "bank": "Jefferies",
       "sector": "Healthcare / Biopharma",
       "urgency": "HOT",
       "headline": "Joint adviser (with Piper Sandler, Citi) to Indivior on its all-stock merger of equals with Supernus",
@@ -229,10 +232,14 @@
       "first_seen": "2026-08-03",
       "last_confirmed": "2026-08-03",
       "id": "o1",
-      "carry_badge": "Day 2"
+      "carry_badge": "Day 2",
+      "banks": [
+        "Jefferies",
+        "Citi",
+        "Piper Sandler"
+      ]
     },
     {
-      "bank": "Wells Fargo",
       "sector": "Healthcare / Biopharma",
       "urgency": "HOT",
       "headline": "Adviser (with Cantor Fitzgerald) to Supernus on its all-stock merger of equals with Indivior",
@@ -255,11 +262,13 @@
       "first_seen": "2026-08-03",
       "last_confirmed": "2026-08-03",
       "id": "o2",
-      "carry_badge": "Day 2"
+      "carry_badge": "Day 2",
+      "banks": [
+        "Wells Fargo"
+      ]
     },
     {
       "id": "o3",
-      "bank": "Moelis",
       "sector": "Biopharma / Healthcare",
       "urgency": "HOT",
       "headline": "Adviser (with Centerview, Citi) to AtaiBeckley’s board on its $6.75 + CVR sale to Eli Lilly",
@@ -281,7 +290,13 @@
       "confidence": "Filed",
       "first_seen": "2026-07-30",
       "last_confirmed": "2026-07-30",
-      "carry_badge": "Day 4"
+      "carry_badge": "Day 4",
+      "banks": [
+        "Moelis",
+        "Citi",
+        "Centerview Partners",
+        "Goldman Sachs"
+      ]
     },
     {
       "sector": "Real Estate / Logistics REIT",
@@ -353,7 +368,6 @@
       ]
     },
     {
-      "bank": "Bank of America",
       "sector": "Energy / Midstream",
       "urgency": "HOT",
       "headline": "Lead buy-side adviser to Williams on its up-to-$5.5B acquisition of Momentum Midstream",
@@ -376,7 +390,12 @@
       "first_seen": "2026-08-04",
       "last_confirmed": "2026-08-04",
       "id": "o6",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Bank of America",
+        "Barclays",
+        "Jefferies"
+      ]
     },
     {
       "sector": "Energy / Midstream",
@@ -437,7 +456,6 @@
       ]
     },
     {
-      "bank": "JPMorgan",
       "sector": "Insurance / Employee Benefits",
       "urgency": "WARM",
       "headline": "Sell-side adviser to Equitable on the sale of its employee-benefits business to The Hartford",
@@ -460,10 +478,12 @@
       "first_seen": "2026-08-04",
       "last_confirmed": "2026-08-04",
       "id": "o9",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "JPMorgan"
+      ]
     },
     {
-      "bank": "Harris Williams",
       "sector": "Industrials / Environmental Services",
       "urgency": "WARM",
       "headline": "Buy-side adviser to Ridgemont Equity Partners on its acquisition of environmental-remediation platform ENTACT",
@@ -486,7 +506,10 @@
       "first_seen": "2026-08-04",
       "last_confirmed": "2026-08-04",
       "id": "o10",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Harris Williams"
+      ]
     }
   ],
   "market_snapshot": {

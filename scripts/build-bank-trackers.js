@@ -138,6 +138,47 @@ function coverageTeams(item) {
   return COVERAGE_TEAM_ORDER.filter(t => matched.has(t));
 }
 
+// Deal-level aggregate (deduped by deal, not per-bank) — powers the Deals page
+// "All Deals" archive. dealKey -> merged deal row.
+const CONF_RANK = { Filed: 0, Reported: 1, Speculative: 2 };
+const deals = new Map();
+function dealKeyOf(item, url) {
+  // Prefer the source_url (same deal often appears as story + opp, and both
+  // sides); fall back to a normalized headline so unsourced-but-real items still
+  // collapse. Strip a leading bank/verb clause so "X advises A on B" and
+  // "A's B deal" don't split — use the whole normalized headline; good enough
+  // since same-deal items nearly always share a source_url.
+  return (url || (item.headline || '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim());
+}
+function recordDeal(item, banks, url, published) {
+  const key = dealKeyOf(item, url);
+  if (!key) return;
+  const conf = item.confidence || 'Reported';
+  const prior = deals.get(key);
+  if (!prior) {
+    deals.set(key, {
+      headline: item.headline || '',
+      banks: [...banks],
+      published: published || '',
+      confidence: conf,
+      coverage_team: coverageTeams(item),
+      sector: item.sector || '',
+      source: item.source || '',
+      source_url: url || ''
+    });
+    return;
+  }
+  // Merge: union banks (order-stable), best confidence, newest published,
+  // richest coverage_team, keep a headline (prefer a story-style one w/ banks).
+  const seen = new Set(prior.banks.map(b => b.toLowerCase()));
+  for (const b of banks) if (!seen.has(b.toLowerCase())) { seen.add(b.toLowerCase()); prior.banks.push(b); }
+  if ((CONF_RANK[conf] ?? 3) < (CONF_RANK[prior.confidence] ?? 3)) prior.confidence = conf;
+  if ((published || '') > (prior.published || '')) prior.published = published;
+  const ct = coverageTeams(item);
+  if (ct.length > prior.coverage_team.length && ct[0] !== 'M&A') prior.coverage_team = ct;
+  if (!prior.sector && item.sector) prior.sector = item.sector;
+}
+
 for (const file of editionFiles) {
   let ed;
   try { ed = JSON.parse(readFileSync(file, 'utf8')); } catch { continue; }
@@ -163,6 +204,8 @@ for (const file of editionFiles) {
         source_url: url || ''
       });
     }
+    // Deal-level: one row per unique deal, all advising banks merged.
+    recordDeal(item, banks, url, published || ed.date || '');
   }
 }
 
@@ -236,3 +279,13 @@ for (const bank of banksDoc.banks) {
 
 writeFileSync(join(ROOT, 'data/banks.json'), JSON.stringify(banksDoc, null, 2) + '\n');
 console.log(`Enriched ${enriched} banks with dealbrief_tracker (as of ${AS_OF}).`);
+
+/* ── 4. Write the deal-level archive (data/deals.json) ──
+   One row per unique deal DealBrief caught, newest-first, with every advising
+   bank merged. Powers the "All Deals" page. Replaces the old hand-authored
+   file (which was never updated). */
+const dealList = [...deals.values()]
+  .sort((a, b) => (b.published || '').localeCompare(a.published || ''))
+  .map((d, i) => ({ id: `d${i + 1}`, ...d }));
+writeFileSync(join(ROOT, 'data/deals.json'), JSON.stringify({ deals: dealList }, null, 2) + '\n');
+console.log(`Wrote data/deals.json — ${dealList.length} unique deals.`);

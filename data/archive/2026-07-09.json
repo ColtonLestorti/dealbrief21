@@ -136,7 +136,6 @@
       "category": "DEALS",
       "urgency": "HIGH",
       "scope": "bank",
-      "bank": "RBC Capital Markets",
       "headline": "RBC and BMO lead MDA Space's upsized US$819M bought deal to fund its ~€567M CLS acquisition",
       "why_it_matters": "MDA Space upsized its bought deal to US$819M (23M shares at US$35.60), with RBC Capital Markets and BMO as joint lead bookrunners and JPMorgan, BofA Securities, and Scotiabank as joint active bookrunners. Proceeds fund MDA's ~€567M / US$648M purchase of ~70% of France's CLS from CNES. A live, multi-bank ECM execution funding a cross-border acquisition — exactly the fast-turnaround, syndicate-wide diligence workflow where clean access control matters.",
       "suggested_action": "Reach out to RBC's ECM/space-and-defense coverage on the MDA raise — a syndicated bought deal funding a cross-border acquisition is a strong, current reason to talk diligence infrastructure across the bookrunner group.",
@@ -159,6 +158,11 @@
         "space",
         "cross-border",
         "canada"
+      ],
+      "banks": [
+        "RBC Capital Markets",
+        "JPMorgan",
+        "Bank of America"
       ]
     },
     {
@@ -166,7 +170,6 @@
       "category": "DEALS",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "JPMorgan",
       "headline": "JPMorgan is a joint active bookrunner on MDA Space's US$819M offering",
       "why_it_matters": "JPMorgan is a joint active bookrunner alongside BofA Securities and Scotiabank on MDA Space's upsized US$819M raise (July 9), which funds MDA's ~€567M acquisition of ~70% of CLS. A live ECM syndicate role tied to a cross-border space/data deal — a concrete, current touchpoint for JPMorgan's TMT/space coverage even as its bulge-bracket mandates rarely surface in daily press.",
       "suggested_action": "Connect with JPMorgan's ECM/space coverage on the MDA syndicate — a live bookrun funding a cross-border acquisition is a clean hook for a diligence-access conversation.",
@@ -184,6 +187,10 @@
         "ecm",
         "space",
         "cross-border"
+      ],
+      "banks": [
+        "JPMorgan",
+        "Bank of America"
       ]
     },
     {
@@ -191,7 +198,6 @@
       "category": "DEALS",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Bank of America",
       "headline": "BofA Securities joins the MDA Space US$819M bookrunner group",
       "why_it_matters": "BofA Securities is a joint active bookrunner on MDA Space's upsized US$819M offering (July 9), which finances the ~€567M CLS acquisition. High simultaneous deal flow is BofA's profile, and a live cross-border ECM syndicate role is a rare, dated, public touchpoint to anchor an operational-efficiency conversation.",
       "suggested_action": "Pitch syndicate-wide access efficiency to BofA's ECM coverage on the MDA raise — at their volume of concurrent mandates, repeatable room setup is a direct cost lever.",
@@ -209,6 +215,9 @@
         "ecm",
         "space",
         "cross-border"
+      ],
+      "banks": [
+        "Bank of America"
       ]
     },
     {
@@ -216,7 +225,6 @@
       "category": "M&A",
       "urgency": "HIGH",
       "scope": "bank",
-      "bank": "Jefferies",
       "headline": "Jefferies advises Genco as its board rejects Diana Shipping's $24.80/share hostile tender",
       "why_it_matters": "Genco Shipping & Trading's board unanimously rejected Diana Shipping's $24.80/share cash tender offer, with Jefferies acting as financial adviser and Morgan Stanley as special adviser to the board (statement July 8; tender deadline July 10). A live hostile-tender defense is a high-intensity, document-heavy process — the kind of contested M&A situation where a controlled, auditable data room is central to the defense.",
       "suggested_action": "Reach out to Jefferies' shipping/defense-advisory team on the Genco situation — a live hostile tender on a tight clock is an immediate, concrete reason to talk secure diligence and board-materials management.",
@@ -238,6 +246,10 @@
         "shipping",
         "hostile-tender",
         "defense"
+      ],
+      "banks": [
+        "Jefferies",
+        "Morgan Stanley"
       ]
     },
     {
@@ -245,7 +257,6 @@
       "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Morgan Stanley",
       "headline": "Morgan Stanley is special adviser to Genco's board on the Diana Shipping tender defense",
       "why_it_matters": "Morgan Stanley is special adviser to Genco Shipping & Trading's board alongside Jefferies as its unanimously rejects Diana Shipping's hostile $24.80/share tender (July 8; deadline July 10). A live, contested tender defense is one of the most access-sensitive M&A processes — a fresh, deal-specific reason to engage MS's coverage team.",
       "suggested_action": "Connect with Morgan Stanley on the Genco defense — contested tenders concentrate the most sensitive board and diligence materials, exactly where permissioned access is most defensible.",
@@ -267,6 +278,10 @@
         "shipping",
         "hostile-tender",
         "defense"
+      ],
+      "banks": [
+        "Morgan Stanley",
+        "Jefferies"
       ]
     },
     {
@@ -274,7 +289,6 @@
       "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Guggenheim Securities",
       "headline": "Guggenheim advises Destination XL as its board rejects Zodiac Partners II's revised $0.84/share tender",
       "why_it_matters": "Destination XL Group's board reiterated its unanimous recommendation that stockholders reject Zodiac Partners II's revised, unsolicited $0.84/share cash tender as undervalued, with Guggenheim Securities as financial adviser (reiterated July 9; offer expires July 24). A live retail take-under defense is a document- and timeline-driven process — a current, deal-specific reason to engage an under-covered elite boutique.",
       "suggested_action": "Reach out to Guggenheim on the Destination XL defense — an active, contested tender with a July 24 clock is a concrete hook for a secure-diligence and board-materials conversation.",
@@ -296,6 +310,9 @@
         "retail",
         "hostile-tender",
         "defense"
+      ],
+      "banks": [
+        "Guggenheim Securities"
       ]
     },
     {
@@ -303,7 +320,6 @@
       "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "PJT Partners",
       "headline": "PJT Partners retained to run the sale of a former Tether CIO's stake in the stablecoin giant",
       "why_it_matters": "PJT Partners has been retained to run the sale of a portion of former Tether CIO Richard Heathcote's ~1.26% stake in Tether Holdings, per Bloomberg reporting (July 6). A private secondary in a company valued in the hundreds of billions means a tightly controlled, confidential diligence process for a small buyer universe — a natural private-markets data room use case for a covered boutique.",
       "suggested_action": "Engage PJT's private-capital/secondaries coverage on the Tether stake process — a confidential, high-value secondary is exactly where controlled access and audit trails are the pitch.",
@@ -321,6 +337,9 @@
         "crypto",
         "secondary",
         "private-markets"
+      ],
+      "banks": [
+        "PJT Partners"
       ]
     },
     {
@@ -328,7 +347,6 @@
       "category": "RESTRUCTURING",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Moelis",
       "headline": "Moelis retained to review Ticketek-owner TEG's ~$1B debt and raise fresh capital",
       "why_it_matters": "Silver Lake-owned TEG (owner of Ticketek) has retained Moelis to review its ~$1B debt structure and raise 'hundreds of millions' in fresh capital, per the Australian Financial Review (~July 8). A live capital-structure/restructuring mandate involves multiple creditor and investor classes with differentiated access — a core Intralinks restructuring use case for a covered boutique.",
       "suggested_action": "Connect with Moelis' restructuring/capital-advisory team on the TEG situation — multi-creditor capital raises need granular, litigation-grade access controls across classes.",
@@ -346,13 +364,15 @@
         "restructuring",
         "capital-advisory",
         "australia"
+      ],
+      "banks": [
+        "Moelis"
       ]
     }
   ],
   "opportunities": [
     {
       "id": "o1",
-      "bank": "RBC Capital Markets",
       "sector": "Space / ECM / Cross-border",
       "urgency": "HOT",
       "headline": "Joint lead bookrunner on MDA Space's US$819M raise funding the CLS acquisition",
@@ -378,11 +398,13 @@
       "confidence": "Reported",
       "first_seen": "2026-07-09",
       "last_confirmed": "2026-07-09",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "RBC Capital Markets"
+      ]
     },
     {
       "id": "o2",
-      "bank": "Jefferies",
       "sector": "Shipping / Contested M&A",
       "urgency": "HOT",
       "headline": "Financial adviser to Genco on the Diana Shipping hostile tender defense",
@@ -412,11 +434,14 @@
       "confidence": "Reported",
       "first_seen": "2026-07-09",
       "last_confirmed": "2026-07-09",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Jefferies",
+        "Morgan Stanley"
+      ]
     },
     {
       "id": "o3",
-      "bank": "Guggenheim Securities",
       "sector": "Retail / Contested M&A",
       "urgency": "HOT",
       "headline": "Financial adviser to Destination XL on the Zodiac Partners II tender defense",
@@ -446,11 +471,13 @@
       "confidence": "Reported",
       "first_seen": "2026-07-09",
       "last_confirmed": "2026-07-09",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Guggenheim Securities"
+      ]
     },
     {
       "id": "o4",
-      "bank": "PJT Partners",
       "sector": "Energy / Cross-border",
       "urgency": "HOT",
       "headline": "Advising Genel Energy on its £271M offer for Capricorn Energy",
@@ -476,11 +503,14 @@
       "source_url": "https://www.simmons-simmons.com/en/about-us/news/advising-pjt-and-jefferies-on-genel-s-271m-offer-for-capricorn",
       "published": "2026-07-02",
       "confidence": "Reported",
-      "carry_badge": "Day 2"
+      "carry_badge": "Day 2",
+      "banks": [
+        "PJT Partners",
+        "Jefferies"
+      ]
     },
     {
       "id": "o5",
-      "bank": "Jefferies",
       "sector": "Energy / Cross-border",
       "urgency": "HOT",
       "headline": "Joint adviser to Genel Energy on the £271M Capricorn offer",
@@ -506,11 +536,14 @@
       "source_url": "https://www.simmons-simmons.com/en/about-us/news/advising-pjt-and-jefferies-on-genel-s-271m-offer-for-capricorn",
       "published": "2026-07-02",
       "confidence": "Reported",
-      "carry_badge": "Day 2"
+      "carry_badge": "Day 2",
+      "banks": [
+        "Jefferies",
+        "PJT Partners"
+      ]
     },
     {
       "id": "o6",
-      "bank": "Moelis",
       "sector": "Restructuring / Capital Advisory",
       "urgency": "WARM",
       "headline": "Retained to review Ticketek-owner TEG's ~$1B debt and raise fresh capital",
@@ -536,11 +569,13 @@
       "confidence": "Reported",
       "first_seen": "2026-07-09",
       "last_confirmed": "2026-07-09",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Moelis"
+      ]
     },
     {
       "id": "o7",
-      "bank": "PJT Partners",
       "sector": "Crypto / Private secondary",
       "urgency": "WARM",
       "headline": "Running the sale of a former Tether CIO's stake in Tether Holdings",
@@ -566,11 +601,13 @@
       "confidence": "Reported",
       "first_seen": "2026-07-09",
       "last_confirmed": "2026-07-09",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "PJT Partners"
+      ]
     },
     {
       "id": "o8",
-      "bank": "JPMorgan",
       "sector": "Space / ECM",
       "urgency": "WARM",
       "headline": "Joint active bookrunner on MDA Space's US$819M offering",
@@ -596,7 +633,10 @@
       "confidence": "Reported",
       "first_seen": "2026-07-09",
       "last_confirmed": "2026-07-09",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "JPMorgan"
+      ]
     }
   ],
   "pipeline_watch": {

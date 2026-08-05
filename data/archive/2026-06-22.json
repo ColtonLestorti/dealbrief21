@@ -1,7 +1,7 @@
 {
   "date": "2026-06-22",
   "edition": 2,
-  "lens": "The Fed turned hawkish under new Chair Kevin Warsh \u2014 markets now price a rate hike by fall \u2014 even as a US\u2013Iran peace framework pulls oil lower. Dealmakers are accelerating timelines before financing windows tighten.",
+  "lens": "The Fed turned hawkish under new Chair Kevin Warsh — markets now price a rate hike by fall — even as a US–Iran peace framework pulls oil lower. Dealmakers are accelerating timelines before financing windows tighten.",
   "ticker": [
     {
       "label": "S&P 500",
@@ -64,8 +64,8 @@
       "category": "MACRO",
       "urgency": "HIGH",
       "scope": "market",
-      "headline": "Fed turns hawkish under Warsh \u2014 markets now price a rate hike by fall",
-      "why_it_matters": "Nine of 19 FOMC members now project at least one rate increase before year-end, and markets are fully pricing a hike by October. Higher-for-longer financing costs push sponsors and corporates to accelerate sign-and-close timelines before debt markets tighten further \u2014 compressing diligence windows on live processes.",
+      "headline": "Fed turns hawkish under Warsh — markets now price a rate hike by fall",
+      "why_it_matters": "Nine of 19 FOMC members now project at least one rate increase before year-end, and markets are fully pricing a hike by October. Higher-for-longer financing costs push sponsors and corporates to accelerate sign-and-close timelines before debt markets tighten further — compressing diligence windows on live processes.",
       "suggested_action": "Ask advisory clients whether the shift in rate expectations is pulling their deal timelines forward, and whether their current data room setup can support a compressed diligence schedule.",
       "deal_clock": [
         {
@@ -93,8 +93,8 @@
       "category": "MACRO",
       "urgency": "HIGH",
       "scope": "market",
-      "headline": "US\u2013Iran peace framework targets a deal within 60 days; oil retreats",
-      "why_it_matters": "A roadmap toward ending the conflict and reopening the Strait of Hormuz is easing the energy shock that drove this year's inflation surprise. Lower oil and reduced tail risk support deal confidence and cross-border activity \u2014 a constructive backdrop for advisory pipelines into H2.",
+      "headline": "US–Iran peace framework targets a deal within 60 days; oil retreats",
+      "why_it_matters": "A roadmap toward ending the conflict and reopening the Strait of Hormuz is easing the energy shock that drove this year's inflation surprise. Lower oil and reduced tail risk support deal confidence and cross-border activity — a constructive backdrop for advisory pipelines into H2.",
       "suggested_action": "Use the improving risk backdrop as a reason to reconnect with clients who paused cross-border processes during the conflict. Frame it as a window reopening.",
       "deal_clock": [
         {
@@ -118,10 +118,9 @@
       "category": "M&A",
       "urgency": "HIGH",
       "scope": "bank",
-      "bank": "JPMorgan",
       "headline": "JPMorgan is lead advisor on AES's $38.4B takeover by Global Infrastructure Partners",
-      "why_it_matters": "A take-private of this size means an enormous, time-pressured diligence process with a large lender group. Infrastructure and utility deals carry heavy regulatory documentation \u2014 exactly the kind of controlled, permissioned data environment that wins on execution speed.",
-      "suggested_action": "Reach out to the JPM deal team on lender-group access management \u2014 large infrastructure take-privates need differentiated permissions for dozens of lenders and regulators without manual setup for each.",
+      "why_it_matters": "A take-private of this size means an enormous, time-pressured diligence process with a large lender group. Infrastructure and utility deals carry heavy regulatory documentation — exactly the kind of controlled, permissioned data environment that wins on execution speed.",
+      "suggested_action": "Reach out to the JPM deal team on lender-group access management — large infrastructure take-privates need differentiated permissions for dozens of lenders and regulators without manual setup for each.",
       "deal_clock": [
         {
           "date": "Q1 2026",
@@ -138,6 +137,9 @@
         "industrials",
         "energy",
         "take-private"
+      ],
+      "banks": [
+        "JPMorgan"
       ]
     },
     {
@@ -145,7 +147,6 @@
       "category": "M&A",
       "urgency": "HIGH",
       "scope": "bank",
-      "bank": "Morgan Stanley",
       "headline": "Morgan Stanley advised Roku on its acquisition by FOX",
       "why_it_matters": "Media consolidation is back, and Morgan Stanley is on the sell-side of one of the quarter's marquee media deals. Sell-side processes of this profile generate parallel buyer diligence and a freshly freed-up team ready for the next mandate.",
       "suggested_action": "Reference the Roku process and ask whether the MS media/TMT team has parallel mandates opening where faster data room deployment would help compress the timeline.",
@@ -164,6 +165,9 @@
       "tags": [
         "technology",
         "media"
+      ],
+      "banks": [
+        "Morgan Stanley"
       ]
     },
     {
@@ -171,7 +175,6 @@
       "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Evercore",
       "headline": "Evercore is lead advisor on Jetro Restaurant Depot's $29.1B takeover by Sysco",
       "why_it_matters": "Evercore's M&A volume jumped 56% year-over-year, and large mandates like this signal a franchise actively building parallel buy-side pipeline. Completed processes mean teams rotating onto new mandates this quarter.",
       "suggested_action": "Congratulate the team on the Sysco process and ask about concurrent mandates where a faster, cleaner data room launch would help.",
@@ -190,6 +193,9 @@
       "tags": [
         "consumer",
         "food"
+      ],
+      "banks": [
+        "Evercore"
       ]
     },
     {
@@ -197,8 +203,8 @@
       "category": "DEALS",
       "urgency": "MEDIUM",
       "scope": "market",
-      "headline": "Megadeals drive US M&A value to $1.2T in five months \u2014 nearly double last year",
-      "why_it_matters": "PwC reports 39 deals of $5B+ announced in 2026 so far (up 50%+ year-over-year) even as overall deal count slipped 4%. The market is bifurcating: large, complex, multi-jurisdiction processes are where the activity \u2014 and the data room complexity \u2014 is concentrated.",
+      "headline": "Megadeals drive US M&A value to $1.2T in five months — nearly double last year",
+      "why_it_matters": "PwC reports 39 deals of $5B+ announced in 2026 so far (up 50%+ year-over-year) even as overall deal count slipped 4%. The market is bifurcating: large, complex, multi-jurisdiction processes are where the activity — and the data room complexity — is concentrated.",
       "suggested_action": "Focus pipeline energy on the megadeal end of the market. Position around handling scale and complexity, not per-seat cost.",
       "deal_clock": [
         {
@@ -218,9 +224,8 @@
       "category": "DEALS",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Goldman Sachs",
       "headline": "Goldman Sachs and Morgan Stanley are leading Anthropic's IPO",
-      "why_it_matters": "A landmark tech IPO reinforces the capital-markets revival \u2014 46 traditional IPOs raised $28.2B through May, more than double last year. IPO processes are document- and diligence-intensive across legal, financial, and regulatory workstreams.",
+      "why_it_matters": "A landmark tech IPO reinforces the capital-markets revival — 46 traditional IPOs raised $28.2B through May, more than double last year. IPO processes are document- and diligence-intensive across legal, financial, and regulatory workstreams.",
       "suggested_action": "Use the IPO revival as a conversation opener with ECM teams about secure, auditable diligence environments for live offerings.",
       "deal_clock": [
         {
@@ -233,6 +238,9 @@
       "tags": [
         "technology",
         "ipo"
+      ],
+      "banks": [
+        "Goldman Sachs"
       ]
     },
     {
@@ -240,7 +248,6 @@
       "category": "BANKING",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Jefferies",
       "headline": "Jefferies shares up 51% this quarter on accelerating sponsor activity",
       "why_it_matters": "A sharp re-rating reflects expectations of faster sponsor deal flow and strong execution at Jefferies. More sponsor-driven sell-side processes flowing through the bank means more time-sensitive data room needs.",
       "suggested_action": "Connect with Jefferies sponsor coverage while momentum is high. Sponsor sell-sides prize fast, repeatable, template-based data room setup.",
@@ -258,13 +265,15 @@
       "source_url": "https://www.cnbc.com/2026/06/17/stock-market-today-live-updates.html",
       "tags": [
         "sponsor-coverage"
+      ],
+      "banks": [
+        "Jefferies"
       ]
     }
   ],
   "opportunities": [
     {
       "id": "o1",
-      "bank": "JPMorgan",
       "sector": "Infrastructure",
       "urgency": "HOT",
       "headline": "Lead advisor on AES's $38.4B take-private by Global Infrastructure Partners",
@@ -279,15 +288,17 @@
           "event": "Regulatory review underway"
         }
       ],
-      "outreach_idea": "Lead with lender-group and regulator access management \u2014 large infrastructure take-privates need granular permissions without rebuilding setup for each party.",
+      "outreach_idea": "Lead with lender-group and regulator access management — large infrastructure take-privates need granular permissions without rebuilding setup for each party.",
       "outreach_draft": {
-        "subject": "AES / GIP process \u2014 lender & regulator diligence at scale",
-        "body": "Congratulations on the lead advisory role on the AES take-private. A $38B infrastructure process means lender diligence across a large syndicate plus a heavy regulatory documentation load, all on a tight clock.\n\nAt this scale, the data room setup is the difference between a clean process and weeks of manual access management. We help deal teams stand up differentiated permissions for dozens of lenders and regulators without rebuilding the room for each party.\n\nWorth a short conversation as the diligence phase ramps?\n\nBest,\n[Your Name]\nIntralinks \u00b7 SS&C Technologies"
-      }
+        "subject": "AES / GIP process — lender & regulator diligence at scale",
+        "body": "Congratulations on the lead advisory role on the AES take-private. A $38B infrastructure process means lender diligence across a large syndicate plus a heavy regulatory documentation load, all on a tight clock.\n\nAt this scale, the data room setup is the difference between a clean process and weeks of manual access management. We help deal teams stand up differentiated permissions for dozens of lenders and regulators without rebuilding the room for each party.\n\nWorth a short conversation as the diligence phase ramps?\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "banks": [
+        "JPMorgan"
+      ]
     },
     {
       "id": "o2",
-      "bank": "Morgan Stanley",
       "sector": "Media / TMT",
       "urgency": "HOT",
       "headline": "Sell-side advisor on Roku's acquisition by FOX",
@@ -304,17 +315,19 @@
       ],
       "outreach_idea": "Reference the Roku process and ask whether the TMT team has parallel mandates opening that would benefit from faster data room deployment.",
       "outreach_draft": {
-        "subject": "Roku process \u2014 supporting your next TMT mandate",
-        "body": "Congratulations on the Roku announcement \u2014 a high-profile media sell-side is a strong signal your TMT team is busy and rotating onto the next mandate.\n\nLarge sell-sides generate parallel buyer diligence fast. If the team is running or pitching concurrent processes, the question is whether the current data room setup can support compressed timelines.\n\nAre any of your live TMT processes working on tighter-than-usual clocks given the rate backdrop?\n\nBest,\n[Your Name]\nIntralinks \u00b7 SS&C Technologies"
-      }
+        "subject": "Roku process — supporting your next TMT mandate",
+        "body": "Congratulations on the Roku announcement — a high-profile media sell-side is a strong signal your TMT team is busy and rotating onto the next mandate.\n\nLarge sell-sides generate parallel buyer diligence fast. If the team is running or pitching concurrent processes, the question is whether the current data room setup can support compressed timelines.\n\nAre any of your live TMT processes working on tighter-than-usual clocks given the rate backdrop?\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "banks": [
+        "Morgan Stanley"
+      ]
     },
     {
       "id": "o3",
-      "bank": "Evercore",
       "sector": "Consumer / Food",
       "urgency": "WARM",
       "headline": "Lead advisor on Jetro Restaurant Depot's $29.1B sale to Sysco",
-      "why_it_matters": "Evercore's volume is up 56% YoY. Completed large mandates mean teams rotating onto new processes \u2014 the best moment to be in front of them on infrastructure.",
+      "why_it_matters": "Evercore's volume is up 56% YoY. Completed large mandates mean teams rotating onto new processes — the best moment to be in front of them on infrastructure.",
       "deal_clock": [
         {
           "date": "Q1 2026",
@@ -327,13 +340,15 @@
       ],
       "outreach_idea": "Congratulate on the Sysco process; ask about concurrent mandates where a cleaner, faster data room launch would help.",
       "outreach_draft": {
-        "subject": "Jetro / Sysco \u2014 accelerating your next process",
-        "body": "Congratulations on the Jetro / Sysco mandate. With Evercore's volume up sharply this year, I imagine the team is rotating onto new processes quickly.\n\nThat's usually the moment data room infrastructure gets revisited. If you have mandates opening where speed-to-launch matters, I'd welcome a short conversation on how we help teams stand up clean, permissioned rooms fast.\n\nBest,\n[Your Name]\nIntralinks \u00b7 SS&C Technologies"
-      }
+        "subject": "Jetro / Sysco — accelerating your next process",
+        "body": "Congratulations on the Jetro / Sysco mandate. With Evercore's volume up sharply this year, I imagine the team is rotating onto new processes quickly.\n\nThat's usually the moment data room infrastructure gets revisited. If you have mandates opening where speed-to-launch matters, I'd welcome a short conversation on how we help teams stand up clean, permissioned rooms fast.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "banks": [
+        "Evercore"
+      ]
     },
     {
       "id": "o4",
-      "bank": "Jefferies",
       "sector": "Sponsor Coverage",
       "urgency": "WARM",
       "headline": "Accelerating sponsor activity; shares up 51% on the quarter",
@@ -350,9 +365,12 @@
       ],
       "outreach_idea": "Connect with sponsor coverage while momentum is high; pitch fast, template-based room setup for back-to-back sponsor processes.",
       "outreach_draft": {
-        "subject": "Sponsor deal flow \u2014 fast room setup for back-to-back processes",
-        "body": "Noticed the momentum at Jefferies on the sponsor side this quarter. When sponsor sell-sides come in waves, the bottleneck is often standing up each new data room from scratch.\n\nWe help coverage teams template their setup so each new process launches in hours, not days, with permissions pre-configured for sponsor and buyer groups.\n\nWorth 15 minutes while activity is high?\n\nBest,\n[Your Name]\nIntralinks \u00b7 SS&C Technologies"
-      }
+        "subject": "Sponsor deal flow — fast room setup for back-to-back processes",
+        "body": "Noticed the momentum at Jefferies on the sponsor side this quarter. When sponsor sell-sides come in waves, the bottleneck is often standing up each new data room from scratch.\n\nWe help coverage teams template their setup so each new process launches in hours, not days, with permissions pre-configured for sponsor and buyer groups.\n\nWorth 15 minutes while activity is high?\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "banks": [
+        "Jefferies"
+      ]
     }
   ],
   "market_snapshot": {
@@ -377,11 +395,11 @@
       }
     ],
     "bank_stocks": [],
-    "macro_note": "Markets closed Fri Jun 19 for Juneteenth; values reflect the Jun 18 close. The Fed held rates but turned hawkish \u2014 a hike is now priced by October. A US\u2013Iran peace framework is pulling oil lower (WTI ~$75). US M&A value hit $1.2T in five months on a surge in $5B+ megadeals, even as deal count slipped 4% (PwC). Bank-stock quotes refresh with the daily automated update."
+    "macro_note": "Markets closed Fri Jun 19 for Juneteenth; values reflect the Jun 18 close. The Fed held rates but turned hawkish — a hike is now priced by October. A US–Iran peace framework is pulling oil lower (WTI ~$75). US M&A value hit $1.2T in five months on a surge in $5B+ megadeals, even as deal count slipped 4% (PwC). Bank-stock quotes refresh with the daily automated update."
   },
   "talking_point": {
     "quote": "With the Fed now leaning toward a hike by the fall, are your clients pulling deal timelines forward to lock financing while they can?",
     "use_with": "Sponsor and corporate advisory clients running live or near-term processes",
-    "context": "The hawkish Fed shift is the macro story of the week. This question reframes rate anxiety into a reason to move now \u2014 and a data room that can support a compressed timeline is part of that conversation."
+    "context": "The hawkish Fed shift is the macro story of the week. This question reframes rate anxiety into a reason to move now — and a data room that can support a compressed timeline is part of that conversation."
   }
 }

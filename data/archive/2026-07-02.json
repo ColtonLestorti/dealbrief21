@@ -171,7 +171,6 @@
       "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "JPMorgan",
       "headline": "JPMorgan named joint bookrunner on Jersey Mike's Subs' IPO filed today",
       "why_it_matters": "JPMorgan is one of three global coordinators and joint bookrunners — alongside Morgan Stanley and Jefferies — on Jersey Mike's Subs' Form S-1, filed with the SEC today. A live, same-day ECM mandate on a ~$12B-target consumer IPO is a timely, concrete reason to engage JPMorgan's ECM desk on diligence infrastructure for the roadshow and offering process ahead.",
       "suggested_action": "Reach out to JPMorgan's ECM coverage team about the Jersey Mike's offering specifically — early engagement on data room setup pays off once the roadshow timeline compresses.",
@@ -189,6 +188,11 @@
         "consumer",
         "ipo",
         "ecm"
+      ],
+      "banks": [
+        "JPMorgan",
+        "Morgan Stanley",
+        "Jefferies"
       ]
     },
     {
@@ -196,7 +200,6 @@
       "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Centerview Partners",
       "headline": "Centerview and RedBird remain lead advisors on Paramount's pending $110.9B WBD acquisition",
       "why_it_matters": "Centerview Partners and RedBird Advisors are the lead financial advisors to Paramount Skydance on its $110.9B all-cash acquisition of Warner Bros. Discovery — the biggest all-cash deal in corporate history, still working toward its Q3 2026 close pending regulatory clearance and a WBD shareholder vote. This remains one of the largest live, active advisory engagements on the Street, even though the advisor lineup itself was confirmed back in March — Centerview hasn't otherwise appeared in this desk's recent coverage.",
       "suggested_action": "Open a conversation with Centerview's media/TMT coverage team about diligence infrastructure for the WBD integration workstream as the deal moves through its final stretch toward close.",
@@ -218,6 +221,9 @@
         "media",
         "tmt",
         "cross-border"
+      ],
+      "banks": [
+        "Centerview Partners"
       ]
     },
     {
@@ -225,7 +231,6 @@
       "category": "BANKING",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Houlihan Lokey",
       "headline": "Houlihan Lokey to acquire energy-advisory boutique Intrepid Financial Partners",
       "why_it_matters": "Houlihan Lokey signed a deal on June 27 to acquire Intrepid Financial Partners, an independent investment bank focused on the energy sector, with close expected before September 30, 2026 pending regulatory approval. A strategic bolt-on acquisition signals HL is actively expanding capacity — exactly the moment new-team integration creates data-room and workflow-standardization needs.",
       "suggested_action": "Reach out to HL's corporate development and energy advisory teams about integrating Intrepid's active mandates onto a common diligence platform as the acquisition closes.",
@@ -246,6 +251,9 @@
       "tags": [
         "energy",
         "banking"
+      ],
+      "banks": [
+        "Houlihan Lokey"
       ]
     },
     {
@@ -253,7 +261,6 @@
       "category": "DEALS",
       "urgency": "LOW",
       "scope": "bank",
-      "bank": "Houlihan Lokey",
       "headline": "GoPro's board is reviewing strategic alternatives, with Houlihan Lokey in a tech advisory role",
       "why_it_matters": "GoPro's Board of Directors announced a review of strategic alternatives, and Houlihan Lokey has separately deepened its tech advisory presence with a GoPro-related mandate and hire. No sale or transaction has been confirmed — this is a rumored/pipeline situation, not an announced deal, and should be framed to clients as unconfirmed.",
       "suggested_action": "Flag the GoPro strategic review to HL's tech advisory contacts as an early-stage, unconfirmed situation worth a light-touch check-in — not yet a live process to pitch hard.",
@@ -270,6 +277,9 @@
       "tags": [
         "technology",
         "consumer"
+      ],
+      "banks": [
+        "Houlihan Lokey"
       ]
     },
     {
@@ -277,7 +287,6 @@
       "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Guggenheim Securities",
       "headline": "Guggenheim Securities advises Merck KGaA on its $11.3B acquisition of Bio-Techne",
       "why_it_matters": "Guggenheim Securities and J.P. Morgan are financial advisors to Merck KGaA, Darmstadt, Germany, on its definitive agreement to acquire Bio-Techne (Nasdaq: TECH) for $11.3B in cash — Merck's largest acquisition since the $17B Sigma-Aldrich deal in 2014. This is Guggenheim's first appearance in this desk's recent coverage — a real, current mandate on a sizeable cross-border life-sciences deal.",
       "suggested_action": "Open a conversation with Guggenheim's life sciences M&A team about diligence support for the Bio-Techne acquisition as it moves toward close.",
@@ -295,6 +304,9 @@
         "healthcare",
         "life-sciences",
         "cross-border"
+      ],
+      "banks": [
+        "Guggenheim Securities"
       ]
     },
     {
@@ -302,7 +314,6 @@
       "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Goldman Sachs",
       "headline": "Goldman Sachs is exclusive sell-side advisor to Bio-Techne on its $11.3B sale to Merck KGaA",
       "why_it_matters": "Goldman Sachs & Co. LLC is acting as exclusive financial advisor to Bio-Techne on the Merck KGaA acquisition — a real, current sell-side mandate on one of the largest life-sciences deals of the year, distinct from Goldman's earlier-covered megadeal work.",
       "suggested_action": "Reconnect with Goldman's life sciences coverage team on the Bio-Techne sell-side process specifically — a fresh, deal-specific angle for re-engagement.",
@@ -319,6 +330,9 @@
       "tags": [
         "healthcare",
         "life-sciences"
+      ],
+      "banks": [
+        "Goldman Sachs"
       ]
     },
     {
@@ -354,7 +368,6 @@
       "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Citi",
       "headline": "Citi is a joint bookrunner on the SpaceX IPO — history's largest",
       "why_it_matters": "Citi served as one of the joint bookrunners on SpaceX's ~$86B IPO, the largest in history. A live role on a deal of this scale and profile is a strong, current reason to engage — distinct from Citi's other coverage this quarter.",
       "suggested_action": "Reconnect with Citi's ECM desk specifically on the SpaceX syndicate role — a marquee, recent mandate worth referencing directly.",
@@ -371,6 +384,9 @@
       "tags": [
         "ipo",
         "ecm"
+      ],
+      "banks": [
+        "Citi"
       ]
     },
     {
@@ -378,7 +394,6 @@
       "category": "RESTRUCTURING",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "PJT Partners",
       "headline": "PJT Partners is investment banker to TPx Communications in its Chapter 11 case",
       "why_it_matters": "TPx Communications (U.S. TelePacific Corp.) filed Chapter 11 on June 28. PJT ran a prepetition sale process — contacting 65 potential buyers and receiving 9 bids — before the recapitalization path was chosen. Multi-party sale processes of this scale generate exactly the kind of tiered, auditable diligence access restructuring engagements need.",
       "suggested_action": "Connect with PJT's restructuring team on the TPx case specifically — a live Chapter 11 mandate with a documented multi-bidder process is a strong, current reason to engage.",
@@ -395,6 +410,9 @@
       "tags": [
         "restructuring",
         "telecom"
+      ],
+      "banks": [
+        "PJT Partners"
       ]
     },
     {
@@ -402,7 +420,6 @@
       "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "William Blair",
       "headline": "William Blair advises Thoma Bravo on strategic growth investment in padoa",
       "why_it_matters": "William Blair is financial advisor to Thoma Bravo on its pending strategic growth investment in padoa, alongside padoa's co-founders and existing shareholders Five Arrows and Kamet Ventures. Expected to close H2 2026 — a live, current mandate for a middle-market bank not otherwise in this desk's recent coverage.",
       "suggested_action": "Reach out to William Blair's sponsor coverage team about the padoa investment as it moves toward close in H2 2026.",
@@ -423,6 +440,9 @@
       "tags": [
         "technology",
         "private-equity"
+      ],
+      "banks": [
+        "William Blair"
       ]
     },
     {
@@ -430,7 +450,6 @@
       "category": "BANKING",
       "urgency": "LOW",
       "scope": "bank",
-      "bank": "Piper Sandler",
       "headline": "Piper Sandler advises on a $2.4B-asset community bank merger of equals",
       "why_it_matters": "Piper Sandler served as financial advisor and provided a fairness opinion to National Capital Bancorp in its merger of equals with ODNB Financial Corporation, creating a ~$2.4B-asset bank headquartered in Washington, D.C. A live, recently-announced mandate for a bank not otherwise in this desk's coverage this quarter.",
       "suggested_action": "Connect with Piper Sandler's FIG coverage team on the NACB/ODNB merger as integration diligence work ramps up.",
@@ -447,13 +466,15 @@
       "tags": [
         "banking",
         "fig"
+      ],
+      "banks": [
+        "Piper Sandler"
       ]
     }
   ],
   "opportunities": [
     {
       "id": "o1",
-      "bank": "Morgan Stanley",
       "sector": "Consumer / ECM",
       "urgency": "HOT",
       "headline": "Global coordinator and joint bookrunner on Jersey Mike's Subs' IPO, filed today",
@@ -472,11 +493,13 @@
         "source_url": "https://www.sec.gov/Archives/edgar/data/0002127043/000119312526293830/ck0002127043-20260702.htm",
         "published": "2026-07-02",
         "confidence": "Filed"
-      }
+      },
+      "banks": [
+        "Morgan Stanley"
+      ]
     },
     {
       "id": "o2",
-      "bank": "Jefferies",
       "sector": "Consumer / ECM",
       "urgency": "HOT",
       "headline": "Joint bookrunner on Jersey Mike's Subs' IPO, filed today",
@@ -495,11 +518,15 @@
         "source_url": "https://www.sec.gov/Archives/edgar/data/0002127043/000119312526293830/ck0002127043-20260702.htm",
         "published": "2026-07-02",
         "confidence": "Filed"
-      }
+      },
+      "banks": [
+        "Jefferies",
+        "JPMorgan",
+        "Morgan Stanley"
+      ]
     },
     {
       "id": "o3",
-      "bank": "JPMorgan",
       "sector": "Consumer / ECM",
       "urgency": "WARM",
       "headline": "Joint bookrunner on Jersey Mike's Subs' IPO, filed today",
@@ -518,11 +545,13 @@
         "source_url": "https://www.sec.gov/Archives/edgar/data/0002127043/000119312526293830/ck0002127043-20260702.htm",
         "published": "2026-07-02",
         "confidence": "Filed"
-      }
+      },
+      "banks": [
+        "JPMorgan"
+      ]
     },
     {
       "id": "o4",
-      "bank": "Centerview Partners",
       "sector": "Media / TMT",
       "urgency": "WARM",
       "headline": "Lead advisor on Paramount's pending $110.9B acquisition of Warner Bros. Discovery",
@@ -545,11 +574,13 @@
         "source_url": "https://www.canadianlawyermag.com/news/international/leading-us-firms-confirm-roles-in-watershed-us110-billion-paramount-warner-bros-discovery-merger/393786",
         "published": "2026-03-02",
         "confidence": "Reported"
-      }
+      },
+      "banks": [
+        "Centerview Partners"
+      ]
     },
     {
       "id": "o5",
-      "bank": "Houlihan Lokey",
       "sector": "Energy",
       "urgency": "WARM",
       "headline": "Acquiring energy-advisory boutique Intrepid Financial Partners — integration opportunity",
@@ -572,11 +603,13 @@
         "source_url": "https://www.businesswire.com/news/home/20260630315767/en/Houlihan-Lokey-to-Acquire-Intrepid-Financial-Partners",
         "published": "2026-06-30",
         "confidence": "Reported"
-      }
+      },
+      "banks": [
+        "Houlihan Lokey"
+      ]
     },
     {
       "id": "o6",
-      "bank": "Houlihan Lokey",
       "sector": "Technology",
       "urgency": "WARM",
       "headline": "Tech advisory mandate on GoPro's strategic alternatives review — unconfirmed, early stage",
@@ -595,11 +628,13 @@
         "source_url": "https://www.prnewswire.com/news-releases/gopro-board-of-directors-announces-review-of-strategic-alternatives-302768658.html",
         "published": "2026-05-17",
         "confidence": "Speculative"
-      }
+      },
+      "banks": [
+        "Houlihan Lokey"
+      ]
     },
     {
       "id": "o7",
-      "bank": "Guggenheim Securities",
       "sector": "Healthcare / Life Sciences",
       "urgency": "HOT",
       "headline": "Advising Merck KGaA on its $11.3B acquisition of Bio-Techne",
@@ -618,11 +653,13 @@
         "source_url": "https://www.prnewswire.com/news-releases/merck-kgaa-darmstadt-germany-agrees-to-acquire-bio-techne-strengthening-leadership-position-in-fast-growing-life-sciences-markets-302810602.html",
         "published": "2026-06-25",
         "confidence": "Reported"
-      }
+      },
+      "banks": [
+        "Guggenheim Securities"
+      ]
     },
     {
       "id": "o8",
-      "bank": "Goldman Sachs",
       "sector": "Healthcare / Life Sciences",
       "urgency": "WARM",
       "headline": "Exclusive sell-side advisor to Bio-Techne on its $11.3B sale to Merck KGaA",
@@ -641,11 +678,13 @@
         "source_url": "https://www.prnewswire.com/news-releases/merck-kgaa-darmstadt-germany-agrees-to-acquire-bio-techne-strengthening-leadership-position-in-fast-growing-life-sciences-markets-302810602.html",
         "published": "2026-06-25",
         "confidence": "Reported"
-      }
+      },
+      "banks": [
+        "Goldman Sachs"
+      ]
     },
     {
       "id": "o9",
-      "bank": "Citi",
       "sector": "Aerospace / ECM",
       "urgency": "HOT",
       "headline": "Joint bookrunner on the SpaceX IPO — history's largest",
@@ -664,11 +703,13 @@
         "source_url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026042639/spaceexplorationtechnologi.htm",
         "published": "2026-06-11",
         "confidence": "Filed"
-      }
+      },
+      "banks": [
+        "Citi"
+      ]
     },
     {
       "id": "o10",
-      "bank": "Barclays",
       "sector": "Aerospace / ECM",
       "urgency": "WARM",
       "headline": "Joint bookrunner on the SpaceX IPO — history's largest",
@@ -687,11 +728,13 @@
         "source_url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026042639/spaceexplorationtechnologi.htm",
         "published": "2026-06-11",
         "confidence": "Filed"
-      }
+      },
+      "banks": [
+        "Barclays"
+      ]
     },
     {
       "id": "o11",
-      "bank": "PJT Partners",
       "sector": "Telecom / Restructuring",
       "urgency": "WARM",
       "headline": "Investment banker to TPx Communications in its Chapter 11 case",
@@ -710,11 +753,13 @@
         "source_url": "https://www.tpx.com/press-release/tpx-announces-agreement-to-strengthen-financial-position-and-accelerate-growth/",
         "published": "2026-06-28",
         "confidence": "Filed"
-      }
+      },
+      "banks": [
+        "PJT Partners"
+      ]
     },
     {
       "id": "o12",
-      "bank": "William Blair",
       "sector": "Technology / Private Equity",
       "urgency": "WARM",
       "headline": "Advising Thoma Bravo on strategic growth investment in padoa",
@@ -737,11 +782,13 @@
         "source_url": "https://www.williamblair.com/News/Thoma-Bravo-and-padoa-Transaction",
         "published": "2026-06-24",
         "confidence": "Reported"
-      }
+      },
+      "banks": [
+        "William Blair"
+      ]
     },
     {
       "id": "o13",
-      "bank": "Piper Sandler",
       "sector": "Financial Institutions",
       "urgency": "WARM",
       "headline": "Advised National Capital Bancorp on its merger of equals with ODNB Financial",
@@ -760,7 +807,10 @@
         "source_url": "https://www.prnewswire.com/news-releases/odnb-financial-corporation-and-national-capital-bancorp-inc-announce-merger-of-equals-creating-a-top-tier-community-bank-headquartered-in-washington-dc-with-approximately-2-4-billion-in-total-assets-302800229.html",
         "published": "2026-06-15",
         "confidence": "Reported"
-      }
+      },
+      "banks": [
+        "Piper Sandler"
+      ]
     }
   ],
   "market_snapshot": {

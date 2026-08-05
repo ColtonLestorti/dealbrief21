@@ -46,7 +46,6 @@
       "category": "M&A",
       "urgency": "HIGH",
       "scope": "bank",
-      "bank": "Bank of America",
       "headline": "BofA advises on Brookfield's ~$7B acquisition of battery-storage platform Aypa Power from Blackstone",
       "why_it_matters": "Brookfield agreed to acquire Aypa Power, a leading North American battery-storage platform (~6.5 GW operating, 20 GW+ pipeline), from Blackstone at a ~$7B enterprise value. The release names Cantor Fitzgerald as lead adviser with BofA Securities also advising the seller side. A large sponsor-to-sponsor energy-infrastructure exit runs heavy asset, contract, and financing diligence.",
       "suggested_action": "Engage BofA's power & infrastructure coverage on the Aypa exit — a $7B sponsor-to-sponsor platform sale runs document-intensive asset and offtake diligence across many parties.",
@@ -64,6 +63,9 @@
         "energy",
         "battery-storage",
         "sponsor-exit"
+      ],
+      "banks": [
+        "Bank of America"
       ]
     },
     {
@@ -71,7 +73,6 @@
       "category": "M&A",
       "urgency": "HIGH",
       "scope": "bank",
-      "bank": "Bank of America",
       "headline": "BofA advises Platinum Equity on its $5.6B Peranel water & premium-beverages JV with Nestlé",
       "why_it_matters": "Platinum Equity and Nestlé agreed to create Peranel, a $5.6B (EUR 4.9B) water and premium-beverages leader, as a 50/50 joint venture carved out of Nestlé Waters. The release names BofA Securities as financial adviser to Platinum Equity (buyer). A large carve-out JV runs complex separation, TSA, and cross-border diligence into a 1H-2027 close.",
       "suggested_action": "Open with BofA's consumer/sponsors coverage on Peranel — carve-out JVs run heavy separation and TSA diligence across shared rooms through a long close.",
@@ -89,6 +90,9 @@
         "consumer",
         "carve-out",
         "cross-border"
+      ],
+      "banks": [
+        "Bank of America"
       ]
     },
     {
@@ -96,7 +100,6 @@
       "category": "M&A",
       "urgency": "HIGH",
       "scope": "bank",
-      "bank": "Morgan Stanley",
       "headline": "Morgan Stanley advises Simulations Plus on its $18.50/share, ~$375M take-private by Altaris",
       "why_it_matters": "Simulations Plus (SLP) agreed to be taken private by Altaris at $18.50/share in cash (~$375M, ~26% premium). The definitive proxy (DEFM14A) shows Morgan Stanley ran a formal auction — contacting 23 parties, 16 diligence processes — and delivered the fairness opinion to SLP's board (seller). A completed auction now advancing to the shareholder vote.",
       "suggested_action": "Reach out to Morgan Stanley's healthcare/tech coverage on Simulations Plus — a sponsor take-private out of a full auction runs concentrated confirmatory diligence into the vote.",
@@ -114,6 +117,9 @@
         "healthcare-tech",
         "take-private",
         "sponsor"
+      ],
+      "banks": [
+        "Morgan Stanley"
       ]
     },
     {
@@ -121,7 +127,6 @@
       "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Lazard",
       "headline": "Lazard and Houlihan Lokey advise LivePerson as its SoundHound AI stock merger heads to an Aug 20 vote",
       "why_it_matters": "A fresh Jul 23 proxy solicitation for SoundHound AI's acquisition of LivePerson (LPSN) confirms Lazard ran LivePerson's strategic-review/sale process and Houlihan Lokey delivered the fairness opinion (both target-side). Most holders receive SoundHound stock (~$3.33/share at announcement, ~22% premium) with a collar; a distressed-balance-sheet deal (secured noteholders taking a discount) advancing to a special meeting.",
       "suggested_action": "A special-meeting run-in is a clean reason to engage Lazard and Houlihan Lokey on secure, auditable diligence for a stock merger with a noteholder workstream.",
@@ -143,6 +148,10 @@
         "tech",
         "stock-merger",
         "distressed"
+      ],
+      "banks": [
+        "Lazard",
+        "Houlihan Lokey"
       ]
     },
     {
@@ -150,7 +159,6 @@
       "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Citi",
       "headline": "Citi advises Progress Software on its $400M acquisition of Domo's AI & data platform; Jefferies advises Domo",
       "why_it_matters": "Progress Software agreed to acquire Domo's AI and data-platform business for $400M in cash. The release names Citi as exclusive adviser to Progress (buyer) and Jefferies as exclusive adviser to Domo (seller). A carve-out asset purchase funded via cash and revolver runs two-sided diligence into a close by Progress's Nov-30 fiscal year-end.",
       "suggested_action": "Open with Citi's software coverage on Progress/Domo — an asset carve-out runs focused IP, data, and separation diligence on a tight fiscal-year timeline.",
@@ -168,6 +176,10 @@
         "tech",
         "software",
         "carve-out"
+      ],
+      "banks": [
+        "Citi",
+        "Jefferies"
       ]
     },
     {
@@ -175,7 +187,6 @@
       "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Evercore",
       "headline": "Evercore and Jefferies advise Nordic Capital on its sale of ArisGlobal to Dassault Systèmes",
       "why_it_matters": "Nordic Capital agreed to sell ArisGlobal, an AI-enabled life-sciences software platform (~$175M 2026 revenue), to Dassault Systèmes. The release names Evercore and Jefferies as advisers to the target/seller ArisGlobal. A sponsor software exit runs controlled, document-heavy diligence into a 2H-2026 close subject to regulatory clearance.",
       "suggested_action": "Engage Evercore's (and Jefferies's) tech/sponsors coverage on the ArisGlobal sale — a PE software exit is a strong secure sell-side diligence use case.",
@@ -193,6 +204,10 @@
         "tech",
         "life-sciences-software",
         "sponsor-exit"
+      ],
+      "banks": [
+        "Evercore",
+        "Jefferies"
       ]
     },
     {
@@ -200,7 +215,6 @@
       "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "RBC Capital Markets",
       "headline": "RBC (Richardson Barr) advises the seller on Matador's $1.275B Paloma Permian acquisition",
       "why_it_matters": "Matador Resources agreed to acquire Paloma Permian (an EnCap portfolio company) for $1.275B in cash, adding ~16,235 net Delaware Basin acres. The release names RBC Richardson Barr as adviser to the seller. A sizable upstream A&D deal runs reserves, title, and lender diligence, funded with cash and RBL borrowings into a Q4-2026 close.",
       "suggested_action": "Reach out to RBC's energy A&D coverage on Matador/Paloma — upstream acreage deals run heavy reserves and title diligence a data room is built for.",
@@ -218,6 +232,9 @@
         "energy",
         "upstream",
         "a-and-d"
+      ],
+      "banks": [
+        "RBC Capital Markets"
       ]
     },
     {
@@ -225,7 +242,6 @@
       "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Goldman Sachs",
       "headline": "Goldman and Wells Fargo advise Public Storage on its closed all-stock acquisition of National Storage Affiliates; Morgan Stanley advised NSA",
       "why_it_matters": "Public Storage closed its all-stock acquisition of National Storage Affiliates Trust (0.14 PS share per NSA share), backed by ~$2.0B secured mortgage plus $237M mezzanine JV financing. The release names Goldman Sachs and Wells Fargo advising Public Storage (buyer, and providing the financing) and Morgan Stanley advising NSA (target). A completed public-REIT combination with financing and JV workstreams.",
       "suggested_action": "Use the closed Public Storage/NSA deal as a post-close hook with Goldman's real estate coverage — integration and financing workstreams keep secure rooms active past signing.",
@@ -243,6 +259,11 @@
         "real-estate",
         "reit",
         "all-stock"
+      ],
+      "banks": [
+        "Goldman Sachs",
+        "Wells Fargo",
+        "Morgan Stanley"
       ]
     },
     {
@@ -250,7 +271,6 @@
       "category": "DEALS",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Morgan Stanley",
       "headline": "Morgan Stanley advises First Financial Bancorp on its ~$208M all-stock acquisition of Finward Bancorp; Stephens advises Finward",
       "why_it_matters": "First Financial Bancorp agreed to acquire Finward Bancorp in an all-stock deal (~$208M, 1.35 FFBC shares per Finward share). The Form 425 names Morgan Stanley as adviser to First Financial (buyer) and Stephens as adviser to Finward (target), which rendered the fairness opinion. A community-bank combination advancing to an S-4 and shareholder vote into a Q4-2026 close.",
       "suggested_action": "Reach out to Morgan Stanley's depositories/FIG coverage on First Financial/Finward — a signed bank merger runs two-sided diligence into the S-4 and vote.",
@@ -268,6 +288,9 @@
         "fig",
         "bank-merger",
         "stock"
+      ],
+      "banks": [
+        "Morgan Stanley"
       ]
     },
     {
@@ -275,7 +298,6 @@
       "category": "DEALS",
       "urgency": "LOW",
       "scope": "bank",
-      "bank": "Evercore",
       "headline": "Evercore advises Vita Coco on its $175M acquisition of coconut-supply firm Copra",
       "why_it_matters": "The Vita Coco Company agreed to acquire Copra, Inc. for $175M upfront (80% cash / 20% stock) plus a $45M-$100M earnout payable in 2029. The release names Evercore as adviser to Vita Coco (buyer). A vertical-integration acquisition that closed at announcement — a smaller but clean strategic-buyer diligence engagement.",
       "suggested_action": "A quick, closed strategic acquisition is a light-touch reason to stay in front of Evercore's consumer coverage on repeatable room setup for bolt-ons.",
@@ -293,6 +315,9 @@
         "consumer",
         "bolt-on",
         "vertical-integration"
+      ],
+      "banks": [
+        "Evercore"
       ]
     },
     {
@@ -300,7 +325,6 @@
       "category": "DEALS",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Stifel",
       "headline": "Stifel's KBW runs Five Star Bancorp's ~$113.6M common-stock offering; Stephens and Raymond James co-manage",
       "why_it_matters": "Five Star Bancorp (FSBC) priced a common-stock offering of 2,725,000 shares at $44.00 (~$113.6M net, plus an option). The release names Keefe, Bruyette & Woods (A Stifel Company) as sole bookrunner, with Stephens, D.A. Davidson, Raymond James and Brean Capital as co-managers. A bank-equity raise closing ~Jul 24 for growth and general corporate purposes.",
       "suggested_action": "Use the Five Star raise as an ECM hook with Stifel/KBW's depositories desk — bank follow-ons run coordinated underwriting and closing diligence.",
@@ -322,6 +346,10 @@
         "fig",
         "ecm",
         "follow-on"
+      ],
+      "banks": [
+        "Stifel",
+        "Raymond James"
       ]
     },
     {
@@ -329,7 +357,6 @@
       "category": "DEALS",
       "urgency": "LOW",
       "scope": "bank",
-      "bank": "Citi",
       "headline": "Citi is sole bookrunner on B&R Technology Merger Corp.'s $325M SPAC IPO",
       "why_it_matters": "B&R Technology Merger Corp., an AI-focused SPAC, completed a $325M IPO (32,500,000 units at $10.00). The release names Citigroup as sole book-running manager, with $325M held in trust and a 45-day over-allotment option. A sizable SPAC listing that will drive de-SPAC target diligence once a combination is identified.",
       "suggested_action": "Note Citi's sole-bookrunner SPAC IPO — the eventual de-SPAC target search is a downstream diligence conversation worth seeding early.",
@@ -347,6 +374,9 @@
         "tech",
         "spac",
         "ipo"
+      ],
+      "banks": [
+        "Citi"
       ]
     },
     {
@@ -365,7 +395,6 @@
   "opportunities": [
     {
       "id": "o1",
-      "bank": "Morgan Stanley",
       "sector": "Healthcare-Tech / Software",
       "urgency": "HOT",
       "headline": "Sell-side adviser to Simulations Plus on its $18.50/share, ~$375M take-private by Altaris",
@@ -387,11 +416,13 @@
       "confidence": "Filed",
       "first_seen": "2026-07-23",
       "last_confirmed": "2026-07-23",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Morgan Stanley"
+      ]
     },
     {
       "id": "o2",
-      "bank": "JPMorgan",
       "sector": "Healthcare / Biopharma",
       "urgency": "HOT",
       "headline": "Adviser (with Leerink) to Crinetics on its $85/share, all-cash sale to Vertex",
@@ -413,11 +444,15 @@
       "confidence": "Filed",
       "first_seen": "2026-07-22",
       "last_confirmed": "2026-07-22",
-      "carry_badge": "Day 2"
+      "carry_badge": "Day 2",
+      "banks": [
+        "JPMorgan",
+        "Morgan Stanley",
+        "Lazard"
+      ]
     },
     {
       "id": "o3",
-      "bank": "Morgan Stanley",
       "sector": "FIG / Insurance",
       "urgency": "HOT",
       "headline": "Adviser to Corebridge on its merger of equals with Equitable (Goldman advises Equitable)",
@@ -443,11 +478,14 @@
       "confidence": "Filed",
       "first_seen": "2026-07-22",
       "last_confirmed": "2026-07-22",
-      "carry_badge": "Day 2"
+      "carry_badge": "Day 2",
+      "banks": [
+        "Morgan Stanley",
+        "Goldman Sachs"
+      ]
     },
     {
       "id": "o4",
-      "bank": "Morgan Stanley",
       "sector": "Healthcare / Diagnostics",
       "urgency": "HOT",
       "headline": "Adviser to Tempus on its stock-for-stock acquisition of Personalis ($16.25/share cash election)",
@@ -469,11 +507,15 @@
       "confidence": "Filed",
       "first_seen": "2026-07-21",
       "last_confirmed": "2026-07-21",
-      "carry_badge": "Day 3"
+      "carry_badge": "Day 3",
+      "banks": [
+        "Morgan Stanley",
+        "Centerview Partners",
+        "TD Cowen"
+      ]
     },
     {
       "id": "o5",
-      "bank": "Bank of America",
       "sector": "Energy / Battery Storage",
       "urgency": "HOT",
       "headline": "Adviser (with Cantor) to Blackstone/Aypa on the ~$7B sale of Aypa Power to Brookfield",
@@ -495,11 +537,13 @@
       "confidence": "Reported",
       "first_seen": "2026-07-23",
       "last_confirmed": "2026-07-23",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Bank of America"
+      ]
     },
     {
       "id": "o6",
-      "bank": "Bank of America",
       "sector": "Consumer / Beverages",
       "urgency": "HOT",
       "headline": "Adviser to Platinum Equity on its $5.6B Peranel water & beverages JV with Nestlé",
@@ -521,11 +565,13 @@
       "confidence": "Reported",
       "first_seen": "2026-07-23",
       "last_confirmed": "2026-07-23",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Bank of America"
+      ]
     },
     {
       "id": "o7",
-      "bank": "Lazard",
       "sector": "Technology / Software",
       "urgency": "WARM",
       "headline": "Adviser (with Houlihan Lokey) to LivePerson on its stock merger with SoundHound AI (Aug 20 vote)",
@@ -551,11 +597,14 @@
       "confidence": "Filed",
       "first_seen": "2026-07-23",
       "last_confirmed": "2026-07-23",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Lazard",
+        "Houlihan Lokey"
+      ]
     },
     {
       "id": "o8",
-      "bank": "Citi",
       "sector": "Technology / Software",
       "urgency": "WARM",
       "headline": "Exclusive adviser to Progress Software on its $400M acquisition of Domo's AI & data platform",
@@ -577,11 +626,14 @@
       "confidence": "Reported",
       "first_seen": "2026-07-23",
       "last_confirmed": "2026-07-23",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Citi",
+        "Jefferies"
+      ]
     },
     {
       "id": "o9",
-      "bank": "Evercore",
       "sector": "Technology / Life-Sciences Software",
       "urgency": "WARM",
       "headline": "Adviser (with Jefferies) to Nordic Capital on the sale of ArisGlobal to Dassault Systèmes",
@@ -603,11 +655,14 @@
       "confidence": "Reported",
       "first_seen": "2026-07-23",
       "last_confirmed": "2026-07-23",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Evercore",
+        "Jefferies"
+      ]
     },
     {
       "id": "o10",
-      "bank": "RBC Capital Markets",
       "sector": "Energy / Upstream",
       "urgency": "WARM",
       "headline": "Sell-side adviser (RBC Richardson Barr) on Matador's $1.275B Paloma Permian acquisition",
@@ -629,11 +684,13 @@
       "confidence": "Reported",
       "first_seen": "2026-07-23",
       "last_confirmed": "2026-07-23",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "RBC Capital Markets"
+      ]
     },
     {
       "id": "o11",
-      "bank": "Stifel",
       "sector": "FIG / ECM",
       "urgency": "WARM",
       "headline": "Sole bookrunner (KBW) on Five Star Bancorp's ~$113.6M common-stock offering",
@@ -659,7 +716,11 @@
       "confidence": "Reported",
       "first_seen": "2026-07-23",
       "last_confirmed": "2026-07-23",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Stifel",
+        "Raymond James"
+      ]
     }
   ],
   "market_snapshot": {

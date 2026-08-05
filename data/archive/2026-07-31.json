@@ -45,7 +45,6 @@
       "category": "M&A",
       "urgency": "HIGH",
       "scope": "bank",
-      "bank": "JPMorgan",
       "headline": "JPMorgan advises Couche-Tard and Goldman advises Żabka on Couche-Tard’s ~$8.6B tender offer for the Polish convenience giant",
       "why_it_matters": "Alimentation Couche-Tard agreed to acquire a controlling stake in Żabka Group — the Warsaw-listed convenience-store operator — and launched a voluntary tender offer at PLN 32.00/share (~US$8.48), ~PLN 32.62B (~US$8.6B) equity value. The release names J.P. Morgan as exclusive financial adviser to Couche-Tard (buy-side, and lead arranger on the debt) and Goldman Sachs as exclusive financial adviser to Żabka (sell-side). A cross-border public tender for a listed retailer runs concentrated regulatory, financing, and confirmatory diligence toward the offer close.",
       "suggested_action": "Open with JPMorgan (Couche-Tard) and Goldman (Żabka) — a ~$8.6B cross-border tender for a listed retailer runs securities-regulator, financing, and confirmatory diligence a secure room is built for.",
@@ -63,6 +62,10 @@
         "retail",
         "cross-border",
         "tender-offer"
+      ],
+      "banks": [
+        "JPMorgan",
+        "Goldman Sachs"
       ]
     },
     {
@@ -70,7 +73,6 @@
       "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Goldman Sachs",
       "headline": "Goldman leads and Morgan Stanley advises Nscale on its acquisition of AI-compute platform Anyscale",
       "why_it_matters": "AI cloud provider Nscale agreed to acquire Anyscale — the AI-compute platform built by the creators of the open-source Ray framework — in a strategic combination (terms undisclosed), expected to close in H2 2026. The release names Goldman Sachs International as lead financial adviser and Morgan Stanley as financial adviser to Nscale (buy-side); Qatalyst advised Anyscale (sell-side). An AI-infrastructure roll-up runs IP, contract, and technical diligence across two fast-scaling platforms.",
       "suggested_action": "Engage Goldman and Morgan Stanley (Nscale) — an AI-infrastructure acquisition runs IP, customer-contract, and technical diligence a secure room keeps organized.",
@@ -88,6 +90,10 @@
         "technology",
         "ai-infrastructure",
         "merger"
+      ],
+      "banks": [
+        "Goldman Sachs",
+        "Morgan Stanley"
       ]
     },
     {
@@ -95,7 +101,6 @@
       "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "JPMorgan",
       "headline": "JPMorgan advises Group 1 Automotive on its ~$1.3B acquisition of Hennessy’s Atlanta dealership group",
       "why_it_matters": "Group 1 Automotive (GPI) agreed to acquire the Hennessy Automobile Companies dealership group in the Atlanta market for ~$1.3B (inclusive of blue sky, real estate, and operating assets; ~$1.7B annualized revenue), expected to close by year-end 2026. The release names J.P. Morgan as exclusive financial adviser to Group 1 (buy-side); Kerrigan Advisors advised Hennessy. A large multi-store dealership acquisition runs real-estate, OEM-approval, and operating diligence to close.",
       "suggested_action": "Reach out to JPMorgan (Group 1) — a ~$1.3B dealership-cluster acquisition runs real-estate, OEM-approval, and operating diligence a data room supports.",
@@ -113,6 +118,9 @@
         "auto-retail",
         "acquisition",
         "real-estate"
+      ],
+      "banks": [
+        "JPMorgan"
       ]
     },
     {
@@ -120,7 +128,6 @@
       "category": "M&A",
       "urgency": "LOW",
       "scope": "bank",
-      "bank": "Goldman Sachs",
       "headline": "Goldman and Harris Williams advise JT Thorpe as Truelink Capital agrees to acquire the industrial-services platform from H.I.G.",
       "why_it_matters": "Truelink Capital signed a definitive agreement to acquire JT Thorpe Group — a provider of mission-critical specialty industrial maintenance and thermal-management services — from H.I.G. Capital (terms undisclosed), Truelink’s third Fund II platform. The release names Goldman Sachs and Harris Williams as financial advisers to JT Thorpe (sell-side). A sponsor-to-sponsor buyout runs contract, safety-record, and QofE diligence to close.",
       "suggested_action": "Note Goldman/Harris Williams on the JT Thorpe sale — a sponsor-to-sponsor industrial-services buyout runs contract and quality-of-earnings diligence a secure room organizes.",
@@ -138,6 +145,10 @@
         "industrials",
         "sponsor",
         "buyout"
+      ],
+      "banks": [
+        "Goldman Sachs",
+        "Harris Williams"
       ]
     },
     {
@@ -145,7 +156,6 @@
       "category": "M&A",
       "urgency": "LOW",
       "scope": "bank",
-      "bank": "Piper Sandler",
       "headline": "Piper Sandler advises American Community Bancorp as Alma Bank agrees to acquire it, creating a ~$2B NY/NJ franchise",
       "why_it_matters": "Alma Bank agreed to acquire American Community Bank (American Community Bancorp), creating a ~$2.0B-asset community-banking franchise across New York and New Jersey (terms undisclosed). The release names Piper Sandler as financial adviser to American Community Bancorp (sell-side); Keefe, Bruyette & Woods advised Alma Bank. A community-bank merger runs regulatory-application and confirmatory diligence toward close.",
       "suggested_action": "Engage Piper Sandler (American Community Bancorp) — a community-bank combination runs regulatory-application and confirmatory diligence a data room supports.",
@@ -163,6 +173,9 @@
         "community-banking",
         "merger",
         "northeast"
+      ],
+      "banks": [
+        "Piper Sandler"
       ]
     },
     {
@@ -182,7 +195,6 @@
       "category": "M&A",
       "urgency": "HIGH",
       "scope": "bank",
-      "bank": "Guggenheim Securities",
       "headline": "Guggenheim advises Forte Biosciences on its ~$2.2B sale to argenx; Goldman advises argenx",
       "why_it_matters": "argenx SE agreed to acquire Forte Biosciences (FBRX) for $77.00/share (~$2.2B equity value, ~41% premium), adding first-in-class anti-CD122 antibody FB102 to argenx’s immunology pipeline. The release names Guggenheim Securities as exclusive financial adviser to Forte (sell-side) and Goldman Sachs International as exclusive adviser to argenx (buy-side). A public-company biotech take-out runs concentrated confirmatory and IP diligence toward a shareholder vote.",
       "suggested_action": "Engage Guggenheim (Forte) or Goldman (argenx) — a ~$2.2B antibody take-out advancing to a vote runs concentrated confirmatory and IP diligence a secure room organizes.",
@@ -200,6 +212,10 @@
         "biotech",
         "immunology",
         "take-out"
+      ],
+      "banks": [
+        "Guggenheim Securities",
+        "Goldman Sachs"
       ]
     },
     {
@@ -207,7 +223,6 @@
       "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Lazard",
       "headline": "Lazard advises Ripple Fiber on its sale to Eaton Fiber, backed by a $1.5B Bain/Tillman investment for Verizon fiber expansion",
       "why_it_matters": "Ripple Fiber agreed to be acquired by Eaton Fiber — a wholesale fiber platform funded by a $1.5B investment from Bain Capital Special Situations and Tillman Global Holdings, expanding Verizon’s residential/SMB fiber footprint. The release names Lazard as lead financial adviser to Ripple Fiber (sell-side). A fiber-infrastructure roll-up runs network-asset, contract, and financing diligence to close (expected before year-end 2026).",
       "suggested_action": "Reach out to Lazard (Ripple Fiber) — a sponsor-funded fiber-infrastructure acquisition runs network-asset and contract diligence a secure room keeps organized.",
@@ -225,6 +240,9 @@
         "telecom",
         "fiber-infrastructure",
         "sponsor"
+      ],
+      "banks": [
+        "Lazard"
       ]
     },
     {
@@ -232,7 +250,6 @@
       "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Perella Weinberg",
       "headline": "Perella Weinberg advises Repligen and Centerview advises BioLife on Repligen’s ~$1.5B acquisition of the bioprocessing-tools maker",
       "why_it_matters": "Repligen (RGEN) agreed to acquire BioLife Solutions (BLFS) for ~$1.5B ($31.00/share), expanding its cell-therapy bioprocessing platform. The release names Perella Weinberg and Goldman Sachs as financial advisers to Repligen (buy-side) and Centerview Partners as adviser to BioLife (sell-side). A life-sciences tools combination runs S-4 and confirmatory diligence toward close.",
       "suggested_action": "Engage Perella Weinberg (Repligen) or Centerview (BioLife) — a ~$1.5B life-sciences tools deal with two covered banks on opposite sides runs S-4 and confirmatory diligence a data room supports.",
@@ -250,6 +267,11 @@
         "life-sciences",
         "bioprocessing",
         "two-covered-banks"
+      ],
+      "banks": [
+        "Perella Weinberg",
+        "Centerview Partners",
+        "Goldman Sachs"
       ]
     },
     {
@@ -257,7 +279,6 @@
       "category": "M&A",
       "urgency": "LOW",
       "scope": "bank",
-      "bank": "Jefferies",
       "headline": "Jefferies advises Domo on the $400M sale of its AI & data-platform business to Progress Software",
       "why_it_matters": "Progress Software (PRGS) agreed to acquire Domo’s AI and data-platform business for $400M cash, strengthening Progress’s data-platform capabilities. The release names Jefferies as exclusive financial adviser to Domo (sell-side) and Citi as adviser to Progress (buy-side). A software carve-out/sale runs IP, customer-contract, and data-migration diligence to close.",
       "suggested_action": "Note Jefferies (Domo) — a $400M software-platform sale runs IP and customer-contract diligence a secure room organizes.",
@@ -275,6 +296,10 @@
         "software",
         "ai-data-platform",
         "carve-out"
+      ],
+      "banks": [
+        "Jefferies",
+        "Citi"
       ]
     },
     {
@@ -282,7 +307,6 @@
       "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Piper Sandler",
       "headline": "Piper Sandler advises M&F Bancorp as Optus Financial agrees to a >$105M merger, creating a ~$1.27B institution",
       "why_it_matters": "Optus Financial Corporation agreed to acquire M&F Bancorp (parent of Mechanics & Farmers Bank, the historic Durham, NC Black-owned bank) for more than $105M — up to $53.30/share in cash — creating a combined ~$1.27B institution. The release names Piper Sandler as financial adviser to M&F Bancorp (sell-side). A community-bank merger runs regulatory-application and confirmatory diligence toward close. (Distinct from the separate Alma Bank / American Community Bancorp deal Piper is also on.)",
       "suggested_action": "Engage Piper Sandler (M&F Bancorp) — a bank merger runs regulatory-application and confirmatory diligence a data room supports.",
@@ -300,6 +324,9 @@
         "community-banking",
         "merger",
         "middle-market"
+      ],
+      "banks": [
+        "Piper Sandler"
       ]
     },
     {
@@ -307,7 +334,6 @@
       "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Raymond James",
       "headline": "Raymond James advises Providence Equity on its significant investment in UK managed-IT provider SCG",
       "why_it_matters": "Providence Equity Partners agreed to make a significant investment in SCG — a UK provider of communications, connectivity and managed IT services to ~35,000 SMB customers (~900 employees across the UK and South Africa), with management retaining a stake and Ares as debt partner (terms undisclosed). The release names Raymond James as adviser to Providence (buy-side); Houlihan Lokey advised SCG (sell-side). A cross-border PE growth investment runs commercial, technical, and financing diligence to close.",
       "suggested_action": "Reach out to Raymond James (Providence) — a cross-border managed-services investment runs commercial and technical diligence a secure room organizes.",
@@ -325,6 +351,10 @@
         "managed-services",
         "cross-border",
         "sponsor"
+      ],
+      "banks": [
+        "Raymond James",
+        "Houlihan Lokey"
       ]
     },
     {
@@ -332,7 +362,6 @@
       "category": "M&A",
       "urgency": "LOW",
       "scope": "bank",
-      "bank": "Lincoln International",
       "headline": "Lincoln International advises PetIQ (Bansk Group) on its acquisition of pet muscle-health portfolio MYOS",
       "why_it_matters": "PetIQ, owned by Bansk Group, agreed to acquire MYOS Corp — a clinically studied portfolio of pet muscle-health products built on the patented Fortetropin ingredient (terms undisclosed). The release names Lincoln International as financial adviser to PetIQ and Bansk Group (buy-side). A consumer/animal-health bolt-on runs IP, formulation, and commercial diligence to close.",
       "suggested_action": "Note Lincoln International (PetIQ/Bansk) — a pet-health bolt-on runs IP and commercial diligence a data room supports.",
@@ -350,6 +379,9 @@
         "consumer-health",
         "pet-care",
         "bolt-on"
+      ],
+      "banks": [
+        "Lincoln International"
       ]
     },
     {
@@ -357,7 +389,6 @@
       "category": "M&A",
       "urgency": "LOW",
       "scope": "bank",
-      "bank": "Harris Williams",
       "headline": "Harris Williams advises Micross (Behrman Capital) on its cross-border acquisition of Germany's AEMtec",
       "why_it_matters": "Micross Components, backed by Behrman Capital, agreed to acquire AEMtec GmbH from Capiton AG — a German provider of high-reliability microelectronics, advanced packaging and optoelectronics — significantly expanding Micross's European footprint (terms undisclosed). The release names Harris Williams as exclusive financial adviser to Micross (buy-side). A cross-border industrials/microelectronics acquisition runs export-control, IP, and integration diligence to close.",
       "suggested_action": "Note Harris Williams (Micross) — a cross-border microelectronics acquisition runs export-control and IP diligence a secure room organizes.",
@@ -375,6 +406,9 @@
         "industrials",
         "microelectronics",
         "cross-border"
+      ],
+      "banks": [
+        "Harris Williams"
       ]
     },
     {
@@ -382,7 +416,6 @@
       "category": "M&A",
       "urgency": "LOW",
       "scope": "bank",
-      "bank": "Piper Sandler",
       "headline": "Baird and Piper Sandler on opposite sides as Vesterra Capital acquires facilities-maintenance platform PHFM",
       "why_it_matters": "Vesterra Capital Partners (formerly Comvest Private Equity) agreed to acquire PHFM — a tech-enabled facilities-maintenance platform — from Lincolnshire Management/Powerhouse (terms undisclosed). The release names Baird as adviser to Lincolnshire/Powerhouse (sell-side) and Citizens plus Piper Sandler as advisers to Vesterra (buy-side). A sponsor-to-sponsor business-services buyout runs contract, QofE, and integration diligence to close.",
       "suggested_action": "Engage Baird (Lincolnshire, sell) or Piper Sandler (Vesterra, buy) — a facilities-maintenance buyout with two covered banks runs contract and QofE diligence a data room supports.",
@@ -400,6 +433,10 @@
         "business-services",
         "sponsor",
         "two-covered-banks"
+      ],
+      "banks": [
+        "Piper Sandler",
+        "Baird"
       ]
     },
     {
@@ -407,7 +444,6 @@
       "category": "M&A",
       "urgency": "LOW",
       "scope": "bank",
-      "bank": "Piper Sandler",
       "headline": "Piper Sandler advises Delphinus Engineering on its growth investment from Bluestone Investment Partners",
       "why_it_matters": "Bluestone Investment Partners agreed to back Delphinus Engineering — a provider of naval maintenance and modernization / defense services (terms undisclosed). The release names Piper Sandler as Delphinus's sole sell-side financial adviser. A defense-services buyout runs contract, facility-security, and compliance diligence to close.",
       "suggested_action": "Note Piper Sandler (Delphinus) — a defense-services buyout runs contract and facility-security diligence a secure room organizes.",
@@ -425,6 +461,9 @@
         "defense",
         "naval-services",
         "sponsor"
+      ],
+      "banks": [
+        "Piper Sandler"
       ]
     },
     {
@@ -432,7 +471,6 @@
       "category": "M&A",
       "urgency": "LOW",
       "scope": "bank",
-      "bank": "Baird",
       "headline": "Baird advises ATOZ Services on Bregal Sagemount's majority growth investment in the fund administrator",
       "why_it_matters": "Bregal Sagemount agreed to acquire a majority stake in ATOZ Services — an international fund-services / fund-administration provider (terms undisclosed). The release names Baird as ATOZ Services' exclusive financial adviser (sell-side). A financial-services recapitalization runs regulatory, client-contract, and QofE diligence to close.",
       "suggested_action": "Engage Baird (ATOZ Services) — a fund-administration recap runs regulatory and client-contract diligence a data room supports.",
@@ -450,6 +488,9 @@
         "financial-services",
         "fund-administration",
         "recapitalization"
+      ],
+      "banks": [
+        "Baird"
       ]
     },
     {
@@ -457,7 +498,6 @@
       "category": "M&A",
       "urgency": "LOW",
       "scope": "bank",
-      "bank": "Lincoln International",
       "headline": "Lincoln International advises Crown Brands Group on its acquisition of Italian lingerie brand Cosabella from CALIDA",
       "why_it_matters": "Crown Brands Group agreed to acquire Cosabella — an Italian luxury lingerie brand — from Swiss-listed CALIDA GROUP in a cross-border carve-out (terms undisclosed). The release names Lincoln International as financial adviser to Crown Brands Group (buy-side). A cross-border consumer/apparel carve-out runs brand-IP, supply-chain, and integration diligence to close.",
       "suggested_action": "Note Lincoln International (Crown Brands) — a cross-border apparel carve-out runs brand-IP and supply-chain diligence a secure room organizes.",
@@ -475,6 +515,9 @@
         "consumer",
         "apparel",
         "cross-border"
+      ],
+      "banks": [
+        "Lincoln International"
       ]
     },
     {
@@ -482,7 +525,6 @@
       "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Citi",
       "headline": "Citi advises DroneDeploy and Goldman advises Procore on Procore’s ~$845M acquisition of the drone-mapping platform",
       "why_it_matters": "Procore Technologies (PCOR) agreed to acquire DroneDeploy — a construction drone-mapping and reality-capture software platform — for ~$845M in cash, announced Jul 29. The release names Citi as financial adviser to DroneDeploy (sell-side) and Goldman Sachs as exclusive financial adviser to Procore (buy-side). A construction-tech software acquisition runs IP, customer-contract, and data diligence to close.",
       "suggested_action": "Engage Citi (DroneDeploy) or Goldman (Procore) — an ~$845M construction-tech acquisition runs IP, customer-contract, and data diligence a secure room organizes.",
@@ -500,13 +542,16 @@
         "construction-tech",
         "software",
         "acquisition"
+      ],
+      "banks": [
+        "Citi",
+        "Goldman Sachs"
       ]
     }
   ],
   "opportunities": [
     {
       "id": "o1",
-      "bank": "Moelis",
       "sector": "Biopharma / Healthcare",
       "urgency": "HOT",
       "headline": "Adviser (with Centerview, Citi) to AtaiBeckley’s board on its $6.75 + CVR sale to Eli Lilly",
@@ -528,11 +573,16 @@
       "confidence": "Filed",
       "first_seen": "2026-07-30",
       "last_confirmed": "2026-07-30",
-      "carry_badge": "Day 2"
+      "carry_badge": "Day 2",
+      "banks": [
+        "Moelis",
+        "Citi",
+        "Centerview Partners",
+        "Goldman Sachs"
+      ]
     },
     {
       "id": "o2",
-      "bank": "Goldman Sachs",
       "sector": "Biopharma / Healthcare",
       "urgency": "HOT",
       "headline": "Buy-side adviser to Eli Lilly on its $6.75 + CVR acquisition of AtaiBeckley",
@@ -554,11 +604,13 @@
       "confidence": "Filed",
       "first_seen": "2026-07-30",
       "last_confirmed": "2026-07-30",
-      "carry_badge": "Day 2"
+      "carry_badge": "Day 2",
+      "banks": [
+        "Goldman Sachs"
+      ]
     },
     {
       "id": "o3",
-      "bank": "Goldman Sachs",
       "sector": "Utilities / Power",
       "urgency": "HOT",
       "headline": "Adviser (with JPMorgan) to Dominion Energy’s board on its stock-and-cash merger with NextEra",
@@ -580,11 +632,14 @@
       "confidence": "Filed",
       "first_seen": "2026-07-29",
       "last_confirmed": "2026-07-29",
-      "carry_badge": "Day 3"
+      "carry_badge": "Day 3",
+      "banks": [
+        "Goldman Sachs",
+        "JPMorgan"
+      ]
     },
     {
       "id": "o4",
-      "bank": "JPMorgan",
       "sector": "Retail / Convenience",
       "urgency": "HOT",
       "headline": "Buy-side adviser to Couche-Tard on its ~$8.6B tender offer for Żabka Group",
@@ -606,11 +661,14 @@
       "confidence": "Reported",
       "first_seen": "2026-07-31",
       "last_confirmed": "2026-07-31",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "JPMorgan",
+        "Goldman Sachs"
+      ]
     },
     {
       "id": "o5",
-      "bank": "Goldman Sachs",
       "sector": "Retail / Convenience",
       "urgency": "HOT",
       "headline": "Sell-side adviser to Żabka Group on its ~$8.6B sale of control to Couche-Tard",
@@ -632,10 +690,12 @@
       "confidence": "Reported",
       "first_seen": "2026-07-31",
       "last_confirmed": "2026-07-31",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Goldman Sachs"
+      ]
     },
     {
-      "bank": "Guggenheim Securities",
       "sector": "Biotech / Immunology",
       "urgency": "HOT",
       "headline": "Sell-side adviser to Forte Biosciences on its ~$2.2B sale to argenx",
@@ -658,11 +718,14 @@
       "first_seen": "2026-07-31",
       "last_confirmed": "2026-07-31",
       "id": "o6",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Guggenheim Securities",
+        "Goldman Sachs"
+      ]
     },
     {
       "id": "o7",
-      "bank": "Goldman Sachs",
       "sector": "Technology / AI Infrastructure",
       "urgency": "WARM",
       "headline": "Lead adviser (with Morgan Stanley) to Nscale on its acquisition of Anyscale",
@@ -684,11 +747,14 @@
       "confidence": "Reported",
       "first_seen": "2026-07-31",
       "last_confirmed": "2026-07-31",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Goldman Sachs",
+        "Morgan Stanley"
+      ]
     },
     {
       "id": "o8",
-      "bank": "JPMorgan",
       "sector": "Auto Retail",
       "urgency": "WARM",
       "headline": "Buy-side adviser to Group 1 Automotive on its ~$1.3B acquisition of Hennessy’s Atlanta dealerships",
@@ -710,11 +776,13 @@
       "confidence": "Reported",
       "first_seen": "2026-07-31",
       "last_confirmed": "2026-07-31",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "JPMorgan"
+      ]
     },
     {
       "id": "o9",
-      "bank": "Goldman Sachs",
       "sector": "Industrials / Business Services",
       "urgency": "WARM",
       "headline": "Sell-side adviser (with Harris Williams) to JT Thorpe on its sale to Truelink Capital",
@@ -736,11 +804,14 @@
       "confidence": "Reported",
       "first_seen": "2026-07-31",
       "last_confirmed": "2026-07-31",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Goldman Sachs",
+        "Harris Williams"
+      ]
     },
     {
       "id": "o10",
-      "bank": "Piper Sandler",
       "sector": "Community Banking",
       "urgency": "WARM",
       "headline": "Sell-side adviser to American Community Bancorp on its sale to Alma Bank",
@@ -762,10 +833,12 @@
       "confidence": "Reported",
       "first_seen": "2026-07-31",
       "last_confirmed": "2026-07-31",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Piper Sandler"
+      ]
     },
     {
-      "bank": "Lazard",
       "sector": "Telecom / Fiber Infrastructure",
       "urgency": "WARM",
       "headline": "Lead sell-side adviser to Ripple Fiber on its sale to Eaton Fiber (Bain/Tillman)",
@@ -788,10 +861,12 @@
       "first_seen": "2026-07-31",
       "last_confirmed": "2026-07-31",
       "id": "o11",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Lazard"
+      ]
     },
     {
-      "bank": "Perella Weinberg",
       "sector": "Life Sciences / Bioprocessing",
       "urgency": "WARM",
       "headline": "Buy-side adviser (with Goldman) to Repligen on its ~$1.5B acquisition of BioLife Solutions",
@@ -814,10 +889,14 @@
       "first_seen": "2026-07-31",
       "last_confirmed": "2026-07-31",
       "id": "o12",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Perella Weinberg",
+        "Goldman Sachs",
+        "Centerview Partners"
+      ]
     },
     {
-      "bank": "Centerview Partners",
       "sector": "Life Sciences / Bioprocessing",
       "urgency": "WARM",
       "headline": "Sell-side adviser to BioLife Solutions on its ~$1.5B sale to Repligen",
@@ -840,10 +919,14 @@
       "first_seen": "2026-07-31",
       "last_confirmed": "2026-07-31",
       "id": "o13",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Centerview Partners",
+        "Goldman Sachs",
+        "Perella Weinberg"
+      ]
     },
     {
-      "bank": "Jefferies",
       "sector": "Technology / Software",
       "urgency": "WARM",
       "headline": "Sell-side adviser to Domo on the $400M sale of its AI & data-platform business to Progress",
@@ -866,11 +949,14 @@
       "first_seen": "2026-07-31",
       "last_confirmed": "2026-07-31",
       "id": "o14",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Jefferies",
+        "Citi"
+      ]
     },
     {
       "id": "o15",
-      "bank": "Raymond James",
       "sector": "Technology / Managed Services",
       "urgency": "WARM",
       "headline": "Buy-side adviser to Providence Equity on its significant investment in UK managed-IT provider SCG",
@@ -892,11 +978,14 @@
       "confidence": "Reported",
       "first_seen": "2026-07-31",
       "last_confirmed": "2026-07-31",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Raymond James",
+        "Houlihan Lokey"
+      ]
     },
     {
       "id": "o16",
-      "bank": "Piper Sandler",
       "sector": "Community Banking",
       "urgency": "WARM",
       "headline": "Sell-side adviser to M&F Bancorp on its >$105M merger with Optus Financial",
@@ -918,11 +1007,13 @@
       "confidence": "Reported",
       "first_seen": "2026-07-31",
       "last_confirmed": "2026-07-31",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Piper Sandler"
+      ]
     },
     {
       "id": "o17",
-      "bank": "Lincoln International",
       "sector": "Consumer / Pet Health",
       "urgency": "WARM",
       "headline": "Buy-side adviser to PetIQ (Bansk Group) on its acquisition of pet muscle-health portfolio MYOS",
@@ -944,11 +1035,13 @@
       "confidence": "Reported",
       "first_seen": "2026-07-31",
       "last_confirmed": "2026-07-31",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Lincoln International"
+      ]
     },
     {
       "id": "o18",
-      "bank": "Harris Williams",
       "sector": "Industrials / Microelectronics",
       "urgency": "WARM",
       "headline": "Buy-side adviser to Micross (Behrman Capital) on its cross-border acquisition of AEMtec",
@@ -970,11 +1063,13 @@
       "confidence": "Reported",
       "first_seen": "2026-07-31",
       "last_confirmed": "2026-07-31",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Harris Williams"
+      ]
     },
     {
       "id": "o19",
-      "bank": "Piper Sandler",
       "sector": "Business Services",
       "urgency": "WARM",
       "headline": "Buy-side adviser (with Baird sell-side) as Vesterra Capital acquires facilities-maintenance platform PHFM",
@@ -996,11 +1091,14 @@
       "confidence": "Reported",
       "first_seen": "2026-07-31",
       "last_confirmed": "2026-07-31",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Piper Sandler",
+        "Baird"
+      ]
     },
     {
       "id": "o20",
-      "bank": "Baird",
       "sector": "Financial Services / Fund Administration",
       "urgency": "WARM",
       "headline": "Sell-side adviser to ATOZ Services on Bregal Sagemount's majority growth investment",
@@ -1022,11 +1120,13 @@
       "confidence": "Reported",
       "first_seen": "2026-07-31",
       "last_confirmed": "2026-07-31",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Baird"
+      ]
     },
     {
       "id": "o21",
-      "bank": "Piper Sandler",
       "sector": "Defense / Naval Services",
       "urgency": "WARM",
       "headline": "Sole sell-side adviser to Delphinus Engineering on its growth investment from Bluestone",
@@ -1048,11 +1148,13 @@
       "confidence": "Reported",
       "first_seen": "2026-07-31",
       "last_confirmed": "2026-07-31",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Piper Sandler"
+      ]
     },
     {
       "id": "o22",
-      "bank": "Lincoln International",
       "sector": "Consumer / Apparel",
       "urgency": "WARM",
       "headline": "Buy-side adviser to Crown Brands Group on its acquisition of Italian lingerie brand Cosabella",
@@ -1074,10 +1176,12 @@
       "confidence": "Reported",
       "first_seen": "2026-07-31",
       "last_confirmed": "2026-07-31",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Lincoln International"
+      ]
     },
     {
-      "bank": "Citi",
       "sector": "Technology / Construction Software",
       "urgency": "WARM",
       "headline": "Sell-side adviser to DroneDeploy on its ~$845M sale to Procore",
@@ -1100,7 +1204,11 @@
       "first_seen": "2026-07-31",
       "last_confirmed": "2026-07-31",
       "id": "o23",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Citi",
+        "Goldman Sachs"
+      ]
     }
   ],
   "market_snapshot": {

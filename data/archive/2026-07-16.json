@@ -46,7 +46,6 @@
       "category": "M&A",
       "urgency": "HIGH",
       "scope": "bank",
-      "bank": "Goldman Sachs",
       "headline": "Goldman advises Eli Lilly on its ~$2.8B acquisition of AtaiBeckley (up to ~$3.8B with CVRs)",
       "why_it_matters": "Eli Lilly signed a definitive agreement to acquire AtaiBeckley for ~$2.8B upfront ($6.75/share) plus up to ~$1.0B in milestone CVRs ($2.50/share), advancing therapies for treatment-resistant depression (candidates BPL-003, VLS-01). The release names Goldman Sachs as exclusive financial adviser to Lilly (the buyer). A large-cap biopharma acquisition with heavy scientific, regulatory, and CVR-structuring diligence.",
       "suggested_action": "Reach out to Goldman's healthcare/biopharma coverage on the Lilly/AtaiBeckley signing — a fresh large-cap CNS acquisition with a CVR structure is a document- and diligence-heavy use case.",
@@ -64,6 +63,9 @@
         "healthcare",
         "biopharma",
         "cns"
+      ],
+      "banks": [
+        "Goldman Sachs"
       ]
     },
     {
@@ -71,7 +73,6 @@
       "category": "M&A",
       "urgency": "HIGH",
       "scope": "bank",
-      "bank": "Moelis",
       "headline": "Moelis and Centerview advise AtaiBeckley on its ~$2.8B sale to Eli Lilly (Citi also advises the board)",
       "why_it_matters": "On the sell-side of Lilly's AtaiBeckley acquisition, the release names Moelis & Company and Centerview Partners as financial advisers to AtaiBeckley, with Citi also providing financial advice to the AtaiBeckley board. A multi-adviser large-cap biopharma sell-side with CVR consideration and cross-border (UK/US) diligence.",
       "suggested_action": "Engage Moelis's healthcare team on the AtaiBeckley sale — a multi-adviser biopharma sell-side spins up a controlled, multi-party diligence process immediately.",
@@ -89,6 +90,11 @@
         "healthcare",
         "biopharma",
         "sell-side"
+      ],
+      "banks": [
+        "Moelis",
+        "Citi",
+        "Centerview Partners"
       ]
     },
     {
@@ -96,7 +102,6 @@
       "category": "DEALS",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Evercore",
       "headline": "Evercore advises Big Brand Tire on its acquisition of Belle Tire (Jefferies advises Belle Tire)",
       "why_it_matters": "Big Brand Tire & Service signed a definitive agreement to acquire Belle Tire, creating a tire-and-auto-service platform with >$1.5B combined revenue, expected to close Q3 2026. The release names Evercore as exclusive financial adviser to Big Brand (buyer) and Jefferies as exclusive financial adviser to Belle Tire (seller). A sponsor-backed consumer/services consolidation with two-sided diligence.",
       "suggested_action": "Talk to Evercore's consumer/services coverage on the Belle Tire acquisition — a signed platform combination heading to a Q3 close is a live diligence and integration use case.",
@@ -114,6 +119,10 @@
         "consumer",
         "automotive",
         "sponsor"
+      ],
+      "banks": [
+        "Evercore",
+        "Jefferies"
       ]
     },
     {
@@ -121,7 +130,6 @@
       "category": "DEALS",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Jefferies",
       "headline": "Jefferies advises Belle Tire on its sale to Big Brand Tire & Service",
       "why_it_matters": "On the sell-side of the Big Brand/Belle Tire combination, the release names Jefferies as exclusive financial adviser to Belle Tire. A consumer/automotive-services sell-side to a strategic buyer, expected to close in Q3 2026 with active diligence now.",
       "suggested_action": "Reach out to Jefferies's sponsor/consumer coverage on the Belle Tire sale — a signed strategic sale is a concrete near-term diligence conversation.",
@@ -139,6 +147,9 @@
         "consumer",
         "automotive",
         "sell-side"
+      ],
+      "banks": [
+        "Jefferies"
       ]
     },
     {
@@ -146,7 +157,6 @@
       "category": "DEALS",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "JPMorgan",
       "headline": "Goldman, Jefferies and JPMorgan are placement agents on Wonder's $650M Series D ($9B pre-money)",
       "why_it_matters": "Food-tech company Wonder raised a $650M Series D at a $9B pre-money valuation, with new and existing investors (AllianceBernstein, ARK Invest, Kayne Anderson Rudnick, Accel, GV, NEA). The release names Goldman Sachs, Jefferies and J.P. Morgan as placement agents. A large late-stage private raise with investor-diligence and data-room workstreams.",
       "suggested_action": "Use the Wonder raise as a private-capital-markets hook with JPMorgan's (and Goldman's/Jefferies') placement teams — large late-stage rounds run controlled investor diligence that maps directly to secure data rooms.",
@@ -164,6 +174,11 @@
         "fintech",
         "capital-raise",
         "private"
+      ],
+      "banks": [
+        "JPMorgan",
+        "Goldman Sachs",
+        "Jefferies"
       ]
     },
     {
@@ -171,7 +186,6 @@
       "category": "M&A",
       "urgency": "HIGH",
       "scope": "bank",
-      "bank": "Evercore",
       "headline": "First Hawaiian/TriCo merger goes definitive; Evercore advises FHB, KBW (a Stifel company) advises TriCo",
       "why_it_matters": "First Hawaiian (NASDAQ: FHB) and TriCo Bancshares (NASDAQ: TCBK) signed a definitive agreement for First Hawaiian to acquire TriCo in an all-stock deal creating a leading Pacific banking franchise; the merger agreement (EX-2.1) was filed Jul 15. The press release names Evercore as financial adviser to First Hawaiian and Keefe, Bruyette & Woods (A Stifel Company) as financial adviser to TriCo. A signed public bank merger now advancing to the proxy/vote phase.",
       "suggested_action": "Reach out to Evercore's FIG team on the now-definitive TriCo deal — a signed bank merger triggers two-sided diligence and integration planning heading into the shareholder vote.",
@@ -193,6 +207,10 @@
         "fig",
         "bank-merger",
         "all-stock"
+      ],
+      "banks": [
+        "Evercore",
+        "Stifel"
       ]
     },
     {
@@ -211,7 +229,6 @@
   "opportunities": [
     {
       "id": "o1",
-      "bank": "Evercore",
       "sector": "FIG / Bank M&A",
       "urgency": "HOT",
       "headline": "Adviser to First Hawaiian on its all-stock acquisition of TriCo Bancshares",
@@ -237,11 +254,14 @@
       "confidence": "Filed",
       "first_seen": "2026-07-13",
       "last_confirmed": "2026-07-16",
-      "carry_badge": "Day 4"
+      "carry_badge": "Day 4",
+      "banks": [
+        "Evercore",
+        "Stifel"
+      ]
     },
     {
       "id": "o2",
-      "bank": "Goldman Sachs",
       "sector": "Healthcare / Biopharma",
       "urgency": "HOT",
       "headline": "Adviser to Apogee on AbbVie's $135.11/share cash acquisition",
@@ -263,11 +283,14 @@
       "confidence": "Filed",
       "first_seen": "2026-07-14",
       "last_confirmed": "2026-07-15",
-      "carry_badge": "Day 3"
+      "carry_badge": "Day 3",
+      "banks": [
+        "Goldman Sachs",
+        "Jefferies"
+      ]
     },
     {
       "id": "o3",
-      "bank": "Goldman Sachs",
       "sector": "Real Estate / REIT",
       "urgency": "HOT",
       "headline": "Adviser on the AvalonBay / Equity Residential all-stock REIT merger",
@@ -289,11 +312,13 @@
       "confidence": "Filed",
       "first_seen": "2026-07-14",
       "last_confirmed": "2026-07-14",
-      "carry_badge": "Day 3"
+      "carry_badge": "Day 3",
+      "banks": [
+        "Goldman Sachs"
+      ]
     },
     {
       "id": "o4",
-      "bank": "JPMorgan",
       "sector": "TMT / Take-private",
       "urgency": "HOT",
       "headline": "Adviser to IHS Holding board on MTN's $8.50/share cash take-private",
@@ -315,11 +340,13 @@
       "confidence": "Filed",
       "first_seen": "2026-07-13",
       "last_confirmed": "2026-07-13",
-      "carry_badge": "Day 4"
+      "carry_badge": "Day 4",
+      "banks": [
+        "JPMorgan"
+      ]
     },
     {
       "id": "o5",
-      "bank": "Goldman Sachs",
       "sector": "Healthcare / Biopharma",
       "urgency": "HOT",
       "headline": "Exclusive adviser to Eli Lilly on its ~$2.8B acquisition of AtaiBeckley",
@@ -341,11 +368,13 @@
       "confidence": "Reported",
       "first_seen": "2026-07-16",
       "last_confirmed": "2026-07-16",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Goldman Sachs"
+      ]
     },
     {
       "id": "o6",
-      "bank": "Moelis",
       "sector": "Healthcare / Biopharma",
       "urgency": "HOT",
       "headline": "Sell-side adviser (with Centerview) to AtaiBeckley on its ~$2.8B sale to Eli Lilly",
@@ -367,11 +396,15 @@
       "confidence": "Reported",
       "first_seen": "2026-07-16",
       "last_confirmed": "2026-07-16",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Moelis",
+        "Citi",
+        "Centerview Partners"
+      ]
     },
     {
       "id": "o7",
-      "bank": "Jefferies",
       "sector": "Consumer / Automotive Services",
       "urgency": "WARM",
       "headline": "Exclusive adviser to Belle Tire on its sale to Big Brand Tire & Service",
@@ -393,11 +426,14 @@
       "confidence": "Reported",
       "first_seen": "2026-07-16",
       "last_confirmed": "2026-07-16",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Jefferies",
+        "Evercore"
+      ]
     },
     {
       "id": "o8",
-      "bank": "JPMorgan",
       "sector": "Food Tech / Private Capital",
       "urgency": "WARM",
       "headline": "Placement agent (with Goldman, Jefferies) on Wonder's $650M Series D",
@@ -419,7 +455,12 @@
       "confidence": "Reported",
       "first_seen": "2026-07-16",
       "last_confirmed": "2026-07-16",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "JPMorgan",
+        "Goldman Sachs",
+        "Jefferies"
+      ]
     }
   ],
   "market_snapshot": {

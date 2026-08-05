@@ -58,7 +58,6 @@
       "category": "M&A",
       "urgency": "HIGH",
       "scope": "bank",
-      "bank": "Evercore",
       "headline": "Evercore advises First Hawaiian on its all-stock acquisition of TriCo Bancshares ($63.12/sh)",
       "why_it_matters": "First Hawaiian (FHB) announced today it will acquire TriCo Bancshares (NASDAQ: TCBK) in an all-stock deal — 2.095 FHB shares per TriCo share, ~$63.12/sh as of FHB's Jul 10 close — creating a leading Pacific banking franchise. Evercore is financial adviser to First Hawaiian; Keefe, Bruyette & Woods (a Stifel company) advises TriCo. A same-day, all-stock bank merger is a full diligence/integration workflow on both sides.",
       "suggested_action": "Reach out to Evercore's FIG coverage on the First Hawaiian/TriCo mandate — a freshly announced all-stock bank deal spins up two-sided diligence immediately.",
@@ -76,6 +75,10 @@
         "fig",
         "bank-m&a",
         "all-stock"
+      ],
+      "banks": [
+        "Evercore",
+        "Stifel"
       ]
     },
     {
@@ -83,7 +86,6 @@
       "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Stifel",
       "headline": "KBW (a Stifel company) advises TriCo Bancshares on its sale to First Hawaiian",
       "why_it_matters": "On the sell-side of the First Hawaiian/TriCo all-stock merger announced today, Keefe, Bruyette & Woods — A Stifel Company acts as financial adviser to TriCo. KBW/Stifel's FIG franchise is on the target side of a live public bank merger.",
       "suggested_action": "Engage Stifel/KBW's FIG team on the TriCo sell-side mandate — target-side diligence and shareholder-vote workflows start now.",
@@ -100,6 +102,9 @@
       "tags": [
         "fig",
         "sell-side"
+      ],
+      "banks": [
+        "Stifel"
       ]
     },
     {
@@ -107,7 +112,6 @@
       "category": "M&A",
       "urgency": "HIGH",
       "scope": "bank",
-      "bank": "JPMorgan",
       "headline": "JPMorgan advises IHS Holding board on MTN Group's $8.50/share cash take-private",
       "why_it_matters": "IHS Holding (NYSE: IHS) filed tender/merger materials for its acquisition by MTN Group at $8.50 in cash per ordinary share, funded partly by a $1.0B senior unsecured term loan. J.P. Morgan Securities is the board's financial adviser (Latham & Watkins, legal). A cross-border cash take-private of a listed towers company is a heavy, document-intensive process.",
       "suggested_action": "Talk to JPMorgan's TMT/telecom-infrastructure coverage on IHS — a cross-border cash take-private with debt financing is a strong diligence/data-room use case.",
@@ -129,6 +133,9 @@
         "tmt",
         "take-private",
         "cross-border"
+      ],
+      "banks": [
+        "JPMorgan"
       ]
     },
     {
@@ -136,7 +143,6 @@
       "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Morgan Stanley",
       "headline": "Morgan Stanley advises Real on its acquisition of RE/MAX to form Real REMAX Group",
       "why_it_matters": "RE/MAX Holdings (NYSE: RMAX) filed its definitive merger proxy for the combination with The Real Brokerage to create Real REMAX Group — RE/MAX holders can elect 5.150 New Wildlife shares or $13.80 cash (subject to $60-80M aggregate cash proration). Morgan Stanley advises Real (acquirer); J.P. Morgan advises RE/MAX. A cross-border, elect-cash-or-stock merger with two proxies is a complex diligence workflow.",
       "suggested_action": "Reach out to Morgan Stanley's coverage on the Real/RE/MAX combination — a definitive proxy just posted, and integration diligence is live.",
@@ -157,6 +163,9 @@
       "tags": [
         "real-estate",
         "cross-border"
+      ],
+      "banks": [
+        "Morgan Stanley"
       ]
     },
     {
@@ -164,7 +173,6 @@
       "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "JPMorgan",
       "headline": "JPMorgan advises RE/MAX on its sale to Real (definitive proxy filed)",
       "why_it_matters": "On the sell-side of the Real/RE/MAX combination, J.P. Morgan Securities is financial adviser to RE/MAX. With the DEFM14A now filed, the shareholder-vote and diligence phase is active on the target side.",
       "suggested_action": "Engage JPMorgan on the RE/MAX sell-side — target-side proxy and diligence workflows are underway.",
@@ -181,6 +189,9 @@
       "tags": [
         "real-estate",
         "sell-side"
+      ],
+      "banks": [
+        "JPMorgan"
       ]
     },
     {
@@ -188,7 +199,6 @@
       "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Bank of America",
       "headline": "BofA Securities advises Element Solutions on its merger; Goldman advises the acquirer",
       "why_it_matters": "Element Solutions (NYSE: ESI) filed its merger agreement (EX-2.1): holders receive 0.500 acquirer shares plus $10.00 cash per share. BofA Securities is financial adviser to Element Solutions (target); Goldman Sachs advises the parent/acquirer. A cash-and-stock specialty-chemicals merger with fairness opinions on both sides.",
       "suggested_action": "Reach out to BofA's chemicals/industrials coverage on Element Solutions — a signed cash-and-stock merger means diligence is live on the target side.",
@@ -205,6 +215,10 @@
       "tags": [
         "chemicals",
         "cash-and-stock"
+      ],
+      "banks": [
+        "Bank of America",
+        "Goldman Sachs"
       ]
     },
     {
@@ -212,7 +226,6 @@
       "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Goldman Sachs",
       "headline": "Goldman Sachs advises the acquirer of Element Solutions (cash-and-stock deal)",
       "why_it_matters": "In the Element Solutions merger filed Jul 9, Goldman Sachs & Co. is financial adviser to the parent/acquirer, which delivered a fairness opinion on the 0.500-share + $10.00-cash consideration. Buy-side advisory on a specialty-chemicals combination.",
       "suggested_action": "Talk to Goldman's chemicals/industrials team on the Element Solutions buy-side — acquirer diligence and financing workflows are active.",
@@ -229,6 +242,9 @@
       "tags": [
         "chemicals",
         "buy-side"
+      ],
+      "banks": [
+        "Goldman Sachs"
       ]
     },
     {
@@ -236,7 +252,6 @@
       "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Lazard",
       "headline": "Lazard and Houlihan Lokey advise LivePerson on its all-stock merger with SoundHound",
       "why_it_matters": "LivePerson (NASDAQ: LPSN) filed its definitive merger proxy for an all-stock combination with SoundHound AI — LivePerson holders receive SoundHound Class A shares. Lazard and Houlihan Lokey advised LivePerson on the deal. An AI-sector all-stock merger with a cross-listed (TASE) shareholder wrinkle.",
       "suggested_action": "Engage Lazard's tech/AI coverage on LivePerson/SoundHound — a definitive proxy is filed and the vote/diligence phase is live.",
@@ -258,6 +273,10 @@
         "tech",
         "ai",
         "all-stock"
+      ],
+      "banks": [
+        "Lazard",
+        "Houlihan Lokey"
       ]
     },
     {
@@ -265,7 +284,6 @@
       "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Morgan Stanley",
       "headline": "Morgan Stanley advises Simulations Plus on its $18.50/share cash sale",
       "why_it_matters": "Simulations Plus (NASDAQ: SLP) filed its preliminary merger proxy (PREM14A): holders receive $18.50 in cash per share. Morgan Stanley is the company's financial adviser and provided the fairness opinion after a process that drew inbound interest from multiple sponsors and strategics. A take-private of a life-sciences software name.",
       "suggested_action": "Reach out to Morgan Stanley on Simulations Plus — an all-cash take-private with an active sponsor field is a clean data-room use case.",
@@ -283,6 +301,9 @@
         "healthcare",
         "software",
         "take-private"
+      ],
+      "banks": [
+        "Morgan Stanley"
       ]
     },
     {
@@ -290,7 +311,6 @@
       "category": "RESTRUCTURING",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "RBC Capital Markets",
       "headline": "RBC advises Origin Materials as its board pursues strategic alternatives / wind-down",
       "why_it_matters": "Origin Materials (NASDAQ: ORGN) filed special-meeting materials disclosing it engaged Royal Bank of Canada (RBC) as strategic and financial adviser to canvass the market for transactions and evaluate strategic alternatives, alongside a possible liquidation distribution of $0.61-$3.54/share. A live strategic-alternatives mandate.",
       "suggested_action": "Talk to RBC on Origin Materials — a strategic-alternatives/wind-down process is exactly where controlled diligence access matters.",
@@ -307,13 +327,15 @@
       "tags": [
         "strategic-alternatives",
         "restructuring"
+      ],
+      "banks": [
+        "RBC Capital Markets"
       ]
     }
   ],
   "opportunities": [
     {
       "id": "o1",
-      "bank": "Evercore",
       "sector": "FIG / Bank M&A",
       "urgency": "HOT",
       "headline": "Adviser to First Hawaiian on its all-stock acquisition of TriCo Bancshares",
@@ -335,11 +357,13 @@
       "confidence": "Filed",
       "first_seen": "2026-07-13",
       "last_confirmed": "2026-07-13",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Evercore"
+      ]
     },
     {
       "id": "o2",
-      "bank": "JPMorgan",
       "sector": "TMT / Take-private",
       "urgency": "HOT",
       "headline": "Adviser to IHS Holding board on MTN's $8.50/share cash take-private",
@@ -361,11 +385,13 @@
       "confidence": "Filed",
       "first_seen": "2026-07-13",
       "last_confirmed": "2026-07-13",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "JPMorgan"
+      ]
     },
     {
       "id": "o3",
-      "bank": "Morgan Stanley",
       "sector": "Real Estate / Cross-border",
       "urgency": "HOT",
       "headline": "Adviser to Real on its acquisition of RE/MAX (definitive proxy filed)",
@@ -387,11 +413,13 @@
       "confidence": "Filed",
       "first_seen": "2026-07-13",
       "last_confirmed": "2026-07-13",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Morgan Stanley"
+      ]
     },
     {
       "id": "o4",
-      "bank": "RBC Capital Markets",
       "sector": "Space / ECM / Cross-border",
       "urgency": "HOT",
       "headline": "Joint lead bookrunner on MDA Space's US$819M raise funding the CLS acquisition",
@@ -417,11 +445,13 @@
       "confidence": "Reported",
       "first_seen": "2026-07-09",
       "last_confirmed": "2026-07-09",
-      "carry_badge": "Day 3"
+      "carry_badge": "Day 3",
+      "banks": [
+        "RBC Capital Markets"
+      ]
     },
     {
       "id": "o5",
-      "bank": "Jefferies",
       "sector": "Shipping / Contested M&A",
       "urgency": "HOT",
       "headline": "Financial adviser to Genco on the Diana Shipping hostile tender defense",
@@ -451,11 +481,14 @@
       "confidence": "Reported",
       "first_seen": "2026-07-09",
       "last_confirmed": "2026-07-09",
-      "carry_badge": "Day 3"
+      "carry_badge": "Day 3",
+      "banks": [
+        "Jefferies",
+        "Morgan Stanley"
+      ]
     },
     {
       "id": "o6",
-      "bank": "Guggenheim Securities",
       "sector": "Retail / Contested M&A",
       "urgency": "HOT",
       "headline": "Financial adviser to Destination XL on the Zodiac Partners II tender defense",
@@ -485,11 +518,13 @@
       "confidence": "Reported",
       "first_seen": "2026-07-09",
       "last_confirmed": "2026-07-09",
-      "carry_badge": "Day 3"
+      "carry_badge": "Day 3",
+      "banks": [
+        "Guggenheim Securities"
+      ]
     },
     {
       "id": "o7",
-      "bank": "Lazard",
       "sector": "Tech / AI",
       "urgency": "WARM",
       "headline": "Adviser to LivePerson on its all-stock merger with SoundHound AI",
@@ -511,11 +546,14 @@
       "confidence": "Filed",
       "first_seen": "2026-07-13",
       "last_confirmed": "2026-07-13",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Lazard",
+        "Houlihan Lokey"
+      ]
     },
     {
       "id": "o8",
-      "bank": "Bank of America",
       "sector": "Chemicals / Industrials",
       "urgency": "WARM",
       "headline": "Adviser to Element Solutions on its cash-and-stock merger",
@@ -537,11 +575,13 @@
       "confidence": "Filed",
       "first_seen": "2026-07-13",
       "last_confirmed": "2026-07-13",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Bank of America"
+      ]
     },
     {
       "id": "o9",
-      "bank": "RBC Capital Markets",
       "sector": "Strategic Alternatives",
       "urgency": "WARM",
       "headline": "Strategic and financial adviser to Origin Materials on strategic alternatives",
@@ -563,7 +603,10 @@
       "confidence": "Filed",
       "first_seen": "2026-07-13",
       "last_confirmed": "2026-07-13",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "RBC Capital Markets"
+      ]
     }
   ],
   "market_snapshot": {

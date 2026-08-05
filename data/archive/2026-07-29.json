@@ -45,7 +45,6 @@
       "category": "M&A",
       "urgency": "HIGH",
       "scope": "bank",
-      "bank": "Goldman Sachs",
       "headline": "Goldman and JPMorgan advise Dominion Energy’s board as NextEra files its stock-and-cash merger proxy (Lazard, BofA for NextEra)",
       "why_it_matters": "Dominion Energy (D) and NextEra Energy (NEE) filed a definitive joint proxy/prospectus (DEFM14A, Jul 28) for their merger, in which each Dominion share converts to 0.8138 NextEra shares plus a pro-rata portion of an aggregate $360M one-time cash payment (implied roughly $73–$76/share at signing). The filing names Goldman Sachs and J.P. Morgan as financial advisers to the Dominion board (Annex E / Annex F fairness opinions), with Lazard and BofA Securities advising NextEra (Annex C / Annex D). A mega-cap utility merger heading to dual shareholder votes runs one of the most document- and regulatory-intensive diligence processes in the market.",
       "suggested_action": "Engage Goldman’s and JPMorgan’s power & utilities coverage on Dominion/NextEra — a four-adviser mega-merger advancing to a vote runs concentrated confirmatory, regulatory (FERC/state PUC), and integration diligence a secure room is built for.",
@@ -63,6 +62,12 @@
         "utilities",
         "merger",
         "four-adviser"
+      ],
+      "banks": [
+        "Goldman Sachs",
+        "JPMorgan",
+        "Bank of America",
+        "Lazard"
       ]
     },
     {
@@ -70,7 +75,6 @@
       "category": "M&A",
       "urgency": "HIGH",
       "scope": "bank",
-      "bank": "Goldman Sachs",
       "headline": "Goldman advises CBIZ as Grant Thornton Advisors agrees to take it private for ~$5B; Evercore, JPMorgan among a deep buy-side roster",
       "why_it_matters": "Grant Thornton Advisors (backed by New Mountain Capital) agreed to acquire CBIZ (CBZ) in an all-cash take-private at $55.00/share (~$5B EV, ~54% premium to the 30-day VWAP), with a go-shop through Aug 27 and CBIZ’s Benefits & Insurance segment to be carved out into a standalone New Mountain-backed company. The release names Goldman Sachs advising CBIZ (sell-side); Deutsche Bank as lead adviser to Grant Thornton with J.P. Morgan, BMO, BofA Securities, RBC and UBS also buy-side; and Evercore advising New Mountain on the B&I carve-out. A large take-private plus a simultaneous carve-out runs two overlapping diligence tracks.",
       "suggested_action": "Open with Goldman (CBIZ), JPMorgan/BofA/UBS (Grant Thornton), or Evercore (the B&I carve-out) — a $5B take-private with a go-shop and a concurrent carve-out is a multi-room, multi-party diligence process through Q4.",
@@ -92,6 +96,12 @@
         "professional-services",
         "take-private",
         "carve-out"
+      ],
+      "banks": [
+        "Goldman Sachs",
+        "JPMorgan",
+        "Evercore",
+        "Deutsche Bank"
       ]
     },
     {
@@ -99,7 +109,6 @@
       "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "JPMorgan",
       "headline": "JPMorgan advises Blackbeard on the ~$2.2B combination of Permian Basin Royalty Trust with US Land Guild",
       "why_it_matters": "Permian Basin Royalty Trust (PBT) filed a Form 425 (Jul 29) on its ~$2.2B combination with US Land Guild to form PBT Land and Minerals, with PBT unitholders taking ~59% and Blackbeard/affiliates ~41% pro forma. The release names RBC Capital Markets and J.P. Morgan as financial advisers to Blackbeard (buy-side), with Stephens advising SoftVest. A royalty-trust roll-up into a new operating company runs asset, title, and reserve diligence toward a unitholder vote.",
       "suggested_action": "Engage JPMorgan’s energy/A&D coverage on the PBT combination — a royalty-to-operating-company conversion runs concentrated reserve and title diligence into the vote.",
@@ -117,6 +126,9 @@
         "energy",
         "royalty-trust",
         "combination"
+      ],
+      "banks": [
+        "JPMorgan"
       ]
     },
     {
@@ -124,7 +136,6 @@
       "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "PJT Partners",
       "headline": "PJT Partners advises Expand Energy on its $1.25B acquisition of Twin Eagle from Five Point; Lazard advises the seller",
       "why_it_matters": "Expand Energy (EXE) agreed to acquire natural-gas marketer Twin Eagle Holdings from Five Point Infrastructure for $1.25B cash, adding ~14 Bcf/d of marketing capacity to build what the parties call North America’s leading integrated natural gas company. The release names PJT Partners as exclusive adviser to Expand (buy-side) and Lazard as adviser to Twin Eagle/Five Point (sell-side). A midstream/marketing acquisition runs contract, credit, and counterparty diligence to close.",
       "suggested_action": "Reach out to PJT (Expand) and Lazard (Five Point) on Twin Eagle — a gas-marketing carve-out from a sponsor runs contract and counterparty diligence a secure room organizes.",
@@ -142,6 +153,10 @@
         "energy",
         "midstream",
         "sponsor-exit"
+      ],
+      "banks": [
+        "PJT Partners",
+        "Lazard"
       ]
     },
     {
@@ -149,7 +164,6 @@
       "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Lazard",
       "headline": "Lazard advises Wynnchurch on its $17.37/share take-private of Luxfer; Deutsche Bank advises Luxfer",
       "why_it_matters": "A Wynnchurch Capital affiliate agreed to take Luxfer Holdings (LXFR), a materials-technology maker, private in an all-cash deal at $17.37/share. The release names Deutsche Bank Securities advising Luxfer (sell-side) and Lazard advising Wynnchurch (buy-side). A cross-listed (US/UK) sponsor take-private runs confirmatory diligence and scheme/merger mechanics toward close.",
       "suggested_action": "Engage Lazard (Wynnchurch) on the Luxfer take-private — a sponsor buyout of a dual-jurisdiction materials maker runs confirmatory and regulatory diligence a data room supports.",
@@ -167,6 +181,10 @@
         "materials",
         "take-private",
         "sponsor"
+      ],
+      "banks": [
+        "Lazard",
+        "Deutsche Bank"
       ]
     },
     {
@@ -174,7 +192,6 @@
       "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Guggenheim Securities",
       "headline": "Guggenheim advises Katapult on its merger with CCFI/Aaron’s entities as a supplemental proxy sharpens the fairness disclosures",
       "why_it_matters": "Katapult Holdings (KPLT) filed a Form 425 (Jul 27) supplementing the fairness-opinion disclosures ahead of the stockholder vote on its merger with CCF Holdings/Aaron’s Intermediate Holdings (agreement dated Dec 11, 2025). The filing attributes the financial analyses to Guggenheim Securities, confirming Guggenheim as Katapult’s adviser delivering the fairness opinion (sell-side). A fintech/lease-to-own merger heading to a vote runs concentrated confirmatory diligence.",
       "suggested_action": "Note Guggenheim’s role on Katapult ahead of the vote — a supplemented proxy signals a live process worth a light-touch outreach on secure diligence support.",
@@ -192,6 +209,9 @@
         "fintech",
         "merger",
         "proxy"
+      ],
+      "banks": [
+        "Guggenheim Securities"
       ]
     },
     {
@@ -199,7 +219,6 @@
       "category": "M&A",
       "urgency": "LOW",
       "scope": "bank",
-      "bank": "Jefferies",
       "headline": "Jefferies, Guggenheim and UBS act as placement agents as Synlogic and Caldera merge with a $278M private placement",
       "why_it_matters": "Synlogic (SYBX) agreed to a reverse merger with private biotech Caldera Therapeutics, with the combined company led by Caldera and a concurrent upsized $278M private placement from healthcare institutions (Bain Capital Life Sciences, TCGX, Atlas Venture, venBio, Omega, Blackstone Multi-Asset, others). The release names Lucid Capital Markets advising Synlogic and Jefferies, TD Cowen, Guggenheim, UBS and LifeSci Capital as placement agents to Caldera. A biotech reverse merger plus a large PIPE runs parallel diligence and disclosure workstreams.",
       "suggested_action": "Reach out to Jefferies/Guggenheim/UBS healthcare coverage on Synlogic/Caldera — a reverse merger with a $278M PIPE runs concurrent diligence tracks a secure room keeps organized.",
@@ -217,6 +236,12 @@
         "biotech",
         "reverse-merger",
         "pipe"
+      ],
+      "banks": [
+        "Jefferies",
+        "UBS",
+        "Guggenheim Securities",
+        "TD Cowen"
       ]
     },
     {
@@ -235,7 +260,6 @@
   "opportunities": [
     {
       "id": "o1",
-      "bank": "Goldman Sachs",
       "sector": "Utilities / Power",
       "urgency": "HOT",
       "headline": "Adviser (with JPMorgan) to Dominion Energy’s board on its stock-and-cash merger with NextEra",
@@ -257,11 +281,14 @@
       "confidence": "Filed",
       "first_seen": "2026-07-29",
       "last_confirmed": "2026-07-29",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Goldman Sachs",
+        "JPMorgan"
+      ]
     },
     {
       "id": "o2",
-      "bank": "Evercore",
       "sector": "Industrials",
       "urgency": "HOT",
       "headline": "Adviser (with Goldman) to Arcosa's board on its $150/share, ~$5.4B take-private by CRH",
@@ -283,11 +310,14 @@
       "confidence": "Filed",
       "first_seen": "2026-07-28",
       "last_confirmed": "2026-07-28",
-      "carry_badge": "Day 2"
+      "carry_badge": "Day 2",
+      "banks": [
+        "Evercore",
+        "Goldman Sachs"
+      ]
     },
     {
       "id": "o3",
-      "bank": "Jefferies",
       "sector": "Shipping / Transportation",
       "urgency": "HOT",
       "headline": "Adviser (with Morgan Stanley) to Genco on its defense against Diana Shipping's $24.80 hostile tender",
@@ -309,11 +339,14 @@
       "confidence": "Filed",
       "first_seen": "2026-07-28",
       "last_confirmed": "2026-07-28",
-      "carry_badge": "Day 2"
+      "carry_badge": "Day 2",
+      "banks": [
+        "Jefferies",
+        "Morgan Stanley"
+      ]
     },
     {
       "id": "o4",
-      "bank": "Morgan Stanley",
       "sector": "Energy / Renewables",
       "urgency": "HOT",
       "headline": "Adviser (with Wells Fargo) to Greenbacker on its ~$350M sale to MN8 Energy",
@@ -335,11 +368,14 @@
       "confidence": "Filed",
       "first_seen": "2026-07-28",
       "last_confirmed": "2026-07-28",
-      "carry_badge": "Day 2"
+      "carry_badge": "Day 2",
+      "banks": [
+        "Morgan Stanley",
+        "Wells Fargo"
+      ]
     },
     {
       "id": "o5",
-      "bank": "Goldman Sachs",
       "sector": "Professional Services",
       "urgency": "HOT",
       "headline": "Sell-side adviser to CBIZ on its ~$5B take-private by Grant Thornton Advisors",
@@ -365,11 +401,13 @@
       "confidence": "Reported",
       "first_seen": "2026-07-29",
       "last_confirmed": "2026-07-29",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Goldman Sachs"
+      ]
     },
     {
       "id": "o6",
-      "bank": "JPMorgan",
       "sector": "Energy / Oil & Gas",
       "urgency": "WARM",
       "headline": "Adviser (with RBC) to Blackbeard on the ~$2.2B PBT / US Land Guild combination",
@@ -391,11 +429,14 @@
       "confidence": "Filed",
       "first_seen": "2026-07-29",
       "last_confirmed": "2026-07-29",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "JPMorgan",
+        "RBC Capital Markets"
+      ]
     },
     {
       "id": "o7",
-      "bank": "Guggenheim Securities",
       "sector": "Fintech / Specialty Finance",
       "urgency": "WARM",
       "headline": "Sell-side adviser to Katapult on its merger with CCFI/Aaron’s entities",
@@ -417,11 +458,13 @@
       "confidence": "Filed",
       "first_seen": "2026-07-29",
       "last_confirmed": "2026-07-29",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Guggenheim Securities"
+      ]
     },
     {
       "id": "o8",
-      "bank": "Evercore",
       "sector": "Insurance / Benefits",
       "urgency": "WARM",
       "headline": "Adviser to New Mountain on the carve-out of CBIZ’s Benefits & Insurance segment",
@@ -443,11 +486,13 @@
       "confidence": "Reported",
       "first_seen": "2026-07-29",
       "last_confirmed": "2026-07-29",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Evercore"
+      ]
     },
     {
       "id": "o9",
-      "bank": "PJT Partners",
       "sector": "Energy / Midstream",
       "urgency": "WARM",
       "headline": "Exclusive adviser to Expand Energy on its $1.25B acquisition of Twin Eagle",
@@ -469,11 +514,14 @@
       "confidence": "Reported",
       "first_seen": "2026-07-29",
       "last_confirmed": "2026-07-29",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "PJT Partners",
+        "Lazard"
+      ]
     },
     {
       "id": "o10",
-      "bank": "Lazard",
       "sector": "Materials / Industrials",
       "urgency": "WARM",
       "headline": "Adviser to Wynnchurch on its $17.37/share take-private of Luxfer",
@@ -495,7 +543,11 @@
       "confidence": "Reported",
       "first_seen": "2026-07-29",
       "last_confirmed": "2026-07-29",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Lazard",
+        "Deutsche Bank"
+      ]
     }
   ],
   "market_snapshot": {

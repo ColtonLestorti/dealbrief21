@@ -45,7 +45,6 @@
       "category": "M&A",
       "urgency": "HIGH",
       "scope": "bank",
-      "bank": "Goldman Sachs",
       "headline": "Goldman advises Integer on its ~$5.7B take-private by KKR; Centerview, Barclays, Citi and Raymond James advise KKR",
       "why_it_matters": "KKR agreed to acquire Integer Holdings (NYSE: ITGR) — a leading medical-device contract developer/manufacturer (CDMO) — in an all-cash deal at $127.00/share, ~$5.7B enterprise value (a ~51.8% premium to Integer’s Apr 29 unaffected price), following a board-led strategic review. The release names Goldman Sachs as Integer’s exclusive financial adviser (sell-side); Centerview Partners, Barclays, Citi and Raymond James advise KKR (buy-side); Citi, KKR Capital Markets, Barclays, UBS and Jefferies are lead arrangers on the debt financing. A sponsor take-private of a regulated device maker runs lender-syndicate, FDA/quality-system and confirmatory diligence to close.",
       "suggested_action": "Open with Goldman (Integer) and the KKR adviser group (Centerview / Barclays / Citi / Raymond James) — a ~$5.7B device-CDMO take-private runs lender-group, regulatory and confirmatory diligence a secure room is built for.",
@@ -64,6 +63,15 @@
         "medical-devices",
         "sponsor",
         "take-private"
+      ],
+      "banks": [
+        "Goldman Sachs",
+        "Citi",
+        "Barclays",
+        "Centerview Partners",
+        "Raymond James",
+        "UBS",
+        "Jefferies"
       ]
     },
     {
@@ -71,7 +79,6 @@
       "category": "M&A",
       "urgency": "HIGH",
       "scope": "bank",
-      "bank": "Morgan Stanley",
       "headline": "Morgan Stanley and BofA advise Lantheus; Jefferies, JPMorgan and PJT advise Curium on the up-to-$8.0B take-private",
       "why_it_matters": "Curium (the CapVest-backed radiopharmaceutical group) agreed to acquire and take private Lantheus Holdings (Nasdaq: LNTH) for up to $114.50/share — $102.50 cash at closing plus up to $12.00 in CVRs tied to commercial milestones — an aggregate transaction value up to $8.0B (a 38% premium to the 60-day VWAP). The release names Morgan Stanley as lead financial adviser to Lantheus with BofA Securities and Solomon Partners (sell-side); Jefferies as lead adviser to Curium with J.P. Morgan and PJT Partners (buy-side). A cross-border radiopharma combination with a CVR runs milestone-tracking, antitrust and confirmatory diligence toward a 1H 2027 close.",
       "suggested_action": "Engage Morgan Stanley / BofA (Lantheus) and Jefferies / JPMorgan / PJT (Curium) — an up-to-$8.0B CVR-structured take-private runs milestone and regulatory diligence a secure room organizes.",
@@ -90,6 +97,13 @@
         "radiopharmaceuticals",
         "take-private",
         "cvr"
+      ],
+      "banks": [
+        "Morgan Stanley",
+        "Bank of America",
+        "JPMorgan",
+        "PJT Partners",
+        "Jefferies"
       ]
     },
     {
@@ -97,7 +111,6 @@
       "category": "M&A",
       "urgency": "HIGH",
       "scope": "bank",
-      "bank": "Jefferies",
       "headline": "Jefferies and Piper Sandler advise Indivior, Wells Fargo advises Supernus on their all-stock merger of equals (~$2.2B combined revenue)",
       "why_it_matters": "Supernus Pharmaceuticals (Nasdaq: SUPN) and Indivior Pharmaceuticals (Nasdaq: INDV) agreed to combine in a tax-free all-stock merger of equals, creating a diversified CNS biopharmaceutical company with ~$2.2B combined annual revenue and $125M of expected cost synergies; the combined company keeps the Supernus name and SUPN ticker, and Indivior holders receive a $1.0B special cash dividend (1.5401 exchange ratio). The release names Cantor Fitzgerald (lead) and Wells Fargo as advisers to Supernus; Jefferies and Piper Sandler as joint advisers to Indivior, with Citi also advising Indivior and Citibank providing a $650M term loan. A merger of equals runs dual-company diligence, S-4 registration and integration workstreams.",
       "suggested_action": "Reach out to Wells Fargo (Supernus) and Jefferies / Piper Sandler / Citi (Indivior) — an all-stock MoE runs dual-company confirmatory diligence and S-4 workstreams a secure room keeps organized.",
@@ -115,6 +128,12 @@
         "healthcare",
         "biopharma",
         "merger-of-equals"
+      ],
+      "banks": [
+        "Jefferies",
+        "Wells Fargo",
+        "Piper Sandler",
+        "Citi"
       ]
     },
     {
@@ -122,7 +141,6 @@
       "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "Evercore",
       "headline": "Evercore and Goldman advise Arcosa’s board as it files a definitive proxy for its $150/share cash sale to CRH",
       "why_it_matters": "Arcosa (NYSE: ACA) filed a definitive proxy (DEFM14A) on Aug 3 for its all-cash acquisition by CRH Americas at $150.00/share, with a special stockholder meeting set for Sep 4, 2026. The filing names Evercore and Goldman Sachs as financial advisers to the Arcosa board. A signed public-company sale moving to a shareholder vote runs SEC-review, financing and confirmatory diligence through close — the window where secure-room activity peaks.",
       "suggested_action": "Note Evercore/Goldman (Arcosa) — a signed $150/share cash sale heading to a Sep 4 vote runs SEC-review and confirmatory diligence a data room supports through close.",
@@ -148,6 +166,10 @@
         "industrials",
         "infrastructure",
         "take-private"
+      ],
+      "banks": [
+        "Evercore",
+        "Goldman Sachs"
       ]
     },
     {
@@ -155,7 +177,6 @@
       "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
-      "bank": "JPMorgan",
       "headline": "JPMorgan and Leerink advise Crinetics as it files a definitive proxy for its $85/share cash sale to Vertex",
       "why_it_matters": "Crinetics Pharmaceuticals (Nasdaq: CRNX) filed a definitive proxy (DEFM14A) on Jul 31 for its all-cash acquisition by Vertex Pharmaceuticals at $85.00/share. The filing names J.P. Morgan and Leerink Partners as Crinetics’ financial advisers. A signed biopharma take-out moving to a vote runs milestone, IP and confirmatory diligence toward close.",
       "suggested_action": "Engage JPMorgan (Crinetics) — a signed $85/share biopharma take-out advancing to a vote runs IP and confirmatory diligence a secure room organizes.",
@@ -173,6 +194,9 @@
         "healthcare",
         "biopharma",
         "take-private"
+      ],
+      "banks": [
+        "JPMorgan"
       ]
     },
     {
@@ -180,7 +204,6 @@
       "category": "M&A",
       "urgency": "LOW",
       "scope": "bank",
-      "bank": "Jefferies",
       "headline": "Jefferies advises Carrier on the completed sale of its NORESCO energy-services business to OPTERRA (LS Power)",
       "why_it_matters": "Carrier Global (NYSE: CARR) completed the sale of its NORESCO business — an energy-efficiency and infrastructure services provider — to OPTERRA Energy Services, a subsidiary of LS Power (terms undisclosed). The release names Jefferies as financial adviser to Carrier (sell-side). A corporate carve-out to an infrastructure buyer runs contract, project-backlog and TSA diligence — a natural data-room use case even on a completed deal, as integration and post-close workstreams begin.",
       "suggested_action": "Note Jefferies (Carrier) on the NORESCO carve-out — divestitures to infrastructure buyers run contract and TSA diligence a secure room supports through separation.",
@@ -198,6 +221,9 @@
         "industrials",
         "energy-services",
         "carve-out"
+      ],
+      "banks": [
+        "Jefferies"
       ]
     },
     {
@@ -215,7 +241,6 @@
   ],
   "opportunities": [
     {
-      "bank": "Jefferies",
       "sector": "Healthcare / Biopharma",
       "urgency": "HOT",
       "headline": "Joint adviser (with Piper Sandler, Citi) to Indivior on its all-stock merger of equals with Supernus",
@@ -238,10 +263,14 @@
       "first_seen": "2026-08-03",
       "last_confirmed": "2026-08-03",
       "id": "o1",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Jefferies",
+        "Citi",
+        "Piper Sandler"
+      ]
     },
     {
-      "bank": "Wells Fargo",
       "sector": "Healthcare / Biopharma",
       "urgency": "HOT",
       "headline": "Adviser (with Cantor Fitzgerald) to Supernus on its all-stock merger of equals with Indivior",
@@ -264,11 +293,13 @@
       "first_seen": "2026-08-03",
       "last_confirmed": "2026-08-03",
       "id": "o2",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Wells Fargo"
+      ]
     },
     {
       "id": "o3",
-      "bank": "Moelis",
       "sector": "Biopharma / Healthcare",
       "urgency": "HOT",
       "headline": "Adviser (with Centerview, Citi) to AtaiBeckley’s board on its $6.75 + CVR sale to Eli Lilly",
@@ -290,11 +321,16 @@
       "confidence": "Filed",
       "first_seen": "2026-07-30",
       "last_confirmed": "2026-07-30",
-      "carry_badge": "Day 3"
+      "carry_badge": "Day 3",
+      "banks": [
+        "Moelis",
+        "Citi",
+        "Centerview Partners",
+        "Goldman Sachs"
+      ]
     },
     {
       "id": "o4",
-      "bank": "Goldman Sachs",
       "sector": "Biopharma / Healthcare",
       "urgency": "HOT",
       "headline": "Buy-side adviser to Eli Lilly on its $6.75 + CVR acquisition of AtaiBeckley",
@@ -316,11 +352,13 @@
       "confidence": "Filed",
       "first_seen": "2026-07-30",
       "last_confirmed": "2026-07-30",
-      "carry_badge": "Day 3"
+      "carry_badge": "Day 3",
+      "banks": [
+        "Goldman Sachs"
+      ]
     },
     {
       "id": "o5",
-      "bank": "Goldman Sachs",
       "sector": "Utilities / Power",
       "urgency": "HOT",
       "headline": "Adviser (with JPMorgan) to Dominion Energy’s board on its stock-and-cash merger with NextEra",
@@ -342,10 +380,13 @@
       "confidence": "Filed",
       "first_seen": "2026-07-29",
       "last_confirmed": "2026-07-29",
-      "carry_badge": "Day 4"
+      "carry_badge": "Day 4",
+      "banks": [
+        "Goldman Sachs",
+        "JPMorgan"
+      ]
     },
     {
-      "bank": "Goldman Sachs",
       "sector": "Healthcare / Medical Devices",
       "urgency": "HOT",
       "headline": "Exclusive sell-side adviser to Integer on its ~$5.7B take-private by KKR",
@@ -368,10 +409,12 @@
       "first_seen": "2026-08-03",
       "last_confirmed": "2026-08-03",
       "id": "o6",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Goldman Sachs"
+      ]
     },
     {
-      "bank": "Centerview Partners",
       "sector": "Healthcare / Medical Devices",
       "urgency": "HOT",
       "headline": "Buy-side adviser (with Barclays, Citi, Raymond James) to KKR on its ~$5.7B acquisition of Integer",
@@ -394,10 +437,17 @@
       "first_seen": "2026-08-03",
       "last_confirmed": "2026-08-03",
       "id": "o7",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Centerview Partners",
+        "Citi",
+        "Barclays",
+        "Raymond James",
+        "UBS",
+        "Jefferies"
+      ]
     },
     {
-      "bank": "Morgan Stanley",
       "sector": "Healthcare / Radiopharmaceuticals",
       "urgency": "HOT",
       "headline": "Lead sell-side adviser (with BofA, Solomon) to Lantheus on its up-to-$8.0B take-private by Curium",
@@ -420,10 +470,13 @@
       "first_seen": "2026-08-03",
       "last_confirmed": "2026-08-03",
       "id": "o8",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Morgan Stanley",
+        "Bank of America"
+      ]
     },
     {
-      "bank": "Jefferies",
       "sector": "Healthcare / Radiopharmaceuticals",
       "urgency": "HOT",
       "headline": "Lead buy-side adviser (with JPMorgan, PJT) to Curium on its up-to-$8.0B acquisition of Lantheus",
@@ -446,10 +499,14 @@
       "first_seen": "2026-08-03",
       "last_confirmed": "2026-08-03",
       "id": "o9",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Jefferies",
+        "JPMorgan",
+        "PJT Partners"
+      ]
     },
     {
-      "bank": "Evercore",
       "sector": "Industrials / Infrastructure",
       "urgency": "WARM",
       "headline": "Adviser (with Goldman) to Arcosa’s board on its $150/share cash sale to CRH (definitive proxy filed)",
@@ -476,10 +533,13 @@
       "first_seen": "2026-08-03",
       "last_confirmed": "2026-08-03",
       "id": "o10",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Evercore",
+        "Goldman Sachs"
+      ]
     },
     {
-      "bank": "JPMorgan",
       "sector": "Healthcare / Biopharma",
       "urgency": "WARM",
       "headline": "Adviser (with Leerink) to Crinetics on its $85/share cash sale to Vertex (definitive proxy filed)",
@@ -502,10 +562,12 @@
       "first_seen": "2026-08-03",
       "last_confirmed": "2026-08-03",
       "id": "o11",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "JPMorgan"
+      ]
     },
     {
-      "bank": "Jefferies",
       "sector": "Industrials / Energy Services",
       "urgency": "WARM",
       "headline": "Sell-side adviser to Carrier on the completed carve-out of NORESCO to OPTERRA (LS Power)",
@@ -528,7 +590,10 @@
       "first_seen": "2026-08-03",
       "last_confirmed": "2026-08-03",
       "id": "o12",
-      "carry_badge": "NEW"
+      "carry_badge": "NEW",
+      "banks": [
+        "Jefferies"
+      ]
     }
   ],
   "market_snapshot": {

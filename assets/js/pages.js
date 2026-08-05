@@ -2,7 +2,7 @@
    pages.js — Banks, Deals, and Resources page renderers
    ============================================================ */
 
-import { fetchData, esc, urgencyToBadgeType, getPrefs, copyToClipboard, confidenceTooltip, confidenceLabel } from './utils.js?v=20260804-4';
+import { fetchData, esc, urgencyToBadgeType, getPrefs, copyToClipboard, confidenceTooltip, confidenceLabel, isMyBankAny, itemBanks } from './utils.js?v=20260805-1';
 
 /* ══════════════════════════════════════════════════════════
    BANKS PAGE
@@ -321,12 +321,11 @@ function renderBankDealCard(deal) {
    ══════════════════════════════════════════════════════════ */
 
 let allDeals = [];
-let activeFilters = { search: '', sector: '', stage: '', bank: '' };
 
 export async function initDeals() {
   try {
     const data = await fetchData('deals.json');
-    allDeals = data.deals;
+    allDeals = data.deals || [];
     renderDealsFilters();
     renderDeals(allDeals);
   } catch (err) {
@@ -334,13 +333,19 @@ export async function initDeals() {
   }
 }
 
+// Deal-row banks: always a banks[] array in the regenerated file, but tolerate
+// a legacy single-string just in case.
+function dealBanks(deal) {
+  return Array.isArray(deal.banks) ? deal.banks : (deal.banks ? [deal.banks] : (deal.advisor ? [deal.advisor] : []));
+}
+
 function renderDealsFilters() {
   const container = document.getElementById('deals-filters');
   if (!container) return;
 
-  const sectors = [...new Set(allDeals.map(d => d.sector))].sort();
-  const stages  = [...new Set(allDeals.map(d => d.stage))].sort();
-  const banks   = [...new Set(allDeals.map(d => d.advisor))].sort();
+  // Industry options from coverage_team, advisor options from banks[].
+  const industries = [...new Set(allDeals.flatMap(d => Array.isArray(d.coverage_team) ? d.coverage_team : (d.coverage_team ? [d.coverage_team] : [])))].sort();
+  const advisors   = [...new Set(allDeals.flatMap(dealBanks))].sort();
 
   container.innerHTML = `
     <div class="search-input-wrap">
@@ -349,37 +354,40 @@ function renderDealsFilters() {
         type="text"
         class="search-input"
         id="deals-search"
-        placeholder="Search deals, companies, advisors..."
+        placeholder="Search deals, companies, advisers..."
         oninput="window._filterDeals()"
       />
     </div>
-    <select class="filter-select" id="filter-sector" onchange="window._filterDeals()">
-      <option value="">All Sectors</option>
-      ${sectors.map(s => `<option value="${esc(s)}">${esc(s)}</option>`).join('')}
+    <select class="filter-select" id="filter-industry" onchange="window._filterDeals()">
+      <option value="">All Industries</option>
+      ${industries.map(s => `<option value="${esc(s)}">${esc(s)}</option>`).join('')}
     </select>
-    <select class="filter-select" id="filter-stage" onchange="window._filterDeals()">
-      <option value="">All Stages</option>
-      ${stages.map(s => `<option value="${esc(s)}">${esc(s)}</option>`).join('')}
+    <select class="filter-select" id="filter-advisor" onchange="window._filterDeals()">
+      <option value="">All Advisers</option>
+      ${advisors.map(b => `<option value="${esc(b)}">${esc(b)}</option>`).join('')}
     </select>
-    <select class="filter-select" id="filter-bank" onchange="window._filterDeals()">
-      <option value="">All Advisors</option>
-      ${banks.map(b => `<option value="${esc(b)}">${esc(b)}</option>`).join('')}
+    <select class="filter-select" id="filter-confidence" onchange="window._filterDeals()">
+      <option value="">All Confidence</option>
+      <option value="Filed">Confirmed</option>
+      <option value="Reported">Verify first</option>
+      <option value="Speculative">Rumor</option>
     </select>
   `;
 
   window._filterDeals = () => {
-    const search = document.getElementById('deals-search')?.value.toLowerCase() || '';
-    const sector = document.getElementById('filter-sector')?.value || '';
-    const stage  = document.getElementById('filter-stage')?.value || '';
-    const bank   = document.getElementById('filter-bank')?.value || '';
+    const search     = document.getElementById('deals-search')?.value.toLowerCase() || '';
+    const industry   = document.getElementById('filter-industry')?.value || '';
+    const advisor    = document.getElementById('filter-advisor')?.value || '';
+    const confidence = document.getElementById('filter-confidence')?.value || '';
 
     const filtered = allDeals.filter(d => {
-      const matchSearch = !search || [d.company, d.advisor, d.sector, d.buyer, d.seller]
-        .some(f => f?.toLowerCase().includes(search));
-      const matchSector = !sector || d.sector === sector;
-      const matchStage  = !stage  || d.stage === stage;
-      const matchBank   = !bank   || d.advisor === bank;
-      return matchSearch && matchSector && matchStage && matchBank;
+      const banks = dealBanks(d);
+      const teams = Array.isArray(d.coverage_team) ? d.coverage_team : (d.coverage_team ? [d.coverage_team] : []);
+      const matchSearch = !search || [d.headline, d.sector, ...banks].some(f => f?.toLowerCase().includes(search));
+      const matchIndustry = !industry || teams.includes(industry);
+      const matchAdvisor  = !advisor  || banks.some(b => b === advisor);
+      const matchConf     = !confidence || d.confidence === confidence;
+      return matchSearch && matchIndustry && matchAdvisor && matchConf;
     });
 
     renderDeals(filtered);
@@ -390,71 +398,44 @@ function renderDeals(deals) {
   const container = document.getElementById('deals-list');
   if (!container) return;
 
+  const countEl = document.getElementById('deals-count');
+  if (countEl) countEl.textContent = `${deals.length} deal${deals.length === 1 ? '' : 's'}`;
+
   if (deals.length === 0) {
     container.innerHTML = `<div class="no-results">No deals match your filters.</div>`;
     return;
   }
 
-  container.innerHTML = deals.map((deal, index) => {
-    const prefs = getPrefs();
-    const myBank = prefs?.banks?.some(b => b.toLowerCase() === deal.advisor?.toLowerCase());
+  const teamBadges = d => {
+    const teams = Array.isArray(d.coverage_team) ? d.coverage_team : (d.coverage_team ? [d.coverage_team] : []);
+    return teams.map(t => `<span class="badge badge-team" title="Covering group at the advising bank">${esc(t)}</span>`).join('');
+  };
 
-    const dealClockHtml = deal.deal_clock?.length ? `
-      <div class="deal-clock">
-        <div class="deal-clock-title">Deal Clock</div>
-        <div class="deal-clock-items">
-          ${deal.deal_clock.map(d => `
-            <div class="deal-clock-item">
-              <span class="deal-clock-date">${esc(d.date)}</span>
-              <span class="deal-clock-event">${esc(d.event)}</span>
-            </div>
-          `).join('')}
-        </div>
-      </div>
-    ` : '';
-
+  container.innerHTML = deals.map(deal => {
+    const banks = dealBanks(deal);
+    const myBank = isMyBankAny(banks);
     return `
-      <div class="card ${index === 0 ? 'expanded' : ''}" data-deal-id="${deal.id}">
-        <div class="card-header" onclick="this.closest('.card').classList.toggle('expanded')">
+      <div class="card expanded deal-archive-card" data-deal-id="${esc(deal.id)}">
+        <div class="card-header" style="cursor:default;">
           <div class="card-headline-wrap">
             <div class="card-badges">
-              <span class="badge badge-category">${esc(deal.sector)}</span>
-              <span class="badge badge-category">${esc(deal.stage)}</span>
+              ${deal.confidence ? `<span class="badge badge-conf-${esc(deal.confidence.toLowerCase())}" title="${esc(deal.confidence)} — ${esc(confidenceTooltip(deal.confidence))}">${esc(confidenceLabel(deal.confidence))}</span>` : ''}
+              ${teamBadges(deal)}
               ${myBank ? '<span class="badge badge-your-bank">YOUR BANK</span>' : ''}
             </div>
-            <h3 class="card-headline mt-2">${esc(deal.company)}</h3>
+            <h3 class="card-headline mt-2">${esc(deal.headline)}</h3>
             <div class="deal-card-meta">
-              <span class="deal-meta-item">${esc(deal.size)}</span>
-              <span class="deal-meta-dot">·</span>
-              <span class="deal-meta-item">${esc(deal.advisor_role)} · ${esc(deal.advisor)}</span>
-              ${deal.buyer && deal.buyer !== 'TBD' && deal.buyer !== 'N/A'
-                ? `<span class="deal-meta-dot">·</span><span class="deal-meta-item">Buyer: ${esc(deal.buyer)}</span>`
-                : ''}
+              ${banks.length ? `<span class="deal-meta-item">${esc(banks.join(', '))}</span>` : ''}
             </div>
-          </div>
-          <span class="card-toggle">›</span>
-        </div>
-        <div class="card-body">
-          <div class="card-section">
-            <div class="card-section-label">Why it Matters</div>
-            <div class="card-section-text">${esc(deal.why_it_matters)}</div>
-          </div>
-          ${dealClockHtml}
-          <div class="card-footer">
-            <div class="card-footer-left"></div>
-            <div class="card-footer-right">
-              <button class="btn btn-primary" onclick="event.stopPropagation(); window._openOutreachModal('${esc(deal.id)}', 'deal')">
-                ✉ View Outreach Draft
-              </button>
+            <div class="caught-meta" style="margin-top:var(--space-2);">
+              ${deal.published ? `<span class="source-date font-mono">${esc(deal.published)}</span>` : ''}
+              ${deal.source_url ? `<a href="${esc(deal.source_url)}" target="_blank" rel="noopener" class="source-link">${esc(deal.source || 'Source')} ↗</a>` : (deal.source ? `<span class="pipeline-source">${esc(deal.source)}</span>` : '')}
             </div>
           </div>
         </div>
       </div>
     `;
   }).join('');
-
-  // Store deals data for modal access
-  window._dealsData = deals;
 }
 
 /* ══════════════════════════════════════════════════════════
