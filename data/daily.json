@@ -1,41 +1,41 @@
 {
-  "date": "2026-08-05",
-  "lens": "The tape went quiet midweek — the S&P barely moved — but the deal calendar stayed busy: Procter & Gamble agreed to buy Thorne for $3.8B, ContextLogic struck an $850M specialty-chemicals deal, and cross-border divestitures signed across energy (Gran Tierra), software (Command Alkon) and media (Clear Channel’s Spain business), several with two covered banks apiece and two fresh Deutsche Bank mandates.",
+  "date": "2026-08-06",
+  "lens": "A quieter news cycle turned the spotlight onto deals already in motion: argenx commenced its tender offer for Forte Biosciences (Guggenheim, Goldman), and the full Prologis/SEGRO Rule 2.7 filing revealed a seven covered-bank roster across both sides — even as LivePerson’s debt-laden sale to SoundHound headed for an Aug 20 vote and stocks slipped from record territory.",
   "ticker": [
     {
       "label": "S&P 500",
-      "value": "7,744.49",
-      "change": "+0.10%",
-      "positive": true
+      "value": "7,723.55",
+      "change": "-0.17%",
+      "positive": false
     },
     {
       "label": "Nasdaq",
-      "value": "26,573.97",
-      "change": "-0.04%",
+      "value": "26,363.44",
+      "change": "-0.83%",
       "positive": false
     },
     {
       "label": "Dow",
-      "value": "54,546.74",
-      "change": "+0.85%",
+      "value": "54,349.12",
+      "change": "+0.49%",
       "positive": true
     },
     {
       "label": "VIX",
-      "value": "16.30",
-      "change": "-1.21%",
-      "positive": true
+      "value": "16.01",
+      "change": "+1.27%",
+      "positive": false
     },
     {
       "label": "GS",
-      "value": "$1,071.11",
-      "change": "+1.72%",
+      "value": "$1,060.38",
+      "change": "+0.70%",
       "positive": true
     },
     {
       "label": "JEF",
-      "value": "$56.62",
-      "change": "+1.63%",
+      "value": "$56.19",
+      "change": "+0.86%",
       "positive": true
     }
   ],
@@ -46,33 +46,144 @@
       "urgency": "HIGH",
       "scope": "bank",
       "banks": [
-        "Perella Weinberg"
+        "Guggenheim Securities",
+        "Goldman Sachs"
       ],
-      "headline": "Perella Weinberg advises Thorne on its $3.8B sale to Procter & Gamble",
-      "why_it_matters": "L Catterton agreed to sell Thorne — a science-backed health-and-wellness (vitamins, minerals, supplements) leader — to Procter & Gamble (NYSE: PG) for $3.8B in cash, expected to close in Q4 2026. The release names Perella Weinberg Partners (with Canaccord Genuity) as financial adviser to Thorne (sell-side); no adviser was named for P&G. A sponsor-to-strategic sale of a consumer-health brand runs brand, regulatory, and QofE diligence toward close.",
-      "suggested_action": "Engage Perella Weinberg (Thorne) — a $3.8B consumer-health sale to a strategic runs brand, regulatory and quality-of-earnings diligence a secure room organizes through close.",
+      "headline": "argenx commences its tender offer for Forte Biosciences; Guggenheim advises Forte, Goldman advises argenx",
+      "why_it_matters": "argenx (via Avena Merger Sub) has formally COMMENCED its all-cash tender offer for all shares of Forte Biosciences (Nasdaq: FBRX), and Forte’s board filed its SC 14D-9 recommending shareholders tender — advancing the ~$2.2B acquisition first announced Jul 27 to a live, filed tender stage. The SC 14D-9 names Guggenheim Securities as Forte’s financial adviser (fairness opinion) and Goldman Sachs as argenx’s adviser. A commenced tender runs a compressed diligence-and-close clock to the offer expiration.",
+      "suggested_action": "Engage Guggenheim (Forte) and Goldman (argenx) — a commenced tender offer runs a tight confirmatory-diligence and close timeline a secure room keeps organized through expiration.",
       "deal_clock": [
         {
-          "date": "Aug 4, 2026",
-          "event": "L Catterton agrees to sell Thorne to P&G ($3.8B)"
+          "date": "Jul 27, 2026",
+          "event": "argenx agrees to acquire Forte Biosciences (~$2.2B)"
         },
         {
-          "date": "Q4 2026",
-          "event": "Expected close"
+          "date": "Aug 6, 2026",
+          "event": "Tender offer commenced; Forte files SC 14D-9 recommending tender"
         }
       ],
-      "source": "PR Newswire (L Catterton release)",
-      "source_url": "https://www.prnewswire.com/news-releases/l-catterton-announces-sale-of-thorne-to-the-procter--gamble-company-for-3-8-billion-302842797.html",
-      "published": "2026-08-04",
-      "confidence": "Reported",
+      "coverage_team": "Healthcare",
+      "source": "SEC EDGAR — Forte Biosciences SC 14D-9",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1419041/000114036126031507/ny20079529x1_sc14d9.htm",
+      "published": "2026-08-06",
+      "confidence": "Filed",
       "tags": [
-        "consumer",
-        "health-wellness",
-        "sponsor-exit"
+        "healthcare",
+        "biopharma",
+        "tender-offer"
       ]
     },
     {
       "id": "s2",
+      "category": "M&A",
+      "urgency": "HIGH",
+      "scope": "bank",
+      "banks": [
+        "Evercore",
+        "Morgan Stanley",
+        "Goldman Sachs",
+        "JPMorgan",
+        "Bank of America",
+        "Citi",
+        "UBS"
+      ],
+      "headline": "Prologis’ ~$18.8B recommended combination with SEGRO names a seven covered-bank roster across both sides",
+      "why_it_matters": "The full Rule 2.7 announcement for Prologis’ ~£14.0B (~$18.8B) recommended all-share combination with UK logistics REIT SEGRO names advisers on BOTH sides — and seven are covered banks. SEGRO (sell-side) is advised by Evercore and Morgan Stanley (joint lead financial advisers), with Goldman Sachs also advising and UBS as corporate broker/financial adviser; Prologis (buy-side) is advised by J.P. Morgan (joint lead, with Eastdil), BofA Securities and Citi (with Rothschild). A cross-border public-company REIT combination runs UK Takeover Code, antitrust and shareholder-documentation workstreams to a targeted 1H 2027 close.",
+      "suggested_action": "This deal touches seven covered desks at once — engage the SEGRO advisers (Evercore, Morgan Stanley, Goldman, UBS) and the Prologis advisers (JPMorgan, BofA, Citi). A ~$18.8B cross-border REIT combination runs months of Takeover Code and antitrust diligence a secure room organizes.",
+      "deal_clock": [
+        {
+          "date": "Aug 4, 2026",
+          "event": "Prologis/SEGRO recommended combination announced (~$18.8B)"
+        },
+        {
+          "date": "H1 2027",
+          "event": "Targeted completion"
+        }
+      ],
+      "coverage_team": [
+        "Real Estate",
+        "FIG",
+        "Industrials"
+      ],
+      "source": "StockTitan — Prologis Rule 2.7 announcement",
+      "source_url": "https://www.stocktitan.net/news/PLD/prologis-inc-announces-recommended-usvbmqu2pemj.html",
+      "published": "2026-08-04",
+      "confidence": "Reported",
+      "tags": [
+        "real-estate",
+        "logistics-reit",
+        "cross-border",
+        "uk-takeover-code"
+      ]
+    },
+    {
+      "id": "s3",
+      "category": "M&A",
+      "urgency": "MEDIUM",
+      "scope": "bank",
+      "banks": [
+        "Houlihan Lokey"
+      ],
+      "headline": "LivePerson heads to an Aug 20 vote on its stock-for-stock sale to SoundHound AI; Houlihan Lokey advises LivePerson",
+      "why_it_matters": "LivePerson (Nasdaq: LPSN) filed further solicitation material (Form 425) ahead of its Aug 20 special meeting on its stock-for-stock merger with SoundHound AI (Nasdaq: SOUN), first announced Apr 21. Houlihan Lokey Capital is LivePerson’s financial adviser and delivered the fairness opinion. The structure is unusual — secured noteholders agreed to exchange ~$350M of par notes at a discount to enable common-stock consideration — so the vote carries real execution risk. A contested-feeling shareholder vote runs heavy proxy-solicitation and disclosure workstreams.",
+      "suggested_action": "Engage Houlihan Lokey (LivePerson) — a debt-laden stock-for-stock merger heading to a knife-edge shareholder vote runs intensive proxy and disclosure workstreams a secure room supports through the Aug 20 meeting.",
+      "deal_clock": [
+        {
+          "date": "Apr 21, 2026",
+          "event": "SoundHound AI agrees to acquire LivePerson (stock-for-stock)"
+        },
+        {
+          "date": "Aug 20, 2026",
+          "event": "LivePerson special meeting / shareholder vote"
+        }
+      ],
+      "coverage_team": "TMT",
+      "source": "SEC EDGAR — LivePerson Form 425",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1102993/000110299326000071/a425filing8_05-transcript.htm",
+      "published": "2026-08-05",
+      "confidence": "Filed",
+      "tags": [
+        "technology",
+        "software",
+        "shareholder-vote"
+      ]
+    },
+    {
+      "id": "s4",
+      "category": "DEALS",
+      "urgency": "LOW",
+      "scope": "bank",
+      "banks": [
+        "Lazard",
+        "Jefferies"
+      ],
+      "headline": "Quantum-computing firm Pasqal files its definitive de-SPAC proxy with Bleichroeder; Lazard and Jefferies advise",
+      "why_it_matters": "Pasqal, a French quantum-computing company, filed a definitive proxy (DEFM14A) for its business combination with Bleichroeder Acquisition Corp. II (Nasdaq: BBCQ), setting the shareholder vote to take the company public. The filing names Lazard as financial adviser to the Pasqal board and Jefferies as lead placement agent on the associated PIPE/convertible financing. A de-SPAC with a concurrent private financing runs parallel proxy, PIPE and disclosure workstreams.",
+      "suggested_action": "Note Lazard (Pasqal board) and Jefferies (placement agent) — a de-SPAC with a concurrent PIPE runs parallel proxy and private-financing diligence a secure room organizes into the vote.",
+      "deal_clock": [
+        {
+          "date": "Feb 28, 2026",
+          "event": "Pasqal/Bleichroeder business combination agreement signed"
+        },
+        {
+          "date": "Aug 6, 2026",
+          "event": "Definitive proxy (DEFM14A) filed"
+        }
+      ],
+      "coverage_team": "TMT",
+      "source": "SEC EDGAR — Bleichroeder/Pasqal DEFM14A",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2088295/000121390026085816/ea0300825-01.htm",
+      "published": "2026-08-06",
+      "confidence": "Filed",
+      "tags": [
+        "technology",
+        "quantum-computing",
+        "de-spac",
+        "ipo"
+      ]
+    },
+    {
+      "id": "s5",
       "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
@@ -81,7 +192,7 @@
         "RBC Capital Markets"
       ],
       "headline": "BofA (lead) and RBC advise Gran Tierra on its $1.33B sale of its Colombia/Ecuador business to Maurel & Prom",
-      "why_it_matters": "Gran Tierra Energy (NYSE/TSX: GTE) agreed to sell its Colombia and Ecuador business — all of its South American assets — to Maurel & Prom (a Pertamina subsidiary) for $1.33B total consideration (~$315M net cash proceeds), repositioning the company for fully financed growth. The release names BofA Securities as lead financial adviser (and fairness-opinion provider) to Gran Tierra, with RBC Capital Markets also advising (sell-side). A cross-border upstream divestiture runs reserve, regulatory and confirmatory diligence to close.",
+      "why_it_matters": "Still fresh from Aug 5: Gran Tierra Energy (NYSE/TSX: GTE) agreed to sell its Colombia and Ecuador business — all of its South American assets — to Maurel & Prom (a Pertamina subsidiary) for $1.33B total consideration (~$315M net cash proceeds). BofA Securities is lead financial adviser (and fairness-opinion provider) to Gran Tierra, with RBC Capital Markets also advising (sell-side). A cross-border upstream divestiture runs reserve, regulatory and confirmatory diligence to close.",
       "suggested_action": "Engage BofA and RBC (Gran Tierra) — a $1.33B cross-border upstream divestiture runs reserve, regulatory and confirmatory diligence a data room supports.",
       "deal_clock": [
         {
@@ -89,6 +200,7 @@
           "event": "Gran Tierra agrees to sell Colombia/Ecuador business ($1.33B)"
         }
       ],
+      "coverage_team": "Energy & Power",
       "source": "GlobeNewswire (Gran Tierra release)",
       "source_url": "https://www.globenewswire.com/news-release/2026/08/05/3339040/0/en/gran-tierra-energy-inc-announces-agreement-to-sell-its-colombia-and-ecuador-business-to-maurel-prom-and-reposition-the-company-for-fully-financed-growth.html",
       "published": "2026-08-05",
@@ -101,7 +213,7 @@
       ]
     },
     {
-      "id": "s3",
+      "id": "s6",
       "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
@@ -110,7 +222,7 @@
         "Piper Sandler"
       ],
       "headline": "Morgan Stanley advises gChem and Piper Sandler advises ContextLogic on the $850M specialty-chemicals acquisition",
-      "why_it_matters": "ContextLogic (Nasdaq: LOGC) agreed to acquire gChem — a specialty-chemicals maker (DMSO for pharma, semiconductors, ag and aerospace), sold by EagleTree Capital — for $850M enterprise value. The release names Morgan Stanley as exclusive financial adviser to gChem (sell-side) and Piper Sandler as financial adviser to ContextLogic (buy-side). A sponsor-exit chemicals carve-out runs environmental, contract and QofE diligence to close.",
+      "why_it_matters": "Still fresh from Aug 5: ContextLogic (Nasdaq: LOGC) agreed to acquire gChem — a specialty-chemicals maker (DMSO for pharma, semiconductors, ag and aerospace), sold by EagleTree Capital — for $850M enterprise value. Morgan Stanley is exclusive financial adviser to gChem (sell-side) and Piper Sandler advises ContextLogic (buy-side). A sponsor-exit chemicals carve-out runs environmental, contract and QofE diligence to close.",
       "suggested_action": "Engage Morgan Stanley (gChem) and Piper Sandler (ContextLogic) — an $850M specialty-chemicals sale runs environmental and quality-of-earnings diligence a secure room keeps organized.",
       "deal_clock": [
         {
@@ -118,6 +230,7 @@
           "event": "ContextLogic agrees to acquire gChem ($850M)"
         }
       ],
+      "coverage_team": "Industrials",
       "source": "GlobeNewswire (ContextLogic release)",
       "source_url": "https://www.globenewswire.com/news-release/2026/08/05/3339169/0/en/contextlogic-to-acquire-gchem-for-850-million.html",
       "published": "2026-08-05",
@@ -129,106 +242,58 @@
       ]
     },
     {
-      "id": "s4",
-      "category": "M&A",
-      "urgency": "MEDIUM",
-      "scope": "bank",
-      "banks": [
-        "Deutsche Bank",
-        "Evercore"
-      ],
-      "headline": "Deutsche Bank advises Francisco Partners and Evercore advises Thoma Bravo on the sale of software maker Command Alkon",
-      "why_it_matters": "Francisco Partners agreed to acquire Command Alkon — a construction and heavy-building-materials software provider — from Thoma Bravo (terms undisclosed), expected to close in H2 2026 subject to regulatory approval. The release names Deutsche Bank Securities as financial adviser to Francisco Partners (buy-side) and Evercore as financial adviser to Thoma Bravo / Command Alkon (sell-side). A sponsor-to-sponsor software buyout runs code, contract and QofE diligence to close.",
-      "suggested_action": "Engage Deutsche Bank (Francisco Partners) and Evercore (Thoma Bravo) — a sponsor-to-sponsor software buyout runs code-escrow, contract and QofE diligence a secure room organizes.",
-      "deal_clock": [
-        {
-          "date": "Aug 4, 2026",
-          "event": "Francisco Partners agrees to acquire Command Alkon from Thoma Bravo"
-        }
-      ],
-      "source": "GlobeNewswire (Command Alkon release)",
-      "source_url": "https://www.globenewswire.com/news-release/2026/08/04/3338569/0/en/command-alkon-announces-acquisition-by-francisco-partners-from-thoma-bravo.html",
-      "published": "2026-08-04",
-      "confidence": "Reported",
-      "tags": [
-        "technology",
-        "software",
-        "sponsor"
-      ]
-    },
-    {
-      "id": "s5",
-      "category": "M&A",
-      "urgency": "LOW",
-      "scope": "bank",
-      "banks": [
-        "Moelis",
-        "Deutsche Bank"
-      ],
-      "headline": "Moelis and Deutsche Bank advise Clear Channel Outdoor on the ~$132M sale of its Spain business to Atresmedia",
-      "why_it_matters": "Clear Channel Outdoor (NYSE: CCO) completed the sale of its Spain out-of-home advertising business to Atresmedia for ~€115M (~US$132M), continuing its international-market divestiture program. The release names Moelis & Company and Deutsche Bank Securities as financial advisers to Clear Channel (sell-side). A cross-border media carve-out runs local-regulatory and separation diligence through close.",
-      "suggested_action": "Note Moelis and Deutsche Bank (Clear Channel) — a cross-border media carve-out runs local-regulatory and TSA/separation diligence a data room supports.",
-      "deal_clock": [
-        {
-          "date": "Aug 4, 2026",
-          "event": "Clear Channel completes sale of Spain business to Atresmedia (~$132M)"
-        }
-      ],
-      "source": "PR Newswire (Clear Channel release)",
-      "source_url": "https://www.prnewswire.com/news-releases/clear-channel-outdoor-holdings-inc-completes-sale-of-its-business-in-spain-to-atresmedia-302842912.html",
-      "published": "2026-08-04",
-      "confidence": "Reported",
-      "tags": [
-        "media",
-        "out-of-home",
-        "cross-border",
-        "carve-out"
-      ]
-    },
-    {
-      "id": "s6",
-      "category": "M&A",
-      "urgency": "LOW",
-      "scope": "bank",
-      "banks": [
-        "Lazard",
-        "JPMorgan",
-        "Raymond James"
-      ],
-      "headline": "Lazard and JPMorgan advise Ascensus; Raymond James advises AmericanTCS on the completed retirement-platform acquisition",
-      "why_it_matters": "Ascensus completed its acquisition of AmericanTCS — a retirement, trust-and-custody and fintech provider (terms undisclosed) — expanding its platform and capabilities. The release names Lazard and J.P. Morgan as financial advisers to Ascensus (buy-side) and Raymond James as financial adviser to AmericanTCS (sell-side). A financial-services platform acquisition runs client-contract, regulatory and integration diligence.",
-      "suggested_action": "Engage Lazard/JPMorgan (Ascensus) and Raymond James (AmericanTCS) — a retirement-platform combination runs client-contract and regulatory diligence a secure room organizes through integration.",
-      "deal_clock": [
-        {
-          "date": "Aug 5, 2026",
-          "event": "Ascensus completes acquisition of AmericanTCS"
-        }
-      ],
-      "source": "PR Newswire (Ascensus release)",
-      "source_url": "https://www.prnewswire.com/news-releases/ascensus-completes-acquisition-of-americantcs-expanding-platform-and-capabilities-302843116.html",
-      "published": "2026-08-05",
-      "confidence": "Reported",
-      "tags": [
-        "financials",
-        "retirement",
-        "fintech"
-      ]
-    },
-    {
       "id": "s7",
       "category": "MACRO",
       "urgency": "LOW",
       "scope": "market",
-      "headline": "Markets pause after the August run — S&P flat, Dow +0.85%, Nasdaq -0.04% — with the 10Y steady at ~4.63%",
-      "why_it_matters": "US equities took a breather midweek: S&P 500 roughly flat (~7,744), Dow +0.85% (~54,547), Nasdaq slightly negative (-0.04%, ~26,574), with the VIX easing to ~16.3 and the 10Y Treasury steady at ~4.63%. Advisory names held their recent gains — Goldman +1.7%, Jefferies +1.6%, JPMorgan +0.7% — as a steady stream of mid-cap and cross-border deals kept signing. A calm tape and full deal calendar keep signed processes moving on schedule.",
-      "suggested_action": "Use the steady tape and continued signings to keep the conversation on execution — clients want live processes on schedule; room readiness protects the timeline.",
+      "headline": "Stocks slip from record territory — S&P -0.17%, Nasdaq -0.83% — as megacap tech cools and the 10Y firms to ~4.65%",
+      "why_it_matters": "After the early-August run to records, equities pulled back: the S&P 500 eased -0.17% (~7,724) and the Nasdaq fell -0.83% (~26,363) as megacap tech gave back gains, while the Dow held +0.49% (~54,349) on defensives. The VIX firmed to ~16.0 and the 10Y Treasury ticked up to ~4.65%. Advisory names were mixed (GS +0.7%, JPM +0.5%, JEF +0.9%, EVR -0.3%) as the deal calendar stayed active on cross-border and healthcare processes. A modest risk-off day doesn’t slow signed processes — it sharpens the focus on execution certainty.",
+      "suggested_action": "Use the pullback to keep the conversation on execution, not sentiment — signed processes need to stay on timeline regardless of the tape, and room readiness protects that.",
       "source": "Yahoo Finance",
       "source_url": "https://finance.yahoo.com/quote/%5EGSPC/",
-      "published": "2026-08-05"
+      "published": "2026-08-06"
     }
   ],
   "opportunities": [
     {
+      "banks": [
+        "Guggenheim Securities",
+        "Goldman Sachs"
+      ],
+      "sector": "Healthcare / Biopharma",
+      "urgency": "HOT",
+      "headline": "Sell-side adviser to Forte Biosciences as argenx commences its tender offer (~$2.2B)",
+      "why_it_matters": "Guggenheim Securities advises Forte Biosciences (Nasdaq: FBRX) — with Goldman Sachs advising argenx — as argenx (via Avena Merger Sub) COMMENCED its all-cash tender offer and Forte filed its SC 14D-9 recommending shareholders tender. The deal, first announced Jul 27, is now a live filed tender. A commenced tender runs a compressed confirmatory-diligence and close clock.",
+      "deal_clock": [
+        {
+          "date": "Jul 27, 2026",
+          "event": "argenx agrees to acquire Forte Biosciences (~$2.2B)"
+        },
+        {
+          "date": "Aug 6, 2026",
+          "event": "Tender offer commenced; SC 14D-9 filed"
+        }
+      ],
+      "outreach_idea": "Engage Guggenheim (Forte) and Goldman (argenx) — a commenced tender runs a tight confirmatory-diligence clock a secure room organizes to expiration.",
+      "outreach_draft": {
+        "subject": "Forte / argenx — supporting a commenced tender offer",
+        "body": "Congratulations on Guggenheim’s role advising Forte Biosciences as argenx’s tender offer commences. Commenced tenders run a compressed confirmatory-diligence and close timeline — would welcome a conversation on secure, auditable data-room access through expiration.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "SEC EDGAR — Forte Biosciences SC 14D-9",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1419041/000114036126031507/ny20079529x1_sc14d9.htm",
+      "published": "2026-08-06",
+      "confidence": "Filed",
+      "first_seen": "2026-08-06",
+      "last_confirmed": "2026-08-06",
+      "id": "o1",
+      "carry_badge": "NEW"
+    },
+    {
+      "banks": [
+        "Jefferies",
+        "Citi",
+        "Piper Sandler"
+      ],
       "sector": "Healthcare / Biopharma",
       "urgency": "HOT",
       "headline": "Joint adviser (with Piper Sandler, Citi) to Indivior on its all-stock merger of equals with Supernus",
@@ -249,16 +314,14 @@
       "published": "2026-08-03",
       "confidence": "Filed",
       "first_seen": "2026-08-03",
-      "last_confirmed": "2026-08-03",
-      "id": "o1",
-      "carry_badge": "Day 3",
-      "banks": [
-        "Jefferies",
-        "Citi",
-        "Piper Sandler"
-      ]
+      "last_confirmed": "2026-08-06",
+      "id": "o2",
+      "carry_badge": "Day 4"
     },
     {
+      "banks": [
+        "Wells Fargo"
+      ],
       "sector": "Healthcare / Biopharma",
       "urgency": "HOT",
       "headline": "Adviser (with Cantor Fitzgerald) to Supernus on its all-stock merger of equals with Indivior",
@@ -279,12 +342,47 @@
       "published": "2026-08-03",
       "confidence": "Filed",
       "first_seen": "2026-08-03",
-      "last_confirmed": "2026-08-03",
-      "id": "o2",
-      "carry_badge": "Day 3",
+      "last_confirmed": "2026-08-06",
+      "id": "o3",
+      "carry_badge": "Day 4"
+    },
+    {
       "banks": [
-        "Wells Fargo"
-      ]
+        "Evercore",
+        "Morgan Stanley",
+        "Goldman Sachs",
+        "JPMorgan",
+        "Bank of America",
+        "Citi",
+        "UBS"
+      ],
+      "sector": "Real Estate / Logistics REIT",
+      "urgency": "HOT",
+      "headline": "Seven covered banks advise Prologis and SEGRO on the ~$18.8B recommended combination",
+      "why_it_matters": "The full Rule 2.7 announcement names advisers on both sides — seven are covered banks. SEGRO (sell-side): Evercore and Morgan Stanley (joint lead), Goldman Sachs, and UBS (corporate broker/adviser). Prologis (buy-side): J.P. Morgan (joint lead), BofA Securities and Citi (with Rothschild and Eastdil). A ~£14.0B (~$18.8B) cross-border REIT combination runs UK Takeover Code, antitrust and shareholder-documentation workstreams to a 1H 2027 close.",
+      "deal_clock": [
+        {
+          "date": "Aug 4, 2026",
+          "event": "Prologis/SEGRO recommended combination announced (~$18.8B)"
+        },
+        {
+          "date": "H1 2027",
+          "event": "Targeted completion"
+        }
+      ],
+      "outreach_idea": "Engage the SEGRO advisers (Evercore, Morgan Stanley, Goldman, UBS) and Prologis advisers (JPMorgan, BofA, Citi) — a ~$18.8B cross-border REIT combination runs months of Takeover Code and antitrust diligence a secure room organizes.",
+      "outreach_draft": {
+        "subject": "Prologis / SEGRO — supporting a cross-border REIT combination",
+        "body": "Congratulations on your role advising on the Prologis/SEGRO combination. Cross-border public-company combinations run UK Takeover Code, antitrust and shareholder-documentation workstreams over many months — would welcome a conversation on secure, auditable data-room access through completion.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "StockTitan — Prologis Rule 2.7 announcement",
+      "source_url": "https://www.stocktitan.net/news/PLD/prologis-inc-announces-recommended-usvbmqu2pemj.html",
+      "published": "2026-08-04",
+      "confidence": "Reported",
+      "first_seen": "2026-08-04",
+      "last_confirmed": "2026-08-06",
+      "id": "o4",
+      "carry_badge": "Day 3"
     },
     {
       "banks": [
@@ -314,9 +412,9 @@
       "published": "2026-08-04",
       "confidence": "Reported",
       "first_seen": "2026-08-05",
-      "last_confirmed": "2026-08-05",
-      "id": "o3",
-      "carry_badge": "NEW"
+      "last_confirmed": "2026-08-06",
+      "id": "o5",
+      "carry_badge": "Day 2"
     },
     {
       "banks": [
@@ -343,43 +441,41 @@
       "published": "2026-08-05",
       "confidence": "Reported",
       "first_seen": "2026-08-05",
-      "last_confirmed": "2026-08-05",
-      "id": "o4",
-      "carry_badge": "NEW"
+      "last_confirmed": "2026-08-06",
+      "id": "o6",
+      "carry_badge": "Day 2"
     },
     {
-      "sector": "Real Estate / Logistics REIT",
-      "urgency": "HOT",
-      "headline": "Joint lead adviser (with Rothschild, Eastdil) to Prologis on its ~$18.8B recommended combination with SEGRO",
-      "why_it_matters": "J.P. Morgan is a joint lead financial adviser to Prologis (with Rothschild and Eastdil; BofA and Citi also advising) on its ~£14.0B (~$18.8B) recommended all-share combination with UK logistics REIT SEGRO. A cross-border public-company REIT combination runs UK Takeover Code, antitrust and shareholder-documentation workstreams over a long path to a 1H 2027 close.",
+      "banks": [
+        "Houlihan Lokey"
+      ],
+      "sector": "Technology / Software",
+      "urgency": "WARM",
+      "headline": "Sell-side adviser to LivePerson on its stock-for-stock sale to SoundHound AI (Aug 20 vote)",
+      "why_it_matters": "Houlihan Lokey Capital advises LivePerson (Nasdaq: LPSN) and delivered the fairness opinion on its stock-for-stock merger with SoundHound AI, heading to an Aug 20 shareholder vote. Secured noteholders agreed to exchange ~$350M of par notes at a discount to enable common-stock consideration — a debt-laden structure with real execution risk. The vote runs heavy proxy-solicitation and disclosure workstreams.",
       "deal_clock": [
         {
-          "date": "Aug 4, 2026",
-          "event": "Prologis/SEGRO recommended combination announced (~$18.8B)"
+          "date": "Apr 21, 2026",
+          "event": "SoundHound AI agrees to acquire LivePerson (stock-for-stock)"
         },
         {
-          "date": "H1 2027",
-          "event": "Targeted completion"
+          "date": "Aug 20, 2026",
+          "event": "LivePerson special meeting / shareholder vote"
         }
       ],
-      "outreach_idea": "Engage JPMorgan (Prologis) — a ~$18.8B cross-border REIT combination runs months of UK Takeover Code and antitrust diligence a secure room organizes.",
+      "outreach_idea": "Engage Houlihan Lokey (LivePerson) — a debt-laden stock-for-stock merger heading to a knife-edge vote runs intensive proxy and disclosure workstreams a secure room supports.",
       "outreach_draft": {
-        "subject": "Prologis / SEGRO — supporting a cross-border REIT combination",
-        "body": "Congratulations on JPMorgan’s joint-lead role advising Prologis on its combination with SEGRO. Cross-border public-company combinations run UK Takeover Code, antitrust and shareholder-documentation workstreams over many months — would welcome a conversation on secure, auditable data-room access through completion.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+        "subject": "LivePerson / SoundHound — supporting a shareholder vote",
+        "body": "Congratulations on Houlihan Lokey’s role advising LivePerson on its merger with SoundHound AI. Stock-for-stock combinations heading to a shareholder vote run intensive proxy-solicitation and disclosure workstreams — would welcome a conversation on secure, auditable room access through the Aug 20 meeting.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
       },
-      "source": "StockTitan — Prologis Rule 2.7 announcement",
-      "source_url": "https://www.stocktitan.net/news/PLD/prologis-inc-announces-recommended-usvbmqu2pemj.html",
-      "published": "2026-08-04",
-      "confidence": "Reported",
-      "first_seen": "2026-08-04",
-      "last_confirmed": "2026-08-04",
-      "id": "o5",
-      "carry_badge": "Day 2",
-      "banks": [
-        "JPMorgan",
-        "Bank of America",
-        "Citi"
-      ]
+      "source": "SEC EDGAR — LivePerson Form 425",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1102993/000110299326000071/a425filing8_05-transcript.htm",
+      "published": "2026-08-05",
+      "confidence": "Filed",
+      "first_seen": "2026-08-06",
+      "last_confirmed": "2026-08-06",
+      "id": "o7",
+      "carry_badge": "NEW"
     },
     {
       "banks": [
@@ -407,37 +503,8 @@
       "confidence": "Reported",
       "first_seen": "2026-08-05",
       "last_confirmed": "2026-08-05",
-      "id": "o6",
-      "carry_badge": "NEW"
-    },
-    {
-      "banks": [
-        "Deutsche Bank",
-        "Evercore"
-      ],
-      "sector": "Technology / Software",
-      "urgency": "WARM",
-      "headline": "Buy-side adviser to Francisco Partners (with Evercore for Thoma Bravo) on the Command Alkon software buyout",
-      "why_it_matters": "Deutsche Bank Securities advises Francisco Partners on its acquisition of construction-software maker Command Alkon from Thoma Bravo (Evercore sell-side; terms undisclosed; close H2 2026). A sponsor-to-sponsor software buyout runs code, contract and QofE diligence to close.",
-      "deal_clock": [
-        {
-          "date": "Aug 4, 2026",
-          "event": "Francisco Partners agrees to acquire Command Alkon from Thoma Bravo"
-        }
-      ],
-      "outreach_idea": "Engage Deutsche Bank (Francisco Partners) / Evercore (Thoma Bravo) — a sponsor-to-sponsor software buyout runs code and QofE diligence a secure room organizes.",
-      "outreach_draft": {
-        "subject": "Command Alkon — supporting a software buyout",
-        "body": "Congratulations on Deutsche Bank’s role advising Francisco Partners on its acquisition of Command Alkon. Sponsor-to-sponsor software buyouts run code-escrow, contract and quality-of-earnings diligence to close — happy to discuss secure, auditable data-room access through the process.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
-      },
-      "source": "GlobeNewswire — Command Alkon release",
-      "source_url": "https://www.globenewswire.com/news-release/2026/08/04/3338569/0/en/command-alkon-announces-acquisition-by-francisco-partners-from-thoma-bravo.html",
-      "published": "2026-08-04",
-      "confidence": "Reported",
-      "first_seen": "2026-08-05",
-      "last_confirmed": "2026-08-05",
-      "id": "o7",
-      "carry_badge": "NEW"
+      "id": "o8",
+      "carry_badge": "Day 2"
     },
     {
       "banks": [
@@ -466,8 +533,8 @@
       "confidence": "Reported",
       "first_seen": "2026-08-05",
       "last_confirmed": "2026-08-05",
-      "id": "o8",
-      "carry_badge": "NEW"
+      "id": "o9",
+      "carry_badge": "Day 2"
     },
     {
       "banks": [
@@ -495,89 +562,105 @@
       "confidence": "Reported",
       "first_seen": "2026-08-05",
       "last_confirmed": "2026-08-05",
-      "id": "o9",
-      "carry_badge": "NEW"
+      "id": "o10",
+      "carry_badge": "Day 2"
     }
   ],
   "market_snapshot": {
     "indices": [
       {
         "label": "S&P 500",
-        "value": "7,744.49",
-        "change": "+7.97 (+0.10%)",
-        "positive": true
+        "value": "7,723.55",
+        "change": "-12.97 (-0.17%)",
+        "positive": false
       },
       {
         "label": "Nasdaq Composite",
-        "value": "26,573.97",
-        "change": "-11.02 (-0.04%)",
+        "value": "26,363.44",
+        "change": "-221.55 (-0.83%)",
         "positive": false
       },
       {
         "label": "Dow Jones",
-        "value": "54,546.74",
-        "change": "+460.86 (+0.85%)",
+        "value": "54,349.12",
+        "change": "+263.24 (+0.49%)",
         "positive": true
       },
       {
         "label": "CBOE VIX",
-        "value": "16.30",
-        "change": "-0.20 (-1.21%)",
-        "positive": true
+        "value": "16.01",
+        "change": "+0.20 (+1.27%)",
+        "positive": false
       },
       {
         "label": "10Y Treasury",
-        "value": "4.627%",
-        "change": "+0.000 (0.00%)",
-        "positive": true
+        "value": "4.647%",
+        "change": "+0.030 (+0.65%)",
+        "positive": false
       }
     ],
     "bank_stocks": [
       {
         "ticker": "GS",
-        "price": "$1,071.11",
-        "change": "+1.72%",
+        "price": "$1,060.38",
+        "change": "+0.70%",
         "positive": true
       },
       {
         "ticker": "MS",
-        "price": "$217.83",
-        "change": "+0.36%",
+        "price": "$218.27",
+        "change": "+0.57%",
         "positive": true
       },
       {
         "ticker": "JPM",
-        "price": "$360.08",
-        "change": "+0.71%",
+        "price": "$359.24",
+        "change": "+0.48%",
+        "positive": true
+      },
+      {
+        "ticker": "EVR",
+        "price": "$318.78",
+        "change": "-0.30%",
+        "positive": false
+      },
+      {
+        "ticker": "LAZ",
+        "price": "$43.75",
+        "change": "+0.02%",
         "positive": true
       },
       {
         "ticker": "JEF",
-        "price": "$56.62",
-        "change": "+1.63%",
-        "positive": true
-      },
-      {
-        "ticker": "LAZ",
-        "price": "$44.07",
-        "change": "+0.75%",
+        "price": "$56.19",
+        "change": "+0.86%",
         "positive": true
       }
     ],
-    "macro_note": "A calm midweek tape: S&P 500 roughly flat (~7,744), Dow +0.85% (~54,547), Nasdaq -0.04% (~26,574), with the VIX easing to ~16.3 and the 10Y steady at ~4.63%. Advisory names held recent gains — GS +1.7%, JEF +1.6%, JPM +0.7%. Values are LIVE INTRADAY levels captured ~11:30am EDT Aug 5 — not a settled close."
+    "macro_note": "A softer tape to open Thursday after Wednesday’s close: S&P 500 -0.17% (~7,724), Nasdaq -0.83% (~26,363) as megacap tech gave back gains, Dow +0.49% (~54,349) on defensives; VIX firmed to ~16.0 and the 10Y ticked up to ~4.65%. Advisory names were mixed — GS +0.7%, JPM +0.5%, JEF +0.9%, while EVR slipped -0.3%. Index values are Aug 5 closes; VIX and the 10Y are live Aug 6 morning levels."
   },
   "talking_point": {
-    "quote": "The tape went quiet midweek but the deal calendar didn’t: P&G paid $3.8B for Thorne, ContextLogic struck an $850M chemicals deal, and cross-border divestitures signed across energy and media — several with two covered banks apiece. A calm market is when signed processes need to stay on schedule, and that’s a room-readiness conversation. How are you thinking about execution on the mandates you’re carrying this week?",
-    "use_with": "Consumer, energy, industrials, software and financial-institutions coverage teams (esp. Perella Weinberg, BofA, Morgan Stanley, Deutsche Bank, Moelis)",
-    "context": "Pairs a flat market with a steady, cross-sector signing day — a natural way to open an execution-certainty conversation.",
-    "confidence": "Reported"
+    "quote": "The headlines were quiet today, but the deals already signed got louder: argenx’s tender for Forte went live, and the Prologis/SEGRO filing put seven of the banks we cover on a single ~$18.8B combination. A slow news day is exactly when live processes need to stay on timeline — that’s a room-readiness conversation. How are the mandates you’re carrying tracking to their close dates?",
+    "use_with": "Healthcare, real estate/FIG, and TMT coverage teams (esp. Guggenheim, Goldman, Evercore, Morgan Stanley, UBS, Houlihan Lokey)",
+    "context": "Pairs a soft-tape day with a filing-heavy calendar — a natural way to open an execution-certainty conversation when there’s no marquee new signing to react to.",
+    "confidence": "Filed"
   },
   "sector_heat": {
     "ranked": [
       {
-        "sector": "Consumer / Health & Wellness",
-        "read": "P&G agrees to acquire Thorne from L Catterton for $3.8B (Perella Weinberg + Canaccord for Thorne).",
-        "source_note": "PR Newswire, Aug 4 2026"
+        "sector": "Healthcare / Biopharma",
+        "read": "argenx commences its tender offer for Forte Biosciences (~$2.2B); Forte files SC 14D-9 (Guggenheim for Forte, Goldman for argenx).",
+        "source_note": "SEC EDGAR, Aug 6 2026"
+      },
+      {
+        "sector": "Real Estate / Logistics REIT",
+        "read": "Prologis/SEGRO Rule 2.7 filing names seven covered banks across both sides of the ~$18.8B combination.",
+        "source_note": "StockTitan, Aug 4 2026"
+      },
+      {
+        "sector": "Technology / Software",
+        "read": "LivePerson files further solicitation material ahead of its Aug 20 vote on the SoundHound AI merger (Houlihan Lokey for LivePerson).",
+        "source_note": "SEC EDGAR, Aug 5 2026"
       },
       {
         "sector": "Energy / Oil & Gas",
@@ -588,16 +671,6 @@
         "sector": "Industrials / Specialty Chemicals",
         "read": "ContextLogic agrees to acquire gChem for $850M (Morgan Stanley for gChem; Piper Sandler for ContextLogic).",
         "source_note": "GlobeNewswire, Aug 5 2026"
-      },
-      {
-        "sector": "Technology / Software",
-        "read": "Francisco Partners agrees to acquire Command Alkon from Thoma Bravo (Deutsche Bank for FP; Evercore for Thoma Bravo).",
-        "source_note": "GlobeNewswire, Aug 4 2026"
-      },
-      {
-        "sector": "Financials / Retirement",
-        "read": "Ascensus completes its acquisition of AmericanTCS (Lazard + JPMorgan for Ascensus; Raymond James for AmericanTCS).",
-        "source_note": "PR Newswire, Aug 5 2026"
       }
     ]
   },
@@ -609,20 +682,6 @@
   "skeptics_corner": {
     "note": "Unconfirmed leads — rumored deals and situations with no adviser named yet (or advisers unconfirmed). Real reporting, but treat as speculative: chase them, don’t quote them on a call.",
     "items": [
-      {
-        "company": "Airtable (acquired by Bending Spoons)",
-        "bank": "unconfirmed",
-        "lead": "Bending Spoons agreed to acquire enterprise-software maker Airtable for a reported ~$1.285B enterprise value (~$2.25B equity incl. cash), all-cash, announced Aug 4. Airtable is private.",
-        "why_unverified": "Deal is real (Business Wire, Aug 4) but the primary release was unreachable and no aggregator snippet named a financial adviser — no covered-bank involvement confirmed either way.",
-        "sector": "Technology / SaaS",
-        "source_note": "Business Wire, Aug 4 2026",
-        "confidence": "Speculative",
-        "possible_advisers_inferred": [
-          "Qatalyst Partners",
-          "Goldman Sachs",
-          "Morgan Stanley"
-        ]
-      },
       {
         "company": "Digital Brands Group (Nasdaq: DBGI)",
         "bank": "unconfirmed",
@@ -636,6 +695,20 @@
           "Houlihan Lokey",
           "Jefferies",
           "Piper Sandler"
+        ]
+      },
+      {
+        "company": "Bodycote plc (LSE: BOY)",
+        "bank": "unconfirmed",
+        "lead": "UK thermal-processing group Bodycote confirmed it has received competing takeover proposals from private-equity firms CVC and Veritas Capital (Aug 5). No agreed deal and no advisers named publicly yet.",
+        "why_unverified": "Company-confirmed receipt of proposals, but no firm offer, price, or adviser roster disclosed — an early-stage UK Takeover Code situation, not a mandate.",
+        "sector": "Industrials / Thermal Processing",
+        "source_note": "RTT News, Aug 5 2026",
+        "confidence": "Speculative",
+        "possible_advisers_inferred": [
+          "Morgan Stanley",
+          "Goldman Sachs",
+          "UBS"
         ]
       },
       {
@@ -656,6 +729,11 @@
     ]
   },
   "archive": [
+    {
+      "date": "2026-08-05",
+      "edition": 21,
+      "file": "2026-08-05.json"
+    },
     {
       "date": "2026-08-04",
       "edition": 20,
@@ -710,12 +788,7 @@
       "date": "2026-07-15",
       "edition": 10,
       "file": "2026-07-15.json"
-    },
-    {
-      "date": "2026-07-14",
-      "edition": 9,
-      "file": "2026-07-14.json"
     }
   ],
-  "edition": 21
+  "edition": 22
 }
