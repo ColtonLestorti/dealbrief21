@@ -681,6 +681,40 @@
     "note": "Unconfirmed leads — rumored deals and situations with no adviser named yet (or advisers unconfirmed). Real reporting, but treat as speculative: chase them, don’t quote them on a call.",
     "items": [
       {
+        "company": "TTEC Holdings (Nasdaq: TTEC) — TTEC Digital segment",
+        "bank": "PJT Partners",
+        "lead": "TTEC’s board authorized a review of strategic alternatives for its TTEC Digital business segment, disclosed with Q2 results Aug 10. PJT Partners is named as independent financial adviser.",
+        "why_unverified": "Company-disclosed review with a covered bank (PJT Partners) already engaged — but no transaction, buyer, price, or timeline yet. A named-adviser early signal, not a confirmed deal: reach out early, don’t quote a mandate.",
+        "sector": "TMT / IT Services",
+        "source_note": "SEC EDGAR — TTEC 8-K EX-99.1, Aug 10 2026",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1013880/000110465926093410/tm2622729d1_ex99-1.htm",
+        "confidence": "Speculative"
+      },
+      {
+        "company": "Ashland (NYSE: ASH)",
+        "bank": "unconfirmed",
+        "lead": "Ashland is reportedly exploring a potential sale after inbound takeover interest from strategic and PE buyers (Advent, Apollo, Carlyle reported), amid pressure from activist Ancora. Press reports it is working with Citigroup and Lazard.",
+        "why_unverified": "Bloomberg-sourced (not company-confirmed); the Citi + Lazard adviser detail is press-reported, not disclosed by Ashland. Real reporting, but treat the mandate as unconfirmed until a filing or company statement names the advisers.",
+        "sector": "Industrials / Specialty Chemicals",
+        "source_note": "Bloomberg / Global Cosmetics News, Aug 7–11 2026",
+        "source_url": "https://www.globalcosmeticsnews.com/ashland-explores-potential-sale-following-takeover-interest/",
+        "confidence": "Speculative",
+        "possible_advisers_inferred": [
+          "Citi",
+          "Lazard"
+        ]
+      },
+      {
+        "company": "Bioventus (Nasdaq: BVS)",
+        "bank": "unconfirmed",
+        "lead": "Bioventus’ board initiated a review of strategic alternatives, including a potential sale, following an unsolicited acquisition proposal and other expressions of interest — disclosed with Q2 results Aug 5.",
+        "why_unverified": "Company-disclosed review triggered by an unsolicited bid, but no adviser named, no agreed deal, no price. A genuine reach-out-early signal, not a mandate.",
+        "sector": "Healthcare / Medical Devices",
+        "source_note": "Bioventus Q2 release (via StockTitan), Aug 5 2026",
+        "source_url": "https://www.stocktitan.net/news/BVS/",
+        "confidence": "Speculative"
+      },
+      {
         "company": "H&R REIT (TSX: HR.UN) / GO Residential REIT consortium",
         "bank": "unconfirmed",
         "lead": "H&R REIT agreed to be acquired by a GO Residential REIT-led consortium (Blackstone, Crestpoint, PSP, CRAL) via plan of arrangement, announced Aug 11. J.P. Morgan is named in the advisor section, but two AI extractions of the primary PDF disagreed on which side it advises (H&R board vs the GO REIT acquirer) and on the price/size.",
@@ -707,21 +741,6 @@
           "Morgan Stanley",
           "Goldman Sachs",
           "UBS"
-        ]
-      },
-      {
-        "company": "GE HealthCare (Nasdaq: GEHC) — Patient Care Solutions",
-        "bank": "unconfirmed",
-        "lead": "On its Q2 call, CEO Peter Arduini confirmed a formal review of strategic options for the Patient Care Solutions segment, explicitly including “a sale and other value-enhancing transactions.” Segment Q2 revenue was $675M, down 13.3%.",
-        "why_unverified": "Company-confirmed that a review is underway — but whether it sells, at what price, to whom, with which adviser, and on what timeline are all unconfirmed. A potential carve-out mandate, not a rumored deal.",
-        "sector": "Healthcare / Medical Devices",
-        "source_note": "Investing.com, Jul 29 2026",
-        "source_url": "https://www.investing.com/news/stock-market-news/ge-healthcare-beats-quarterly-profit-estimates-on-strong-imaging-demand-tariff-refunds-4819733",
-        "confidence": "Speculative",
-        "possible_advisers_inferred": [
-          "Goldman Sachs",
-          "JPMorgan",
-          "Morgan Stanley"
         ]
       }
     ]
