@@ -244,7 +244,7 @@
       "urgency": "LOW",
       "scope": "market",
       "headline": "Advisory stocks slide to open the week even as the M&A calendar stays hot — EVR -2.6%, LAZ -3.5%, JEF -2.3%",
-      "why_it_matters": "Equities were modestly lower into the Aug 10 close (S&P -0.06%, Nasdaq -0.32%, Dow -0.11%), with the VIX near ~15.5 and the 10Y around ~4.69%. The notable move was in the advisory complex itself: Evercore (-2.6%), Lazard (-3.5%) and Jefferies (-2.3%) all sold off, an odd divergence on a day that produced a heavy slate of covered-bank signings (Ryman, MarineMax, Boeing/Archer, Bowman). The disconnect between advisory-stock weakness and robust deal flow is a reminder that pipeline strength shows up in mandates before it shows up in the tape.",
+      "why_it_matters": "Equities were modestly lower into the Aug 10 close (S&P -0.06%, Nasdaq -0.32%, Dow -0.11%), with the VIX near ~15.5 and the 10Y around ~4.69%. The notable move was in the advisory complex itself: Evercore (-2.6%), Lazard (-3.5%) and Jefferies (-2.3%) all sold off, an odd divergence on a day that produced a heavy slate of covered-bank signings (Ryman, MarineMax, Boeing/Archer). The disconnect between advisory-stock weakness and robust deal flow is a reminder that pipeline strength shows up in mandates before it shows up in the tape.",
       "suggested_action": "Lean on the deal flow, not the stock tape — a soft session for advisory shares alongside a busy signing day is a cue to keep the conversation on live-process execution and room readiness.",
       "source": "Yahoo Finance",
       "source_url": "https://finance.yahoo.com/quote/%5EGSPC/",
@@ -635,7 +635,7 @@
         "positive": false
       }
     ],
-    "macro_note": "A soft start to the week for stocks and a sharper pullback in advisory names: the S&P 500 slipped -0.06% (~7,753), Nasdaq -0.32% (~26,605) and Dow -0.11% (~53,976) into the Aug 10 close, with the VIX near ~15.5 and the 10Y around ~4.69%. The advisory complex sold off hardest — EVR -2.6%, LAZ -3.5%, JEF -2.3% (JPM bucked it, +0.6%) — an odd divergence given a genuinely heavy M&A signing day (Ryman, MarineMax, Boeing/Archer, Bowman all with covered banks). Index and bank-stock values are Aug 10 closes; VIX and the 10Y are live Aug 11 morning levels."
+    "macro_note": "A soft start to the week for stocks and a sharper pullback in advisory names: the S&P 500 slipped -0.06% (~7,753), Nasdaq -0.32% (~26,605) and Dow -0.11% (~53,976) into the Aug 10 close, with the VIX near ~15.5 and the 10Y around ~4.69%. The advisory complex sold off hardest — EVR -2.6%, LAZ -3.5%, JEF -2.3% (JPM bucked it, +0.6%) — an odd divergence given a genuinely heavy M&A signing day (Ryman, MarineMax, Boeing/Archer all with covered banks). Index and bank-stock values are Aug 10 closes; VIX and the 10Y are live Aug 11 morning levels."
   },
   "talking_point": {
     "quote": "The tape didn’t reward advisory names Monday — Evercore, Lazard and Jefferies all sold off — but the mandate flow told the opposite story: a ~$1.5B MarineMax take-private, Ryman’s $1.38B resort buy, Archer’s carve-out of three Boeing units, and fresh Bio-Techne and Theravance proxies, all with banks we cover. Pipeline strength shows up in signings before it shows up in the stock. Which of your live processes has the nearest diligence milestone this week?",
