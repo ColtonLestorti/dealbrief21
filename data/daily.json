@@ -1,41 +1,41 @@
 {
-  "date": "2026-08-07",
-  "lens": "The week closed on a busier tape: Dream Finders agreed to buy Beazer Homes for ~$2.2B with four covered banks split across the sides, Apollo made a recommended ~£5.7B run at easyJet (Evercore for the airline, Barclays for Apollo), and argenx’s tender for Forte went live — a cross-sector burst of signings against a rebound in stocks and advisory names.",
+  "date": "2026-08-11",
+  "lens": "A heavy signing day carried into the new week: MarineMax agreed a ~$1.5B Blackstone take-private (Wells Fargo, Evercore), Ryman bought the Grande Lakes Orlando resort for $1.38B (BofA, JPMorgan), Archer took three Boeing aerospace units (JPMorgan, Moelis), and Bio-Techne and Theravance filed merger proxies — a broad covered-bank slate even as advisory stocks sold off.",
   "ticker": [
     {
       "label": "S&P 500",
-      "value": "7,743.24",
-      "change": "+0.43%",
-      "positive": true
+      "value": "7,753.11",
+      "change": "-0.06%",
+      "positive": false
     },
     {
       "label": "Nasdaq",
-      "value": "26,599.76",
-      "change": "+0.95%",
-      "positive": true
+      "value": "26,605.36",
+      "change": "-0.32%",
+      "positive": false
     },
     {
       "label": "Dow",
-      "value": "54,009.86",
-      "change": "+0.23%",
-      "positive": true
+      "value": "53,975.98",
+      "change": "-0.11%",
+      "positive": false
     },
     {
       "label": "VIX",
-      "value": "14.91",
-      "change": "-1.58%",
-      "positive": true
+      "value": "15.54",
+      "change": "+0.52%",
+      "positive": false
     },
     {
       "label": "GS",
-      "value": "$1,039.73",
-      "change": "+0.69%",
-      "positive": true
+      "value": "$1,034.51",
+      "change": "-0.49%",
+      "positive": false
     },
     {
       "label": "JEF",
-      "value": "$56.31",
-      "change": "-0.02%",
+      "value": "$55.31",
+      "change": "-2.31%",
       "positive": false
     }
   ],
@@ -46,36 +46,31 @@
       "urgency": "HIGH",
       "scope": "bank",
       "banks": [
-        "Goldman Sachs",
-        "JPMorgan",
-        "Bank of America",
-        "Moelis"
+        "Wells Fargo",
+        "Evercore"
       ],
-      "headline": "Dream Finders to acquire Beazer Homes for ~$2.2B; four covered banks split the sides",
-      "why_it_matters": "Dream Finders Homes (NYSE: DFH) entered a definitive agreement to acquire Beazer Homes (NYSE: BZH) in an all-cash deal at ~$2.2B enterprise value ($33.50/share), forming the nation’s sixth-largest homebuilder. The release names Goldman Sachs and BofA Securities as financial advisers to Dream Finders (buy-side, with Zelman and Vestra; Goldman and BofA also provide committed financing) and J.P. Morgan and Moelis & Company as Beazer’s financial advisers (sell-side). Expected to close Q4 2026 subject to a Beazer shareholder vote. A public-to-public homebuilder merger runs antitrust, financing and shareholder-documentation workstreams.",
-      "suggested_action": "This deal puts four covered desks on one transaction — engage Goldman/BofA (Dream Finders) and JPMorgan/Moelis (Beazer). A ~$2.2B public-company merger runs antitrust, committed-financing and proxy diligence a secure room organizes to close.",
+      "headline": "MarineMax to be acquired by Blackstone’s Safe Harbor for ~$1.5B; Wells Fargo advises MarineMax, Evercore advises Safe Harbor",
+      "why_it_matters": "MarineMax (NYSE: HZO) entered a definitive agreement to be acquired by Safe Harbor Marinas (a Blackstone Infrastructure portfolio company) for $53.00/share in cash, a ~$1.5B enterprise value. The release names Wells Fargo as exclusive financial adviser to MarineMax (sell-side) and Evercore as exclusive financial adviser to Safe Harbor (buy-side). A sponsor take-private of a public retailer/marina operator runs financing, antitrust and shareholder-vote workstreams to close.",
+      "suggested_action": "Engage Wells Fargo (MarineMax) and Evercore (Safe Harbor) — a ~$1.5B sponsor take-private runs committed-financing, antitrust and proxy diligence a secure room organizes to close.",
       "deal_clock": [
         {
-          "date": "Aug 7, 2026",
-          "event": "Dream Finders/Beazer definitive agreement ($33.50/share, ~$2.2B)"
-        },
-        {
-          "date": "Q4 2026",
-          "event": "Expected close (subject to Beazer shareholder vote)"
+          "date": "Aug 10, 2026",
+          "event": "MarineMax agrees to $53.00/share sale to Safe Harbor (~$1.5B)"
         }
       ],
       "coverage_team": [
-        "Real Estate",
-        "Consumer & Retail"
+        "Consumer & Retail",
+        "Real Estate"
       ],
-      "source": "StockTitan (Beazer / Dream Finders release)",
-      "source_url": "https://www.stocktitan.net/news/BZH/dream-finders-homes-to-acquire-beazer-homes-creating-sixth-largest-u-lylw4k74v4io.html",
-      "published": "2026-08-07",
+      "source": "StockTitan (MarineMax release)",
+      "source_url": "https://www.stocktitan.net/news/HZO/marine-max-enters-into-definitive-agreement-to-be-acquired-by-v0jmsrpjpgbz.html",
+      "published": "2026-08-10",
       "confidence": "Reported",
       "tags": [
-        "real-estate",
-        "homebuilders",
-        "all-cash"
+        "consumer",
+        "marinas",
+        "sponsor",
+        "take-private"
       ]
     },
     {
@@ -84,65 +79,66 @@
       "urgency": "HIGH",
       "scope": "bank",
       "banks": [
-        "Evercore",
-        "Barclays"
+        "Bank of America",
+        "JPMorgan"
       ],
-      "headline": "Apollo makes a recommended ~£5.7B offer for easyJet; Evercore advises easyJet, Barclays advises Apollo",
-      "why_it_matters": "Apollo Global Management made a recommended acquisition offer for UK low-cost carrier easyJet plc (LSE: EZJ) valuing it at ~£5.7B, after rival bidder Castlelake stated it does not intend to make an offer. The Rule 2.7 announcement names Evercore as lead financial adviser to easyJet (with BNP Paribas as financial adviser & corporate broker) and Barclays as sole financial adviser to Apollo (which has a highly-confident letter on the debt financing). A cross-border, take-private of a listed airline runs UK Takeover Code, antitrust and financing-diligence workstreams.",
-      "suggested_action": "Engage Evercore (easyJet) and Barclays (Apollo) — a ~£5.7B cross-border airline take-private runs UK Takeover Code, antitrust and lender diligence a secure room organizes over a long path to close.",
+      "headline": "Ryman Hospitality to acquire the Grande Lakes Orlando resort for $1.38B; BofA and JPMorgan advise Ryman",
+      "why_it_matters": "Ryman Hospitality Properties (NYSE: RHP) agreed to acquire the Grande Lakes Orlando resort (JW Marriott and Ritz-Carlton brands) from Trinity Investments for $1.38B, a 12.5x trailing Adjusted EBITDAre multiple, expected to close Q3 2026. The release names BofA Securities and J.P. Morgan as financial advisers to Ryman (buy-side). A large single-asset hotel acquisition runs real-estate, financing and franchise-diligence workstreams.",
+      "suggested_action": "Engage BofA and JPMorgan (Ryman) — a $1.38B trophy-resort acquisition runs property, financing and franchise diligence a secure room organizes to close.",
       "deal_clock": [
         {
-          "date": "Aug 6, 2026",
-          "event": "Apollo makes recommended ~£5.7B offer for easyJet; Castlelake steps aside"
+          "date": "Aug 10, 2026",
+          "event": "Ryman agrees to acquire Grande Lakes Orlando ($1.38B)"
+        },
+        {
+          "date": "Q3 2026",
+          "event": "Expected close"
         }
       ],
       "coverage_team": [
-        "Industrials",
+        "Real Estate",
         "Consumer & Retail"
       ],
-      "source": "Investegate — easyJet Rule 2.7 announcement",
-      "source_url": "https://www.investegate.co.uk/announcement/mfn/easyjet--ezj/statement-regarding-possible-offer-for-easyje-/9661956",
-      "published": "2026-08-06",
+      "source": "StockTitan (Ryman release)",
+      "source_url": "https://www.stocktitan.net/news/RHP/ryman-hospitality-properties-inc-to-acquire-grande-lakes-orlando-1wixjcc7jzt4.html",
+      "published": "2026-08-10",
       "confidence": "Reported",
       "tags": [
-        "industrials",
-        "airlines",
-        "cross-border",
-        "uk-takeover-code",
-        "take-private"
+        "real-estate",
+        "lodging",
+        "single-asset"
       ]
     },
     {
       "id": "s3",
       "category": "M&A",
-      "urgency": "HIGH",
+      "urgency": "MEDIUM",
       "scope": "bank",
       "banks": [
-        "Guggenheim Securities",
-        "Goldman Sachs"
+        "JPMorgan",
+        "Moelis"
       ],
-      "headline": "argenx’s tender offer for Forte Biosciences is live; Guggenheim advises Forte, Goldman advises argenx",
-      "why_it_matters": "Still fresh from Aug 6: argenx (via Avena Merger Sub) commenced its all-cash tender offer for all shares of Forte Biosciences (Nasdaq: FBRX), and Forte’s board filed its SC 14D-9 recommending shareholders tender — the ~$2.2B deal (announced Jul 27) is now a live filed tender. The filing names Guggenheim Securities as Forte’s financial adviser (fairness opinion) and Goldman Sachs as argenx’s adviser. A commenced tender runs a compressed confirmatory-diligence and close clock to the offer expiration.",
-      "suggested_action": "Engage Guggenheim (Forte) and Goldman (argenx) — a commenced tender offer runs a tight confirmatory-diligence and close timeline a secure room keeps organized through expiration.",
+      "headline": "Archer to acquire Boeing’s Wisk, Insitu and SkyGrid; JPMorgan advises Boeing, Moelis advises Archer",
+      "why_it_matters": "Archer Aviation (NYSE: ACHR) agreed to acquire three Boeing units — autonomous-flight developer Wisk Aero, drone maker Insitu, and airspace-software firm SkyGrid — with Boeing (NYSE: BA) taking an equity stake in Archer (terms undisclosed; Insitu ~$200M annual revenue). The release names J.P. Morgan as financial adviser to Boeing (sell-side) and Moelis & Company as financial adviser to Archer (buy-side). A carve-out of multiple aerospace/defense units into a public acquirer runs separation, regulatory (defense/ITAR) and equity-consideration workstreams.",
+      "suggested_action": "Engage JPMorgan (Boeing) and Moelis (Archer) — a multi-unit aerospace/defense carve-out runs separation, ITAR/regulatory and equity-consideration diligence a secure room organizes.",
       "deal_clock": [
         {
-          "date": "Jul 27, 2026",
-          "event": "argenx agrees to acquire Forte Biosciences (~$2.2B)"
-        },
-        {
-          "date": "Aug 6, 2026",
-          "event": "Tender offer commenced; Forte files SC 14D-9 recommending tender"
+          "date": "Aug 10, 2026",
+          "event": "Archer agrees to acquire Wisk, Insitu and SkyGrid from Boeing"
         }
       ],
-      "coverage_team": "Healthcare",
-      "source": "SEC EDGAR — Forte Biosciences SC 14D-9",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1419041/000114036126031507/ny20079529x1_sc14d9.htm",
-      "published": "2026-08-06",
-      "confidence": "Filed",
+      "coverage_team": [
+        "Industrials",
+        "TMT"
+      ],
+      "source": "StockTitan (Archer release)",
+      "source_url": "https://www.stocktitan.net/news/BA/archer-to-shape-physical-ai-future-of-aerospace-and-defense-with-tyzgkntzzk6l.html",
+      "published": "2026-08-10",
+      "confidence": "Reported",
       "tags": [
-        "healthcare",
-        "biopharma",
-        "tender-offer"
+        "industrials",
+        "aerospace-defense",
+        "carve-out"
       ]
     },
     {
@@ -151,30 +147,35 @@
       "urgency": "MEDIUM",
       "scope": "bank",
       "banks": [
-        "Raymond James"
+        "Goldman Sachs",
+        "Guggenheim Securities",
+        "JPMorgan"
       ],
-      "headline": "Identiv files its definitive proxy for its asset sale; Raymond James is the company’s financial adviser",
-      "why_it_matters": "Identiv (Nasdaq: INVE) filed a definitive proxy statement (DEFM14A) for the sale of its purchased assets, moving the process from the July preliminary proxy to a shareholder vote. The filing names Raymond James as Identiv’s financial adviser (fairness opinion delivered Jun 24, 2026; sell-side). An asset-sale proxy runs disclosure and shareholder-approval workstreams to close.",
-      "suggested_action": "Engage Raymond James (Identiv) — an asset-sale heading to a shareholder vote runs disclosure and confirmatory workstreams a secure room organizes through the meeting.",
+      "headline": "Bio-Techne files its merger proxy for the ~$73/share Merck KGaA acquisition; Goldman advises Bio-Techne, Guggenheim and JPMorgan advise Merck",
+      "why_it_matters": "Bio-Techne (Nasdaq: TECH) filed a preliminary merger proxy (PREM14A) for its acquisition by Merck KGaA (Darmstadt, Germany) at $73.00/share, advancing the ~$11.3B life-sciences deal to a shareholder vote. The filing names Goldman Sachs as Bio-Techne’s financial adviser (fairness opinion, sell-side) and Guggenheim Securities and J.P. Morgan as financial advisers to Merck KGaA (buy-side). A large-cap cross-border life-sciences merger runs antitrust (multi-jurisdiction), disclosure and shareholder-vote workstreams.",
+      "suggested_action": "Engage Goldman (Bio-Techne) and Guggenheim/JPMorgan (Merck KGaA) — a ~$11.3B cross-border life-sciences merger runs multi-jurisdiction antitrust and proxy diligence a secure room organizes to close.",
       "deal_clock": [
         {
-          "date": "Jun 24, 2026",
-          "event": "Raymond James delivers fairness opinion to Identiv board"
+          "date": "Jun 25, 2026",
+          "event": "Merck KGaA agrees to acquire Bio-Techne ($73.00/share)"
         },
         {
-          "date": "Aug 7, 2026",
-          "event": "Definitive proxy (DEFM14A) filed"
+          "date": "Aug 10, 2026",
+          "event": "Preliminary merger proxy (PREM14A) filed"
         }
       ],
-      "coverage_team": "TMT",
-      "source": "SEC EDGAR — Identiv DEFM14A",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1036044/000119312526338993/d103630ddefm14a.htm",
-      "published": "2026-08-07",
+      "coverage_team": [
+        "Healthcare",
+        "TMT"
+      ],
+      "source": "SEC EDGAR — Bio-Techne PREM14A",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/842023/000114036126032037/ny20078105x1_prem14a.htm",
+      "published": "2026-08-10",
       "confidence": "Filed",
       "tags": [
-        "technology",
-        "security",
-        "asset-sale"
+        "healthcare",
+        "life-sciences",
+        "cross-border"
       ]
     },
     {
@@ -183,41 +184,30 @@
       "urgency": "MEDIUM",
       "scope": "bank",
       "banks": [
-        "Evercore",
-        "Morgan Stanley",
-        "Goldman Sachs",
-        "JPMorgan",
-        "Bank of America",
-        "Citi",
-        "UBS"
+        "Lazard"
       ],
-      "headline": "Prologis’ ~$18.8B recommended combination with SEGRO keeps seven covered banks in play",
-      "why_it_matters": "Still live: the Rule 2.7 announcement for Prologis’ ~£14.0B (~$18.8B) recommended all-share combination with UK logistics REIT SEGRO names advisers on both sides — seven are covered banks. SEGRO (sell-side): Evercore and Morgan Stanley (joint lead), Goldman Sachs, and UBS (corporate broker/adviser). Prologis (buy-side): J.P. Morgan (joint lead), BofA Securities and Citi (with Rothschild and Eastdil). A cross-border public-company REIT combination runs UK Takeover Code, antitrust and shareholder-documentation workstreams to a targeted 1H 2027 close.",
-      "suggested_action": "Engage the SEGRO advisers (Evercore, Morgan Stanley, Goldman, UBS) and Prologis advisers (JPMorgan, BofA, Citi) — a ~$18.8B cross-border REIT combination runs months of Takeover Code and antitrust diligence a secure room organizes.",
+      "headline": "Theravance Biopharma files its merger proxy for the Zymeworks acquisition; Lazard advises Theravance",
+      "why_it_matters": "Theravance Biopharma (Nasdaq: TBPH) filed a preliminary merger proxy (PREM14A) for its acquisition by Zymeworks at $17.00/share in cash plus one non-tradable CVR, moving the June 28 agreement toward a shareholder vote. The filing names Lazard as Theravance’s financial adviser (fairness opinion; Evercore separately advised on general corporate matters). A biopharma cash-plus-CVR merger runs milestone-structuring, disclosure and shareholder-vote workstreams.",
+      "suggested_action": "Engage Lazard (Theravance) — a cash-plus-CVR biopharma merger runs CVR-milestone, disclosure and proxy diligence a secure room organizes through the vote.",
       "deal_clock": [
         {
-          "date": "Aug 4, 2026",
-          "event": "Prologis/SEGRO recommended combination announced (~$18.8B)"
+          "date": "Jun 28, 2026",
+          "event": "Theravance agrees to $17.00/share + CVR sale to Zymeworks"
         },
         {
-          "date": "H1 2027",
-          "event": "Targeted completion"
+          "date": "Aug 11, 2026",
+          "event": "Preliminary merger proxy (PREM14A) filed"
         }
       ],
-      "coverage_team": [
-        "Real Estate",
-        "FIG",
-        "Industrials"
-      ],
-      "source": "StockTitan — Prologis Rule 2.7 announcement",
-      "source_url": "https://www.stocktitan.net/news/PLD/prologis-inc-announces-recommended-usvbmqu2pemj.html",
-      "published": "2026-08-04",
-      "confidence": "Reported",
+      "coverage_team": "Healthcare",
+      "source": "SEC EDGAR — Theravance Biopharma PREM14A",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1583107/000110465926093784/tm2621435-1_prem14a.htm",
+      "published": "2026-08-11",
+      "confidence": "Filed",
       "tags": [
-        "real-estate",
-        "logistics-reit",
-        "cross-border",
-        "uk-takeover-code"
+        "healthcare",
+        "biopharma",
+        "cvr"
       ]
     },
     {
@@ -226,30 +216,26 @@
       "urgency": "LOW",
       "scope": "bank",
       "banks": [
-        "Houlihan Lokey"
+        "Piper Sandler"
       ],
-      "headline": "LivePerson heads into its Aug 20 vote on the SoundHound AI merger; Houlihan Lokey advises LivePerson",
-      "why_it_matters": "Still live ahead of the vote: LivePerson (Nasdaq: LPSN) filed further solicitation material (Form 425) ahead of its Aug 20 special meeting on its stock-for-stock merger with SoundHound AI (Nasdaq: SOUN). Houlihan Lokey Capital is LivePerson’s financial adviser and delivered the fairness opinion. Secured noteholders agreed to exchange ~$350M of par notes at a discount to enable common-stock consideration, so the vote carries real execution risk and runs heavy proxy-solicitation and disclosure workstreams.",
-      "suggested_action": "Engage Houlihan Lokey (LivePerson) — a debt-laden stock-for-stock merger heading to a knife-edge shareholder vote runs intensive proxy and disclosure workstreams a secure room supports through the Aug 20 meeting.",
+      "headline": "Two Piper Sandler mortgage/bank tie-ups filed: MITT–Cherry Hill mortgage-REIT merger and HBT–Tri-County",
+      "why_it_matters": "Piper Sandler surfaced on two filed FIG combinations Aug 10. It is exclusive financial adviser to AG Mortgage Investment Trust (MITT) on its stock-and-cash merger with Cherry Hill Mortgage (CHMI) — a $117.5M implied value, 29% premium (BTIG advised CHMI). Separately, Piper Sandler is financial adviser to HBT Financial on its acquisition of Tri-County Financial Group — HBT’s twelfth merger since 2007. Bank/mortgage-REIT consolidation runs regulatory-approval and shareholder-vote workstreams.",
+      "suggested_action": "Engage Piper Sandler (MITT and HBT) — consolidation among mortgage REITs and community banks runs regulatory-approval and proxy diligence a secure room keeps organized across parallel deals.",
       "deal_clock": [
         {
-          "date": "Apr 21, 2026",
-          "event": "SoundHound AI agrees to acquire LivePerson (stock-for-stock)"
-        },
-        {
-          "date": "Aug 20, 2026",
-          "event": "LivePerson special meeting / shareholder vote"
+          "date": "Aug 10, 2026",
+          "event": "MITT–Cherry Hill and HBT–Tri-County combinations announced"
         }
       ],
-      "coverage_team": "TMT",
-      "source": "SEC EDGAR — LivePerson Form 425",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1102993/000110299326000071/a425filing8_05-transcript.htm",
-      "published": "2026-08-05",
+      "coverage_team": "FIG",
+      "source": "SEC EDGAR — Cherry Hill/MITT EX-99.1",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1571776/000162828026054987/mitt-exhibit991.htm",
+      "published": "2026-08-10",
       "confidence": "Filed",
       "tags": [
-        "technology",
-        "software",
-        "shareholder-vote"
+        "financials",
+        "mortgage-reit",
+        "bank-ma"
       ]
     },
     {
@@ -257,15 +243,49 @@
       "category": "MACRO",
       "urgency": "LOW",
       "scope": "market",
-      "headline": "Stocks rebound to end the week — S&P +0.43%, Nasdaq +0.95% — as the VIX eases to ~14.9 and the 10Y slips to ~4.64%",
-      "why_it_matters": "Equities bounced back Friday morning after midweek softness: the S&P 500 rose +0.43% (~7,743) and the Nasdaq +0.95% (~26,600) on a renewed megacap-tech bid, with the Dow +0.23% (~54,010). The VIX eased to ~14.9 and the 10Y Treasury slipped to ~4.64%. Advisory names were broadly higher (LAZ +1.8%, GS +0.7%, MS +0.5%, EVR +0.4%) as two fresh multi-bank M&A signings — Dream Finders/Beazer and Apollo/easyJet — landed on the tape. A firm, low-volatility close is the backdrop dealmakers want for launching and progressing processes.",
-      "suggested_action": "Use the calm, risk-on close to keep the conversation on execution — a supportive tape is when boards greenlight and advance processes, and room readiness protects the timeline.",
+      "headline": "Advisory stocks slide to open the week even as the M&A calendar stays hot — EVR -2.6%, LAZ -3.5%, JEF -2.3%",
+      "why_it_matters": "Equities were modestly lower into the Aug 10 close (S&P -0.06%, Nasdaq -0.32%, Dow -0.11%), with the VIX near ~15.5 and the 10Y around ~4.69%. The notable move was in the advisory complex itself: Evercore (-2.6%), Lazard (-3.5%) and Jefferies (-2.3%) all sold off, an odd divergence on a day that produced a heavy slate of covered-bank signings (Ryman, MarineMax, Boeing/Archer, Bowman). The disconnect between advisory-stock weakness and robust deal flow is a reminder that pipeline strength shows up in mandates before it shows up in the tape.",
+      "suggested_action": "Lean on the deal flow, not the stock tape — a soft session for advisory shares alongside a busy signing day is a cue to keep the conversation on live-process execution and room readiness.",
       "source": "Yahoo Finance",
       "source_url": "https://finance.yahoo.com/quote/%5EGSPC/",
-      "published": "2026-08-07"
+      "published": "2026-08-11"
     }
   ],
   "opportunities": [
+    {
+      "banks": [
+        "Goldman Sachs",
+        "Guggenheim Securities",
+        "JPMorgan"
+      ],
+      "sector": "Healthcare / Life Sciences",
+      "urgency": "HOT",
+      "headline": "Sell-side adviser to Bio-Techne (Guggenheim, JPMorgan for Merck KGaA) as the ~$11.3B merger proxy is filed",
+      "why_it_matters": "Goldman Sachs advises Bio-Techne (Nasdaq: TECH) and Guggenheim Securities and J.P. Morgan advise Merck KGaA on the ~$11.3B ($73.00/share) acquisition, now advanced to a preliminary merger proxy (PREM14A). A large-cap cross-border life-sciences merger runs multi-jurisdiction antitrust, disclosure and shareholder-vote workstreams.",
+      "deal_clock": [
+        {
+          "date": "Jun 25, 2026",
+          "event": "Merck KGaA agrees to acquire Bio-Techne ($73.00/share)"
+        },
+        {
+          "date": "Aug 10, 2026",
+          "event": "Preliminary merger proxy (PREM14A) filed"
+        }
+      ],
+      "outreach_idea": "Engage Goldman (Bio-Techne) and Guggenheim/JPMorgan (Merck KGaA) — a ~$11.3B cross-border life-sciences merger runs multi-jurisdiction antitrust and proxy diligence a secure room organizes.",
+      "outreach_draft": {
+        "subject": "Bio-Techne / Merck KGaA — supporting a ~$11.3B merger",
+        "body": "Congratulations on your role advising on the Bio-Techne / Merck KGaA merger. Large-cap cross-border combinations run multi-jurisdiction antitrust, disclosure and shareholder-vote workstreams — happy to discuss secure, auditable data-room access through completion.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "SEC EDGAR — Bio-Techne PREM14A",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/842023/000114036126032037/ny20078105x1_prem14a.htm",
+      "published": "2026-08-10",
+      "confidence": "Filed",
+      "first_seen": "2026-08-10",
+      "last_confirmed": "2026-08-11",
+      "id": "o1",
+      "carry_badge": "Day 2"
+    },
     {
       "banks": [
         "Guggenheim Securities",
@@ -295,9 +315,9 @@
       "published": "2026-08-06",
       "confidence": "Filed",
       "first_seen": "2026-08-06",
-      "last_confirmed": "2026-08-07",
-      "id": "o1",
-      "carry_badge": "Day 2"
+      "last_confirmed": "2026-08-11",
+      "id": "o2",
+      "carry_badge": "Day 4"
     },
     {
       "banks": [
@@ -326,8 +346,8 @@
       "confidence": "Filed",
       "first_seen": "2026-08-03",
       "last_confirmed": "2026-08-07",
-      "id": "o2",
-      "carry_badge": "Day 5"
+      "id": "o3",
+      "carry_badge": "Day 7"
     },
     {
       "banks": [
@@ -354,8 +374,99 @@
       "confidence": "Filed",
       "first_seen": "2026-08-03",
       "last_confirmed": "2026-08-07",
-      "id": "o3",
-      "carry_badge": "Day 5"
+      "id": "o4",
+      "carry_badge": "Day 7"
+    },
+    {
+      "banks": [
+        "Wells Fargo",
+        "Evercore"
+      ],
+      "sector": "Consumer / Marinas",
+      "urgency": "HOT",
+      "headline": "Sell-side adviser to MarineMax (Evercore for Safe Harbor) on the ~$1.5B Blackstone take-private",
+      "why_it_matters": "Wells Fargo is exclusive financial adviser to MarineMax (NYSE: HZO) and Evercore is exclusive financial adviser to Safe Harbor Marinas (Blackstone Infrastructure) on Safe Harbor’s $53.00/share, ~$1.5B all-cash take-private of MarineMax. A sponsor take-private of a public retailer/marina operator runs financing, antitrust and shareholder-vote workstreams.",
+      "deal_clock": [
+        {
+          "date": "Aug 10, 2026",
+          "event": "MarineMax agrees to $53.00/share sale to Safe Harbor (~$1.5B)"
+        }
+      ],
+      "outreach_idea": "Engage Wells Fargo (MarineMax) and Evercore (Safe Harbor) — a ~$1.5B sponsor take-private runs committed-financing, antitrust and proxy diligence a secure room organizes to close.",
+      "outreach_draft": {
+        "subject": "MarineMax / Safe Harbor — supporting a ~$1.5B take-private",
+        "body": "Congratulations on your role advising on Safe Harbor’s acquisition of MarineMax. Sponsor take-privates run committed-financing, antitrust and shareholder-vote workstreams to close — would welcome a conversation on secure, auditable data-room access through completion.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "StockTitan — MarineMax release",
+      "source_url": "https://www.stocktitan.net/news/HZO/marine-max-enters-into-definitive-agreement-to-be-acquired-by-v0jmsrpjpgbz.html",
+      "published": "2026-08-10",
+      "confidence": "Reported",
+      "first_seen": "2026-08-10",
+      "last_confirmed": "2026-08-11",
+      "id": "o5",
+      "carry_badge": "Day 2"
+    },
+    {
+      "banks": [
+        "Bank of America",
+        "JPMorgan"
+      ],
+      "sector": "Real Estate / Lodging",
+      "urgency": "HOT",
+      "headline": "Buy-side advisers to Ryman Hospitality on its $1.38B acquisition of the Grande Lakes Orlando resort",
+      "why_it_matters": "BofA Securities and J.P. Morgan advise Ryman Hospitality (NYSE: RHP) on its $1.38B acquisition of the Grande Lakes Orlando resort (JW Marriott and Ritz-Carlton) from Trinity Investments at a 12.5x EBITDAre multiple; close expected Q3 2026. A trophy single-asset hotel acquisition runs property, financing and franchise-diligence workstreams.",
+      "deal_clock": [
+        {
+          "date": "Aug 10, 2026",
+          "event": "Ryman agrees to acquire Grande Lakes Orlando ($1.38B)"
+        },
+        {
+          "date": "Q3 2026",
+          "event": "Expected close"
+        }
+      ],
+      "outreach_idea": "Engage BofA and JPMorgan (Ryman) — a $1.38B trophy-resort acquisition runs property, financing and franchise diligence a secure room organizes to close.",
+      "outreach_draft": {
+        "subject": "Ryman / Grande Lakes — supporting a $1.38B resort acquisition",
+        "body": "Congratulations on advising Ryman Hospitality on its acquisition of the Grande Lakes Orlando resort. Single-asset hotel acquisitions run property, financing and franchise-diligence workstreams — happy to discuss secure, auditable data-room access through close.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "StockTitan — Ryman release",
+      "source_url": "https://www.stocktitan.net/news/RHP/ryman-hospitality-properties-inc-to-acquire-grande-lakes-orlando-1wixjcc7jzt4.html",
+      "published": "2026-08-10",
+      "confidence": "Reported",
+      "first_seen": "2026-08-10",
+      "last_confirmed": "2026-08-11",
+      "id": "o6",
+      "carry_badge": "Day 2"
+    },
+    {
+      "banks": [
+        "JPMorgan",
+        "Moelis"
+      ],
+      "sector": "Industrials / Aerospace & Defense",
+      "urgency": "HOT",
+      "headline": "Sell-side adviser to Boeing (Moelis for Archer) on the Wisk / Insitu / SkyGrid carve-out",
+      "why_it_matters": "J.P. Morgan advises Boeing (NYSE: BA) and Moelis & Company advises Archer Aviation (NYSE: ACHR) on Archer’s acquisition of three Boeing units — Wisk Aero, Insitu and SkyGrid — with Boeing taking an equity stake in Archer (terms undisclosed). A multi-unit aerospace/defense carve-out runs separation, ITAR/regulatory and equity-consideration workstreams.",
+      "deal_clock": [
+        {
+          "date": "Aug 10, 2026",
+          "event": "Archer agrees to acquire Wisk, Insitu and SkyGrid from Boeing"
+        }
+      ],
+      "outreach_idea": "Engage JPMorgan (Boeing) and Moelis (Archer) — a multi-unit aerospace/defense carve-out runs separation, ITAR/regulatory and equity-consideration diligence a secure room organizes.",
+      "outreach_draft": {
+        "subject": "Boeing / Archer — supporting an aerospace carve-out",
+        "body": "Congratulations on your role advising on Archer’s acquisition of Wisk, Insitu and SkyGrid from Boeing. Multi-unit carve-outs run separation, regulatory and equity-consideration workstreams — would welcome a conversation on secure, auditable data-room access through completion.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "StockTitan — Archer release",
+      "source_url": "https://www.stocktitan.net/news/BA/archer-to-shape-physical-ai-future-of-aerospace-and-defense-with-tyzgkntzzk6l.html",
+      "published": "2026-08-10",
+      "confidence": "Reported",
+      "first_seen": "2026-08-10",
+      "last_confirmed": "2026-08-11",
+      "id": "o7",
+      "carry_badge": "Day 2"
     },
     {
       "banks": [
@@ -389,275 +500,175 @@
       "confidence": "Reported",
       "first_seen": "2026-08-07",
       "last_confirmed": "2026-08-07",
-      "id": "o4",
-      "carry_badge": "NEW"
-    },
-    {
-      "banks": [
-        "Evercore",
-        "Barclays"
-      ],
-      "sector": "Industrials / Airlines",
-      "urgency": "HOT",
-      "headline": "Lead adviser to easyJet (Barclays for Apollo) on Apollo’s recommended ~£5.7B take-private",
-      "why_it_matters": "Evercore is lead financial adviser to easyJet (with BNP Paribas), and Barclays is sole financial adviser to Apollo, on Apollo’s recommended ~£5.7B acquisition of the UK low-cost carrier — a take-private that advanced after rival Castlelake stepped aside. A cross-border listed-airline take-private runs UK Takeover Code, antitrust and financing-diligence workstreams.",
-      "deal_clock": [
-        {
-          "date": "Aug 6, 2026",
-          "event": "Apollo makes recommended ~£5.7B offer for easyJet; Castlelake steps aside"
-        }
-      ],
-      "outreach_idea": "Engage Evercore (easyJet) and Barclays (Apollo) — a ~£5.7B cross-border airline take-private runs UK Takeover Code, antitrust and lender diligence a secure room organizes.",
-      "outreach_draft": {
-        "subject": "easyJet / Apollo — supporting a cross-border take-private",
-        "body": "Congratulations on your role advising on Apollo’s recommended offer for easyJet. Cross-border take-privates run UK Takeover Code, antitrust and financing-diligence workstreams over many months — happy to discuss secure, auditable data-room access through completion.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
-      },
-      "source": "Investegate — easyJet Rule 2.7 announcement",
-      "source_url": "https://www.investegate.co.uk/announcement/mfn/easyjet--ezj/statement-regarding-possible-offer-for-easyje-/9661956",
-      "published": "2026-08-06",
-      "confidence": "Reported",
-      "first_seen": "2026-08-07",
-      "last_confirmed": "2026-08-07",
-      "id": "o5",
-      "carry_badge": "NEW"
-    },
-    {
-      "banks": [
-        "Evercore",
-        "Morgan Stanley",
-        "Goldman Sachs",
-        "JPMorgan",
-        "Bank of America",
-        "Citi",
-        "UBS"
-      ],
-      "sector": "Real Estate / Logistics REIT",
-      "urgency": "HOT",
-      "headline": "Seven covered banks advise Prologis and SEGRO on the ~$18.8B recommended combination",
-      "why_it_matters": "The full Rule 2.7 announcement names advisers on both sides — seven are covered banks. SEGRO (sell-side): Evercore and Morgan Stanley (joint lead), Goldman Sachs, and UBS (corporate broker/adviser). Prologis (buy-side): J.P. Morgan (joint lead), BofA Securities and Citi (with Rothschild and Eastdil). A ~£14.0B (~$18.8B) cross-border REIT combination runs UK Takeover Code, antitrust and shareholder-documentation workstreams to a 1H 2027 close.",
-      "deal_clock": [
-        {
-          "date": "Aug 4, 2026",
-          "event": "Prologis/SEGRO recommended combination announced (~$18.8B)"
-        },
-        {
-          "date": "H1 2027",
-          "event": "Targeted completion"
-        }
-      ],
-      "outreach_idea": "Engage the SEGRO advisers (Evercore, Morgan Stanley, Goldman, UBS) and Prologis advisers (JPMorgan, BofA, Citi) — a ~$18.8B cross-border REIT combination runs months of Takeover Code and antitrust diligence a secure room organizes.",
-      "outreach_draft": {
-        "subject": "Prologis / SEGRO — supporting a cross-border REIT combination",
-        "body": "Congratulations on your role advising on the Prologis/SEGRO combination. Cross-border public-company combinations run UK Takeover Code, antitrust and shareholder-documentation workstreams over many months — would welcome a conversation on secure, auditable data-room access through completion.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
-      },
-      "source": "StockTitan — Prologis Rule 2.7 announcement",
-      "source_url": "https://www.stocktitan.net/news/PLD/prologis-inc-announces-recommended-usvbmqu2pemj.html",
-      "published": "2026-08-04",
-      "confidence": "Reported",
-      "first_seen": "2026-08-04",
-      "last_confirmed": "2026-08-06",
-      "id": "o6",
-      "carry_badge": "Day 4"
-    },
-    {
-      "banks": [
-        "Perella Weinberg"
-      ],
-      "sector": "Consumer / Health & Wellness",
-      "urgency": "HOT",
-      "headline": "Sell-side adviser to Thorne on its $3.8B sale to Procter & Gamble",
-      "why_it_matters": "Perella Weinberg (with Canaccord Genuity) advises Thorne on its $3.8B all-cash sale by L Catterton to Procter & Gamble (close expected Q4 2026). A consumer-health sale to a strategic runs brand, regulatory and QofE diligence toward close.",
-      "deal_clock": [
-        {
-          "date": "Aug 4, 2026",
-          "event": "L Catterton agrees to sell Thorne to P&G ($3.8B)"
-        },
-        {
-          "date": "Q4 2026",
-          "event": "Expected close"
-        }
-      ],
-      "outreach_idea": "Engage Perella Weinberg (Thorne) — a $3.8B consumer-health sale runs brand and QofE diligence a secure room organizes through close.",
-      "outreach_draft": {
-        "subject": "Thorne / P&G — supporting a $3.8B consumer-health sale",
-        "body": "Congratulations on Perella Weinberg’s role advising Thorne on its sale to Procter & Gamble. Sales of consumer-health brands to strategics run brand, regulatory and quality-of-earnings diligence toward close — would welcome a conversation on secure, auditable data-room access through completion.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
-      },
-      "source": "PR Newswire — L Catterton release",
-      "source_url": "https://www.prnewswire.com/news-releases/l-catterton-announces-sale-of-thorne-to-the-procter--gamble-company-for-3-8-billion-302842797.html",
-      "published": "2026-08-04",
-      "confidence": "Reported",
-      "first_seen": "2026-08-05",
-      "last_confirmed": "2026-08-06",
-      "id": "o7",
-      "carry_badge": "Day 3"
-    },
-    {
-      "banks": [
-        "Bank of America",
-        "RBC Capital Markets"
-      ],
-      "sector": "Energy / Oil & Gas",
-      "urgency": "HOT",
-      "headline": "Lead sell-side adviser (with RBC) to Gran Tierra on its $1.33B South American divestiture to Maurel & Prom",
-      "why_it_matters": "BofA Securities is lead financial adviser (and fairness-opinion provider), with RBC Capital Markets, to Gran Tierra on the $1.33B sale of its Colombia/Ecuador business to Maurel & Prom (a Pertamina subsidiary). A cross-border upstream divestiture runs reserve, regulatory and confirmatory diligence to close.",
-      "deal_clock": [
-        {
-          "date": "Aug 5, 2026",
-          "event": "Gran Tierra agrees to sell Colombia/Ecuador business ($1.33B)"
-        }
-      ],
-      "outreach_idea": "Engage BofA / RBC (Gran Tierra) — a $1.33B cross-border upstream divestiture runs reserve and regulatory diligence a secure room organizes.",
-      "outreach_draft": {
-        "subject": "Gran Tierra — supporting a cross-border upstream divestiture",
-        "body": "Congratulations on BofA’s lead role advising Gran Tierra on the sale of its Colombia and Ecuador business. Cross-border upstream divestitures run reserve, regulatory and confirmatory diligence to close — happy to discuss secure, auditable data-room access through the process.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
-      },
-      "source": "GlobeNewswire — Gran Tierra release",
-      "source_url": "https://www.globenewswire.com/news-release/2026/08/05/3339040/0/en/gran-tierra-energy-inc-announces-agreement-to-sell-its-colombia-and-ecuador-business-to-maurel-prom-and-reposition-the-company-for-fully-financed-growth.html",
-      "published": "2026-08-05",
-      "confidence": "Reported",
-      "first_seen": "2026-08-05",
-      "last_confirmed": "2026-08-06",
       "id": "o8",
       "carry_badge": "Day 3"
     },
     {
       "banks": [
-        "Raymond James"
+        "Lazard"
       ],
-      "sector": "Technology / Security",
+      "sector": "Healthcare / Biopharma",
       "urgency": "WARM",
-      "headline": "Sell-side adviser to Identiv on its asset sale as the definitive proxy is filed",
-      "why_it_matters": "Raymond James is Identiv’s (Nasdaq: INVE) financial adviser (fairness opinion Jun 24) on the sale of its purchased assets, which advanced to a definitive proxy (DEFM14A) filed Aug 7 ahead of a shareholder vote. An asset-sale proxy runs disclosure and shareholder-approval workstreams to close.",
+      "headline": "Sell-side adviser to Theravance Biopharma on its $17.00/share + CVR sale to Zymeworks",
+      "why_it_matters": "Lazard advises Theravance Biopharma (Nasdaq: TBPH) on its acquisition by Zymeworks at $17.00/share in cash plus one non-tradable CVR, now advanced to a preliminary merger proxy (PREM14A, filed Aug 11). A cash-plus-CVR biopharma merger runs milestone-structuring, disclosure and shareholder-vote workstreams.",
       "deal_clock": [
         {
-          "date": "Jun 24, 2026",
-          "event": "Raymond James delivers fairness opinion"
+          "date": "Jun 28, 2026",
+          "event": "Theravance agrees to $17.00/share + CVR sale to Zymeworks"
         },
         {
-          "date": "Aug 7, 2026",
-          "event": "Definitive proxy (DEFM14A) filed"
+          "date": "Aug 11, 2026",
+          "event": "Preliminary merger proxy (PREM14A) filed"
         }
       ],
-      "outreach_idea": "Engage Raymond James (Identiv) — an asset sale heading to a shareholder vote runs disclosure and confirmatory workstreams a secure room organizes through the meeting.",
+      "outreach_idea": "Engage Lazard (Theravance) — a cash-plus-CVR biopharma merger runs CVR-milestone, disclosure and proxy diligence a secure room organizes through the vote.",
       "outreach_draft": {
-        "subject": "Identiv — supporting an asset-sale shareholder vote",
-        "body": "Congratulations on Raymond James’s role advising Identiv on its asset sale. Asset sales heading to a shareholder vote run disclosure and confirmatory workstreams — would welcome a conversation on secure, auditable room access through the meeting.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+        "subject": "Theravance / Zymeworks — supporting a biopharma merger",
+        "body": "Congratulations on Lazard’s role advising Theravance Biopharma on its sale to Zymeworks. Cash-plus-CVR mergers run milestone-structuring, disclosure and shareholder-vote workstreams — would welcome a conversation on secure, auditable room access through the vote.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
       },
-      "source": "SEC EDGAR — Identiv DEFM14A",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1036044/000119312526338993/d103630ddefm14a.htm",
-      "published": "2026-08-07",
+      "source": "SEC EDGAR — Theravance Biopharma PREM14A",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1583107/000110465926093784/tm2621435-1_prem14a.htm",
+      "published": "2026-08-11",
       "confidence": "Filed",
-      "first_seen": "2026-08-07",
-      "last_confirmed": "2026-08-07",
+      "first_seen": "2026-08-11",
+      "last_confirmed": "2026-08-11",
       "id": "o9",
       "carry_badge": "NEW"
+    },
+    {
+      "banks": [
+        "Piper Sandler"
+      ],
+      "sector": "Financials / Mortgage REIT",
+      "urgency": "WARM",
+      "headline": "Exclusive adviser to AG Mortgage (MITT) on its stock-and-cash merger with Cherry Hill Mortgage",
+      "why_it_matters": "Piper Sandler is exclusive financial adviser to AG Mortgage Investment Trust (NYSE: MITT) on its stock-and-cash merger with Cherry Hill Mortgage (NYSE: CHMI) — a $117.5M implied value at a 29% premium (BTIG advised CHMI). A mortgage-REIT combination runs regulatory-approval and shareholder-vote workstreams.",
+      "deal_clock": [
+        {
+          "date": "Aug 10, 2026",
+          "event": "MITT agrees to acquire Cherry Hill Mortgage ($117.5M)"
+        }
+      ],
+      "outreach_idea": "Engage Piper Sandler (MITT) — a mortgage-REIT merger runs regulatory-approval and dual-company proxy diligence a secure room organizes to close.",
+      "outreach_draft": {
+        "subject": "MITT / Cherry Hill — supporting a mortgage-REIT merger",
+        "body": "Congratulations on Piper Sandler’s role advising AG Mortgage on its merger with Cherry Hill. Mortgage-REIT combinations run regulatory-approval and shareholder-vote workstreams — happy to discuss secure, auditable room access through close.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "SEC EDGAR — Cherry Hill/MITT EX-99.1",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1571776/000162828026054987/mitt-exhibit991.htm",
+      "published": "2026-08-10",
+      "confidence": "Filed",
+      "first_seen": "2026-08-10",
+      "last_confirmed": "2026-08-11",
+      "id": "o10",
+      "carry_badge": "Day 2"
     }
   ],
   "market_snapshot": {
     "indices": [
       {
         "label": "S&P 500",
-        "value": "7,743.24",
-        "change": "+33.28 (+0.43%)",
-        "positive": true
+        "value": "7,753.11",
+        "change": "-4.53 (-0.06%)",
+        "positive": false
       },
       {
         "label": "Nasdaq Composite",
-        "value": "26,599.76",
-        "change": "+251.40 (+0.95%)",
-        "positive": true
+        "value": "26,605.36",
+        "change": "-85.26 (-0.32%)",
+        "positive": false
       },
       {
         "label": "Dow Jones",
-        "value": "54,009.86",
-        "change": "+124.76 (+0.23%)",
-        "positive": true
+        "value": "53,975.98",
+        "change": "-60.95 (-0.11%)",
+        "positive": false
       },
       {
         "label": "CBOE VIX",
-        "value": "14.91",
-        "change": "-0.24 (-1.58%)",
-        "positive": true
+        "value": "15.54",
+        "change": "+0.08 (+0.52%)",
+        "positive": false
       },
       {
         "label": "10Y Treasury",
-        "value": "4.637%",
-        "change": "-0.033 (-0.71%)",
+        "value": "4.688%",
+        "change": "-0.011 (-0.23%)",
         "positive": true
       }
     ],
     "bank_stocks": [
       {
         "ticker": "GS",
-        "price": "$1,039.73",
-        "change": "+0.69%",
-        "positive": true
+        "price": "$1,034.51",
+        "change": "-0.49%",
+        "positive": false
       },
       {
         "ticker": "MS",
-        "price": "$214.74",
-        "change": "+0.46%",
-        "positive": true
+        "price": "$215.33",
+        "change": "-0.46%",
+        "positive": false
       },
       {
         "ticker": "JPM",
-        "price": "$356.30",
-        "change": "0.00%",
+        "price": "$359.79",
+        "change": "+0.63%",
         "positive": true
       },
       {
         "ticker": "EVR",
-        "price": "$311.60",
-        "change": "+0.41%",
-        "positive": true
+        "price": "$297.97",
+        "change": "-2.61%",
+        "positive": false
       },
       {
         "ticker": "LAZ",
-        "price": "$44.09",
-        "change": "+1.78%",
-        "positive": true
+        "price": "$42.67",
+        "change": "-3.46%",
+        "positive": false
       },
       {
         "ticker": "JEF",
-        "price": "$56.31",
-        "change": "-0.02%",
+        "price": "$55.31",
+        "change": "-2.31%",
         "positive": false
       }
     ],
-    "macro_note": "Stocks bounced back Friday morning: S&P 500 +0.43% (~7,743), Nasdaq +0.95% (~26,600) on renewed megacap-tech bid, Dow +0.23% (~54,010), with the VIX easing to ~14.9 and the 10Y slipping to ~4.64%. Advisory names were broadly higher — LAZ +1.8%, GS +0.7%, EVR +0.4%, MS +0.5% (JPM flat, JEF ~flat) — as the deal calendar produced two fresh multi-bank M&A signings. Values are LIVE INTRADAY levels captured ~10:40am EDT Aug 7 — not a settled close."
+    "macro_note": "A soft start to the week for stocks and a sharper pullback in advisory names: the S&P 500 slipped -0.06% (~7,753), Nasdaq -0.32% (~26,605) and Dow -0.11% (~53,976) into the Aug 10 close, with the VIX near ~15.5 and the 10Y around ~4.69%. The advisory complex sold off hardest — EVR -2.6%, LAZ -3.5%, JEF -2.3% (JPM bucked it, +0.6%) — an odd divergence given a genuinely heavy M&A signing day (Ryman, MarineMax, Boeing/Archer, Bowman all with covered banks). Index and bank-stock values are Aug 10 closes; VIX and the 10Y are live Aug 11 morning levels."
   },
   "talking_point": {
-    "quote": "The week ended with real signings, not just filings: Dream Finders/Beazer put four of the banks we cover on one $2.2B deal, and Apollo’s recommended run at easyJet added a cross-border take-private with Evercore and Barclays. Both are exactly the multi-party, cross-border processes where secure room readiness sets the execution pace. As you head into the weekend, which of your live mandates most needs its diligence environment locked before the next milestone?",
-    "use_with": "Real estate/homebuilder, industrials/airlines, and healthcare coverage teams (esp. Goldman, JPMorgan, BofA, Moelis, Evercore, Barclays, Guggenheim)",
-    "context": "Pairs a risk-on Friday with two fresh multi-bank signings — a natural, upbeat way to open an execution-certainty conversation into the weekend.",
+    "quote": "The tape didn’t reward advisory names Monday — Evercore, Lazard and Jefferies all sold off — but the mandate flow told the opposite story: a ~$1.5B MarineMax take-private, Ryman’s $1.38B resort buy, Archer’s carve-out of three Boeing units, and fresh Bio-Techne and Theravance proxies, all with banks we cover. Pipeline strength shows up in signings before it shows up in the stock. Which of your live processes has the nearest diligence milestone this week?",
+    "use_with": "Consumer/real-estate, industrials/aerospace, and healthcare coverage teams (esp. Wells Fargo, Evercore, BofA, JPMorgan, Moelis, Goldman, Lazard)",
+    "context": "Pairs an advisory-stock pullback with a genuinely busy signing day — a way to redirect the conversation from the tape to live-process execution.",
     "confidence": "Reported"
   },
   "sector_heat": {
     "ranked": [
       {
-        "sector": "Real Estate / Homebuilders",
-        "read": "Dream Finders to acquire Beazer Homes for ~$2.2B all-cash (Goldman + BofA for Dream Finders; JPMorgan + Moelis for Beazer).",
-        "source_note": "StockTitan, Aug 7 2026"
+        "sector": "Consumer / Marinas",
+        "read": "MarineMax agrees to a ~$1.5B Blackstone (Safe Harbor) take-private at $53.00/share (Wells Fargo for MarineMax; Evercore for Safe Harbor).",
+        "source_note": "StockTitan, Aug 10 2026"
       },
       {
-        "sector": "Industrials / Airlines",
-        "read": "Apollo makes a recommended ~£5.7B offer for easyJet (Evercore + BNP for easyJet; Barclays for Apollo).",
-        "source_note": "Investegate, Aug 6 2026"
+        "sector": "Real Estate / Lodging",
+        "read": "Ryman Hospitality to acquire the Grande Lakes Orlando resort for $1.38B (BofA + JPMorgan for Ryman).",
+        "source_note": "StockTitan, Aug 10 2026"
       },
       {
-        "sector": "Healthcare / Biopharma",
-        "read": "argenx commences its tender offer for Forte Biosciences (~$2.2B) (Guggenheim for Forte, Goldman for argenx).",
-        "source_note": "SEC EDGAR, Aug 6 2026"
+        "sector": "Industrials / Aerospace & Defense",
+        "read": "Archer to acquire Boeing’s Wisk, Insitu and SkyGrid; Boeing takes an Archer stake (JPMorgan for Boeing; Moelis for Archer).",
+        "source_note": "StockTitan, Aug 10 2026"
       },
       {
-        "sector": "Technology / Security",
-        "read": "Identiv files a definitive proxy for its asset sale (Raymond James for Identiv).",
-        "source_note": "SEC EDGAR, Aug 7 2026"
+        "sector": "Healthcare / Life Sciences",
+        "read": "Bio-Techne files its ~$11.3B Merck KGaA merger proxy (Goldman for Bio-Techne; Guggenheim + JPMorgan for Merck).",
+        "source_note": "SEC EDGAR, Aug 10 2026"
       },
       {
-        "sector": "Real Estate / Logistics REIT",
-        "read": "Prologis/SEGRO ~$18.8B combination keeps seven covered banks in play across both sides.",
-        "source_note": "StockTitan, Aug 4 2026"
+        "sector": "Financials / Mortgage REIT",
+        "read": "AG Mortgage (MITT) to merge with Cherry Hill Mortgage at a 29% premium (Piper Sandler for MITT; BTIG for CHMI).",
+        "source_note": "SEC EDGAR, Aug 10 2026"
       }
     ]
   },
@@ -670,18 +681,18 @@
     "note": "Unconfirmed leads — rumored deals and situations with no adviser named yet (or advisers unconfirmed). Real reporting, but treat as speculative: chase them, don’t quote them on a call.",
     "items": [
       {
-        "company": "Sunoco LP (NYSE: SUN) / Offen Petroleum",
+        "company": "H&R REIT (TSX: HR.UN) / GO Residential REIT consortium",
         "bank": "unconfirmed",
-        "lead": "Sunoco LP agreed to acquire fuel distributor Offen Petroleum for ~$600M all-cash (Aug 6), expected to close Q4 2026. The primary release names no financial advisers for either side.",
-        "why_unverified": "Confirmed deal, but no adviser disclosed in the release — no covered-bank involvement confirmed either way. A potential mandate to chase, not a confirmed one.",
-        "sector": "Energy / Fuel Distribution",
-        "source_note": "StockTitan, Aug 6 2026",
-        "source_url": "https://www.stocktitan.net/news/ET/sunoco-lp-to-acquire-offen-pplyae4okpdc.html",
+        "lead": "H&R REIT agreed to be acquired by a GO Residential REIT-led consortium (Blackstone, Crestpoint, PSP, CRAL) via plan of arrangement, announced Aug 11. J.P. Morgan is named in the advisor section, but two AI extractions of the primary PDF disagreed on which side it advises (H&R board vs the GO REIT acquirer) and on the price/size.",
+        "why_unverified": "Deal is real and covered-bank-relevant (J.P. Morgan named), but the PDF-only primary release could not be cleanly parsed — the side, per-unit price, and deal size conflicted between reads. Holding until the adviser side is confirmed from a text primary (e.g. SEDAR+ / the arrangement circular) rather than shipping a possibly-wrong attribution.",
+        "sector": "Real Estate / Residential REIT",
+        "source_note": "H&R REIT press release (PDF), Aug 11 2026",
+        "source_url": "https://www.hr-reit.com/wp-content/uploads/2026/08/HR-GO_Final-News-Release.pdf",
         "confidence": "Speculative",
         "possible_advisers_inferred": [
+          "JPMorgan",
           "RBC Capital Markets",
-          "Barclays",
-          "Wells Fargo"
+          "BMO Capital Markets"
         ]
       },
       {
@@ -716,6 +727,11 @@
     ]
   },
   "archive": [
+    {
+      "date": "2026-08-07",
+      "edition": 23,
+      "file": "2026-08-07.json"
+    },
     {
       "date": "2026-08-06",
       "edition": 22,
@@ -770,12 +786,7 @@
       "date": "2026-07-21",
       "edition": 12,
       "file": "2026-07-21.json"
-    },
-    {
-      "date": "2026-07-16",
-      "edition": 11,
-      "file": "2026-07-16.json"
     }
   ],
-  "edition": 23
+  "edition": 24
 }
