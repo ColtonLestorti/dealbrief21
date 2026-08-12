@@ -75,9 +75,9 @@
         }
       ],
       "dealbrief_tracker": {
-        "mandates_30d": 25,
-        "mandates_total": 31,
-        "as_of": "2026-08-05",
+        "mandates_30d": 27,
+        "mandates_total": 36,
+        "as_of": "2026-08-12",
         "note": "Mandates DealBrief caught in its own coverage — not the bank's full book, and not an official league table. Bulge brackets are heavily undercounted; see advisory_signal for authoritative rank.",
         "advisory_signal": {
           "rank": "#1 global M&A by value, H1 2026 (~$1.23T advised)",
@@ -88,6 +88,60 @@
         },
         "pipeline_watch": [],
         "caught_mandates": [
+          {
+            "headline": "Payoneer files its merger proxy for the $7.40/share Nuvei acquisition; Goldman advises Nuvei",
+            "published": "2026-08-11",
+            "confidence": "Filed",
+            "coverage_team": [
+              "FIG",
+              "TMT"
+            ],
+            "source": "SEC EDGAR — Payoneer Global DEFM14A",
+            "source_url": "https://www.sec.gov/Archives/edgar/data/1845815/000110465926094105/tm2619600-2_defm14a.htm"
+          },
+          {
+            "headline": "Bio-Techne files its merger proxy for the ~$73/share Merck KGaA acquisition; Goldman advises Bio-Techne, Guggenheim and JPMorgan advise Merck",
+            "published": "2026-08-10",
+            "confidence": "Filed",
+            "coverage_team": [
+              "Healthcare",
+              "TMT"
+            ],
+            "source": "SEC EDGAR — Bio-Techne PREM14A",
+            "source_url": "https://www.sec.gov/Archives/edgar/data/842023/000114036126032037/ny20078105x1_prem14a.htm"
+          },
+          {
+            "headline": "Skyworks prices $2.0B of senior notes to fund its Qorvo combination; Goldman, BofA, JPMorgan and Wells Fargo lead",
+            "published": "2026-08-10",
+            "confidence": "Filed",
+            "coverage_team": [
+              "TMT",
+              "Industrials"
+            ],
+            "source": "SEC EDGAR — Skyworks Solutions underwriting agreement (EX-1.1)",
+            "source_url": "https://www.sec.gov/Archives/edgar/data/1604778/000110465926093358/tm2622643d2_ex1-1.htm"
+          },
+          {
+            "headline": "Dream Finders to acquire Beazer Homes for ~$2.2B; four covered banks split the sides",
+            "published": "2026-08-07",
+            "confidence": "Reported",
+            "coverage_team": [
+              "Real Estate",
+              "Consumer & Retail"
+            ],
+            "source": "StockTitan (Beazer / Dream Finders release)",
+            "source_url": "https://www.stocktitan.net/news/BZH/dream-finders-homes-to-acquire-beazer-homes-creating-sixth-largest-u-lylw4k74v4io.html"
+          },
+          {
+            "headline": "argenx commences its tender offer for Forte Biosciences; Guggenheim advises Forte, Goldman advises argenx",
+            "published": "2026-08-06",
+            "confidence": "Filed",
+            "coverage_team": [
+              "Healthcare"
+            ],
+            "source": "SEC EDGAR — Forte Biosciences SC 14D-9",
+            "source_url": "https://www.sec.gov/Archives/edgar/data/1419041/000114036126031507/ny20079529x1_sc14d9.htm"
+          },
           {
             "headline": "Six covered banks work Prologis’ ~$18.8B recommended combination with UK logistics REIT SEGRO",
             "published": "2026-08-04",
@@ -479,9 +533,9 @@
         }
       ],
       "dealbrief_tracker": {
-        "mandates_30d": 25,
-        "mandates_total": 30,
-        "as_of": "2026-08-05",
+        "mandates_30d": 22,
+        "mandates_total": 31,
+        "as_of": "2026-08-12",
         "note": "Mandates DealBrief caught in its own coverage — not the bank's full book, and not an official league table. Bulge brackets are heavily undercounted; see advisory_signal for authoritative rank.",
         "advisory_signal": {
           "rank": "#3 global M&A by value, H1 2026 (~$673.1B advised)",
@@ -507,6 +561,17 @@
           }
         ],
         "caught_mandates": [
+          {
+            "headline": "Caesars files its $31.00/share take-private proxy by Fertitta Entertainment; PJT Partners advises Caesars, Morgan Stanley advises Fertitta",
+            "published": "2026-08-12",
+            "confidence": "Filed",
+            "coverage_team": [
+              "Consumer & Retail",
+              "Real Estate"
+            ],
+            "source": "SEC EDGAR — Caesars Entertainment PREM14A",
+            "source_url": "https://www.sec.gov/Archives/edgar/data/1590895/000119312526345336/d143368dprem14a.htm"
+          },
           {
             "headline": "Morgan Stanley advises gChem and Piper Sandler advises ContextLogic on the $850M specialty-chemicals acquisition",
             "published": "2026-08-05",
@@ -890,9 +955,9 @@
         }
       ],
       "dealbrief_tracker": {
-        "mandates_30d": 28,
-        "mandates_total": 33,
-        "as_of": "2026-08-05",
+        "mandates_30d": 29,
+        "mandates_total": 38,
+        "as_of": "2026-08-12",
         "note": "Mandates DealBrief caught in its own coverage — not the bank's full book, and not an official league table. Bulge brackets are heavily undercounted; see advisory_signal for authoritative rank.",
         "advisory_signal": {
           "rank": "#2 global M&A by value, H1 2026 (~$818.8B advised)",
@@ -911,6 +976,61 @@
           }
         ],
         "caught_mandates": [
+          {
+            "headline": "Ryman Hospitality to acquire the Grande Lakes Orlando resort for $1.38B; BofA and JPMorgan advise Ryman",
+            "published": "2026-08-10",
+            "confidence": "Reported",
+            "coverage_team": [
+              "Real Estate",
+              "Consumer & Retail"
+            ],
+            "source": "StockTitan (Ryman release)",
+            "source_url": "https://www.stocktitan.net/news/RHP/ryman-hospitality-properties-inc-to-acquire-grande-lakes-orlando-1wixjcc7jzt4.html"
+          },
+          {
+            "headline": "Archer to acquire Boeing’s Wisk, Insitu and SkyGrid; JPMorgan advises Boeing, Moelis advises Archer",
+            "published": "2026-08-10",
+            "confidence": "Reported",
+            "coverage_team": [
+              "Industrials",
+              "TMT"
+            ],
+            "source": "StockTitan (Archer release)",
+            "source_url": "https://www.stocktitan.net/news/BA/archer-to-shape-physical-ai-future-of-aerospace-and-defense-with-tyzgkntzzk6l.html"
+          },
+          {
+            "headline": "Bio-Techne files its merger proxy for the ~$73/share Merck KGaA acquisition; Goldman advises Bio-Techne, Guggenheim and JPMorgan advise Merck",
+            "published": "2026-08-10",
+            "confidence": "Filed",
+            "coverage_team": [
+              "Healthcare",
+              "TMT"
+            ],
+            "source": "SEC EDGAR — Bio-Techne PREM14A",
+            "source_url": "https://www.sec.gov/Archives/edgar/data/842023/000114036126032037/ny20078105x1_prem14a.htm"
+          },
+          {
+            "headline": "Skyworks prices $2.0B of senior notes to fund its Qorvo combination; Goldman, BofA, JPMorgan and Wells Fargo lead",
+            "published": "2026-08-10",
+            "confidence": "Filed",
+            "coverage_team": [
+              "TMT",
+              "Industrials"
+            ],
+            "source": "SEC EDGAR — Skyworks Solutions underwriting agreement (EX-1.1)",
+            "source_url": "https://www.sec.gov/Archives/edgar/data/1604778/000110465926093358/tm2622643d2_ex1-1.htm"
+          },
+          {
+            "headline": "Dream Finders to acquire Beazer Homes for ~$2.2B; four covered banks split the sides",
+            "published": "2026-08-07",
+            "confidence": "Reported",
+            "coverage_team": [
+              "Real Estate",
+              "Consumer & Retail"
+            ],
+            "source": "StockTitan (Beazer / Dream Finders release)",
+            "source_url": "https://www.stocktitan.net/news/BZH/dream-finders-homes-to-acquire-beazer-homes-creating-sixth-largest-u-lylw4k74v4io.html"
+          },
           {
             "headline": "Lazard and JPMorgan advise Ascensus; Raymond James advises AmericanTCS on the completed retirement-platform acquisition",
             "published": "2026-08-05",
@@ -1290,12 +1410,56 @@
       ],
       "dealbrief_tracker": {
         "mandates_30d": 17,
-        "mandates_total": 22,
-        "as_of": "2026-08-05",
+        "mandates_total": 26,
+        "as_of": "2026-08-12",
         "note": "Mandates DealBrief caught in its own coverage — not the bank's full book, and not an official league table. Bulge brackets are heavily undercounted; see advisory_signal for authoritative rank.",
         "advisory_signal": null,
         "pipeline_watch": [],
         "caught_mandates": [
+          {
+            "headline": "National CineMedia to acquire Captivate for $275M; BofA Securities and Solomon Partners advise",
+            "published": "2026-08-11",
+            "confidence": "Reported",
+            "coverage_team": [
+              "TMT",
+              "Consumer & Retail"
+            ],
+            "source": "StockTitan (NCM / Captivate release)",
+            "source_url": "https://www.stocktitan.net/news/NCMI/"
+          },
+          {
+            "headline": "Ryman Hospitality to acquire the Grande Lakes Orlando resort for $1.38B; BofA and JPMorgan advise Ryman",
+            "published": "2026-08-10",
+            "confidence": "Reported",
+            "coverage_team": [
+              "Real Estate",
+              "Consumer & Retail"
+            ],
+            "source": "StockTitan (Ryman release)",
+            "source_url": "https://www.stocktitan.net/news/RHP/ryman-hospitality-properties-inc-to-acquire-grande-lakes-orlando-1wixjcc7jzt4.html"
+          },
+          {
+            "headline": "Skyworks prices $2.0B of senior notes to fund its Qorvo combination; Goldman, BofA, JPMorgan and Wells Fargo lead",
+            "published": "2026-08-10",
+            "confidence": "Filed",
+            "coverage_team": [
+              "TMT",
+              "Industrials"
+            ],
+            "source": "SEC EDGAR — Skyworks Solutions underwriting agreement (EX-1.1)",
+            "source_url": "https://www.sec.gov/Archives/edgar/data/1604778/000110465926093358/tm2622643d2_ex1-1.htm"
+          },
+          {
+            "headline": "Dream Finders to acquire Beazer Homes for ~$2.2B; four covered banks split the sides",
+            "published": "2026-08-07",
+            "confidence": "Reported",
+            "coverage_team": [
+              "Real Estate",
+              "Consumer & Retail"
+            ],
+            "source": "StockTitan (Beazer / Dream Finders release)",
+            "source_url": "https://www.stocktitan.net/news/BZH/dream-finders-homes-to-acquire-beazer-homes-creating-sixth-largest-u-lylw4k74v4io.html"
+          },
           {
             "headline": "BofA (lead) and RBC advise Gran Tierra on its $1.33B sale of its Colombia/Ecuador business to Maurel & Prom",
             "published": "2026-08-05",
@@ -1561,9 +1725,9 @@
         }
       ],
       "dealbrief_tracker": {
-        "mandates_30d": 16,
+        "mandates_30d": 15,
         "mandates_total": 18,
-        "as_of": "2026-08-05",
+        "as_of": "2026-08-12",
         "note": "Mandates DealBrief caught in its own coverage — not the bank's full book, and not an official league table. Bulge brackets are heavily undercounted; see advisory_signal for authoritative rank.",
         "advisory_signal": null,
         "pipeline_watch": [],
@@ -1802,13 +1966,35 @@
         }
       ],
       "dealbrief_tracker": {
-        "mandates_30d": 15,
-        "mandates_total": 18,
-        "as_of": "2026-08-05",
+        "mandates_30d": 16,
+        "mandates_total": 20,
+        "as_of": "2026-08-12",
         "note": "Mandates DealBrief caught in its own coverage — not the bank's full book, and not an official league table. Bulge brackets are heavily undercounted; see advisory_signal for authoritative rank.",
         "advisory_signal": null,
         "pipeline_watch": [],
         "caught_mandates": [
+          {
+            "headline": "MarineMax to be acquired by Blackstone’s Safe Harbor for ~$1.5B; Wells Fargo advises MarineMax, Evercore advises Safe Harbor",
+            "published": "2026-08-10",
+            "confidence": "Reported",
+            "coverage_team": [
+              "Consumer & Retail",
+              "Real Estate"
+            ],
+            "source": "StockTitan (MarineMax release)",
+            "source_url": "https://www.stocktitan.net/news/HZO/marine-max-enters-into-definitive-agreement-to-be-acquired-by-v0jmsrpjpgbz.html"
+          },
+          {
+            "headline": "Apollo makes a recommended ~£5.7B offer for easyJet; Evercore advises easyJet, Barclays advises Apollo",
+            "published": "2026-08-06",
+            "confidence": "Reported",
+            "coverage_team": [
+              "Industrials",
+              "Consumer & Retail"
+            ],
+            "source": "Investegate — easyJet Rule 2.7 announcement",
+            "source_url": "https://www.investegate.co.uk/announcement/mfn/easyjet--ezj/statement-regarding-possible-offer-for-easyje-/9661956"
+          },
           {
             "headline": "Six covered banks work Prologis’ ~$18.8B recommended combination with UK logistics REIT SEGRO",
             "published": "2026-08-04",
@@ -2037,8 +2223,8 @@
       ],
       "dealbrief_tracker": {
         "mandates_30d": 10,
-        "mandates_total": 10,
-        "as_of": "2026-08-05",
+        "mandates_total": 12,
+        "as_of": "2026-08-12",
         "note": "Mandates DealBrief caught in its own coverage — not the bank's full book, and not an official league table. Bulge brackets are heavily undercounted; see advisory_signal for authoritative rank.",
         "advisory_signal": {
           "rank": "#6 global M&A by value, H1 2026 (+111% YoY)",
@@ -2049,6 +2235,26 @@
         },
         "pipeline_watch": [],
         "caught_mandates": [
+          {
+            "headline": "Theravance Biopharma files its merger proxy for the Zymeworks acquisition; Lazard advises Theravance",
+            "published": "2026-08-11",
+            "confidence": "Filed",
+            "coverage_team": [
+              "Healthcare"
+            ],
+            "source": "SEC EDGAR — Theravance Biopharma PREM14A",
+            "source_url": "https://www.sec.gov/Archives/edgar/data/1583107/000110465926093784/tm2621435-1_prem14a.htm"
+          },
+          {
+            "headline": "Quantum-computing firm Pasqal files its definitive de-SPAC proxy with Bleichroeder; Lazard and Jefferies advise",
+            "published": "2026-08-06",
+            "confidence": "Filed",
+            "coverage_team": [
+              "TMT"
+            ],
+            "source": "SEC EDGAR — Bleichroeder/Pasqal DEFM14A",
+            "source_url": "https://www.sec.gov/Archives/edgar/data/2088295/000121390026085816/ea0300825-01.htm"
+          },
           {
             "headline": "Lazard and JPMorgan advise Ascensus; Raymond James advises AmericanTCS on the completed retirement-platform acquisition",
             "published": "2026-08-05",
@@ -2192,13 +2398,35 @@
         }
       ],
       "dealbrief_tracker": {
-        "mandates_30d": 7,
-        "mandates_total": 7,
-        "as_of": "2026-08-05",
+        "mandates_30d": 8,
+        "mandates_total": 9,
+        "as_of": "2026-08-12",
         "note": "Mandates DealBrief caught in its own coverage — not the bank's full book, and not an official league table. Bulge brackets are heavily undercounted; see advisory_signal for authoritative rank.",
         "advisory_signal": null,
         "pipeline_watch": [],
         "caught_mandates": [
+          {
+            "headline": "Archer to acquire Boeing’s Wisk, Insitu and SkyGrid; JPMorgan advises Boeing, Moelis advises Archer",
+            "published": "2026-08-10",
+            "confidence": "Reported",
+            "coverage_team": [
+              "Industrials",
+              "TMT"
+            ],
+            "source": "StockTitan (Archer release)",
+            "source_url": "https://www.stocktitan.net/news/BA/archer-to-shape-physical-ai-future-of-aerospace-and-defense-with-tyzgkntzzk6l.html"
+          },
+          {
+            "headline": "Dream Finders to acquire Beazer Homes for ~$2.2B; four covered banks split the sides",
+            "published": "2026-08-07",
+            "confidence": "Reported",
+            "coverage_team": [
+              "Real Estate",
+              "Consumer & Retail"
+            ],
+            "source": "StockTitan (Beazer / Dream Finders release)",
+            "source_url": "https://www.stocktitan.net/news/BZH/dream-finders-homes-to-acquire-beazer-homes-creating-sixth-largest-u-lylw4k74v4io.html"
+          },
           {
             "headline": "Moelis and Deutsche Bank advise Clear Channel Outdoor on the ~$132M sale of its Spain business to Atresmedia",
             "published": "2026-08-04",
@@ -2313,12 +2541,33 @@
       ],
       "dealbrief_tracker": {
         "mandates_30d": 4,
-        "mandates_total": 6,
-        "as_of": "2026-08-05",
+        "mandates_total": 8,
+        "as_of": "2026-08-12",
         "note": "Mandates DealBrief caught in its own coverage — not the bank's full book, and not an official league table. Bulge brackets are heavily undercounted; see advisory_signal for authoritative rank.",
         "advisory_signal": null,
         "pipeline_watch": [],
         "caught_mandates": [
+          {
+            "headline": "Caesars files its $31.00/share take-private proxy by Fertitta Entertainment; PJT Partners advises Caesars, Morgan Stanley advises Fertitta",
+            "published": "2026-08-12",
+            "confidence": "Filed",
+            "coverage_team": [
+              "Consumer & Retail",
+              "Real Estate"
+            ],
+            "source": "SEC EDGAR — Caesars Entertainment PREM14A",
+            "source_url": "https://www.sec.gov/Archives/edgar/data/1590895/000119312526345336/d143368dprem14a.htm"
+          },
+          {
+            "headline": "DoubleVerify to be taken private by Neptune BidCo at $13.60/share; PJT Partners advises DoubleVerify",
+            "published": "2026-08-10",
+            "confidence": "Filed",
+            "coverage_team": [
+              "TMT"
+            ],
+            "source": "SEC EDGAR — DoubleVerify merger agreement (EX-2.1)",
+            "source_url": "https://www.sec.gov/Archives/edgar/data/1819928/000110465926092934/tm2621904d5_ex2-1.htm"
+          },
           {
             "headline": "Morgan Stanley and BofA advise Lantheus; Jefferies, JPMorgan and PJT advise Curium on the up-to-$8.0B take-private",
             "published": "2026-08-03",
@@ -2436,9 +2685,9 @@
         }
       ],
       "dealbrief_tracker": {
-        "mandates_30d": 20,
-        "mandates_total": 26,
-        "as_of": "2026-08-05",
+        "mandates_30d": 21,
+        "mandates_total": 28,
+        "as_of": "2026-08-12",
         "note": "Mandates DealBrief caught in its own coverage — not the bank's full book, and not an official league table. Bulge brackets are heavily undercounted; see advisory_signal for authoritative rank.",
         "advisory_signal": {
           "rank": "IB net revenue $1.21B — a record, +53% YoY (fiscal Q2 2026, reported Jun 24)",
@@ -2457,6 +2706,27 @@
           }
         ],
         "caught_mandates": [
+          {
+            "headline": "Caesars files its $31.00/share take-private proxy by Fertitta Entertainment; PJT Partners advises Caesars, Morgan Stanley advises Fertitta",
+            "published": "2026-08-12",
+            "confidence": "Filed",
+            "coverage_team": [
+              "Consumer & Retail",
+              "Real Estate"
+            ],
+            "source": "SEC EDGAR — Caesars Entertainment PREM14A",
+            "source_url": "https://www.sec.gov/Archives/edgar/data/1590895/000119312526345336/d143368dprem14a.htm"
+          },
+          {
+            "headline": "Quantum-computing firm Pasqal files its definitive de-SPAC proxy with Bleichroeder; Lazard and Jefferies advise",
+            "published": "2026-08-06",
+            "confidence": "Filed",
+            "coverage_team": [
+              "TMT"
+            ],
+            "source": "SEC EDGAR — Bleichroeder/Pasqal DEFM14A",
+            "source_url": "https://www.sec.gov/Archives/edgar/data/2088295/000121390026085816/ea0300825-01.htm"
+          },
           {
             "headline": "Goldman advises Integer on its ~$5.7B take-private by KKR; Centerview, Barclays, Citi and Raymond James advise KKR",
             "published": "2026-08-03",
@@ -2763,8 +3033,8 @@
       ],
       "dealbrief_tracker": {
         "mandates_30d": 3,
-        "mandates_total": 6,
-        "as_of": "2026-08-05",
+        "mandates_total": 7,
+        "as_of": "2026-08-12",
         "note": "Mandates DealBrief caught in its own coverage — not the bank's full book, and not an official league table. Bulge brackets are heavily undercounted; see advisory_signal for authoritative rank.",
         "advisory_signal": {
           "rank": "#3 global M&A by deal count, H1 2026",
@@ -2775,6 +3045,16 @@
         },
         "pipeline_watch": [],
         "caught_mandates": [
+          {
+            "headline": "LivePerson heads to an Aug 20 vote on its stock-for-stock sale to SoundHound AI; Houlihan Lokey advises LivePerson",
+            "published": "2026-08-05",
+            "confidence": "Filed",
+            "coverage_team": [
+              "TMT"
+            ],
+            "source": "SEC EDGAR — LivePerson Form 425",
+            "source_url": "https://www.sec.gov/Archives/edgar/data/1102993/000110299326000071/a425filing8_05-transcript.htm"
+          },
           {
             "headline": "Raymond James advises Providence Equity on its significant investment in UK managed-IT provider SCG",
             "published": "2026-07-29",
@@ -2880,12 +3160,23 @@
       ],
       "dealbrief_tracker": {
         "mandates_30d": 4,
-        "mandates_total": 8,
-        "as_of": "2026-08-05",
+        "mandates_total": 9,
+        "as_of": "2026-08-12",
         "note": "Mandates DealBrief caught in its own coverage — not the bank's full book, and not an official league table. Bulge brackets are heavily undercounted; see advisory_signal for authoritative rank.",
         "advisory_signal": null,
         "pipeline_watch": [],
         "caught_mandates": [
+          {
+            "headline": "Apollo makes a recommended ~£5.7B offer for easyJet; Evercore advises easyJet, Barclays advises Apollo",
+            "published": "2026-08-06",
+            "confidence": "Reported",
+            "coverage_team": [
+              "Industrials",
+              "Consumer & Retail"
+            ],
+            "source": "Investegate — easyJet Rule 2.7 announcement",
+            "source_url": "https://www.investegate.co.uk/announcement/mfn/easyjet--ezj/statement-regarding-possible-offer-for-easyje-/9661956"
+          },
           {
             "headline": "Goldman advises Integer on its ~$5.7B take-private by KKR; Centerview, Barclays, Citi and Raymond James advise KKR",
             "published": "2026-08-03",
@@ -3010,7 +3301,7 @@
       "dealbrief_tracker": {
         "mandates_30d": 4,
         "mandates_total": 5,
-        "as_of": "2026-08-05",
+        "as_of": "2026-08-12",
         "note": "Mandates DealBrief caught in its own coverage — not the bank's full book, and not an official league table. Bulge brackets are heavily undercounted; see advisory_signal for authoritative rank.",
         "advisory_signal": null,
         "pipeline_watch": [],
@@ -3110,9 +3401,9 @@
         }
       ],
       "dealbrief_tracker": {
-        "mandates_30d": 5,
+        "mandates_30d": 4,
         "mandates_total": 7,
-        "as_of": "2026-08-05",
+        "as_of": "2026-08-12",
         "note": "Mandates DealBrief caught in its own coverage — not the bank's full book, and not an official league table. Bulge brackets are heavily undercounted; see advisory_signal for authoritative rank.",
         "advisory_signal": null,
         "pipeline_watch": [],
@@ -3232,13 +3523,35 @@
         }
       ],
       "dealbrief_tracker": {
-        "mandates_30d": 6,
-        "mandates_total": 8,
-        "as_of": "2026-08-05",
+        "mandates_30d": 8,
+        "mandates_total": 10,
+        "as_of": "2026-08-12",
         "note": "Mandates DealBrief caught in its own coverage — not the bank's full book, and not an official league table. Bulge brackets are heavily undercounted; see advisory_signal for authoritative rank.",
         "advisory_signal": null,
         "pipeline_watch": [],
         "caught_mandates": [
+          {
+            "headline": "MarineMax to be acquired by Blackstone’s Safe Harbor for ~$1.5B; Wells Fargo advises MarineMax, Evercore advises Safe Harbor",
+            "published": "2026-08-10",
+            "confidence": "Reported",
+            "coverage_team": [
+              "Consumer & Retail",
+              "Real Estate"
+            ],
+            "source": "StockTitan (MarineMax release)",
+            "source_url": "https://www.stocktitan.net/news/HZO/marine-max-enters-into-definitive-agreement-to-be-acquired-by-v0jmsrpjpgbz.html"
+          },
+          {
+            "headline": "Skyworks prices $2.0B of senior notes to fund its Qorvo combination; Goldman, BofA, JPMorgan and Wells Fargo lead",
+            "published": "2026-08-10",
+            "confidence": "Filed",
+            "coverage_team": [
+              "TMT",
+              "Industrials"
+            ],
+            "source": "SEC EDGAR — Skyworks Solutions underwriting agreement (EX-1.1)",
+            "source_url": "https://www.sec.gov/Archives/edgar/data/1604778/000110465926093358/tm2622643d2_ex1-1.htm"
+          },
           {
             "headline": "Jefferies and Piper Sandler advise Indivior, Wells Fargo advises Supernus on their all-stock merger of equals (~$2.2B combined revenue)",
             "published": "2026-08-03",
@@ -3361,9 +3674,9 @@
         }
       ],
       "dealbrief_tracker": {
-        "mandates_30d": 9,
+        "mandates_30d": 6,
         "mandates_total": 11,
-        "as_of": "2026-08-05",
+        "as_of": "2026-08-12",
         "note": "Mandates DealBrief caught in its own coverage — not the bank's full book, and not an official league table. Bulge brackets are heavily undercounted; see advisory_signal for authoritative rank.",
         "advisory_signal": null,
         "pipeline_watch": [],
@@ -3523,7 +3836,7 @@
       "dealbrief_tracker": {
         "mandates_30d": 8,
         "mandates_total": 9,
-        "as_of": "2026-08-05",
+        "as_of": "2026-08-12",
         "note": "Mandates DealBrief caught in its own coverage — not the bank's full book, and not an official league table. Bulge brackets are heavily undercounted; see advisory_signal for authoritative rank.",
         "advisory_signal": {
           "rank": "#9 global M&A by value, H1 2026",
@@ -3668,7 +3981,7 @@
       "dealbrief_tracker": {
         "mandates_30d": 4,
         "mandates_total": 4,
-        "as_of": "2026-08-05",
+        "as_of": "2026-08-12",
         "note": "Mandates DealBrief caught in its own coverage — not the bank's full book, and not an official league table. Bulge brackets are heavily undercounted; see advisory_signal for authoritative rank.",
         "advisory_signal": null,
         "pipeline_watch": [],
@@ -3756,13 +4069,34 @@
         }
       ],
       "dealbrief_tracker": {
-        "mandates_30d": 8,
-        "mandates_total": 9,
-        "as_of": "2026-08-05",
+        "mandates_30d": 9,
+        "mandates_total": 11,
+        "as_of": "2026-08-12",
         "note": "Mandates DealBrief caught in its own coverage — not the bank's full book, and not an official league table. Bulge brackets are heavily undercounted; see advisory_signal for authoritative rank.",
         "advisory_signal": null,
         "pipeline_watch": [],
         "caught_mandates": [
+          {
+            "headline": "Bio-Techne files its merger proxy for the ~$73/share Merck KGaA acquisition; Goldman advises Bio-Techne, Guggenheim and JPMorgan advise Merck",
+            "published": "2026-08-10",
+            "confidence": "Filed",
+            "coverage_team": [
+              "Healthcare",
+              "TMT"
+            ],
+            "source": "SEC EDGAR — Bio-Techne PREM14A",
+            "source_url": "https://www.sec.gov/Archives/edgar/data/842023/000114036126032037/ny20078105x1_prem14a.htm"
+          },
+          {
+            "headline": "argenx commences its tender offer for Forte Biosciences; Guggenheim advises Forte, Goldman advises argenx",
+            "published": "2026-08-06",
+            "confidence": "Filed",
+            "coverage_team": [
+              "Healthcare"
+            ],
+            "source": "SEC EDGAR — Forte Biosciences SC 14D-9",
+            "source_url": "https://www.sec.gov/Archives/edgar/data/1419041/000114036126031507/ny20079529x1_sc14d9.htm"
+          },
           {
             "headline": "Evercore advises DarkVision (Koch) as Blackstone agrees to acquire the inspection-tech maker; Stifel and Guggenheim advise Blackstone",
             "published": "2026-07-30",
@@ -3900,7 +4234,7 @@
       "dealbrief_tracker": {
         "mandates_30d": 1,
         "mandates_total": 1,
-        "as_of": "2026-08-05",
+        "as_of": "2026-08-12",
         "note": "Mandates DealBrief caught in its own coverage — not the bank's full book, and not an official league table. Bulge brackets are heavily undercounted; see advisory_signal for authoritative rank.",
         "advisory_signal": null,
         "pipeline_watch": [],
@@ -3957,9 +4291,9 @@
         }
       ],
       "dealbrief_tracker": {
-        "mandates_30d": 2,
+        "mandates_30d": 0,
         "mandates_total": 4,
-        "as_of": "2026-08-05",
+        "as_of": "2026-08-12",
         "note": "Mandates DealBrief caught in its own coverage — not the bank's full book, and not an official league table. Bulge brackets are heavily undercounted; see advisory_signal for authoritative rank.",
         "advisory_signal": null,
         "pipeline_watch": [],
@@ -4046,9 +4380,9 @@
         }
       ],
       "dealbrief_tracker": {
-        "mandates_30d": 4,
+        "mandates_30d": 3,
         "mandates_total": 4,
-        "as_of": "2026-08-05",
+        "as_of": "2026-08-12",
         "note": "Mandates DealBrief caught in its own coverage — not the bank's full book, and not an official league table. Bulge brackets are heavily undercounted; see advisory_signal for authoritative rank.",
         "advisory_signal": null,
         "pipeline_watch": [],
@@ -4136,9 +4470,9 @@
         }
       ],
       "dealbrief_tracker": {
-        "mandates_30d": 4,
+        "mandates_30d": 3,
         "mandates_total": 4,
-        "as_of": "2026-08-05",
+        "as_of": "2026-08-12",
         "note": "Mandates DealBrief caught in its own coverage — not the bank's full book, and not an official league table. Bulge brackets are heavily undercounted; see advisory_signal for authoritative rank.",
         "advisory_signal": null,
         "pipeline_watch": [],
@@ -4227,7 +4561,7 @@
       "dealbrief_tracker": {
         "mandates_30d": 2,
         "mandates_total": 4,
-        "as_of": "2026-08-05",
+        "as_of": "2026-08-12",
         "note": "Mandates DealBrief caught in its own coverage — not the bank's full book, and not an official league table. Bulge brackets are heavily undercounted; see advisory_signal for authoritative rank.",
         "advisory_signal": null,
         "pipeline_watch": [],
@@ -4314,13 +4648,23 @@
         }
       ],
       "dealbrief_tracker": {
-        "mandates_30d": 6,
-        "mandates_total": 8,
-        "as_of": "2026-08-05",
+        "mandates_30d": 7,
+        "mandates_total": 9,
+        "as_of": "2026-08-12",
         "note": "Mandates DealBrief caught in its own coverage — not the bank's full book, and not an official league table. Bulge brackets are heavily undercounted; see advisory_signal for authoritative rank.",
         "advisory_signal": null,
         "pipeline_watch": [],
         "caught_mandates": [
+          {
+            "headline": "Two Piper Sandler mortgage/bank tie-ups filed: MITT–Cherry Hill mortgage-REIT merger and HBT–Tri-County",
+            "published": "2026-08-10",
+            "confidence": "Filed",
+            "coverage_team": [
+              "FIG"
+            ],
+            "source": "SEC EDGAR — Cherry Hill/MITT EX-99.1",
+            "source_url": "https://www.sec.gov/Archives/edgar/data/1571776/000162828026054987/mitt-exhibit991.htm"
+          },
           {
             "headline": "Morgan Stanley advises gChem and Piper Sandler advises ContextLogic on the $850M specialty-chemicals acquisition",
             "published": "2026-08-05",
@@ -4443,13 +4787,23 @@
         }
       ],
       "dealbrief_tracker": {
-        "mandates_30d": 6,
-        "mandates_total": 7,
-        "as_of": "2026-08-05",
+        "mandates_30d": 7,
+        "mandates_total": 8,
+        "as_of": "2026-08-12",
         "note": "Mandates DealBrief caught in its own coverage — not the bank's full book, and not an official league table. Bulge brackets are heavily undercounted; see advisory_signal for authoritative rank.",
         "advisory_signal": null,
         "pipeline_watch": [],
         "caught_mandates": [
+          {
+            "headline": "Identiv files its definitive proxy for its asset sale; Raymond James is the company’s financial adviser",
+            "published": "2026-08-07",
+            "confidence": "Filed",
+            "coverage_team": [
+              "TMT"
+            ],
+            "source": "SEC EDGAR — Identiv DEFM14A",
+            "source_url": "https://www.sec.gov/Archives/edgar/data/1036044/000119312526338993/d103630ddefm14a.htm"
+          },
           {
             "headline": "Lazard and JPMorgan advise Ascensus; Raymond James advises AmericanTCS on the completed retirement-platform acquisition",
             "published": "2026-08-05",
@@ -4562,9 +4916,9 @@
         }
       ],
       "dealbrief_tracker": {
-        "mandates_30d": 7,
+        "mandates_30d": 6,
         "mandates_total": 9,
-        "as_of": "2026-08-05",
+        "as_of": "2026-08-12",
         "note": "Mandates DealBrief caught in its own coverage — not the bank's full book, and not an official league table. Bulge brackets are heavily undercounted; see advisory_signal for authoritative rank.",
         "advisory_signal": null,
         "pipeline_watch": [],
@@ -4704,7 +5058,7 @@
       "dealbrief_tracker": {
         "mandates_30d": 5,
         "mandates_total": 5,
-        "as_of": "2026-08-05",
+        "as_of": "2026-08-12",
         "note": "Mandates DealBrief caught in its own coverage — not the bank's full book, and not an official league table. Bulge brackets are heavily undercounted; see advisory_signal for authoritative rank.",
         "advisory_signal": null,
         "pipeline_watch": [],

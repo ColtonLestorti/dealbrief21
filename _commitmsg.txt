@@ -1,0 +1,18 @@
+Edition #25 (2026-08-12): Caesars/Fertitta $31 take-private proxy + heavy filing day
+
+New verified Filed mandates (primary text confirmed):
+- Caesars/Fertitta $31.00/sh take-private PREM14A (PJT for Caesars,
+  Morgan Stanley for Fertitta, Jefferies for Icahn Group) — filed today
+- Payoneer/Nuvei $7.40/sh DEFM14A (Goldman for Nuvei)
+- DoubleVerify/Neptune BidCo $13.60/sh take-private (PJT for DV)
+- Skyworks $2.0B senior notes for Qorvo deal (Goldman, BofA, JPMorgan, Wells Fargo)
+Reported: NCM/Captivate $275M (BofA + Solomon Partners).
+Carried: Bio-Techne/Merck, Theravance/Zymeworks, MarineMax, Ryman, Archer/Boeing.
+
+Rumor Mill: H.B. Fuller/Ancora $1.1-1.2B non-binding, Alkami (Jana),
+ACV Auctions, RMCF + HighPeak (both primary 8-K confirmed), Voya (TOMS).
+
+Filtered EDGAR false matches (SPACs; credit-agent-only JPMorgan/Wells Fargo
+on Caesars & DoubleVerify; Griffon director-bio/old AMES review).
+11 stories, 8 opps, 6 rumor-mill. 50 tests pass, link check clean.
+Bank trackers refreshed to 2026-08-12.
