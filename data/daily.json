@@ -1,41 +1,41 @@
 {
-  "date": "2026-08-12",
-  "lens": "A heavy proxy-filing day led by gaming: Caesars filed its $31.00/share Fertitta take-private proxy (PJT, Morgan Stanley, Jefferies), Payoneer filed its $7.40 Nuvei merger proxy (Goldman), DoubleVerify agreed a $13.60 take-private (PJT), Skyworks priced $2.0B of Qorvo-deal notes (Goldman, BofA, JPMorgan, Wells Fargo), and NCM agreed to buy Captivate for $275M (BofA) — a broad covered-bank slate even as advisory stocks kept sliding.",
+  "date": "2026-08-13",
+  "lens": "Two fresh signings led a busy day: Thoma Bravo agreed a $4B+ take-private of insurance-tech platform Accelerant ($20.25/share; Morgan Stanley, Houlihan Lokey, Wells Fargo) and Dynatrace bought AI-observability firm Arize for $915M (JPMorgan) — on top of live Caesars, Payoneer and DoubleVerify proxies, even as the pure-play advisers kept sliding on an otherwise green tape.",
   "ticker": [
     {
       "label": "S&P 500",
-      "value": "7,746.90",
-      "change": "+0.30%",
+      "value": "7,807.43",
+      "change": "+1.26%",
       "positive": true
     },
     {
       "label": "Nasdaq",
-      "value": "26,571.23",
-      "change": "+0.79%",
+      "value": "26,847.36",
+      "change": "+1.89%",
       "positive": true
     },
     {
       "label": "Dow",
-      "value": "53,839.97",
-      "change": "-0.94%",
-      "positive": false
+      "value": "53,969.88",
+      "change": "+0.16%",
+      "positive": true
     },
     {
       "label": "VIX",
-      "value": "14.78",
-      "change": "-2.44%",
+      "value": "14.63",
+      "change": "-1.81%",
       "positive": true
     },
     {
       "label": "GS",
-      "value": "$1,040.46",
-      "change": "-1.88%",
-      "positive": false
+      "value": "$1,050.06",
+      "change": "+1.69%",
+      "positive": true
     },
     {
       "label": "JEF",
-      "value": "$54.90",
-      "change": "-2.30%",
+      "value": "$55.03",
+      "change": "-2.29%",
       "positive": false
     }
   ],
@@ -46,17 +46,117 @@
       "urgency": "HIGH",
       "scope": "bank",
       "banks": [
+        "Morgan Stanley",
+        "Houlihan Lokey",
+        "Wells Fargo"
+      ],
+      "headline": "Accelerant to be taken private by Thoma Bravo for $4B+ at $20.25/share; Morgan Stanley and Houlihan Lokey advise Accelerant, Wells Fargo advises Thoma Bravo",
+      "why_it_matters": "Accelerant Holdings (NYSE: ARX), the data-driven specialty-insurance risk-exchange platform, entered a definitive agreement to be acquired by Thoma Bravo in an all-cash take-private at $20.25/share — a 49% premium to the Aug 12 close and an enterprise value of more than $4B. Per the company's 8-K, Morgan Stanley is exclusive financial adviser to Accelerant's Board and Houlihan Lokey is financial adviser to the Special Committee (both sell-side); BMO Capital Markets and Wells Fargo advise Thoma Bravo (buy-side). Altamont Capital (Accelerant's largest holder, ~82% voting) and the founders intend to roll equity. A sponsor take-private of an insurance-tech platform runs committed-financing, multi-jurisdiction insurance-regulatory and shareholder-vote workstreams.",
+      "suggested_action": "Engage Morgan Stanley and Houlihan Lokey (Accelerant) and Wells Fargo (Thoma Bravo) — a $4B+ insurance-tech take-private runs committed-financing, insurance-regulatory and proxy diligence a secure room organizes to close.",
+      "deal_clock": [
+        {
+          "date": "Aug 13, 2026",
+          "event": "Accelerant agrees to $20.25/share take-private by Thoma Bravo ($4B+ EV)"
+        }
+      ],
+      "coverage_team": [
+        "FIG",
+        "TMT"
+      ],
+      "source": "SEC EDGAR — Accelerant Holdings 8-K (EX-99.2)",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1997350/000119312526347925/d286225dex992.htm",
+      "published": "2026-08-13",
+      "confidence": "Filed",
+      "tags": [
+        "financials",
+        "insurance-tech",
+        "sponsor",
+        "take-private"
+      ]
+    },
+    {
+      "id": "s2",
+      "category": "M&A",
+      "urgency": "HIGH",
+      "scope": "bank",
+      "banks": [
+        "JPMorgan"
+      ],
+      "headline": "Dynatrace to acquire AI-observability firm Arize for $915M; JPMorgan advises Dynatrace",
+      "why_it_matters": "Dynatrace (NYSE: DT) signed a definitive agreement to acquire Arize — an AI-observability company — in a cash-and-stock deal valued at $915M (~$815M cash plus replacement equity awards), expanding its AI-monitoring stack across the AI development lifecycle. The release names J.P. Morgan Securities as financial adviser to Dynatrace (buy-side); Qatalyst Partners advised Arize (sell-side). Expected to close later this quarter or early in Dynatrace's fiscal Q3, subject to regulatory review. An AI/software acquisition runs technology, IP and integration diligence workstreams.",
+      "suggested_action": "Engage JPMorgan (Dynatrace) — an AI-observability acquisition runs technology, IP and integration diligence a secure room organizes to close.",
+      "deal_clock": [
+        {
+          "date": "Aug 13, 2026",
+          "event": "Dynatrace agrees to acquire Arize for $915M"
+        },
+        {
+          "date": "FQ3 2027",
+          "event": "Expected close (subject to regulatory review)"
+        }
+      ],
+      "coverage_team": "TMT",
+      "source": "Dynatrace press release (Dynatrace to Acquire Arize)",
+      "source_url": "https://www.dynatrace.com/news/press-release/dynatrace-to-acquire-arize/",
+      "published": "2026-08-13",
+      "confidence": "Reported",
+      "tags": [
+        "tmt",
+        "ai",
+        "software",
+        "observability"
+      ]
+    },
+    {
+      "id": "s3",
+      "category": "M&A",
+      "urgency": "LOW",
+      "scope": "bank",
+      "banks": [
+        "Harris Williams",
+        "Stifel"
+      ],
+      "headline": "Quad-C invests in occupational-safety platform Paradigm HSE; Harris Williams advises Paradigm, Stifel advises Quad-C",
+      "why_it_matters": "PE firm Quad-C Management made a growth investment in Paradigm HSE — an occupational safety, health, technical-safety-services and equipment distribution/rental platform — with existing management retaining significant ownership (terms undisclosed). The release names Harris Williams as financial adviser to Paradigm (sell-side) and Stifel as adviser to Quad-C (buy-side). A middle-market PE platform investment runs confirmatory-diligence and financing workstreams.",
+      "suggested_action": "Engage Harris Williams (Paradigm) and Stifel (Quad-C) — a middle-market PE platform investment runs confirmatory-diligence and financing workstreams a secure room organizes to close.",
+      "deal_clock": [
+        {
+          "date": "Aug 12, 2026",
+          "event": "Quad-C announces growth investment in Paradigm HSE"
+        }
+      ],
+      "coverage_team": [
+        "Industrials",
+        "Healthcare"
+      ],
+      "source": "Pulse 2.0 (Quad-C / Paradigm HSE release)",
+      "source_url": "https://pulse2.com/quad-c-management-invests-in-paradigm-hse/",
+      "published": "2026-08-12",
+      "confidence": "Reported",
+      "tags": [
+        "industrials",
+        "safety-services",
+        "private-equity",
+        "middle-market"
+      ]
+    },
+    {
+      "id": "s4",
+      "category": "M&A",
+      "urgency": "HIGH",
+      "scope": "bank",
+      "banks": [
         "PJT Partners",
         "Morgan Stanley",
         "Jefferies"
       ],
-      "headline": "Caesars files its $31.00/share take-private proxy by Fertitta Entertainment; PJT Partners advises Caesars, Morgan Stanley advises Fertitta",
-      "why_it_matters": "Caesars Entertainment (Nasdaq: CZR) filed a preliminary merger proxy (PREM14A) for its acquisition by Fertitta Entertainment (Tilman Fertitta) at $31.00/share in cash, via Fertitta Gaming Holdco/Empire Merger Sub. The filing names PJT Partners as Caesars' exclusive financial adviser and fairness-opinion provider (sell-side), Morgan Stanley as adviser to Fertitta (buy-side, which provided a financing 'highly confident' letter), and Jefferies as adviser to the Icahn Group (a Caesars shareholder). A large sponsor-style gaming take-private runs committed-financing, gaming-regulatory and shareholder-vote workstreams.",
-      "suggested_action": "Engage PJT Partners (Caesars) and Morgan Stanley (Fertitta) — a $31.00/share gaming take-private runs committed-financing, multi-state gaming-license and proxy diligence a secure room organizes to close.",
+      "headline": "Caesars' $31.00/share Fertitta take-private proxy remains on file; PJT Partners advises Caesars, Morgan Stanley advises Fertitta",
+      "why_it_matters": "Caesars Entertainment (Nasdaq: CZR) has a preliminary merger proxy (PREM14A, filed Aug 12) on file for its $31.00/share cash take-private by Fertitta Entertainment (Tilman Fertitta), via Fertitta Gaming Holdco. PJT Partners is Caesars' exclusive financial adviser and fairness-opinion provider (sell-side), Morgan Stanley advises Fertitta (buy-side), and Jefferies advised the Icahn Group. A large gaming take-private runs committed-financing, multi-state gaming-license and shareholder-vote workstreams.",
+      "suggested_action": "Engage PJT Partners (Caesars) and Morgan Stanley (Fertitta) — a $31.00/share gaming take-private runs committed-financing, gaming-license and proxy diligence a secure room organizes to close.",
       "deal_clock": [
         {
           "date": "May 27, 2026",
-          "event": "Caesars board approves $31.00/share merger with Fertitta Entertainment"
+          "event": "Caesars board approves $31.00/share merger with Fertitta"
         },
         {
           "date": "Aug 12, 2026",
@@ -78,15 +178,15 @@
       ]
     },
     {
-      "id": "s2",
+      "id": "s5",
       "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
       "banks": [
         "Goldman Sachs"
       ],
-      "headline": "Payoneer files its merger proxy for the $7.40/share Nuvei acquisition; Goldman advises Nuvei",
-      "why_it_matters": "Payoneer Global (Nasdaq: PAYO) filed a definitive merger proxy (DEFM14A) for its acquisition by Nuvei (Neon Maple Parent) at $7.40/share in cash, advancing the June 12 agreement to a shareholder vote. The filing names Goldman Sachs as financial adviser to Nuvei (buy-side); Qatalyst Partners advised Payoneer (sell-side). A cross-border fintech/payments take-private runs antitrust, money-transmitter-licensing and shareholder-vote workstreams.",
+      "headline": "Payoneer's $7.40/share Nuvei merger proxy is on file; Goldman advises Nuvei",
+      "why_it_matters": "Payoneer Global (Nasdaq: PAYO) has a definitive merger proxy (DEFM14A, filed Aug 11) on file for its $7.40/share cash acquisition by Nuvei (Neon Maple Parent). Goldman Sachs advises Nuvei (buy-side); Qatalyst advised Payoneer. A cross-border fintech/payments take-private runs antitrust, money-transmitter-licensing and shareholder-vote workstreams.",
       "suggested_action": "Engage Goldman (Nuvei) on the Payoneer acquisition — a cross-border payments take-private runs multi-jurisdiction licensing and proxy diligence a secure room organizes to close.",
       "deal_clock": [
         {
@@ -114,15 +214,15 @@
       ]
     },
     {
-      "id": "s3",
+      "id": "s6",
       "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
       "banks": [
         "PJT Partners"
       ],
-      "headline": "DoubleVerify to be taken private by Neptune BidCo at $13.60/share; PJT Partners advises DoubleVerify",
-      "why_it_matters": "DoubleVerify Holdings (NYSE: DV) entered a definitive agreement (dated Aug 6, filed Aug 10) to be acquired by Neptune BidCo US Inc. (a private-equity vehicle, via Wallace Merger Sub) at $13.60/share in cash, backed by an equity commitment letter and limited guarantee. The merger agreement names PJT Partners as DoubleVerify's financial adviser (sell-side). A sponsor take-private of an ad-verification/adtech platform runs financing, antitrust and shareholder-vote workstreams.",
+      "headline": "DoubleVerify's $13.60/share take-private by Neptune BidCo advances; PJT Partners advises DoubleVerify",
+      "why_it_matters": "DoubleVerify Holdings (NYSE: DV) is being taken private by Neptune BidCo (a PE vehicle) at $13.60/share in cash, per the merger agreement dated Aug 6 (filed Aug 10), backed by an equity commitment letter and limited guarantee. PJT Partners is DoubleVerify's financial adviser (sell-side). A sponsor take-private of an ad-verification platform runs committed-financing, antitrust and shareholder-vote workstreams.",
       "suggested_action": "Engage PJT Partners (DoubleVerify) — a sponsor take-private of an adtech platform runs committed-financing, antitrust and proxy diligence a secure room organizes to close.",
       "deal_clock": [
         {
@@ -147,42 +247,44 @@
       ]
     },
     {
-      "id": "s4",
+      "id": "s7",
       "category": "M&A",
-      "urgency": "LOW",
+      "urgency": "MEDIUM",
       "scope": "bank",
       "banks": [
-        "Bank of America"
+        "Goldman Sachs",
+        "Guggenheim Securities",
+        "JPMorgan"
       ],
-      "headline": "National CineMedia to acquire Captivate for $275M; BofA Securities and Solomon Partners advise",
-      "why_it_matters": "National CineMedia (Nasdaq: NCMI) entered a definitive agreement (Aug 10) to acquire Captivate Holdings — a North American digital elevator/lobby advertising network of 26,000+ screens — from Generation Partners for a $275M enterprise value (~10x pro forma EBITDA), funded entirely with new committed term debt. The release names BofA Securities and Solomon Partners as financial advisers to the respective parties. NCM paused its dividend on the expected close-leverage. A debt-funded adtech/out-of-home acquisition runs financing and integration workstreams.",
-      "suggested_action": "Engage BofA Securities on the NCM/Captivate deal — a debt-funded out-of-home advertising acquisition runs committed-term-debt and integration diligence a secure room organizes.",
+      "headline": "Bio-Techne's ~$11.3B Merck KGaA merger proxy remains on file; Goldman advises Bio-Techne, Guggenheim and JPMorgan advise Merck",
+      "why_it_matters": "Bio-Techne (Nasdaq: TECH) has a preliminary merger proxy (PREM14A) on file for its $73.00/share acquisition by Merck KGaA — a ~$11.3B life-sciences deal. Goldman Sachs advises Bio-Techne (sell-side); Guggenheim Securities and J.P. Morgan advise Merck KGaA (buy-side). A large-cap cross-border life-sciences merger runs multi-jurisdiction antitrust, disclosure and shareholder-vote workstreams.",
+      "suggested_action": "Engage Goldman (Bio-Techne) and Guggenheim/JPMorgan (Merck KGaA) — a ~$11.3B cross-border life-sciences merger runs multi-jurisdiction antitrust and proxy diligence a secure room organizes to close.",
       "deal_clock": [
         {
-          "date": "Aug 10, 2026",
-          "event": "NCM agrees to acquire Captivate for $275M EV"
+          "date": "Jun 25, 2026",
+          "event": "Merck KGaA agrees to acquire Bio-Techne ($73.00/share)"
         },
         {
-          "date": "2H 2026",
-          "event": "Expected close (subject to regulatory approval)"
+          "date": "Aug 10, 2026",
+          "event": "Preliminary merger proxy (PREM14A) filed"
         }
       ],
       "coverage_team": [
-        "TMT",
-        "Consumer & Retail"
+        "Healthcare",
+        "TMT"
       ],
-      "source": "StockTitan (NCM / Captivate release)",
-      "source_url": "https://www.stocktitan.net/news/NCMI/",
-      "published": "2026-08-11",
-      "confidence": "Reported",
+      "source": "SEC EDGAR — Bio-Techne PREM14A",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/842023/000114036126032037/ny20078105x1_prem14a.htm",
+      "published": "2026-08-10",
+      "confidence": "Filed",
       "tags": [
-        "tmt",
-        "advertising",
-        "out-of-home"
+        "healthcare",
+        "life-sciences",
+        "cross-border"
       ]
     },
     {
-      "id": "s5",
+      "id": "s8",
       "category": "BANKING",
       "urgency": "LOW",
       "scope": "bank",
@@ -192,8 +294,8 @@
         "JPMorgan",
         "Wells Fargo"
       ],
-      "headline": "Skyworks prices $2.0B of senior notes to fund its Qorvo combination; Goldman, BofA, JPMorgan and Wells Fargo lead",
-      "why_it_matters": "Skyworks Solutions filed the underwriting agreement (dated Aug 4, filed Aug 10) for a $2.0B three-part senior-notes offering — $800M 5.000% due 2028, $600M 5.750% due 2032, $600M 6.250% due 2036 — with a special mandatory redemption tied to its pending Qorvo combination. Goldman Sachs, BofA Securities, J.P. Morgan and Wells Fargo Securities are named as representatives of the underwriters. Acquisition-financing debt raises run disclosure and syndicate-diligence workstreams alongside the M&A track.",
+      "headline": "Skyworks' $2.0B senior-notes raise for the Qorvo combination is on file; Goldman, BofA, JPMorgan and Wells Fargo lead",
+      "why_it_matters": "Skyworks Solutions has an underwriting agreement on file (dated Aug 4, filed Aug 10) for a $2.0B three-part senior-notes offering — $800M 5.000% due 2028, $600M 5.750% due 2032, $600M 6.250% due 2036 — with a special mandatory redemption tied to its pending Qorvo combination. Goldman Sachs, BofA Securities, J.P. Morgan and Wells Fargo Securities are named as representatives of the underwriters. Acquisition-financing debt raises run disclosure and syndicate-diligence workstreams alongside the M&A track.",
       "suggested_action": "Engage Goldman/BofA/JPMorgan/Wells Fargo on the Skyworks notes — acquisition-financing raises run alongside the Qorvo M&A diligence a secure room keeps organized across both workstreams.",
       "deal_clock": [
         {
@@ -221,7 +323,7 @@
       ]
     },
     {
-      "id": "s6",
+      "id": "s9",
       "category": "M&A",
       "urgency": "MEDIUM",
       "scope": "bank",
@@ -230,7 +332,7 @@
         "Evercore"
       ],
       "headline": "MarineMax's ~$1.5B Blackstone (Safe Harbor) take-private advances; Wells Fargo advises MarineMax, Evercore advises Safe Harbor",
-      "why_it_matters": "MarineMax (NYSE: HZO) is being acquired by Safe Harbor Marinas (a Blackstone Infrastructure portfolio company) for $53.00/share, ~$1.5B enterprise value. Wells Fargo is exclusive financial adviser to MarineMax (sell-side) and Evercore is exclusive financial adviser to Safe Harbor (buy-side). A sponsor take-private of a public marina operator runs committed-financing, antitrust and shareholder-vote workstreams as it heads toward a vote.",
+      "why_it_matters": "MarineMax (NYSE: HZO) is being acquired by Safe Harbor Marinas (a Blackstone Infrastructure portfolio company) for $53.00/share, ~$1.5B enterprise value. Wells Fargo is exclusive financial adviser to MarineMax (sell-side) and Evercore is exclusive financial adviser to Safe Harbor (buy-side). A sponsor take-private of a public marina operator runs committed-financing, antitrust and shareholder-vote workstreams.",
       "suggested_action": "Engage Wells Fargo (MarineMax) and Evercore (Safe Harbor) — a ~$1.5B sponsor take-private runs committed-financing, antitrust and proxy diligence a secure room organizes to close.",
       "deal_clock": [
         {
@@ -254,156 +356,49 @@
       ]
     },
     {
-      "id": "s7",
-      "category": "M&A",
-      "urgency": "MEDIUM",
-      "scope": "bank",
-      "banks": [
-        "Bank of America",
-        "JPMorgan"
-      ],
-      "headline": "Ryman Hospitality's $1.38B Grande Lakes Orlando resort acquisition advances; BofA and JPMorgan advise Ryman",
-      "why_it_matters": "Ryman Hospitality Properties (NYSE: RHP) agreed to acquire the Grande Lakes Orlando resort (JW Marriott and Ritz-Carlton) from Trinity Investments for $1.38B, a 12.5x trailing Adjusted EBITDAre multiple, expected to close Q3 2026. BofA Securities and J.P. Morgan advise Ryman (buy-side). A trophy single-asset hotel acquisition runs real-estate, financing and franchise-diligence workstreams.",
-      "suggested_action": "Engage BofA and JPMorgan (Ryman) — a $1.38B trophy-resort acquisition runs property, financing and franchise diligence a secure room organizes to close.",
-      "deal_clock": [
-        {
-          "date": "Aug 10, 2026",
-          "event": "Ryman agrees to acquire Grande Lakes Orlando ($1.38B)"
-        },
-        {
-          "date": "Q3 2026",
-          "event": "Expected close"
-        }
-      ],
-      "coverage_team": [
-        "Real Estate",
-        "Consumer & Retail"
-      ],
-      "source": "StockTitan (Ryman release)",
-      "source_url": "https://www.stocktitan.net/news/RHP/ryman-hospitality-properties-inc-to-acquire-grande-lakes-orlando-1wixjcc7jzt4.html",
-      "published": "2026-08-10",
-      "confidence": "Reported",
-      "tags": [
-        "real-estate",
-        "lodging",
-        "single-asset"
-      ]
-    },
-    {
-      "id": "s8",
-      "category": "M&A",
-      "urgency": "MEDIUM",
-      "scope": "bank",
-      "banks": [
-        "JPMorgan",
-        "Moelis"
-      ],
-      "headline": "Archer's acquisition of Boeing's Wisk, Insitu and SkyGrid advances; JPMorgan advises Boeing, Moelis advises Archer",
-      "why_it_matters": "Archer Aviation (NYSE: ACHR) is acquiring three Boeing units — Wisk Aero, Insitu and SkyGrid — with Boeing (NYSE: BA) taking an equity stake in Archer (terms undisclosed; Insitu ~$200M annual revenue). J.P. Morgan advises Boeing (sell-side) and Moelis advises Archer (buy-side). A multi-unit aerospace/defense carve-out runs separation, regulatory (defense/ITAR) and equity-consideration workstreams.",
-      "suggested_action": "Engage JPMorgan (Boeing) and Moelis (Archer) — a multi-unit aerospace/defense carve-out runs separation, ITAR/regulatory and equity-consideration diligence a secure room organizes.",
-      "deal_clock": [
-        {
-          "date": "Aug 10, 2026",
-          "event": "Archer agrees to acquire Wisk, Insitu and SkyGrid from Boeing"
-        }
-      ],
-      "coverage_team": [
-        "Industrials",
-        "TMT"
-      ],
-      "source": "StockTitan (Archer release)",
-      "source_url": "https://www.stocktitan.net/news/BA/archer-to-shape-physical-ai-future-of-aerospace-and-defense-with-tyzgkntzzk6l.html",
-      "published": "2026-08-10",
-      "confidence": "Reported",
-      "tags": [
-        "industrials",
-        "aerospace-defense",
-        "carve-out"
-      ]
-    },
-    {
-      "id": "s9",
-      "category": "M&A",
-      "urgency": "MEDIUM",
-      "scope": "bank",
-      "banks": [
-        "Goldman Sachs",
-        "Guggenheim Securities",
-        "JPMorgan"
-      ],
-      "headline": "Bio-Techne's ~$11.3B Merck KGaA merger proxy is on file; Goldman advises Bio-Techne, Guggenheim and JPMorgan advise Merck",
-      "why_it_matters": "Bio-Techne (Nasdaq: TECH) has a preliminary merger proxy (PREM14A) on file for its acquisition by Merck KGaA at $73.00/share, a ~$11.3B life-sciences deal heading to a shareholder vote. Goldman Sachs advises Bio-Techne (sell-side); Guggenheim Securities and J.P. Morgan advise Merck KGaA (buy-side). A large-cap cross-border life-sciences merger runs multi-jurisdiction antitrust, disclosure and shareholder-vote workstreams.",
-      "suggested_action": "Engage Goldman (Bio-Techne) and Guggenheim/JPMorgan (Merck KGaA) — a ~$11.3B cross-border life-sciences merger runs multi-jurisdiction antitrust and proxy diligence a secure room organizes to close.",
-      "deal_clock": [
-        {
-          "date": "Jun 25, 2026",
-          "event": "Merck KGaA agrees to acquire Bio-Techne ($73.00/share)"
-        },
-        {
-          "date": "Aug 10, 2026",
-          "event": "Preliminary merger proxy (PREM14A) filed"
-        }
-      ],
-      "coverage_team": [
-        "Healthcare",
-        "TMT"
-      ],
-      "source": "SEC EDGAR — Bio-Techne PREM14A",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/842023/000114036126032037/ny20078105x1_prem14a.htm",
-      "published": "2026-08-10",
-      "confidence": "Filed",
-      "tags": [
-        "healthcare",
-        "life-sciences",
-        "cross-border"
-      ]
-    },
-    {
       "id": "s10",
-      "category": "M&A",
-      "urgency": "LOW",
-      "scope": "bank",
-      "banks": [
-        "Lazard"
-      ],
-      "headline": "Theravance Biopharma's merger proxy for the Zymeworks acquisition is on file; Lazard advises Theravance",
-      "why_it_matters": "Theravance Biopharma (Nasdaq: TBPH) filed a preliminary merger proxy (PREM14A) for its acquisition by Zymeworks at $17.00/share in cash plus one non-tradable CVR. Lazard is Theravance's financial adviser (fairness opinion; Evercore separately advised on general corporate matters). A biopharma cash-plus-CVR merger runs milestone-structuring, disclosure and shareholder-vote workstreams.",
-      "suggested_action": "Engage Lazard (Theravance) — a cash-plus-CVR biopharma merger runs CVR-milestone, disclosure and proxy diligence a secure room organizes through the vote.",
-      "deal_clock": [
-        {
-          "date": "Jun 28, 2026",
-          "event": "Theravance agrees to $17.00/share + CVR sale to Zymeworks"
-        },
-        {
-          "date": "Aug 11, 2026",
-          "event": "Preliminary merger proxy (PREM14A) filed"
-        }
-      ],
-      "coverage_team": "Healthcare",
-      "source": "SEC EDGAR — Theravance Biopharma PREM14A",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1583107/000110465926093784/tm2621435-1_prem14a.htm",
-      "published": "2026-08-11",
-      "confidence": "Filed",
-      "tags": [
-        "healthcare",
-        "biopharma",
-        "cvr"
-      ]
-    },
-    {
-      "id": "s11",
       "category": "MACRO",
       "urgency": "LOW",
       "scope": "market",
-      "headline": "Advisory stocks extend their slide even as fresh mandates pile up — EVR -5.3%, JEF -2.3%, GS -1.9%",
-      "why_it_matters": "Equities were mixed midday Aug 12 (S&P +0.30%, Nasdaq +0.79%, Dow -0.94%), with the VIX easing to ~14.8 and the 10Y around ~4.67%. The advisory complex kept selling off — Evercore (-5.3%), Jefferies (-2.3%) and Goldman (-1.9%) — a second straight session of weakness against a genuinely heavy mandate slate (Caesars take-private proxy, Payoneer/Nuvei, DoubleVerify take-private, NCM/Captivate). The divergence between advisory-stock softness and robust filing flow underscores that pipeline strength shows up in mandates before the tape.",
-      "suggested_action": "Lean on the deal flow, not the stock tape — a second soft session for advisory shares alongside a steady stream of proxy filings is a cue to keep the conversation on live-process execution and room readiness.",
+      "headline": "Stocks rally to fresh highs but advisory names keep sliding — EVR -2.8%, JEF -2.3% on a green day",
+      "why_it_matters": "Equities jumped midday Aug 13 (S&P +1.26% to ~7,807, Nasdaq +1.89% to ~26,847, Dow +0.16%), with the VIX easing to ~14.6 and the 10Y down to ~4.63%. Most bank stocks joined the rally (MS +3.0%, JPM +2.2%, GS +1.7%, LAZ +1.3%) — but Evercore (-2.8%) and Jefferies (-2.3%) fell again, a third straight session of pure-play advisory weakness even as the tape ripped and fresh mandates piled up (Accelerant/Thoma Bravo $4B, Dynatrace/Arize $915M). The persistent divergence between advisory-stock softness and robust deal flow underscores that pipeline strength shows up in mandates before the tape.",
+      "suggested_action": "Lean on the deal flow, not the stock tape — three straight soft sessions for the pure-play advisers against a busy signing day is a cue to keep the conversation on live-process execution and room readiness.",
       "source": "Yahoo Finance",
       "source_url": "https://finance.yahoo.com/quote/%5EGSPC/",
-      "published": "2026-08-12"
+      "published": "2026-08-13"
     }
   ],
   "opportunities": [
+    {
+      "banks": [
+        "Morgan Stanley",
+        "Houlihan Lokey",
+        "Wells Fargo"
+      ],
+      "sector": "Financials / Insurance-Tech",
+      "urgency": "HOT",
+      "headline": "Sell-side advisers to Accelerant (Wells Fargo for Thoma Bravo) on the $4B+ take-private at $20.25/share",
+      "why_it_matters": "Morgan Stanley is exclusive financial adviser to Accelerant's (NYSE: ARX) Board and Houlihan Lokey advises the Special Committee (sell-side) on Thoma Bravo's all-cash take-private at $20.25/share, a 49% premium and $4B+ enterprise value; BMO Capital Markets and Wells Fargo advise Thoma Bravo (buy-side). Altamont Capital and the founders intend to roll equity. A sponsor take-private of an insurance-tech platform runs committed-financing, multi-jurisdiction insurance-regulatory and shareholder-vote workstreams.",
+      "deal_clock": [
+        {
+          "date": "Aug 13, 2026",
+          "event": "Accelerant agrees to $20.25/share take-private by Thoma Bravo ($4B+ EV)"
+        }
+      ],
+      "outreach_idea": "Engage Morgan Stanley/Houlihan Lokey (Accelerant) and Wells Fargo (Thoma Bravo) — a $4B+ insurance-tech take-private runs committed-financing, insurance-regulatory and proxy diligence a secure room organizes.",
+      "outreach_draft": {
+        "subject": "Accelerant / Thoma Bravo — supporting a $4B+ take-private",
+        "body": "Congratulations on your role advising on Thoma Bravo's take-private of Accelerant. Insurance-tech take-privates run committed-financing, multi-jurisdiction regulatory and shareholder-vote workstreams to close — would welcome a conversation on secure, auditable data-room access through completion.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "SEC EDGAR — Accelerant Holdings 8-K (EX-99.2)",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1997350/000119312526347925/d286225dex992.htm",
+      "published": "2026-08-13",
+      "confidence": "Filed",
+      "first_seen": "2026-08-13",
+      "last_confirmed": "2026-08-13",
+      "id": "o1",
+      "carry_badge": "NEW"
+    },
     {
       "banks": [
         "PJT Partners",
@@ -435,8 +430,8 @@
       "confidence": "Filed",
       "first_seen": "2026-08-12",
       "last_confirmed": "2026-08-12",
-      "id": "o1",
-      "carry_badge": "NEW"
+      "id": "o2",
+      "carry_badge": "Day 2"
     },
     {
       "banks": [
@@ -467,8 +462,8 @@
       "confidence": "Filed",
       "first_seen": "2026-08-12",
       "last_confirmed": "2026-08-12",
-      "id": "o2",
-      "carry_badge": "NEW"
+      "id": "o3",
+      "carry_badge": "Day 2"
     },
     {
       "banks": [
@@ -499,171 +494,68 @@
       "confidence": "Filed",
       "first_seen": "2026-08-12",
       "last_confirmed": "2026-08-12",
-      "id": "o3",
-      "carry_badge": "NEW"
+      "id": "o4",
+      "carry_badge": "Day 2"
     },
     {
       "banks": [
-        "Goldman Sachs",
-        "Guggenheim Securities",
         "JPMorgan"
       ],
-      "sector": "Healthcare / Life Sciences",
+      "sector": "TMT / AI Software",
       "urgency": "HOT",
-      "headline": "Sell-side adviser to Bio-Techne (Guggenheim, JPMorgan for Merck KGaA) as the ~$11.3B merger proxy is filed",
-      "why_it_matters": "Goldman Sachs advises Bio-Techne (Nasdaq: TECH) and Guggenheim Securities and J.P. Morgan advise Merck KGaA on the ~$11.3B ($73.00/share) acquisition, now advanced to a preliminary merger proxy (PREM14A). A large-cap cross-border life-sciences merger runs multi-jurisdiction antitrust, disclosure and shareholder-vote workstreams.",
+      "headline": "Buy-side adviser to Dynatrace on its $915M acquisition of AI-observability firm Arize",
+      "why_it_matters": "J.P. Morgan advises Dynatrace (NYSE: DT) on its $915M cash-and-stock acquisition of Arize (~$815M cash plus replacement equity), an AI-observability platform, expected to close by early fiscal Q3 subject to regulatory review. Qatalyst advised Arize. An AI/software acquisition runs technology, IP and integration diligence workstreams.",
       "deal_clock": [
         {
-          "date": "Jun 25, 2026",
-          "event": "Merck KGaA agrees to acquire Bio-Techne ($73.00/share)"
+          "date": "Aug 13, 2026",
+          "event": "Dynatrace agrees to acquire Arize for $915M"
         },
         {
-          "date": "Aug 10, 2026",
-          "event": "Preliminary merger proxy (PREM14A) filed"
+          "date": "FQ3 2027",
+          "event": "Expected close (subject to regulatory review)"
         }
       ],
-      "outreach_idea": "Engage Goldman (Bio-Techne) and Guggenheim/JPMorgan (Merck KGaA) — a ~$11.3B cross-border life-sciences merger runs multi-jurisdiction antitrust and proxy diligence a secure room organizes.",
+      "outreach_idea": "Engage JPMorgan (Dynatrace) — an AI-observability acquisition runs technology, IP and integration diligence a secure room organizes to close.",
       "outreach_draft": {
-        "subject": "Bio-Techne / Merck KGaA — supporting a ~$11.3B merger",
-        "body": "Congratulations on your role advising on the Bio-Techne / Merck KGaA merger. Large-cap cross-border combinations run multi-jurisdiction antitrust, disclosure and shareholder-vote workstreams — happy to discuss secure, auditable data-room access through completion.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+        "subject": "Dynatrace / Arize — supporting a $915M AI acquisition",
+        "body": "Congratulations on JPMorgan's role advising Dynatrace on its acquisition of Arize. AI/software acquisitions run technology, IP and integration diligence workstreams — happy to discuss secure, auditable data-room access through close.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
       },
-      "source": "SEC EDGAR — Bio-Techne PREM14A",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/842023/000114036126032037/ny20078105x1_prem14a.htm",
-      "published": "2026-08-10",
-      "confidence": "Filed",
-      "first_seen": "2026-08-10",
-      "last_confirmed": "2026-08-11",
-      "id": "o4",
-      "carry_badge": "Day 3"
-    },
-    {
-      "banks": [
-        "Guggenheim Securities",
-        "Goldman Sachs"
-      ],
-      "sector": "Healthcare / Biopharma",
-      "urgency": "HOT",
-      "headline": "Sell-side adviser to Forte Biosciences as argenx’s tender offer runs (~$2.2B)",
-      "why_it_matters": "Guggenheim Securities advises Forte Biosciences (Nasdaq: FBRX) — with Goldman Sachs advising argenx — on argenx’s commenced all-cash tender offer for all Forte shares (~$2.2B; announced Jul 27, tender live and SC 14D-9 filed Aug 6). A commenced tender runs a compressed confirmatory-diligence and close clock.",
-      "deal_clock": [
-        {
-          "date": "Jul 27, 2026",
-          "event": "argenx agrees to acquire Forte Biosciences (~$2.2B)"
-        },
-        {
-          "date": "Aug 6, 2026",
-          "event": "Tender offer commenced; SC 14D-9 filed"
-        }
-      ],
-      "outreach_idea": "Engage Guggenheim (Forte) and Goldman (argenx) — a commenced tender runs a tight confirmatory-diligence clock a secure room organizes to expiration.",
-      "outreach_draft": {
-        "subject": "Forte / argenx — supporting a commenced tender offer",
-        "body": "Congratulations on Guggenheim’s role advising Forte Biosciences as argenx’s tender offer runs. Commenced tenders run a compressed confirmatory-diligence and close timeline — would welcome a conversation on secure, auditable data-room access through expiration.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
-      },
-      "source": "SEC EDGAR — Forte Biosciences SC 14D-9",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1419041/000114036126031507/ny20079529x1_sc14d9.htm",
-      "published": "2026-08-06",
-      "confidence": "Filed",
-      "first_seen": "2026-08-06",
-      "last_confirmed": "2026-08-11",
+      "source": "Dynatrace press release (Dynatrace to Acquire Arize)",
+      "source_url": "https://www.dynatrace.com/news/press-release/dynatrace-to-acquire-arize/",
+      "published": "2026-08-13",
+      "confidence": "Reported",
+      "first_seen": "2026-08-13",
+      "last_confirmed": "2026-08-13",
       "id": "o5",
-      "carry_badge": "Day 5"
-    },
-    {
-      "banks": [
-        "Jefferies",
-        "Citi",
-        "Piper Sandler"
-      ],
-      "sector": "Healthcare / Biopharma",
-      "urgency": "HOT",
-      "headline": "Joint adviser (with Piper Sandler, Citi) to Indivior on its all-stock merger of equals with Supernus",
-      "why_it_matters": "Jefferies and Piper Sandler are joint financial advisers to Indivior (INDV), with Citi also advising and Citibank providing a $650M term loan, on its all-stock merger of equals with Supernus (~$2.2B combined revenue; $1.0B special dividend to Indivior holders). A MoE runs dual-company diligence and S-4 registration workstreams.",
-      "deal_clock": [
-        {
-          "date": "Aug 3, 2026",
-          "event": "Supernus and Indivior agree to merger of equals"
-        }
-      ],
-      "outreach_idea": "Engage Jefferies / Piper Sandler / Citi (Indivior) — an all-stock MoE runs dual-company confirmatory diligence and S-4 workstreams a secure room organizes.",
-      "outreach_draft": {
-        "subject": "Indivior / Supernus — supporting a merger of equals",
-        "body": "Congratulations on advising Indivior on its merger of equals with Supernus. All-stock combinations run dual-company diligence and S-4 registration workstreams — would welcome a conversation on secure, auditable room access across both sides through close.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
-      },
-      "source": "SEC EDGAR — Supernus/Indivior EX-99.1",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1356576/000110465926089426/tm2622009d1_ex99-1.htm",
-      "published": "2026-08-03",
-      "confidence": "Filed",
-      "first_seen": "2026-08-03",
-      "last_confirmed": "2026-08-07",
-      "id": "o6",
-      "carry_badge": "Day 8"
-    },
-    {
-      "banks": [
-        "Goldman Sachs",
-        "Bank of America",
-        "JPMorgan",
-        "Wells Fargo"
-      ],
-      "sector": "TMT / Semiconductors",
-      "urgency": "WARM",
-      "headline": "Joint bookrunners on Skyworks' $2.0B senior-notes raise funding the Qorvo combination",
-      "why_it_matters": "Goldman Sachs, BofA Securities, J.P. Morgan and Wells Fargo Securities are representatives of the underwriters on Skyworks Solutions' $2.0B three-part senior-notes offering (5.000% 2028 / 5.750% 2032 / 6.250% 2036) with a special mandatory redemption tied to the pending Qorvo combination. Acquisition-financing raises run disclosure and syndicate-diligence workstreams alongside the M&A track.",
-      "deal_clock": [
-        {
-          "date": "Aug 4, 2026",
-          "event": "Skyworks $2.0B senior-notes underwriting agreement"
-        },
-        {
-          "date": "Aug 10, 2026",
-          "event": "Underwriting agreement (EX-1.1) filed"
-        }
-      ],
-      "outreach_idea": "Engage Goldman/BofA/JPMorgan/Wells Fargo — acquisition-financing raises run alongside the Qorvo M&A diligence a secure room keeps organized across both workstreams.",
-      "outreach_draft": {
-        "subject": "Skyworks — supporting a $2.0B acquisition-financing raise",
-        "body": "Congratulations on leading Skyworks' $2.0B senior-notes offering tied to the Qorvo combination. Acquisition-financing raises run alongside the M&A diligence track — happy to discuss secure, auditable room access across both workstreams.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
-      },
-      "source": "SEC EDGAR — Skyworks Solutions underwriting agreement (EX-1.1)",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1604778/000110465926093358/tm2622643d2_ex1-1.htm",
-      "published": "2026-08-10",
-      "confidence": "Filed",
-      "first_seen": "2026-08-12",
-      "last_confirmed": "2026-08-12",
-      "id": "o7",
       "carry_badge": "NEW"
     },
     {
       "banks": [
-        "Bank of America"
+        "Harris Williams",
+        "Stifel"
       ],
-      "sector": "TMT / Advertising",
+      "sector": "Industrials / Safety Services",
       "urgency": "WARM",
-      "headline": "Adviser (with Solomon Partners) on National CineMedia's $275M acquisition of Captivate",
-      "why_it_matters": "BofA Securities and Solomon Partners are the financial advisers on National CineMedia's (Nasdaq: NCMI) $275M enterprise-value acquisition of Captivate Holdings (a 26,000-screen digital out-of-home network) from Generation Partners, funded with new committed term debt at ~10x pro forma EBITDA. A debt-funded adtech acquisition runs financing and integration workstreams.",
+      "headline": "Sell-side adviser to Paradigm HSE (Stifel for Quad-C) on Quad-C's growth investment",
+      "why_it_matters": "Harris Williams is financial adviser to Paradigm HSE (sell-side) and Stifel advises Quad-C Management (buy-side) on Quad-C's growth investment in the occupational safety/health services platform (terms undisclosed), with management retaining significant ownership. A middle-market PE platform investment runs confirmatory-diligence and financing workstreams.",
       "deal_clock": [
         {
-          "date": "Aug 10, 2026",
-          "event": "NCM agrees to acquire Captivate for $275M EV"
-        },
-        {
-          "date": "2H 2026",
-          "event": "Expected close (subject to regulatory approval)"
+          "date": "Aug 12, 2026",
+          "event": "Quad-C announces growth investment in Paradigm HSE"
         }
       ],
-      "outreach_idea": "Engage BofA Securities on the NCM/Captivate deal — a debt-funded out-of-home advertising acquisition runs committed-term-debt and integration diligence a secure room organizes.",
+      "outreach_idea": "Engage Harris Williams (Paradigm) and Stifel (Quad-C) — a middle-market PE platform investment runs confirmatory-diligence and financing workstreams a secure room organizes.",
       "outreach_draft": {
-        "subject": "National CineMedia / Captivate — supporting a $275M acquisition",
-        "body": "Congratulations on advising on National CineMedia's acquisition of Captivate. Debt-funded acquisitions run committed-financing and integration diligence workstreams — would welcome a conversation on secure, auditable data-room access through close.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+        "subject": "Paradigm HSE / Quad-C — supporting a platform investment",
+        "body": "Congratulations on your role advising on Quad-C's investment in Paradigm HSE. Middle-market platform investments run confirmatory-diligence and financing workstreams — would welcome a conversation on secure, auditable data-room access through close.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
       },
-      "source": "StockTitan (NCM / Captivate release)",
-      "source_url": "https://www.stocktitan.net/news/NCMI/",
-      "published": "2026-08-11",
+      "source": "Pulse 2.0 (Quad-C / Paradigm HSE release)",
+      "source_url": "https://pulse2.com/quad-c-management-invests-in-paradigm-hse/",
+      "published": "2026-08-12",
       "confidence": "Reported",
-      "first_seen": "2026-08-12",
-      "last_confirmed": "2026-08-12",
-      "id": "o8",
+      "first_seen": "2026-08-13",
+      "last_confirmed": "2026-08-13",
+      "id": "o6",
       "carry_badge": "NEW"
     }
   ],
@@ -671,107 +563,107 @@
     "indices": [
       {
         "label": "S&P 500",
-        "value": "7,746.90",
-        "change": "+23.35 (+0.30%)",
+        "value": "7,807.43",
+        "change": "+97.47 (+1.26%)",
         "positive": true
       },
       {
         "label": "Nasdaq Composite",
-        "value": "26,571.23",
-        "change": "+207.79 (+0.79%)",
+        "value": "26,847.36",
+        "change": "+499.01 (+1.89%)",
         "positive": true
       },
       {
         "label": "Dow Jones",
-        "value": "53,839.97",
-        "change": "-509.15 (-0.94%)",
-        "positive": false
+        "value": "53,969.88",
+        "change": "+84.78 (+0.16%)",
+        "positive": true
       },
       {
         "label": "CBOE VIX",
-        "value": "14.78",
-        "change": "-0.37 (-2.44%)",
+        "value": "14.63",
+        "change": "-0.27 (-1.81%)",
         "positive": true
       },
       {
         "label": "10Y Treasury",
-        "value": "4.668%",
-        "change": "-0.002 (-0.04%)",
+        "value": "4.629%",
+        "change": "-0.031 (-0.67%)",
         "positive": true
       }
     ],
     "bank_stocks": [
       {
         "ticker": "GS",
-        "price": "$1,040.46",
-        "change": "-1.88%",
-        "positive": false
+        "price": "$1,050.06",
+        "change": "+1.69%",
+        "positive": true
       },
       {
         "ticker": "MS",
-        "price": "$217.87",
-        "change": "-0.18%",
-        "positive": false
+        "price": "$220.09",
+        "change": "+2.97%",
+        "positive": true
       },
       {
         "ticker": "JPM",
-        "price": "$364.72",
-        "change": "+1.53%",
+        "price": "$363.99",
+        "change": "+2.16%",
         "positive": true
       },
       {
         "ticker": "EVR",
-        "price": "$301.96",
-        "change": "-5.28%",
+        "price": "$301.73",
+        "change": "-2.77%",
         "positive": false
       },
       {
         "ticker": "LAZ",
-        "price": "$43.27",
-        "change": "-1.11%",
-        "positive": false
+        "price": "$43.89",
+        "change": "+1.30%",
+        "positive": true
       },
       {
         "ticker": "JEF",
-        "price": "$54.90",
-        "change": "-2.30%",
+        "price": "$55.03",
+        "change": "-2.29%",
         "positive": false
       }
     ],
-    "macro_note": "Mixed midday tape Aug 12 with a persistent advisory-stock pullback: the S&P 500 rose +0.30% (~7,747) and the Nasdaq +0.79% (~26,571) while the Dow lagged -0.94% (~53,840); the VIX eased to ~14.8 and the 10Y held near ~4.67%. The advisory complex kept selling — EVR -5.3%, JEF -2.3%, GS -1.9% (JPM bucked it, +1.5%) — a second straight session of weakness against a steady stream of proxy filings (Caesars, Payoneer/Nuvei, DoubleVerify, NCM/Captivate). Index and bank-stock values are live Aug 12 midday levels."
+    "macro_note": "A broad risk-on session Aug 13 with one stubborn exception: the S&P 500 rose +1.26% (~7,807), the Nasdaq +1.89% (~26,847) and the Dow +0.16% (~53,970), with the VIX easing to ~14.6 and the 10Y down to ~4.63%. Most bank stocks joined the rally (MS +3.0%, JPM +2.2%, GS +1.7%, LAZ +1.3%) — but the pure-play advisers kept falling: Evercore -2.8% and Jefferies -2.3%, a third straight session of advisory-name weakness even on a green day and a heavy signing slate (Accelerant/Thoma Bravo, Dynatrace/Arize). Values are live Aug 13 midday levels."
   },
   "talking_point": {
-    "quote": "The advisory tape stayed soft again Tuesday into Wednesday — Evercore, Jefferies and Goldman all down — but the filings told the opposite story: Caesars' $31 Fertitta take-private proxy, Payoneer's $7.40 Nuvei proxy, DoubleVerify's $13.60 take-private, and NCM's $275M Captivate buy, all with banks we cover. Pipeline strength shows up in proxy filings before it shows up in the stock. Which of your live processes has the nearest diligence milestone this week?",
-    "use_with": "Consumer/gaming, fintech/FIG, TMT/adtech and healthcare coverage teams (esp. PJT Partners, Morgan Stanley, Goldman, BofA, JPMorgan, Wells Fargo, Evercore, Lazard)",
-    "context": "Pairs a second-day advisory-stock pullback with a heavy proxy-filing day — a way to redirect the conversation from the tape to live-process execution.",
+    "quote": "Third green session in a row for the tape — but the pure-play advisers, Evercore and Jefferies, fell again even as the market ripped. The mandates told the real story: Thoma Bravo's $4B take-private of Accelerant, Dynatrace's $915M buy of Arize, and fresh Caesars, Payoneer and DoubleVerify proxies, all with banks we cover. Pipeline strength shows up in signings before it shows up in the stock. Which of your live processes has the nearest diligence milestone this week?",
+    "use_with": "FIG/insurance, TMT/AI, consumer/gaming and industrials coverage teams (esp. Morgan Stanley, Houlihan Lokey, Wells Fargo, JPMorgan, PJT Partners, Goldman, Harris Williams, Stifel)",
+    "context": "Pairs a third-day advisory-stock pullback (on a rally day, no less) with a heavy signing/filing slate — a way to redirect the conversation from the tape to live-process execution.",
     "confidence": "Filed"
   },
   "sector_heat": {
     "ranked": [
       {
+        "sector": "Financials / Insurance-Tech",
+        "read": "Accelerant agrees to a $4B+ Thoma Bravo take-private at $20.25/share (Morgan Stanley + Houlihan Lokey for Accelerant; Wells Fargo + BMO for Thoma Bravo).",
+        "source_note": "SEC EDGAR, Aug 13 2026"
+      },
+      {
+        "sector": "TMT / AI Software",
+        "read": "Dynatrace to acquire AI-observability firm Arize for $915M (JPMorgan for Dynatrace).",
+        "source_note": "Dynatrace, Aug 13 2026"
+      },
+      {
         "sector": "Consumer / Gaming",
-        "read": "Caesars files its $31.00/share take-private proxy by Fertitta Entertainment (PJT for Caesars; Morgan Stanley for Fertitta).",
+        "read": "Caesars' $31.00/share Fertitta take-private proxy is on file (PJT for Caesars; Morgan Stanley for Fertitta).",
         "source_note": "SEC EDGAR, Aug 12 2026"
       },
       {
         "sector": "Financials / Fintech",
-        "read": "Payoneer files its $7.40/share Nuvei merger proxy (Goldman for Nuvei; Qatalyst for Payoneer).",
+        "read": "Payoneer's $7.40/share Nuvei merger proxy is on file (Goldman for Nuvei).",
         "source_note": "SEC EDGAR, Aug 11 2026"
       },
       {
-        "sector": "TMT / Adtech",
-        "read": "DoubleVerify agrees to a $13.60/share take-private by Neptune BidCo (PJT for DoubleVerify).",
-        "source_note": "SEC EDGAR, Aug 10 2026"
-      },
-      {
-        "sector": "TMT / Semiconductors",
-        "read": "Skyworks prices $2.0B of senior notes to fund the Qorvo combination (Goldman, BofA, JPMorgan, Wells Fargo).",
-        "source_note": "SEC EDGAR, Aug 10 2026"
-      },
-      {
-        "sector": "TMT / Advertising",
-        "read": "National CineMedia to acquire Captivate for $275M (BofA + Solomon Partners).",
-        "source_note": "StockTitan, Aug 11 2026"
+        "sector": "Industrials / Safety Services",
+        "read": "Quad-C invests in occupational-safety platform Paradigm HSE (Harris Williams for Paradigm; Stifel for Quad-C).",
+        "source_note": "Pulse 2.0, Aug 12 2026"
       }
     ]
   },
@@ -784,68 +676,73 @@
     "note": "Unconfirmed leads — rumored deals and situations with no adviser named yet (or advisers unconfirmed). Real reporting, but treat as speculative: chase them, don't quote them on a call.",
     "items": [
       {
-        "company": "H.B. Fuller (NYSE: FUL) — Building Adhesive Solutions segment",
+        "company": "Leslie's, Inc. (Nasdaq: LESL)",
         "bank": "unconfirmed",
-        "lead": "Activist/holding firm Ancora Holdings Group submitted a public, non-binding proposal Aug 12 to acquire H.B. Fuller's Building Adhesive Solutions (BAS) segment for $1.1–1.2B in cash, saying it can finance the deal without a financing contingency.",
-        "why_unverified": "Company-received public proposal (a shareholder letter), non-binding and based on publicly available information — no agreed deal, no adviser named on either side. A genuine reach-out-early signal, not a mandate.",
-        "sector": "Industrials / Specialty Chemicals",
-        "source_note": "H.B. Fuller / Ancora public letter (via StockTitan), Aug 12 2026",
-        "source_url": "https://www.stocktitan.net/news/FUL/",
+        "lead": "Leslie's disclosed (Q3 release, Aug 12) that it has 'begun exploring strategic alternatives with certain of our financial stakeholders,' which 'may include a deleveraging transaction, potentially combined with one or more financing transactions,' amid a soft macro and a stockholders' deficit.",
+        "why_unverified": "Company-disclosed review confirmed in a primary filing, but no adviser named and no agreed transaction — and it's balance-sheet/deleveraging-flavored (a restructuring or financing, not necessarily a sale). A genuine reach-out-early signal for the pool/spa retailer.",
+        "sector": "Consumer / Retail (pool & spa care)",
+        "source_note": "SEC EDGAR — Leslie's 8-K (EX-99.1), Aug 12 2026",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1821806/000119312526346961/lesl-ex99_1.htm",
         "confidence": "Speculative"
       },
       {
-        "company": "Alkami Technology (Nasdaq: ALKT)",
+        "company": "TherapeuticsMD (Nasdaq: TXMD)",
         "bank": "unconfirmed",
-        "lead": "Alkami reportedly kicked off a sale process after inbound buyer interest, under pressure from activist Jana Partners (\"Alkami kicks off sale process after buyer interest, sources say\").",
-        "why_unverified": "Press/sources-say reporting (Reuters/PYMNTS/Finimize headlines), not company-confirmed; no adviser named and no filing found in the window. Jana is named as the activist. Chase early, don't quote a mandate.",
-        "sector": "Financials / Fintech (cloud digital banking)",
-        "source_note": "Reuters / PYMNTS / Finimize, Aug 6–11 2026",
-        "source_url": "https://www.pymnts.com/",
+        "lead": "TherapeuticsMD disclosed (8-K, Aug 11) that it 'continues to evaluate a variety of strategic alternatives that may include, but are not limited to, an acquisition, merger, other business combination, sale of assets, or other strategic transactions.'",
+        "why_unverified": "Company-disclosed review confirmed in a primary 8-K, but no adviser named, no agreed deal — micro-cap. An early-stage reach-out signal.",
+        "sector": "Healthcare / Women's Health",
+        "source_note": "SEC EDGAR — TherapeuticsMD 8-K (EX-99.1), Aug 11 2026",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/25743/000121390026087756/ea029897901ex99-1.htm",
         "confidence": "Speculative"
       },
       {
-        "company": "ACV Auctions (Nasdaq: ACVA)",
+        "company": "Trimble Inc. (Nasdaq: TRMB) — Transportation & Logistics unit",
         "bank": "unconfirmed",
-        "lead": "ACV Auctions is reportedly exploring a sale after receiving takeover interest (\"ACV Auctions Said to Explore Sale After Receiving Takeover Interest\"); the stock jumped ~12% on the report.",
-        "why_unverified": "Bloomberg/Automotive News-sourced, not company-confirmed; no adviser named, no filing in the window. Real multi-outlet reporting — treat as a reach-out-early signal.",
-        "sector": "TMT (automotive digital marketplace)",
-        "source_note": "Automotive News / Bloomberg, Aug 11 2026",
-        "source_url": "https://www.autonews.com/",
+        "lead": "Trimble is reportedly beginning a strategic review of its Transportation & Logistics unit after inbound interest (\"Trimble Weighs Sale of Transportation Unit Following Buyer Interest\"), alongside Q2 results that included a $562M goodwill impairment on that segment.",
+        "why_unverified": "Press-reported (FreightWaves/CCJ) — the unit-review/inbound-interest detail is NOT in Trimble's primary Q2 8-K, which only discloses the T&L goodwill impairment. Real reporting on a segment carve-out signal; verify before quoting.",
+        "sector": "Industrials / TMT (positioning & transport software)",
+        "source_note": "FreightWaves / Commercial Carrier Journal, Aug 12 2026",
+        "source_url": "https://www.freightwaves.com/",
         "confidence": "Speculative"
       },
       {
-        "company": "Rocky Mountain Chocolate Factory (Nasdaq: RMCF)",
+        "company": "UMH Properties (NYSE: UMH)",
         "bank": "unconfirmed",
-        "lead": "RMCF's board disclosed (8-K, Aug 12) that it is 'exploring strategic alternatives that may include a possible sale, merger, or going-private transaction,' with the assistance of its advisers, and has received expressions of interest from third parties.",
-        "why_unverified": "Company-disclosed review confirmed in a primary 8-K, but no adviser named, no agreed deal, no price — micro-cap. A genuine reach-out-early signal.",
-        "sector": "Consumer / Retail (confectionery / franchise)",
-        "source_note": "SEC EDGAR — RMCF 8-K, Aug 12 2026",
-        "source_url": "https://www.sec.gov/Archives/edgar/data/1616262/000121390026087922/ea0301684-8k_rocky.htm",
+        "lead": "Activist Erez Asset Management is publicly urging manufactured-housing REIT UMH Properties to pursue strategic alternatives, including a sale (\"Erez Asset Urges UMH REIT To Pursue Strategic Alternatives\").",
+        "why_unverified": "Press-reported across two outlets (CRE Daily, The Real Deal), not company-confirmed; no adviser named. Activist-driven early signal — chase, don't quote.",
+        "sector": "Financials / Real Estate (manufactured-housing REIT)",
+        "source_note": "CRE Daily / The Real Deal, Aug 12 2026",
+        "source_url": "https://www.therealdeal.com/",
         "confidence": "Speculative"
       },
       {
-        "company": "HighPeak Energy (Nasdaq: HPK)",
+        "company": "Javvy (private) — protein coffee brand",
         "bank": "unconfirmed",
-        "lead": "HighPeak Energy disclosed (Q2 release, Aug 10) that its board is undertaking a review of strategic alternatives, which 'may not result in a sale of the Company,' and cited interest from prospective counterparties.",
-        "why_unverified": "Company-disclosed review confirmed in a primary filing, but no adviser named, no agreed deal. An early-stage E&P strategic review — reach out early.",
-        "sector": "Energy & Power / E&P (Permian oil & gas)",
-        "source_note": "SEC EDGAR — HighPeak Energy 8-K/Q2, Aug 10 2026",
-        "source_url": "https://www.sec.gov/Archives/edgar/data/1792849/000143774926026770/ex_1000791.htm",
+        "lead": "Protein coffee brand Javvy is reportedly exploring a sale (\"Protein Coffee Brand Javvy Explores Sale, Sources Say\").",
+        "why_unverified": "Sources-say trade reporting (ESM Magazine), private company, no adviser named and body not readable. An early consumer-brand reach-out target if confirmed.",
+        "sector": "Consumer / Food & Beverage",
+        "source_note": "ESM Magazine, Aug 10 2026",
+        "source_url": "https://www.esmmagazine.com/",
         "confidence": "Speculative"
       },
       {
-        "company": "Voya Financial (NYSE: VOYA)",
+        "company": "Arrow Global (UK private-credit manager; owned by TDR Capital)",
         "bank": "unconfirmed",
-        "lead": "Activist TOMS Capital is reportedly pushing a no-confidence campaign and demanding a strategic review at Voya.",
-        "why_unverified": "Single mid-tier outlet (headline-only); no 13D/letter located in the window and no adviser named. Verify the activist filing before outreach.",
-        "sector": "Financials (retirement / asset & wealth management)",
-        "source_note": "Sahm (headline-aggregated), Aug 7 2026",
-        "source_url": "https://www.sahmcapital.com/",
+        "lead": "TDR Capital is reportedly exploring a sale of UK private-credit manager Arrow Global (\"TDR Is Said to Explore Sale of UK Private Credit Manager Arrow\").",
+        "why_unverified": "Bloomberg-sourced (headline only; body not accessible), not confirmed by TDR; no adviser named. UK/Europe financials — a reach-out-early PE-exit signal.",
+        "sector": "Financials / Private Credit (UK)",
+        "source_note": "Bloomberg, Aug 12 2026",
+        "source_url": "https://www.bloomberg.com/",
         "confidence": "Speculative"
       }
     ]
   },
   "archive": [
+    {
+      "date": "2026-08-12",
+      "edition": 25,
+      "file": "2026-08-12.json"
+    },
     {
       "date": "2026-08-11",
       "edition": 24,
@@ -900,12 +797,7 @@
       "date": "2026-07-23",
       "edition": 14,
       "file": "2026-07-23.json"
-    },
-    {
-      "date": "2026-07-22",
-      "edition": 13,
-      "file": "2026-07-22.json"
     }
   ],
-  "edition": 25
+  "edition": 26
 }
