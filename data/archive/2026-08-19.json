@@ -1,42 +1,42 @@
 {
-  "date": "2026-08-20",
-  "lens": "A quiet day for new mandates — the calendar, not fresh signings, is the story: Huntsman/Olin's all-stock merger goes to its shareholder votes in 5 days (Citi, Morgan Stanley, Lazard), while yesterday's signings stay live — JBS's Pilgrim's Pride buy-in (Citi) and Francisco Partners' $7.40/share take-private of Weave (Jefferies). The tape turned risk-off again (VIX +4.6%), and the advisory boutiques gave back Tuesday's pop (Lazard -2.0%, Evercore -2.2%).",
+  "date": "2026-08-19",
+  "lens": "A genuinely new Wednesday lead: JBS moved to buy in the ~18% of Pilgrim's Pride it doesn't own (Citi), and Francisco Partners agreed to take Weave private at $7.40/share (Jefferies) — while Huntsman/Olin counts down to its Aug 25 votes (Citi, Morgan Stanley, Lazard). The tape rebounded (VIX -4.5%) but bulge-bracket bank stocks slipped as advisory boutiques rallied, Lazard +4.5%.",
   "ticker": [
     {
       "label": "S&P 500",
-      "value": "7,684.38",
-      "change": "-0.31%",
-      "positive": false
+      "value": "7,736.33",
+      "change": "+0.58%",
+      "positive": true
     },
     {
       "label": "Nasdaq",
-      "value": "26,123.74",
-      "change": "-0.79%",
-      "positive": false
+      "value": "26,406.19",
+      "change": "+0.44%",
+      "positive": true
     },
     {
       "label": "Dow",
-      "value": "53,133.13",
-      "change": "-0.62%",
-      "positive": false
+      "value": "53,631.23",
+      "change": "+0.54%",
+      "positive": true
     },
     {
       "label": "VIX",
-      "value": "15.58",
-      "change": "+4.63%",
-      "positive": false
+      "value": "15.12",
+      "change": "-4.55%",
+      "positive": true
     },
     {
       "label": "LAZ",
-      "value": "$44.30",
-      "change": "-2.00%",
-      "positive": false
+      "value": "$46.02",
+      "change": "+4.45%",
+      "positive": true
     },
     {
       "label": "JEF",
-      "value": "$53.20",
-      "change": "-0.66%",
-      "positive": false
+      "value": "$54.18",
+      "change": "+0.63%",
+      "positive": true
     }
   ],
   "stories": [
@@ -46,52 +46,11 @@
       "urgency": "HIGH",
       "scope": "bank",
       "banks": [
-        "Citi",
-        "Morgan Stanley",
-        "Lazard"
-      ],
-      "headline": "Huntsman/Olin all-stock merger votes are 5 days out (Aug 25); Citi and Morgan Stanley advise Huntsman, Lazard advises Olin",
-      "why_it_matters": "Olin (NYSE: OLN) and Huntsman (NYSE: HUN) hold special meetings on Aug 25, 2026 to vote on their all-stock merger (agreement dated Jun 15), after a supplemental proxy disclosure (Rule 425) filed Aug 17-18 to resolve shareholder litigation. The joint proxy names Citi and Morgan Stanley as Huntsman's financial advisers and Lazard as Olin's. With the vote days away, the chemicals combination is in its final antitrust, disclosure and dual shareholder-vote stretch — the most time-sensitive live process on the desk this week.",
-      "suggested_action": "Engage Citi/Morgan Stanley (Huntsman) and Lazard (Olin) now — with the vote 5 days out, a chemicals merger runs its final proxy-solicitation and closing diligence a secure room keeps organized.",
-      "deal_clock": [
-        {
-          "date": "Jun 15, 2026",
-          "event": "Olin/Huntsman all-stock merger agreement signed"
-        },
-        {
-          "date": "Aug 17, 2026",
-          "event": "Supplemental proxy disclosure (Rule 425) filed"
-        },
-        {
-          "date": "Aug 25, 2026",
-          "event": "Huntsman and Olin special meetings (shareholder votes) — in 5 days"
-        }
-      ],
-      "coverage_team": [
-        "Industrials"
-      ],
-      "source": "SEC EDGAR — Olin/Huntsman Form 425 (supplemental disclosure)",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1307954/000119312526354377/d273642d425.htm",
-      "published": "2026-08-18",
-      "confidence": "Filed",
-      "tags": [
-        "industrials",
-        "chemicals",
-        "all-stock",
-        "shareholder-vote"
-      ]
-    },
-    {
-      "id": "s2",
-      "category": "M&A",
-      "urgency": "HIGH",
-      "scope": "bank",
-      "banks": [
         "Citi"
       ],
-      "headline": "JBS's proposal to buy in the ~18% Pilgrim's Pride minority stays live; Citi advises JBS",
-      "why_it_matters": "JBS N.V. (NYSE: JBS), which owns ~82% of Pilgrim's Pride (NASDAQ: PPC), has a non-binding proposal (submitted Aug 18) to acquire the PPC shares it doesn't own at a fixed 2.086 JBS Class A shares per PPC share (implied ~$28.50/PPC share). Citi is JBS's financial adviser. The take-in is conditioned on a to-be-appointed special committee of independent PPC directors — which will retain its own advisers — and a majority-of-minority vote.",
-      "suggested_action": "Engage Citi (JBS) and watch for PPC's special committee to name its own independent adviser — a second, sell-side mandate on the same deal. A controlling-shareholder buy-in runs special-committee, fairness-opinion and proxy diligence a secure room organizes.",
+      "headline": "JBS proposes to buy in the ~18% of Pilgrim's Pride it doesn't own via a 2.086-share exchange; Citi advises JBS",
+      "why_it_matters": "JBS N.V. (NYSE: JBS) submitted a non-binding proposal on Aug 18 to acquire all Pilgrim's Pride (NASDAQ: PPC) shares it does not already own — JBS holds ~82% — at a fixed 2.086 JBS Class A shares per PPC share (implied ~$28.50/PPC share versus Aug 18 closes of JBS $13.66 and PPC $28.49). Per JBS's 8-K, Citi is serving as financial adviser to JBS (White & Case legal). A controlling-shareholder buy-in runs special-committee, fairness-opinion and majority-of-minority workstreams: the deal is conditioned on approval by a to-be-appointed special committee of independent, disinterested PPC directors — which will retain its OWN independent legal and financial advisers — and on a majority of votes cast by unaffiliated PPC holders. On close, PPC would delist from Nasdaq.",
+      "suggested_action": "Engage Citi (JBS) now, and watch for PPC's special committee to name its own independent financial adviser — a second, sell-side mandate on the same deal. A majority-of-minority take-in runs special-committee diligence, fairness-opinion and proxy workstreams a secure room organizes to close.",
       "deal_clock": [
         {
           "date": "Aug 18, 2026",
@@ -118,15 +77,15 @@
       ]
     },
     {
-      "id": "s3",
+      "id": "s2",
       "category": "M&A",
-      "urgency": "MEDIUM",
+      "urgency": "HIGH",
       "scope": "bank",
       "banks": [
         "Jefferies"
       ],
-      "headline": "Francisco Partners' $7.40/share take-private of Weave Communications stays live; Jefferies advises Weave",
-      "why_it_matters": "Weave Communications (NYSE: WEAV), a SaaS customer-communications platform for healthcare and small-business practices, agreed Aug 18 to be taken private by Francisco Partners for $7.40/share in cash (~$650M equity value; $22.77M company break-fee). Weave's Board received the written fairness opinion of Jefferies LLC, its financial adviser. A sponsor take-private of a public software company runs fiduciary-out/go-shop, committed-financing and shareholder-vote workstreams.",
+      "headline": "Francisco Partners to take Weave Communications private at $7.40/share (~$650M); Jefferies advises Weave",
+      "why_it_matters": "Weave Communications (NYSE: WEAV), a SaaS customer-communications platform for healthcare and small-business practices, agreed on Aug 18 to be taken private by Francisco Partners for $7.40 per share in cash (~$650M equity value; guaranteed by Francisco Partners VII funds). Per the merger agreement (filed Aug 19), Weave's Board received the written fairness opinion of Jefferies LLC, its financial adviser; the agreement carries a $22.77M company termination fee and a $39.03M parent termination fee. A sponsor take-private of a public software company runs fiduciary-out/go-shop, committed-financing and shareholder-vote workstreams — and it is a fresh sell-side mandate for Jefferies, which has been the advisory laggard among the pure-plays this month.",
       "suggested_action": "Engage Jefferies (Weave) — a $7.40/share software take-private runs fiduciary-out, financing and proxy diligence a secure room organizes through close.",
       "deal_clock": [
         {
@@ -150,6 +109,47 @@
       ]
     },
     {
+      "id": "s3",
+      "category": "M&A",
+      "urgency": "HIGH",
+      "scope": "bank",
+      "banks": [
+        "Citi",
+        "Morgan Stanley",
+        "Lazard"
+      ],
+      "headline": "Huntsman/Olin all-stock merger heads into its Aug 25 shareholder votes; Citi and Morgan Stanley advise Huntsman, Lazard advises Olin",
+      "why_it_matters": "Olin (NYSE: OLN) and Huntsman (NYSE: HUN) hold their special meetings on Aug 25, 2026 to vote on their all-stock merger (agreement dated Jun 15), following a supplemental proxy disclosure (Rule 425) filed Aug 17-18 to address shareholder litigation. The joint proxy names Citi and Morgan Stanley as Huntsman's financial advisers and Lazard as Olin's. With the vote days away, a large chemicals merger runs its final antitrust, disclosure and dual shareholder-vote workstreams.",
+      "suggested_action": "Engage Citi/Morgan Stanley (Huntsman) and Lazard (Olin) — a chemicals merger at its vote runs antitrust and proxy-disclosure diligence a secure room organizes through close.",
+      "deal_clock": [
+        {
+          "date": "Jun 15, 2026",
+          "event": "Olin/Huntsman all-stock merger agreement signed"
+        },
+        {
+          "date": "Aug 17, 2026",
+          "event": "Supplemental proxy disclosure (Rule 425) filed"
+        },
+        {
+          "date": "Aug 25, 2026",
+          "event": "Huntsman and Olin special meetings (shareholder votes)"
+        }
+      ],
+      "coverage_team": [
+        "Industrials"
+      ],
+      "source": "SEC EDGAR — Olin/Huntsman Form 425 (supplemental disclosure)",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1307954/000119312526354377/d273642d425.htm",
+      "published": "2026-08-18",
+      "confidence": "Filed",
+      "tags": [
+        "industrials",
+        "chemicals",
+        "all-stock",
+        "shareholder-vote"
+      ]
+    },
+    {
       "id": "s4",
       "category": "M&A",
       "urgency": "MEDIUM",
@@ -159,7 +159,7 @@
         "JPMorgan"
       ],
       "headline": "BioMarin's up-to-$490M acquisition of Alesta Therapeutics advances; Morgan Stanley advises BioMarin, JPMorgan advises Alesta",
-      "why_it_matters": "BioMarin (Nasdaq: BMRN) agreed Aug 18 to acquire Alesta Therapeutics for $275M upfront plus up to $215M in milestones ($490M total) for oral HPP candidate ALE1 (Alesta spins out its other assets). Morgan Stanley is exclusive financial adviser to BioMarin (buy-side) and J.P. Morgan to Alesta (sell-side). A milestone-structured biopharma acquisition runs IP, earn-out and integration workstreams.",
+      "why_it_matters": "BioMarin (Nasdaq: BMRN) agreed on Aug 18 to acquire Alesta Therapeutics for $275M upfront plus up to $215M in milestones ($490M total) to gain oral HPP candidate ALE1 (Alesta spins out its other assets). Per BioMarin's 8-K, Morgan Stanley is exclusive financial adviser to BioMarin (buy-side) and J.P. Morgan is exclusive financial adviser to Alesta (sell-side). A milestone-structured biopharma acquisition runs IP, earn-out and integration workstreams.",
       "suggested_action": "Engage Morgan Stanley (BioMarin) and JPMorgan (Alesta) — a milestone-structured biopharma acquisition runs IP, CVR/earn-out and integration diligence a secure room organizes to close.",
       "deal_clock": [
         {
@@ -189,7 +189,7 @@
         "Guggenheim Securities"
       ],
       "headline": "TTM Technologies' ~$1.1B acquisition of Epiq Solutions from Veritas advances; Guggenheim advises TTM",
-      "why_it_matters": "TTM Technologies (Nasdaq: TTMI) is acquiring Epiq Solutions — an ITAR-free defense software-defined-radio/RF platform — from Veritas Capital for ~$1.1B all-cash, expected to close Q4 2026. Guggenheim Securities is exclusive financial adviser to TTM; JPMorgan, BofA and Barclays provide committed financing. A defense-electronics acquisition runs ITAR/CFIUS, financing and integration workstreams.",
+      "why_it_matters": "TTM Technologies (Nasdaq: TTMI) is acquiring Epiq Solutions — an ITAR-free defense software-defined-radio/RF platform — from Veritas Capital for ~$1.1B all-cash, expected to close Q4 2026. Guggenheim Securities is exclusive financial adviser to TTM (buy-side); JPMorgan, BofA and Barclays provide committed financing. A defense-electronics acquisition runs ITAR/CFIUS, financing and integration workstreams.",
       "suggested_action": "Engage Guggenheim (TTM) — a ~$1.1B defense-electronics acquisition runs ITAR/CFIUS, committed-financing and integration diligence a secure room organizes to close.",
       "deal_clock": [
         {
@@ -226,7 +226,7 @@
         "Bank of America"
       ],
       "headline": "Gentherm/Modine Reverse Morris Trust combination advances to a Sept 10 vote; Barclays advises Gentherm, BofA advises Modine",
-      "why_it_matters": "Gentherm (Nasdaq: THRM) will acquire Modine's Performance Technologies Business via a spin-off (Platinum SpinCo) and merger — a Reverse Morris Trust with ~$25M in synergies; the registration statement went effective Aug 12 and Gentherm's special meeting is Sept 10. Barclays advises Gentherm and BofA Securities advises Modine. A spin-and-merge runs separation, Section 355 tax-opinion, exchange-ratio and shareholder-vote workstreams.",
+      "why_it_matters": "Gentherm (Nasdaq: THRM) will acquire Modine's Performance Technologies Business via a spin-off (Platinum SpinCo) and merger — a Reverse Morris Trust with ~$25M in identified synergies; the registration statement went effective Aug 12 and Gentherm's special meeting is Sept 10. Barclays is financial adviser to Gentherm and BofA Securities to Modine. A spin-and-merge runs separation, Section 355 tax-opinion, exchange-ratio and shareholder-vote workstreams.",
       "suggested_action": "Engage Barclays (Gentherm) and BofA (Modine) — a Reverse Morris Trust spin-and-merge runs separation, tax-opinion and shareholder-vote diligence a secure room organizes to close.",
       "deal_clock": [
         {
@@ -261,7 +261,7 @@
         "Piper Sandler"
       ],
       "headline": "HomeTrust's ~$448M all-stock acquisition of Blue Ridge Bankshares advances; Piper Sandler advises HomeTrust",
-      "why_it_matters": "HomeTrust Bancshares (NYSE: HTB) is acquiring Blue Ridge Bankshares (NYSE American: BRBS) in an all-stock merger valued at ~$448.1M ($4.28/share), forming a $7B+ Southeast commercial bank; expected to close early Q1 2027. Piper Sandler is financial adviser to HomeTrust; Stephens advised Blue Ridge. A bank merger runs regulatory-approval and dual shareholder-vote workstreams.",
+      "why_it_matters": "HomeTrust Bancshares (NYSE: HTB) is acquiring Blue Ridge Bankshares (NYSE American: BRBS) in an all-stock merger valued at ~$448.1M ($4.28/share), forming a $7B+ Southeast commercial bank; expected to close early Q1 2027. Piper Sandler is financial adviser to HomeTrust (buy-side); Stephens advised Blue Ridge. A bank merger runs regulatory-approval and dual shareholder-vote workstreams.",
       "suggested_action": "Engage Piper Sandler (HomeTrust) — a ~$448M bank merger runs regulatory-approval and dual-company proxy diligence a secure room organizes to close.",
       "deal_clock": [
         {
@@ -288,52 +288,49 @@
     },
     {
       "id": "s8",
+      "category": "DEALS",
+      "urgency": "LOW",
+      "scope": "bank",
+      "banks": [
+        "Evercore"
+      ],
+      "headline": "SPAC Newbury Street II to combine with FORT Robotics; Evercore is structuring adviser to FORT (BTIG is Newbury's financial adviser)",
+      "why_it_matters": "Newbury Street II Acquisition Corp (Nasdaq: NTWO) announced a business combination with FORT Robotics, a safety-and-security platform for autonomous machines and robots. Per the deal announcement (Aug 18), BTIG is exclusive financial adviser and sole placement agent to Newbury Street II, while Evercore is serving as structuring adviser to FORT Robotics — a supporting role on the target side rather than a lead sell-side mandate. A de-SPAC runs PIPE, registration and proxy workstreams.",
+      "suggested_action": "Note Evercore's structuring role on the FORT Robotics de-SPAC — a modest touchpoint; de-SPACs run PIPE, registration and proxy diligence a secure room organizes. Reach out if the combination adds a lead financial adviser.",
+      "deal_clock": [
+        {
+          "date": "Aug 18, 2026",
+          "event": "Newbury Street II announces business combination with FORT Robotics"
+        }
+      ],
+      "coverage_team": [
+        "TMT"
+      ],
+      "source": "SEC EDGAR — Newbury Street II Acquisition Corp 8-K (EX-99.2)",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2028027/000121390026090997/ea030129401ex99-2.htm",
+      "published": "2026-08-18",
+      "confidence": "Filed",
+      "tags": [
+        "technology",
+        "robotics",
+        "spac",
+        "de-spac"
+      ]
+    },
+    {
+      "id": "s9",
       "category": "MACRO",
       "urgency": "LOW",
       "scope": "market",
-      "headline": "Risk-off returns: stocks slip and the VIX pops ~4.6%, and the advisory boutiques give back Tuesday's rally (Lazard -2.0%, Evercore -2.2%)",
-      "why_it_matters": "Equities eased midday Aug 20 (S&P -0.31% to ~7,684, Nasdaq -0.79%, Dow -0.62%), the VIX rose ~4.6% to ~15.6 and the 10Y ticked up to ~4.68%. The pure-play advisers that ran on Tuesday reversed — Lazard -2.0% and Evercore -2.2% — while the universals were mixed (JPMorgan -0.2%, Goldman -0.6%, Morgan Stanley -0.9%). With no new large mandate signed today, the read is the calendar, not the tape: Huntsman/Olin's Aug 25 vote and a stack of live proxies are what move advisory pipeline this week.",
-      "suggested_action": "Keep the conversation on execution timelines, not the daily tape — a two-day boutique round-trip against a full vote/close calendar is a cue to talk room readiness for the deals already in motion.",
+      "headline": "Tape rebounds and the VIX unwinds ~4.5%, but bulge-bracket bank stocks slip while advisory boutiques rally (Lazard +4.5%, Evercore +2.4%)",
+      "why_it_matters": "Equities recovered midday Aug 19 (S&P +0.58% to ~7,736, Nasdaq +0.44%, Dow +0.54%), the VIX fell ~4.6% back to ~15.1 and the 10Y eased to ~4.65%. But the bank tape split sharply: bulge-bracket universals lagged — Goldman -1.7%, JPMorgan -1.1%, Morgan Stanley -0.8% — while the pure-play advisers ran, Lazard +4.5% and Evercore +2.4% (Jefferies +0.6%). With fresh signings (JBS/PPC, Weave/Francisco Partners) and Huntsman/Olin's Aug 25 vote on the calendar, the boutique bid is a read on where the advisory fee pool is concentrating.",
+      "suggested_action": "Use the boutique/bulge split as a conversation opener with elite-boutique desks (Lazard, Evercore, PJT, Centerview) — the market is paying up for advisory, and live mandates need secure, auditable rooms to execute.",
       "source": "Yahoo Finance",
       "source_url": "https://finance.yahoo.com/quote/%5EGSPC/",
-      "published": "2026-08-20"
+      "published": "2026-08-19"
     }
   ],
   "opportunities": [
-    {
-      "banks": [
-        "Citi",
-        "Morgan Stanley",
-        "Lazard"
-      ],
-      "sector": "Industrials / Chemicals",
-      "urgency": "HOT",
-      "headline": "Advisers to Huntsman (Citi, Morgan Stanley) and Olin (Lazard) as the all-stock merger hits its Aug 25 votes",
-      "why_it_matters": "Citi and Morgan Stanley advise Huntsman (NYSE: HUN) and Lazard advises Olin (NYSE: OLN) on their all-stock merger, now 5 days from both companies' special meetings on Aug 25, 2026. A large chemicals merger runs antitrust, disclosure and dual shareholder-vote workstreams into close.",
-      "deal_clock": [
-        {
-          "date": "Aug 17, 2026",
-          "event": "Supplemental proxy disclosure (Rule 425) filed"
-        },
-        {
-          "date": "Aug 25, 2026",
-          "event": "Huntsman and Olin special meetings (shareholder votes)"
-        }
-      ],
-      "outreach_idea": "Engage Citi/Morgan Stanley (Huntsman) and Lazard (Olin) — a chemicals merger at its vote runs proxy-solicitation and closing diligence a secure room keeps organized.",
-      "outreach_draft": {
-        "subject": "Huntsman / Olin — supporting an all-stock chemicals merger into its Aug 25 vote",
-        "body": "Congratulations on your role advising on the Huntsman/Olin merger as it reaches its Aug 25 votes. All-stock chemicals combinations run antitrust, disclosure and dual shareholder-vote workstreams — happy to discuss secure, auditable room access across both sides through close.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
-      },
-      "source": "SEC EDGAR — Olin/Huntsman Form 425 (supplemental disclosure)",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1307954/000119312526354377/d273642d425.htm",
-      "published": "2026-08-18",
-      "confidence": "Filed",
-      "first_seen": "2026-08-18",
-      "last_confirmed": "2026-08-20",
-      "id": "o1",
-      "carry_badge": "Day 3"
-    },
     {
       "banks": [
         "Citi"
@@ -341,18 +338,18 @@
       "sector": "Consumer / Food",
       "urgency": "HOT",
       "headline": "Adviser to JBS on its proposal to acquire the ~18% Pilgrim's Pride minority (2.086x exchange)",
-      "why_it_matters": "Citi is financial adviser to JBS N.V. (NYSE: JBS) on its Aug 18 non-binding proposal to acquire the ~18% of Pilgrim's Pride (NASDAQ: PPC) it doesn't own, at a fixed 2.086 JBS share exchange (implied ~$28.50/PPC share). Conditioned on a special committee of independent PPC directors (own advisers to come) and a majority-of-minority vote.",
+      "why_it_matters": "Citi is financial adviser to JBS N.V. (NYSE: JBS) on its Aug 18 non-binding proposal to acquire all Pilgrim's Pride (NASDAQ: PPC) shares it doesn't already own — JBS holds ~82% — at a fixed 2.086 JBS Class A shares per PPC share (implied ~$28.50/PPC share). The take-in is conditioned on a to-be-appointed special committee of independent PPC directors (which will retain its own advisers) and a majority-of-minority vote. A controlling-shareholder buy-in runs special-committee, fairness-opinion and proxy workstreams.",
       "deal_clock": [
         {
           "date": "Aug 18, 2026",
-          "event": "JBS submits non-binding proposal for PPC minority"
+          "event": "JBS submits non-binding proposal for PPC minority (2.086x exchange ratio)"
         },
         {
           "date": "Pending",
           "event": "PPC special committee to be appointed and retain independent advisers"
         }
       ],
-      "outreach_idea": "Engage Citi (JBS), and track PPC's special committee for a second sell-side mandate. A majority-of-minority take-in runs special-committee, fairness-opinion and proxy workstreams a secure room organizes.",
+      "outreach_idea": "Engage Citi (JBS), and track PPC's special committee for a second sell-side mandate. A majority-of-minority take-in runs special-committee diligence, fairness-opinion and proxy workstreams a secure room organizes to close.",
       "outreach_draft": {
         "subject": "JBS / Pilgrim's Pride — supporting a controlling-shareholder buy-in",
         "body": "Congratulations on Citi's role advising JBS on its proposal for the Pilgrim's Pride minority. Controlling-shareholder take-ins run special-committee, fairness-opinion and majority-of-minority proxy workstreams — would welcome a conversation on secure, auditable data-room access through close.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
@@ -362,9 +359,9 @@
       "published": "2026-08-19",
       "confidence": "Filed",
       "first_seen": "2026-08-19",
-      "last_confirmed": "2026-08-20",
-      "id": "o2",
-      "carry_badge": "Day 2"
+      "last_confirmed": "2026-08-19",
+      "id": "o1",
+      "carry_badge": "NEW"
     },
     {
       "banks": [
@@ -390,7 +387,45 @@
       "published": "2026-08-19",
       "confidence": "Filed",
       "first_seen": "2026-08-19",
-      "last_confirmed": "2026-08-20",
+      "last_confirmed": "2026-08-19",
+      "id": "o2",
+      "carry_badge": "NEW"
+    },
+    {
+      "banks": [
+        "Citi",
+        "Morgan Stanley",
+        "Lazard"
+      ],
+      "sector": "Industrials / Chemicals",
+      "urgency": "HOT",
+      "headline": "Advisers to Huntsman (Citi, Morgan Stanley) and Olin (Lazard) as the all-stock merger hits its Aug 25 votes",
+      "why_it_matters": "Citi and Morgan Stanley advise Huntsman (NYSE: HUN) and Lazard advises Olin (NYSE: OLN) on their all-stock merger, now heading to both companies' special meetings on Aug 25, 2026; a supplemental proxy disclosure was filed to address shareholder litigation. A large chemicals merger runs antitrust, disclosure and dual shareholder-vote workstreams into close.",
+      "deal_clock": [
+        {
+          "date": "Jun 15, 2026",
+          "event": "Olin/Huntsman all-stock merger agreement signed"
+        },
+        {
+          "date": "Aug 17, 2026",
+          "event": "Supplemental proxy disclosure (Rule 425) filed"
+        },
+        {
+          "date": "Aug 25, 2026",
+          "event": "Huntsman and Olin special meetings (shareholder votes)"
+        }
+      ],
+      "outreach_idea": "Engage Citi/Morgan Stanley (Huntsman) and Lazard (Olin) — a chemicals merger at its shareholder vote runs antitrust and proxy-disclosure diligence a secure room keeps organized through close.",
+      "outreach_draft": {
+        "subject": "Huntsman / Olin — supporting an all-stock chemicals merger into its vote",
+        "body": "Congratulations on your role advising on the Huntsman/Olin merger as it heads to its Aug 25 votes. All-stock chemicals combinations run antitrust, disclosure and dual shareholder-vote workstreams — happy to discuss secure, auditable room access across both sides through close.\n\nBest,\n[Your Name]\nIntralinks · SS&C Technologies"
+      },
+      "source": "SEC EDGAR — Olin/Huntsman Form 425 (supplemental disclosure)",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1307954/000119312526354377/d273642d425.htm",
+      "published": "2026-08-18",
+      "confidence": "Filed",
+      "first_seen": "2026-08-18",
+      "last_confirmed": "2026-08-19",
       "id": "o3",
       "carry_badge": "Day 2"
     },
@@ -402,7 +437,7 @@
       "sector": "Healthcare / Biopharma",
       "urgency": "HOT",
       "headline": "Advisers to BioMarin and Alesta on the up-to-$490M ALE1 acquisition",
-      "why_it_matters": "Morgan Stanley is exclusive financial adviser to BioMarin (Nasdaq: BMRN) and J.P. Morgan to Alesta Therapeutics on BioMarin's acquisition of Alesta for $275M upfront plus up to $215M in milestones ($490M total), gaining oral HPP candidate ALE1. A milestone-structured biopharma acquisition runs IP, milestone-structuring and integration workstreams.",
+      "why_it_matters": "Morgan Stanley is exclusive financial adviser to BioMarin (Nasdaq: BMRN) and J.P. Morgan is exclusive financial adviser to Alesta Therapeutics on BioMarin's acquisition of Alesta for $275M upfront plus up to $215M in milestones ($490M total), gaining oral HPP candidate ALE1. A milestone-structured biopharma acquisition runs IP, milestone-structuring and integration workstreams.",
       "deal_clock": [
         {
           "date": "Aug 18, 2026",
@@ -419,9 +454,9 @@
       "published": "2026-08-18",
       "confidence": "Filed",
       "first_seen": "2026-08-18",
-      "last_confirmed": "2026-08-20",
+      "last_confirmed": "2026-08-19",
       "id": "o4",
-      "carry_badge": "Day 3"
+      "carry_badge": "Day 2"
     },
     {
       "banks": [
@@ -451,9 +486,9 @@
       "published": "2026-08-17",
       "confidence": "Filed",
       "first_seen": "2026-08-17",
-      "last_confirmed": "2026-08-20",
+      "last_confirmed": "2026-08-19",
       "id": "o5",
-      "carry_badge": "Day 4"
+      "carry_badge": "Day 3"
     },
     {
       "banks": [
@@ -484,9 +519,9 @@
       "published": "2026-08-13",
       "confidence": "Filed",
       "first_seen": "2026-08-17",
-      "last_confirmed": "2026-08-20",
+      "last_confirmed": "2026-08-19",
       "id": "o6",
-      "carry_badge": "Day 4"
+      "carry_badge": "Day 3"
     },
     {
       "banks": [
@@ -516,9 +551,9 @@
       "published": "2026-08-17",
       "confidence": "Filed",
       "first_seen": "2026-08-17",
-      "last_confirmed": "2026-08-20",
+      "last_confirmed": "2026-08-19",
       "id": "o7",
-      "carry_badge": "Day 4"
+      "carry_badge": "Day 3"
     },
     {
       "banks": [
@@ -546,104 +581,104 @@
       "first_seen": "2026-08-17",
       "last_confirmed": "2026-08-17",
       "id": "o8",
-      "carry_badge": "Day 4"
+      "carry_badge": "Day 3"
     }
   ],
   "market_snapshot": {
     "indices": [
       {
         "label": "S&P 500",
-        "value": "7,684.38",
-        "change": "-23.60 (-0.31%)",
-        "positive": false
+        "value": "7,736.33",
+        "change": "+44.57 (+0.58%)",
+        "positive": true
       },
       {
         "label": "Nasdaq Composite",
-        "value": "26,123.74",
-        "change": "-207.35 (-0.79%)",
-        "positive": false
+        "value": "26,406.19",
+        "change": "+116.48 (+0.44%)",
+        "positive": true
       },
       {
         "label": "Dow Jones",
-        "value": "53,133.13",
-        "change": "-329.92 (-0.62%)",
-        "positive": false
+        "value": "53,631.23",
+        "change": "+287.83 (+0.54%)",
+        "positive": true
       },
       {
         "label": "CBOE VIX",
-        "value": "15.58",
-        "change": "+0.69 (+4.63%)",
-        "positive": false
+        "value": "15.12",
+        "change": "-0.72 (-4.55%)",
+        "positive": true
       },
       {
         "label": "10Y Treasury",
-        "value": "4.68%",
-        "change": "+0.03 (+0.58%)",
-        "positive": false
+        "value": "4.65%",
+        "change": "-0.06 (-1.21%)",
+        "positive": true
       }
     ],
     "bank_stocks": [
       {
         "ticker": "GS",
-        "price": "$1,015.29",
-        "change": "-0.62%",
+        "price": "$1,022.85",
+        "change": "-1.69%",
         "positive": false
       },
       {
         "ticker": "MS",
-        "price": "$212.25",
-        "change": "-0.92%",
+        "price": "$215.82",
+        "change": "-0.79%",
         "positive": false
       },
       {
         "ticker": "JPM",
-        "price": "$356.45",
-        "change": "-0.23%",
+        "price": "$359.12",
+        "change": "-1.14%",
         "positive": false
       },
       {
         "ticker": "EVR",
-        "price": "$291.91",
-        "change": "-2.17%",
-        "positive": false
+        "price": "$305.86",
+        "change": "+2.41%",
+        "positive": true
       },
       {
         "ticker": "LAZ",
-        "price": "$44.30",
-        "change": "-2.00%",
-        "positive": false
+        "price": "$46.02",
+        "change": "+4.45%",
+        "positive": true
       },
       {
         "ticker": "JEF",
-        "price": "$53.20",
-        "change": "-0.66%",
-        "positive": false
+        "price": "$54.18",
+        "change": "+0.63%",
+        "positive": true
       }
     ],
-    "macro_note": "A risk-off turn midday Aug 20: the S&P 500 fell -0.31% (~7,684), the Nasdaq -0.79% (~26,124) and the Dow -0.62% (~53,133), with the VIX up ~4.6% to ~15.6 and the 10Y at ~4.68%. The advisory boutiques that rallied Tuesday reversed — Lazard -2.0%, Evercore -2.2% — while the universals were mixed (JPMorgan -0.2%, Goldman -0.6%, Morgan Stanley -0.9%). Values are live Aug 20 intraday (~mid-session) levels."
+    "macro_note": "A risk-on rebound midday Aug 19: the S&P 500 rose +0.58% (~7,736), the Nasdaq +0.44% (~26,406) and the Dow +0.54% (~53,631), with the VIX unwinding ~4.6% back to ~15.1 and the 10Y easing to ~4.65%. The bank tape split hard, though: bulge-bracket universals lagged — Goldman -1.7%, JPMorgan -1.1%, Morgan Stanley -0.8% — while the pure-play advisers rallied, Lazard +4.5% and Evercore +2.4% (Jefferies +0.6%). Values are live Aug 19 intraday (~mid-session) levels."
   },
   "talking_point": {
-    "quote": "Quiet day for new signings — which puts the spotlight on the calendar. Huntsman/Olin goes to its shareholder votes Monday, Aug 25 (Citi, Morgan Stanley, Lazard), and yesterday's mandates are live: Citi on JBS's Pilgrim's Pride buy-in and Jefferies on Weave's $7.40/share take-private. Meanwhile the boutique bid round-tripped in two sessions. When the tape is noisy and the pipeline is vote-driven, the conversation that matters is execution timelines — which of your live processes has the nearest vote or diligence milestone?",
-    "use_with": "Industrials/chemicals, consumer, TMT, healthcare and FIG coverage teams (esp. Citi, Morgan Stanley, Lazard, Jefferies, Guggenheim, Barclays, BofA, Piper Sandler)",
-    "context": "Anchors a quiet new-deal day on the live vote/close calendar rather than the daily tape — a reason-to-call built on milestones already on the board.",
+    "quote": "Two fresh mandates landed Wednesday from opposite ends of the Street — Citi on JBS's move to buy in the Pilgrim's Pride minority, and Jefferies on Weave's $7.40/share take-private by Francisco Partners — while Huntsman/Olin counts down to its Aug 25 votes (Citi, Morgan Stanley, Lazard). And the market is paying up for advisory: on an up day, Lazard rose ~4.5% and Evercore ~2.4% even as Goldman and JPMorgan slipped. Which of your live processes has the nearest diligence or vote milestone this week?",
+    "use_with": "Consumer, TMT, industrials/chemicals, healthcare and FIG coverage teams — and elite-boutique desks (Citi, Jefferies, Morgan Stanley, Lazard, Evercore, Guggenheim, Barclays, BofA, Piper Sandler)",
+    "context": "Pairs two same-day signings with a boutique-led bank tape — a way to keep the conversation on execution timelines and secure room readiness rather than the daily index move.",
     "confidence": "Filed"
   },
   "sector_heat": {
     "ranked": [
       {
-        "sector": "Industrials / Chemicals",
-        "read": "Huntsman/Olin all-stock merger reaches its Aug 25 shareholder votes (Citi + Morgan Stanley for Huntsman; Lazard for Olin).",
-        "source_note": "SEC EDGAR, Aug 18 2026"
-      },
-      {
         "sector": "Consumer / Food",
-        "read": "JBS's proposal to buy in the ~18% Pilgrim's Pride minority stays live at a 2.086x exchange (~$28.50/share); Citi advises JBS.",
+        "read": "JBS proposes to buy in the ~18% Pilgrim's Pride minority at a 2.086x exchange (~$28.50/share); Citi advises JBS, PPC special committee to hire its own adviser.",
         "source_note": "SEC EDGAR, Aug 19 2026"
       },
       {
         "sector": "Technology / Software",
-        "read": "Francisco Partners' $7.40/share take-private of Weave Communications (~$650M) stays live; Jefferies advises Weave.",
+        "read": "Francisco Partners to take Weave Communications private at $7.40/share (~$650M); Jefferies advises Weave.",
         "source_note": "SEC EDGAR, Aug 19 2026"
+      },
+      {
+        "sector": "Industrials / Chemicals",
+        "read": "Huntsman/Olin all-stock merger heads to Aug 25 shareholder votes (Citi + Morgan Stanley for Huntsman; Lazard for Olin).",
+        "source_note": "SEC EDGAR, Aug 18 2026"
       },
       {
         "sector": "Healthcare / Biopharma",
@@ -663,22 +698,12 @@
     "situations_to_watch": []
   },
   "skeptics_corner": {
-    "note": "Unconfirmed leads — rumored deals and situations where no adviser is named yet. Real reporting, but treat as speculative: chase them, don't quote them on a call.",
+    "note": "Unconfirmed leads — rumored deals and situations where no adviser is named yet (or advisers are unconfirmed). Real reporting, but treat as speculative: chase them, don't quote them on a call.",
     "items": [
-      {
-        "company": "Workday (Nasdaq: WDAY)",
-        "bank": "unconfirmed",
-        "lead": "Silver Lake is reportedly in talks to take Workday private at roughly $43B; the report sent Workday shares up ~20% before a trading halt.",
-        "why_unverified": "Press-reported (Reuters exclusive, corroborated across Axios, CNBC, Barron's), not company-confirmed and no adviser named yet. A mega-cap software take-private that will mandate multiple advisers — an early, high-value tech reach-out signal.",
-        "sector": "Technology / Software",
-        "source_note": "Reuters / Axios / The Next Web, ~Aug 13-15 2026",
-        "source_url": "https://finance.yahoo.com/quote/WDAY/",
-        "confidence": "Speculative"
-      },
       {
         "company": "Karyopharm Therapeutics (Nasdaq: KPTI)",
         "bank": "Centerview Partners",
-        "lead": "Karyopharm disclosed (8-K, Aug 13) that it, 'together with its financial advisor Centerview Partners and other advisors, is actively evaluating a range of financing opportunities and strategic alternatives,' with cash runway only into September 2026 and going-concern doubt.",
+        "lead": "Karyopharm disclosed (8-K, Aug 13) that it, 'together with its financial advisor Centerview Partners and other advisors, is actively evaluating a range of financing opportunities and strategic alternatives,' with cash runway only into September 2026 and stated going-concern doubt.",
         "why_unverified": "Company-disclosed review confirmed in a primary 8-K with a covered adviser (Centerview) already engaged — but no transaction, buyer, price or timeline, and it is distress-driven. A named-adviser early signal, not a mandate: reach out early, don't quote a deal.",
         "sector": "Healthcare / Biotech",
         "source_note": "SEC EDGAR — Karyopharm 8-K (EX-99.1), Aug 13 2026",
@@ -689,7 +714,7 @@
         "company": "Leslie's, Inc. (Nasdaq: LESL)",
         "bank": "unconfirmed",
         "lead": "Leslie's said it 'has begun exploring strategic alternatives with certain of our financial stakeholders,' which CEO Jason McDonell noted 'may include but are not limited to a deleveraging transaction, potentially combined with one or more financing transactions' (8-K, Aug 12).",
-        "why_unverified": "Company-confirmed review in a primary filing, but no adviser named and it is leverage/balance-sheet-driven (the pool-supplies retailer carries a stockholders' deficit). A consumer/retail reach-out signal.",
+        "why_unverified": "Company-confirmed review in a primary filing, but no adviser named and it is leverage/balance-sheet-driven (the pool-supplies retailer carries a stockholders' deficit). A consumer/retail reach-out signal — chase early.",
         "sector": "Consumer / Retail",
         "source_note": "SEC EDGAR — Leslie's 8-K (EX-99.1), Aug 12 2026",
         "source_url": "https://www.sec.gov/Archives/edgar/data/1821806/000119312526346961/lesl-ex99_1.htm",
@@ -699,7 +724,7 @@
         "company": "Seritage Growth Properties (NYSE: SRG)",
         "bank": "unconfirmed",
         "lead": "Seritage said 'the strategic review process remains ongoing as the Company executes the Plan of Sale, and the Company remains open-minded to pursuing value-maximizing alternatives, including a potential sale of the Company' (8-K, Aug 14).",
-        "why_unverified": "Company-confirmed in a primary filing, but no adviser named and it is a wind-down/Plan-of-Sale context. A real-estate reach-out signal.",
+        "why_unverified": "Company-confirmed in a primary filing, but no adviser named in the release and it is a wind-down/Plan-of-Sale context. A real-estate reach-out signal — chase early.",
         "sector": "Real Estate / REIT",
         "source_note": "SEC EDGAR — Seritage Growth Properties 8-K (EX-99.1), Aug 14 2026",
         "source_url": "https://www.sec.gov/Archives/edgar/data/1628063/000119312526352377/srg-ex99_1.htm",
@@ -708,7 +733,7 @@
       {
         "company": "PayPal Holdings (Nasdaq: PYPL)",
         "bank": "unconfirmed",
-        "lead": "PayPal is reportedly in talks to sell itself to a consortium including Stripe and private-equity firm Advent, with reports the discussions are 'heating up.'",
+        "lead": "PayPal is reportedly in talks to sell itself to a consortium including Stripe and private-equity firm Advent, with reports that the discussions are 'heating up.'",
         "why_unverified": "Press-reported (WSJ scoop, relayed across multiple outlets), not company-confirmed and no adviser named; a very large-cap situation that may already be widely known. Verify against the primary WSJ report before quoting.",
         "sector": "Financials / Fintech",
         "source_note": "WSJ (via MSN/Moomoo), ~Aug 14-15 2026",
@@ -724,70 +749,18 @@
         "source_note": "EnergyNow / Reuters, Aug 18 2026",
         "source_url": "https://energynow.ca/",
         "confidence": "Speculative"
+      },
+      {
+        "company": "Zevia (NYSE: ZVIA)",
+        "bank": "unconfirmed",
+        "lead": "Activist Kanen Wealth Management is publicly urging Zevia to sell the business, escalating from an Aug 14 strategic-review call to an Aug 17 call for the board to sell.",
+        "why_unverified": "Press-reported activist pressure (multi-day, multi-outlet), not company-confirmed; no adviser named. An early consumer/beverage reach-out signal.",
+        "sector": "Consumer / Beverages",
+        "source_note": "Just-Drinks / Yahoo Finance, Aug 14-17 2026",
+        "source_url": "https://finance.yahoo.com/quote/ZVIA/",
+        "confidence": "Speculative"
       }
     ]
   },
-  "archive": [
-    {
-      "date": "2026-08-19",
-      "edition": 29,
-      "file": "2026-08-19.json"
-    },
-    {
-      "date": "2026-08-18",
-      "edition": 28,
-      "file": "2026-08-18.json"
-    },
-    {
-      "date": "2026-08-17",
-      "edition": 27,
-      "file": "2026-08-17.json"
-    },
-    {
-      "date": "2026-08-13",
-      "edition": 26,
-      "file": "2026-08-13.json"
-    },
-    {
-      "date": "2026-08-12",
-      "edition": 25,
-      "file": "2026-08-12.json"
-    },
-    {
-      "date": "2026-08-11",
-      "edition": 24,
-      "file": "2026-08-11.json"
-    },
-    {
-      "date": "2026-08-07",
-      "edition": 23,
-      "file": "2026-08-07.json"
-    },
-    {
-      "date": "2026-08-06",
-      "edition": 22,
-      "file": "2026-08-06.json"
-    },
-    {
-      "date": "2026-08-05",
-      "edition": 21,
-      "file": "2026-08-05.json"
-    },
-    {
-      "date": "2026-08-04",
-      "edition": 20,
-      "file": "2026-08-04.json"
-    },
-    {
-      "date": "2026-08-03",
-      "edition": 19,
-      "file": "2026-08-03.json"
-    },
-    {
-      "date": "2026-07-31",
-      "edition": 18,
-      "file": "2026-07-31.json"
-    }
-  ],
-  "edition": 30
+  "edition": 29
 }
